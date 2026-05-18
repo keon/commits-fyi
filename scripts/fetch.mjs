@@ -19,7 +19,8 @@ const CITIES_DIR = join(DATA_DIR, 'cities');
 const CACHE_DIR = join(DATA_DIR, '_cache');
 const CACHE_FILE = join(CACHE_DIR, 'users.json');
 const CACHE_TTL_MS = 3 * 24 * 60 * 60 * 1000; // 3 days
-const REPOS_PER_USER = 100;  // max per GraphQL request; ensures total_stars covers the long tail
+const REPOS_PER_USER = 30;  // cap chosen to keep cache file under GitHub's 100MB blob limit
+const CACHE_VERSION = 2;    // bump to force re-hydration when payload shape changes
 
 const CITIES = [
   'New York', 'San Francisco', 'Seattle', 'Austin', 'Toronto',
@@ -264,10 +265,13 @@ async function hydrateOneViaGraphQL(login) {
 
   // Approximate totalStars from the top REPOS_PER_USER (sorted desc).
   // For users whose top repo dominates (Pareto), this is essentially exact.
+  // Stripped to the minimum fields the leaderboard renders, since this list
+  // is cached for thousands of users and the cache file has a 100MB GitHub
+  // blob limit. Trending uses a separate live query, not these cached repos.
   const repos = (reposNode.nodes || []).map(r => ({
     full_name: r.nameWithOwner,
     html_url: r.url,
-    description: r.description ? r.description.slice(0, 200) : null,
+    description: r.description ? r.description.slice(0, 140) : null,
     stargazers_count: r.stargazerCount || 0,
     forks_count: r.forkCount || 0,
     language: r.primaryLanguage?.name || null,
@@ -275,8 +279,6 @@ async function hydrateOneViaGraphQL(login) {
     owner_avatar_url: owner.avatarUrl,
     owner_type: acct.type,
     fork: false,
-    created_at: r.createdAt,
-    pushed_at: r.pushedAt,
   }));
   const totalStars = repos.reduce((s, r) => s + r.stargazers_count, 0);
   return { acct, repos, totalStars };
@@ -290,6 +292,10 @@ async function loadCache() {
   if (!existsSync(CACHE_FILE)) { console.log('Cache: cold start (no file).'); return; }
   try {
     const raw = JSON.parse(await readFile(CACHE_FILE, 'utf8'));
+    if ((raw.version || 1) !== CACHE_VERSION) {
+      console.log(`Cache: version ${raw.version || 1} ≠ ${CACHE_VERSION}, ignoring (cold start).`);
+      return;
+    }
     for (const [login, entry] of Object.entries(raw.entries || {})) {
       _cache.entries.set(login.toLowerCase(), entry);
     }
@@ -322,7 +328,7 @@ async function saveCache() {
   for (const [k, e] of _cache.entries) {
     if (new Date(e.fetched_at).getTime() < cutoff) { _cache.entries.delete(k); pruned++; }
   }
-  const out = { version: 1, updated_at: new Date().toISOString(), entries: Object.fromEntries(_cache.entries) };
+  const out = { version: CACHE_VERSION, updated_at: new Date().toISOString(), entries: Object.fromEntries(_cache.entries) };
   await writeFile(CACHE_FILE, JSON.stringify(out));
   console.log(`Cache: saved ${_cache.entries.size} entries (hits=${_cache.hits} misses=${_cache.misses} written=${_cache.written} pruned=${pruned})`);
 }
