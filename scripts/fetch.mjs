@@ -16,6 +16,10 @@ const ROOT = join(__dirname, '..');
 const DATA_DIR = join(ROOT, 'data');
 const COUNTRIES_DIR = join(DATA_DIR, 'countries');
 const CITIES_DIR = join(DATA_DIR, 'cities');
+const CACHE_DIR = join(DATA_DIR, '_cache');
+const CACHE_FILE = join(CACHE_DIR, 'users.json');
+const CACHE_TTL_MS = 3 * 24 * 60 * 60 * 1000; // 3 days
+const REPOS_PER_USER = 30;
 
 const CITIES = [
   'New York', 'San Francisco', 'Seattle', 'Austin', 'Toronto',
@@ -132,12 +136,183 @@ async function searchRepos(qStr, count, { sort = 'stars' } = {}) {
   return out.slice(0, count);
 }
 
-async function fetchAccountDetails(login) {
-  return gh(`/users/${encodeURIComponent(login)}`);
+// ----- GraphQL: hydrate a user/org + their top repos in ONE call -----
+
+async function ghGraphQL(query, variables = {}, { retry = 3 } = {}) {
+  for (let attempt = 0; attempt < retry; attempt++) {
+    const res = await fetch('https://api.github.com/graphql', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/vnd.github+json',
+        'Authorization': `Bearer ${TOKEN}`,
+        'User-Agent': 'commits-fyi-fetcher',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ query, variables }),
+    });
+    if (res.status === 403 || res.status === 429) {
+      const reset = parseInt(res.headers.get('x-ratelimit-reset') || '0', 10) * 1000;
+      const waitMs = Math.max(2000, reset - Date.now() + 1000);
+      console.warn(`GraphQL rate-limited. Waiting ${Math.round(waitMs/1000)}s…`);
+      if (waitMs > 60 * 60 * 1000) throw new Error('GraphQL rate-limit reset >60min away.');
+      await new Promise(r => setTimeout(r, waitMs));
+      continue;
+    }
+    if (res.status >= 500 && attempt < retry - 1) {
+      await new Promise(r => setTimeout(r, 1000 * (attempt + 1)));
+      continue;
+    }
+    if (!res.ok) {
+      const body = await res.text().catch(() => '');
+      throw new Error(`GraphQL ${res.status}: ${body.slice(0, 200)}`);
+    }
+    const json = await res.json();
+    if (json.errors) {
+      const msg = json.errors.map(e => e.message).join('; ');
+      // Common: user account suspended / not found. Treat as null result.
+      if (/Could not resolve to|not exist|suspended/i.test(msg)) return { data: { repositoryOwner: null } };
+      throw new Error(`GraphQL errors: ${msg}`);
+    }
+    return json;
+  }
+  throw new Error(`GraphQL failed after ${retry} retries`);
 }
 
-async function fetchTopRepos(login) {
-  return (await gh(`/users/${encodeURIComponent(login)}/repos?per_page=100&type=owner&sort=updated`)) || [];
+const HYDRATE_QUERY = `
+query($login: String!, $first: Int!) {
+  repositoryOwner(login: $login) {
+    __typename
+    login
+    avatarUrl(size: 88)
+    url
+    ... on User {
+      name
+      bio
+      company
+      location
+      followers { totalCount }
+      following { totalCount }
+      repositories(first: $first, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
+        totalCount
+        nodes {
+          nameWithOwner
+          url
+          description
+          stargazerCount
+          forkCount
+          primaryLanguage { name }
+          createdAt
+          pushedAt
+        }
+      }
+    }
+    ... on Organization {
+      name
+      description
+      location
+      followers: membersWithRole { totalCount }
+      repositories(first: $first, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
+        totalCount
+        nodes {
+          nameWithOwner
+          url
+          description
+          stargazerCount
+          forkCount
+          primaryLanguage { name }
+          createdAt
+          pushedAt
+        }
+      }
+    }
+  }
+  rateLimit { remaining resetAt }
+}`;
+
+async function hydrateOneViaGraphQL(login) {
+  const { data } = await ghGraphQL(HYDRATE_QUERY, { login, first: REPOS_PER_USER });
+  const owner = data?.repositoryOwner;
+  if (!owner) return null;
+  const reposNode = owner.repositories || { totalCount: 0, nodes: [] };
+  const isUser = owner.__typename === 'User';
+
+  const acct = {
+    login: owner.login,
+    type: isUser ? 'User' : 'Organization',
+    avatar_url: owner.avatarUrl,
+    html_url: owner.url,
+    name: owner.name || null,
+    bio: isUser ? (owner.bio || null) : (owner.description || null),
+    company: isUser ? (owner.company || null) : null,
+    location: owner.location || null,
+    followers: owner.followers?.totalCount || 0,
+    following: isUser ? (owner.following?.totalCount || 0) : 0,
+    public_repos: reposNode.totalCount || 0,
+  };
+
+  // Approximate totalStars from the top REPOS_PER_USER (sorted desc).
+  // For users whose top repo dominates (Pareto), this is essentially exact.
+  const repos = (reposNode.nodes || []).map(r => ({
+    full_name: r.nameWithOwner,
+    html_url: r.url,
+    description: r.description ? r.description.slice(0, 200) : null,
+    stargazers_count: r.stargazerCount || 0,
+    forks_count: r.forkCount || 0,
+    language: r.primaryLanguage?.name || null,
+    owner_login: owner.login,
+    owner_avatar_url: owner.avatarUrl,
+    owner_type: acct.type,
+    fork: false,
+    created_at: r.createdAt,
+    pushed_at: r.pushedAt,
+  }));
+  const totalStars = repos.reduce((s, r) => s + r.stargazers_count, 0);
+  return { acct, repos, totalStars };
+}
+
+// ----- Per-user cache: avoid re-hydrating accounts that haven't aged out -----
+
+const _cache = { entries: new Map(), hits: 0, misses: 0, written: 0 };
+
+async function loadCache() {
+  if (!existsSync(CACHE_FILE)) { console.log('Cache: cold start (no file).'); return; }
+  try {
+    const raw = JSON.parse(await readFile(CACHE_FILE, 'utf8'));
+    for (const [login, entry] of Object.entries(raw.entries || {})) {
+      _cache.entries.set(login.toLowerCase(), entry);
+    }
+    console.log(`Cache: loaded ${_cache.entries.size} entries from ${CACHE_FILE}`);
+  } catch (e) {
+    console.warn('Cache: failed to load:', e.message);
+  }
+}
+
+function cacheGet(login) {
+  const key = login.toLowerCase();
+  const e = _cache.entries.get(key);
+  if (!e) return null;
+  if (Date.now() - new Date(e.fetched_at).getTime() > CACHE_TTL_MS) return null;
+  _cache.hits++;
+  return e.payload;
+}
+
+function cachePut(login, payload) {
+  const key = login.toLowerCase();
+  _cache.entries.set(key, { fetched_at: new Date().toISOString(), payload });
+  _cache.written++;
+}
+
+async function saveCache() {
+  if (!existsSync(CACHE_DIR)) await mkdir(CACHE_DIR, { recursive: true });
+  // Prune entries older than 30 days so the file doesn't grow forever.
+  const cutoff = Date.now() - 30 * 24 * 60 * 60 * 1000;
+  let pruned = 0;
+  for (const [k, e] of _cache.entries) {
+    if (new Date(e.fetched_at).getTime() < cutoff) { _cache.entries.delete(k); pruned++; }
+  }
+  const out = { version: 1, updated_at: new Date().toISOString(), entries: Object.fromEntries(_cache.entries) };
+  await writeFile(CACHE_FILE, JSON.stringify(out));
+  console.log(`Cache: saved ${_cache.entries.size} entries (hits=${_cache.hits} misses=${_cache.misses} written=${_cache.written} pruned=${pruned})`);
 }
 
 function compactAccount(a, totalStars) {
@@ -174,15 +349,22 @@ function compactRepo(r) {
 }
 
 async function hydrateAndRank(searchResults) {
-  const hydrated = await pmap(searchResults, CONCURRENCY, async (a) => {
-    const d = await fetchAccountDetails(a.login);
-    return { ...a, ...d };
-  });
-  const enriched = await pmap(hydrated.filter(Boolean), CONCURRENCY, async (a) => {
-    const repos = await fetchTopRepos(a.login);
-    const ownRepos = repos.filter(r => !r.fork);
-    const totalStars = ownRepos.reduce((s, r) => s + (r.stargazers_count || 0), 0);
-    return { acct: a, repos: ownRepos, totalStars };
+  // Dedupe by login first (case-insensitive). Pages overlap; pool + search overlap.
+  const uniq = new Map();
+  for (const a of searchResults) {
+    if (!a?.login) continue;
+    const key = a.login.toLowerCase();
+    if (!uniq.has(key)) uniq.set(key, a);
+  }
+  const candidates = Array.from(uniq.values());
+
+  const enriched = await pmap(candidates, CONCURRENCY, async (a) => {
+    const cached = cacheGet(a.login);
+    if (cached) return cached;
+    _cache.misses++;
+    const fresh = await hydrateOneViaGraphQL(a.login);
+    if (fresh) cachePut(a.login, fresh);
+    return fresh;
   });
   return enriched.filter(Boolean);
 }
@@ -612,6 +794,8 @@ async function main() {
 
   if (!existsSync(DATA_DIR)) await mkdir(DATA_DIR, { recursive: true });
 
+  await loadCache();
+
   // Shared owner pool: discovered from top-starred repos. Reused across global
   // and every city/country to catch high-star/low-follower accounts.
   let ownerPool = [];
@@ -633,6 +817,7 @@ async function main() {
   }
 
   await rebuildIndex();
+  await saveCache();
   console.log('\nDone.');
 }
 
