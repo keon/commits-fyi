@@ -210,7 +210,7 @@ query($login: String!, $first: Int!) {
       name
       description
       location
-      followers: membersWithRole { totalCount }
+      websiteUrl
       repositories(first: $first, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
         totalCount
         nodes {
@@ -236,6 +236,18 @@ async function hydrateOneViaGraphQL(login) {
   const reposNode = owner.repositories || { totalCount: 0, nodes: [] };
   const isUser = owner.__typename === 'User';
 
+  // GraphQL Organization has no followers field (and membersWithRole requires
+  // admin:org). For orgs, hit REST /users/<login> to get the real followers.
+  let orgFollowers = 0;
+  if (!isUser) {
+    try {
+      const restOrg = await gh(`/users/${encodeURIComponent(login)}`);
+      orgFollowers = restOrg?.followers || 0;
+    } catch (e) {
+      // Suspended/removed org — leave 0
+    }
+  }
+
   const acct = {
     login: owner.login,
     type: isUser ? 'User' : 'Organization',
@@ -245,7 +257,7 @@ async function hydrateOneViaGraphQL(login) {
     bio: isUser ? (owner.bio || null) : (owner.description || null),
     company: isUser ? (owner.company || null) : null,
     location: owner.location || null,
-    followers: owner.followers?.totalCount || 0,
+    followers: isUser ? (owner.followers?.totalCount || 0) : orgFollowers,
     following: isUser ? (owner.following?.totalCount || 0) : 0,
     public_repos: reposNode.totalCount || 0,
   };

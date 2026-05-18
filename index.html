@@ -906,13 +906,10 @@
         { key: 'forks_count', label: 'Forks', sortable: true, num: true },
       ];
     }
-    // For orgs the "followers" field is actually membersWithRole.totalCount
-    // (GraphQL Organization type has no followers field). Label accordingly.
-    const followersLabel = tab === 'orgs' ? 'Members' : 'Followers';
     return [
-      { key: 'total_stars',  label: 'Total stars',  sortable: true, num: true },
-      { key: 'followers',    label: followersLabel, sortable: true, num: true },
-      { key: 'public_repos', label: 'Repos',        sortable: true, num: true },
+      { key: 'total_stars',  label: 'Total stars', sortable: true, num: true },
+      { key: 'followers',    label: 'Followers',   sortable: true, num: true },
+      { key: 'public_repos', label: 'Repos',       sortable: true, num: true },
     ];
   }
 
