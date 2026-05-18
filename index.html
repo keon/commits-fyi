@@ -96,12 +96,28 @@
     padding: 28px 24px;
   }
   nav.sidebar { display: none; }
-  .mobile-nav { display: block; margin-bottom: 20px; max-width: 320px; }
+  .view-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .view-picker label {
+    color: var(--text-muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+  }
+  .view-picker select {
+    flex: 1;
+    max-width: 280px;
+  }
   .controls-row #filter { display: none; }
   @media (max-width: 880px) {
     .layout { grid-template-columns: 1fr; padding: 16px; gap: 12px; }
     nav.sidebar { display: none; }
-    .mobile-nav { display: block !important; }
+    .view-picker { display: flex !important; }
     header.site .header-right { font-size: 11px; gap: 10px; }
     header.site .brand small { display: none; }
     .site-inner { padding: 10px 14px; }
@@ -168,23 +184,27 @@
     }
     .lang-tag { display: none; } /* save space on mobile */
   }
-  .mobile-nav { display: none; }
-  .mobile-nav select {
+  .view-picker select {
     width: 100%;
     background: var(--bg);
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 8px 10px;
+    padding: 8px 12px;
     border-radius: 6px;
     font-size: 14px;
     font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
     appearance: none;
     -webkit-appearance: none;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16' fill='%2359636e'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
     background-repeat: no-repeat;
     background-position: right 10px center;
-    padding-right: 30px;
+    padding-right: 32px;
+    transition: border-color 0.1s;
   }
+  .view-picker select:hover { border-color: var(--text-muted); }
+  .view-picker select:focus { outline: none; border-color: var(--text); }
 
   /* Sidebar */
   nav.sidebar {
@@ -635,7 +655,8 @@
 <div class="layout">
   <nav class="sidebar" id="sidebar"></nav>
   <main class="content">
-    <div class="mobile-nav">
+    <div class="view-picker">
+      <label for="mobile-nav-select">Showing</label>
       <select id="mobile-nav-select" aria-label="Choose view"></select>
     </div>
     <div class="page-header">
