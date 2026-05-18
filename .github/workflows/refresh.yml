@@ -76,6 +76,9 @@ jobs:
           rm -rf ../cache-wt 2>/dev/null || true
           git worktree add --detach ../cache-wt
           cd ../cache-wt
+          # The restore step earlier did `git fetch origin data-cache:data-cache`
+          # so there's a local branch by that name; delete it so --orphan can claim it.
+          git branch -D data-cache 2>/dev/null || true
           git checkout --orphan data-cache
           git rm -rf . > /dev/null 2>&1 || true
           mkdir -p data/_cache
