@@ -325,44 +325,56 @@
   table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: auto;
   }
+  /* Single source of truth for column alignment: same horizontal padding on
+     th and td so headers sit exactly above their cell content. */
   th, td {
     text-align: left;
-    padding: 12px 8px;
+    padding: 12px 12px;
+    vertical-align: middle;
     border-bottom: 1px solid var(--border-muted);
   }
+  th:first-child, td:first-child { padding-left: 4px; }
+  th:last-child,  td:last-child  { padding-right: 4px; }
   th {
     font-weight: 500;
     color: var(--text-muted);
     font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.5px;
     cursor: pointer;
     user-select: none;
     white-space: nowrap;
     border-bottom: 1px solid var(--border);
     padding-top: 10px;
     padding-bottom: 10px;
+    transition: color 0.1s;
   }
   th.sortable:hover { color: var(--text); }
-  th .arrow { color: var(--text-muted); margin-left: 3px; font-size: 9px; }
-  th.sortable[data-sort] { transition: color 0.1s; }
+  th .arrow { color: var(--text); margin-left: 4px; font-size: 9px; vertical-align: middle; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover td { background: var(--bg-subtle); }
-  td.rank {
+  /* Rank column: narrow, muted, tabular */
+  th.rank, td.rank {
+    width: 48px;
     color: var(--text-muted);
-    width: 40px;
     font-variant-numeric: tabular-nums;
-    font-size: 13px;
-    padding-left: 4px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 8px;
   }
-  td.num {
+  /* Numeric columns: right-aligned, tabular, fixed width so all columns line up */
+  th.num, td.num {
     text-align: right;
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
-    font-size: 13px;
+    width: 110px;
+  }
+  td.num {
+    font-size: 14px;
     color: var(--text);
-    padding-right: 8px;
+    font-weight: 500;
   }
   .ent {
     display: flex;
