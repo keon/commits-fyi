@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-05-18T08:32:21.894Z",
+  "generated_at": "2026-05-18T08:55:07.785Z",
   "counts": {
     "users": 50,
     "orgs": 30,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 131808,
-    "org_followers": 30146,
+    "org_followers": 30152,
     "user_stars": 422134,
-    "org_stars": 365494
+    "org_stars": 365495
   },
   "queries": [
     {
@@ -343,7 +343,7 @@
       "html_url": "https://github.com/adamstac",
       "followers": 877,
       "following": 104,
-      "public_repos": 112,
+      "public_repos": 113,
       "location": "Austin, TX",
       "bio": "Founder & Editor-in-Chief of Changelog.com",
       "company": "@thechangelog",
@@ -694,7 +694,7 @@
       "name": "Cloudflare",
       "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "html_url": "https://github.com/cloudflare",
-      "followers": 13405,
+      "followers": 13411,
       "following": 0,
       "public_repos": 561,
       "location": "San Francisco, London, Austin, Lisbon, Singapore",
@@ -765,7 +765,7 @@
       "location": "Austin, TX",
       "bio": null,
       "company": null,
-      "total_stars": 7155
+      "total_stars": 7156
     },
     {
       "login": "Embarcadero",
@@ -1359,7 +1359,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2025-01-29T23:14:04Z",
-      "pushed_at": "2026-05-17T20:33:13Z"
+      "pushed_at": "2026-05-18T08:39:16Z"
     },
     {
       "full_name": "oracle/opengrok",
@@ -1492,14 +1492,14 @@
       "html_url": "https://github.com/cloudflare/workers-sdk",
       "description": "⛅️ Home to Wrangler, the CLI for Cloudflare Workers®",
       "stargazers_count": 4071,
-      "forks_count": 1261,
+      "forks_count": 1262,
       "watchers_count": 4071,
       "language": "TypeScript",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2021-11-10T14:45:40Z",
-      "pushed_at": "2026-05-18T08:31:56Z"
+      "pushed_at": "2026-05-18T08:34:06Z"
     },
     {
       "full_name": "cloudflare/miniflare",
@@ -1519,9 +1519,9 @@
       "full_name": "theori-io/copy-fail-CVE-2026-31431",
       "html_url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
       "description": "Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code",
-      "stargazers_count": 3832,
+      "stargazers_count": 3833,
       "forks_count": 850,
-      "watchers_count": 3832,
+      "watchers_count": 3833,
       "language": "Python",
       "owner_login": "theori-io",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/18063559?v=4",
@@ -1632,7 +1632,7 @@
       "html_url": "https://github.com/cloudflare/agentic-inbox",
       "description": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers",
       "stargazers_count": 3039,
-      "forks_count": 402,
+      "forks_count": 403,
       "watchers_count": 3039,
       "language": "TypeScript",
       "owner_login": "cloudflare",

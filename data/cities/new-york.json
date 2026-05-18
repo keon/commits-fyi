@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-05-18T08:31:47.188Z",
+  "generated_at": "2026-05-18T08:54:32.587Z",
   "counts": {
-    "users": 50,
-    "orgs": 31,
+    "users": 51,
+    "orgs": 33,
     "repos": 50
   },
   "totals": {
-    "user_followers": 329726,
-    "org_followers": 51960,
-    "user_stars": 870776,
-    "org_stars": 733646
+    "user_followers": 346052,
+    "org_followers": 116446,
+    "user_stars": 974296,
+    "org_stars": 1410704
   },
   "queries": [
     {
@@ -38,6 +38,19 @@
   ],
   "users": [
     {
+      "login": "spf13",
+      "name": "Steve Francia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173412?v=4",
+      "html_url": "https://github.com/spf13",
+      "followers": 16325,
+      "following": 85,
+      "public_repos": 115,
+      "location": "NYC",
+      "bio": "Always learning • Led @golang @Google,  MD @twosigma, VP @MongoDB & @Docker, @Drupal board • @gohugoio, Cobra & spf13-vim creator",
+      "company": null,
+      "total_stars": 103520
+    },
+    {
       "login": "virattt",
       "name": "Virat Singh",
       "avatar_url": "https://avatars.githubusercontent.com/u/901795?v=4",
@@ -48,7 +61,7 @@
       "location": "New York, NY",
       "bio": "Building 🎧",
       "company": null,
-      "total_stars": 88427
+      "total_stars": 88426
     },
     {
       "login": "jaredpalmer",
@@ -113,7 +126,7 @@
       "location": "New York",
       "bio": "Scaling teams, product and tech at a stealth startup",
       "company": null,
-      "total_stars": 61011
+      "total_stars": 61012
     },
     {
       "login": "keon",
@@ -121,12 +134,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/10793962?v=4",
       "html_url": "https://github.com/keon",
       "followers": 3053,
-      "following": 384,
+      "following": 385,
       "public_repos": 155,
       "location": "New York City",
       "bio": "Co-founder @ Om Labs,\r\nex-Uber\r\n\r\n#rai-verify-2026 ",
       "company": "Om Labs",
-      "total_stars": 50630
+      "total_stars": 50631
     },
     {
       "login": "acdlite",
@@ -321,7 +334,7 @@
       "location": "New York",
       "bio": "Software Engineer at Microsoft. ",
       "company": "Microsoft",
-      "total_stars": 10235
+      "total_stars": 10234
     },
     {
       "login": "Marak",
@@ -601,7 +614,7 @@
       "name": "Gazi",
       "avatar_url": "https://avatars.githubusercontent.com/u/32211479?v=4",
       "html_url": "https://github.com/gazijarin",
-      "followers": 5138,
+      "followers": 5139,
       "following": 5,
       "public_repos": 19,
       "location": "New York City",
@@ -690,6 +703,19 @@
   ],
   "orgs": [
     {
+      "login": "huggingface",
+      "name": "Hugging Face",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "html_url": "https://github.com/huggingface",
+      "followers": 63533,
+      "following": 0,
+      "public_repos": 423,
+      "location": "NYC + Paris",
+      "bio": "The AI community building the future.",
+      "company": null,
+      "total_stars": 641497
+    },
+    {
       "login": "papers-we-love",
       "name": "Papers We Love",
       "avatar_url": "https://avatars.githubusercontent.com/u/6187757?v=4",
@@ -700,7 +726,7 @@
       "location": "New York, NY",
       "bio": "A repository for good papers to read, PWL chapters, and PWL content. ",
       "company": null,
-      "total_stars": 107139
+      "total_stars": 107140
     },
     {
       "login": "daytonaio",
@@ -713,7 +739,7 @@
       "location": "New York",
       "bio": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code.",
       "company": null,
-      "total_stars": 73476
+      "total_stars": 73477
     },
     {
       "login": "Semantic-Org",
@@ -794,6 +820,19 @@
       "total_stars": 37150
     },
     {
+      "login": "directus",
+      "name": "Directus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15967950?v=4",
+      "html_url": "https://github.com/directus",
+      "followers": 953,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Brooklyn, NY",
+      "bio": "An instant no-code App and dynamic API for any SQL database.",
+      "company": null,
+      "total_stars": 36974
+    },
+    {
       "login": "adafruit",
       "name": "Adafruit Industries",
       "avatar_url": "https://avatars.githubusercontent.com/u/181069?v=4",
@@ -804,7 +843,7 @@
       "location": "New york city",
       "bio": null,
       "company": null,
-      "total_stars": 32422
+      "total_stars": 31007
     },
     {
       "login": "DataDog",
@@ -830,7 +869,7 @@
       "location": "408 Broadway, New York, NY 10013",
       "bio": null,
       "company": null,
-      "total_stars": 27691
+      "total_stars": 27692
     },
     {
       "login": "crytic",
@@ -908,7 +947,7 @@
       "location": "New York",
       "bio": "Source code for books published by Apress. For more information go to www.apress.com/source-code.",
       "company": null,
-      "total_stars": 9379
+      "total_stars": 9378
     },
     {
       "login": "ProjectOpenSea",
@@ -1095,12 +1134,26 @@
   ],
   "repos": [
     {
+      "full_name": "huggingface/transformers",
+      "html_url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "stargazers_count": 160712,
+      "forks_count": 33244,
+      "watchers_count": 160712,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2018-10-29T13:56:00Z",
+      "pushed_at": "2026-05-18T08:16:46Z"
+    },
+    {
       "full_name": "papers-we-love/papers-we-love",
       "html_url": "https://github.com/papers-we-love/papers-we-love",
       "description": "Papers from the computer science community to read and discuss.",
-      "stargazers_count": 106270,
+      "stargazers_count": 106271,
       "forks_count": 6353,
-      "watchers_count": 106270,
+      "watchers_count": 106271,
       "language": "Shell",
       "owner_login": "papers-we-love",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6187757?v=4",
@@ -1112,15 +1165,15 @@
       "full_name": "daytonaio/daytona",
       "html_url": "https://github.com/daytonaio/daytona",
       "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
-      "stargazers_count": 72427,
+      "stargazers_count": 72428,
       "forks_count": 5571,
-      "watchers_count": 72427,
+      "watchers_count": 72428,
       "language": "TypeScript",
       "owner_login": "daytonaio",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/130513197?v=4",
       "owner_type": "Organization",
       "created_at": "2024-02-06T08:21:20Z",
-      "pushed_at": "2026-05-18T07:51:04Z"
+      "pushed_at": "2026-05-18T08:47:22Z"
     },
     {
       "full_name": "kdn251/interviews",
@@ -1168,15 +1221,57 @@
       "full_name": "charlax/professional-programming",
       "html_url": "https://github.com/charlax/professional-programming",
       "description": "A collection of learning resources for curious software engineers",
-      "stargazers_count": 50942,
+      "stargazers_count": 50943,
       "forks_count": 3983,
-      "watchers_count": 50942,
+      "watchers_count": 50943,
       "language": "Python",
       "owner_login": "charlax",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/120501?v=4",
       "owner_type": "User",
       "created_at": "2015-11-07T05:07:52Z",
       "pushed_at": "2026-05-14T14:14:35Z"
+    },
+    {
+      "full_name": "spf13/cobra",
+      "html_url": "https://github.com/spf13/cobra",
+      "description": "A Commander for modern Go CLI interactions",
+      "stargazers_count": 43952,
+      "forks_count": 3145,
+      "watchers_count": 43952,
+      "language": "Go",
+      "owner_login": "spf13",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/173412?v=4",
+      "owner_type": "User",
+      "created_at": "2013-09-03T20:40:26Z",
+      "pushed_at": "2026-04-25T23:07:41Z"
+    },
+    {
+      "full_name": "huggingface/pytorch-image-models",
+      "html_url": "https://github.com/huggingface/pytorch-image-models",
+      "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT)",
+      "stargazers_count": 36816,
+      "forks_count": 5163,
+      "watchers_count": 36816,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2019-02-02T05:51:12Z",
+      "pushed_at": "2026-05-08T20:06:58Z"
+    },
+    {
+      "full_name": "directus/directus",
+      "html_url": "https://github.com/directus/directus",
+      "description": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+      "stargazers_count": 35731,
+      "forks_count": 4768,
+      "watchers_count": 35731,
+      "language": "TypeScript",
+      "owner_login": "directus",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/15967950?v=4",
+      "owner_type": "Organization",
+      "created_at": "2012-12-12T01:35:36Z",
+      "pushed_at": "2026-05-18T08:43:08Z"
     },
     {
       "full_name": "jaredpalmer/formik",
@@ -1193,6 +1288,34 @@
       "pushed_at": "2025-11-10T17:02:06Z"
     },
     {
+      "full_name": "huggingface/diffusers",
+      "html_url": "https://github.com/huggingface/diffusers",
+      "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
+      "stargazers_count": 33644,
+      "forks_count": 6991,
+      "watchers_count": 33644,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2022-05-30T16:04:02Z",
+      "pushed_at": "2026-05-18T08:19:29Z"
+    },
+    {
+      "full_name": "spf13/viper",
+      "html_url": "https://github.com/spf13/viper",
+      "description": "Go configuration with fangs",
+      "stargazers_count": 30267,
+      "forks_count": 2102,
+      "watchers_count": 30267,
+      "language": "Go",
+      "owner_login": "spf13",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/173412?v=4",
+      "owner_type": "User",
+      "created_at": "2014-04-02T14:33:33Z",
+      "pushed_at": "2026-01-12T21:42:47Z"
+    },
+    {
       "full_name": "trailofbits/algo",
       "html_url": "https://github.com/trailofbits/algo",
       "description": "Set up a personal VPN in the cloud",
@@ -1205,6 +1328,34 @@
       "owner_type": "Organization",
       "created_at": "2016-05-15T03:42:48Z",
       "pushed_at": "2026-05-13T11:00:12Z"
+    },
+    {
+      "full_name": "huggingface/agents-course",
+      "html_url": "https://github.com/huggingface/agents-course",
+      "description": "This repository contains the Hugging Face Agents Course. ",
+      "stargazers_count": 28701,
+      "forks_count": 2063,
+      "watchers_count": 28701,
+      "language": "MDX",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2025-01-16T19:50:22Z",
+      "pushed_at": "2026-04-27T08:01:55Z"
+    },
+    {
+      "full_name": "huggingface/smolagents",
+      "html_url": "https://github.com/huggingface/smolagents",
+      "description": "🤗 smolagents: a barebones library for agents that think in code.",
+      "stargazers_count": 27366,
+      "forks_count": 2589,
+      "watchers_count": 27366,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2024-12-05T11:28:04Z",
+      "pushed_at": "2026-05-14T13:10:29Z"
     },
     {
       "full_name": "bvaughn/react-virtualized",
@@ -1221,12 +1372,26 @@
       "pushed_at": "2025-01-20T21:42:24Z"
     },
     {
+      "full_name": "huggingface/open-r1",
+      "html_url": "https://github.com/huggingface/open-r1",
+      "description": "Fully open reproduction of DeepSeek-R1",
+      "stargazers_count": 26017,
+      "forks_count": 2418,
+      "watchers_count": 26017,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2025-01-24T15:44:11Z",
+      "pushed_at": "2026-04-02T14:03:15Z"
+    },
+    {
       "full_name": "virattt/dexter",
       "html_url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
-      "stargazers_count": 25824,
-      "forks_count": 3158,
-      "watchers_count": 25824,
+      "stargazers_count": 25823,
+      "forks_count": 3157,
+      "watchers_count": 25823,
       "language": "TypeScript",
       "owner_login": "virattt",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/901795?v=4",
@@ -1249,6 +1414,20 @@
       "pushed_at": "2026-05-18T04:22:55Z"
     },
     {
+      "full_name": "huggingface/lerobot",
+      "html_url": "https://github.com/huggingface/lerobot",
+      "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
+      "stargazers_count": 24104,
+      "forks_count": 4562,
+      "watchers_count": 24104,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2024-01-26T15:50:41Z",
+      "pushed_at": "2026-05-18T08:47:33Z"
+    },
+    {
       "full_name": "processing/p5.js",
       "html_url": "https://github.com/processing/p5.js",
       "description": "p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processin",
@@ -1261,6 +1440,48 @@
       "owner_type": "Organization",
       "created_at": "2013-02-26T03:14:47Z",
       "pushed_at": "2026-05-16T06:30:58Z"
+    },
+    {
+      "full_name": "huggingface/datasets",
+      "html_url": "https://github.com/huggingface/datasets",
+      "description": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+      "stargazers_count": 21520,
+      "forks_count": 3204,
+      "watchers_count": 21520,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2020-03-26T09:23:22Z",
+      "pushed_at": "2026-05-15T11:09:46Z"
+    },
+    {
+      "full_name": "huggingface/peft",
+      "html_url": "https://github.com/huggingface/peft",
+      "description": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning.",
+      "stargazers_count": 21138,
+      "forks_count": 2297,
+      "watchers_count": 21138,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2022-11-25T03:51:09Z",
+      "pushed_at": "2026-05-13T11:47:38Z"
+    },
+    {
+      "full_name": "huggingface/candle",
+      "html_url": "https://github.com/huggingface/candle",
+      "description": "Minimalist ML framework for Rust",
+      "stargazers_count": 20286,
+      "forks_count": 1572,
+      "watchers_count": 20286,
+      "language": "Rust",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2023-06-19T16:06:31Z",
+      "pushed_at": "2026-05-16T11:04:37Z"
     },
     {
       "full_name": "AI4Finance-Foundation/FinGPT",
@@ -1277,6 +1498,20 @@
       "pushed_at": "2026-05-11T07:48:37Z"
     },
     {
+      "full_name": "huggingface/sentence-transformers",
+      "html_url": "https://github.com/huggingface/sentence-transformers",
+      "description": "State-of-the-Art Embeddings, Retrieval, and Reranking",
+      "stargazers_count": 18676,
+      "forks_count": 2789,
+      "watchers_count": 18676,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2019-07-24T10:53:51Z",
+      "pushed_at": "2026-05-15T11:09:45Z"
+    },
+    {
       "full_name": "keon/awesome-nlp",
       "html_url": "https://github.com/keon/awesome-nlp",
       "description": ":book: A curated list of resources dedicated to Natural Language Processing (NLP)",
@@ -1291,6 +1526,20 @@
       "pushed_at": "2026-05-11T19:15:42Z"
     },
     {
+      "full_name": "huggingface/trl",
+      "html_url": "https://github.com/huggingface/trl",
+      "description": "Train transformer language models with reinforcement learning.",
+      "stargazers_count": 18400,
+      "forks_count": 2724,
+      "watchers_count": 18400,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2020-03-27T10:54:55Z",
+      "pushed_at": "2026-05-18T07:38:47Z"
+    },
+    {
       "full_name": "bvaughn/react-window",
       "html_url": "https://github.com/bvaughn/react-window",
       "description": "React components for efficiently rendering large lists and tabular data",
@@ -1303,6 +1552,34 @@
       "owner_type": "User",
       "created_at": "2018-05-07T14:45:51Z",
       "pushed_at": "2026-04-12T20:54:17Z"
+    },
+    {
+      "full_name": "huggingface/transformers.js",
+      "html_url": "https://github.com/huggingface/transformers.js",
+      "description": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
+      "stargazers_count": 16010,
+      "forks_count": 1142,
+      "watchers_count": 16010,
+      "language": "JavaScript",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2023-02-13T13:51:45Z",
+      "pushed_at": "2026-05-18T01:56:12Z"
+    },
+    {
+      "full_name": "spf13/spf13-vim",
+      "html_url": "https://github.com/spf13/spf13-vim",
+      "description": "The ultimate vim distribution",
+      "stargazers_count": 15512,
+      "forks_count": 3548,
+      "watchers_count": 15512,
+      "language": "VimL",
+      "owner_login": "spf13",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/173412?v=4",
+      "owner_type": "User",
+      "created_at": "2010-04-20T16:20:16Z",
+      "pushed_at": "2023-11-04T13:49:54Z"
     },
     {
       "full_name": "AI4Finance-Foundation/FinRL",
@@ -1501,6 +1778,48 @@
       "pushed_at": "2021-09-19T14:04:18Z"
     },
     {
+      "full_name": "huggingface/text-generation-inference",
+      "html_url": "https://github.com/huggingface/text-generation-inference",
+      "description": "Large Language Model Text Generation Inference",
+      "stargazers_count": 10853,
+      "forks_count": 1271,
+      "watchers_count": 10853,
+      "language": "Python",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2022-10-08T10:26:28Z",
+      "pushed_at": "2026-03-21T11:34:22Z"
+    },
+    {
+      "full_name": "huggingface/tokenizers",
+      "html_url": "https://github.com/huggingface/tokenizers",
+      "description": "💥 Fast State-of-the-Art Tokenizers optimized for Research and Production",
+      "stargazers_count": 10744,
+      "forks_count": 1097,
+      "watchers_count": 10744,
+      "language": "Rust",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2019-11-01T17:52:20Z",
+      "pushed_at": "2026-05-14T06:42:24Z"
+    },
+    {
+      "full_name": "huggingface/chat-ui",
+      "html_url": "https://github.com/huggingface/chat-ui",
+      "description": "The open source codebase powering HuggingChat",
+      "stargazers_count": 10713,
+      "forks_count": 1643,
+      "watchers_count": 10713,
+      "language": "TypeScript",
+      "owner_login": "huggingface",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "owner_type": "Organization",
+      "created_at": "2023-02-17T15:31:50Z",
+      "pushed_at": "2026-05-14T21:41:38Z"
+    },
+    {
       "full_name": "Nutlope/roomGPT",
       "html_url": "https://github.com/Nutlope/roomGPT",
       "description": "Upload a photo of your room to generate your dream room with AI.",
@@ -1513,286 +1832,6 @@
       "owner_type": "User",
       "created_at": "2023-02-21T19:54:43Z",
       "pushed_at": "2024-04-20T12:17:17Z"
-    },
-    {
-      "full_name": "wix/react-native-calendars",
-      "html_url": "https://github.com/wix/react-native-calendars",
-      "description": "React Native Calendar Components 🗓️ 📆 ",
-      "stargazers_count": 10283,
-      "forks_count": 3077,
-      "watchers_count": 10283,
-      "language": "TypeScript",
-      "owner_login": "wix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
-      "owner_type": "Organization",
-      "created_at": "2016-11-11T12:17:27Z",
-      "pushed_at": "2026-04-23T05:51:55Z"
-    },
-    {
-      "full_name": "keybase/client",
-      "html_url": "https://github.com/keybase/client",
-      "description": "Keybase Go Library, Client, Service, OS X, iOS, Android, Electron",
-      "stargazers_count": 9209,
-      "forks_count": 1285,
-      "watchers_count": 9209,
-      "language": "Go",
-      "owner_login": "keybase",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5400834?v=4",
-      "owner_type": "Organization",
-      "created_at": "2015-01-11T17:17:12Z",
-      "pushed_at": "2026-05-17T20:14:21Z"
-    },
-    {
-      "full_name": "Nutlope/aicommits",
-      "html_url": "https://github.com/Nutlope/aicommits",
-      "description": "A CLI that writes your git commit messages for you with AI",
-      "stargazers_count": 8981,
-      "forks_count": 466,
-      "watchers_count": 8981,
-      "language": "TypeScript",
-      "owner_login": "Nutlope",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/63742054?v=4",
-      "owner_type": "User",
-      "created_at": "2023-02-14T01:23:13Z",
-      "pushed_at": "2026-05-16T12:43:53Z"
-    },
-    {
-      "full_name": "charlax/engineering-management",
-      "html_url": "https://github.com/charlax/engineering-management",
-      "description": "A collection of inspiring resources related to engineering management and tech leadership",
-      "stargazers_count": 8286,
-      "forks_count": 681,
-      "watchers_count": 8286,
-      "language": "Shell",
-      "owner_login": "charlax",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/120501?v=4",
-      "owner_type": "User",
-      "created_at": "2016-03-17T10:29:40Z",
-      "pushed_at": "2026-04-02T03:06:51Z"
-    },
-    {
-      "full_name": "harthur/brain",
-      "html_url": "https://github.com/harthur/brain",
-      "description": "Simple feed-forward neural network in JavaScript",
-      "stargazers_count": 7995,
-      "forks_count": 851,
-      "watchers_count": 7995,
-      "language": "JavaScript",
-      "owner_login": "harthur",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/140420?v=4",
-      "owner_type": "User",
-      "created_at": "2010-05-10T06:36:21Z",
-      "pushed_at": "2020-09-03T20:20:29Z"
-    },
-    {
-      "full_name": "bvaughn/react-error-boundary",
-      "html_url": "https://github.com/bvaughn/react-error-boundary",
-      "description": "Simple reusable React error boundary component",
-      "stargazers_count": 7935,
-      "forks_count": 223,
-      "watchers_count": 7935,
-      "language": "TypeScript",
-      "owner_login": "bvaughn",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/29597?v=4",
-      "owner_type": "User",
-      "created_at": "2017-07-18T06:16:45Z",
-      "pushed_at": "2026-04-03T17:52:33Z"
-    },
-    {
-      "full_name": "ekzhang/sshx",
-      "html_url": "https://github.com/ekzhang/sshx",
-      "description": "Fast, collaborative live terminal sharing over the web",
-      "stargazers_count": 7480,
-      "forks_count": 286,
-      "watchers_count": 7480,
-      "language": "Rust",
-      "owner_login": "ekzhang",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7550632?v=4",
-      "owner_type": "User",
-      "created_at": "2022-02-12T23:29:33Z",
-      "pushed_at": "2025-06-19T14:09:18Z"
-    },
-    {
-      "full_name": "wix/react-native-ui-lib",
-      "html_url": "https://github.com/wix/react-native-ui-lib",
-      "description": "UI Components Library for React Native",
-      "stargazers_count": 7135,
-      "forks_count": 752,
-      "watchers_count": 7135,
-      "language": "TypeScript",
-      "owner_login": "wix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
-      "owner_type": "Organization",
-      "created_at": "2017-02-08T09:55:18Z",
-      "pushed_at": "2026-05-17T13:19:37Z"
-    },
-    {
-      "full_name": "Nutlope/logocreator",
-      "html_url": "https://github.com/Nutlope/logocreator",
-      "description": "A free + OSS logo generator powered by Flux on Together AI",
-      "stargazers_count": 6998,
-      "forks_count": 678,
-      "watchers_count": 6998,
-      "language": "TypeScript",
-      "owner_login": "Nutlope",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/63742054?v=4",
-      "owner_type": "User",
-      "created_at": "2024-11-06T03:55:48Z",
-      "pushed_at": "2025-12-12T15:54:12Z"
-    },
-    {
-      "full_name": "AI4Finance-Foundation/FinRobot",
-      "html_url": "https://github.com/AI4Finance-Foundation/FinRobot",
-      "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 ",
-      "stargazers_count": 6985,
-      "forks_count": 1180,
-      "watchers_count": 6985,
-      "language": "Jupyter Notebook",
-      "owner_login": "AI4Finance-Foundation",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/68813910?v=4",
-      "owner_type": "Organization",
-      "created_at": "2024-02-27T02:30:30Z",
-      "pushed_at": "2026-05-10T17:01:37Z"
-    },
-    {
-      "full_name": "nytimes/covid-19-data",
-      "html_url": "https://github.com/nytimes/covid-19-data",
-      "description": "A repository of data on coronavirus cases and deaths in the U.S.",
-      "stargazers_count": 6977,
-      "forks_count": 3398,
-      "watchers_count": 6977,
-      "language": null,
-      "owner_login": "nytimes",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/221409?v=4",
-      "owner_type": "Organization",
-      "created_at": "2020-03-24T23:41:39Z",
-      "pushed_at": "2024-04-02T16:00:09Z"
-    },
-    {
-      "full_name": "Nutlope/llamacoder",
-      "html_url": "https://github.com/Nutlope/llamacoder",
-      "description": "Open source Claude Artifacts – built with Llama 3.1 405B",
-      "stargazers_count": 6932,
-      "forks_count": 1646,
-      "watchers_count": 6932,
-      "language": "TypeScript",
-      "owner_login": "Nutlope",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/63742054?v=4",
-      "owner_type": "User",
-      "created_at": "2024-07-25T05:01:54Z",
-      "pushed_at": "2026-05-08T13:10:58Z"
-    },
-    {
-      "full_name": "Atcold/NYU-DLSP20",
-      "html_url": "https://github.com/Atcold/NYU-DLSP20",
-      "description": "NYU Deep Learning Spring 2020",
-      "stargazers_count": 6807,
-      "forks_count": 2233,
-      "watchers_count": 6807,
-      "language": "Jupyter Notebook",
-      "owner_login": "Atcold",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2119355?v=4",
-      "owner_type": "User",
-      "created_at": "2018-07-09T11:40:25Z",
-      "pushed_at": "2025-06-16T19:16:24Z"
-    },
-    {
-      "full_name": "StackExchange/blackbox",
-      "html_url": "https://github.com/StackExchange/blackbox",
-      "description": "Safely store secrets in Git/Mercurial/Subversion",
-      "stargazers_count": 6769,
-      "forks_count": 386,
-      "watchers_count": 6769,
-      "language": "Go",
-      "owner_login": "StackExchange",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1393171?v=4",
-      "owner_type": "Organization",
-      "created_at": "2014-04-06T17:53:02Z",
-      "pushed_at": "2025-11-05T15:44:20Z"
-    },
-    {
-      "full_name": "tholman/elevator.js",
-      "html_url": "https://github.com/tholman/elevator.js",
-      "description": "Finally, a \"back to top\" button that behaves like a real elevator. ",
-      "stargazers_count": 6637,
-      "forks_count": 494,
-      "watchers_count": 6637,
-      "language": "JavaScript",
-      "owner_login": "tholman",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/794999?v=4",
-      "owner_type": "User",
-      "created_at": "2015-04-12T15:21:40Z",
-      "pushed_at": "2020-06-26T15:20:00Z"
-    },
-    {
-      "full_name": "romannurik/AndroidAssetStudio",
-      "html_url": "https://github.com/romannurik/AndroidAssetStudio",
-      "description": "A set of web-based tools for generating graphics and other assets that would eventually be in an Android application's res/ directory.",
-      "stargazers_count": 6584,
-      "forks_count": 1361,
-      "watchers_count": 6584,
-      "language": "JavaScript",
-      "owner_login": "romannurik",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/100155?v=4",
-      "owner_type": "User",
-      "created_at": "2014-05-19T14:02:00Z",
-      "pushed_at": "2024-05-21T23:53:57Z"
-    },
-    {
-      "full_name": "processing/processing",
-      "html_url": "https://github.com/processing/processing",
-      "description": "⚠️ Processing moved to processing/processing4 ⚠️",
-      "stargazers_count": 6489,
-      "forks_count": 1477,
-      "watchers_count": 6489,
-      "language": "Java",
-      "owner_login": "processing",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1617169?v=4",
-      "owner_type": "Organization",
-      "created_at": "2013-01-24T21:17:22Z",
-      "pushed_at": "2025-05-18T21:02:16Z"
-    },
-    {
-      "full_name": "crytic/slither",
-      "html_url": "https://github.com/crytic/slither",
-      "description": "Static Analyzer for Solidity and Vyper",
-      "stargazers_count": 6251,
-      "forks_count": 1104,
-      "watchers_count": 6251,
-      "language": "Python",
-      "owner_login": "crytic",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/48330002?v=4",
-      "owner_type": "Organization",
-      "created_at": "2018-09-05T21:56:35Z",
-      "pushed_at": "2026-05-13T22:56:07Z"
-    },
-    {
-      "full_name": "StackExchange/StackExchange.Redis",
-      "html_url": "https://github.com/StackExchange/StackExchange.Redis",
-      "description": "General purpose redis client",
-      "stargazers_count": 6153,
-      "forks_count": 1550,
-      "watchers_count": 6153,
-      "language": "C#",
-      "owner_login": "StackExchange",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1393171?v=4",
-      "owner_type": "Organization",
-      "created_at": "2014-03-14T14:09:26Z",
-      "pushed_at": "2026-05-15T15:34:38Z"
-    },
-    {
-      "full_name": "ed-donner/llm_engineering",
-      "html_url": "https://github.com/ed-donner/llm_engineering",
-      "description": "Repo to accompany my mastering LLM engineering course",
-      "stargazers_count": 6089,
-      "forks_count": 5850,
-      "watchers_count": 6089,
-      "language": "Jupyter Notebook",
-      "owner_login": "ed-donner",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/96339824?v=4",
-      "owner_type": "User",
-      "created_at": "2024-08-31T23:24:51Z",
-      "pushed_at": "2026-05-16T16:05:15Z"
     }
   ]
 }

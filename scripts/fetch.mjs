@@ -32,8 +32,8 @@ const COUNTRIES = [
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
 if (!TOKEN) { console.error('Set GH_TOKEN or GITHUB_TOKEN.'); process.exit(1); }
 
-const LOC_USERS = 50;
-const LOC_ORGS = 30;
+const LOC_USERS = 150;  // top N by followers across all location aliases
+const LOC_ORGS = 80;
 const GLOBAL_USERS = 100;
 const GLOBAL_ORGS = 50;
 const TOP_REPOS = 50;
@@ -58,7 +58,7 @@ async function gh(path, { retry = 3 } = {}) {
       const waitMs = Math.max(2000, reset - Date.now() + 1000);
       const remaining = res.headers.get('x-ratelimit-remaining');
       console.warn(`Rate-limited (remaining=${remaining}). Waiting ${Math.round(waitMs/1000)}s…`);
-      if (waitMs > 15 * 60 * 1000) throw new Error('Rate-limit reset >15min away, aborting.');
+      if (waitMs > 60 * 60 * 1000) throw new Error('Rate-limit reset >60min away, aborting.');
       await new Promise(r => setTimeout(r, waitMs));
       continue;
     }
@@ -235,21 +235,108 @@ async function buildOwnerPool() {
   return enriched;
 }
 
+// Curated aliases so high-star/low-follower accounts get pulled into the right
+// city/country bucket even when their self-reported location uses a city name,
+// state abbreviation, native script, etc.
+const LOCATION_ALIASES = {
+  // Countries
+  'United States': [
+    'united states', 'usa', 'u.s.a', 'u.s.', ' us ', 'america',
+    'new york', 'nyc', 'brooklyn', 'manhattan', 'queens', 'bronx',
+    'san francisco', 'bay area', 'silicon valley', 'palo alto', 'menlo park',
+    'mountain view', 'sunnyvale', 'cupertino', 'oakland', 'berkeley',
+    'seattle', 'redmond', 'bellevue', 'austin', 'boston', 'cambridge, ma',
+    'chicago', 'los angeles', 'san diego', 'portland', 'denver', 'atlanta',
+    'miami', 'houston', 'dallas', 'philadelphia', 'pittsburgh', 'minneapolis',
+    'washington, dc', 'washington dc', 'd.c.', 'detroit', 'salt lake', 'phoenix',
+    ', ca', ', ny', ', wa', ', tx', ', il', ', ma', ', co', ', or', ', ga',
+    ', fl', ', pa', ', mi', ', oh', ', nc', ', va', ', md', ', dc', ', nj',
+    ', az', ', mn', ', wi', ', in', ', tn', ', sc', ', ky', ', ct', ', mo',
+    ', nv', ', ut',
+  ],
+  'United Kingdom': ['united kingdom', 'uk', 'u.k.', 'england', 'britain', 'great britain',
+    'london', 'manchester', 'edinburgh', 'glasgow', 'bristol', 'cambridge, uk',
+    'oxford', 'birmingham', 'leeds', 'liverpool', 'scotland', 'wales',
+    'northern ireland', 'belfast', 'cardiff'],
+  'Germany': ['germany', 'deutschland', ', de', 'berlin', 'munich', 'münchen', 'hamburg',
+    'frankfurt', 'cologne', 'köln', 'stuttgart', 'düsseldorf', 'leipzig', 'dresden',
+    'bonn', 'karlsruhe', 'nuremberg', 'nürnberg', 'bremen', 'hannover'],
+  'France': ['france', 'paris', 'lyon', 'marseille', 'toulouse', 'bordeaux', 'nantes',
+    'strasbourg', 'nice', 'lille', 'rennes'],
+  'Netherlands': ['netherlands', 'holland', 'amsterdam', 'utrecht', 'rotterdam',
+    'eindhoven', 'the hague', "'s-hertogenbosch", 'groningen', 'leiden', 'delft'],
+  'China': ['china', '中国', 'beijing', '北京', 'shanghai', '上海', 'shenzhen', '深圳',
+    'guangzhou', '广州', 'hangzhou', '杭州', 'chengdu', '成都', 'wuhan', 'xi\'an',
+    'nanjing', 'tianjin', 'chongqing'],
+  'India': ['india', 'bharat', 'bangalore', 'bengaluru', 'mumbai', 'bombay', 'delhi',
+    'new delhi', 'hyderabad', 'pune', 'chennai', 'kolkata', 'ahmedabad', 'noida',
+    'gurgaon', 'gurugram'],
+  'Japan': ['japan', '日本', 'tokyo', '東京', 'osaka', '大阪', 'kyoto', '京都',
+    'yokohama', '横浜', 'fukuoka', '福岡', 'nagoya', '名古屋', 'sapporo'],
+  'South Korea': ['korea', 'south korea', '한국', '대한민국', 'seoul', '서울',
+    'busan', '부산', 'incheon', '인천', 'daegu'],
+  'Brazil': ['brazil', 'brasil', 'são paulo', 'sao paulo', 'rio de janeiro',
+    'belo horizonte', 'porto alegre', 'curitiba', 'recife', 'salvador',
+    'florianópolis', 'florianopolis', 'brasília', 'brasilia'],
+  'Canada': ['canada', 'toronto', 'vancouver', 'montreal', 'montréal', 'ottawa',
+    'calgary', 'edmonton', 'waterloo', 'quebec', 'québec', 'winnipeg', 'halifax'],
+  'Australia': ['australia', 'sydney', 'melbourne', 'brisbane', 'perth', 'adelaide',
+    'canberra', 'gold coast'],
+
+  // Cities
+  'New York': ['new york', 'nyc', 'new york city', 'brooklyn', 'manhattan', 'queens',
+    'bronx', 'staten island', 'ny, ny', 'new york, ny'],
+  'San Francisco': ['san francisco', ' sf ', 'sf,', 'sf bay', 'bay area',
+    'silicon valley', 'palo alto', 'menlo park', 'mountain view', 'sunnyvale',
+    'cupertino', 'oakland', 'berkeley', 'san francisco bay area'],
+  'Seattle': ['seattle', 'redmond', 'bellevue', 'kirkland', ', wa'],
+  'Austin': ['austin', 'austin, tx', 'austin tx'],
+  'Toronto': ['toronto', 'gta', 'greater toronto'],
+  'London': ['london', 'greater london'],
+  'Berlin': ['berlin'],
+  'Paris': ['paris'],
+  'Amsterdam': ['amsterdam'],
+  'Tel Aviv': ['tel aviv', 'tel-aviv', 'telaviv', 'tlv'],
+  'Tokyo': ['tokyo', '東京'],
+  'Seoul': ['seoul', '서울'],
+  'Singapore': ['singapore'],
+  'Bangalore': ['bangalore', 'bengaluru'],
+  'Sydney': ['sydney'],
+};
+
+function aliasesFor(name) {
+  return LOCATION_ALIASES[name] || [name.toLowerCase()];
+}
+
 function locationMatches(loc, name) {
   if (!loc) return false;
-  return loc.toLowerCase().includes(name.toLowerCase());
+  const lower = ' ' + loc.toLowerCase() + ' '; // pad so " us " word-boundary tokens work
+  return aliasesFor(name).some(a => lower.includes(a));
+}
+
+// Build a GitHub search query of the form
+//   location:"new york" location:nyc location:brooklyn ... type:<type>
+// Repeating `location:` qualifiers in a search query yields OR semantics
+// (verified: `location:tokyo location:paris` total = paris-only + tokyo-only).
+function buildMultiLocationQuery(name, type) {
+  const aliases = aliasesFor(name)
+    .map(a => a.trim())
+    .filter(a => a.length > 2 && !a.startsWith(',')) // skip suffix tokens like ", ca"
+    .slice(0, 14); // keep the query under GitHub's length budget
+  const clauses = aliases.map(a => /\s|[.'"]/.test(a) ? `location:"${a}"` : `location:${a}`);
+  return `${clauses.join(' ')} type:${type}`;
 }
 
 async function buildLocation(name, kind, outDir, ownerPool = []) {
   const slug = slugify(name);
   console.log(`\n=== ${kind}: ${name} (${slug}) ===`);
-  const userQ = `location:"${name}" type:user`;
-  const orgQ  = `location:"${name}" type:org`;
+  const userQ = buildMultiLocationQuery(name, 'user');
+  const orgQ  = buildMultiLocationQuery(name, 'org');
 
-  console.log('Searching users by followers…');
+  console.log('Searching users by followers (multi-location)…');
   const userSearch = await searchUsers(userQ, LOC_USERS);
   console.log(`  found ${userSearch.length}`);
-  console.log('Searching orgs by followers…');
+  console.log('Searching orgs by followers (multi-location)…');
   const orgSearch = await searchUsers(orgQ, LOC_ORGS);
   console.log(`  found ${orgSearch.length}`);
 

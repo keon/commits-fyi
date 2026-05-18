@@ -407,6 +407,120 @@
   }
   .query-row code { color: var(--text); white-space: nowrap; display: block; }
 
+  /* Clickable rows in account tables */
+  tbody tr.clickable { cursor: pointer; }
+  tbody tr.clickable:hover .ent-text a { text-decoration: underline; }
+
+  /* AI-share drawer */
+  .drawer-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(31,35,40,0.3);
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+  }
+  .drawer-backdrop.open { opacity: 1; pointer-events: auto; }
+  .drawer {
+    position: fixed;
+    top: 0; right: 0; bottom: 0;
+    width: 420px;
+    max-width: 95vw;
+    background: var(--bg);
+    border-left: 1px solid var(--border);
+    z-index: 101;
+    transform: translateX(100%);
+    transition: transform 0.18s ease-out;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -8px 0 32px rgba(0,0,0,0.06);
+  }
+  .drawer.open { transform: translateX(0); }
+  .drawer-header {
+    padding: 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .drawer-header .avatar { width: 44px; height: 44px; }
+  .drawer-header .who-text { flex: 1; min-width: 0; }
+  .drawer-header .who-text strong { font-size: 16px; }
+  .drawer-header .who-text .meta { color: var(--text-muted); font-size: 12px; }
+  .drawer-close {
+    background: none; border: none; color: var(--text-muted);
+    font-size: 20px; cursor: pointer; padding: 4px 8px; border-radius: 4px;
+  }
+  .drawer-close:hover { background: var(--bg-subtle); color: var(--text); }
+  .drawer-body {
+    padding: 16px;
+    overflow-y: auto;
+    flex: 1;
+  }
+  .ai-summary {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  .ai-summary-num {
+    font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .ai-summary-label {
+    color: var(--text-muted); font-size: 12px; margin-top: 4px;
+  }
+  .ai-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-muted);
+    font-size: 13px;
+  }
+  .ai-row:last-child { border-bottom: none; }
+  .ai-tool { font-weight: 500; }
+  .ai-count { color: var(--text-muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+  .ai-pct { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 50px; text-align: right; }
+  .ai-pct.zero { color: var(--text-muted); font-weight: 400; }
+  .ai-bar {
+    grid-column: 1 / -1;
+    height: 4px;
+    background: var(--bg-emphasis);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: -4px;
+    margin-bottom: 4px;
+  }
+  .ai-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+  }
+  .drawer-caveat {
+    margin-top: 16px;
+    padding: 12px;
+    background: #fff8c5;
+    border: 1px solid #d4a72c;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #54470b;
+    line-height: 1.5;
+  }
+  .drawer-caveat strong { color: #4d3800; }
+  .drawer-loading, .drawer-error {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 32px 16px;
+    font-size: 13px;
+  }
+  .drawer-error { color: #cf222e; }
+  @media (max-width: 600px) {
+    .drawer { width: 100%; }
+  }
+
   footer.site {
     border-top: 1px solid var(--border);
     margin-top: 48px;
@@ -482,6 +596,12 @@
     </details>
   </main>
 </div>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-header" id="drawer-header"></div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
 
 <footer class="site">
   Data fetched from the public GitHub REST API via a daily cron · static, no tracking ·
@@ -777,7 +897,7 @@
 
   function renderAccountRow(a, i, cols) {
     const isOrg = a.owner_type === 'Organization' || (a._type === 'Organization');
-    return `<tr>
+    return `<tr class="clickable" data-login="${esc(a.login)}" data-type="${isOrg ? 'Organization' : 'User'}" data-avatar="${esc(a.avatar_url)}" data-name="${esc(a.name || '')}" data-html="${esc(a.html_url)}">
       <td class="rank">${i + 1}</td>
       <td>
         <div class="ent">
@@ -926,6 +1046,181 @@
       setStatus(`Could not load ${path} (${e.message}). Has the cron run yet?`, 'error');
     }
   }
+
+  // ----- AI-share drawer -----
+  // GitHub Search Commits API queries: count commits per AI tool by matching
+  // the tool's standard attribution signature. Only counts commits that opt in
+  // to attribution — this is a FLOOR, not a true measure of AI usage.
+  const AI_TOOLS = [
+    { id: 'claude',    name: 'Claude (Claude Code)',  signature: '"noreply@anthropic.com"',
+      desc: 'Co-Authored-By trailer added by Claude Code' },
+    { id: 'cursor',    name: 'Cursor',                signature: '"cursoragent"',
+      desc: 'Cursor agent commit signature' },
+    { id: 'devin',     name: 'Devin',                 signature: '"devin-ai-integration"',
+      desc: 'Devin AI bot account' },
+    { id: 'aider',     name: 'aider',                 signature: '"noreply@aider.chat"',
+      desc: 'aider co-author email' },
+    { id: 'sweep',     name: 'Sweep',                 signature: '"sweep-ai"',
+      desc: 'Sweep AI bot' },
+    { id: 'openhands', name: 'OpenHands',             signature: '"openhands-agent"',
+      desc: 'OpenHands agent commits' },
+    { id: 'copilot',   name: 'GitHub Copilot',        signature: '"Copilot <198982749+Copilot@users.noreply.github.com>"',
+      desc: "Copilot coding-agent commits (Copilot doesn't tag IDE suggestions — this is a floor)" },
+  ];
+
+  const AI_CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
+
+  async function ghSearchCommitsCount(q) {
+    const url = `https://api.github.com/search/commits?q=${encodeURIComponent(q)}&per_page=1`;
+    const res = await fetch(url, {
+      headers: { 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' },
+    });
+    if (res.status === 403 || res.status === 429) {
+      const reset = res.headers.get('x-ratelimit-reset');
+      const err = new Error('Rate-limited by the GitHub Search API. Try again in a minute.');
+      err.rateReset = reset;
+      throw err;
+    }
+    if (res.status === 422) return 0; // invalid query (e.g. user has no commits indexed)
+    if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+    const j = await res.json();
+    return j.total_count || 0;
+  }
+
+  function aiCacheKey(login) { return `aishare:${login.toLowerCase()}`; }
+  function readAiCache(login) {
+    try {
+      const raw = localStorage.getItem(aiCacheKey(login));
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (!obj.ts || Date.now() - obj.ts > AI_CACHE_TTL_MS) return null;
+      return obj.data;
+    } catch { return null; }
+  }
+  function writeAiCache(login, data) {
+    try { localStorage.setItem(aiCacheKey(login), JSON.stringify({ ts: Date.now(), data })); } catch {}
+  }
+
+  async function computeAiShare(login) {
+    const total = await ghSearchCommitsCount(`author:${login}`);
+    const perTool = {};
+    // Run sequentially — search API limits anonymous callers to 10/min.
+    for (const t of AI_TOOLS) {
+      try {
+        const count = await ghSearchCommitsCount(`author:${login} ${t.signature}`);
+        perTool[t.id] = count;
+      } catch (e) {
+        // Bail out on rate-limit; show partial data
+        if (e.rateReset) throw e;
+        perTool[t.id] = 0;
+      }
+    }
+    return { total, perTool, computed_at: Date.now() };
+  }
+
+  const drawer = document.getElementById('drawer');
+  const drawerBackdrop = document.getElementById('drawer-backdrop');
+  const drawerHeader = document.getElementById('drawer-header');
+  const drawerBody = document.getElementById('drawer-body');
+
+  function closeDrawer() {
+    drawer.classList.remove('open');
+    drawerBackdrop.classList.remove('open');
+    drawer.setAttribute('aria-hidden', 'true');
+  }
+  drawerBackdrop.addEventListener('click', closeDrawer);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
+
+  function renderDrawerHeader(user) {
+    const isOrg = user.type === 'Organization';
+    drawerHeader.innerHTML = `
+      <img class="avatar ${isOrg ? 'sq' : ''}" src="${user.avatar}&s=88" alt="" />
+      <div class="who-text">
+        <strong><a href="${user.html}" target="_blank" rel="noopener">${esc(user.login)}</a></strong>
+        ${user.name ? `<div class="meta">${esc(user.name)}</div>` : ''}
+      </div>
+      <button class="drawer-close" aria-label="Close" type="button">✕</button>
+    `;
+    drawerHeader.querySelector('.drawer-close').addEventListener('click', closeDrawer);
+  }
+
+  function renderAiResults(data) {
+    if (data.total === 0) {
+      drawerBody.innerHTML = `
+        <div class="drawer-loading">No authored commits found via the public Search Commits API.</div>
+        <div class="drawer-caveat"><strong>Why?</strong> The Search Commits API only indexes commits on the default branch of public repos. Forks, private work, and merged-but-unauthored commits aren't counted.</div>
+      `;
+      return;
+    }
+    const taggedTotal = Object.values(data.perTool).reduce((s, n) => s + n, 0);
+    const pct = (n) => data.total ? (n / data.total * 100) : 0;
+    const tagPct = pct(taggedTotal);
+    const rows = AI_TOOLS.map(t => {
+      const n = data.perTool[t.id] || 0;
+      const p = pct(n);
+      const cls = n === 0 ? 'zero' : '';
+      return `
+        <div class="ai-row">
+          <div class="ai-tool" title="${esc(t.desc)}">${esc(t.name)}</div>
+          <div class="ai-count">${fmt(n)}</div>
+          <div class="ai-pct ${cls}">${p < 0.01 ? '0%' : p.toFixed(p < 1 ? 2 : 1) + '%'}</div>
+          ${n > 0 ? `<div class="ai-bar"><div class="ai-bar-fill" style="width:${Math.min(p, 100)}%"></div></div>` : ''}
+        </div>
+      `;
+    }).join('');
+    drawerBody.innerHTML = `
+      <div class="ai-summary">
+        <div class="ai-summary-num">${tagPct < 0.01 ? '0%' : tagPct.toFixed(tagPct < 1 ? 2 : 1) + '%'}</div>
+        <div class="ai-summary-label">of ${fmt(data.total)} authored commits have a known AI co-author trailer</div>
+      </div>
+      <div>${rows}</div>
+      <div class="drawer-caveat">
+        <strong>This is a floor, not the truth.</strong> Only commits with an explicit AI attribution
+        (e.g. <code>Co-Authored-By: Claude</code>) are counted. Most AI-assisted code &mdash; especially
+        IDE autocomplete like Copilot suggestions &mdash; doesn't leave any trace. Reading 0% here means
+        "no detectable AI-tagged commits," not "no AI use."
+      </div>
+      <div class="drawer-caveat" style="background:#ddf4ff;border-color:#54aeff;color:#0a3069;margin-top:8px;">
+        Computed live via the public
+        <a href="https://docs.github.com/en/rest/search/search#search-commits" target="_blank" rel="noopener">GitHub Search Commits API</a>.
+        Cached for 24h. Anonymous callers are limited to 10 req/min, so each click costs ~${AI_TOOLS.length + 1} requests.
+      </div>
+    `;
+  }
+
+  async function openAiDrawer(user) {
+    renderDrawerHeader(user);
+    drawer.classList.add('open');
+    drawerBackdrop.classList.add('open');
+    drawer.setAttribute('aria-hidden', 'false');
+
+    const cached = readAiCache(user.login);
+    if (cached) { renderAiResults(cached); return; }
+
+    drawerBody.innerHTML = `<div class="drawer-loading">Querying GitHub Search Commits API for <strong>${esc(user.login)}</strong>…<br/><small>~${AI_TOOLS.length + 1} requests · usually finishes in ~10s</small></div>`;
+    try {
+      const data = await computeAiShare(user.login);
+      writeAiCache(user.login, data);
+      renderAiResults(data);
+    } catch (e) {
+      drawerBody.innerHTML = `<div class="drawer-error">${esc(e.message)}</div>`;
+    }
+  }
+
+  // Delegate clicks on table body rows
+  document.getElementById('tbody').addEventListener('click', (e) => {
+    const tr = e.target.closest('tr.clickable');
+    if (!tr) return;
+    // ignore clicks on the username link itself — let it navigate to github.com
+    if (e.target.closest('a')) return;
+    openAiDrawer({
+      login: tr.dataset.login,
+      type: tr.dataset.type,
+      avatar: tr.dataset.avatar,
+      name: tr.dataset.name,
+      html: tr.dataset.html,
+    });
+  });
 
   // ----- Init -----
   els.filter.addEventListener('input', renderActive);
