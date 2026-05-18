@@ -3,99 +3,172 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>commits.fyi — GitHub city rankings</title>
+<title>commits.fyi — GitHub leaderboards</title>
+<meta name="description" content="Daily-refreshed rankings of GitHub users, organizations, and repositories — globally, by city, by country, and trending today." />
 <style>
   :root {
-    --bg: #0d1117;
-    --panel: #161b22;
-    --panel-2: #1c2128;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --accent: #58a6ff;
-    --accent-2: #f0883e;
+    --bg: #ffffff;
+    --bg-subtle: #f6f8fa;
+    --bg-emphasis: #eaeef2;
+    --text: #1f2328;
+    --text-muted: #59636e;
+    --text-on-emphasis: #ffffff;
+    --border: #d1d9e0;
+    --border-muted: #d8dee4;
+    --link: #0969da;
+    --link-hover: #0550ae;
+    --accent: #0969da;
+    --success: #1a7f37;
+    --attention: #9a6700;
+    --done: #8250df;
+    --shadow-sm: 0 1px 0 rgba(31,35,40,0.04);
   }
   * { box-sizing: border-box; }
   html, body {
     margin: 0;
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
   }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; color: var(--link-hover); }
+  code, .mono {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px;
+  }
 
-  header {
+  /* Header */
+  header.site {
     border-bottom: 1px solid var(--border);
-    padding: 16px 24px;
-    background: var(--panel);
+    background: var(--bg);
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
-  .header-row {
+  .site-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 14px 24px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    flex-wrap: wrap;
+    gap: 16px;
   }
-  h1 {
-    font-size: 18px;
-    margin: 0;
+  .brand {
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  h1 svg { fill: var(--text); }
-  .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
-
-  main { max-width: 1100px; margin: 0 auto; padding: 24px; }
-
-  .controls {
-    display: flex;
-    gap: 12px;
-    align-items: end;
-    margin-bottom: 16px;
-    flex-wrap: wrap;
-  }
-  label {
-    display: block;
-    font-size: 12px;
-    color: var(--muted);
-    margin-bottom: 4px;
-  }
-  select, input {
-    background: var(--bg);
-    border: 1px solid var(--border);
     color: var(--text);
-    padding: 8px 10px;
-    border-radius: 6px;
-    font-size: 14px;
-    min-width: 200px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
   }
-  select:focus, input:focus { outline: none; border-color: var(--accent); }
-
-  .meta {
-    color: var(--muted);
+  .brand svg { fill: var(--text); }
+  .brand:hover { text-decoration: none; }
+  .brand small {
+    color: var(--text-muted);
+    font-weight: 400;
     font-size: 12px;
+    margin-left: 4px;
+  }
+  .header-right {
     margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--text-muted);
+    font-size: 12px;
   }
+  .header-right a {
+    color: var(--text-muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .header-right a:hover { color: var(--text); text-decoration: none; }
 
-  .stats {
+  /* Layout */
+  .layout {
+    max-width: 1280px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 12px;
-    margin-bottom: 16px;
+    grid-template-columns: 240px 1fr;
+    gap: 32px;
+    padding: 24px;
   }
-  .stat {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 12px 14px;
+  @media (max-width: 768px) {
+    .layout { grid-template-columns: 1fr; padding: 16px; gap: 16px; }
+    nav.sidebar { position: static; max-height: none; }
   }
-  .stat-label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
-  .stat-value { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 4px; }
 
+  /* Sidebar */
+  nav.sidebar {
+    position: sticky;
+    top: 70px;
+    align-self: start;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+  }
+  .nav-group { margin-bottom: 16px; }
+  .nav-group-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    padding: 6px 8px;
+    font-weight: 600;
+  }
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.05s;
+  }
+  .nav-link:hover { background: var(--bg-subtle); text-decoration: none; }
+  .nav-link.active {
+    background: var(--bg-emphasis);
+    font-weight: 600;
+    color: var(--text);
+  }
+  .nav-link .count {
+    margin-left: auto;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+  .nav-divider {
+    height: 1px;
+    background: var(--border);
+    margin: 12px 4px;
+  }
+
+  /* Main content */
+  main.content { min-width: 0; }
+  .page-header {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .page-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .page-sub {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  /* Tabs */
   .tabs {
     display: flex;
     gap: 4px;
@@ -105,226 +178,314 @@
   .tab {
     background: none;
     border: none;
-    color: var(--muted);
-    padding: 10px 16px;
+    color: var(--text-muted);
+    padding: 10px 14px;
     cursor: pointer;
     font-size: 14px;
     border-bottom: 2px solid transparent;
     margin-bottom: -1px;
     font-weight: 500;
+    font-family: inherit;
   }
-  .tab:hover { color: var(--text); background: var(--panel-2); }
-  .tab.active { color: var(--text); border-bottom-color: var(--accent-2); }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--text); border-bottom-color: #fd8c73; font-weight: 600; }
+  .tab .badge {
+    background: var(--bg-emphasis);
+    color: var(--text);
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
 
-  .panel { display: none; }
-  .panel.active { display: block; }
-
-  table {
+  .controls-row {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  input[type="text"] {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
     width: 100%;
-    border-collapse: collapse;
-    background: var(--panel);
+    max-width: 320px;
+    font-family: inherit;
+  }
+  input[type="text"]:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(9,105,218,0.12);
+  }
+
+  /* Stats */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .stat {
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-muted);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .stat-label {
+    color: var(--text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .stat-value {
+    font-size: 20px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    margin-top: 2px;
+  }
+
+  /* Tables */
+  .table-wrap {
     border: 1px solid var(--border);
     border-radius: 8px;
     overflow: hidden;
+    background: var(--bg);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
   }
   th, td {
     text-align: left;
-    padding: 10px 12px;
-    border-bottom: 1px solid var(--border);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border-muted);
   }
   th {
-    background: var(--panel-2);
+    background: var(--bg-subtle);
     font-weight: 600;
-    color: var(--muted);
+    color: var(--text-muted);
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     cursor: pointer;
     user-select: none;
+    white-space: nowrap;
   }
   th.sortable:hover { color: var(--text); }
-  th .arrow { color: var(--accent-2); margin-left: 4px; }
-  tr:last-child td { border-bottom: none; }
-  tr:hover td { background: var(--panel-2); }
-  td.rank { color: var(--muted); width: 50px; font-variant-numeric: tabular-nums; }
-  td.num { text-align: right; font-variant-numeric: tabular-nums; width: 110px; }
-  .login {
+  th .arrow { color: var(--accent); margin-left: 4px; font-size: 10px; }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--bg-subtle); }
+  td.rank { color: var(--text-muted); width: 50px; font-variant-numeric: tabular-nums; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .ent {
     display: flex;
     align-items: center;
     gap: 10px;
+    min-width: 0;
   }
   .avatar {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    background: var(--panel-2);
+    background: var(--bg-subtle);
+    flex-shrink: 0;
   }
   .avatar.sq { border-radius: 4px; }
-  .name-cell { display: flex; flex-direction: column; }
-  .full-name, .repo-meta { color: var(--muted); font-size: 12px; }
-  .tag {
+  .ent-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .ent-text .secondary, .repo-desc {
+    color: var(--text-muted);
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .lang-tag {
     display: inline-block;
-    background: var(--panel-2);
-    border: 1px solid var(--border);
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-muted);
     border-radius: 10px;
-    padding: 1px 8px;
+    padding: 0px 7px;
     font-size: 11px;
-    color: var(--muted);
+    color: var(--text-muted);
     margin-left: 6px;
   }
 
   .status {
-    color: var(--muted);
+    color: var(--text-muted);
     padding: 16px;
     text-align: center;
-    background: var(--panel);
+    background: var(--bg-subtle);
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: 6px;
   }
-  .status.error { color: #f85149; border-color: rgba(248,81,73,0.3); }
+  .status.error { color: #cf222e; background: #FFEBE9; border-color: rgba(207,34,46,0.3); }
   .hidden { display: none; }
-  footer {
-    color: var(--muted);
-    font-size: 12px;
+
+  /* Methodology / queries panel */
+  details.method {
     margin-top: 24px;
-    border-top: 1px solid var(--border);
-    padding-top: 16px;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0;
   }
+  details.method summary {
+    padding: 10px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--text);
+    user-select: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  details.method summary::-webkit-details-marker { display: none; }
+  details.method summary::before {
+    content: '▸';
+    color: var(--text-muted);
+    transition: transform 0.1s;
+    display: inline-block;
+  }
+  details.method[open] summary::before { transform: rotate(90deg); }
+  details.method summary:hover { background: var(--bg-emphasis); border-radius: 6px; }
+  details.method .body { padding: 12px 16px 14px 32px; border-top: 1px solid var(--border-muted); }
+  details.method ol { margin: 0; padding-left: 18px; }
+  details.method li { margin-bottom: 10px; font-size: 13px; }
+  details.method li:last-child { margin-bottom: 0; }
+  .query-row {
+    margin-top: 4px;
+    background: var(--bg);
+    border: 1px solid var(--border-muted);
+    border-radius: 6px;
+    padding: 6px 10px;
+    overflow-x: auto;
+  }
+  .query-row code { color: var(--text); white-space: nowrap; display: block; }
+
+  footer.site {
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+    padding: 16px 24px;
+    color: var(--text-muted);
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /* Trending split */
+  .split-h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin: 24px 0 8px 0;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .split-h2 .h2-sub { color: var(--text-muted); font-weight: 400; font-size: 12px; }
+  .split-h2:first-child { margin-top: 0; }
 </style>
 </head>
 <body>
-<header>
-  <div class="header-row">
-    <h1>
-      <svg height="24" viewBox="0 0 16 16" width="24" aria-hidden="true">
+
+<header class="site">
+  <div class="site-inner">
+    <a href="?" class="brand">
+      <svg height="22" viewBox="0 0 16 16" width="22" aria-hidden="true">
         <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
       </svg>
       commits.fyi
-    </h1>
-    <div class="sub" id="updated">GitHub city rankings · refreshed daily</div>
+      <small>GitHub leaderboards</small>
+    </a>
+    <div class="header-right">
+      <span id="updated-label"></span>
+      <a href="https://github.com/keon/commits-fyi" target="_blank" rel="noopener">Source</a>
+    </div>
   </div>
 </header>
 
-<main>
-  <div class="controls">
-    <div>
-      <label for="city">City</label>
-      <select id="city"></select>
+<div class="layout">
+  <nav class="sidebar" id="sidebar"></nav>
+  <main class="content">
+    <div class="page-header">
+      <h1 class="page-title" id="page-title">Loading…</h1>
+      <div class="page-sub" id="page-sub"></div>
     </div>
-    <div>
-      <label for="filter">Filter</label>
-      <input id="filter" type="text" placeholder="login, name, or repo…" />
+
+    <div id="stats" class="stats"></div>
+
+    <div class="tabs" id="tabs"></div>
+
+    <div class="controls-row">
+      <input id="filter" type="text" placeholder="Filter by name, login, or description…" />
     </div>
-  </div>
 
-  <div id="stats" class="stats"></div>
+    <div id="status" class="status hidden"></div>
 
-  <div class="tabs">
-    <button class="tab active" data-tab="users">Users</button>
-    <button class="tab" data-tab="orgs">Organizations</button>
-    <button class="tab" data-tab="repos">Repositories</button>
-  </div>
+    <div class="table-wrap" id="table-wrap">
+      <table id="table">
+        <thead><tr id="thead-row"></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
 
-  <div id="status" class="status hidden"></div>
+    <details class="method" id="method">
+      <summary>How this was computed · GitHub API queries</summary>
+      <div class="body" id="method-body"></div>
+    </details>
+  </main>
+</div>
 
-  <section id="panel-users" class="panel active">
-    <table id="table-users">
-      <thead>
-        <tr>
-          <th class="rank">#</th>
-          <th>User</th>
-          <th class="num sortable" data-sort="followers">Followers</th>
-          <th class="num sortable" data-sort="total_stars">Total stars</th>
-          <th class="num sortable" data-sort="public_repos">Public repos</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </section>
-
-  <section id="panel-orgs" class="panel">
-    <table id="table-orgs">
-      <thead>
-        <tr>
-          <th class="rank">#</th>
-          <th>Organization</th>
-          <th class="num sortable" data-sort="followers">Followers</th>
-          <th class="num sortable" data-sort="total_stars">Total stars</th>
-          <th class="num sortable" data-sort="public_repos">Public repos</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </section>
-
-  <section id="panel-repos" class="panel">
-    <table id="table-repos">
-      <thead>
-        <tr>
-          <th class="rank">#</th>
-          <th>Repository</th>
-          <th class="num sortable" data-sort="stargazers_count">Stars</th>
-          <th class="num sortable" data-sort="forks_count">Forks</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
-  </section>
-
-  <footer>
-    <strong>How it works.</strong> A GitHub Actions cron job refreshes this data daily.
-    For each city, we search GitHub for users/orgs whose self-reported profile
-    <code>location</code> matches the city, then sum stargazers across their public
-    non-fork repos. Location is free-text — e.g. <em>New York</em> won't match users who wrote
-    <em>NYC</em> or <em>Brooklyn</em>. <a href="https://github.com/" target="_blank" rel="noopener">View source</a>
-  </footer>
-</main>
+<footer class="site">
+  Data fetched from the public GitHub REST API via a daily cron · static, no tracking ·
+  <a href="https://github.com/keon/commits-fyi" target="_blank" rel="noopener">github.com/keon/commits-fyi</a>
+</footer>
 
 <script>
 (() => {
-  const citySel = document.getElementById('city');
-  const filterEl = document.getElementById('filter');
-  const updatedEl = document.getElementById('updated');
-  const statsEl = document.getElementById('stats');
-  const statusEl = document.getElementById('status');
-  const tabs = document.querySelectorAll('.tab');
-  const panels = {
-    users: document.getElementById('panel-users'),
-    orgs: document.getElementById('panel-orgs'),
-    repos: document.getElementById('panel-repos'),
-  };
-  const tbodies = {
-    users: panels.users.querySelector('tbody'),
-    orgs: panels.orgs.querySelector('tbody'),
-    repos: panels.repos.querySelector('tbody'),
-  };
-  const tables = {
-    users: document.getElementById('table-users'),
-    orgs: document.getElementById('table-orgs'),
-    repos: document.getElementById('table-repos'),
+  // ----- State -----
+  const state = {
+    index: null,
+    route: { view: 'global', id: null, tab: null },
+    data: null,
+    sort: { key: 'total_stars', dir: 'desc' },
   };
 
-  let currentData = null;
-  let activeTab = 'users';
-  const sortState = {
-    users: { key: 'followers', dir: 'desc' },
-    orgs:  { key: 'followers', dir: 'desc' },
-    repos: { key: 'stargazers_count', dir: 'desc' },
+  const els = {
+    sidebar: document.getElementById('sidebar'),
+    pageTitle: document.getElementById('page-title'),
+    pageSub: document.getElementById('page-sub'),
+    stats: document.getElementById('stats'),
+    tabs: document.getElementById('tabs'),
+    filter: document.getElementById('filter'),
+    status: document.getElementById('status'),
+    tableWrap: document.getElementById('table-wrap'),
+    table: document.getElementById('table'),
+    theadRow: document.getElementById('thead-row'),
+    tbody: document.getElementById('tbody'),
+    method: document.getElementById('method'),
+    methodBody: document.getElementById('method-body'),
+    updatedLabel: document.getElementById('updated-label'),
   };
 
-  function fmt(n) {
+  // ----- Helpers -----
+  const fmt = (n) => {
     if (n == null) return '—';
     if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
     if (n >= 10_000) return (n / 1000).toFixed(0) + 'k';
     if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
     return n.toLocaleString();
-  }
-
-  function escapeHtml(s) {
-    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  }
-
-  function relative(iso) {
+  };
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const relative = (iso) => {
     if (!iso) return '';
     const ms = Date.now() - new Date(iso).getTime();
     const m = Math.floor(ms / 60000);
@@ -334,117 +495,170 @@
     if (h < 24) return `${h}h ago`;
     const d = Math.floor(h / 24);
     return `${d}d ago`;
+  };
+  const setStatus = (msg, kind = '') => {
+    els.status.className = 'status' + (kind ? ' ' + kind : '');
+    els.status.textContent = msg;
+    els.status.classList.remove('hidden');
+    els.tableWrap.style.display = 'none';
+    els.method.style.display = 'none';
+  };
+  const clearStatus = () => {
+    els.status.classList.add('hidden');
+    els.tableWrap.style.display = '';
+    els.method.style.display = '';
+  };
+
+  // ----- Routing -----
+  function parseRoute() {
+    const sp = new URLSearchParams(location.search);
+    const v = sp.get('v') || 'global';
+    const id = sp.get('id') || null;
+    const tab = sp.get('tab') || null;
+    return { view: v, id, tab };
+  }
+  function pushRoute(r) {
+    const sp = new URLSearchParams();
+    if (r.view && r.view !== 'global') sp.set('v', r.view);
+    if (r.id) sp.set('id', r.id);
+    if (r.tab) sp.set('tab', r.tab);
+    const url = sp.toString() ? `?${sp}` : location.pathname;
+    history.pushState(r, '', url);
   }
 
-  function setStatus(msg, kind = '') {
-    statusEl.className = 'status' + (kind ? ' ' + kind : '');
-    statusEl.textContent = msg;
-    statusEl.classList.remove('hidden');
-  }
-  function clearStatus() { statusEl.classList.add('hidden'); statusEl.textContent = ''; }
+  // ----- Sidebar -----
+  function renderSidebar() {
+    const idx = state.index;
+    if (!idx) return;
+    const r = state.route;
+    const isActive = (view, id) => r.view === view && (id == null || r.id === id);
 
-  tabs.forEach(t => t.addEventListener('click', () => {
-    tabs.forEach(x => x.classList.remove('active'));
-    Object.values(panels).forEach(p => p.classList.remove('active'));
-    t.classList.add('active');
-    panels[t.dataset.tab].classList.add('active');
-    activeTab = t.dataset.tab;
-    render();
-  }));
+    const groups = [];
 
-  Object.entries(tables).forEach(([tab, table]) => {
-    table.querySelectorAll('th.sortable').forEach(th => {
-      th.addEventListener('click', () => {
-        const key = th.dataset.sort;
-        const s = sortState[tab];
-        if (s.key === key) s.dir = s.dir === 'desc' ? 'asc' : 'desc';
-        else { s.key = key; s.dir = 'desc'; }
-        render();
+    groups.push(`
+      <div class="nav-group">
+        <a href="?" class="nav-link ${isActive('global') ? 'active' : ''}" data-link='{"view":"global"}'>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM6.5 1.5C5.61 1.5 4.6 3.18 4.16 5.5h3.68C7.4 3.18 6.39 1.5 5.5 1.5Zm4.34 4A11.16 11.16 0 0 0 9.16 1.84a6.51 6.51 0 0 1 4.34 3.66Zm-9.68 0A6.51 6.51 0 0 1 5.5 1.84 11.16 11.16 0 0 0 3.84 5.5Zm-.34 1c-.13.5-.2 1.03-.23 1.58 0 .55.1 1.08.23 1.59h11.36c.13-.5.2-1.03.23-1.58 0-.55-.1-1.08-.23-1.59ZM5.5 14.16c.89 0 1.9-1.68 2.34-4h-4.68c.44 2.32 1.45 4 2.34 4Zm5-4c-.44 2.32-1.45 4-2.34 4a6.51 6.51 0 0 0 4.34-3.66Z"></path></svg>
+          Global
+        </a>
+        <a href="?v=trending" class="nav-link ${isActive('trending') ? 'active' : ''}" data-link='{"view":"trending"}'>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="m13.83 5.5-3.91 3.91-2.5-2.5L1.66 12.67l1.06 1.06 4.7-4.7 2.5 2.5 4.97-4.97V9h1.5V5.5h-3.56Z"></path></svg>
+          Trending today
+        </a>
+      </div>
+    `);
+
+    groups.push(`
+      <div class="nav-divider"></div>
+      <div class="nav-group">
+        <div class="nav-group-title">Cities</div>
+        ${idx.cities.map(c => `
+          <a href="?v=city&id=${c.slug}" class="nav-link ${isActive('city', c.slug) ? 'active' : ''}" data-link='{"view":"city","id":"${c.slug}"}'>
+            ${esc(c.name)}
+          </a>
+        `).join('')}
+      </div>
+    `);
+
+    groups.push(`
+      <div class="nav-divider"></div>
+      <div class="nav-group">
+        <div class="nav-group-title">Countries</div>
+        ${idx.countries.map(c => `
+          <a href="?v=country&id=${c.slug}" class="nav-link ${isActive('country', c.slug) ? 'active' : ''}" data-link='{"view":"country","id":"${c.slug}"}'>
+            ${esc(c.name)}
+          </a>
+        `).join('')}
+      </div>
+    `);
+
+    els.sidebar.innerHTML = groups.join('');
+    els.sidebar.querySelectorAll('.nav-link').forEach(a => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const r = JSON.parse(a.dataset.link);
+        state.route = { view: r.view, id: r.id || null, tab: null };
+        pushRoute(state.route);
+        loadCurrent();
       });
     });
-  });
-
-  filterEl.addEventListener('input', render);
-  citySel.addEventListener('change', () => loadCity(citySel.value));
-
-  function matches(item, q) {
-    if (!q) return true;
-    const t = q.toLowerCase();
-    return (
-      (item.login && item.login.toLowerCase().includes(t)) ||
-      (item.name && item.name.toLowerCase().includes(t)) ||
-      (item.full_name && item.full_name.toLowerCase().includes(t)) ||
-      (item.description && item.description.toLowerCase().includes(t))
-    );
   }
 
-  function renderHeaders() {
-    Object.entries(tables).forEach(([tab, table]) => {
-      const s = sortState[tab];
-      table.querySelectorAll('th.sortable').forEach(th => {
-        const arrow = th.querySelector('.arrow');
-        if (arrow) arrow.remove();
-        if (th.dataset.sort === s.key) {
-          const span = document.createElement('span');
-          span.className = 'arrow';
-          span.textContent = s.dir === 'desc' ? '▼' : '▲';
-          th.appendChild(span);
-        }
+  // ----- Loaders -----
+  async function loadIndex() {
+    const res = await fetch(`data/index.json?v=${Date.now()}`);
+    if (!res.ok) throw new Error('index.json missing');
+    state.index = await res.json();
+  }
+
+  async function loadJSON(path) {
+    const res = await fetch(`${path}?v=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return res.json();
+  }
+
+  // ----- Renderers -----
+  function getColumns(view, tab) {
+    if (view === 'trending') {
+      return [
+        { key: 'stargazers_count', label: 'Stars', sortable: true, num: true },
+        { key: 'forks_count', label: 'Forks', sortable: true, num: true },
+        { key: 'age', label: tab === 'new' ? 'Created' : 'Pushed', sortable: false, num: true },
+      ];
+    }
+    if (tab === 'repos') {
+      return [
+        { key: 'stargazers_count', label: 'Stars', sortable: true, num: true },
+        { key: 'forks_count', label: 'Forks', sortable: true, num: true },
+      ];
+    }
+    return [
+      { key: 'total_stars', label: 'Total stars', sortable: true, num: true },
+      { key: 'followers',  label: 'Followers',  sortable: true, num: true },
+      { key: 'public_repos', label: 'Repos', sortable: true, num: true },
+    ];
+  }
+
+  function renderTabs(view, data) {
+    const tabs = [];
+    if (view === 'trending') {
+      tabs.push({ id: 'active', label: 'Active', count: data.counts.active });
+      tabs.push({ id: 'new',    label: 'New',    count: data.counts.new });
+    } else {
+      tabs.push({ id: 'users', label: 'Users',         count: data.counts.users });
+      tabs.push({ id: 'orgs',  label: 'Organizations', count: data.counts.orgs });
+      tabs.push({ id: 'repos', label: 'Repositories',  count: data.counts.repos });
+    }
+    els.tabs.innerHTML = tabs.map(t => `
+      <button class="tab ${state.route.tab === t.id ? 'active' : ''}" data-tab="${t.id}">
+        ${esc(t.label)} <span class="badge">${fmt(t.count)}</span>
+      </button>
+    `).join('');
+    els.tabs.querySelectorAll('.tab').forEach(b => {
+      b.addEventListener('click', () => {
+        state.route.tab = b.dataset.tab;
+        // Default sort per tab
+        if (b.dataset.tab === 'repos' || view === 'trending') state.sort = { key: 'stargazers_count', dir: 'desc' };
+        else state.sort = { key: 'total_stars', dir: 'desc' };
+        pushRoute(state.route);
+        renderActive();
       });
     });
   }
 
-  function renderUsers(list, tbody, isOrg) {
-    tbody.innerHTML = '';
-    list.forEach((u, i) => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td class="rank">${i + 1}</td>
-        <td>
-          <div class="login">
-            <img class="avatar ${isOrg ? 'sq' : ''}" src="${u.avatar_url}&s=64" loading="lazy" alt="" />
-            <div class="name-cell">
-              <a href="${u.html_url}" target="_blank" rel="noopener">${escapeHtml(u.login)}</a>
-              ${u.name ? `<span class="full-name">${escapeHtml(u.name)}</span>` : ''}
-            </div>
-          </div>
-        </td>
-        <td class="num">${fmt(u.followers)}</td>
-        <td class="num">${fmt(u.total_stars)}</td>
-        <td class="num">${fmt(u.public_repos)}</td>
+  function renderStats(view, data) {
+    if (view === 'trending') {
+      els.stats.innerHTML = `
+        <div class="stat"><div class="stat-label">Window</div><div class="stat-value" style="font-size:14px;font-weight:500">Past 24h</div></div>
+        <div class="stat"><div class="stat-label">Active repos</div><div class="stat-value">${fmt(data.counts.active)}</div></div>
+        <div class="stat"><div class="stat-label">New repos</div><div class="stat-value">${fmt(data.counts.new)}</div></div>
       `;
-      tbody.appendChild(tr);
-    });
-  }
-
-  function renderRepos(list, tbody) {
-    tbody.innerHTML = '';
-    list.forEach((r, i) => {
-      const tr = document.createElement('tr');
-      tr.innerHTML = `
-        <td class="rank">${i + 1}</td>
-        <td>
-          <div class="login">
-            ${r.owner_avatar_url ? `<img class="avatar ${r.owner_type === 'Organization' ? 'sq' : ''}" src="${r.owner_avatar_url}&s=64" loading="lazy" alt="" />` : ''}
-            <div class="name-cell">
-              <a href="${r.html_url}" target="_blank" rel="noopener">${escapeHtml(r.full_name)}</a>${r.language ? `<span class="tag">${escapeHtml(r.language)}</span>` : ''}
-              ${r.description ? `<span class="repo-meta">${escapeHtml(r.description.slice(0, 160))}</span>` : ''}
-            </div>
-          </div>
-        </td>
-        <td class="num">${fmt(r.stargazers_count)}</td>
-        <td class="num">${fmt(r.forks_count)}</td>
-      `;
-      tbody.appendChild(tr);
-    });
-  }
-
-  function renderStats() {
-    if (!currentData) { statsEl.innerHTML = ''; return; }
-    const t = currentData.totals || {};
-    statsEl.innerHTML = `
-      <div class="stat"><div class="stat-label">Top users</div><div class="stat-value">${fmt(currentData.counts.users)}</div></div>
-      <div class="stat"><div class="stat-label">Top orgs</div><div class="stat-value">${fmt(currentData.counts.orgs)}</div></div>
+      return;
+    }
+    const t = data.totals || {};
+    els.stats.innerHTML = `
+      <div class="stat"><div class="stat-label">Top users</div><div class="stat-value">${fmt(data.counts.users)}</div></div>
+      <div class="stat"><div class="stat-label">Top orgs</div><div class="stat-value">${fmt(data.counts.orgs)}</div></div>
       <div class="stat"><div class="stat-label">User followers</div><div class="stat-value">${fmt(t.user_followers)}</div></div>
       <div class="stat"><div class="stat-label">User stars</div><div class="stat-value">${fmt(t.user_stars)}</div></div>
       <div class="stat"><div class="stat-label">Org followers</div><div class="stat-value">${fmt(t.org_followers)}</div></div>
@@ -452,77 +666,213 @@
     `;
   }
 
-  function render() {
-    renderHeaders();
-    if (!currentData) return;
-    const q = filterEl.value.trim();
-
-    const sort = (arr, tab) => {
-      const s = sortState[tab];
-      const mult = s.dir === 'desc' ? -1 : 1;
-      return [...arr].sort((a, b) => ((a[s.key] || 0) - (b[s.key] || 0)) * mult);
-    };
-
-    const users = sort(currentData.users.filter(x => matches(x, q)), 'users');
-    const orgs  = sort(currentData.orgs.filter(x => matches(x, q)),  'orgs');
-    const repos = sort(currentData.repos.filter(x => matches(x, q)), 'repos');
-
-    renderUsers(users, tbodies.users, false);
-    renderUsers(orgs,  tbodies.orgs,  true);
-    renderRepos(repos, tbodies.repos);
-  }
-
-  async function loadCity(slug) {
-    if (!slug) return;
-    setStatus('Loading…');
-    try {
-      const res = await fetch(`data/${slug}.json?v=${Date.now()}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      currentData = await res.json();
-      updatedEl.textContent = `${currentData.city} • updated ${relative(currentData.generated_at)}`;
-      try { localStorage.setItem('gh_city_slug', slug); } catch {}
-      renderStats();
-      render();
-      clearStatus();
-    } catch (e) {
-      setStatus(`Could not load data/${slug}.json — has the cron run yet? (${e.message})`, 'error');
-      currentData = null;
-      Object.values(tbodies).forEach(tb => tb.innerHTML = '');
-      statsEl.innerHTML = '';
+  function renderHeader(data) {
+    if (data.kind === 'global') {
+      els.pageTitle.textContent = 'Global rankings';
+      els.pageSub.textContent = 'Top GitHub users, organizations, and repositories — worldwide.';
+    } else if (data.kind === 'trending') {
+      els.pageTitle.textContent = 'Trending today';
+      els.pageSub.textContent = `Repositories created or active in the last 24 hours · since ${data.window.since}.`;
+    } else if (data.kind === 'city') {
+      els.pageTitle.textContent = data.name;
+      els.pageSub.textContent = `Top users, organizations, and repositories with profile location matching "${data.name}".`;
+    } else if (data.kind === 'country') {
+      els.pageTitle.textContent = data.name;
+      els.pageSub.textContent = `Top users, organizations, and repositories with profile location matching "${data.name}".`;
     }
+    els.updatedLabel.textContent = `Updated ${relative(data.generated_at)}`;
   }
 
-  async function init() {
-    setStatus('Loading index…');
-    let index;
-    try {
-      const res = await fetch(`data/index.json?v=${Date.now()}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      index = await res.json();
-    } catch (e) {
-      setStatus(`No data yet — waiting for the first cron run. (${e.message})`, 'error');
+  function renderTable(rows, columns) {
+    els.theadRow.innerHTML = `
+      <th class="rank">#</th>
+      <th>${columns.entityLabel || 'Name'}</th>
+      ${columns.cols.map(c => `
+        <th class="${c.num ? 'num' : ''} ${c.sortable ? 'sortable' : ''}" data-sort="${c.key}">
+          ${esc(c.label)}${state.sort.key === c.key ? `<span class="arrow">${state.sort.dir === 'desc' ? '▼' : '▲'}</span>` : ''}
+        </th>
+      `).join('')}
+    `;
+    els.tbody.innerHTML = rows.map((row, i) => columns.renderRow(row, i, columns.cols)).join('');
+
+    els.theadRow.querySelectorAll('th.sortable').forEach(th => {
+      th.addEventListener('click', () => {
+        const k = th.dataset.sort;
+        if (state.sort.key === k) state.sort.dir = state.sort.dir === 'desc' ? 'asc' : 'desc';
+        else state.sort = { key: k, dir: 'desc' };
+        renderActive();
+      });
+    });
+  }
+
+  function renderAccountRow(a, i, cols) {
+    const isOrg = a.owner_type === 'Organization' || (a._type === 'Organization');
+    return `<tr>
+      <td class="rank">${i + 1}</td>
+      <td>
+        <div class="ent">
+          <img class="avatar ${isOrg ? 'sq' : ''}" src="${a.avatar_url}&s=64" loading="lazy" alt="" />
+          <div class="ent-text">
+            <a href="${a.html_url}" target="_blank" rel="noopener">${esc(a.login)}</a>
+            ${a.name || a.bio ? `<span class="secondary">${esc(a.name || a.bio || '')}</span>` : ''}
+          </div>
+        </div>
+      </td>
+      ${cols.map(c => `<td class="num">${fmt(a[c.key])}</td>`).join('')}
+    </tr>`;
+  }
+
+  function renderRepoRow(r, i, cols, opts = {}) {
+    const isOrg = r.owner_type === 'Organization';
+    const ageLabel = opts.age ? relative(opts.age === 'created' ? r.created_at : r.pushed_at) : null;
+    return `<tr>
+      <td class="rank">${i + 1}</td>
+      <td>
+        <div class="ent">
+          ${r.owner_avatar_url ? `<img class="avatar ${isOrg ? 'sq' : ''}" src="${r.owner_avatar_url}&s=64" loading="lazy" alt="" />` : ''}
+          <div class="ent-text">
+            <a href="${r.html_url}" target="_blank" rel="noopener">${esc(r.full_name)}</a>${r.language ? `<span class="lang-tag">${esc(r.language)}</span>` : ''}
+            ${r.description ? `<span class="repo-desc">${esc(r.description)}</span>` : ''}
+          </div>
+        </div>
+      </td>
+      ${cols.map(c => {
+        if (c.key === 'age') return `<td class="num">${ageLabel || '—'}</td>`;
+        return `<td class="num">${fmt(r[c.key])}</td>`;
+      }).join('')}
+    </tr>`;
+  }
+
+  function renderMethod(data) {
+    const qs = data.queries || [];
+    if (!qs.length) { els.method.style.display = 'none'; return; }
+    els.method.style.display = '';
+    const items = qs.map(q => {
+      const apiCode = q.api_url.replace('https://api.github.com', '');
+      const uiLink = q.ui_url ? ` · <a href="${esc(q.ui_url)}" target="_blank" rel="noopener">open in GitHub Search</a>` : '';
+      const apiLink = q.api_url.startsWith('http')
+        ? `<a href="${esc(q.api_url)}" target="_blank" rel="noopener">${esc(apiCode)}</a>`
+        : esc(apiCode);
+      return `
+        <li>
+          <div>${esc(q.label)}${uiLink}</div>
+          <div class="query-row"><code>GET ${apiLink}</code></div>
+        </li>
+      `;
+    }).join('');
+    els.methodBody.innerHTML = `
+      <div style="margin-bottom:10px; color:var(--text-muted); font-size:12px;">
+        These are the public GitHub REST/Search API requests executed by our daily
+        <a href="https://github.com/keon/commits-fyi/blob/main/scripts/fetch.mjs" target="_blank" rel="noopener">fetch script</a>.
+        Search-API totals and ordering can shift slightly between runs.
+      </div>
+      <ol>${items}</ol>
+    `;
+  }
+
+  function filterFn(q) {
+    if (!q) return () => true;
+    const t = q.toLowerCase();
+    return (x) => (
+      (x.login && x.login.toLowerCase().includes(t)) ||
+      (x.name && x.name.toLowerCase().includes(t)) ||
+      (x.full_name && x.full_name.toLowerCase().includes(t)) ||
+      (x.description && x.description.toLowerCase().includes(t))
+    );
+  }
+
+  function sortRows(rows, key, dir) {
+    const mult = dir === 'desc' ? -1 : 1;
+    return [...rows].sort((a, b) => ((a[key] || 0) - (b[key] || 0)) * mult);
+  }
+
+  function renderActive() {
+    const data = state.data;
+    if (!data) return;
+    const view = data.kind;
+    const tab = state.route.tab;
+    const q = els.filter.value.trim();
+
+    let rows = [];
+    let columns;
+    if (view === 'trending') {
+      const list = (tab === 'new' ? data.new_repos : data.active_repos);
+      rows = sortRows(list.filter(filterFn(q)), state.sort.key, state.sort.dir);
+      columns = {
+        entityLabel: 'Repository',
+        cols: getColumns(view, tab),
+        renderRow: (r, i, cols) => renderRepoRow(r, i, cols, { age: tab === 'new' ? 'created' : 'pushed' }),
+      };
+    } else if (tab === 'users' || tab === 'orgs') {
+      const list = (tab === 'users' ? data.users : data.orgs).map(x => ({ ...x, _type: tab === 'orgs' ? 'Organization' : 'User' }));
+      rows = sortRows(list.filter(filterFn(q)), state.sort.key, state.sort.dir);
+      columns = {
+        entityLabel: tab === 'users' ? 'User' : 'Organization',
+        cols: getColumns(view, tab),
+        renderRow: renderAccountRow,
+      };
+    } else if (tab === 'repos') {
+      rows = sortRows(data.repos.filter(filterFn(q)), state.sort.key, state.sort.dir);
+      columns = {
+        entityLabel: 'Repository',
+        cols: getColumns(view, tab),
+        renderRow: (r, i, cols) => renderRepoRow(r, i, cols),
+      };
+    }
+    if (rows.length === 0 && q) {
+      els.tbody.innerHTML = `<tr><td colspan="99" style="text-align:center; padding:24px; color:var(--text-muted);">No results matching "${esc(q)}"</td></tr>`;
+      els.theadRow.innerHTML = '';
       return;
     }
-    citySel.innerHTML = '';
-    for (const c of index.cities) {
-      const opt = document.createElement('option');
-      opt.value = c.slug;
-      opt.textContent = c.city;
-      citySel.appendChild(opt);
-    }
-    let initial = (() => { try { return localStorage.getItem('gh_city_slug'); } catch { return null; }})();
-    const urlSlug = new URLSearchParams(location.search).get('city');
-    if (urlSlug) initial = urlSlug;
-    if (!initial || !index.cities.find(c => c.slug === initial)) initial = index.cities[0]?.slug;
-    if (initial) {
-      citySel.value = initial;
-      await loadCity(initial);
-    } else {
-      setStatus('Index loaded but no cities present.', 'error');
+    renderTable(rows, columns);
+  }
+
+  async function loadCurrent() {
+    const r = state.route;
+    let path;
+    let defaultTab;
+    if (r.view === 'global') { path = 'data/global.json'; defaultTab = 'users'; }
+    else if (r.view === 'trending') { path = 'data/trending.json'; defaultTab = 'active'; }
+    else if (r.view === 'city') { path = `data/cities/${r.id}.json`; defaultTab = 'users'; }
+    else if (r.view === 'country') { path = `data/countries/${r.id}.json`; defaultTab = 'users'; }
+    else { setStatus('Unknown view', 'error'); return; }
+
+    renderSidebar();
+    setStatus('Loading…');
+    try {
+      const data = await loadJSON(path);
+      state.data = data;
+      if (!r.tab) r.tab = defaultTab;
+      // Default sort
+      if (r.view === 'trending' || r.tab === 'repos') state.sort = { key: 'stargazers_count', dir: 'desc' };
+      else state.sort = { key: 'total_stars', dir: 'desc' };
+      clearStatus();
+      renderHeader(data);
+      renderStats(r.view, data);
+      renderTabs(r.view, data);
+      renderActive();
+      renderMethod(data);
+    } catch (e) {
+      setStatus(`Could not load ${path} (${e.message}). Has the cron run yet?`, 'error');
     }
   }
 
-  init();
+  // ----- Init -----
+  els.filter.addEventListener('input', renderActive);
+  window.addEventListener('popstate', () => {
+    state.route = parseRoute();
+    loadCurrent();
+  });
+
+  (async () => {
+    try {
+      await loadIndex();
+      state.route = parseRoute();
+      await loadCurrent();
+    } catch (e) {
+      setStatus(`Could not load data/index.json (${e.message}). Has the cron run yet?`, 'error');
+    }
+  })();
 })();
 </script>
 </body>
