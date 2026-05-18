@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-05-18T15:57:50.100Z",
+  "generated_at": "2026-05-18T17:50:30.193Z",
   "counts": {
-    "users": 151,
+    "users": 152,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 248427,
+    "user_followers": 248944,
     "org_followers": 0,
-    "user_stars": 1118063,
+    "user_stars": 1129186,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -348,6 +348,19 @@
       "bio": "OSS developer | Interested in Natural Language Processing",
       "company": null,
       "total_stars": 11794
+    },
+    {
+      "login": "dreamhunter2333",
+      "name": "Dream Hunter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32295532?s=88&u=826e7cda860335b939445106f62e2d65425c8bed&v=4",
+      "html_url": "https://github.com/dreamhunter2333",
+      "followers": 517,
+      "following": 245,
+      "public_repos": 91,
+      "location": "Tokyo",
+      "bio": "不知道为什么柠檬它围绕着我 ",
+      "company": "@awsl-project",
+      "total_stars": 11123
     },
     {
       "login": "kazupon",
@@ -2202,6 +2215,17 @@
       "pushed_at": "2022-03-08T16:07:21Z"
     },
     {
+      "full_name": "dreamhunter2333/cloudflare_temp_email",
+      "html_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+      "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+      "stargazers_count": 9450,
+      "forks_count": 6002,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2023-08-15T16:35:52Z",
+      "pushed_at": "2026-05-17T07:56:07Z"
+    },
+    {
       "full_name": "wasabeef/android-gpuimage",
       "html_url": "https://github.com/wasabeef/android-gpuimage",
       "description": "Android filters based on OpenGL (idea from GPUImage for iOS)",
@@ -2541,17 +2565,6 @@
       "language": "JavaScript",
       "created_at": "2011-12-12T22:22:36Z",
       "pushed_at": "2021-10-20T14:18:03Z"
-    },
-    {
-      "full_name": "dennybritz/deeplearning-papernotes",
-      "html_url": "https://github.com/dennybritz/deeplearning-papernotes",
-      "description": "Summaries and notes on Deep Learning research papers",
-      "stargazers_count": 4421,
-      "forks_count": 898,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2015-12-19T18:34:21Z",
-      "pushed_at": "2018-02-13T01:04:02Z"
     }
   ]
 }

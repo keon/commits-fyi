@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-05-18T15:55:46.769Z",
+  "generated_at": "2026-05-18T17:49:23.139Z",
   "counts": {
-    "users": 171,
+    "users": 179,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1188779,
+    "user_followers": 1196894,
     "org_followers": 0,
-    "user_stars": 4354076,
+    "user_stars": 4446152,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -1052,6 +1052,32 @@
       "total_stars": 14993
     },
     {
+      "login": "arogozhnikov",
+      "name": "Alex Rogozhnikov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6318811?s=88&u=5e99e15d9400a4bd8a449939093d38df94fd3e90&v=4",
+      "html_url": "https://github.com/arogozhnikov",
+      "followers": 1933,
+      "following": 40,
+      "public_repos": 25,
+      "location": "San Francisco",
+      "bio": "ML + Science, einops, scientific tools, protein design",
+      "company": null,
+      "total_stars": 14107
+    },
+    {
+      "login": "ricklamers",
+      "name": "Rick Lamers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1309307?s=88&u=d6a8ff449af00afb4e89012c947d8eac126253a6&v=4",
+      "html_url": "https://github.com/ricklamers",
+      "followers": 609,
+      "following": 32,
+      "public_repos": 107,
+      "location": "Amsterdam + Palo Alto",
+      "bio": "I like building software, open source, reading papers and generally working with optimistic people!",
+      "company": null,
+      "total_stars": 13880
+    },
+    {
       "login": "mojombo",
       "name": "Tom Preston-Werner",
       "avatar_url": "https://avatars.githubusercontent.com/u/1?s=88&v=4",
@@ -1076,6 +1102,32 @@
       "bio": null,
       "company": null,
       "total_stars": 13327
+    },
+    {
+      "login": "tmc",
+      "name": "Travis Cline",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3977?s=88&u=ba15c36cd7e0fd2d5fd1a4eb4df77420618a6d9e&v=4",
+      "html_url": "https://github.com/tmc",
+      "followers": 1944,
+      "following": 382,
+      "public_repos": 267,
+      "location": "SF",
+      "bio": "🚀 ",
+      "company": null,
+      "total_stars": 12868
+    },
+    {
+      "login": "vwxyzjn",
+      "name": "Costa Huang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5555347?s=88&u=0ccc120bc399b5fd017d11340268ec4e62c16cea&v=4",
+      "html_url": "https://github.com/vwxyzjn",
+      "followers": 1780,
+      "following": 122,
+      "public_repos": 89,
+      "location": "Menlo Park, CA",
+      "bio": "Exploiting physical rewards @periodic. Prev: RL @allenai @huggingface. ",
+      "company": "@periodic",
+      "total_stars": 12233
     },
     {
       "login": "kognise",
@@ -1156,6 +1208,19 @@
       "total_stars": 11277
     },
     {
+      "login": "blacksmithgu",
+      "name": "Michael \"Tres\" Brenan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/616490?s=88&u=2a63f0b1cdccfb8a0144f1e9bf5298aba11e1ba2&v=4",
+      "html_url": "https://github.com/blacksmithgu",
+      "followers": 538,
+      "following": 12,
+      "public_repos": 3,
+      "location": "Palo Alto, CA",
+      "bio": "Backend-oriented software developer. Computers are fast; take advantage of it.",
+      "company": "Palantir Technologies",
+      "total_stars": 11132
+    },
+    {
       "login": "ahmadawais",
       "name": "Ahmad Awais",
       "avatar_url": "https://avatars.githubusercontent.com/u/960133?s=88&u=1a1a9863b2dd635be4ddfae7692060b0963c5c4b&v=4",
@@ -1208,6 +1273,19 @@
       "total_stars": 9748
     },
     {
+      "login": "kristoferjoseph",
+      "name": "kj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76308?s=88&u=e1dcf65bc4ec2d0eccb5d6d483608ffb478ca3bc&v=4",
+      "html_url": "https://github.com/kristoferjoseph",
+      "followers": 796,
+      "following": 26,
+      "public_repos": 246,
+      "location": "Bay Area",
+      "bio": "Dream ⌁ Create  ⌁ Collaborate",
+      "company": "@beginner-corp",
+      "total_stars": 9743
+    },
+    {
       "login": "freddier",
       "name": "Freddy Vega",
       "avatar_url": "https://avatars.githubusercontent.com/u/824191?s=88&u=b6489963b9bdf24377e1c4dacdf983426c2aaaeb&v=4",
@@ -1232,6 +1310,32 @@
       "bio": "Data Journalist 📝  -> Data Scientist 📊 -> Machine Learning Researcher 🔍 -> Developer Advocate 🤝",
       "company": "Twelve Labs",
       "total_stars": 9454
+    },
+    {
+      "login": "dinedal",
+      "name": "Paul Bergeron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/606028?s=88&u=8ffb76d45811e74b8c6f905199bd7b9acb036908&v=4",
+      "html_url": "https://github.com/dinedal",
+      "followers": 193,
+      "following": 73,
+      "public_repos": 22,
+      "location": "San Francisco, CA",
+      "bio": "https://twitter.com/dinedal",
+      "company": null,
+      "total_stars": 9187
+    },
+    {
+      "login": "gotwarlost",
+      "name": "Krishnan Anantheswaran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1056819?s=88&u=fb4301a5d7d40f0437d62cb8b597992ade3dd642&v=4",
+      "html_url": "https://github.com/gotwarlost",
+      "followers": 322,
+      "following": 6,
+      "public_repos": 20,
+      "location": "San Francisco Bay Area",
+      "bio": null,
+      "company": "@elastic",
+      "total_stars": 8926
     },
     {
       "login": "rxin",

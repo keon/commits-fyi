@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Japan",
   "slug": "japan",
-  "generated_at": "2026-05-18T15:58:45.879Z",
+  "generated_at": "2026-05-18T17:53:30.396Z",
   "counts": {
-    "users": 97,
+    "users": 154,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 271981,
+    "user_followers": 427233,
     "org_followers": 0,
-    "user_stars": 1085461,
+    "user_stars": 1463231,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -88,6 +88,19 @@
       "bio": "🍌banana banana banana",
       "company": "blueimp.net",
       "total_stars": 51066
+    },
+    {
+      "login": "mattn",
+      "name": "mattn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10111?s=88&u=4fb5caa72429300200740387758d9905611ab377&v=4",
+      "html_url": "https://github.com/mattn",
+      "followers": 13336,
+      "following": 1693,
+      "public_repos": 1120,
+      "location": "Osaka, Japan",
+      "bio": "Long-time Golang user&contributor, Google Dev Expert for Go, and author of many Go tools, Vim plugin author. Windows hacker C#/Java/C/C++, ex-GitHubStars",
+      "company": null,
+      "total_stars": 49569
     },
     {
       "login": "onevcat",
@@ -166,6 +179,19 @@
       "bio": "An autonomous navigation system engineer, and an OSS developer of #PythonRobotics and #SciPy etc. Japanese web page maintainer of #NumPy",
       "company": null,
       "total_stars": 31884
+    },
+    {
+      "login": "Shougo",
+      "name": "Shougo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41495?s=88&v=4",
+      "html_url": "https://github.com/Shougo",
+      "followers": 5031,
+      "following": 58,
+      "public_repos": 130,
+      "location": "Japan",
+      "bio": "The text editor is the world.",
+      "company": null,
+      "total_stars": 31848
     },
     {
       "login": "DayuanJiang",
@@ -285,6 +311,19 @@
       "total_stars": 20033
     },
     {
+      "login": "hrsh7th",
+      "name": "hrsh7th",
+      "avatar_url": "https://avatars.githubusercontent.com/u/629908?s=88&u=16e9a323ecb07499f0b6fd601d46fafb4d3565b4&v=4",
+      "html_url": "https://github.com/hrsh7th",
+      "followers": 1596,
+      "following": 37,
+      "public_repos": 121,
+      "location": "Fukuoka, Japan",
+      "bio": "I'm frontend developer.\r\n\r\nPlease use Twitter DM, I can't notice E-mail.\r\n\r\nnvim, LSP, TypeScript.",
+      "company": null,
+      "total_stars": 19078
+    },
+    {
       "login": "plouc",
       "name": "Raphaël Benitte",
       "avatar_url": "https://avatars.githubusercontent.com/u/501642?s=88&u=7ba82244f27da6ff91d21af078bf5c4be5f89780&v=4",
@@ -296,6 +335,32 @@
       "bio": null,
       "company": null,
       "total_stars": 18657
+    },
+    {
+      "login": "itchyny",
+      "name": "itchyny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/375258?s=88&u=a8226606854e9c6effbb3a867396a93390eaa218&v=4",
+      "html_url": "https://github.com/itchyny",
+      "followers": 1248,
+      "following": 0,
+      "public_repos": 128,
+      "location": "Kyoto, Japan",
+      "bio": "Professional of jq.",
+      "company": "Cybozu, Inc.",
+      "total_stars": 18504
+    },
+    {
+      "login": "mame",
+      "name": "Yusuke Endoh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21557?s=88&v=4",
+      "html_url": "https://github.com/mame",
+      "followers": 2945,
+      "following": 9,
+      "public_repos": 82,
+      "location": "Japan",
+      "bio": "World No.1 IOCCC player.  http://www.ioccc.org/winners.html#Yusuke_Endoh",
+      "company": "@heyinc",
+      "total_stars": 18312
     },
     {
       "login": "dai-shi",
@@ -311,6 +376,19 @@
       "total_stars": 16392
     },
     {
+      "login": "hoochanlon",
+      "name": "123456",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35732922?s=88&u=df2348b6932fc75f844f0a10dfaeb8df995ca889&v=4",
+      "html_url": "https://github.com/hoochanlon",
+      "followers": 1419,
+      "following": 9,
+      "public_repos": 18,
+      "location": "Taiwan, Japan",
+      "bio": "22/7, Nogizaka46 fans",
+      "company": "@HMUniversity",
+      "total_stars": 16194
+    },
+    {
       "login": "hajimehoshi",
       "name": "Hajime Hoshi",
       "avatar_url": "https://avatars.githubusercontent.com/u/16950?s=88&u=3592975d9e0bb52a2a1841642024a0458404abb9&v=4",
@@ -324,6 +402,32 @@
       "total_stars": 15505
     },
     {
+      "login": "craftzdog",
+      "name": "Takuya Matsuyama",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1332805?s=88&u=5b6e5cff00fb7e5ff533f3d3a0f5aa71b54337d4&v=4",
+      "html_url": "https://github.com/craftzdog",
+      "followers": 11603,
+      "following": 62,
+      "public_repos": 60,
+      "location": "Osaka, Japan",
+      "bio": "Digital crafts(man|dog)\r\n\r\n╥━━━━━━━━╭━━╮━━┳ ╢╭╮╭━━━━━┫┃▋▋━▅┣ ╢┃╰┫┈┈┈┈┈┃┃┈┈╰┫┣ ╢╰━┫┈┈┈┈┈╰╯╰┳━╯┣ ╢┊┊┃┏┳┳━━┓┏┳┫┊┊┣ ╨━━┗┛┗┛━━┗┛┗┛━━┻",
+      "company": "Freelancer",
+      "total_stars": 14954
+    },
+    {
+      "login": "lepture",
+      "name": "Hsiaoming Yang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/290496?s=88&v=4",
+      "html_url": "https://github.com/lepture",
+      "followers": 8810,
+      "following": 82,
+      "public_repos": 118,
+      "location": "Japan",
+      "bio": "Creator of @authlib and @typlog ",
+      "company": "@hsiaoming ",
+      "total_stars": 14524
+    },
+    {
       "login": "neuecc",
       "name": "Yoshifumi Kawai",
       "avatar_url": "https://avatars.githubusercontent.com/u/46207?s=88&u=8bb6c0de12451db4c1bf1165166b26d52d1d8747&v=4",
@@ -335,6 +439,32 @@
       "bio": "Founder/CEO/CTO of Cysharp, Inc. Microsoft MVP for Visual C# since 2011",
       "company": "@Cysharp",
       "total_stars": 14081
+    },
+    {
+      "login": "koide3",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/31344317?s=88&u=e33d8073f5ef2998959360a0c471038053758266&v=4",
+      "html_url": "https://github.com/koide3",
+      "followers": 1868,
+      "following": 3,
+      "public_repos": 62,
+      "location": "Japan",
+      "bio": "\r\n    \r\n",
+      "company": "AIST",
+      "total_stars": 13460
+    },
+    {
+      "login": "kevinzhow",
+      "name": "Kevin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1156192?s=88&u=b2b866f7ec90371a12e8f716e1d3fe396e1d9158&v=4",
+      "html_url": "https://github.com/kevinzhow",
+      "followers": 3897,
+      "following": 234,
+      "public_repos": 44,
+      "location": "Koshigaya, Japan",
+      "bio": "Code Design and Crafts",
+      "company": null,
+      "total_stars": 13427
     },
     {
       "login": "ra1028",
@@ -363,6 +493,32 @@
       "total_stars": 11794
     },
     {
+      "login": "dreamhunter2333",
+      "name": "Dream Hunter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32295532?s=88&u=826e7cda860335b939445106f62e2d65425c8bed&v=4",
+      "html_url": "https://github.com/dreamhunter2333",
+      "followers": 517,
+      "following": 245,
+      "public_repos": 91,
+      "location": "Tokyo",
+      "bio": "不知道为什么柠檬它围绕着我 ",
+      "company": "@awsl-project",
+      "total_stars": 11123
+    },
+    {
+      "login": "ksoichiro",
+      "name": "Soichiro Kashima",
+      "avatar_url": "https://avatars.githubusercontent.com/u/801987?s=88&v=4",
+      "html_url": "https://github.com/ksoichiro",
+      "followers": 627,
+      "following": 23,
+      "public_repos": 90,
+      "location": "Japan",
+      "bio": null,
+      "company": null,
+      "total_stars": 11006
+    },
+    {
       "login": "kazupon",
       "name": "kazuya kawaguchi",
       "avatar_url": "https://avatars.githubusercontent.com/u/72989?s=88&u=da19c1508357407cae0b7b11166b072c95c29786&v=4",
@@ -374,6 +530,19 @@
       "bio": "software engineer, @vuejs core team member, creator of gunshi, @intlify & i18n enthusiast, vue fes japan & @vuejs-jp organizer, and wasm love",
       "company": "PLAID, inc",
       "total_stars": 10917
+    },
+    {
+      "login": "bokuweb",
+      "name": "bokuweb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10220449?s=88&u=8abca2fc0fcaccae3b48b44078aa9a686ef0c488&v=4",
+      "html_url": "https://github.com/bokuweb",
+      "followers": 989,
+      "following": 111,
+      "public_repos": 163,
+      "location": "Japan",
+      "bio": "Embedded / Web Engineer",
+      "company": null,
+      "total_stars": 10716
     },
     {
       "login": "yuk7",
@@ -400,6 +569,45 @@
       "bio": "Gamer. Developer. Geek. iOS Software Engineer at @Third-Intelligence. Lover of writing OSS code and singer of bad karaoke. \r\n\r\n日本語もオッケ〜",
       "company": "Third Intelligence Inc.",
       "total_stars": 10289
+    },
+    {
+      "login": "PINTO0309",
+      "name": "Katsuya Hyodo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33194443?s=88&u=0019c57c227bbce13800d18c3b29c3465adbcefa&v=4",
+      "html_url": "https://github.com/PINTO0309",
+      "followers": 1862,
+      "following": 36,
+      "public_repos": 163,
+      "location": "Nagoya, Japan",
+      "bio": "Hobby programmer.\r\nIntel Software Innovator Program member. ",
+      "company": "CyberAgent, Inc.",
+      "total_stars": 10263
+    },
+    {
+      "login": "miurla",
+      "name": "Yoshiki Miura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3412179?s=88&u=6b7897666cc12c97243c3e07f0ec7a4d714e5e6c&v=4",
+      "html_url": "https://github.com/miurla",
+      "followers": 783,
+      "following": 7,
+      "public_repos": 8,
+      "location": "Tokyo",
+      "bio": null,
+      "company": null,
+      "total_stars": 10232
+    },
+    {
+      "login": "hecomi",
+      "name": "hecomi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/493433?s=88&v=4",
+      "html_url": "https://github.com/hecomi",
+      "followers": 1354,
+      "following": 36,
+      "public_repos": 87,
+      "location": "Japan",
+      "bio": "Unity / C++ / JavaScript",
+      "company": null,
+      "total_stars": 10058
     },
     {
       "login": "gkjohnson",
@@ -441,6 +649,32 @@
       "total_stars": 9165
     },
     {
+      "login": "mysticatea",
+      "name": "Toru Nagashima",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1937871?s=88&v=4",
+      "html_url": "https://github.com/mysticatea",
+      "followers": 1161,
+      "following": 41,
+      "public_repos": 63,
+      "location": "Shizuoka, Japan",
+      "bio": "A software developer.",
+      "company": null,
+      "total_stars": 8976
+    },
+    {
+      "login": "XiaomingX",
+      "name": "Y11",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5387930?s=88&u=1cd0cfa4ab9c6e30da495e621b850e4f61a203aa&v=4",
+      "html_url": "https://github.com/XiaomingX",
+      "followers": 11398,
+      "following": 5673,
+      "public_repos": 52,
+      "location": "Japan",
+      "bio": "Software Dev @ X | Linux, Java, Spring, Python, Golang, Next.js | Open Source Enthusiast | LLM Innovator | M.Sc. in Software Engineering 🚀",
+      "company": "Jobleap.cn",
+      "total_stars": 8670
+    },
+    {
       "login": "sureJiang",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/2107035?s=88&u=473196c054d59f039587b21f573643e7faff3fc5&v=4",
@@ -465,6 +699,19 @@
       "bio": null,
       "company": null,
       "total_stars": 7862
+    },
+    {
+      "login": "r9y9",
+      "name": "Ryuichi Yamamoto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1220272?s=88&v=4",
+      "html_url": "https://github.com/r9y9",
+      "followers": 1734,
+      "following": 105,
+      "public_repos": 78,
+      "location": "Nagoya, Japan",
+      "bio": "Speech Synthesis, Voice Conversion, Machine Learning, Singing Voice Synthesis",
+      "company": "@line",
+      "total_stars": 7636
     },
     {
       "login": "cambecc",
@@ -571,6 +818,19 @@
       "total_stars": 6652
     },
     {
+      "login": "drakeet",
+      "name": "Drakeet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5214214?s=88&u=e8d8e4a3828cebedd628bb7a8d11f0c77bea80b8&v=4",
+      "html_url": "https://github.com/drakeet",
+      "followers": 8010,
+      "following": 103,
+      "public_repos": 8,
+      "location": "Kyoto, Japan",
+      "bio": null,
+      "company": null,
+      "total_stars": 6575
+    },
+    {
       "login": "unhappychoice",
       "name": "Yuji Ueki",
       "avatar_url": "https://avatars.githubusercontent.com/u/5608948?s=88&u=6ca2fca8320cb6be5b802f6c5a6359933754ab2e&v=4",
@@ -595,6 +855,19 @@
       "bio": "Creator of @textlint, @secretlint, @honkit and @almin.\r\nEditor of @efcl, @jser and @ecmascript-daily.\r\nAuthor of @js-primer.\r\n(Don't send me email-ad.)",
       "company": null,
       "total_stars": 6371
+    },
+    {
+      "login": "matz",
+      "name": "Yukihiro \"Matz\" Matsumoto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30733?s=88&u=77a590bb5dddfc7e7ee0d1d058b05e0fb709653f&v=4",
+      "html_url": "https://github.com/matz",
+      "followers": 10420,
+      "following": 0,
+      "public_repos": 2,
+      "location": "Matsue, Japan",
+      "bio": "\r\n    \r\n",
+      "company": "Ruby Association,NaCl",
+      "total_stars": 6152
     },
     {
       "login": "BrambleXu",
@@ -636,6 +909,45 @@
       "total_stars": 6034
     },
     {
+      "login": "taiki-e",
+      "name": "Taiki Endo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43724913?s=88&v=4",
+      "html_url": "https://github.com/taiki-e",
+      "followers": 973,
+      "following": 0,
+      "public_repos": 53,
+      "location": "Japan",
+      "bio": null,
+      "company": null,
+      "total_stars": 5720
+    },
+    {
+      "login": "sumimakito",
+      "name": "Makito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5277268?s=88&u=74ea24e7a772762bbc109601120e461b22a1bc58&v=4",
+      "html_url": "https://github.com/sumimakito",
+      "followers": 1098,
+      "following": 101,
+      "public_repos": 63,
+      "location": "Japan",
+      "bio": null,
+      "company": "@Kong",
+      "total_stars": 5472
+    },
+    {
+      "login": "r7kamura",
+      "name": "Ryo Nakamura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111689?s=88&u=64ab12304da52634277b04537b8c4260affa2b4e&v=4",
+      "html_url": "https://github.com/r7kamura",
+      "followers": 898,
+      "following": 0,
+      "public_repos": 251,
+      "location": "Japan",
+      "bio": "✘╹◡╹✘",
+      "company": null,
+      "total_stars": 5224
+    },
+    {
       "login": "matchai",
       "name": "Matan Kushner",
       "avatar_url": "https://avatars.githubusercontent.com/u/4658208?s=88&u=c28d73978ca28a4b4ef32dce61fc54561a9a4cd2&v=4",
@@ -660,6 +972,45 @@
       "bio": "No ray tracing no life.",
       "company": "Light Transport Entertainment, Inc.",
       "total_stars": 5106
+    },
+    {
+      "login": "yusukebe",
+      "name": "Yusuke Wada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10682?s=88&u=e25e17b3626c5ed31c5304a9539cff96dd36e7d1&v=4",
+      "html_url": "https://github.com/yusukebe",
+      "followers": 3810,
+      "following": 364,
+      "public_repos": 297,
+      "location": "Yokohama, Japan",
+      "bio": "Developer Advocate @cloudflare / Creator of @honojs ",
+      "company": "@cloudflare",
+      "total_stars": 4914
+    },
+    {
+      "login": "typcn",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/8022103?s=88&u=4faa62d899a790acb2c98b65f77a724eb45ba8c0&v=4",
+      "html_url": "https://github.com/typcn",
+      "followers": 951,
+      "following": 38,
+      "public_repos": 27,
+      "location": "Kyoto",
+      "bio": "Just for fun",
+      "company": "One man company",
+      "total_stars": 4885
+    },
+    {
+      "login": "takahirom",
+      "name": "Takahiro Menju",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1386930?s=88&u=ded0546028d0c2993d504475d0de5f34d8cafc24&v=4",
+      "html_url": "https://github.com/takahirom",
+      "followers": 972,
+      "following": 203,
+      "public_repos": 169,
+      "location": "Japan",
+      "bio": "Google Developers Expert for Android \r\nCyberAgent.Inc, AbemaTv.Inc\r\n@abema ",
+      "company": null,
+      "total_stars": 4854
     },
     {
       "login": "domenic",
@@ -727,6 +1078,19 @@
       "total_stars": 4299
     },
     {
+      "login": "haya14busa",
+      "name": "haya14busa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3797062?s=88&v=4",
+      "html_url": "https://github.com/haya14busa",
+      "followers": 905,
+      "following": 58,
+      "public_repos": 180,
+      "location": "Japan",
+      "bio": "🐦 .｡oO( Vim ... )",
+      "company": null,
+      "total_stars": 4165
+    },
+    {
       "login": "ykob",
       "name": "Yoichi Kobayashi",
       "avatar_url": "https://avatars.githubusercontent.com/u/5755225?s=88&u=e4798d512bd6d153a516b5caa26c7a39133bf1e3&v=4",
@@ -751,6 +1115,19 @@
       "bio": "橋本 麦\r\nvideo director・tool developer",
       "company": null,
       "total_stars": 3437
+    },
+    {
+      "login": "Santos-Enoque",
+      "name": "Santos Enoque",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37243334?s=88&u=d9d19c70ad3f076a16225ffdb23e71a6bb5a7351&v=4",
+      "html_url": "https://github.com/Santos-Enoque",
+      "followers": 1753,
+      "following": 5,
+      "public_repos": 83,
+      "location": "Japan",
+      "bio": "Hey there I am Santos, full stack web developer, mobile dev, youtuber... and PhD student \r\n",
+      "company": "Cyberdyne",
+      "total_stars": 3392
     },
     {
       "login": "mariotaku",
@@ -792,6 +1169,19 @@
       "total_stars": 3110
     },
     {
+      "login": "mumoshu",
+      "name": "Yusuke Kuoka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22009?s=88&u=30f70bd7721631824bb62c807acd62f66412c94b&v=4",
+      "html_url": "https://github.com/mumoshu",
+      "followers": 1249,
+      "following": 59,
+      "public_repos": 157,
+      "location": "Kagawa, Japan",
+      "bio": "AWS Container Hero / GitHub Star Alumni / Maintains actions-runner-controller, helmfile, etc / Wanna be a paid OSS dev someday",
+      "company": "@surrealdb, @helmfile, @actions-runner-controller",
+      "total_stars": 3091
+    },
+    {
       "login": "sorah",
       "name": "Sorah Fukumori",
       "avatar_url": "https://avatars.githubusercontent.com/u/29440?s=88&u=edb1649250c65e786f7da69605973142d6509dc7&v=4",
@@ -803,6 +1193,19 @@
       "bio": "❤️ IP & Systems | Principal SWE @ivry-inc | AS59128 @kmc-jp | RubyKaigi Organizer",
       "company": "@ivry-inc | AS59128 @kmc-jp",
       "total_stars": 3090
+    },
+    {
+      "login": "i-saint",
+      "name": "Seiya Ishibashi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1488611?s=88&v=4",
+      "html_url": "https://github.com/i-saint",
+      "followers": 1452,
+      "following": 7,
+      "public_repos": 50,
+      "location": "Japan",
+      "bio": "Tools & Pipeline Engineer. ex-Polyphony Digital. ex-UnityTechnologies. ex-SquareEnix",
+      "company": null,
+      "total_stars": 3043
     },
     {
       "login": "seratch",
@@ -857,6 +1260,19 @@
       "total_stars": 2644
     },
     {
+      "login": "xqq",
+      "name": "xqq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4645762?s=88&u=45f129d86f07e07f6c562447a08b092ed2731cf2&v=4",
+      "html_url": "https://github.com/xqq",
+      "followers": 2863,
+      "following": 393,
+      "public_repos": 23,
+      "location": "Japan",
+      "bio": null,
+      "company": "Danmaku Council",
+      "total_stars": 2610
+    },
+    {
       "login": "tokuhirom",
       "name": "Tokuhiro Matsuno",
       "avatar_url": "https://avatars.githubusercontent.com/u/21084?s=88&v=4",
@@ -868,6 +1284,32 @@
       "bio": "Go/Kotlin/Rust/Python engineer.\r\nI wrote Java, Perl5, C, C++, Kotlin, and golang for $DAYJOB.",
       "company": "Sakura Internet",
       "total_stars": 2494
+    },
+    {
+      "login": "trananhtuat",
+      "name": "Tran Anh Tuat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67447840?s=88&u=2e65d6bdf624ae888ac6f362361a00dcf6a31cd3&v=4",
+      "html_url": "https://github.com/trananhtuat",
+      "followers": 1745,
+      "following": 0,
+      "public_repos": 75,
+      "location": "Japan",
+      "bio": "Một người Việt đam mê lập trình - \r\nA Vietnamese boy who passionate about programming",
+      "company": null,
+      "total_stars": 2458
+    },
+    {
+      "login": "xct",
+      "name": "xct",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9291767?s=88&u=12218bb318e93000fd9165c1b042fc8bbe8a1061&v=4",
+      "html_url": "https://github.com/xct",
+      "followers": 1255,
+      "following": 199,
+      "public_repos": 32,
+      "location": "Yokohama",
+      "bio": "Hobby ⚑ Collector",
+      "company": "Hack The Box",
+      "total_stars": 2391
     },
     {
       "login": "wass08",
@@ -907,6 +1349,19 @@
       "bio": "❤️ TypeScript, Go, GraphQL and 🐈 ",
       "company": "Merpay, Inc.",
       "total_stars": 1806
+    },
+    {
+      "login": "tatsuhiro-t",
+      "name": "Tatsuhiro Tsujikawa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/404610?s=88&u=fb111a1a5590572efb6b792194469eacd9dea662&v=4",
+      "html_url": "https://github.com/tatsuhiro-t",
+      "followers": 1193,
+      "following": 2,
+      "public_repos": 11,
+      "location": "Japan",
+      "bio": null,
+      "company": null,
+      "total_stars": 1735
     },
     {
       "login": "Phineas",
@@ -961,6 +1416,71 @@
       "total_stars": 1464
     },
     {
+      "login": "Bunlong",
+      "name": "Bunlong VAN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1308397?s=88&u=945dc6b97571e2b98b659d34b1c81ae2514046bf&v=4",
+      "html_url": "https://github.com/Bunlong",
+      "followers": 2116,
+      "following": 24239,
+      "public_repos": 112,
+      "location": "❤️ Japan ❤️ にほん ❤️",
+      "bio": "❤️ Open Source Enthusiast™ ❤️ Math / Algorithm Enthusiast™ ❤️ The Creator of @algorithmshub @reactpatterns ❤️",
+      "company": "❤️ @reactjs ❤️ @algorithmshub ❤️",
+      "total_stars": 1424
+    },
+    {
+      "login": "planetchili",
+      "name": "chili",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7800662?s=88&u=9e81f2cbc795e5278e3598f59a5c99c728e60b45&v=4",
+      "html_url": "https://github.com/planetchili",
+      "followers": 1370,
+      "following": 2,
+      "public_repos": 41,
+      "location": "Japan",
+      "bio": null,
+      "company": "Planet Chili",
+      "total_stars": 1393
+    },
+    {
+      "login": "simurai",
+      "name": "simurai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/378023?s=88&u=61cccfbe4951df52fedd133da506644f62721489&v=4",
+      "html_url": "https://github.com/simurai",
+      "followers": 2088,
+      "following": 69,
+      "public_repos": 27,
+      "location": "Sapporo, Japan",
+      "bio": "Vibe styler ✨",
+      "company": "GitHub",
+      "total_stars": 1326
+    },
+    {
+      "login": "catnose99",
+      "name": "catnose",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34590683?s=88&u=1af8358707f8c7363f5c2ed1e5f3e7a565954650&v=4",
+      "html_url": "https://github.com/catnose99",
+      "followers": 986,
+      "following": 8,
+      "public_repos": 11,
+      "location": "Japan",
+      "bio": "Frontend developer.\r\n",
+      "company": null,
+      "total_stars": 1182
+    },
+    {
+      "login": "sapphi-red",
+      "name": "翠",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49056869?s=88&u=ec70859392ec0140d60446f7815ad2bf857904fd&v=4",
+      "html_url": "https://github.com/sapphi-red",
+      "followers": 1442,
+      "following": 20,
+      "public_repos": 60,
+      "location": "Japan",
+      "bio": "@vitejs core team member",
+      "company": "void (0)",
+      "total_stars": 1122
+    },
+    {
       "login": "naoya",
       "name": "Naoya Ito",
       "avatar_url": "https://avatars.githubusercontent.com/u/8991?s=88&v=4",
@@ -1000,6 +1520,19 @@
       "total_stars": 916
     },
     {
+      "login": "syuilo",
+      "name": "syuilo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4439005?s=88&u=771be0bea0a25c63648e8932eaa21d89d1eab271&v=4",
+      "html_url": "https://github.com/syuilo",
+      "followers": 1187,
+      "following": 10,
+      "public_repos": 90,
+      "location": "Japan, Kanagawa",
+      "bio": "Full-Time Open-Sourcerer.\r\nAuthor of Misskey.",
+      "company": null,
+      "total_stars": 890
+    },
+    {
       "login": "hoshinolina",
       "name": "Hoshino Lina",
       "avatar_url": "https://avatars.githubusercontent.com/u/102031928?s=88&u=11a4b4746de44bfe90a5b6812decf829fe472597&v=4",
@@ -1026,6 +1559,19 @@
       "total_stars": 880
     },
     {
+      "login": "komavideo",
+      "name": "komavideo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36214529?s=88&u=fa63223aceb62211fe4ca7291fc9c04f273816d8&v=4",
+      "html_url": "https://github.com/komavideo",
+      "followers": 1052,
+      "following": 1,
+      "public_repos": 69,
+      "location": "Japan",
+      "bio": "I like new technology.\r\n我喜欢新技术。\r\n新たな技術が大好きだよ。",
+      "company": null,
+      "total_stars": 867
+    },
+    {
       "login": "twada",
       "name": "Takuto Wada",
       "avatar_url": "https://avatars.githubusercontent.com/u/19881?s=88&v=4",
@@ -1037,6 +1583,19 @@
       "bio": null,
       "company": "Towersquest Inc.",
       "total_stars": 807
+    },
+    {
+      "login": "SachaG",
+      "name": "Sacha Greif",
+      "avatar_url": "https://avatars.githubusercontent.com/u/358832?s=88&v=4",
+      "html_url": "https://github.com/SachaG",
+      "followers": 1306,
+      "following": 54,
+      "public_repos": 65,
+      "location": "Osaka, Japan",
+      "bio": null,
+      "company": null,
+      "total_stars": 801
     },
     {
       "login": "cpojer",
@@ -1078,6 +1637,19 @@
       "total_stars": 748
     },
     {
+      "login": "HlaingTinHtun",
+      "name": "Hlaing Tin Htun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16604219?s=88&u=732694373727e480b1131778e360e544e78a8c79&v=4",
+      "html_url": "https://github.com/HlaingTinHtun",
+      "followers": 886,
+      "following": 48,
+      "public_repos": 51,
+      "location": "Osaka",
+      "bio": "Working as BrSE/PM in Osaka, Japan. When I'm not working, you'll find me playing soccer or contributing here just for fun.",
+      "company": "SpiceFactory",
+      "total_stars": 554
+    },
+    {
       "login": "eltociear",
       "name": "Ikko Eltociear Ashimine",
       "avatar_url": "https://avatars.githubusercontent.com/u/22633385?s=88&u=29190f6c8aed91fa9574b064a9995f1e49944acf&v=4",
@@ -1089,6 +1661,32 @@
       "bio": "AI-driven developer @ Tokyo.\r\nLoves 🎸/🐈/🍛/🏝/⛰",
       "company": null,
       "total_stars": 532
+    },
+    {
+      "login": "AdiChat",
+      "name": "Aditya Chatterjee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10634210?s=88&u=ca2f33042a4105efffec283cad9439ecf6aced1c&v=4",
+      "html_url": "https://github.com/AdiChat",
+      "followers": 3222,
+      "following": 15,
+      "public_repos": 21,
+      "location": "❤️ India ✈ Japan",
+      "bio": "Aditya Chatterjee is an Independent Algorithmic Researcher, Software Developer and Technical Author. He is the founding member of @OPENGENUS ⛄ PhD at TokyoTech",
+      "company": "@OpenGenus ",
+      "total_stars": 525
+    },
+    {
+      "login": "ab25cq",
+      "name": "ab25cq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3233635?s=88&u=d5140c1e0e2c671f8e2ee271d3d298bcd893eabf&v=4",
+      "html_url": "https://github.com/ab25cq",
+      "followers": 1114,
+      "following": 2519,
+      "public_repos": 39,
+      "location": "Kyoto, Japan",
+      "bio": "care worker",
+      "company": "Nursing home. Care worker",
+      "total_stars": 494
     },
     {
       "login": "chomado",
@@ -1130,6 +1728,19 @@
       "total_stars": 432
     },
     {
+      "login": "zcbenz",
+      "name": "Cheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/639601?s=88&u=b726a177170e74aa10fc3061f27da82822fa29d3&v=4",
+      "html_url": "https://github.com/zcbenz",
+      "followers": 7859,
+      "following": 42,
+      "public_repos": 21,
+      "location": "Japan",
+      "bio": "I made :electron: ",
+      "company": "Apple",
+      "total_stars": 398
+    },
+    {
       "login": "glassesfactory",
       "name": "YAMAGUCHI EIKICHI",
       "avatar_url": "https://avatars.githubusercontent.com/u/246054?s=88&v=4",
@@ -1143,6 +1754,19 @@
       "total_stars": 383
     },
     {
+      "login": "peppy",
+      "name": "Dean Herbert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/191335?s=88&u=f05638a32068429ed4ca4e75e5a8c3d08c77d1f1&v=4",
+      "html_url": "https://github.com/peppy",
+      "followers": 5024,
+      "following": 31,
+      "public_repos": 29,
+      "location": "Japan",
+      "bio": "(๑・ω・๑)",
+      "company": "@ppy ",
+      "total_stars": 349
+    },
+    {
       "login": "NicolasDorier",
       "name": "Nicolas Dorier",
       "avatar_url": "https://avatars.githubusercontent.com/u/3020646?s=88&u=256d78207f88d303d61b62060a309657276cf6cb&v=4",
@@ -1154,6 +1778,19 @@
       "bio": null,
       "company": "DG Lab",
       "total_stars": 348
+    },
+    {
+      "login": "manman4",
+      "name": "manman4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7023566?s=88&u=23a789fef96ddbb09ae8b07da9c69216672177c7&v=4",
+      "html_url": "https://github.com/manman4",
+      "followers": 4390,
+      "following": 4986,
+      "public_repos": 27,
+      "location": "Japan",
+      "bio": "Editor-in-Chief, On-Line Encyclopedia of Integer Sequences (OEIS).",
+      "company": null,
+      "total_stars": 271
     },
     {
       "login": "hardfist",
@@ -1221,6 +1858,58 @@
       "total_stars": 185
     },
     {
+      "login": "JohnTitor",
+      "name": "Yuki Okushi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25030997?s=88&u=db71533f10e17ce4e132dd0f80043e8e8160802f&v=4",
+      "html_url": "https://github.com/JohnTitor",
+      "followers": 1486,
+      "following": 17,
+      "public_repos": 32,
+      "location": "Japan",
+      "bio": "Japanese codewriting ninja",
+      "company": null,
+      "total_stars": 179
+    },
+    {
+      "login": "yoidea",
+      "name": "ラムダ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26201815?s=88&u=0a661deb1cb00db33c16086ac3f49401d411d7c3&v=4",
+      "html_url": "https://github.com/yoidea",
+      "followers": 1073,
+      "following": 22,
+      "public_repos": 30,
+      "location": "Nagano, Japan",
+      "bio": "As a ラムダ技術部, I post videos on YouTube among other activities.",
+      "company": "ラムダ技術部",
+      "total_stars": 176
+    },
+    {
+      "login": "JackVanta",
+      "name": "🔵 Jack (Vanta) 🔵",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22605150?s=88&u=d3319394b4142639c61c645ad1b4191a370b2ab5&v=4",
+      "html_url": "https://github.com/JackVanta",
+      "followers": 1168,
+      "following": 497,
+      "public_repos": 28,
+      "location": "Osaka",
+      "bio": "Anime Enthusiast, Js lover.\r\n\r\n",
+      "company": "Previous @ 4digit.com",
+      "total_stars": 156
+    },
+    {
+      "login": "rikusato0",
+      "name": "Riku Sato",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61879623?s=88&u=dc4af6b98ce9a0d5f21abf3e2b5b32e477d1eebb&v=4",
+      "html_url": "https://github.com/rikusato0",
+      "followers": 1830,
+      "following": 4108,
+      "public_repos": 18,
+      "location": "Japan",
+      "bio": "Just helping",
+      "company": "Remote",
+      "total_stars": 150
+    },
+    {
       "login": "ikeay",
       "name": "Ayaka Ikezawa",
       "avatar_url": "https://avatars.githubusercontent.com/u/1245781?s=88&u=a7e22a8214f85e207cdfa081b632f33fcf48fc0f&v=4",
@@ -1232,6 +1921,19 @@
       "bio": null,
       "company": null,
       "total_stars": 141
+    },
+    {
+      "login": "haruue",
+      "name": "Haruue",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13131972?s=88&u=5ce70f62b5732970a3bc6e3e0717f65052b1eca0&v=4",
+      "html_url": "https://github.com/haruue",
+      "followers": 945,
+      "following": 83,
+      "public_repos": 18,
+      "location": "Osaka",
+      "bio": "Networking | BGP Player | former Android App Dev | I use Arch, btw",
+      "company": null,
+      "total_stars": 138
     },
     {
       "login": "smorimoto",
@@ -1284,6 +1986,45 @@
       "bio": "🎓 B.S. in Computer Science | Senior Full-Stack Developer",
       "company": null,
       "total_stars": 52
+    },
+    {
+      "login": "kiaking",
+      "name": "Kia King",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3753672?s=88&v=4",
+      "html_url": "https://github.com/kiaking",
+      "followers": 887,
+      "following": 93,
+      "public_repos": 14,
+      "location": "Kanagawa, Japan",
+      "bio": "The optimist web designer/developer. @vuejs core team member. VitePress and Vue’s design system. Partner at @globalbrain.",
+      "company": "@globalbrain ",
+      "total_stars": 51
+    },
+    {
+      "login": "tekezo",
+      "name": "Takayama Fumihiko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/659178?s=88&v=4",
+      "html_url": "https://github.com/tekezo",
+      "followers": 1061,
+      "following": 464,
+      "public_repos": 5,
+      "location": "Japan",
+      "bio": null,
+      "company": null,
+      "total_stars": 50
+    },
+    {
+      "login": "nobu",
+      "name": "Nobuyoshi Nakada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16700?s=88&u=6d2ffd91f42472c93d8238f63e36ab75301bbbd0&v=4",
+      "html_url": "https://github.com/nobu",
+      "followers": 1035,
+      "following": 2,
+      "public_repos": 20,
+      "location": "Kanuma, Tochigi, Japan",
+      "bio": null,
+      "company": "Nihon Ruby-no-Kai",
+      "total_stars": 43
     },
     {
       "login": "Sen-Takatsuki",
@@ -1456,6 +2197,17 @@
       "pushed_at": "2026-05-15T14:02:35Z"
     },
     {
+      "full_name": "mame/quine-relay",
+      "html_url": "https://github.com/mame/quine-relay",
+      "description": "An uroboros program with 100+ programming languages",
+      "stargazers_count": 14480,
+      "forks_count": 572,
+      "watchers_count": 0,
+      "language": "Ruby",
+      "created_at": "2013-07-15T13:29:20Z",
+      "pushed_at": "2025-10-24T15:12:43Z"
+    },
+    {
       "full_name": "plouc/nivo",
       "html_url": "https://github.com/plouc/nivo",
       "description": "nivo provides a rich set of dataviz components, built on top of the awesome d3 and React libraries",
@@ -1522,6 +2274,61 @@
       "pushed_at": "2022-03-08T16:07:21Z"
     },
     {
+      "full_name": "kevinzhow/PNChart",
+      "html_url": "https://github.com/kevinzhow/PNChart",
+      "description": "A simple and beautiful chart lib used in Piner and CoinsMan for iOS",
+      "stargazers_count": 9656,
+      "forks_count": 1741,
+      "watchers_count": 0,
+      "language": "Objective-C",
+      "created_at": "2013-11-06T22:06:17Z",
+      "pushed_at": "2018-07-02T12:43:03Z"
+    },
+    {
+      "full_name": "ksoichiro/Android-ObservableScrollView",
+      "html_url": "https://github.com/ksoichiro/Android-ObservableScrollView",
+      "description": "Android library to observe scroll events on scrollable views.",
+      "stargazers_count": 9611,
+      "forks_count": 2044,
+      "watchers_count": 0,
+      "language": "Java",
+      "created_at": "2014-11-08T14:45:20Z",
+      "pushed_at": "2021-06-01T03:54:51Z"
+    },
+    {
+      "full_name": "dreamhunter2333/cloudflare_temp_email",
+      "html_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+      "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+      "stargazers_count": 9450,
+      "forks_count": 6002,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2023-08-15T16:35:52Z",
+      "pushed_at": "2026-05-17T07:56:07Z"
+    },
+    {
+      "full_name": "hoochanlon/hamuleite",
+      "html_url": "https://github.com/hoochanlon/hamuleite",
+      "description": "🏔️国立台湾大学、新加坡国立大学、早稻田大学、东京大学，中央研究院（台湾）以及中国重点高校及科研机构，社科、经济、数学、博弈论、哲学、系统工程类学术论文等知识库。",
+      "stargazers_count": 9434,
+      "forks_count": 1883,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2018-02-15T14:14:32Z",
+      "pushed_at": "2026-05-15T13:50:51Z"
+    },
+    {
+      "full_name": "hrsh7th/nvim-cmp",
+      "html_url": "https://github.com/hrsh7th/nvim-cmp",
+      "description": "A completion plugin for neovim coded in Lua.",
+      "stargazers_count": 9425,
+      "forks_count": 437,
+      "watchers_count": 0,
+      "language": "Lua",
+      "created_at": "2021-06-29T18:01:04Z",
+      "pushed_at": "2026-03-25T15:30:57Z"
+    },
+    {
       "full_name": "wasabeef/android-gpuimage",
       "html_url": "https://github.com/wasabeef/android-gpuimage",
       "description": "Android filters based on OpenGL (idea from GPUImage for iOS)",
@@ -1531,6 +2338,28 @@
       "language": "Java",
       "created_at": "2012-10-04T08:11:58Z",
       "pushed_at": "2022-08-03T16:07:30Z"
+    },
+    {
+      "full_name": "mattn/go-sqlite3",
+      "html_url": "https://github.com/mattn/go-sqlite3",
+      "description": "sqlite3 driver for go using database/sql",
+      "stargazers_count": 9099,
+      "forks_count": 1160,
+      "watchers_count": 0,
+      "language": "C",
+      "created_at": "2011-11-11T12:36:50Z",
+      "pushed_at": "2026-04-29T09:20:28Z"
+    },
+    {
+      "full_name": "miurla/morphic",
+      "html_url": "https://github.com/miurla/morphic",
+      "description": "An AI-powered search engine with a generative UI",
+      "stargazers_count": 8838,
+      "forks_count": 2340,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2024-04-05T13:55:29Z",
+      "pushed_at": "2026-05-12T23:57:08Z"
     },
     {
       "full_name": "onevcat/VVDocumenter-Xcode",
@@ -1621,6 +2450,28 @@
       "pushed_at": "2023-10-31T22:01:01Z"
     },
     {
+      "full_name": "craftzdog/dotfiles-public",
+      "html_url": "https://github.com/craftzdog/dotfiles-public",
+      "description": "My personal dotfiles",
+      "stargazers_count": 7105,
+      "forks_count": 1161,
+      "watchers_count": 0,
+      "language": "Lua",
+      "created_at": "2020-10-15T07:23:52Z",
+      "pushed_at": "2026-02-20T09:57:57Z"
+    },
+    {
+      "full_name": "itchyny/lightline.vim",
+      "html_url": "https://github.com/itchyny/lightline.vim",
+      "description": "A light and configurable statusline/tabline plugin for Vim",
+      "stargazers_count": 6865,
+      "forks_count": 316,
+      "watchers_count": 0,
+      "language": "Vim Script",
+      "created_at": "2013-08-21T15:45:53Z",
+      "pushed_at": "2026-04-12T22:25:11Z"
+    },
+    {
       "full_name": "cambecc/earth",
       "html_url": "https://github.com/cambecc/earth",
       "description": "a project to visualize global weather conditions",
@@ -1641,6 +2492,17 @@
       "language": "TypeScript",
       "created_at": "2020-08-22T16:21:19Z",
       "pushed_at": "2026-04-13T01:26:28Z"
+    },
+    {
+      "full_name": "mattn/emmet-vim",
+      "html_url": "https://github.com/mattn/emmet-vim",
+      "description": "emmet for vim: http://emmet.io/",
+      "stargazers_count": 6462,
+      "forks_count": 416,
+      "watchers_count": 0,
+      "language": "Vim Script",
+      "created_at": "2010-02-18T13:29:20Z",
+      "pushed_at": "2026-03-24T08:18:49Z"
     },
     {
       "full_name": "rui314/8cc",
@@ -1676,6 +2538,39 @@
       "pushed_at": "2018-10-31T11:42:42Z"
     },
     {
+      "full_name": "Shougo/deoplete.nvim",
+      "html_url": "https://github.com/Shougo/deoplete.nvim",
+      "description": ":stars: Dark powered asynchronous completion framework for neovim/Vim8",
+      "stargazers_count": 5912,
+      "forks_count": 284,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2014-11-27T11:58:33Z",
+      "pushed_at": "2024-06-05T23:46:12Z"
+    },
+    {
+      "full_name": "mysticatea/npm-run-all",
+      "html_url": "https://github.com/mysticatea/npm-run-all",
+      "description": "A CLI tool to run multiple npm-scripts in parallel or sequential.",
+      "stargazers_count": 5837,
+      "forks_count": 240,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2015-03-23T11:18:26Z",
+      "pushed_at": "2024-08-15T05:51:28Z"
+    },
+    {
+      "full_name": "drakeet/MultiType",
+      "html_url": "https://github.com/drakeet/MultiType",
+      "description": "Flexible multiple types for Android RecyclerView.",
+      "stargazers_count": 5766,
+      "forks_count": 747,
+      "watchers_count": 0,
+      "language": "Kotlin",
+      "created_at": "2016-08-03T12:55:32Z",
+      "pushed_at": "2022-08-28T04:51:44Z"
+    },
+    {
       "full_name": "mob-sakai/ParticleEffectForUGUI",
       "html_url": "https://github.com/mob-sakai/ParticleEffectForUGUI",
       "description": "Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas.",
@@ -1696,160 +2591,6 @@
       "language": "Python",
       "created_at": "2015-11-24T15:43:25Z",
       "pushed_at": "2024-04-15T19:15:44Z"
-    },
-    {
-      "full_name": "wasabeef/Blurry",
-      "html_url": "https://github.com/wasabeef/Blurry",
-      "description": "Blurry is an easy blur library for Android",
-      "stargazers_count": 5656,
-      "forks_count": 604,
-      "watchers_count": 0,
-      "language": "Java",
-      "created_at": "2015-07-23T14:12:08Z",
-      "pushed_at": "2023-04-27T15:54:45Z"
-    },
-    {
-      "full_name": "rhysd/vim.wasm",
-      "html_url": "https://github.com/rhysd/vim.wasm",
-      "description": "Vim editor ported to WebAssembly",
-      "stargazers_count": 5624,
-      "forks_count": 147,
-      "watchers_count": 0,
-      "language": "Vim Script",
-      "created_at": "2018-07-01T13:00:18Z",
-      "pushed_at": "2026-02-25T16:49:20Z"
-    },
-    {
-      "full_name": "wasabeef/awesome-android-libraries",
-      "html_url": "https://github.com/wasabeef/awesome-android-libraries",
-      "description": "This is an alphabetical list of libraries for Android development, the majority being actively maintained.",
-      "stargazers_count": 5530,
-      "forks_count": 1230,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2014-10-28T14:22:59Z",
-      "pushed_at": "2023-08-29T05:35:31Z"
-    },
-    {
-      "full_name": "hiroppy/fusuma",
-      "html_url": "https://github.com/hiroppy/fusuma",
-      "description": "✍️ Fusuma makes slides with Markdown easily.",
-      "stargazers_count": 5377,
-      "forks_count": 191,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "created_at": "2018-04-26T01:04:48Z",
-      "pushed_at": "2024-12-05T23:10:12Z"
-    },
-    {
-      "full_name": "wkentaro/gdown",
-      "html_url": "https://github.com/wkentaro/gdown",
-      "description": "Google Drive public file downloader when curl/wget fails.",
-      "stargazers_count": 5248,
-      "forks_count": 415,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2015-10-17T03:01:23Z",
-      "pushed_at": "2026-05-12T11:27:41Z"
-    },
-    {
-      "full_name": "TimOliver/TOCropViewController",
-      "html_url": "https://github.com/TimOliver/TOCropViewController",
-      "description": "A view controller for iOS that allows users to crop portions of UIImage objects",
-      "stargazers_count": 4926,
-      "forks_count": 1023,
-      "watchers_count": 0,
-      "language": "Objective-C",
-      "created_at": "2015-06-06T22:53:07Z",
-      "pushed_at": "2026-04-07T14:30:52Z"
-    },
-    {
-      "full_name": "unhappychoice/gitlogue",
-      "html_url": "https://github.com/unhappychoice/gitlogue",
-      "description": "A cinematic Git commit replay tool for the terminal, turning your Git history into a living, animated story.",
-      "stargazers_count": 4742,
-      "forks_count": 105,
-      "watchers_count": 0,
-      "language": "Rust",
-      "created_at": "2025-11-08T21:22:33Z",
-      "pushed_at": "2026-05-14T23:48:15Z"
-    },
-    {
-      "full_name": "BrambleXu/pydata-notebook",
-      "html_url": "https://github.com/BrambleXu/pydata-notebook",
-      "description": "利用Python进行数据分析 第二版 (2017) 中文翻译笔记",
-      "stargazers_count": 4663,
-      "forks_count": 1618,
-      "watchers_count": 0,
-      "language": "Jupyter Notebook",
-      "created_at": "2017-10-22T01:03:56Z",
-      "pushed_at": "2018-05-08T12:39:43Z"
-    },
-    {
-      "full_name": "Jannchie/Historical-ranking-data-visualization-based-on-d3.js",
-      "html_url": "https://github.com/Jannchie/Historical-ranking-data-visualization-based-on-d3.js",
-      "description": "[Deprecated!] This is a data visualization project that converts historical data rankings into dynamic bar charts.",
-      "stargazers_count": 4659,
-      "forks_count": 1083,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "created_at": "2018-06-14T01:51:20Z",
-      "pushed_at": "2020-10-07T06:52:37Z"
-    },
-    {
-      "full_name": "blueimp/JavaScript-MD5",
-      "html_url": "https://github.com/blueimp/JavaScript-MD5",
-      "description": "JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.",
-      "stargazers_count": 4566,
-      "forks_count": 1722,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "created_at": "2011-12-10T20:42:25Z",
-      "pushed_at": "2021-09-25T14:53:13Z"
-    },
-    {
-      "full_name": "blueimp/JavaScript-Load-Image",
-      "html_url": "https://github.com/blueimp/JavaScript-Load-Image",
-      "description": "Load images provided as File or Blob objects or via URL. Retrieve an optionally scaled, cropped or rotated HTML img or canvas element. Use methods to parse image metadata to extract IPTC and Exif tags",
-      "stargazers_count": 4463,
-      "forks_count": 922,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "created_at": "2011-12-12T22:22:36Z",
-      "pushed_at": "2021-10-20T14:18:03Z"
-    },
-    {
-      "full_name": "dennybritz/deeplearning-papernotes",
-      "html_url": "https://github.com/dennybritz/deeplearning-papernotes",
-      "description": "Summaries and notes on Deep Learning research papers",
-      "stargazers_count": 4421,
-      "forks_count": 898,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2015-12-19T18:34:21Z",
-      "pushed_at": "2018-02-13T01:04:02Z"
-    },
-    {
-      "full_name": "keijiro/AICommand",
-      "html_url": "https://github.com/keijiro/AICommand",
-      "description": "ChatGPT integration with Unity Editor",
-      "stargazers_count": 4118,
-      "forks_count": 425,
-      "watchers_count": 0,
-      "language": "C#",
-      "created_at": "2023-03-18T09:23:23Z",
-      "pushed_at": "2023-12-05T14:02:11Z"
-    },
-    {
-      "full_name": "rhysd/actionlint",
-      "html_url": "https://github.com/rhysd/actionlint",
-      "description": ":octocat: Static checker for GitHub Actions workflow files",
-      "stargazers_count": 3884,
-      "forks_count": 220,
-      "watchers_count": 0,
-      "language": "Go",
-      "created_at": "2021-05-25T11:27:00Z",
-      "pushed_at": "2026-04-19T14:46:58Z"
     }
   ]
 }

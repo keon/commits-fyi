@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-05-18T15:56:14.335Z",
+  "generated_at": "2026-05-18T17:49:29.619Z",
   "counts": {
-    "users": 150,
+    "users": 151,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 176822,
+    "user_followers": 177098,
     "org_followers": 0,
-    "user_stars": 564425,
+    "user_stars": 574302,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -127,6 +127,19 @@
       "bio": "\r\n",
       "company": "HashiCorp",
       "total_stars": 10888
+    },
+    {
+      "login": "jiaaro",
+      "name": "James Robert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/232593?s=88&u=90405258646726414616a4113e6f52c6f08716a9&v=4",
+      "html_url": "https://github.com/jiaaro",
+      "followers": 276,
+      "following": 41,
+      "public_repos": 13,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": "Kizen",
+      "total_stars": 9877
     },
     {
       "login": "KilledByAPixel",
@@ -2057,6 +2070,17 @@
       "pushed_at": "2026-04-16T16:42:57Z"
     },
     {
+      "full_name": "jiaaro/pydub",
+      "html_url": "https://github.com/jiaaro/pydub",
+      "description": "Manipulate audio with a simple and easy high level interface",
+      "stargazers_count": 9756,
+      "forks_count": 1129,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2011-05-02T18:42:38Z",
+      "pushed_at": "2026-03-19T21:32:30Z"
+    },
+    {
       "full_name": "daltoniam/Starscream",
       "html_url": "https://github.com/daltoniam/Starscream",
       "description": "Websockets in swift for iOS and OSX",
@@ -2528,17 +2552,6 @@
       "language": "Jupyter Notebook",
       "created_at": "2017-10-13T15:44:06Z",
       "pushed_at": "2026-03-03T17:49:37Z"
-    },
-    {
-      "full_name": "davatron5000/awesome-standalones",
-      "html_url": "https://github.com/davatron5000/awesome-standalones",
-      "description": "A curated list of awesome framework-agnostic standalone web components",
-      "stargazers_count": 1469,
-      "forks_count": 59,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2019-12-14T18:21:32Z",
-      "pushed_at": "2025-03-04T16:33:28Z"
     }
   ]
 }

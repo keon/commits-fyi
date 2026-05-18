@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-05-18T15:56:41.998Z",
+  "generated_at": "2026-05-18T17:49:35.729Z",
   "counts": {
-    "users": 156,
+    "users": 158,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 491617,
+    "user_followers": 492341,
     "org_followers": 0,
-    "user_stars": 1692392,
+    "user_stars": 1711364,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -649,6 +649,32 @@
       "total_stars": 9858
     },
     {
+      "login": "sjwhitworth",
+      "name": "Stephen Whitworth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3883338?s=88&u=5a5349dc819ed754d792ded0646ada62f8a6e15d&v=4",
+      "html_url": "https://github.com/sjwhitworth",
+      "followers": 400,
+      "following": 20,
+      "public_repos": 13,
+      "location": "London",
+      "bio": null,
+      "company": "@monzo ",
+      "total_stars": 9758
+    },
+    {
+      "login": "shashank88",
+      "name": "shashank khare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5579108?s=88&u=35dc0708067d13f652a8363460ef4a0c5923268a&v=4",
+      "html_url": "https://github.com/shashank88",
+      "followers": 324,
+      "following": 11,
+      "public_repos": 9,
+      "location": "London",
+      "bio": null,
+      "company": "@man-group",
+      "total_stars": 9214
+    },
+    {
       "login": "valeman",
       "name": "valeman",
       "avatar_url": "https://avatars.githubusercontent.com/u/26203246?s=88&u=76fc841b27850920ead8fb592347f826533c2cd9&v=4",
@@ -662,19 +688,6 @@
       "total_stars": 9211
     },
     {
-      "login": "sebastianstarke",
-      "name": "Sebastian Starke",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20269775?s=88&u=d8675f163054fe2207d08fbf96809c7e6dea0229&v=4",
-      "html_url": "https://github.com/sebastianstarke",
-      "followers": 1654,
-      "following": 23,
-      "public_repos": 7,
-      "location": "London, UK",
-      "bio": "Research Scientist @ Meta, PhD @ UoE. Formerly @ Electronic Arts, Adobe Research. Enjoying coffee and life in no particular order.",
-      "company": null,
-      "total_stars": 9129
-    },
-    {
       "login": "wiseodd",
       "name": "Agustinus Kristiadi",
       "avatar_url": "https://avatars.githubusercontent.com/u/2296722?s=88&u=cf6b8c5780987f085d41efe3de5e32671de42f62&v=4",
@@ -685,6 +698,19 @@
       "location": "London, Ontario, Canada",
       "bio": "Neovim (btw)",
       "company": "Western University & Vector Institute",
+      "total_stars": 9129
+    },
+    {
+      "login": "sebastianstarke",
+      "name": "Sebastian Starke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20269775?s=88&u=d8675f163054fe2207d08fbf96809c7e6dea0229&v=4",
+      "html_url": "https://github.com/sebastianstarke",
+      "followers": 1654,
+      "following": 23,
+      "public_repos": 7,
+      "location": "London, UK",
+      "bio": "Research Scientist @ Meta, PhD @ UoE. Formerly @ Electronic Arts, Adobe Research. Enjoying coffee and life in no particular order.",
+      "company": null,
       "total_stars": 9129
     },
     {
@@ -2399,6 +2425,17 @@
       "pushed_at": "2024-07-13T17:01:28Z"
     },
     {
+      "full_name": "sjwhitworth/golearn",
+      "html_url": "https://github.com/sjwhitworth/golearn",
+      "description": "Machine Learning for Go",
+      "stargazers_count": 9443,
+      "forks_count": 1174,
+      "watchers_count": 0,
+      "language": "Go",
+      "created_at": "2013-12-26T13:06:14Z",
+      "pushed_at": "2024-01-15T13:55:44Z"
+    },
+    {
       "full_name": "lissy93/awesome-privacy",
       "html_url": "https://github.com/lissy93/awesome-privacy",
       "description": "🦄  A curated list of privacy & security-focused software and services",
@@ -2408,6 +2445,17 @@
       "language": "Astro",
       "created_at": "2022-07-09T19:32:38Z",
       "pushed_at": "2026-05-17T13:25:30Z"
+    },
+    {
+      "full_name": "shashank88/system_design",
+      "html_url": "https://github.com/shashank88/system_design",
+      "description": "Preparation links and resources for system design questions",
+      "stargazers_count": 9203,
+      "forks_count": 2488,
+      "watchers_count": 0,
+      "language": null,
+      "created_at": "2015-06-19T08:53:08Z",
+      "pushed_at": "2024-05-10T19:49:11Z"
     },
     {
       "full_name": "OlafenwaMoses/ImageAI",
@@ -2595,28 +2643,6 @@
       "language": null,
       "created_at": "2020-05-03T09:31:16Z",
       "pushed_at": "2025-07-03T17:09:18Z"
-    },
-    {
-      "full_name": "steipete/summarize",
-      "html_url": "https://github.com/steipete/summarize",
-      "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
-      "stargazers_count": 5981,
-      "forks_count": 383,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2025-12-17T12:19:51Z",
-      "pushed_at": "2026-05-17T14:04:00Z"
-    },
-    {
-      "full_name": "teivah/algodeck",
-      "html_url": "https://github.com/teivah/algodeck",
-      "description": "An Open-Source Collection of Flash Cards to Help You Preparing Your Algorithms & Data Structures and System Design Interviews 💯",
-      "stargazers_count": 5815,
-      "forks_count": 569,
-      "watchers_count": 0,
-      "language": "HTML",
-      "created_at": "2020-02-01T10:10:04Z",
-      "pushed_at": "2025-12-09T20:42:35Z"
     }
   ]
 }

@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-05-18T15:59:30.854Z",
+  "generated_at": "2026-05-18T17:53:57.484Z",
   "counts": {
-    "users": 61,
+    "users": 70,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 156927,
+    "user_followers": 174730,
     "org_followers": 0,
-    "user_stars": 918944,
+    "user_stars": 1090401,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -49,6 +49,19 @@
       "bio": "Former Staff Frontend Engineer exploring multi-passionate career development. Creator of Front-End Checklist (72K+ ⭐) and other tools serving 100K+ developers. ",
       "company": "@DavidDiasDigital",
       "total_stars": 101313
+    },
+    {
+      "login": "developit",
+      "name": "Jason Miller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105127?s=88&u=9dbda1907e83e069f6f1ee68b77111f784fae663&v=4",
+      "html_url": "https://github.com/developit",
+      "followers": 12970,
+      "following": 373,
+      "public_repos": 150,
+      "location": "Hamilton, Ontario, Canada",
+      "bio": "Creator of @preactjs. DX @Shopify.",
+      "company": "@Shopify",
+      "total_stars": 76500
     },
     {
       "login": "gorhill",
@@ -311,6 +324,45 @@
       "total_stars": 19163
     },
     {
+      "login": "apenwarr",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/20592?s=88&u=a1e53a1c69272311909626b1fd6149ccd0807681&v=4",
+      "html_url": "https://github.com/apenwarr",
+      "followers": 1247,
+      "following": 3,
+      "public_repos": 40,
+      "location": "Canada.  Sometimes.",
+      "bio": "Making WireGuard 2FA easy @Tailscale, and generally fighting off the demons of complexity.",
+      "company": "@tailscale ",
+      "total_stars": 15179
+    },
+    {
+      "login": "tristanhimmelman",
+      "name": "Tristan Himmelman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1562134?s=88&u=21762fc979fb50bed3a5f3bc80ea512cc77a9eed&v=4",
+      "html_url": "https://github.com/tristanhimmelman",
+      "followers": 454,
+      "following": 20,
+      "public_repos": 9,
+      "location": "Toronto, Canada",
+      "bio": "Director of Engineering @ Wealthsimple",
+      "company": "Wealthsimple",
+      "total_stars": 14496
+    },
+    {
+      "login": "xuebinqin",
+      "name": "Xuebin Qin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14968645?s=88&u=e7a8a9d0d5da0616cdbb223c98b8c38981e4784f&v=4",
+      "html_url": "https://github.com/xuebinqin",
+      "followers": 923,
+      "following": 2,
+      "public_repos": 16,
+      "location": "Edmonton, Alberta, Canada",
+      "bio": "Postdoctoral Fellow at University of Alberta Canada, Studying on object detection, segmentation, visual tracking, etc.",
+      "company": "University of Alberta",
+      "total_stars": 13973
+    },
+    {
       "login": "logaretm",
       "name": "Abdelrahman Awad",
       "avatar_url": "https://avatars.githubusercontent.com/u/6261322?s=88&u=e3c5730ed7d142d8c7a820a167024f450cb6bc71&v=4",
@@ -322,6 +374,19 @@
       "bio": "Senior Engineer | 🤓 GDE in Web Technologies | 🎙️ Podcast Host | I dabble in Vue.js 💚 TypeScript 💙 and GraphQL 🩷",
       "company": "@getsentry",
       "total_stars": 12406
+    },
+    {
+      "login": "timarney",
+      "name": "Tim Arney",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62242?s=88&u=f64b885a4bed74c92592f39fdcc1a6ef02c8e02f&v=4",
+      "html_url": "https://github.com/timarney",
+      "followers": 376,
+      "following": 9,
+      "public_repos": 59,
+      "location": "Ottawa",
+      "bio": null,
+      "company": "line37",
+      "total_stars": 12189
     },
     {
       "login": "ange-yaghi",
@@ -350,6 +415,19 @@
       "total_stars": 11830
     },
     {
+      "login": "gabrielbull",
+      "name": "Gabriel Bull",
+      "avatar_url": "https://avatars.githubusercontent.com/u/671923?s=88&u=b2fd1b930e3e6e7fd17069636f824effe8321731&v=4",
+      "html_url": "https://github.com/gabrielbull",
+      "followers": 415,
+      "following": 0,
+      "public_repos": 29,
+      "location": "Montréal",
+      "bio": null,
+      "company": null,
+      "total_stars": 10891
+    },
+    {
       "login": "dsherret",
       "name": "David Sherret",
       "avatar_url": "https://avatars.githubusercontent.com/u/1609021?s=88&u=fc6a1ec363bb6ae9665efbb6138f8beb615be38b&v=4",
@@ -361,6 +439,19 @@
       "bio": "Prev @denoland",
       "company": null,
       "total_stars": 10668
+    },
+    {
+      "login": "Uberi",
+      "name": "Anthony Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/437196?s=88&u=e2fe34385a074749284dbe2dce5ea013b35e842c&v=4",
+      "html_url": "https://github.com/Uberi",
+      "followers": 871,
+      "following": 64,
+      "public_repos": 70,
+      "location": "Waterloo, Ontario",
+      "bio": "Co-founder at Hypotenuse Labs. Formerly: CS @ uWaterloo",
+      "company": "Hypotenuse Labs",
+      "total_stars": 10176
     },
     {
       "login": "vladikoff",
@@ -400,6 +491,32 @@
       "bio": "Neovim (btw)",
       "company": "Western University & Vector Institute",
       "total_stars": 9129
+    },
+    {
+      "login": "KrishKrosh",
+      "name": "Krish Shah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50386081?s=88&u=26d6f461978802793edab27caf0caadfdf0d5922&v=4",
+      "html_url": "https://github.com/KrishKrosh",
+      "followers": 331,
+      "following": 63,
+      "public_repos": 31,
+      "location": "Waterloo",
+      "bio": "Maker of things and teller of stories.\r\n",
+      "company": null,
+      "total_stars": 9070
+    },
+    {
+      "login": "garrettj403",
+      "name": "John Garrett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14835953?s=88&u=d95bc045d972f28d5ee95780c1046683c54f5839&v=4",
+      "html_url": "https://github.com/garrettj403",
+      "followers": 216,
+      "following": 6,
+      "public_repos": 18,
+      "location": "Vancouver, BC",
+      "bio": "RF engineer @ D-Wave | DPhil in Astrophysics from the University of Oxford",
+      "company": null,
+      "total_stars": 8983
     },
     {
       "login": "shazow",
@@ -1076,6 +1193,17 @@
       "pushed_at": "2023-12-24T05:46:11Z"
     },
     {
+      "full_name": "developit/mitt",
+      "html_url": "https://github.com/developit/mitt",
+      "description": "🥊 Tiny 200 byte functional event emitter / pubsub.",
+      "stargazers_count": 11872,
+      "forks_count": 481,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2017-01-15T01:10:50Z",
+      "pushed_at": "2024-08-14T08:58:20Z"
+    },
+    {
       "full_name": "logaretm/vee-validate",
       "html_url": "https://github.com/logaretm/vee-validate",
       "description": "✅  Painless Vue forms",
@@ -1087,6 +1215,39 @@
       "pushed_at": "2026-03-04T07:08:06Z"
     },
     {
+      "full_name": "timarney/react-app-rewired",
+      "html_url": "https://github.com/timarney/react-app-rewired",
+      "description": "Override create-react-app webpack configs without ejecting",
+      "stargazers_count": 9852,
+      "forks_count": 418,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2016-08-08T19:14:34Z",
+      "pushed_at": "2025-02-13T03:23:53Z"
+    },
+    {
+      "full_name": "xuebinqin/U-2-Net",
+      "html_url": "https://github.com/xuebinqin/U-2-Net",
+      "description": "The code for our newly accepted paper in Pattern Recognition 2020: \"U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection.\"",
+      "stargazers_count": 9732,
+      "forks_count": 1610,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2020-05-04T17:10:28Z",
+      "pushed_at": "2024-06-26T04:16:45Z"
+    },
+    {
+      "full_name": "gabrielbull/react-desktop",
+      "html_url": "https://github.com/gabrielbull/react-desktop",
+      "description": "React UI Components for macOS High Sierra and Windows 10",
+      "stargazers_count": 9495,
+      "forks_count": 452,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2015-10-14T02:22:59Z",
+      "pushed_at": "2023-07-01T05:48:32Z"
+    },
+    {
       "full_name": "ange-yaghi/engine-sim",
       "html_url": "https://github.com/ange-yaghi/engine-sim",
       "description": "Combustion engine simulator that generates realistic audio.",
@@ -1096,6 +1257,83 @@
       "language": "C++",
       "created_at": "2021-12-18T00:14:57Z",
       "pushed_at": "2024-06-17T11:35:26Z"
+    },
+    {
+      "full_name": "tristanhimmelman/ObjectMapper",
+      "html_url": "https://github.com/tristanhimmelman/ObjectMapper",
+      "description": "Simple JSON Object mapping written in Swift",
+      "stargazers_count": 9152,
+      "forks_count": 1030,
+      "watchers_count": 0,
+      "language": "Swift",
+      "created_at": "2014-10-16T16:14:49Z",
+      "pushed_at": "2024-05-02T13:32:48Z"
+    },
+    {
+      "full_name": "developit/htm",
+      "html_url": "https://github.com/developit/htm",
+      "description": "Hyperscript Tagged Markup: JSX alternative using standard tagged templates, with compiler support.",
+      "stargazers_count": 9021,
+      "forks_count": 180,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2018-07-30T19:04:49Z",
+      "pushed_at": "2024-02-01T21:36:52Z"
+    },
+    {
+      "full_name": "KrishKrosh/TrackWeight",
+      "html_url": "https://github.com/KrishKrosh/TrackWeight",
+      "description": "Use your Mac trackpad as a weighing scale",
+      "stargazers_count": 9012,
+      "forks_count": 393,
+      "watchers_count": 0,
+      "language": "Swift",
+      "created_at": "2025-07-21T05:55:02Z",
+      "pushed_at": "2025-07-27T02:34:55Z"
+    },
+    {
+      "full_name": "Uberi/speech_recognition",
+      "html_url": "https://github.com/Uberi/speech_recognition",
+      "description": "Speech recognition module for Python, supporting several engines and APIs, online and offline.",
+      "stargazers_count": 8965,
+      "forks_count": 2425,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2014-04-23T04:53:54Z",
+      "pushed_at": "2026-04-24T14:57:55Z"
+    },
+    {
+      "full_name": "apenwarr/sshuttle",
+      "html_url": "https://github.com/apenwarr/sshuttle",
+      "description": "Wrong project!  You should head over to http://github.com/sshuttle/sshuttle",
+      "stargazers_count": 8866,
+      "forks_count": 613,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2010-05-02T06:50:16Z",
+      "pushed_at": "2018-02-15T13:16:12Z"
+    },
+    {
+      "full_name": "garrettj403/SciencePlots",
+      "html_url": "https://github.com/garrettj403/SciencePlots",
+      "description": "Matplotlib styles for scientific plotting",
+      "stargazers_count": 8841,
+      "forks_count": 811,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2018-08-13T16:23:03Z",
+      "pushed_at": "2026-02-25T01:24:44Z"
+    },
+    {
+      "full_name": "developit/microbundle",
+      "html_url": "https://github.com/developit/microbundle",
+      "description": "📦 Zero-configuration bundler for tiny modules.",
+      "stargazers_count": 8137,
+      "forks_count": 361,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2017-12-11T21:51:02Z",
+      "pushed_at": "2026-02-01T19:24:38Z"
     },
     {
       "full_name": "vladikoff/chromeos-apk",
@@ -1164,6 +1402,17 @@
       "pushed_at": "2025-03-23T17:57:20Z"
     },
     {
+      "full_name": "developit/unfetch",
+      "html_url": "https://github.com/developit/unfetch",
+      "description": "🐕 Bare minimum 500b fetch polyfill.",
+      "stargazers_count": 5716,
+      "forks_count": 202,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2017-02-22T05:59:42Z",
+      "pushed_at": "2023-07-23T07:46:45Z"
+    },
+    {
       "full_name": "thedaviddias/Front-End-Design-Checklist",
       "html_url": "https://github.com/thedaviddias/Front-End-Design-Checklist",
       "description": "💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers",
@@ -1184,6 +1433,28 @@
       "language": "Rust",
       "created_at": "2019-06-01T11:30:14Z",
       "pushed_at": "2026-03-21T11:21:21Z"
+    },
+    {
+      "full_name": "developit/redaxios",
+      "html_url": "https://github.com/developit/redaxios",
+      "description": "The Axios API, as an 800 byte Fetch wrapper.",
+      "stargazers_count": 4879,
+      "forks_count": 104,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2018-08-23T22:00:17Z",
+      "pushed_at": "2023-08-15T22:45:22Z"
+    },
+    {
+      "full_name": "developit/greenlet",
+      "html_url": "https://github.com/developit/greenlet",
+      "description": "🦎 Move an async function into its own thread.",
+      "stargazers_count": 4692,
+      "forks_count": 97,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2018-01-26T00:11:57Z",
+      "pushed_at": "2021-03-01T20:22:52Z"
     },
     {
       "full_name": "gorhill/uMatrix",
@@ -1208,6 +1479,17 @@
       "pushed_at": "2025-06-05T01:08:21Z"
     },
     {
+      "full_name": "developit/workerize",
+      "html_url": "https://github.com/developit/workerize",
+      "description": "🏗️ Run a module in a Web Worker.",
+      "stargazers_count": 4379,
+      "forks_count": 88,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2018-01-09T21:59:27Z",
+      "pushed_at": "2021-03-04T23:04:53Z"
+    },
+    {
       "full_name": "thedaviddias/Resources-Front-End-Beginner",
       "html_url": "https://github.com/thedaviddias/Resources-Front-End-Beginner",
       "description": "💯 The most essential list of resources for Front-End beginners (🇺🇸 & 🇫🇷)",
@@ -1217,171 +1499,6 @@
       "language": null,
       "created_at": "2017-10-11T09:29:54Z",
       "pushed_at": "2024-12-21T23:30:50Z"
-    },
-    {
-      "full_name": "chenyuntc/simple-faster-rcnn-pytorch",
-      "html_url": "https://github.com/chenyuntc/simple-faster-rcnn-pytorch",
-      "description": "A simplified implemention of Faster R-CNN that replicate performance from origin paper",
-      "stargazers_count": 4033,
-      "forks_count": 1120,
-      "watchers_count": 0,
-      "language": "Jupyter Notebook",
-      "created_at": "2017-12-09T13:13:54Z",
-      "pushed_at": "2021-05-15T07:10:53Z"
-    },
-    {
-      "full_name": "TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials",
-      "html_url": "https://github.com/TarrySingh/Artificial-Intelligence-Deep-Learning-Machine-Learning-Tutorials",
-      "description": "A comprehensive list of Deep Learning / Artificial Intelligence and Machine Learning tutorials - rapidly expanding into areas of AI/Deep Learning / Machine Vision / NLP and industry specific areas suc",
-      "stargazers_count": 3992,
-      "forks_count": 1640,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2017-07-13T19:46:01Z",
-      "pushed_at": "2025-03-19T09:40:41Z"
-    },
-    {
-      "full_name": "stemmlerjs/software-design-and-architecture-roadmap",
-      "html_url": "https://github.com/stemmlerjs/software-design-and-architecture-roadmap",
-      "description": "🧱 The software design and architecture roadmap for any developer",
-      "stargazers_count": 3395,
-      "forks_count": 418,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2019-09-28T22:42:09Z",
-      "pushed_at": "2023-02-10T16:48:46Z"
-    },
-    {
-      "full_name": "priya-dwivedi/Deep-Learning",
-      "html_url": "https://github.com/priya-dwivedi/Deep-Learning",
-      "description": null,
-      "stargazers_count": 3357,
-      "forks_count": 2450,
-      "watchers_count": 0,
-      "language": "Jupyter Notebook",
-      "created_at": "2016-08-17T18:29:12Z",
-      "pushed_at": "2023-03-24T22:23:11Z"
-    },
-    {
-      "full_name": "michaelshimeles/nextjs-starter-kit",
-      "html_url": "https://github.com/michaelshimeles/nextjs-starter-kit",
-      "description": "The Ulimate Nextjs Starter Kit. Build your next SAAS product of your dreams. Batteries included.",
-      "stargazers_count": 3036,
-      "forks_count": 739,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2023-09-27T02:16:15Z",
-      "pushed_at": "2025-12-14T07:05:48Z"
-    },
-    {
-      "full_name": "michaelshimeles/ralphy",
-      "html_url": "https://github.com/michaelshimeles/ralphy",
-      "description": "My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, OpenCode, Cursor agent, Qwen & Droid in a loop until your PRD is complete.",
-      "stargazers_count": 2860,
-      "forks_count": 355,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2026-01-15T21:23:21Z",
-      "pushed_at": "2026-02-05T16:28:20Z"
-    },
-    {
-      "full_name": "susanli2016/NLP-with-Python",
-      "html_url": "https://github.com/susanli2016/NLP-with-Python",
-      "description": "Scikit-Learn, NLTK, Spacy, Gensim, Textblob and more",
-      "stargazers_count": 2788,
-      "forks_count": 1995,
-      "watchers_count": 0,
-      "language": "Jupyter Notebook",
-      "created_at": "2017-08-03T04:18:42Z",
-      "pushed_at": "2024-03-28T14:37:21Z"
-    },
-    {
-      "full_name": "ziishaned/dumper.js",
-      "html_url": "https://github.com/ziishaned/dumper.js",
-      "description": "A better and pretty variable inspector for your Node.js applications",
-      "stargazers_count": 2752,
-      "forks_count": 67,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "created_at": "2018-08-05T17:16:26Z",
-      "pushed_at": "2025-02-05T18:52:56Z"
-    },
-    {
-      "full_name": "thestinger/termite",
-      "html_url": "https://github.com/thestinger/termite",
-      "description": "Termite is obsoleted by Alacritty. Termite was a keyboard-centric VTE-based terminal, aimed at use within a window manager with tiling and/or tabbing support.",
-      "stargazers_count": 2717,
-      "forks_count": 237,
-      "watchers_count": 0,
-      "language": "C++",
-      "created_at": "2012-05-22T04:35:35Z",
-      "pushed_at": "2021-05-07T11:46:48Z"
-    },
-    {
-      "full_name": "aneagoie/ztm-python-cheat-sheet",
-      "html_url": "https://github.com/aneagoie/ztm-python-cheat-sheet",
-      "description": null,
-      "stargazers_count": 2664,
-      "forks_count": 1422,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2019-09-21T23:51:14Z",
-      "pushed_at": "2025-12-31T13:38:47Z"
-    },
-    {
-      "full_name": "CamDavidsonPilon/lifelines",
-      "html_url": "https://github.com/CamDavidsonPilon/lifelines",
-      "description": "Survival analysis in Python",
-      "stargazers_count": 2571,
-      "forks_count": 566,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2013-08-28T00:16:42Z",
-      "pushed_at": "2026-03-07T01:40:07Z"
-    },
-    {
-      "full_name": "stemmlerjs/ddd-forum",
-      "html_url": "https://github.com/stemmlerjs/ddd-forum",
-      "description": "Hacker news-inspired forum app built with TypeScript using DDD practices from solidbook.io.",
-      "stargazers_count": 2084,
-      "forks_count": 474,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2019-10-01T20:07:57Z",
-      "pushed_at": "2023-06-10T05:59:04Z"
-    },
-    {
-      "full_name": "nayuki/Project-Euler-solutions",
-      "html_url": "https://github.com/nayuki/Project-Euler-solutions",
-      "description": "Runnable code for solving Project Euler problems in Java, Python, Mathematica, Haskell.",
-      "stargazers_count": 1956,
-      "forks_count": 679,
-      "watchers_count": 0,
-      "language": "Java",
-      "created_at": "2011-06-12T22:36:02Z",
-      "pushed_at": "2024-05-26T10:47:02Z"
-    },
-    {
-      "full_name": "petertodd/python-bitcoinlib",
-      "html_url": "https://github.com/petertodd/python-bitcoinlib",
-      "description": "Python3 library providing an easy interface to the Bitcoin data structures and protocol.",
-      "stargazers_count": 1949,
-      "forks_count": 648,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2013-03-14T05:46:34Z",
-      "pushed_at": "2025-03-14T19:54:17Z"
-    },
-    {
-      "full_name": "Gaohaoyang/gaohaoyang.github.io",
-      "html_url": "https://github.com/Gaohaoyang/gaohaoyang.github.io",
-      "description": "blog & blog theme🤘",
-      "stargazers_count": 1930,
-      "forks_count": 1956,
-      "watchers_count": 0,
-      "language": "SCSS",
-      "created_at": "2015-02-10T06:24:40Z",
-      "pushed_at": "2024-09-09T03:28:42Z"
     }
   ]
 }

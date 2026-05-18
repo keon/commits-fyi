@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-05-18T15:56:55.982Z",
+  "generated_at": "2026-05-18T17:49:38.791Z",
   "counts": {
-    "users": 151,
+    "users": 153,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 330065,
+    "user_followers": 330638,
     "org_followers": 0,
-    "user_stars": 1058633,
+    "user_stars": 1078168,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -467,6 +467,19 @@
       "total_stars": 11524
     },
     {
+      "login": "aksakalli",
+      "name": "Can Güney Aksakalli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1939193?s=88&u=bf9616f10e04a3f2145028a248df97d32fcc647a&v=4",
+      "html_url": "https://github.com/aksakalli",
+      "followers": 393,
+      "following": 47,
+      "public_repos": 25,
+      "location": "Berlin, Germany",
+      "bio": null,
+      "company": "@zalando ex @tomtom-international",
+      "total_stars": 10417
+    },
+    {
       "login": "vas3k",
       "name": "Vasily Zubarev",
       "avatar_url": "https://avatars.githubusercontent.com/u/176344?s=88&u=32e1a8764128caef914c3545080fb459d078f11d&v=4",
@@ -504,6 +517,19 @@
       "bio": null,
       "company": "Variomedia AG",
       "total_stars": 9550
+    },
+    {
+      "login": "Freika",
+      "name": "Evgenii Burmakin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3738638?s=88&u=a83530fd4051e5999400c6ef6edeb87d053cdb59&v=4",
+      "html_url": "https://github.com/Freika",
+      "followers": 180,
+      "following": 0,
+      "public_repos": 61,
+      "location": "Berlin",
+      "bio": "Ruby/Rails developer",
+      "company": null,
+      "total_stars": 9118
     },
     {
       "login": "javierbyte",
@@ -2235,6 +2261,17 @@
       "pushed_at": "2026-05-08T12:29:11Z"
     },
     {
+      "full_name": "aksakalli/gtop",
+      "html_url": "https://github.com/aksakalli/gtop",
+      "description": "System monitoring dashboard for terminal",
+      "stargazers_count": 9915,
+      "forks_count": 335,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2017-08-09T15:12:28Z",
+      "pushed_at": "2025-11-06T13:55:02Z"
+    },
+    {
       "full_name": "floooh/sokol",
       "html_url": "https://github.com/floooh/sokol",
       "description": "minimal cross-platform standalone C headers",
@@ -2255,6 +2292,17 @@
       "language": "JavaScript",
       "created_at": "2011-02-12T12:21:10Z",
       "pushed_at": "2024-07-07T13:46:38Z"
+    },
+    {
+      "full_name": "Freika/dawarich",
+      "html_url": "https://github.com/Freika/dawarich",
+      "description": "Your favorite self-hostable alternative to Google Timeline (Google Location History)",
+      "stargazers_count": 9045,
+      "forks_count": 300,
+      "watchers_count": 0,
+      "language": "Ruby",
+      "created_at": "2024-03-24T19:46:00Z",
+      "pushed_at": "2026-05-17T12:19:36Z"
     },
     {
       "full_name": "spacejam/sled",
@@ -2530,28 +2578,6 @@
       "language": "Vim Script",
       "created_at": "2013-09-21T16:26:40Z",
       "pushed_at": "2025-12-10T05:00:30Z"
-    },
-    {
-      "full_name": "KittyGiraudel/sass-boilerplate",
-      "html_url": "https://github.com/KittyGiraudel/sass-boilerplate",
-      "description": "A boilerplate for Sass projects using the 7-1 architecture pattern from Sass Guidelines.",
-      "stargazers_count": 3367,
-      "forks_count": 762,
-      "watchers_count": 0,
-      "language": "SCSS",
-      "created_at": "2015-05-22T10:09:45Z",
-      "pushed_at": "2024-07-28T07:36:30Z"
-    },
-    {
-      "full_name": "harismuneer/Ultimate-Social-Scrapers",
-      "html_url": "https://github.com/harismuneer/Ultimate-Social-Scrapers",
-      "description": "🤖 Top-rated tools to scrape all major public sections from Facebook, Instagram, and Twitter (X) including posts (likes/comments), photos/videos, contact information, followers, following and much mor",
-      "stargazers_count": 3116,
-      "forks_count": 748,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2018-08-22T21:11:36Z",
-      "pushed_at": "2025-06-07T12:57:53Z"
     }
   ]
 }

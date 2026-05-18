@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-05-18T15:55:35.805Z",
+  "generated_at": "2026-05-18T17:49:20.122Z",
   "counts": {
-    "users": 152,
+    "users": 158,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 617457,
+    "user_followers": 620803,
     "org_followers": 0,
-    "user_stars": 1721722,
+    "user_stars": 1787119,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -428,6 +428,19 @@
       "total_stars": 17701
     },
     {
+      "login": "PeterL1n",
+      "name": "Peter Lin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7651753?s=88&u=d101728213f4ff1392086c21664a0da7a1303418&v=4",
+      "html_url": "https://github.com/PeterL1n",
+      "followers": 618,
+      "following": 1,
+      "public_repos": 3,
+      "location": "New York, New York, US",
+      "bio": null,
+      "company": null,
+      "total_stars": 16600
+    },
+    {
       "login": "ddbourgin",
       "name": "David Bourgin",
       "avatar_url": "https://avatars.githubusercontent.com/u/4887372?s=88&u=99d90201718bfc6ce9891eaf8d424069d2423565&v=4",
@@ -545,6 +558,19 @@
       "total_stars": 10985
     },
     {
+      "login": "alexanderepstein",
+      "name": "Alex Epstein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16146094?s=88&u=15342a60f62ca4f9238296c6607863ab6d25e3e6&v=4",
+      "html_url": "https://github.com/alexanderepstein",
+      "followers": 381,
+      "following": 14,
+      "public_repos": 19,
+      "location": "New York",
+      "bio": "Software developer with interests in artificial intelligence, optimization and signal processing",
+      "company": "Meta",
+      "total_stars": 10928
+    },
+    {
       "login": "Atcold",
       "name": "Alfredo Canziani",
       "avatar_url": "https://avatars.githubusercontent.com/u/2119355?s=88&u=db3c7f1a9662667908c6b3be22a44ec770fa744b&v=4",
@@ -636,6 +662,32 @@
       "total_stars": 9854
     },
     {
+      "login": "davidsonfellipe",
+      "name": "Davidson Fellipe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/381179?s=88&u=21f528167cae25bbc1d8be300272ebb335211a05&v=4",
+      "html_url": "https://github.com/davidsonfellipe",
+      "followers": 1129,
+      "following": 69,
+      "public_repos": 23,
+      "location": "New York, NY",
+      "bio": "Software Engineer at @upgrade",
+      "company": "@upgrade",
+      "total_stars": 9830
+    },
+    {
+      "login": "berzerk0",
+      "name": "Ben",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26533735?s=88&u=fb5c29630262d3dc09283a78e8783f8c2b347bcf&v=4",
+      "html_url": "https://github.com/berzerk0",
+      "followers": 562,
+      "following": 6,
+      "public_repos": 10,
+      "location": "New York City",
+      "bio": "Pentester - Convincing people 'password' is not a good password - Iced Tea Expert - occasional blogger",
+      "company": "Pentester at Company",
+      "total_stars": 9752
+    },
+    {
       "login": "slavingia",
       "name": "Sahil Lavingia",
       "avatar_url": "https://avatars.githubusercontent.com/u/74396?s=88&u=d2058787f4f8221926d0088f941bf7a28eedcf5f&v=4",
@@ -660,6 +712,32 @@
       "bio": "@Lynx-family. Redefining Interfaces · Software Dreamer. Formerly @reactjs, React Native, Hermes, @reasonml.",
       "company": "[ByteDance, Meta, ...China]",
       "total_stars": 9571
+    },
+    {
+      "login": "patrickmn",
+      "name": "Patrick Mylund Nielsen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72885?s=88&u=a6baf7b477f9106e6e0ce004b701de22784ea45b&v=4",
+      "html_url": "https://github.com/patrickmn",
+      "followers": 369,
+      "following": 108,
+      "public_repos": 30,
+      "location": "New York City",
+      "bio": "Make software out of steel, not clay",
+      "company": "CTO @clovyr",
+      "total_stars": 9324
+    },
+    {
+      "login": "Nickersoft",
+      "name": "Tyler Nickerson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2104129?s=88&u=c80d356404d42378cfbe59388842afb29b0629c7&v=4",
+      "html_url": "https://github.com/Nickersoft",
+      "followers": 287,
+      "following": 88,
+      "public_repos": 49,
+      "location": "NYC",
+      "bio": "Let's build a better future, together 🧡 \r\n\r\nFounder of @KojoDesign and @TheOpenDictionary.\r\n",
+      "company": "@KojoDesign",
+      "total_stars": 8963
     },
     {
       "login": "adonovan",
@@ -2457,6 +2535,17 @@
       "pushed_at": "2024-04-20T12:17:17Z"
     },
     {
+      "full_name": "alexanderepstein/Bash-Snippets",
+      "html_url": "https://github.com/alexanderepstein/Bash-Snippets",
+      "description": "A collection of small bash scripts for heavy terminal users",
+      "stargazers_count": 9929,
+      "forks_count": 844,
+      "watchers_count": 0,
+      "language": "Shell",
+      "created_at": "2017-06-26T21:55:08Z",
+      "pushed_at": "2024-05-04T18:12:41Z"
+    },
+    {
       "full_name": "scottjehl/picturefill",
       "html_url": "https://github.com/scottjehl/picturefill",
       "description": "A responsive image polyfill for <picture>, srcset, sizes, and more",
@@ -2479,6 +2568,17 @@
       "pushed_at": "2026-05-12T00:00:17Z"
     },
     {
+      "full_name": "PeterL1n/RobustVideoMatting",
+      "html_url": "https://github.com/PeterL1n/RobustVideoMatting",
+      "description": "Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML!",
+      "stargazers_count": 9355,
+      "forks_count": 1196,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2021-08-30T20:57:44Z",
+      "pushed_at": "2024-04-02T16:26:48Z"
+    },
+    {
       "full_name": "terkelg/prompts",
       "html_url": "https://github.com/terkelg/prompts",
       "description": "❯ Lightweight, beautiful and user-friendly interactive prompts",
@@ -2488,6 +2588,17 @@
       "language": "JavaScript",
       "created_at": "2018-02-24T10:11:47Z",
       "pushed_at": "2025-05-14T16:42:36Z"
+    },
+    {
+      "full_name": "berzerk0/Probable-Wordlists",
+      "html_url": "https://github.com/berzerk0/Probable-Wordlists",
+      "description": "Version 2 is live! Wordlists sorted by probability originally created for password generation and testing - make sure your passwords aren't popular!",
+      "stargazers_count": 9259,
+      "forks_count": 1610,
+      "watchers_count": 0,
+      "language": null,
+      "created_at": "2017-04-16T17:08:27Z",
+      "pushed_at": "2023-10-04T20:22:09Z"
     },
     {
       "full_name": "Nutlope/aicommits",
@@ -2501,6 +2612,28 @@
       "pushed_at": "2026-05-16T12:43:53Z"
     },
     {
+      "full_name": "davidsonfellipe/awesome-wpo",
+      "html_url": "https://github.com/davidsonfellipe/awesome-wpo",
+      "description": "A curated list of Web Performance Optimization. ",
+      "stargazers_count": 8899,
+      "forks_count": 575,
+      "watchers_count": 0,
+      "language": null,
+      "created_at": "2014-10-14T15:18:35Z",
+      "pushed_at": "2026-05-02T20:03:31Z"
+    },
+    {
+      "full_name": "patrickmn/go-cache",
+      "html_url": "https://github.com/patrickmn/go-cache",
+      "description": "An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.",
+      "stargazers_count": 8823,
+      "forks_count": 905,
+      "watchers_count": 0,
+      "language": "Go",
+      "created_at": "2012-01-02T13:07:13Z",
+      "pushed_at": "2023-11-20T05:12:16Z"
+    },
+    {
       "full_name": "slavingia/skills",
       "html_url": "https://github.com/slavingia/skills",
       "description": "Based on The Minimalist Entrepreneur by Sahil Lavingia",
@@ -2510,61 +2643,6 @@
       "language": null,
       "created_at": "2026-03-23T19:16:00Z",
       "pushed_at": "2026-04-14T00:53:57Z"
-    },
-    {
-      "full_name": "charlax/engineering-management",
-      "html_url": "https://github.com/charlax/engineering-management",
-      "description": "A collection of inspiring resources related to engineering management and tech leadership",
-      "stargazers_count": 8286,
-      "forks_count": 681,
-      "watchers_count": 0,
-      "language": "Shell",
-      "created_at": "2016-03-17T10:29:40Z",
-      "pushed_at": "2026-04-02T03:06:51Z"
-    },
-    {
-      "full_name": "adonovan/gopl.io",
-      "html_url": "https://github.com/adonovan/gopl.io",
-      "description": "Example programs from \"The Go Programming Language\"",
-      "stargazers_count": 8010,
-      "forks_count": 2802,
-      "watchers_count": 0,
-      "language": "Go",
-      "created_at": "2015-02-03T02:11:05Z",
-      "pushed_at": "2024-08-10T11:13:10Z"
-    },
-    {
-      "full_name": "harthur/brain",
-      "html_url": "https://github.com/harthur/brain",
-      "description": "Simple feed-forward neural network in JavaScript",
-      "stargazers_count": 7995,
-      "forks_count": 851,
-      "watchers_count": 0,
-      "language": "JavaScript",
-      "created_at": "2010-05-10T06:36:21Z",
-      "pushed_at": "2020-09-03T20:20:29Z"
-    },
-    {
-      "full_name": "bnb/awesome-developer-streams",
-      "html_url": "https://github.com/bnb/awesome-developer-streams",
-      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻 Awesome Developers, Streaming",
-      "stargazers_count": 7993,
-      "forks_count": 519,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2018-01-01T22:30:20Z",
-      "pushed_at": "2026-01-01T15:56:37Z"
-    },
-    {
-      "full_name": "bvaughn/react-error-boundary",
-      "html_url": "https://github.com/bvaughn/react-error-boundary",
-      "description": "Simple reusable React error boundary component",
-      "stargazers_count": 7935,
-      "forks_count": 223,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2017-07-18T06:16:45Z",
-      "pushed_at": "2026-04-03T17:52:33Z"
     }
   ]
 }

@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-05-18T15:58:48.262Z",
+  "generated_at": "2026-05-18T17:53:39.455Z",
   "counts": {
-    "users": 102,
+    "users": 151,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 110385,
+    "user_followers": 169141,
     "org_followers": 0,
-    "user_stars": 562301,
+    "user_stars": 777571,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -142,6 +142,19 @@
       "total_stars": 21215
     },
     {
+      "login": "hahwul",
+      "name": "HAHWUL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13212227?s=88&u=e4ca40c1aa41990f72475bebee84c860b631a30c&v=4",
+      "html_url": "https://github.com/hahwul",
+      "followers": 2915,
+      "following": 63,
+      "public_repos": 123,
+      "location": "Republic of Korea",
+      "bio": "Offensive Security Engineer, Developer and H4cker.",
+      "company": null,
+      "total_stars": 19119
+    },
+    {
       "login": "devxoul",
       "name": "Jeon Suyeol",
       "avatar_url": "https://avatars.githubusercontent.com/u/931655?s=88&u=171dfcfb08fa97c627edfdb3a10be372fda5af37&v=4",
@@ -155,6 +168,45 @@
       "total_stars": 18997
     },
     {
+      "login": "daybrush",
+      "name": "Daybrush (Younkue Choi)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3433062?s=88&u=5e3fbf0522269b8beca412d32e350edfb38118b8&v=4",
+      "html_url": "https://github.com/daybrush",
+      "followers": 1676,
+      "following": 11,
+      "public_repos": 79,
+      "location": "Seongnam, Republic of Korea",
+      "bio": "최연규. I'm Front-End Engineer with\r\nJavaScript, CSS, TypeScript, Node.js",
+      "company": "@naver @daybrush ",
+      "total_stars": 18606
+    },
+    {
+      "login": "gyoogle",
+      "name": "Gyoogle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34904741?s=88&u=002e1754afbc5a0b9da20e5106d1487e96dd19ce&v=4",
+      "html_url": "https://github.com/gyoogle",
+      "followers": 849,
+      "following": 25,
+      "public_repos": 24,
+      "location": "South Korea",
+      "bio": "Email : gyuseok6394@gmail.com",
+      "company": "@Samsung Electronics",
+      "total_stars": 17396
+    },
+    {
+      "login": "taki0112",
+      "name": "Junho Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26713992?s=88&u=d9d6d737f32b56bc3b3c4feccf15b8a2926bc56e&v=4",
+      "html_url": "https://github.com/taki0112",
+      "followers": 1955,
+      "following": 121,
+      "public_repos": 84,
+      "location": "South Korea",
+      "bio": "Research Scientist",
+      "company": "NAVER AI Lab",
+      "total_stars": 16529
+    },
+    {
       "login": "jojoldu",
       "name": "DongUk Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/7760496?s=88&u=d0933bcbad7f15e9516e59d90db8b1e77e26517d&v=4",
@@ -166,6 +218,19 @@
       "bio": "Product Engineer",
       "company": "@inflearn",
       "total_stars": 16443
+    },
+    {
+      "login": "JaKooLit",
+      "name": "Ja.KooLit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85185940?s=88&u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+      "html_url": "https://github.com/JaKooLit",
+      "followers": 2135,
+      "following": 11,
+      "public_repos": 33,
+      "location": "Philippines / South Korea - Worldwide",
+      "bio": "A passionate Linux enthusiast and tech hobbyist—just an ordinary guy who loves exploring, experimenting, and tinkering with computers during my freetime!",
+      "company": null,
+      "total_stars": 15540
     },
     {
       "login": "hoya012",
@@ -194,6 +259,58 @@
       "total_stars": 14810
     },
     {
+      "login": "davidshimjs",
+      "name": "Sangmin, Shim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3103540?s=88&u=de771b10973a6d724a77e9b391ea85841e890c71&v=4",
+      "html_url": "https://github.com/davidshimjs",
+      "followers": 472,
+      "following": 3,
+      "public_repos": 9,
+      "location": "South Korea",
+      "bio": null,
+      "company": "SlashPage",
+      "total_stars": 14577
+    },
+    {
+      "login": "utilForever",
+      "name": "Chris Ohk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5622661?s=88&u=0c60cc4fa04c0caa9a8060f8f0ba6263cdaec1f7&v=4",
+      "html_url": "https://github.com/utilForever",
+      "followers": 4032,
+      "following": 576,
+      "public_repos": 323,
+      "location": "Seongnam, Republic of Korea",
+      "bio": "Hanyang University Visiting Senior Researcher, @microsoft MVP, @CppKorea Founder, @reinforcement-learning-kr Administrator",
+      "company": "Hanyang University",
+      "total_stars": 12208
+    },
+    {
+      "login": "0xk1h0",
+      "name": "Kiho Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47383452?s=88&u=905ed7a0dbf939a7c539a251f64a36c7d4fad707&v=4",
+      "html_url": "https://github.com/0xk1h0",
+      "followers": 544,
+      "following": 8,
+      "public_repos": 19,
+      "location": "Daejeon, South Korea",
+      "bio": null,
+      "company": "ETRI",
+      "total_stars": 12042
+    },
+    {
+      "login": "sinclairzx81",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/3048342?s=88&u=2e987237de56d3f01155ecb0aced637f1dab04dd&v=4",
+      "html_url": "https://github.com/sinclairzx81",
+      "followers": 1192,
+      "following": 4,
+      "public_repos": 35,
+      "location": "South Korea",
+      "bio": null,
+      "company": "Acid Interactive",
+      "total_stars": 11590
+    },
+    {
       "login": "samchon",
       "name": "Jeongho Nam",
       "avatar_url": "https://avatars.githubusercontent.com/u/13158709?s=88&u=e23bb8f07478072e32e194b32646aff392afc048&v=4",
@@ -205,6 +322,32 @@
       "bio": "AI Function Calling and Coding Agent Expert",
       "company": "Wrtn Technologies",
       "total_stars": 11395
+    },
+    {
+      "login": "utkuozbulak",
+      "name": "Utku Ozbulak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19213588?s=88&u=47395f50eb97b56785263f3d1f7f5fa34028d1d0&v=4",
+      "html_url": "https://github.com/utkuozbulak",
+      "followers": 517,
+      "following": 3,
+      "public_repos": 21,
+      "location": "Incheon, South Korea",
+      "bio": "Research Professor at Ghent University Global Campus.\r\n\r\nAdjunct Professor at George Mason Korea.\r\n\r\nWorking on Medical and Biomedical AI.",
+      "company": "Ghent University",
+      "total_stars": 9751
+    },
+    {
+      "login": "abus-aikorea",
+      "name": "ABUS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161691694?s=88&u=76dc12d2edde28c7ad5e7de0c95c60043061ad43&v=4",
+      "html_url": "https://github.com/abus-aikorea",
+      "followers": 319,
+      "following": 24,
+      "public_repos": 1,
+      "location": "South Korea",
+      "bio": null,
+      "company": "ABUS Co.,Ltd.",
+      "total_stars": 9656
     },
     {
       "login": "kciter",
@@ -298,6 +441,19 @@
       "total_stars": 6994
     },
     {
+      "login": "deep-diver",
+      "name": "Chansung Park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26025527?s=88&u=e446be5934439588e823b2220f0ddd24c34c07d4&v=4",
+      "html_url": "https://github.com/deep-diver",
+      "followers": 1563,
+      "following": 28,
+      "public_repos": 154,
+      "location": "South Korea",
+      "bio": "HuggingFace Fellow, Google Developers Experts for Machine Learning and Google Cloud Platform",
+      "company": "Electronics Telecommunications Research Institute (ETRI)",
+      "total_stars": 6953
+    },
+    {
       "login": "junhoyeo",
       "name": "Junho Yeo",
       "avatar_url": "https://avatars.githubusercontent.com/u/32605822?s=88&u=6a6f976248563e9ffce981aedb5ac806b0212fff&v=4",
@@ -350,6 +506,19 @@
       "total_stars": 6247
     },
     {
+      "login": "ndb796",
+      "name": "Dongbin Na / 나동빈",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16822641?s=88&u=75c6eb89ccd5dd334ee1a5e0f1a010e69666419b&v=4",
+      "html_url": "https://github.com/ndb796",
+      "followers": 3927,
+      "following": 13,
+      "public_repos": 185,
+      "location": "Korea, Republic of",
+      "bio": "Artificial Intelligence & Deep Learning\r\nComputer Security",
+      "company": "POSTECH",
+      "total_stars": 5905
+    },
+    {
       "login": "andabi",
       "name": "Dabi Ahn",
       "avatar_url": "https://avatars.githubusercontent.com/u/4556549?s=88&u=fb17ed75b90bb829bd6795048664972d5cbcb288&v=4",
@@ -361,6 +530,19 @@
       "bio": "AI/ML Engineer.",
       "company": null,
       "total_stars": 5311
+    },
+    {
+      "login": "gisbi-kim",
+      "name": "Giseop Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14989535?s=88&u=457c94521fdfab5f700ec2431a42079c77df0ad6&v=4",
+      "html_url": "https://github.com/gisbi-kim",
+      "followers": 1153,
+      "following": 327,
+      "public_repos": 124,
+      "location": "Daegu, South Korea",
+      "bio": "Assistant Professor of Robotics and Mechatronics Engineering, DGIST",
+      "company": "DGIST",
+      "total_stars": 4963
     },
     {
       "login": "ParkSangGwon",
@@ -402,6 +584,32 @@
       "total_stars": 4621
     },
     {
+      "login": "milooy",
+      "name": "Yurim Jalynne Jin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3839771?s=88&u=5e973ebd35c605aedb60d8cdf7ae6fb0c22c802d&v=4",
+      "html_url": "https://github.com/milooy",
+      "followers": 2387,
+      "following": 21,
+      "public_repos": 99,
+      "location": "Korea",
+      "bio": null,
+      "company": "@toss ",
+      "total_stars": 4372
+    },
+    {
+      "login": "engcang",
+      "name": "Eungchang-Mason-Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34734707?s=88&u=31eeb9320f65281915a5851c905812c200db9ccb&v=4",
+      "html_url": "https://github.com/engcang",
+      "followers": 812,
+      "following": 44,
+      "public_repos": 42,
+      "location": "Daejeon, South Korea",
+      "bio": "Postdoc @ Urban Robotics Lab, KAIST | Ph.D. in Robotics & EE",
+      "company": "KAIST",
+      "total_stars": 3781
+    },
+    {
       "login": "Beomi",
       "name": "Junbum Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/11323660?s=88&u=411c8feaca0f718bb71adf800d7aa0eea1c1765f&v=4",
@@ -413,6 +621,19 @@
       "bio": "Researcher @lablup , AI/ML GDE @ml-gde.\r\nKorean AI/NLP Researcher and creator of multiple Korean PLMs. Focused on advancing Open LLMs.",
       "company": "Lablup Inc.",
       "total_stars": 3633
+    },
+    {
+      "login": "ZeroCho",
+      "name": "Hyunyoung Cho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10962668?s=88&v=4",
+      "html_url": "https://github.com/ZeroCho",
+      "followers": 2824,
+      "following": 0,
+      "public_repos": 54,
+      "location": "Korea",
+      "bio": "코딩자율학습 자바스크립트 && Node.js 교과서 && 타입스크립트 교과서 저자, 유튜버, 스타트업 CTO",
+      "company": "individual",
+      "total_stars": 3602
     },
     {
       "login": "sooftware",
@@ -428,6 +649,19 @@
       "total_stars": 3564
     },
     {
+      "login": "outsideris",
+      "name": "Outsider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/390146?s=88&u=ed95ab179e6a4dbc4a5f197b91be42d47343393a&v=4",
+      "html_url": "https://github.com/outsideris",
+      "followers": 1705,
+      "following": 310,
+      "public_repos": 94,
+      "location": "Gyeonggi-do, Republic of Korea",
+      "bio": "Site Reliability Engineer",
+      "company": null,
+      "total_stars": 3555
+    },
+    {
       "login": "monologg",
       "name": "Jangwon Park",
       "avatar_url": "https://avatars.githubusercontent.com/u/28896432?s=88&u=c5a5aa7e00b089abb7e791861a92d2e9665705b6&v=4",
@@ -439,6 +673,19 @@
       "bio": null,
       "company": "@bhsn-ai",
       "total_stars": 3542
+    },
+    {
+      "login": "chris-chris",
+      "name": "Chris Hoyean Song",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3013964?s=88&u=5361cf9cd7730ab55a99717cf2aa660719cf849b&v=4",
+      "html_url": "https://github.com/chris-chris",
+      "followers": 785,
+      "following": 10,
+      "public_repos": 95,
+      "location": "Korea",
+      "bio": "Google Developer Experts for Machine Learning / RL is my girl friend.",
+      "company": null,
+      "total_stars": 3475
     },
     {
       "login": "keonlee9420",
@@ -467,6 +714,19 @@
       "total_stars": 3354
     },
     {
+      "login": "johngrib",
+      "name": "JohnGrib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1855714?s=88&u=d844b12b488592df79f3aaa1148c12a275280f43&v=4",
+      "html_url": "https://github.com/johngrib",
+      "followers": 1399,
+      "following": 9,
+      "public_repos": 96,
+      "location": "Gyeonggi-do, South Korea",
+      "bio": "기계인간 John Grib, 이종립",
+      "company": "KakaoPay Insurance",
+      "total_stars": 3227
+    },
+    {
       "login": "zzsza",
       "name": "Seong Yun Byeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/18207755?s=88&u=46ab139d37e5d6d4caf85d1cd378c919972f18b4&v=4",
@@ -491,6 +751,19 @@
       "bio": "Check my gist for more projects.\r\n",
       "company": null,
       "total_stars": 2656
+    },
+    {
+      "login": "JeaSungLEE",
+      "name": "JERCY",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13097922?s=88&v=4",
+      "html_url": "https://github.com/JeaSungLEE",
+      "followers": 565,
+      "following": 78,
+      "public_repos": 29,
+      "location": "Seongnam, Korea",
+      "bio": null,
+      "company": "DUNAMU",
+      "total_stars": 2331
     },
     {
       "login": "simnalamburt",
@@ -532,6 +805,19 @@
       "total_stars": 2235
     },
     {
+      "login": "Taeyoung96",
+      "name": "TaeYoung Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41863759?s=88&u=8496151d9cedcf98d3dd446d6e0b1437f47e9e01&v=4",
+      "html_url": "https://github.com/Taeyoung96",
+      "followers": 524,
+      "following": 179,
+      "public_repos": 57,
+      "location": "Uiwang, South Korea",
+      "bio": "Robotics & SLAM Research Engineer.",
+      "company": "Robotics Lab, Hyundai Motor Company",
+      "total_stars": 2198
+    },
+    {
       "login": "JoMingyu",
       "name": "PlanB",
       "avatar_url": "https://avatars.githubusercontent.com/u/21031883?s=88&u=e478193655b4d5b55b220b7ae6e46f54c2458498&v=4",
@@ -556,6 +842,45 @@
       "bio": "An ordinary developer",
       "company": "zerobased.co",
       "total_stars": 2052
+    },
+    {
+      "login": "joshua1988",
+      "name": "Captain Pangyo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3272748?s=88&u=d4e351a42cd08dd47b05c9ce6e6c8f2c885b04e2&v=4",
+      "html_url": "https://github.com/joshua1988",
+      "followers": 1729,
+      "following": 143,
+      "public_repos": 95,
+      "location": "South Korea",
+      "bio": null,
+      "company": null,
+      "total_stars": 1949
+    },
+    {
+      "login": "jaewonhimnae",
+      "name": "John Ahn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38754963?s=88&u=9ef754c968ec6c9a8ecbc28f166e32a992acf32f&v=4",
+      "html_url": "https://github.com/jaewonhimnae",
+      "followers": 1207,
+      "following": 0,
+      "public_repos": 56,
+      "location": "Korea Bundang-gu",
+      "bio": "Happy to meet you ^_^ \r\n",
+      "company": null,
+      "total_stars": 1816
+    },
+    {
+      "login": "elliotwoods",
+      "name": "Elliot Woods",
+      "avatar_url": "https://avatars.githubusercontent.com/u/328294?s=88&u=bfc0e691f92dd550d08dde484bb250c5c7266d90&v=4",
+      "html_url": "https://github.com/elliotwoods",
+      "followers": 714,
+      "following": 22,
+      "public_repos": 167,
+      "location": "Korea, UK",
+      "bio": null,
+      "company": "Kimchi and Chips",
+      "total_stars": 1748
     },
     {
       "login": "sublee",
@@ -701,6 +1026,19 @@
       "total_stars": 1122
     },
     {
+      "login": "arter97",
+      "name": "Juhyung Park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5400990?s=88&u=a73455db3f044b67b2a5d5974d603e6f737be5bb&v=4",
+      "html_url": "https://github.com/arter97",
+      "followers": 787,
+      "following": 0,
+      "public_repos": 95,
+      "location": "Daegu, South Korea",
+      "bio": "\r\n    \r\n",
+      "company": null,
+      "total_stars": 1071
+    },
+    {
       "login": "corona10",
       "name": "Donghee Na",
       "avatar_url": "https://avatars.githubusercontent.com/u/5110323?s=88&u=2dea940664aff06a115380e69c8dee6b3f2b043a&v=4",
@@ -725,6 +1063,19 @@
       "bio": "Head, NAVER CLOVA AI Lab\r\nCo-Director, SNU-NAVER Hyperscale AI Center\r\nCo-Director, KAIST-NAVER Hypercreative AI Center\r\nMember, NAEK\r\nCo-Chair, AI Future Forum",
       "company": "NAVER CLOVA AI Lab",
       "total_stars": 964
+    },
+    {
+      "login": "sysnet4admin",
+      "name": "Hoon Jo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29163931?s=88&u=cf52b97899e1cc31734cdd28f189b5110bf1c324&v=4",
+      "html_url": "https://github.com/sysnet4admin",
+      "followers": 474,
+      "following": 5,
+      "public_repos": 38,
+      "location": "South Korea, UTC+09",
+      "bio": "CNCF Ambassador   |   Cloud Engineer",
+      "company": null,
+      "total_stars": 940
     },
     {
       "login": "SeongJaeMoon",
@@ -753,6 +1104,19 @@
       "total_stars": 757
     },
     {
+      "login": "taehwandev",
+      "name": "Theo(TaeHwan)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2144231?s=88&u=c10fb5e21c90c1328fb053d8332fce5a20db7d88&v=4",
+      "html_url": "https://github.com/taehwandev",
+      "followers": 468,
+      "following": 143,
+      "public_repos": 29,
+      "location": "South Korea",
+      "bio": "Android Developer",
+      "company": "thdev",
+      "total_stars": 742
+    },
+    {
       "login": "seominjoon",
       "name": "Minjoon Seo",
       "avatar_url": "https://avatars.githubusercontent.com/u/1738325?s=88&u=34778399cd285ab36acc3feda5e0a6c550808464&v=4",
@@ -777,6 +1141,19 @@
       "bio": "data hacker; loves geeks, smiling, learning, community action, people that see the bright side of things",
       "company": "@UpstageAI",
       "total_stars": 687
+    },
+    {
+      "login": "kdy1",
+      "name": "Donny/강동윤",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29931815?s=88&u=2d5d37e8b4bc2794d3c75b9a5b95249a9e9b9c4f&v=4",
+      "html_url": "https://github.com/kdy1",
+      "followers": 4442,
+      "following": 31,
+      "public_repos": 93,
+      "location": "South korea",
+      "bio": "Creator of @swc-project. \r\n\r\nex @vercel @denoland",
+      "company": "@delinoio",
+      "total_stars": 679
     },
     {
       "login": "tonyfromundefined",
@@ -818,6 +1195,45 @@
       "total_stars": 561
     },
     {
+      "login": "wormwlrm",
+      "name": "Jongyoon Jeong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26682772?s=88&u=bdf91876499273d6bbf7e1e5026504554bd99990&v=4",
+      "html_url": "https://github.com/wormwlrm",
+      "followers": 562,
+      "following": 248,
+      "public_repos": 21,
+      "location": "Republic of Korea",
+      "bio": "Be professional, Be communicative, and Be inspirational.",
+      "company": "@naver",
+      "total_stars": 554
+    },
+    {
+      "login": "trustin",
+      "name": "Trustin Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173918?s=88&u=d9bb1bad1efcfdabaff1a411d81ae4692c6a8700&v=4",
+      "html_url": "https://github.com/trustin",
+      "followers": 2970,
+      "following": 19,
+      "public_repos": 21,
+      "location": "South Korea",
+      "bio": "the best is yet to come",
+      "company": "@netty",
+      "total_stars": 513
+    },
+    {
+      "login": "alstn2468",
+      "name": "Minsu Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30997311?s=88&u=f8b1531ab93cea620ced4c6bff7115828773caf0&v=4",
+      "html_url": "https://github.com/alstn2468",
+      "followers": 523,
+      "following": 237,
+      "public_repos": 61,
+      "location": "Yongin-si, South Korea",
+      "bio": "FE Developer",
+      "company": " @tossinvest @nexters",
+      "total_stars": 500
+    },
+    {
       "login": "serranoarevalo",
       "name": "니콜라스",
       "avatar_url": "https://avatars.githubusercontent.com/u/3612017?s=88&u=7829da1605a4ba5d541d3224ab71659f6471a2c1&v=4",
@@ -857,6 +1273,19 @@
       "total_stars": 473
     },
     {
+      "login": "Pluu",
+      "name": "pluulove",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1534926?s=88&u=877ddc235b307541aebf239a8ee58bad43a4398f&v=4",
+      "html_url": "https://github.com/Pluu",
+      "followers": 482,
+      "following": 63,
+      "public_repos": 86,
+      "location": "Korea Suwon",
+      "bio": null,
+      "company": "@kakaobank",
+      "total_stars": 471
+    },
+    {
       "login": "noonmaru",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/58920942?s=88&u=c382d5c906fb71286e160d57b7ab1580a5309ff2&v=4",
@@ -868,6 +1297,19 @@
       "bio": null,
       "company": null,
       "total_stars": 463
+    },
+    {
+      "login": "yamoo9",
+      "name": "야무",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1850554?s=88&u=fae578c8cc5ef8edb8246d48e86638bdae14ea26&v=4",
+      "html_url": "https://github.com/yamoo9",
+      "followers": 729,
+      "following": 0,
+      "public_repos": 104,
+      "location": "South korea",
+      "bio": "🍭 이듬(E.UID) 블렌디드 러닝 — 멘토",
+      "company": "Mentor of E.UID",
+      "total_stars": 457
     },
     {
       "login": "jisungbin",
@@ -948,6 +1390,32 @@
       "total_stars": 360
     },
     {
+      "login": "winterlood",
+      "name": "이정환",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46296754?s=88&u=aca9ef947a666c8ea60e184d3dc7505bbb88bac4&v=4",
+      "html_url": "https://github.com/winterlood",
+      "followers": 532,
+      "following": 123,
+      "public_repos": 83,
+      "location": "Republic Of Korea",
+      "bio": "developer for developers",
+      "company": null,
+      "total_stars": 349
+    },
+    {
+      "login": "pocojang",
+      "name": "Poco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23068523?s=88&u=4d5aaf0966d28fdb8bc03c0eb5ee60b773597f02&v=4",
+      "html_url": "https://github.com/pocojang",
+      "followers": 927,
+      "following": 194,
+      "public_repos": 22,
+      "location": "Republic of Korea",
+      "bio": "Web Frontend Engineer",
+      "company": null,
+      "total_stars": 347
+    },
+    {
       "login": "l2hyunwoo",
       "name": "HyunWoo Lee (Nunu Lee)",
       "avatar_url": "https://avatars.githubusercontent.com/u/54518925?s=88&u=74e3bd8d04f7a1db55ce00c9415e781530b7ea0a&v=4",
@@ -972,6 +1440,45 @@
       "bio": "js programmer who like css, color, gradient, svg ",
       "company": "@summernote @easylogic @elf-framework",
       "total_stars": 320
+    },
+    {
+      "login": "WegraLee",
+      "name": "개앞맵시(이복연)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/978777?s=88&u=a8d202cbc9b71e866ad48122b87f429a3f8896de&v=4",
+      "html_url": "https://github.com/WegraLee",
+      "followers": 474,
+      "following": 3,
+      "public_repos": 3,
+      "location": "Korea",
+      "bio": "<밑바닥부터 시작하는 딥러닝> 시리즈,\r\n<JVM 밑바닥까지 파헤치기>,\r\n<구글 엔지니어는 이렇게 일한다>,\r\n<리팩터링 2판>,\r\n<이펙티브 자바 3판>",
+      "company": "한빛앤(주)",
+      "total_stars": 313
+    },
+    {
+      "login": "hardkernel",
+      "name": "Hardkernel Co., Ltd.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2086832?s=88&u=48820db06d469fc83faa01d43cac30ccbf0f1826&v=4",
+      "html_url": "https://github.com/hardkernel",
+      "followers": 547,
+      "following": 2,
+      "public_repos": 106,
+      "location": "South Korea",
+      "bio": null,
+      "company": "Hardkernel Co., Ltd.",
+      "total_stars": 307
+    },
+    {
+      "login": "esthicodes",
+      "name": "hona",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78131082?s=88&u=c68d8be8e39a6eae54e806680b8b2401e59fd2ed&v=4",
+      "html_url": "https://github.com/esthicodes",
+      "followers": 509,
+      "following": 1,
+      "public_repos": 11,
+      "location": "Korea",
+      "bio": "#LineareAlgebra #Natural_Language_Processing\r\n#Awesome Swiss German Annotation Annalyst ",
+      "company": "@esthiscodes",
+      "total_stars": 298
     },
     {
       "login": "HyunSeob",
@@ -1117,6 +1624,19 @@
       "total_stars": 212
     },
     {
+      "login": "honux77",
+      "name": "Hoyoung Jung",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2168702?s=88&u=09c1c70c13781cd38412858e115029e06035ac35&v=4",
+      "html_url": "https://github.com/honux77",
+      "followers": 492,
+      "following": 5,
+      "public_repos": 165,
+      "location": "Korea",
+      "bio": null,
+      "company": "CodeSquad",
+      "total_stars": 200
+    },
+    {
       "login": "Violet-Bora-Lee",
       "name": "Bora Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/6451384?s=88&u=022417bbca6619e73dda0e268a796fd0a9aedcf8&v=4",
@@ -1195,6 +1715,32 @@
       "total_stars": 148
     },
     {
+      "login": "yceffort",
+      "name": "yceffort",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39641309?s=88&u=26f9cf8c6dbe2f4231ffeab05678aaa85ba3e54d&v=4",
+      "html_url": "https://github.com/yceffort",
+      "followers": 559,
+      "following": 0,
+      "public_repos": 33,
+      "location": "Korea",
+      "bio": "Grind. Learn. Repeat.",
+      "company": "?????",
+      "total_stars": 146
+    },
+    {
+      "login": "minirang",
+      "name": "서울민트초코",
+      "avatar_url": "https://avatars.githubusercontent.com/u/220184520?s=88&u=f2e9f05c2bc35d78b307a5be9e815d783d9bc262&v=4",
+      "html_url": "https://github.com/minirang",
+      "followers": 583,
+      "following": 6557,
+      "public_repos": 29,
+      "location": "South Korea",
+      "bio": "Relax, it's just me. No need to gasp. ヽ( ・ v ・ )ﾉ",
+      "company": "@minirang-org @SuperIntelligenceAI",
+      "total_stars": 138
+    },
+    {
       "login": "justinyoo",
       "name": "Justin Yoo",
       "avatar_url": "https://avatars.githubusercontent.com/u/1538528?s=88&u=7df07ea894a679551edce4707da744d2b2ed2969&v=4",
@@ -1247,6 +1793,19 @@
       "total_stars": 109
     },
     {
+      "login": "kimjunseong04",
+      "name": "Junseong Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70435510?s=88&u=28de71cbebe8fd174060ac3404f7d52d322b2f7c&v=4",
+      "html_url": "https://github.com/kimjunseong04",
+      "followers": 591,
+      "following": 408,
+      "public_repos": 16,
+      "location": "South Korea",
+      "bio": "반갑습니다 김준성입니다!",
+      "company": "Yonam Institute of Technology",
+      "total_stars": 97
+    },
+    {
       "login": "hkjang",
       "name": "hkjang",
       "avatar_url": "https://avatars.githubusercontent.com/u/3069493?s=88&u=fa306f6637231b3c428948caa70253a4bf1a6e7c&v=4",
@@ -1284,6 +1843,32 @@
       "bio": "if u visit korea, plz mail to me.",
       "company": "LS Cable&System (www.lscns.com)",
       "total_stars": 81
+    },
+    {
+      "login": "choiis",
+      "name": "Insung Choi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40110649?s=88&u=9aa6d5700b953a57fad13e9c0e57eb58e53fba25&v=4",
+      "html_url": "https://github.com/choiis",
+      "followers": 661,
+      "following": 1070,
+      "public_repos": 18,
+      "location": "South Korea",
+      "bio": "Backend Developer, DevOps Engineer\r\n\r\nNHN Cloud, Samsung Electronics,\r\nNexon Korea, Dongbu CNI",
+      "company": "Backend Developer, DevOps Engineer",
+      "total_stars": 72
+    },
+    {
+      "login": "zeeshanlakhani",
+      "name": "Zeeshan Lakhani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202820?s=88&v=4",
+      "html_url": "https://github.com/zeeshanlakhani",
+      "followers": 543,
+      "following": 570,
+      "public_repos": 16,
+      "location": "Incheon, South Korea",
+      "bio": "@papers-we-love / pwlconf founder/org. |  @oxidecomputer eng | @cmuscs (CMU) PhD in PLT, prev~@fission-codes, @comcast, @basho, @arc90, @nypl (labs)",
+      "company": "Papers We Love | Oxide Computer Company | CMU",
+      "total_stars": 67
     },
     {
       "login": "manudeli",
@@ -1325,6 +1910,32 @@
       "total_stars": 49
     },
     {
+      "login": "chltjdrhd777",
+      "name": "devAnderson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58500558?s=88&u=f97461302bafcd5e01fbc346fcdacb4d8ed83758&v=4",
+      "html_url": "https://github.com/chltjdrhd777",
+      "followers": 1101,
+      "following": 2494,
+      "public_repos": 25,
+      "location": "South Korea",
+      "bio": "🚀 A person who enjoy creating something for developers (DX enthusiast)",
+      "company": "EAN",
+      "total_stars": 42
+    },
+    {
+      "login": "HyukjinKwon",
+      "name": "Hyukjin Kwon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6477701?s=88&u=5e9b64518d60397dd02b4db8ce77920bf2464dba&v=4",
+      "html_url": "https://github.com/HyukjinKwon",
+      "followers": 690,
+      "following": 20,
+      "public_repos": 10,
+      "location": "South Korea",
+      "bio": "Comments from this profile are opinions of the profile owner. ASF member, Apache Spark PMC member and committer @apache \r\nStaff Software Engineer @databricks",
+      "company": "@Apache @Databricks",
+      "total_stars": 40
+    },
+    {
       "login": "peyo-hd",
       "name": "Peter Yoon",
       "avatar_url": "https://avatars.githubusercontent.com/u/11039841?s=88&u=7783a739639d6477f3ff7771b1b366cd3bcbdbaa&v=4",
@@ -1338,6 +1949,19 @@
       "total_stars": 35
     },
     {
+      "login": "jbj338033",
+      "name": "Jeon Min O",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
+      "html_url": "https://github.com/jbj338033",
+      "followers": 637,
+      "following": 2494,
+      "public_repos": 129,
+      "location": "Daegu Software Meister High School",
+      "bio": null,
+      "company": null,
+      "total_stars": 31
+    },
+    {
       "login": "raon0211",
       "name": "Sojin Park",
       "avatar_url": "https://avatars.githubusercontent.com/u/3102175?s=88&u=5a2ffa0d74ba75c181641ff00972a255fcb65a35&v=4",
@@ -1349,6 +1973,19 @@
       "bio": "🔥",
       "company": "@toss ",
       "total_stars": 12
+    },
+    {
+      "login": "wonkyungup",
+      "name": "원경업",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34180230?s=88&v=4",
+      "html_url": "https://github.com/wonkyungup",
+      "followers": 573,
+      "following": 1533,
+      "public_repos": 2,
+      "location": "South Korea",
+      "bio": null,
+      "company": null,
+      "total_stars": 7
     },
     {
       "login": "tail-s",
@@ -1444,6 +2081,17 @@
       "pushed_at": "2024-01-18T13:29:44Z"
     },
     {
+      "full_name": "gyoogle/tech-interview-for-developer",
+      "html_url": "https://github.com/gyoogle/tech-interview-for-developer",
+      "description": "👶🏻 신입 개발자 전공 지식 & 기술 면접 백과사전 📖",
+      "stargazers_count": 17349,
+      "forks_count": 3727,
+      "watchers_count": 0,
+      "language": "Java",
+      "created_at": "2019-06-09T04:42:57Z",
+      "pushed_at": "2025-06-04T08:16:06Z"
+    },
+    {
       "full_name": "graykode/nlp-tutorial",
       "html_url": "https://github.com/graykode/nlp-tutorial",
       "description": "Natural Language Processing Tutorial for Deep Learning Researchers",
@@ -1455,6 +2103,17 @@
       "pushed_at": "2024-02-21T13:49:10Z"
     },
     {
+      "full_name": "davidshimjs/qrcodejs",
+      "html_url": "https://github.com/davidshimjs/qrcodejs",
+      "description": "Cross-browser QRCode generator for javascript",
+      "stargazers_count": 14280,
+      "forks_count": 4758,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2012-12-26T05:29:39Z",
+      "pushed_at": "2024-05-01T10:44:40Z"
+    },
+    {
       "full_name": "gurugio/lowlevelprogramming-university",
       "html_url": "https://github.com/gurugio/lowlevelprogramming-university",
       "description": "How to be low-level programmer",
@@ -1464,6 +2123,17 @@
       "language": null,
       "created_at": "2017-01-01T17:13:04Z",
       "pushed_at": "2025-03-24T11:49:58Z"
+    },
+    {
+      "full_name": "0xk1h0/ChatGPT_DAN",
+      "html_url": "https://github.com/0xk1h0/ChatGPT_DAN",
+      "description": "ChatGPT DAN, Jailbreaks prompt",
+      "stargazers_count": 12008,
+      "forks_count": 1156,
+      "watchers_count": 0,
+      "language": null,
+      "created_at": "2023-02-15T09:48:18Z",
+      "pushed_at": "2026-03-02T17:44:09Z"
     },
     {
       "full_name": "hoya012/deep_learning_object_detection",
@@ -1488,6 +2158,28 @@
       "pushed_at": "2024-07-27T05:58:26Z"
     },
     {
+      "full_name": "daybrush/moveable",
+      "html_url": "https://github.com/daybrush/moveable",
+      "description": "Moveable! Draggable! Resizable! Scalable! Rotatable! Warpable! Pinchable! Groupable! Snappable!",
+      "stargazers_count": 10701,
+      "forks_count": 659,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2019-07-05T15:04:30Z",
+      "pushed_at": "2024-06-03T07:57:45Z"
+    },
+    {
+      "full_name": "abus-aikorea/voice-pro",
+      "html_url": "https://github.com/abus-aikorea/voice-pro",
+      "description": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isola",
+      "stargazers_count": 9656,
+      "forks_count": 1333,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2024-07-29T10:02:31Z",
+      "pushed_at": "2025-12-05T17:00:08Z"
+    },
+    {
       "full_name": "Dhghomon/easy_rust",
       "html_url": "https://github.com/Dhghomon/easy_rust",
       "description": "Rust explained using easy English",
@@ -1497,6 +2189,28 @@
       "language": "Shell",
       "created_at": "2020-07-11T05:54:06Z",
       "pushed_at": "2024-05-13T14:20:20Z"
+    },
+    {
+      "full_name": "utkuozbulak/pytorch-cnn-visualizations",
+      "html_url": "https://github.com/utkuozbulak/pytorch-cnn-visualizations",
+      "description": "Pytorch implementation of convolutional neural network visualization techniques",
+      "stargazers_count": 8214,
+      "forks_count": 1504,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2017-10-21T07:25:07Z",
+      "pushed_at": "2025-01-01T10:31:10Z"
+    },
+    {
+      "full_name": "sinclairzx81/typebox",
+      "html_url": "https://github.com/sinclairzx81/typebox",
+      "description": "JSON Schema Type Builder with Static Type Resolution for TypeScript",
+      "stargazers_count": 6699,
+      "forks_count": 202,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2017-04-06T17:08:46Z",
+      "pushed_at": "2026-05-06T07:22:24Z"
     },
     {
       "full_name": "codertimo/BERT-pytorch",
@@ -1510,6 +2224,17 @@
       "pushed_at": "2023-09-15T12:57:08Z"
     },
     {
+      "full_name": "taki0112/UGATIT",
+      "html_url": "https://github.com/taki0112/UGATIT",
+      "description": "Official Tensorflow implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation (ICLR 2020)",
+      "stargazers_count": 6126,
+      "forks_count": 1018,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2019-07-26T00:33:54Z",
+      "pushed_at": "2021-05-20T03:23:05Z"
+    },
+    {
       "full_name": "samchon/typia",
       "html_url": "https://github.com/samchon/typia",
       "description": "Super-fast/easy runtime validators and serializers via transformation",
@@ -1519,6 +2244,17 @@
       "language": "TypeScript",
       "created_at": "2022-04-18T18:13:59Z",
       "pushed_at": "2026-05-18T09:04:31Z"
+    },
+    {
+      "full_name": "utilForever/game-developer-roadmap",
+      "html_url": "https://github.com/utilForever/game-developer-roadmap",
+      "description": "Roadmap to becoming a game developer in 2022",
+      "stargazers_count": 5758,
+      "forks_count": 499,
+      "watchers_count": 0,
+      "language": "Rust",
+      "created_at": "2017-05-02T14:38:04Z",
+      "pushed_at": "2025-01-31T14:57:17Z"
     },
     {
       "full_name": "yunjey/stargan",
@@ -1532,6 +2268,28 @@
       "pushed_at": "2021-01-23T15:09:58Z"
     },
     {
+      "full_name": "hahwul/dalfox",
+      "html_url": "https://github.com/hahwul/dalfox",
+      "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation.",
+      "stargazers_count": 4986,
+      "forks_count": 525,
+      "watchers_count": 0,
+      "language": "Rust",
+      "created_at": "2020-04-12T07:04:10Z",
+      "pushed_at": "2026-05-18T14:44:11Z"
+    },
+    {
+      "full_name": "hahwul/WebHackersWeapons",
+      "html_url": "https://github.com/hahwul/WebHackersWeapons",
+      "description": "⚔️ Web Hacker's Weapons / A collection of cool tools used by Web hackers. Happy hacking , Happy bug-hunting",
+      "stargazers_count": 4604,
+      "forks_count": 762,
+      "watchers_count": 0,
+      "language": "Ruby",
+      "created_at": "2020-04-04T14:54:04Z",
+      "pushed_at": "2026-04-24T14:42:50Z"
+    },
+    {
       "full_name": "hyunwoongko/transformer",
       "html_url": "https://github.com/hyunwoongko/transformer",
       "description": "Transformer: PyTorch Implementation of \"Attention Is All You Need\"",
@@ -1541,6 +2299,17 @@
       "language": "Python",
       "created_at": "2019-10-15T10:36:00Z",
       "pushed_at": "2025-07-15T06:19:46Z"
+    },
+    {
+      "full_name": "JaKooLit/Arch-Hyprland",
+      "html_url": "https://github.com/JaKooLit/Arch-Hyprland",
+      "description": "For automated installation of Hyprland on Arch Linux or any Arch Linux-based distros",
+      "stargazers_count": 4481,
+      "forks_count": 364,
+      "watchers_count": 0,
+      "language": "Shell",
+      "created_at": "2023-10-26T02:00:02Z",
+      "pushed_at": "2026-02-22T15:38:26Z"
     },
     {
       "full_name": "Kyubyong/transformer",
@@ -1609,6 +2378,17 @@
       "pushed_at": "2026-03-24T02:57:17Z"
     },
     {
+      "full_name": "JaKooLit/Hyprland-Dots",
+      "html_url": "https://github.com/JaKooLit/Hyprland-Dots",
+      "description": "Hyprland configuration files or dotfiles - This repo is used as main repo for all my Distro-Hyprland Install Scripts. See the readme",
+      "stargazers_count": 3392,
+      "forks_count": 346,
+      "watchers_count": 0,
+      "language": "Shell",
+      "created_at": "2023-10-22T03:45:25Z",
+      "pushed_at": "2026-02-22T15:37:12Z"
+    },
+    {
       "full_name": "devxoul/URLNavigator",
       "html_url": "https://github.com/devxoul/URLNavigator",
       "description": "⛵️ Elegant URL Routing for Swift",
@@ -1618,6 +2398,28 @@
       "language": "Swift",
       "created_at": "2016-02-07T09:14:17Z",
       "pushed_at": "2024-05-24T16:28:03Z"
+    },
+    {
+      "full_name": "deep-diver/LLM-As-Chatbot",
+      "html_url": "https://github.com/deep-diver/LLM-As-Chatbot",
+      "description": "LLM as a Chatbot Service",
+      "stargazers_count": 3325,
+      "forks_count": 379,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2023-02-27T15:32:16Z",
+      "pushed_at": "2023-11-20T14:33:58Z"
+    },
+    {
+      "full_name": "milooy/remote-or-flexible-work-company-in-korea",
+      "html_url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea",
+      "description": "한국에서 원격근무 혹은 자율출퇴근이 되는 회사 리스트를 아카이브합니다",
+      "stargazers_count": 3297,
+      "forks_count": 301,
+      "watchers_count": 0,
+      "language": "JavaScript",
+      "created_at": "2018-10-29T09:15:08Z",
+      "pushed_at": "2024-05-21T16:34:48Z"
     },
     {
       "full_name": "graykode/nlp-roadmap",
@@ -1708,6 +2510,28 @@
       "pushed_at": "2022-09-20T09:33:40Z"
     },
     {
+      "full_name": "daybrush/scenejs",
+      "html_url": "https://github.com/daybrush/scenejs",
+      "description": "🎬 Scene.js is JavaScript & CSS timeline-based animation library",
+      "stargazers_count": 2770,
+      "forks_count": 162,
+      "watchers_count": 0,
+      "language": "TypeScript",
+      "created_at": "2017-03-24T08:20:40Z",
+      "pushed_at": "2023-06-19T22:39:08Z"
+    },
+    {
+      "full_name": "taki0112/Tensorflow-Cookbook",
+      "html_url": "https://github.com/taki0112/Tensorflow-Cookbook",
+      "description": "Simple Tensorflow Cookbook for easy-to-use",
+      "stargazers_count": 2750,
+      "forks_count": 464,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2019-02-16T15:43:31Z",
+      "pushed_at": "2020-02-09T06:12:49Z"
+    },
+    {
       "full_name": "sjchoi86/Tensorflow-101",
       "html_url": "https://github.com/sjchoi86/Tensorflow-101",
       "description": "TensorFlow Tutorials",
@@ -1719,202 +2543,15 @@
       "pushed_at": "2020-03-23T06:50:22Z"
     },
     {
-      "full_name": "graykode/abtop",
-      "html_url": "https://github.com/graykode/abtop",
-      "description": "Like htop, but for AI coding agents. Monitor Claude    Code & Codex CLI sessions, tokens, context window,    rate limits, and ports in real-time.",
-      "stargazers_count": 2255,
-      "forks_count": 205,
-      "watchers_count": 0,
-      "language": "Rust",
-      "created_at": "2026-03-29T10:12:20Z",
-      "pushed_at": "2026-05-14T05:54:37Z"
-    },
-    {
-      "full_name": "Kyubyong/wordvectors",
-      "html_url": "https://github.com/Kyubyong/wordvectors",
-      "description": "Pre-trained word vectors of 30+ languages",
-      "stargazers_count": 2233,
-      "forks_count": 388,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2016-12-21T01:55:34Z",
-      "pushed_at": "2018-10-11T20:54:06Z"
-    },
-    {
-      "full_name": "samchon/nestia",
-      "html_url": "https://github.com/samchon/nestia",
-      "description": "NestJS Helper + AI Chatbot Development",
-      "stargazers_count": 2150,
-      "forks_count": 123,
+      "full_name": "sinclairzx81/zero",
+      "html_url": "https://github.com/sinclairzx81/zero",
+      "description": "A 3D renderer written in JavaScript and rendered to the terminal.",
+      "stargazers_count": 2444,
+      "forks_count": 144,
       "watchers_count": 0,
       "language": "TypeScript",
-      "created_at": "2021-01-20T09:12:03Z",
-      "pushed_at": "2026-05-16T10:10:21Z"
-    },
-    {
-      "full_name": "golbin/TensorFlow-Tutorials",
-      "html_url": "https://github.com/golbin/TensorFlow-Tutorials",
-      "description": "텐서플로우를 기초부터 응용까지 단계별로 연습할 수 있는 소스 코드를 제공합니다",
-      "stargazers_count": 2124,
-      "forks_count": 976,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2017-01-18T18:50:06Z",
-      "pushed_at": "2023-01-04T15:44:59Z"
-    },
-    {
-      "full_name": "devxoul/Toaster",
-      "html_url": "https://github.com/devxoul/Toaster",
-      "description": "🍞 Toast for Swift",
-      "stargazers_count": 1859,
-      "forks_count": 263,
-      "watchers_count": 0,
-      "language": "Swift",
-      "created_at": "2013-02-01T07:58:22Z",
-      "pushed_at": "2024-09-03T11:45:37Z"
-    },
-    {
-      "full_name": "Kyubyong/tacotron",
-      "html_url": "https://github.com/Kyubyong/tacotron",
-      "description": "A TensorFlow Implementation of Tacotron: A Fully End-to-End Text-To-Speech Synthesis Model",
-      "stargazers_count": 1836,
-      "forks_count": 430,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2017-05-16T00:16:06Z",
-      "pushed_at": "2022-01-17T20:46:22Z"
-    },
-    {
-      "full_name": "dahlia/logtape",
-      "html_url": "https://github.com/dahlia/logtape",
-      "description": "Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions",
-      "stargazers_count": 1794,
-      "forks_count": 41,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2024-04-16T11:36:21Z",
-      "pushed_at": "2026-05-17T10:41:36Z"
-    },
-    {
-      "full_name": "Kyubyong/numpy_exercises",
-      "html_url": "https://github.com/Kyubyong/numpy_exercises",
-      "description": "Numpy exercises.",
-      "stargazers_count": 1743,
-      "forks_count": 579,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2016-11-19T08:36:34Z",
-      "pushed_at": "2023-05-21T08:47:30Z"
-    },
-    {
-      "full_name": "ParkSangGwon/TedPermission",
-      "html_url": "https://github.com/ParkSangGwon/TedPermission",
-      "description": "Easy check permission library for Android Marshmallow",
-      "stargazers_count": 1735,
-      "forks_count": 239,
-      "watchers_count": 0,
-      "language": "Java",
-      "created_at": "2016-02-18T01:37:51Z",
-      "pushed_at": "2024-08-14T02:40:19Z"
-    },
-    {
-      "full_name": "youknowone/UI7Kit",
-      "html_url": "https://github.com/youknowone/UI7Kit",
-      "description": "Backport flat-style UIKit from iOS7 to iOS5+",
-      "stargazers_count": 1670,
-      "forks_count": 196,
-      "watchers_count": 0,
-      "language": "Objective-C",
-      "created_at": "2013-06-13T11:57:15Z",
-      "pushed_at": "2022-12-15T16:45:31Z"
-    },
-    {
-      "full_name": "graykode/distribution-is-all-you-need",
-      "html_url": "https://github.com/graykode/distribution-is-all-you-need",
-      "description": "The basic distribution probability Tutorial for Deep Learning Researchers",
-      "stargazers_count": 1637,
-      "forks_count": 380,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2019-09-06T04:35:53Z",
-      "pushed_at": "2020-10-01T19:14:25Z"
-    },
-    {
-      "full_name": "junhoyeo/threads-api",
-      "html_url": "https://github.com/junhoyeo/threads-api",
-      "description": "Unofficial, Reverse-Engineered Node.js/TypeScript client for Meta's Threads. Web UI Included.",
-      "stargazers_count": 1606,
-      "forks_count": 136,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2023-07-06T10:20:03Z",
-      "pushed_at": "2023-09-08T11:09:14Z"
-    },
-    {
-      "full_name": "kciter/Floaty",
-      "html_url": "https://github.com/kciter/Floaty",
-      "description": ":heart: Floating Action Button for iOS",
-      "stargazers_count": 1586,
-      "forks_count": 302,
-      "watchers_count": 0,
-      "language": "Swift",
-      "created_at": "2015-10-13T12:32:42Z",
-      "pushed_at": "2022-08-25T01:50:46Z"
-    },
-    {
-      "full_name": "Beomi/KoAlpaca",
-      "html_url": "https://github.com/Beomi/KoAlpaca",
-      "description": "KoAlpaca: 한국어 명령어를 이해하는 오픈소스 언어모델 (KoAlpaca: An open-source language model to understand Korean instructions)",
-      "stargazers_count": 1577,
-      "forks_count": 227,
-      "watchers_count": 0,
-      "language": "Jupyter Notebook",
-      "created_at": "2023-03-18T04:48:40Z",
-      "pushed_at": "2024-10-25T07:59:42Z"
-    },
-    {
-      "full_name": "devxoul/UITextView-Placeholder",
-      "html_url": "https://github.com/devxoul/UITextView-Placeholder",
-      "description": "A missing placeholder for UITextView",
-      "stargazers_count": 1545,
-      "forks_count": 273,
-      "watchers_count": 0,
-      "language": "Objective-C",
-      "created_at": "2014-12-10T15:18:38Z",
-      "pushed_at": "2026-01-19T06:07:42Z"
-    },
-    {
-      "full_name": "sjchoi86/dl_tutorials",
-      "html_url": "https://github.com/sjchoi86/dl_tutorials",
-      "description": "Deep learning tutorials (2nd ed.)",
-      "stargazers_count": 1518,
-      "forks_count": 394,
-      "watchers_count": 0,
-      "language": null,
-      "created_at": "2016-06-15T01:29:18Z",
-      "pushed_at": "2016-07-26T16:31:07Z"
-    },
-    {
-      "full_name": "younatics/MotionBook",
-      "html_url": "https://github.com/younatics/MotionBook",
-      "description": "📖 Awesome iOS UI/UX Application (Open Source)",
-      "stargazers_count": 1466,
-      "forks_count": 143,
-      "watchers_count": 0,
-      "language": "Swift",
-      "created_at": "2017-02-09T12:59:27Z",
-      "pushed_at": "2020-10-01T07:51:41Z"
-    },
-    {
-      "full_name": "golbin/hop",
-      "html_url": "https://github.com/golbin/hop",
-      "description": null,
-      "stargazers_count": 1354,
-      "forks_count": 239,
-      "watchers_count": 0,
-      "language": "TypeScript",
-      "created_at": "2026-04-19T10:49:46Z",
-      "pushed_at": "2026-05-12T15:25:28Z"
+      "created_at": "2016-10-10T11:59:07Z",
+      "pushed_at": "2026-03-02T09:35:15Z"
     }
   ]
 }

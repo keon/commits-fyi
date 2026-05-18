@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-05-18T15:56:00.722Z",
+  "generated_at": "2026-05-18T17:49:26.363Z",
   "counts": {
-    "users": 152,
+    "users": 154,
     "orgs": 0,
     "repos": 50
   },
   "totals": {
-    "user_followers": 391328,
+    "user_followers": 392372,
     "org_followers": 0,
-    "user_stars": 1289830,
+    "user_stars": 1306083,
     "org_stars": 0
   },
   "queries": [
@@ -31,8 +31,8 @@
       "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
-      "label": "Per-account repo list (to sum stars and surface top repos)",
-      "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
+      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
       "ui_url": null
     }
   ],
@@ -493,6 +493,19 @@
       "total_stars": 9836
     },
     {
+      "login": "nlpxucan",
+      "name": "Can Xu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12636990?s=88&u=6bfb71725596fd0a242226db55ec650bd8321668&v=4",
+      "html_url": "https://github.com/nlpxucan",
+      "followers": 492,
+      "following": 17,
+      "public_repos": 7,
+      "location": "Seattle, U.S.A.",
+      "bio": "Senior Researcher at Microsoft. Creator of Evol-Instruct and WizardLM Family: WizardLM, WizardCoder and WizardMath.\r\nProject: https://twitter.com/WizardLM_AI",
+      "company": "Microsoft",
+      "total_stars": 9807
+    },
+    {
       "login": "basnijholt",
       "name": "Bas Nijholt",
       "avatar_url": "https://avatars.githubusercontent.com/u/6897215?s=88&u=a7d69832481ceabbd1a99ab22413a7141d2b1183&v=4",
@@ -504,6 +517,19 @@
       "bio": "🔬 Building quantum computers at IonQ by day, crafting various open-source tools at night.",
       "company": "@IonQ",
       "total_stars": 9766
+    },
+    {
+      "login": "saulpw",
+      "name": "Saul Pwanson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/236498?s=88&u=bf7747b7f2c4f99e1ef85c93d65db609b0a38d9b&v=4",
+      "html_url": "https://github.com/saulpw",
+      "followers": 551,
+      "following": 72,
+      "public_repos": 33,
+      "location": "Seattle, USA",
+      "bio": "Data, optimization, tools",
+      "company": null,
+      "total_stars": 9736
     },
     {
       "login": "madskristensen",
@@ -842,19 +868,6 @@
       "bio": "Senior Director of Developer Relations @ GitHub ",
       "company": "GitHub",
       "total_stars": 4053
-    },
-    {
-      "login": "bearpaw",
-      "name": "Wei Yang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/289501?s=88&v=4",
-      "html_url": "https://github.com/bearpaw",
-      "followers": 775,
-      "following": 45,
-      "public_repos": 23,
-      "location": "Seattle, WA, USA",
-      "bio": "NVIDIA Robotics Research Lab",
-      "company": "NVIDIA",
-      "total_stars": 3823
     },
     {
       "login": "brendandburns",
@@ -1531,6 +1544,19 @@
       "bio": ".NET Team member, trail runner, Dad, Husband.\r\n\r\n\r\nHe/him",
       "company": "@dotnet ",
       "total_stars": 544
+    },
+    {
+      "login": "jflam",
+      "name": "John Lam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8877?s=88&v=4",
+      "html_url": "https://github.com/jflam",
+      "followers": 776,
+      "following": 3,
+      "public_repos": 122,
+      "location": "Redmond, WA",
+      "bio": "I work on building our AI coding experiences at Microsoft.",
+      "company": "@Microsoft ",
+      "total_stars": 533
     },
     {
       "login": "TimothyGu",
@@ -2226,6 +2252,17 @@
       "pushed_at": "2026-05-14T23:09:55Z"
     },
     {
+      "full_name": "nlpxucan/WizardLM",
+      "html_url": "https://github.com/nlpxucan/WizardLM",
+      "description": "LLMs build upon Evol Insturct: WizardLM, WizardCoder, WizardMath",
+      "stargazers_count": 9480,
+      "forks_count": 750,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2023-04-23T13:26:46Z",
+      "pushed_at": "2025-06-07T01:35:05Z"
+    },
+    {
       "full_name": "anvaka/city-roads",
       "html_url": "https://github.com/anvaka/city-roads",
       "description": "Visualization of all roads within any city",
@@ -2235,6 +2272,17 @@
       "language": "JavaScript",
       "created_at": "2020-01-19T16:42:16Z",
       "pushed_at": "2026-03-17T06:28:29Z"
+    },
+    {
+      "full_name": "saulpw/visidata",
+      "html_url": "https://github.com/saulpw/visidata",
+      "description": "A terminal spreadsheet multitool for discovering and arranging data",
+      "stargazers_count": 9092,
+      "forks_count": 346,
+      "watchers_count": 0,
+      "language": "Python",
+      "created_at": "2016-10-27T04:21:00Z",
+      "pushed_at": "2026-05-12T18:27:44Z"
     },
     {
       "full_name": "davidfowl/AspNetCoreDiagnosticScenarios",
@@ -2543,28 +2591,6 @@
       "language": "Python",
       "created_at": "2025-04-19T20:01:33Z",
       "pushed_at": "2026-05-18T01:53:35Z"
-    },
-    {
-      "full_name": "skyzh/mini-lsm",
-      "html_url": "https://github.com/skyzh/mini-lsm",
-      "description": "A course of building an LSM-Tree storage engine (database) in a week.",
-      "stargazers_count": 3998,
-      "forks_count": 610,
-      "watchers_count": 0,
-      "language": "Rust",
-      "created_at": "2022-12-23T19:16:00Z",
-      "pushed_at": "2026-04-22T00:41:19Z"
-    },
-    {
-      "full_name": "yasoob/intermediatePython",
-      "html_url": "https://github.com/yasoob/intermediatePython",
-      "description": null,
-      "stargazers_count": 3897,
-      "forks_count": 707,
-      "watchers_count": 0,
-      "language": "Python",
-      "created_at": "2015-08-15T21:21:51Z",
-      "pushed_at": "2023-04-14T09:46:35Z"
     }
   ]
 }
