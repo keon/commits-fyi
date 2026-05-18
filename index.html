@@ -110,8 +110,10 @@
     .stats { grid-template-columns: repeat(2, 1fr); gap: 6px; }
     .stat { padding: 8px 10px; }
     .stat-value { font-size: 16px; }
-    .tabs { overflow-x: auto; flex-wrap: nowrap; }
+    .controls-row { flex-direction: column; align-items: stretch; gap: 8px; border-bottom: none; }
+    .tabs { overflow-x: auto; flex-wrap: nowrap; border-bottom: 1px solid var(--border); padding-bottom: 0; }
     .tab { padding: 8px 10px; flex-shrink: 0; }
+    input[type="text"] { width: 100%; margin-bottom: 0; }
     details.method .body { padding-left: 16px; }
     .query-row { font-size: 10px; }
 
@@ -234,27 +236,48 @@
   /* Main content */
   main.content { min-width: 0; }
   .page-header {
-    margin-bottom: 16px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
   }
   .page-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     margin: 0;
+    letter-spacing: -0.01em;
   }
   .page-sub {
     color: var(--text-muted);
     font-size: 13px;
     margin-top: 4px;
+    max-width: 65ch;
   }
+  .page-summary {
+    margin-top: 12px;
+    color: var(--text-muted);
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+  .page-summary .num {
+    color: var(--text);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .page-summary span { white-space: nowrap; }
 
-  /* Tabs */
+  /* Tabs + filter unified row */
+  .controls-row {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--border);
+  }
   .tabs {
     display: flex;
-    gap: 4px;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 16px;
+    gap: 2px;
+    flex: 1;
+    min-width: 0;
   }
   .tab {
     background: none;
@@ -267,101 +290,80 @@
     margin-bottom: -1px;
     font-weight: 500;
     font-family: inherit;
+    transition: color 0.1s;
   }
   .tab:hover { color: var(--text); }
-  .tab.active { color: var(--text); border-bottom-color: #fd8c73; font-weight: 600; }
+  .tab.active { color: var(--text); border-bottom-color: var(--text); font-weight: 600; }
   .tab .badge {
-    background: var(--bg-emphasis);
-    color: var(--text);
-    padding: 1px 7px;
-    border-radius: 10px;
-    margin-left: 6px;
-    font-size: 11px;
+    color: var(--text-muted);
+    font-size: 12px;
+    margin-left: 4px;
+    font-weight: 400;
     font-variant-numeric: tabular-nums;
   }
+  .tab.active .badge { color: var(--text-muted); }
 
-  .controls-row {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    margin-bottom: 12px;
-  }
   input[type="text"] {
     background: var(--bg);
     border: 1px solid var(--border);
     color: var(--text);
     padding: 6px 10px;
     border-radius: 6px;
-    font-size: 14px;
-    width: 100%;
-    max-width: 320px;
+    font-size: 13px;
+    width: 180px;
+    align-self: center;
+    margin-bottom: 6px;
     font-family: inherit;
   }
   input[type="text"]:focus {
     outline: none;
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px rgba(9,105,218,0.12);
+    border-color: var(--text-muted);
   }
 
-  /* Stats */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 8px;
-    margin-bottom: 16px;
-  }
-  .stat {
-    background: var(--bg-subtle);
-    border: 1px solid var(--border-muted);
-    border-radius: 6px;
-    padding: 10px 12px;
-  }
-  .stat-label {
-    color: var(--text-muted);
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  .stat-value {
-    font-size: 20px;
-    font-weight: 600;
-    font-variant-numeric: tabular-nums;
-    margin-top: 2px;
-  }
-
-  /* Tables */
-  .table-wrap {
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--bg);
-  }
+  /* Tables — no surrounding box, just rule lines for a quieter look */
+  .table-wrap { background: var(--bg); }
   table {
     width: 100%;
     border-collapse: collapse;
   }
   th, td {
     text-align: left;
-    padding: 10px 14px;
+    padding: 12px 8px;
     border-bottom: 1px solid var(--border-muted);
   }
   th {
-    background: var(--bg-subtle);
-    font-weight: 600;
+    font-weight: 500;
     color: var(--text-muted);
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.4px;
     cursor: pointer;
     user-select: none;
     white-space: nowrap;
+    border-bottom: 1px solid var(--border);
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   th.sortable:hover { color: var(--text); }
-  th .arrow { color: var(--accent); margin-left: 4px; font-size: 10px; }
+  th .arrow { color: var(--text-muted); margin-left: 3px; font-size: 9px; }
+  th.sortable[data-sort] { transition: color 0.1s; }
   tbody tr:last-child td { border-bottom: none; }
   tbody tr:hover td { background: var(--bg-subtle); }
-  td.rank { color: var(--text-muted); width: 50px; font-variant-numeric: tabular-nums; }
-  td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.rank {
+    color: var(--text-muted);
+    width: 40px;
+    font-variant-numeric: tabular-nums;
+    font-size: 13px;
+    padding-left: 4px;
+  }
+  td.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    font-size: 13px;
+    color: var(--text);
+    padding-right: 8px;
+  }
   .ent {
     display: flex;
     align-items: center;
@@ -369,8 +371,8 @@
     min-width: 0;
   }
   .avatar {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background: var(--bg-subtle);
     flex-shrink: 0;
@@ -380,7 +382,14 @@
     display: flex;
     flex-direction: column;
     min-width: 0;
+    line-height: 1.35;
   }
+  .ent-text a {
+    color: var(--text);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .ent-text a:hover { color: var(--link); }
   .ent-text .secondary, .repo-desc {
     color: var(--text-muted);
     font-size: 12px;
@@ -390,13 +399,10 @@
   }
   .lang-tag {
     display: inline-block;
-    background: var(--bg-subtle);
-    border: 1px solid var(--border-muted);
-    border-radius: 10px;
-    padding: 0px 7px;
     font-size: 11px;
     color: var(--text-muted);
-    margin-left: 6px;
+    margin-left: 8px;
+    font-weight: 400;
   }
 
   .status {
@@ -410,47 +416,50 @@
   .status.error { color: #cf222e; background: #FFEBE9; border-color: rgba(207,34,46,0.3); }
   .hidden { display: none; }
 
-  /* Methodology / queries panel */
+  /* Methodology / queries panel — quiet, no surrounding box */
   details.method {
-    margin-top: 24px;
-    background: var(--bg-subtle);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 0;
+    margin-top: 32px;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
   }
   details.method summary {
-    padding: 10px 14px;
     cursor: pointer;
-    font-size: 13px;
-    color: var(--text);
+    font-size: 12px;
+    color: var(--text-muted);
     user-select: none;
     list-style: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
   }
   details.method summary::-webkit-details-marker { display: none; }
   details.method summary::before {
-    content: '▸';
+    content: '+';
     color: var(--text-muted);
+    font-family: ui-monospace, monospace;
     transition: transform 0.1s;
     display: inline-block;
   }
-  details.method[open] summary::before { transform: rotate(90deg); }
-  details.method summary:hover { background: var(--bg-emphasis); border-radius: 6px; }
-  details.method .body { padding: 12px 16px 14px 32px; border-top: 1px solid var(--border-muted); }
+  details.method[open] summary::before { content: '−'; }
+  details.method summary:hover { color: var(--text); }
+  details.method .body { padding: 12px 0 0 18px; }
   details.method ol { margin: 0; padding-left: 18px; }
-  details.method li { margin-bottom: 10px; font-size: 13px; }
+  details.method li { margin-bottom: 12px; font-size: 12px; color: var(--text-muted); }
   details.method li:last-child { margin-bottom: 0; }
+  details.method li a { color: var(--link); }
   .query-row {
     margin-top: 4px;
-    background: var(--bg);
-    border: 1px solid var(--border-muted);
-    border-radius: 6px;
-    padding: 6px 10px;
+    background: var(--bg-subtle);
+    border-radius: 4px;
+    padding: 4px 8px;
     overflow-x: auto;
   }
-  .query-row code { color: var(--text); white-space: nowrap; display: block; }
+  .query-row code {
+    color: var(--text);
+    white-space: nowrap;
+    display: block;
+    font-size: 11px;
+  }
 
   /* Clickable rows in account tables */
   tbody tr.clickable { cursor: pointer; }
@@ -567,13 +576,17 @@
   }
 
   footer.site {
-    border-top: 1px solid var(--border);
-    margin-top: 48px;
-    padding: 16px 24px;
+    margin-top: 64px;
+    padding: 16px 0 32px;
     color: var(--text-muted);
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  footer.site a { color: var(--text-muted); }
+  footer.site a:hover { color: var(--text); }
 
   /* Trending split */
   .split-h2 {
@@ -616,14 +629,12 @@
     <div class="page-header">
       <h1 class="page-title" id="page-title">Loading…</h1>
       <div class="page-sub" id="page-sub"></div>
+      <div class="page-summary" id="page-summary"></div>
     </div>
 
-    <div id="stats" class="stats"></div>
-
-    <div class="tabs" id="tabs"></div>
-
     <div class="controls-row">
-      <input id="filter" type="text" placeholder="Filter by name, login, or description…" />
+      <div class="tabs" id="tabs"></div>
+      <input id="filter" type="text" placeholder="Filter…" />
     </div>
 
     <div id="status" class="status hidden"></div>
@@ -667,7 +678,7 @@
     sidebar: document.getElementById('sidebar'),
     pageTitle: document.getElementById('page-title'),
     pageSub: document.getElementById('page-sub'),
-    stats: document.getElementById('stats'),
+    pageSummary: document.getElementById('page-summary'),
     tabs: document.getElementById('tabs'),
     filter: document.getElementById('filter'),
     status: document.getElementById('status'),
@@ -881,23 +892,21 @@
     });
   }
 
-  function renderStats(view, data) {
+  function renderSummary(view, data) {
     if (view === 'trending') {
-      els.stats.innerHTML = `
-        <div class="stat"><div class="stat-label">Window</div><div class="stat-value" style="font-size:14px;font-weight:500">Past 24h</div></div>
-        <div class="stat"><div class="stat-label">Active repos</div><div class="stat-value">${fmt(data.counts.active)}</div></div>
-        <div class="stat"><div class="stat-label">New repos</div><div class="stat-value">${fmt(data.counts.new)}</div></div>
+      els.pageSummary.innerHTML = `
+        <span><span class="num">${fmt(data.counts.active)}</span> active repos</span>
+        <span><span class="num">${fmt(data.counts.new)}</span> new repos</span>
+        <span>Window: past 24h</span>
       `;
       return;
     }
     const t = data.totals || {};
-    els.stats.innerHTML = `
-      <div class="stat"><div class="stat-label">Top users</div><div class="stat-value">${fmt(data.counts.users)}</div></div>
-      <div class="stat"><div class="stat-label">Top orgs</div><div class="stat-value">${fmt(data.counts.orgs)}</div></div>
-      <div class="stat"><div class="stat-label">User followers</div><div class="stat-value">${fmt(t.user_followers)}</div></div>
-      <div class="stat"><div class="stat-label">User stars</div><div class="stat-value">${fmt(t.user_stars)}</div></div>
-      <div class="stat"><div class="stat-label">Org followers</div><div class="stat-value">${fmt(t.org_followers)}</div></div>
-      <div class="stat"><div class="stat-label">Org stars</div><div class="stat-value">${fmt(t.org_stars)}</div></div>
+    els.pageSummary.innerHTML = `
+      <span><span class="num">${fmt(data.counts.users)}</span> users</span>
+      <span><span class="num">${fmt(data.counts.orgs)}</span> orgs</span>
+      <span><span class="num">${fmt((t.user_stars || 0) + (t.org_stars || 0))}</span> combined stars</span>
+      <span><span class="num">${fmt((t.user_followers || 0) + (t.org_followers || 0))}</span> combined followers</span>
     `;
   }
 
@@ -1083,7 +1092,7 @@
       else state.sort = { key: 'total_stars', dir: 'desc' };
       clearStatus();
       renderHeader(data);
-      renderStats(r.view, data);
+      renderSummary(r.view, data);
       renderTabs(r.view, data);
       renderActive();
       renderMethod(data);
