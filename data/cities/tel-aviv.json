@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-05-18T10:35:43.606Z",
+  "generated_at": "2026-05-18T13:36:30.279Z",
   "counts": {
     "users": 150,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 40055,
+    "user_followers": 40056,
     "org_followers": 3019,
-    "user_stars": 226083,
-    "org_stars": 92170
+    "user_stars": 230066,
+    "org_stars": 92169
   },
   "queries": [
     {
@@ -113,7 +113,20 @@
       "location": "Tel Aviv, Israel",
       "bio": "Building Inbox Zero: https://getinboxzero.com\r\n\r\nMy YouTube channel about open source and AI coding: https://youtube.com/elie2222",
       "company": "@inbox-zero ",
-      "total_stars": 11449
+      "total_stars": 11451
+    },
+    {
+      "login": "lirantal",
+      "name": "Liran Tal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
+      "html_url": "https://github.com/lirantal",
+      "followers": 2462,
+      "following": 1157,
+      "public_repos": 479,
+      "location": "Tel Aviv, Israel",
+      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
+      "company": "@snyk",
+      "total_stars": 7875
     },
     {
       "login": "filsv",
@@ -179,19 +192,6 @@
       "bio": "Creator of Novu 🚀 - The open-source notification infrastructure",
       "company": "@novuhq",
       "total_stars": 3916
-    },
-    {
-      "login": "lirantal",
-      "name": "Liran Tal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
-      "html_url": "https://github.com/lirantal",
-      "followers": 2462,
-      "following": 1157,
-      "public_repos": 479,
-      "location": "Tel Aviv, Israel",
-      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
-      "company": "@snyk",
-      "total_stars": 3895
     },
     {
       "login": "nirsky",
@@ -893,7 +893,7 @@
       "location": "Tel Aviv",
       "bio": "Love hacking hardware, using AI and coding.",
       "company": "Singular",
-      "total_stars": 210
+      "total_stars": 211
     },
     {
       "login": "0i0",
@@ -917,7 +917,7 @@
       "following": 35,
       "public_repos": 70,
       "location": "TLV",
-      "bio": "Software Engineer — AWS Elasticache.\r\nLove logical problems, autodidact (self thought 🧐) and all over the place.\r\n@valkey-glide @softwareSystems @Jacob_Banks",
+      "bio": "Valkey GLIDE maintainer/community. Valkey contributor/docs/skills/reviewer. agent-sh owner. Rust/Node/OCaml systems and agent tooling.",
       "company": "AWS",
       "total_stars": 196
     },
@@ -1407,7 +1407,7 @@
       "name": "Elior Boukhobza",
       "avatar_url": "https://avatars.githubusercontent.com/u/5015756?v=4",
       "html_url": "https://github.com/mallowigi",
-      "followers": 351,
+      "followers": 352,
       "following": 79,
       "public_repos": 98,
       "location": "Tel Aviv, IL",
@@ -2000,7 +2000,7 @@
       "location": "Tel Aviv, Be'er Sheva, Haifa, Vilnius, Kyiv, Dnipro, New York, San Francisco, Miami, Los Angeles, Phoenix, Denver, Berlin, Sao Paulo, Vancouver, Dublin, Tokyo",
       "bio": "Open-sourcing useful pieces of code",
       "company": null,
-      "total_stars": 49294
+      "total_stars": 49296
     },
     {
       "login": "wix-incubator",
@@ -2009,11 +2009,11 @@
       "html_url": "https://github.com/wix-incubator",
       "followers": 153,
       "following": 0,
-      "public_repos": 650,
+      "public_repos": 651,
       "location": "Tel Aviv, Vilnius, Dnipropetrovsk, Kiev, San Francisco, Miami, NYC",
       "bio": "An incubator for experimental WIX OSS code. For official Wix OSS releases please visit github.com/wix",
       "company": null,
-      "total_stars": 22572
+      "total_stars": 22569
     },
     {
       "login": "komodorio",
@@ -2900,19 +2900,6 @@
       "total_stars": 0
     },
     {
-      "login": "Snapland",
-      "name": "Snapland",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64146710?v=4",
-      "html_url": "https://github.com/Snapland",
-      "followers": 3,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tel Aviv",
-      "bio": "Real Estate’s \"Moneyball\"​",
-      "company": null,
-      "total_stars": 0
-    },
-    {
       "login": "Digital-Israel",
       "name": "Digital Israel",
       "avatar_url": "https://avatars.githubusercontent.com/u/16864221?v=4",
@@ -2922,6 +2909,19 @@
       "public_repos": 0,
       "location": "Israel, Tel Aviv",
       "bio": "The Digital Israel Bureau",
+      "company": null,
+      "total_stars": 0
+    },
+    {
+      "login": "Snapland",
+      "name": "Snapland",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64146710?v=4",
+      "html_url": "https://github.com/Snapland",
+      "followers": 3,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tel Aviv",
+      "bio": "Real Estate’s \"Moneyball\"​",
       "company": null,
       "total_stars": 0
     },
@@ -3085,15 +3085,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
       "owner_type": "Organization",
       "created_at": "2016-03-11T11:22:54Z",
-      "pushed_at": "2026-05-18T08:10:06Z"
+      "pushed_at": "2026-05-18T13:27:35Z"
     },
     {
       "full_name": "wix/Detox",
       "html_url": "https://github.com/wix/Detox",
       "description": "Gray box end-to-end testing and automation framework for mobile apps",
-      "stargazers_count": 11913,
+      "stargazers_count": 11914,
       "forks_count": 1913,
-      "watchers_count": 11913,
+      "watchers_count": 11914,
       "language": "JavaScript",
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
@@ -3105,23 +3105,23 @@
       "full_name": "elie222/inbox-zero",
       "html_url": "https://github.com/elie222/inbox-zero",
       "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
-      "stargazers_count": 10712,
-      "forks_count": 1328,
-      "watchers_count": 10712,
+      "stargazers_count": 10714,
+      "forks_count": 1329,
+      "watchers_count": 10714,
       "language": "TypeScript",
       "owner_login": "elie222",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3090527?v=4",
       "owner_type": "User",
       "created_at": "2023-07-12T15:34:57Z",
-      "pushed_at": "2026-05-18T10:06:19Z"
+      "pushed_at": "2026-05-18T12:13:12Z"
     },
     {
       "full_name": "wix/react-native-calendars",
       "html_url": "https://github.com/wix/react-native-calendars",
       "description": "React Native Calendar Components 🗓️ 📆 ",
-      "stargazers_count": 10283,
+      "stargazers_count": 10284,
       "forks_count": 3077,
-      "watchers_count": 10283,
+      "watchers_count": 10284,
       "language": "TypeScript",
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
@@ -3197,7 +3197,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
       "owner_type": "Organization",
       "created_at": "2017-02-08T09:55:18Z",
-      "pushed_at": "2026-05-17T13:19:37Z"
+      "pushed_at": "2026-05-18T13:15:34Z"
     },
     {
       "full_name": "jondot/hygen",
@@ -3256,6 +3256,20 @@
       "pushed_at": "2024-06-17T21:43:09Z"
     },
     {
+      "full_name": "lirantal/nodejs-cli-apps-best-practices",
+      "html_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
+      "description": "The largest Node.js CLI Apps best practices list ✨",
+      "stargazers_count": 3984,
+      "forks_count": 159,
+      "watchers_count": 3984,
+      "language": "JavaScript",
+      "owner_login": "lirantal",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
+      "owner_type": "User",
+      "created_at": "2019-12-28T22:37:12Z",
+      "pushed_at": "2026-05-18T08:16:16Z"
+    },
+    {
       "full_name": "scopsy/await-to-js",
       "html_url": "https://github.com/scopsy/await-to-js",
       "description": "Async await wrapper for easy error handling without try-catch",
@@ -3274,7 +3288,7 @@
       "html_url": "https://github.com/wix/react-native-notifications",
       "description": "React Native Notifications",
       "stargazers_count": 3340,
-      "forks_count": 764,
+      "forks_count": 763,
       "watchers_count": 3340,
       "language": "Java",
       "owner_login": "wix",
@@ -3716,20 +3730,6 @@
       "owner_type": "User",
       "created_at": "2025-10-02T08:08:33Z",
       "pushed_at": "2026-05-18T08:19:55Z"
-    },
-    {
-      "full_name": "wix-incubator/mjml-react",
-      "html_url": "https://github.com/wix-incubator/mjml-react",
-      "description": "React component library to generate the HTML emails on the fly",
-      "stargazers_count": 1000,
-      "forks_count": 47,
-      "watchers_count": 1000,
-      "language": "JavaScript",
-      "owner_login": "wix-incubator",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/37068588?v=4",
-      "owner_type": "Organization",
-      "created_at": "2018-06-06T12:39:37Z",
-      "pushed_at": "2023-04-24T14:06:41Z"
     }
   ]
 }
