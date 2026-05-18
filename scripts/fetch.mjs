@@ -402,7 +402,7 @@ async function buildOwnerPool() {
   // >25k stars. Use range queries so we capture the long tail too (e.g.
   // keon/algorithms at 25k stars sits below the top-1000 stars:>5000 cutoff
   // which lands around 31k).
-  const ranges = ['stars:>50000', 'stars:25000..50000', 'stars:10000..25000'];
+  const ranges = ['stars:>50000', 'stars:25000..50000', 'stars:10000..25000', 'stars:5000..10000'];
   const seenOwners = new Set();
   const seenRepos = new Set();
   const candidates = [];
@@ -705,10 +705,12 @@ async function buildGlobal(ownerPool = []) {
 }
 
 async function buildTrending() {
-  console.log('\n=== trending (past 24h) ===');
-  const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const createdQ = `created:>${since}`;
-  const pushedQ  = `pushed:>${since} stars:>100`;
+  console.log('\n=== trending (past 24h + past 6 months) ===');
+  const since      = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const sixMoAgo   = new Date(Date.now() - 180 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const createdQ   = `created:>${since}`;
+  const pushedQ    = `pushed:>${since} stars:>100`;
+  const surgingQ   = `created:>${sixMoAgo} stars:>500`;
 
   console.log(`New repos created since ${since}…`);
   const newRepos = await searchRepos(createdQ, TRENDING_REPOS);
@@ -718,21 +720,29 @@ async function buildTrending() {
   const activeRepos = await searchRepos(pushedQ, TRENDING_REPOS);
   console.log(`  found ${activeRepos.length}`);
 
+  console.log(`Surging — repos created since ${sixMoAgo} (>500 stars)…`);
+  const surgingRepos = await searchRepos(surgingQ, TRENDING_REPOS);
+  console.log(`  found ${surgingRepos.length}`);
+
   const payload = {
     kind: 'trending', name: 'Trending', slug: 'trending',
     generated_at: new Date().toISOString(),
-    window: { since, until: new Date().toISOString() },
-    counts: { new: newRepos.length, active: activeRepos.length },
+    window: { since, since_long: sixMoAgo, until: new Date().toISOString() },
+    counts: { new: newRepos.length, active: activeRepos.length, surging: surgingRepos.length },
     queries: [
-      queryObj(`Most-starred repos created since ${since}`,
-        `/search/repositories?q=${encodeURIComponent(createdQ)}&sort=stars&order=desc&per_page=${TRENDING_REPOS}`,
-        `https://github.com/search?q=${encodeURIComponent(createdQ)}&type=repositories&s=stars&o=desc`),
       queryObj(`Most-starred repos pushed since ${since} (stars:>100)`,
         `/search/repositories?q=${encodeURIComponent(pushedQ)}&sort=stars&order=desc&per_page=${TRENDING_REPOS}`,
         `https://github.com/search?q=${encodeURIComponent(pushedQ)}&type=repositories&s=stars&o=desc`),
+      queryObj(`Most-starred repos created since ${since}`,
+        `/search/repositories?q=${encodeURIComponent(createdQ)}&sort=stars&order=desc&per_page=${TRENDING_REPOS}`,
+        `https://github.com/search?q=${encodeURIComponent(createdQ)}&type=repositories&s=stars&o=desc`),
+      queryObj(`Surging — repos created since ${sixMoAgo} with >500 stars (catches new makers the leaderboard misses)`,
+        `/search/repositories?q=${encodeURIComponent(surgingQ)}&sort=stars&order=desc&per_page=${TRENDING_REPOS}`,
+        `https://github.com/search?q=${encodeURIComponent(surgingQ)}&type=repositories&s=stars&o=desc`),
     ],
     new_repos: newRepos.map(compactRepo),
     active_repos: activeRepos.map(compactRepo),
+    surging_repos: surgingRepos.map(compactRepo),
   };
 
   await writeFile(join(DATA_DIR, 'trending.json'), JSON.stringify(payload, null, 2));

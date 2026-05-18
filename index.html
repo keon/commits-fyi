@@ -897,7 +897,7 @@
       return [
         { key: 'stargazers_count', label: 'Stars', sortable: true, num: true },
         { key: 'forks_count', label: 'Forks', sortable: true, num: true },
-        { key: 'age', label: tab === 'new' ? 'Created' : 'Pushed', sortable: false, num: true },
+        { key: 'age', label: (tab === 'new' || tab === 'surging') ? 'Created' : 'Pushed', sortable: false, num: true },
       ];
     }
     if (tab === 'repos') {
@@ -919,8 +919,9 @@
   function renderTabs(view, data) {
     const tabs = [];
     if (view === 'trending') {
-      tabs.push({ id: 'active', label: 'Active', count: data.counts.active });
-      tabs.push({ id: 'new',    label: 'New',    count: data.counts.new });
+      tabs.push({ id: 'active',  label: 'Active',  count: data.counts.active });
+      tabs.push({ id: 'new',     label: 'New',     count: data.counts.new });
+      if (data.counts.surging != null) tabs.push({ id: 'surging', label: 'Surging (6mo)', count: data.counts.surging });
     } else {
       tabs.push({ id: 'users', label: 'Users',         count: data.counts.users });
       tabs.push({ id: 'orgs',  label: 'Organizations', count: data.counts.orgs });
@@ -948,11 +949,14 @@
 
   function renderSummary(view, data) {
     if (view === 'trending') {
-      els.pageSummary.innerHTML = `
-        <span><span class="num">${fmt(data.counts.active)}</span> active repos</span>
-        <span><span class="num">${fmt(data.counts.new)}</span> new repos</span>
-        <span>Window: past 24h</span>
-      `;
+      const parts = [
+        `<span><span class="num">${fmt(data.counts.active)}</span> active (24h)</span>`,
+        `<span><span class="num">${fmt(data.counts.new)}</span> new (24h)</span>`,
+      ];
+      if (data.counts.surging != null) {
+        parts.push(`<span><span class="num">${fmt(data.counts.surging)}</span> surging (6mo)</span>`);
+      }
+      els.pageSummary.innerHTML = parts.join('');
       return;
     }
     const t = data.totals || {};
@@ -1126,12 +1130,14 @@
     let rows = [];
     let columns;
     if (view === 'trending') {
-      const list = (tab === 'new' ? data.new_repos : data.active_repos);
+      const list = tab === 'new'     ? data.new_repos
+                 : tab === 'surging' ? (data.surging_repos || [])
+                 :                     data.active_repos;
       rows = sortRows(list.filter(filterFn(q)), state.sort.key, state.sort.dir);
       columns = {
         entityLabel: 'Repository',
         cols: getColumns(view, tab),
-        renderRow: (r, i, cols) => renderRepoRow(r, i, cols, { age: tab === 'new' ? 'created' : 'pushed' }),
+        renderRow: (r, i, cols) => renderRepoRow(r, i, cols, { age: (tab === 'new' || tab === 'surging') ? 'created' : 'pushed' }),
       };
     } else if (tab === 'users' || tab === 'orgs') {
       const list = (tab === 'users' ? data.users : data.orgs).map(x => ({ ...x, _type: tab === 'orgs' ? 'Organization' : 'User' }));

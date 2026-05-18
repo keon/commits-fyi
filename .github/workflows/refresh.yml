@@ -30,6 +30,18 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Restore user cache from data-cache branch
+        run: |
+          mkdir -p data/_cache
+          if git ls-remote --exit-code --heads origin data-cache > /dev/null 2>&1; then
+            git fetch origin data-cache:data-cache
+            git show data-cache:data/_cache/users.json > data/_cache/users.json
+            echo "Restored cache: $(wc -c < data/_cache/users.json) bytes"
+          else
+            echo "No data-cache branch yet; cold start."
+            echo '{"version":1,"entries":{}}' > data/_cache/users.json
+          fi
+
       - name: Fetch rankings
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +54,33 @@ jobs:
             node scripts/fetch.mjs --all
           fi
 
-      - name: Commit if changed
+      - name: Push user cache to data-cache branch
+        # Cache is large (~30MB) and changes daily. Keeping it on a separate
+        # orphan branch (one-commit history) avoids bloating main's history.
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin data-cache > /dev/null 2>&1; then
+            git worktree add ../cache-wt data-cache
+          else
+            git worktree add --detach ../cache-wt
+            (cd ../cache-wt && git checkout --orphan data-cache && git rm -rf . >/dev/null 2>&1 || true)
+          fi
+          mkdir -p ../cache-wt/data/_cache
+          cp data/_cache/users.json ../cache-wt/data/_cache/users.json
+          cd ../cache-wt
+          git add data/_cache/users.json
+          if git diff --cached --quiet; then
+            echo "Cache unchanged."
+            exit 0
+          fi
+          # Squash the previous cache commit so history stays at one commit
+          git commit --amend --no-edit -m "cache: $(date -u +%Y-%m-%dT%H:%MZ)" 2>/dev/null || \
+            git commit -m "cache: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force-with-lease origin data-cache
+
+      - name: Commit data changes to main
+        # users.json is .gitignored on main so it isn't tracked here.
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -52,8 +90,6 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): refresh rankings $(date -u +%Y-%m-%dT%H:%MZ)"
-          # Push with rebase-on-conflict retry — long fetch runs can race with
-          # concurrent pushes (deploy, manual pushes, prior refresh).
           for attempt in 1 2 3; do
             if git push; then
               exit 0
