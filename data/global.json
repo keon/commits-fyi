@@ -2,18 +2,18 @@
   "kind": "global",
   "name": "Global",
   "slug": "global",
-  "generated_at": "2026-05-18T17:49:09.915Z",
+  "generated_at": "2026-05-18T19:01:43.272Z",
   "counts": {
     "users": 100,
-    "orgs": 0,
+    "orgs": 50,
     "repos": 50
   },
   "totals": {
-    "user_followers": 2072792,
-    "org_followers": 0,
-    "user_stars": 15133484,
-    "org_stars": 0,
-    "top_repo_stars": 11483033
+    "user_followers": 1859075,
+    "org_followers": 1324245,
+    "user_stars": 14950645,
+    "org_stars": 19829586,
+    "top_repo_stars": 11483367
   },
   "queries": [
     {
@@ -48,52 +48,52 @@
       "name": "Sindre Sorhus",
       "avatar_url": "https://avatars.githubusercontent.com/u/170270?s=88&u=34acd557a042ac478d273a4621570cadb6b0bd89&v=4",
       "html_url": "https://github.com/sindresorhus",
-      "followers": 79383,
+      "followers": 79397,
       "following": 30,
       "public_repos": 1123,
       "location": null,
       "bio": "Full-Time Open-Sourcerer. Focused on Swift & JavaScript. Makes macOS apps, CLI tools, npm packages.",
       "company": null,
-      "total_stars": 783915
+      "total_stars": 783974
     },
     {
       "login": "nilbuild",
       "name": "Kamran Ahmed",
       "avatar_url": "https://avatars.githubusercontent.com/u/4921183?s=88&u=7a39fcc139f569b40407b1d31b03526f3e141c36&v=4",
       "html_url": "https://github.com/nilbuild",
-      "followers": 40042,
+      "followers": 40044,
       "following": 194,
       "public_repos": 66,
       "location": "United Kingdom",
       "bio": "I love building things 🧑‍💻",
       "company": null,
-      "total_stars": 452397
+      "total_stars": 452400
     },
     {
       "login": "donnemartin",
       "name": "Donne Martin",
       "avatar_url": "https://avatars.githubusercontent.com/u/5458997?s=88&u=f1007b583e55e7ccfb6ccf0e200051156112dd9b&v=4",
       "html_url": "https://github.com/donnemartin",
-      "followers": 23825,
+      "followers": 23829,
       "following": 2,
       "public_repos": 24,
       "location": "Washington, D.C.",
       "bio": "Tech Lead @facebook",
       "company": "@facebook",
-      "total_stars": 448457
+      "total_stars": 448475
     },
     {
       "login": "karpathy",
       "name": "Andrej",
       "avatar_url": "https://avatars.githubusercontent.com/u/241138?s=88&u=05376db54475c3d23b3a409f4c47d14c4855dc28&v=4",
       "html_url": "https://github.com/karpathy",
-      "followers": 185566,
+      "followers": 185625,
       "following": 8,
       "public_repos": 54,
       "location": "Stanford",
       "bio": "I like to train Deep Neural Nets on large datasets.",
       "company": null,
-      "total_stars": 443366
+      "total_stars": 443425
     },
     {
       "login": "jwasham",
@@ -106,20 +106,20 @@
       "location": "United States",
       "bio": "Software Development Engineer at Amazon",
       "company": null,
-      "total_stars": 361270
+      "total_stars": 361282
     },
     {
       "login": "vinta",
       "name": "Vinta Chen",
       "avatar_url": "https://avatars.githubusercontent.com/u/652070?s=88&u=25dca0371a54b997c61ed58fcdd2398d4958d1f3&v=4",
       "html_url": "https://github.com/vinta",
-      "followers": 9318,
+      "followers": 9319,
       "following": 122,
       "public_repos": 25,
       "location": "Taiwan",
       "bio": "爛命一條",
       "company": "@sadcoderlabs",
-      "total_stars": 305146
+      "total_stars": 305176
     },
     {
       "login": "996icu",
@@ -132,7 +132,7 @@
       "location": null,
       "bio": null,
       "company": null,
-      "total_stars": 276201
+      "total_stars": 276202
     },
     {
       "login": "trimstray",
@@ -145,7 +145,7 @@
       "location": "Poland",
       "bio": "BIO_read(wbio, buf, 2048)",
       "company": null,
-      "total_stars": 269074
+      "total_stars": 269091
     },
     {
       "login": "trekhleb",
@@ -158,46 +158,46 @@
       "location": "San Francisco Bay Area",
       "bio": "Sr Software Engineer at @uber",
       "company": "Uber",
-      "total_stars": 256222
+      "total_stars": 256223
     },
     {
       "login": "torvalds",
       "name": "Linus Torvalds",
       "avatar_url": "https://avatars.githubusercontent.com/u/1024025?s=88&v=4",
       "html_url": "https://github.com/torvalds",
-      "followers": 303415,
+      "followers": 303454,
       "following": 0,
       "public_repos": 8,
       "location": "Portland, OR",
       "bio": null,
       "company": "Linux Foundation",
-      "total_stars": 244367
+      "total_stars": 244374
     },
     {
       "login": "getify",
       "name": "Kyle Simpson",
       "avatar_url": "https://avatars.githubusercontent.com/u/150330?s=88&u=41aa48771028d34bcf025eefe919bf75fbda77d4&v=4",
       "html_url": "https://github.com/getify",
-      "followers": 45135,
+      "followers": 45137,
       "following": 1,
       "public_repos": 70,
       "location": "Austin, TX",
       "bio": "Kyle Simpson is a Human-Centric Technologist. He's fighting for the people behind the pixels.",
       "company": "Getify Solutions",
-      "total_stars": 215253
+      "total_stars": 215250
     },
     {
       "login": "521xueweihan",
       "name": "削微寒",
       "avatar_url": "https://avatars.githubusercontent.com/u/8255800?s=88&u=2024c0f3979fd65c8aab945856eae0852f1186f6&v=4",
       "html_url": "https://github.com/521xueweihan",
-      "followers": 12618,
+      "followers": 12620,
       "following": 186,
       "public_repos": 31,
       "location": "Beijing, China",
       "bio": "时间会让「平凡的事」变得「与众不同」\r\nTime will make ordinary things become extraordinary.",
       "company": "公众号：HelloGitHub",
-      "total_stars": 206170
+      "total_stars": 206180
     },
     {
       "login": "ruanyf",
@@ -217,13 +217,13 @@
       "name": "Jesse Vincent",
       "avatar_url": "https://avatars.githubusercontent.com/u/45416?s=88&u=37d9e6e1ec50898b8c0b4005613538db1f7a4167&v=4",
       "html_url": "https://github.com/obra",
-      "followers": 5961,
+      "followers": 5968,
       "following": 89,
       "public_repos": 87,
       "location": "Berkeley, CA 94703",
       "bio": null,
       "company": "Prime Radiant",
-      "total_stars": 202454
+      "total_stars": 202601
     },
     {
       "login": "jackfrued",
@@ -236,7 +236,7 @@
       "location": "Chengdu Sichuan, China",
       "bio": "只有非常努力，才能看起来毫不费力！",
       "company": null,
-      "total_stars": 197181
+      "total_stars": 197186
     },
     {
       "login": "jaywcjlove",
@@ -249,7 +249,7 @@
       "location": "Suzhou, China",
       "bio": "Hi, I'm Kenny, Fullstack developer from Suzhou, China.",
       "company": "ʕ•̫͡•ʔ-̫͡-ʕ•͓͡•ʔ-̫͡-ʔ",
-      "total_stars": 196336
+      "total_stars": 196344
     },
     {
       "login": "justjavac",
@@ -275,7 +275,7 @@
       "location": "Guangzhou, China",
       "bio": null,
       "company": "@ByteDance",
-      "total_stars": 191256
+      "total_stars": 191254
     },
     {
       "login": "yangshun",
@@ -288,20 +288,20 @@
       "location": "Singapore",
       "bio": "Building @greatfrontend. Ex-@facebook, @docusaurus, Flux. Authored Blind 75 and Grind 75",
       "company": "@greatfrontend",
-      "total_stars": 189499
+      "total_stars": 189495
     },
     {
       "login": "affaan-m",
       "name": "Affaan Mustafa",
       "avatar_url": "https://avatars.githubusercontent.com/u/124439313?s=88&u=9a9e442dbb6a4a4b9ce24c7548bf9071fef54651&v=4",
       "html_url": "https://github.com/affaan-m",
-      "followers": 5647,
+      "followers": 5651,
       "following": 12,
       "public_repos": 25,
       "location": "San Francisco, CA / Bellevue, WA",
       "bio": "Institutionalizing prediction markets @Ito-Markets | B={(eᵢ,wᵢ)}; Vᴮ=Σᵢwᵢℙα(eᵢ=1) | OSS meta-harness for AI agents @ECC-Tools",
       "company": "Itô",
-      "total_stars": 187610
+      "total_stars": 187703
     },
     {
       "login": "Chalarangelo",
@@ -314,7 +314,7 @@
       "location": "Athens, Greece",
       "bio": "Full stack engineer, creator of 30secondsofcode.org",
       "company": "Skroutz S.A.",
-      "total_stars": 179789
+      "total_stars": 179791
     },
     {
       "login": "f",
@@ -327,20 +327,20 @@
       "location": "Istanbul, Turkey",
       "bio": "Developer Advocate at @WordPress, @Automattic — Building prompts.chat — JavaScript Developer. AI Enthusiast. Author. — @GitHub Star.",
       "company": "@Automattic",
-      "total_stars": 179391
+      "total_stars": 179397
     },
     {
       "login": "rasbt",
       "name": "Sebastian Raschka",
       "avatar_url": "https://avatars.githubusercontent.com/u/5618407?s=88&u=fb6135afa4c7095d0f94c4c0e0eee37d1979a764&v=4",
       "html_url": "https://github.com/rasbt",
-      "followers": 38011,
+      "followers": 38013,
       "following": 40,
       "public_repos": 92,
       "location": null,
       "bio": "AI Research Engineer working on LLMs.",
       "company": null,
-      "total_stars": 176004
+      "total_stars": 176013
     },
     {
       "login": "avelino",
@@ -353,7 +353,7 @@
       "location": "Brazil",
       "bio": "CTO at @buserbrasil, open source engineer",
       "company": "@buserbrasil",
-      "total_stars": 174914
+      "total_stars": 174933
     },
     {
       "login": "jlevy",
@@ -366,7 +366,7 @@
       "location": "San Francisco",
       "bio": null,
       "company": null,
-      "total_stars": 174392
+      "total_stars": 174390
     },
     {
       "login": "2dust",
@@ -379,7 +379,7 @@
       "location": null,
       "bio": null,
       "company": null,
-      "total_stars": 169536
+      "total_stars": 169550
     },
     {
       "login": "AUTOMATIC1111",
@@ -392,7 +392,7 @@
       "location": null,
       "bio": null,
       "company": null,
-      "total_stars": 169336
+      "total_stars": 169340
     },
     {
       "login": "Snailclimb",
@@ -405,7 +405,7 @@
       "location": "Wuhan, Hubei",
       "bio": "一只向上爬的蜗牛🐌。 19 年毕业于软件工程专业，大三开源 JavaGuide 并维护至今。\r\n\r\n\r\n",
       "company": null,
-      "total_stars": 167566
+      "total_stars": 167569
     },
     {
       "login": "lllyasviel",
@@ -418,7 +418,7 @@
       "location": null,
       "bio": "Lvmin Zhang (Lyumin Zhang)\r\n\r\n",
       "company": null,
-      "total_stars": 166518
+      "total_stars": 166519
     },
     {
       "login": "sharkdp",
@@ -431,14 +431,14 @@
       "location": "Stuttgart, Germany",
       "bio": null,
       "company": "@openai",
-      "total_stars": 166284
+      "total_stars": 166286
     },
     {
       "login": "typicode",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/5502029?s=88&u=775f8ac3302e61c2c1fcb75894cc9a2c27c8f24a&v=4",
       "html_url": "https://github.com/typicode",
-      "followers": 10200,
+      "followers": 10199,
       "following": 0,
       "public_repos": 35,
       "location": null,
@@ -447,24 +447,11 @@
       "total_stars": 159179
     },
     {
-      "login": "sebastianbergmann",
-      "name": "Sebastian Bergmann",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25218?s=88&u=01bb70d9be43ded7572eb3862127ff281daa2725&v=4",
-      "html_url": "https://github.com/sebastianbergmann",
-      "followers": 7614,
-      "following": 0,
-      "public_repos": 68,
-      "location": "Siegburg, Germany",
-      "bio": "Sebastian Bergmann is the creator of PHPUnit. He co-founded thePHP.cc and helps PHP teams build better software.",
-      "company": "@thePHPcc ",
-      "total_stars": 150856
-    },
-    {
       "login": "junegunn",
       "name": "Junegunn Choi",
       "avatar_url": "https://avatars.githubusercontent.com/u/700826?s=88&u=e09c20f7bbec879c50227bb7227913c65569e8f3&v=4",
       "html_url": "https://github.com/junegunn",
-      "followers": 8529,
+      "followers": 8528,
       "following": 0,
       "public_repos": 88,
       "location": null,
@@ -477,7 +464,7 @@
       "name": "Brad Traversy",
       "avatar_url": "https://avatars.githubusercontent.com/u/5550850?s=88&u=ecea9f1c11ce25dda5f73a2ea2f3d5f612ac6b45&v=4",
       "html_url": "https://github.com/bradtraversy",
-      "followers": 75869,
+      "followers": 75866,
       "following": 9,
       "public_repos": 308,
       "location": "Massachusetts",
@@ -490,26 +477,26 @@
       "name": "Asabeneh",
       "avatar_url": "https://avatars.githubusercontent.com/u/9008063?s=88&u=f81793c2c5326057180833e306ae4d5973a6eacf&v=4",
       "html_url": "https://github.com/Asabeneh",
-      "followers": 21269,
+      "followers": 21270,
       "following": 15,
       "public_repos": 174,
       "location": "Helsinki, Finland",
       "bio": " 🌐 Fullstack Engineer🌱 Educator 📘 Content creator 📈 Data Analyst |\r\nI create jargon-free, easy to read and understand educational material",
       "company": null,
-      "total_stars": 143702
+      "total_stars": 143706
     },
     {
       "login": "x1xhlol",
       "name": "Lucas Valbuena",
       "avatar_url": "https://avatars.githubusercontent.com/u/185671340?s=88&v=4",
       "html_url": "https://github.com/x1xhlol",
-      "followers": 3607,
+      "followers": 3610,
       "following": 18,
       "public_repos": 6,
       "location": "Spain",
       "bio": "16 y/o",
       "company": null,
-      "total_stars": 138676
+      "total_stars": 138691
     },
     {
       "login": "kelseyhightower",
@@ -522,20 +509,20 @@
       "location": "Washington",
       "bio": null,
       "company": null,
-      "total_stars": 137707
+      "total_stars": 137710
     },
     {
       "login": "jesseduffield",
       "name": "Jesse Duffield",
       "avatar_url": "https://avatars.githubusercontent.com/u/8456633?s=88&u=1183e9d1442669992861877a4f313b51e3bbd119&v=4",
       "html_url": "https://github.com/jesseduffield",
-      "followers": 6584,
+      "followers": 6585,
       "following": 6,
       "public_repos": 30,
       "location": "Melbourne",
       "bio": "Creator of lazygit, lazydocker, horcrux, and the OK? language",
       "company": null,
-      "total_stars": 137247
+      "total_stars": 137250
     },
     {
       "login": "goldbergyoni",
@@ -548,7 +535,7 @@
       "location": "Israel",
       "bio": "An independent consultant who works with enterprises and garage startups on polishing their FullStack applications and testing",
       "company": "Yoni Goldberg",
-      "total_stars": 134960
+      "total_stars": 134961
     },
     {
       "login": "krahets",
@@ -561,33 +548,33 @@
       "location": null,
       "bio": "doing & sharing\r\n",
       "company": "Zhejiang University",
-      "total_stars": 134881
+      "total_stars": 134883
     },
     {
       "login": "labuladong",
       "name": "DonglaiFu",
       "avatar_url": "https://avatars.githubusercontent.com/u/37220920?s=88&u=979c1564a86a586d7e44c457f0d776408ff62c48&v=4",
       "html_url": "https://github.com/labuladong",
-      "followers": 6867,
+      "followers": 6866,
       "following": 8,
       "public_repos": 12,
       "location": null,
       "bio": "Algo tutorial: labuladong.online",
       "company": null,
-      "total_stars": 133947
+      "total_stars": 133946
     },
     {
       "login": "danielmiessler",
       "name": "Daniel Miessler 🛡️",
       "avatar_url": "https://avatars.githubusercontent.com/u/50654?s=88&u=2d065ec8d4a19ed53ccbaed7fddbb28adbce12cd&v=4",
       "html_url": "https://github.com/danielmiessler",
-      "followers": 15761,
+      "followers": 15762,
       "following": 125,
       "public_repos": 63,
       "location": "San Francisco Bay Area",
       "bio": "⚒️ Building AI that ᴜᴘɢʀᴀᴅᴇs humans.",
       "company": "Unsupervised Learning",
-      "total_stars": 132850
+      "total_stars": 132858
     },
     {
       "login": "macrozheng",
@@ -600,14 +587,14 @@
       "location": "Wuxi,China",
       "bio": "Justice may be late, but will never be absent.",
       "company": null,
-      "total_stars": 132631
+      "total_stars": 132632
     },
     {
       "login": "mrdoob",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/97088?s=88&u=95046da3776175b5f3d1ad2137704cd123e04d9e&v=4",
       "html_url": "https://github.com/mrdoob",
-      "followers": 25124,
+      "followers": 25125,
       "following": 197,
       "public_repos": 43,
       "location": null,
@@ -620,39 +607,26 @@
       "name": "Tw93",
       "avatar_url": "https://avatars.githubusercontent.com/u/8736212?s=88&u=4e296a87dd5bc8ae8c6423dfbb50ef39b4023602&v=4",
       "html_url": "https://github.com/tw93",
-      "followers": 10309,
+      "followers": 10314,
       "following": 8,
       "public_repos": 23,
       "location": null,
       "bio": "Anything added dilutes everything else.",
       "company": null,
-      "total_stars": 126487
+      "total_stars": 126519
     },
     {
       "login": "rustdesk",
       "name": "RustDesk",
       "avatar_url": "https://avatars.githubusercontent.com/u/71636191?s=88&u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
       "html_url": "https://github.com/rustdesk",
-      "followers": 8595,
+      "followers": 8596,
       "following": 0,
       "public_repos": 8,
       "location": "Singapore",
       "bio": "Making affordable remote desktop service for everyone",
       "company": "Purslane Ltd.",
-      "total_stars": 126195
-    },
-    {
-      "login": "JakeWharton",
-      "name": "Jake Wharton",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66577?s=88&v=4",
-      "html_url": "https://github.com/JakeWharton",
-      "followers": 68317,
-      "following": 9,
-      "public_repos": 140,
-      "location": "Pittsburgh, PA, USA",
-      "bio": null,
-      "company": "@SkylightFamily",
-      "total_stars": 125262
+      "total_stars": 126202
     },
     {
       "login": "ripienaar",
@@ -665,40 +639,27 @@
       "location": "Malta",
       "bio": "Systems Architect, Automator, Coder.",
       "company": null,
-      "total_stars": 124403
-    },
-    {
-      "login": "lucidrains",
-      "name": "Phil Wang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108653?s=88&u=6d8a8e8d28f8512933d729d7503ae3e622d59c64&v=4",
-      "html_url": "https://github.com/lucidrains",
-      "followers": 59827,
-      "following": 4,
-      "public_repos": 330,
-      "location": "San Francisco",
-      "bio": "Working with Attention. It's all we need",
-      "company": null,
-      "total_stars": 124349
+      "total_stars": 124409
     },
     {
       "login": "ruvnet",
       "name": "rUv",
       "avatar_url": "https://avatars.githubusercontent.com/u/2934394?s=88&u=ff7f9d90c2eb84a956cad4027870ac7ba9ce8fa0&v=4",
       "html_url": "https://github.com/ruvnet",
-      "followers": 8133,
+      "followers": 8145,
       "following": 36,
       "public_repos": 156,
       "location": "0x",
       "bio": "Unicorn Breeder. ",
       "company": "Not a Bot",
-      "total_stars": 122353
+      "total_stars": 122506
     },
     {
       "login": "tj",
       "name": "TJ",
       "avatar_url": "https://avatars.githubusercontent.com/u/25254?s=88&u=d332bdd6d335df9f08e7cdac0e17143d898ec70d&v=4",
       "html_url": "https://github.com/tj",
-      "followers": 51776,
+      "followers": 51783,
       "following": 45,
       "public_repos": 219,
       "location": null,
@@ -724,39 +685,39 @@
       "name": "Garry Tan",
       "avatar_url": "https://avatars.githubusercontent.com/u/19957?s=88&u=d95c4a92ff27aea2b16949b1a31b434c61b64453&v=4",
       "html_url": "https://github.com/garrytan",
-      "followers": 9473,
+      "followers": 9484,
       "following": 11,
       "public_repos": 4,
       "location": "San Francisco, CA",
       "bio": "Writes software, dreams. ",
       "company": "Y Combinator",
-      "total_stars": 116157
+      "total_stars": 116268
     },
     {
       "login": "mattpocock",
       "name": "Matt Pocock",
       "avatar_url": "https://avatars.githubusercontent.com/u/28293365?s=88&u=0d66fa0a2c0a4ec5201818081308c14a43b72fe5&v=4",
       "html_url": "https://github.com/mattpocock",
-      "followers": 17549,
+      "followers": 17592,
       "following": 32,
       "public_repos": 166,
       "location": "Oxfordshire",
       "bio": "TypeScript wizard. Building Total TypeScript - a comprehensive, production-grade TypeScript course.\r\n\r\nEx-Vercel, Stately.",
       "company": "Total TypeScript",
-      "total_stars": 113967
+      "total_stars": 114219
     },
     {
       "login": "mouredev",
       "name": "Brais Moure",
       "avatar_url": "https://avatars.githubusercontent.com/u/17043402?s=88&u=680a09b449056a389149a4d29ad773e84beab192&v=4",
       "html_url": "https://github.com/mouredev",
-      "followers": 35605,
+      "followers": 35608,
       "following": 2,
       "public_repos": 47,
       "location": "Building software with  ♥ from Galicia (Spain) to the world.",
       "bio": "📚 Te enseño programación desde cero\r\n💻 Software engineer | Freelance fullstack\r\n⭐️ GitHub Star | Microsoft MVP\r\n❤️ YouTube, Twitch, Discord & Elgato partner",
       "company": "MoureDev by Brais Moure",
-      "total_stars": 112676
+      "total_stars": 112682
     },
     {
       "login": "wasabeef",
@@ -769,7 +730,7 @@
       "location": "Tokyo, Japan",
       "bio": "Google Developers Expert for Android",
       "company": "CyberAgent, Inc.",
-      "total_stars": 112423
+      "total_stars": 112426
     },
     {
       "login": "louislam",
@@ -782,20 +743,20 @@
       "location": "Hong Kong",
       "bio": "\r\n\r\n",
       "company": null,
-      "total_stars": 111692
+      "total_stars": 111694
     },
     {
       "login": "Shubhamsaboo",
       "name": "Shubham Saboo",
       "avatar_url": "https://avatars.githubusercontent.com/u/31396011?s=88&u=db73a4bd5d86eb3a3a0f270cfc6394c321864821&v=4",
       "html_url": "https://github.com/Shubhamsaboo",
-      "followers": 8225,
+      "followers": 8226,
       "following": 3,
       "public_repos": 22,
       "location": null,
       "bio": "Senior AI PM @ Google Cloud | Building open-source repository of practical world class tutorials on AI Agents, RAG and LLMs ⏳",
       "company": "Google",
-      "total_stars": 111560
+      "total_stars": 111571
     },
     {
       "login": "GrowingGit",
@@ -808,7 +769,7 @@
       "location": "Guangzhou, China",
       "bio": null,
       "company": null,
-      "total_stars": 110395
+      "total_stars": 110397
     },
     {
       "login": "fatedier",
@@ -821,7 +782,7 @@
       "location": null,
       "bio": "To be yourself.",
       "company": null,
-      "total_stars": 107046
+      "total_stars": 107048
     },
     {
       "login": "BurntSushi",
@@ -834,20 +795,20 @@
       "location": "Marlborough, MA",
       "bio": "I love to code.",
       "company": "@astral-sh",
-      "total_stars": 105931
+      "total_stars": 105940
     },
     {
       "login": "666ghj",
       "name": "BaiFu",
       "avatar_url": "https://avatars.githubusercontent.com/u/110395318?s=88&u=5fe6ff285b2612fc23cc25c36ac30cd899b40681&v=4",
       "html_url": "https://github.com/666ghj",
-      "followers": 3975,
+      "followers": 3976,
       "following": 0,
       "public_repos": 7,
       "location": "Shanghai, China",
       "bio": "Do what you love, and love what you do.",
       "company": "BUPT, Shanda",
-      "total_stars": 103723
+      "total_stars": 103742
     },
     {
       "login": "spf13",
@@ -860,7 +821,7 @@
       "location": "NYC",
       "bio": "Always learning • Led @golang @Google,  MD @twosigma, VP @MongoDB & @Docker, @Drupal board • @gohugoio, Cobra & spf13-vim creator",
       "company": null,
-      "total_stars": 103571
+      "total_stars": 103572
     },
     {
       "login": "Anduin2017",
@@ -873,20 +834,20 @@
       "location": "Hong Kong SAR",
       "bio": "Software engineer.",
       "company": "Open to work",
-      "total_stars": 101894
+      "total_stars": 101892
     },
     {
       "login": "thedaviddias",
       "name": "David Dias",
       "avatar_url": "https://avatars.githubusercontent.com/u/237229?s=88&u=3bfe1150fdb88d3b6c678f49a3e9e46ba0324d4a&v=4",
       "html_url": "https://github.com/thedaviddias",
-      "followers": 4936,
+      "followers": 4935,
       "following": 304,
       "public_repos": 40,
       "location": "Toronto, Canada",
       "bio": "Former Staff Frontend Engineer exploring multi-passionate career development. Creator of Front-End Checklist (72K+ ⭐) and other tools serving 100K+ developers. ",
       "company": "@DavidDiasDigital",
-      "total_stars": 101313
+      "total_stars": 101312
     },
     {
       "login": "tonsky",
@@ -899,46 +860,33 @@
       "location": "Berlin, Germany",
       "bio": null,
       "company": null,
-      "total_stars": 100799
-    },
-    {
-      "login": "tpope",
-      "name": "Tim Pope",
-      "avatar_url": "https://avatars.githubusercontent.com/u/378?s=88&u=5f1fc09a7c183450db7536ddaf3a2c6c25f0986f&v=4",
-      "html_url": "https://github.com/tpope",
-      "followers": 23245,
-      "following": 20,
-      "public_repos": 80,
-      "location": "Brooklyn, NY",
-      "bio": "Vim plugin artist",
-      "company": null,
-      "total_stars": 100502
+      "total_stars": 100797
     },
     {
       "login": "lissy93",
       "name": "Alicia Sykes",
       "avatar_url": "https://avatars.githubusercontent.com/u/1862727?s=88&u=49343bef1ca0552bc411b2dc7c34591efdf433d1&v=4",
       "html_url": "https://github.com/lissy93",
-      "followers": 7109,
+      "followers": 7110,
       "following": 148,
       "public_repos": 105,
       "location": "London, UK",
       "bio": "Turning caffeine into code 🥤",
       "company": null,
-      "total_stars": 100449
+      "total_stars": 100446
     },
     {
       "login": "msitarzewski",
       "name": "Michael Sitarzewski",
       "avatar_url": "https://avatars.githubusercontent.com/u/1972242?s=88&u=eea42cc2f8318362e15314be07f1c644e2057f5a&v=4",
       "html_url": "https://github.com/msitarzewski",
-      "followers": 3568,
+      "followers": 3573,
       "following": 17,
       "public_repos": 16,
       "location": "Dallas, Texas",
       "bio": "Builder with 30+ yrs experience. Startup founder, Techstars alum, lifelong tinkerer. I enjoy turning ideas into working products—sometimes companies.",
       "company": null,
-      "total_stars": 100205
+      "total_stars": 100327
     },
     {
       "login": "nvbn",
@@ -951,7 +899,7 @@
       "location": "Amsterdam, The Netherlands",
       "bio": "Software Developer",
       "company": null,
-      "total_stars": 99819
+      "total_stars": 99820
     },
     {
       "login": "enaqx",
@@ -964,7 +912,7 @@
       "location": null,
       "bio": "Full Stack Software Engineer",
       "company": null,
-      "total_stars": 99587
+      "total_stars": 99588
     },
     {
       "login": "bregman-arie",
@@ -984,26 +932,26 @@
       "name": "Grant Sanderson",
       "avatar_url": "https://avatars.githubusercontent.com/u/11601040?s=88&u=ccd223915efaad0958c195ce57bf46ab40d67873&v=4",
       "html_url": "https://github.com/3b1b",
-      "followers": 40247,
+      "followers": 40248,
       "following": 0,
       "public_repos": 6,
       "location": null,
       "bio": "I make videos about math.",
       "company": "3Blue1Brown",
-      "total_stars": 98615
+      "total_stars": 98619
     },
     {
       "login": "florinpop17",
       "name": "Florin Pop",
       "avatar_url": "https://avatars.githubusercontent.com/u/6692364?s=88&u=b405a7894d53c9384aa966092115ad6dcc47f2c7&v=4",
       "html_url": "https://github.com/florinpop17",
-      "followers": 15673,
+      "followers": 15675,
       "following": 35,
       "public_repos": 88,
       "location": "Romania",
       "bio": "Dev & YouTuber\r\n\r\nCreator of https://iCodeThis.com",
       "company": "iCodeThis.com",
-      "total_stars": 98604
+      "total_stars": 98601
     },
     {
       "login": "ryanmcdermott",
@@ -1023,13 +971,13 @@
       "name": "Addy Osmani",
       "avatar_url": "https://avatars.githubusercontent.com/u/110953?s=88&u=b80ece00784ce069f15b4f27f7dccd50edc7852a&v=4",
       "html_url": "https://github.com/addyosmani",
-      "followers": 48492,
+      "followers": 48511,
       "following": 265,
       "public_repos": 178,
       "location": "Sunnyvale, California",
       "bio": "Director at Google working on Gemini and  Google Cloud",
       "company": "Google",
-      "total_stars": 97875
+      "total_stars": 97930
     },
     {
       "login": "punkpeye",
@@ -1042,7 +990,7 @@
       "location": "Miami, FL",
       "bio": "Engineer turned founder",
       "company": "Glama",
-      "total_stars": 97845
+      "total_stars": 97852
     },
     {
       "login": "hakimel",
@@ -1081,20 +1029,20 @@
       "location": "Finland",
       "bio": null,
       "company": "@gofore ",
-      "total_stars": 95646
+      "total_stars": 95645
     },
     {
       "login": "FiloSottile",
       "name": "Filippo Valsorda",
       "avatar_url": "https://avatars.githubusercontent.com/u/1225294?s=88&u=f9186107b90a6f746f8e7192ee7b1d5a68f4ab07&v=4",
       "html_url": "https://github.com/FiloSottile",
-      "followers": 9185,
+      "followers": 9186,
       "following": 56,
       "public_repos": 64,
       "location": "Rome, Italy",
       "bio": "Cryptogopher. @geomys founder. @recursecenter alum.\r\nRC F'13, F2'17.",
       "company": "@Geomys",
-      "total_stars": 95159
+      "total_stars": 95161
     },
     {
       "login": "dylanaraps",
@@ -1107,7 +1055,7 @@
       "location": null,
       "bio": "natural farmer,\r\nnatural winemaker,\r\ncreator of @kisslinux  and more",
       "company": null,
-      "total_stars": 94689
+      "total_stars": 94687
     },
     {
       "login": "ashishps1",
@@ -1120,20 +1068,20 @@
       "location": "Remote",
       "bio": "Building @AlgoMaster-io | YouTube (250k+) | Prev @ Amazon | Interest in Algorithms, Distributed Systems and AI",
       "company": "AlgoMaster.io",
-      "total_stars": 93669
+      "total_stars": 93677
     },
     {
       "login": "hacksider",
       "name": "Kenneth Estanislao",
       "avatar_url": "https://avatars.githubusercontent.com/u/1267200?s=88&v=4",
       "html_url": "https://github.com/hacksider",
-      "followers": 2931,
+      "followers": 2932,
       "following": 7,
       "public_repos": 31,
       "location": null,
       "bio": "I typically don’t respond to chats unless we’ve exchanged emails first—think of it as the digital handshake.",
       "company": null,
-      "total_stars": 93166
+      "total_stars": 93169
     },
     {
       "login": "fengdu78",
@@ -1146,7 +1094,7 @@
       "location": "Qingdao,China",
       "bio": "黄海广，计算机博士，微信公众号：机器学习初学者；知乎：黄海广；知识星球ID:92416895",
       "company": null,
-      "total_stars": 90186
+      "total_stars": 90188
     },
     {
       "login": "Developer-Y",
@@ -1159,7 +1107,7 @@
       "location": null,
       "bio": null,
       "company": null,
-      "total_stars": 89130
+      "total_stars": 89134
     },
     {
       "login": "virattt",
@@ -1172,7 +1120,7 @@
       "location": "New York, NY",
       "bio": "Building 🎧",
       "company": null,
-      "total_stars": 88448
+      "total_stars": 88456
     },
     {
       "login": "swisskyrepo",
@@ -1185,7 +1133,7 @@
       "location": null,
       "bio": "Red Team Operator & Bug Hunter",
       "company": null,
-      "total_stars": 88249
+      "total_stars": 88251
     },
     {
       "login": "bailicangdu",
@@ -1211,20 +1159,20 @@
       "location": "San Francisco, CA",
       "bio": "Pierre Computer Company.\r\nPreviously Meta, Twitter",
       "company": null,
-      "total_stars": 86563
+      "total_stars": 86559
     },
     {
       "login": "MunGell",
       "name": "Shmavon Gazanchyan",
       "avatar_url": "https://avatars.githubusercontent.com/u/812976?s=88&v=4",
       "html_url": "https://github.com/MunGell",
-      "followers": 2319,
+      "followers": 2320,
       "following": 99,
       "public_repos": 44,
       "location": "Ireland",
       "bio": null,
       "company": "Google",
-      "total_stars": 85978
+      "total_stars": 85985
     },
     {
       "login": "mlabonne",
@@ -1237,7 +1185,7 @@
       "location": "London, United Kingdom",
       "bio": "Head of Post-Training @ Liquid AI",
       "company": "Liquid AI",
-      "total_stars": 85579
+      "total_stars": 85583
     },
     {
       "login": "PKUFlyingPig",
@@ -1250,59 +1198,33 @@
       "location": "Beijing, China",
       "bio": "CS Ph.D @ PKU | Machine Learning Systems | Previously @ StepFun, ByteDance, Alibaba |",
       "company": "Peking University",
-      "total_stars": 84039
+      "total_stars": 84040
     },
     {
       "login": "sudheerj",
       "name": "Sudheer Jonna",
       "avatar_url": "https://avatars.githubusercontent.com/u/3127317?s=88&u=0ae9c57bd70b06b2e2293323841ebf59cf3dca90&v=4",
       "html_url": "https://github.com/sudheerj",
-      "followers": 9106,
+      "followers": 9107,
       "following": 0,
       "public_repos": 71,
       "location": null,
       "bio": "Author, Speaker, Trainer, Full-stack expert & AI engineering\r\n\r\n",
       "company": null,
-      "total_stars": 83760
+      "total_stars": 83761
     },
     {
       "login": "anuraghazra",
       "name": "Anurag Hazra",
       "avatar_url": "https://avatars.githubusercontent.com/u/35374649?s=88&u=3125539259bebd2d8af05462a37f22a4fba763e4&v=4",
       "html_url": "https://github.com/anuraghazra",
-      "followers": 14803,
+      "followers": 14804,
       "following": 125,
       "public_repos": 84,
       "location": "India, West Bengal",
       "bio": "❤️ TypeScript Wizard\r\n❄ Reactjs Magician\r\n🎨 Design Systems",
       "company": "@razorpay",
-      "total_stars": 83300
-    },
-    {
-      "login": "folke",
-      "name": "Folke Lemaitre",
-      "avatar_url": "https://avatars.githubusercontent.com/u/292349?s=88&u=f41721d6b12a34910119cd00209e711fcbc8cee6&v=4",
-      "html_url": "https://github.com/folke",
-      "followers": 10346,
-      "following": 77,
-      "public_repos": 40,
-      "location": "Ghent, Belgium",
-      "bio": null,
-      "company": null,
-      "total_stars": 83267
-    },
-    {
-      "login": "easychen",
-      "name": "Easy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1294760?s=88&u=197538c53107c1ee4588abd51e1ad43592fbb7d6&v=4",
-      "html_url": "https://github.com/easychen",
-      "followers": 12394,
-      "following": 30,
-      "public_repos": 150,
-      "location": "Chongqing, China",
-      "bio": null,
-      "company": "ft07.com",
-      "total_stars": 83036
+      "total_stars": 83304
     },
     {
       "login": "fighting41love",
@@ -1322,37 +1244,766 @@
       "name": "Ashish Patel",
       "avatar_url": "https://avatars.githubusercontent.com/u/3095771?s=88&u=522d8855c070c0af151b27becc02052e34849d4e&v=4",
       "html_url": "https://github.com/ashishpatel26",
-      "followers": 11489,
+      "followers": 11491,
       "following": 430,
       "public_repos": 242,
       "location": "Ahmedabad",
       "bio": "AI Researcher & Principal Architect AI/ML & Data Science at Oracle\r\n| xIBMers | Rank 3 Kaggle Kernel Master",
       "company": "Oracle | xIBMers",
-      "total_stars": 82376
+      "total_stars": 82386
     },
     {
-      "login": "peng-zhihui",
-      "name": "稚晖",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12994887?s=88&u=6bfec84cb512892557cfed7fd7c52b0b0f41f95b&v=4",
-      "html_url": "https://github.com/peng-zhihui",
-      "followers": 86687,
-      "following": 9,
-      "public_repos": 35,
-      "location": "Shanghai",
-      "bio": "野生钢铁侠本侠。",
-      "company": "HUAWEI Research",
-      "total_stars": 82167
+      "login": "hiyouga",
+      "name": "Yaowei Zheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16256802?s=88&u=9622ad4c25aa0a0bfc6dfac3db6bd0d7732c0f1e&v=4",
+      "html_url": "https://github.com/hiyouga",
+      "followers": 6332,
+      "following": 93,
+      "public_repos": 42,
+      "location": "Beijing, China",
+      "bio": "No code All live",
+      "company": "Millennium Science School",
+      "total_stars": 81983
+    },
+    {
+      "login": "XIU2",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/54703944?s=88&u=64dbed38821a648bd00883200ab152b1a77a0327&v=4",
+      "html_url": "https://github.com/XIU2",
+      "followers": 3807,
+      "following": 0,
+      "public_repos": 13,
+      "location": "> /dev/null",
+      "bio": "💡 业余自学 自给自足 瞎折腾~",
+      "company": null,
+      "total_stars": 81382
+    },
+    {
+      "login": "chubin",
+      "name": "Igor Chubin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3875145?s=88&u=0c0dbcc7f979c86eaa3bb89b412b04d5db4a1bec&v=4",
+      "html_url": "https://github.com/chubin",
+      "followers": 3846,
+      "following": 0,
+      "public_repos": 13,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 81168
+    },
+    {
+      "login": "MisterBooo",
+      "name": "吴师兄学算法",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15308811?s=88&u=de057d7742b3c51c5078e58008323702a941772b&v=4",
+      "html_url": "https://github.com/MisterBooo",
+      "followers": 8863,
+      "following": 11,
+      "public_repos": 46,
+      "location": "Guangzhou, China",
+      "bio": "公众号：吴师兄学算法",
+      "company": null,
+      "total_stars": 80824
+    },
+    {
+      "login": "jaredpalmer",
+      "name": "Jared Palmer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4060187?s=88&u=8093f80db577610c38c680a82550e6b1952b8f7e&v=4",
+      "html_url": "https://github.com/jaredpalmer",
+      "followers": 10313,
+      "following": 499,
+      "public_repos": 83,
+      "location": "New York, NY",
+      "bio": "VP Engineering @Xbox. \r\n\r\nPreviously: SVP @github, VP of AI @vercel, Founder @turborepo (acquired by Vercel)",
+      "company": "@Xbox @Microsoft ",
+      "total_stars": 80347
+    },
+    {
+      "login": "DIYgod",
+      "name": "DIYgod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8266075?s=88&u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+      "html_url": "https://github.com/DIYgod",
+      "followers": 15801,
+      "following": 438,
+      "public_repos": 64,
+      "location": "Singapore",
+      "bio": "写代码是热爱，写到世界充满爱！",
+      "company": "Natural Selection Labs",
+      "total_stars": 80022
+    },
+    {
+      "login": "NirDiamant",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/28316913?s=88&u=3d82b50356b9928eab0680470b568a10faaf605f&v=4",
+      "html_url": "https://github.com/NirDiamant",
+      "followers": 5496,
+      "following": 2,
+      "public_repos": 23,
+      "location": null,
+      "bio": "GenAI Consultant | Open Source Hub | Best-selling book author ",
+      "company": "DiamantAI",
+      "total_stars": 79475
     }
   ],
-  "orgs": [],
+  "orgs": [
+    {
+      "login": "microsoft",
+      "name": "Microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?s=88&v=4",
+      "html_url": "https://github.com/microsoft",
+      "followers": 119957,
+      "following": 0,
+      "public_repos": 7671,
+      "location": "Redmond, WA",
+      "bio": "Open source projects and samples from Microsoft",
+      "company": null,
+      "total_stars": 1783554
+    },
+    {
+      "login": "facebook",
+      "name": "Meta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69631?s=88&v=4",
+      "html_url": "https://github.com/facebook",
+      "followers": 35540,
+      "following": 0,
+      "public_repos": 155,
+      "location": "Menlo Park, California",
+      "bio": "We are working to build community through open source technology. NB: members must have two-factor auth.",
+      "company": null,
+      "total_stars": 829534
+    },
+    {
+      "login": "google",
+      "name": "Google",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1342004?s=88&v=4",
+      "html_url": "https://github.com/google",
+      "followers": 72709,
+      "following": 0,
+      "public_repos": 2826,
+      "location": "United States of America",
+      "bio": "Google ❤️ Open Source",
+      "company": null,
+      "total_stars": 765652
+    },
+    {
+      "login": "openai",
+      "name": "OpenAI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14957082?s=88&v=4",
+      "html_url": "https://github.com/openai",
+      "followers": 121363,
+      "following": 0,
+      "public_repos": 214,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 704575
+    },
+    {
+      "login": "apache",
+      "name": "The Apache Software Foundation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47359?s=88&v=4",
+      "html_url": "https://github.com/apache",
+      "followers": 22737,
+      "following": 0,
+      "public_repos": 3084,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 703707
+    },
+    {
+      "login": "vuejs",
+      "name": "Vue",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6128107?s=88&v=4",
+      "html_url": "https://github.com/vuejs",
+      "followers": 20322,
+      "following": 0,
+      "public_repos": 117,
+      "location": "All Over the World",
+      "bio": "Your friendly JavaScript framework",
+      "company": null,
+      "total_stars": 593232
+    },
+    {
+      "login": "huggingface",
+      "name": "Hugging Face",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25720743?s=88&v=4",
+      "html_url": "https://github.com/huggingface",
+      "followers": 63557,
+      "following": 0,
+      "public_repos": 347,
+      "location": "NYC + Paris",
+      "bio": "The AI community building the future.",
+      "company": null,
+      "total_stars": 570254
+    },
+    {
+      "login": "github",
+      "name": "GitHub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9919?s=88&v=4",
+      "html_url": "https://github.com/github",
+      "followers": 75463,
+      "following": 0,
+      "public_repos": 403,
+      "location": "United States of America",
+      "bio": "How people build software.",
+      "company": null,
+      "total_stars": 549100
+    },
+    {
+      "login": "alibaba",
+      "name": "Alibaba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1961952?s=88&v=4",
+      "html_url": "https://github.com/alibaba",
+      "followers": 19637,
+      "following": 0,
+      "public_repos": 497,
+      "location": "Hangzhou, China",
+      "bio": "Alibaba Open Source",
+      "company": null,
+      "total_stars": 547127
+    },
+    {
+      "login": "freeCodeCamp",
+      "name": "freeCodeCamp.org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9892522?s=88&v=4",
+      "html_url": "https://github.com/freeCodeCamp",
+      "followers": 33317,
+      "following": 0,
+      "public_repos": 227,
+      "location": "United States of America",
+      "bio": "Learn to code for free with millions of other people around the world ",
+      "company": null,
+      "total_stars": 509925
+    },
+    {
+      "login": "codecrafters-io",
+      "name": "CodeCrafters",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58904235?s=88&v=4",
+      "html_url": "https://github.com/codecrafters-io",
+      "followers": 17018,
+      "following": 0,
+      "public_repos": 130,
+      "location": "United States of America",
+      "bio": "Build your own Git, SQLite, & Redis. ",
+      "company": null,
+      "total_stars": 504465
+    },
+    {
+      "login": "anthropics",
+      "name": "Anthropic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76263028?s=88&v=4",
+      "html_url": "https://github.com/anthropics",
+      "followers": 60935,
+      "following": 0,
+      "public_repos": 64,
+      "location": "United States of America",
+      "bio": null,
+      "company": null,
+      "total_stars": 486558
+    },
+    {
+      "login": "facebookresearch",
+      "name": "Meta Research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16943930?s=88&v=4",
+      "html_url": "https://github.com/facebookresearch",
+      "followers": 35906,
+      "following": 0,
+      "public_repos": 1384,
+      "location": "Menlo Park, California",
+      "bio": null,
+      "company": null,
+      "total_stars": 477398
+    },
+    {
+      "login": "vercel",
+      "name": "Vercel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14985020?s=88&v=4",
+      "html_url": "https://github.com/vercel",
+      "followers": 28362,
+      "following": 0,
+      "public_repos": 192,
+      "location": null,
+      "bio": "Agentic infrastructure for every app and agent.",
+      "company": null,
+      "total_stars": 465689
+    },
+    {
+      "login": "TheAlgorithms",
+      "name": "The Algorithms",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20487725?s=88&v=4",
+      "html_url": "https://github.com/TheAlgorithms",
+      "followers": 62137,
+      "following": 0,
+      "public_repos": 42,
+      "location": "India",
+      "bio": "Open Source resource for learning Data Structures & Algorithms and their implementation in any Programming Language",
+      "company": null,
+      "total_stars": 452551
+    },
+    {
+      "login": "tensorflow",
+      "name": "tensorflow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15658638?s=88&v=4",
+      "html_url": "https://github.com/tensorflow",
+      "followers": 21275,
+      "following": 0,
+      "public_repos": 105,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 449587
+    },
+    {
+      "login": "public-apis",
+      "name": "public-apis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51121562?s=88&v=4",
+      "html_url": "https://github.com/public-apis",
+      "followers": 5728,
+      "following": 0,
+      "public_repos": 1,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 435686
+    },
+    {
+      "login": "openclaw",
+      "name": "openclaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252820863?s=88&v=4",
+      "html_url": "https://github.com/openclaw",
+      "followers": 21266,
+      "following": 0,
+      "public_repos": 63,
+      "location": null,
+      "bio": "Your personal, open source AI assistant.",
+      "company": null,
+      "total_stars": 412884
+    },
+    {
+      "login": "deepseek-ai",
+      "name": "DeepSeek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148330874?s=88&v=4",
+      "html_url": "https://github.com/deepseek-ai",
+      "followers": 91471,
+      "following": 0,
+      "public_repos": 34,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 406355
+    },
+    {
+      "login": "EbookFoundation",
+      "name": "Free Ebook Foundation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14127308?s=88&v=4",
+      "html_url": "https://github.com/EbookFoundation",
+      "followers": 10464,
+      "following": 0,
+      "public_repos": 26,
+      "location": "virtual",
+      "bio": "Making the world safe for free ebooks.",
+      "company": null,
+      "total_stars": 391543
+    },
+    {
+      "login": "airbnb",
+      "name": "Airbnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/698437?s=88&v=4",
+      "html_url": "https://github.com/airbnb",
+      "followers": 5562,
+      "following": 0,
+      "public_repos": 121,
+      "location": "San Francisco",
+      "bio": null,
+      "company": null,
+      "total_stars": 370454
+    },
+    {
+      "login": "Tencent",
+      "name": "Tencent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18461506?s=88&v=4",
+      "html_url": "https://github.com/Tencent",
+      "followers": 13374,
+      "following": 0,
+      "public_repos": 258,
+      "location": "Shenzhen, China",
+      "bio": null,
+      "company": null,
+      "total_stars": 370157
+    },
+    {
+      "login": "rust-lang",
+      "name": "The Rust Programming Language",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5430905?s=88&v=4",
+      "html_url": "https://github.com/rust-lang",
+      "followers": 17182,
+      "following": 0,
+      "public_repos": 220,
+      "location": "United States of America",
+      "bio": null,
+      "company": null,
+      "total_stars": 347036
+    },
+    {
+      "login": "dotnet",
+      "name": ".NET Platform",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9141961?s=88&v=4",
+      "html_url": "https://github.com/dotnet",
+      "followers": 22491,
+      "following": 0,
+      "public_repos": 260,
+      "location": null,
+      "bio": "Home of the open source .NET platform",
+      "company": null,
+      "total_stars": 324361
+    },
+    {
+      "login": "langchain-ai",
+      "name": "LangChain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/126733545?s=88&v=4",
+      "html_url": "https://github.com/langchain-ai",
+      "followers": 19174,
+      "following": 0,
+      "public_repos": 223,
+      "location": "United States of America",
+      "bio": null,
+      "company": null,
+      "total_stars": 305053
+    },
+    {
+      "login": "datawhalechina",
+      "name": "Datawhale",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46047812?s=88&v=4",
+      "html_url": "https://github.com/datawhalechina",
+      "followers": 27154,
+      "following": 0,
+      "public_repos": 201,
+      "location": null,
+      "bio": "for the learner，和学习者一起成长",
+      "company": null,
+      "total_stars": 295845
+    },
+    {
+      "login": "angular",
+      "name": "Angular",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139426?s=88&v=4",
+      "html_url": "https://github.com/angular",
+      "followers": 8599,
+      "following": 0,
+      "public_repos": 209,
+      "location": "United States of America",
+      "bio": null,
+      "company": null,
+      "total_stars": 294961
+    },
+    {
+      "login": "awesome-selfhosted",
+      "name": "awesome-selfhosted",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24270415?s=88&v=4",
+      "html_url": "https://github.com/awesome-selfhosted",
+      "followers": 2601,
+      "following": 0,
+      "public_repos": 3,
+      "location": null,
+      "bio": "A list of Free Software network services and web applications which can be hosted on your own server(s).",
+      "company": null,
+      "total_stars": 294548
+    },
+    {
+      "login": "kubernetes",
+      "name": "Kubernetes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13629408?s=88&v=4",
+      "html_url": "https://github.com/kubernetes",
+      "followers": 13666,
+      "following": 0,
+      "public_repos": 79,
+      "location": null,
+      "bio": "Production-Grade Container Scheduling and Management",
+      "company": null,
+      "total_stars": 285987
+    },
+    {
+      "login": "hashicorp",
+      "name": "HashiCorp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/761456?s=88&v=4",
+      "html_url": "https://github.com/hashicorp",
+      "followers": 10449,
+      "following": 0,
+      "public_repos": 775,
+      "location": "San Francisco, CA",
+      "bio": "Consistent workflows to provision, secure, connect, and run any infrastructure for any application.",
+      "company": null,
+      "total_stars": 273476
+    },
+    {
+      "login": "HKUDS",
+      "name": "✨Data Intelligence Lab@HKU✨",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118165258?s=88&v=4",
+      "html_url": "https://github.com/HKUDS",
+      "followers": 10977,
+      "following": 0,
+      "public_repos": 87,
+      "location": "Hong Kong",
+      "bio": null,
+      "company": null,
+      "total_stars": 270433
+    },
+    {
+      "login": "practical-tutorials",
+      "name": "practical-tutorials",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89421154?s=88&v=4",
+      "html_url": "https://github.com/practical-tutorials",
+      "followers": 5150,
+      "following": 0,
+      "public_repos": 1,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 266015
+    },
+    {
+      "login": "square",
+      "name": "Square",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82592?s=88&v=4",
+      "html_url": "https://github.com/square",
+      "followers": 2893,
+      "following": 0,
+      "public_repos": 283,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 255048
+    },
+    {
+      "login": "flutter",
+      "name": "Flutter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14101776?s=88&v=4",
+      "html_url": "https://github.com/flutter",
+      "followers": 21811,
+      "following": 0,
+      "public_repos": 39,
+      "location": null,
+      "bio": "Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.",
+      "company": null,
+      "total_stars": 253099
+    },
+    {
+      "login": "ossu",
+      "name": "Open Source Society University",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14957346?s=88&v=4",
+      "html_url": "https://github.com/ossu",
+      "followers": 15446,
+      "following": 0,
+      "public_repos": 10,
+      "location": null,
+      "bio": "Empowering learners to master college curricula through free resources. Choose a major and start today!",
+      "company": null,
+      "total_stars": 244392
+    },
+    {
+      "login": "PaddlePaddle",
+      "name": "PaddlePaddle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23534030?s=88&v=4",
+      "html_url": "https://github.com/PaddlePaddle",
+      "followers": 7058,
+      "following": 0,
+      "public_repos": 103,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 241472
+    },
+    {
+      "login": "golang",
+      "name": "Go",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4314092?s=88&v=4",
+      "html_url": "https://github.com/golang",
+      "followers": 12126,
+      "following": 0,
+      "public_repos": 61,
+      "location": null,
+      "bio": "The Go Programming Language",
+      "company": null,
+      "total_stars": 241204
+    },
+    {
+      "login": "shadowsocks",
+      "name": "shadowsocks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3006190?s=88&v=4",
+      "html_url": "https://github.com/shadowsocks",
+      "followers": 8065,
+      "following": 0,
+      "public_repos": 51,
+      "location": null,
+      "bio": "shadowsocks is a fast tunnel proxy that helps you bypass firewalls",
+      "company": null,
+      "total_stars": 239516
+    },
+    {
+      "login": "bytedance",
+      "name": "Bytedance Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "html_url": "https://github.com/bytedance",
+      "followers": 17674,
+      "following": 0,
+      "public_repos": 369,
+      "location": "Singapore",
+      "bio": null,
+      "company": null,
+      "total_stars": 237808
+    },
+    {
+      "login": "nodejs",
+      "name": "Node.js",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9950313?s=88&v=4",
+      "html_url": "https://github.com/nodejs",
+      "followers": 15957,
+      "following": 0,
+      "public_repos": 227,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 226261
+    },
+    {
+      "login": "twbs",
+      "name": "Bootstrap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2918581?s=88&v=4",
+      "html_url": "https://github.com/twbs",
+      "followers": 14084,
+      "following": 0,
+      "public_repos": 26,
+      "location": "San Francisco",
+      "bio": "Source code and more for the most popular front-end framework in the world.",
+      "company": null,
+      "total_stars": 220845
+    },
+    {
+      "login": "anomalyco",
+      "name": "Anomaly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66570915?s=88&v=4",
+      "html_url": "https://github.com/anomalyco",
+      "followers": 4492,
+      "following": 0,
+      "public_repos": 52,
+      "location": null,
+      "bio": "For whatever you build.",
+      "company": null,
+      "total_stars": 219246
+    },
+    {
+      "login": "spring-projects",
+      "name": "Spring",
+      "avatar_url": "https://avatars.githubusercontent.com/u/317776?s=88&v=4",
+      "html_url": "https://github.com/spring-projects",
+      "followers": 16369,
+      "following": 0,
+      "public_repos": 80,
+      "location": "United States of America",
+      "bio": "Spring Projects",
+      "company": null,
+      "total_stars": 218901
+    },
+    {
+      "login": "redis",
+      "name": "Redis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1529926?s=88&v=4",
+      "html_url": "https://github.com/redis",
+      "followers": 2748,
+      "following": 0,
+      "public_repos": 68,
+      "location": null,
+      "bio": null,
+      "company": null,
+      "total_stars": 218265
+    },
+    {
+      "login": "pytorch",
+      "name": "pytorch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21003710?s=88&v=4",
+      "html_url": "https://github.com/pytorch",
+      "followers": 13078,
+      "following": 0,
+      "public_repos": 67,
+      "location": "where the eigens are valued",
+      "bio": null,
+      "company": null,
+      "total_stars": 214918
+    },
+    {
+      "login": "FuelLabs",
+      "name": "Fuel Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55993183?s=88&v=4",
+      "html_url": "https://github.com/FuelLabs",
+      "followers": 6532,
+      "following": 0,
+      "public_repos": 167,
+      "location": "Ethereum",
+      "bio": "Fuel Labs is building Fuel, The Rollup OS for Ethereum.",
+      "company": null,
+      "total_stars": 214884
+    },
+    {
+      "login": "pmndrs",
+      "name": "Poimandres",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45790596?s=88&v=4",
+      "html_url": "https://github.com/pmndrs",
+      "followers": 9719,
+      "following": 0,
+      "public_repos": 85,
+      "location": "https://opencollective.com/pmndrs",
+      "bio": "Open source developer collective",
+      "company": null,
+      "total_stars": 213378
+    },
+    {
+      "login": "mozilla",
+      "name": "Mozilla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131524?s=88&v=4",
+      "html_url": "https://github.com/mozilla",
+      "followers": 10473,
+      "following": 0,
+      "public_repos": 2263,
+      "location": "Mountain View, California",
+      "bio": "This technology could fall into the right hands.",
+      "company": null,
+      "total_stars": 212170
+    },
+    {
+      "login": "apple",
+      "name": "Apple",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10639145?s=88&v=4",
+      "html_url": "https://github.com/apple",
+      "followers": 36691,
+      "following": 0,
+      "public_repos": 411,
+      "location": "Cupertino, CA",
+      "bio": null,
+      "company": null,
+      "total_stars": 211793
+    },
+    {
+      "login": "n8n-io",
+      "name": "n8n - Workflow Automation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45487711?s=88&v=4",
+      "html_url": "https://github.com/n8n-io",
+      "followers": 13486,
+      "following": 0,
+      "public_repos": 30,
+      "location": "Germany",
+      "bio": "Free and open fair-code licensed node based Workflow Automation Tool.",
+      "company": null,
+      "total_stars": 208684
+    }
+  ],
   "repos": [
     {
       "full_name": "codecrafters-io/build-your-own-x",
       "html_url": "https://github.com/codecrafters-io/build-your-own-x",
       "description": "Master programming by recreating your favorite technologies from scratch.",
-      "stargazers_count": 502225,
-      "forks_count": 47615,
-      "watchers_count": 502225,
+      "stargazers_count": 502246,
+      "forks_count": 47619,
+      "watchers_count": 502246,
       "language": "Markdown",
       "owner_login": "codecrafters-io",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/58904235?v=4",
@@ -1364,9 +2015,9 @@
       "full_name": "sindresorhus/awesome",
       "html_url": "https://github.com/sindresorhus/awesome",
       "description": "😎 Awesome lists about all kinds of interesting topics",
-      "stargazers_count": 467716,
+      "stargazers_count": 467734,
       "forks_count": 35054,
-      "watchers_count": 467716,
+      "watchers_count": 467734,
       "language": null,
       "owner_login": "sindresorhus",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/170270?v=4",
@@ -1378,9 +2029,9 @@
       "full_name": "freeCodeCamp/freeCodeCamp",
       "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "stargazers_count": 445078,
+      "stargazers_count": 445084,
       "forks_count": 44625,
-      "watchers_count": 445078,
+      "watchers_count": 445084,
       "language": "TypeScript",
       "owner_login": "freeCodeCamp",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/9892522?v=4",
@@ -1392,9 +2043,9 @@
       "full_name": "public-apis/public-apis",
       "html_url": "https://github.com/public-apis/public-apis",
       "description": "A collective list of free APIs",
-      "stargazers_count": 435676,
-      "forks_count": 47754,
-      "watchers_count": 435676,
+      "stargazers_count": 435686,
+      "forks_count": 47756,
+      "watchers_count": 435686,
       "language": "Python",
       "owner_login": "public-apis",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/51121562?v=4",
@@ -1406,9 +2057,9 @@
       "full_name": "EbookFoundation/free-programming-books",
       "html_url": "https://github.com/EbookFoundation/free-programming-books",
       "description": ":books: Freely available programming books",
-      "stargazers_count": 388500,
+      "stargazers_count": 388502,
       "forks_count": 66310,
-      "watchers_count": 388500,
+      "watchers_count": 388502,
       "language": "Python",
       "owner_login": "EbookFoundation",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/14127308?v=4",
@@ -1420,23 +2071,23 @@
       "full_name": "openclaw/openclaw",
       "html_url": "https://github.com/openclaw/openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "stargazers_count": 372927,
-      "forks_count": 77347,
-      "watchers_count": 372927,
+      "stargazers_count": 372939,
+      "forks_count": 77350,
+      "watchers_count": 372939,
       "language": "TypeScript",
       "owner_login": "openclaw",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/252820863?v=4",
       "owner_type": "Organization",
       "created_at": "2025-11-24T10:16:47Z",
-      "pushed_at": "2026-05-18T17:48:51Z"
+      "pushed_at": "2026-05-18T18:56:28Z"
     },
     {
       "full_name": "nilbuild/developer-roadmap",
       "html_url": "https://github.com/nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stargazers_count": 355016,
+      "stargazers_count": 355018,
       "forks_count": 44078,
-      "watchers_count": 355016,
+      "watchers_count": 355018,
       "language": "TypeScript",
       "owner_login": "nilbuild",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
@@ -1448,9 +2099,9 @@
       "full_name": "donnemartin/system-design-primer",
       "html_url": "https://github.com/donnemartin/system-design-primer",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
-      "stargazers_count": 349145,
-      "forks_count": 56273,
-      "watchers_count": 349145,
+      "stargazers_count": 349151,
+      "forks_count": 56276,
+      "watchers_count": 349151,
       "language": "Python",
       "owner_login": "donnemartin",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5458997?v=4",
@@ -1462,9 +2113,9 @@
       "full_name": "jwasham/coding-interview-university",
       "html_url": "https://github.com/jwasham/coding-interview-university",
       "description": "A complete computer science study plan to become a software engineer.",
-      "stargazers_count": 347007,
-      "forks_count": 82924,
-      "watchers_count": 347007,
+      "stargazers_count": 347012,
+      "forks_count": 82925,
+      "watchers_count": 347012,
       "language": null,
       "owner_login": "jwasham",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3771963?v=4",
@@ -1476,9 +2127,9 @@
       "full_name": "vinta/awesome-python",
       "html_url": "https://github.com/vinta/awesome-python",
       "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
-      "stargazers_count": 298353,
+      "stargazers_count": 298366,
       "forks_count": 27935,
-      "watchers_count": 298353,
+      "watchers_count": 298366,
       "language": "Python",
       "owner_login": "vinta",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/652070?v=4",
@@ -1490,9 +2141,9 @@
       "full_name": "awesome-selfhosted/awesome-selfhosted",
       "html_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
       "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
-      "stargazers_count": 293477,
-      "forks_count": 13603,
-      "watchers_count": 293477,
+      "stargazers_count": 293491,
+      "forks_count": 13604,
+      "watchers_count": 293491,
       "language": null,
       "owner_login": "awesome-selfhosted",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/24270415?v=4",
@@ -1518,9 +2169,9 @@
       "full_name": "practical-tutorials/project-based-learning",
       "html_url": "https://github.com/practical-tutorials/project-based-learning",
       "description": "Curated list of project-based tutorials",
-      "stargazers_count": 266009,
-      "forks_count": 34600,
-      "watchers_count": 266009,
+      "stargazers_count": 266015,
+      "forks_count": 34603,
+      "watchers_count": 266015,
       "language": null,
       "owner_login": "practical-tutorials",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/89421154?v=4",
@@ -1532,9 +2183,9 @@
       "full_name": "facebook/react",
       "html_url": "https://github.com/facebook/react",
       "description": "The library for web and native user interfaces.",
-      "stargazers_count": 245104,
+      "stargazers_count": 245109,
       "forks_count": 51061,
-      "watchers_count": 245104,
+      "watchers_count": 245109,
       "language": "JavaScript",
       "owner_login": "facebook",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -1546,9 +2197,9 @@
       "full_name": "torvalds/linux",
       "html_url": "https://github.com/torvalds/linux",
       "description": "Linux kernel source tree",
-      "stargazers_count": 233593,
-      "forks_count": 62369,
-      "watchers_count": 233593,
+      "stargazers_count": 233595,
+      "forks_count": 62368,
+      "watchers_count": 233595,
       "language": "C",
       "owner_login": "torvalds",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1024025?v=4",
@@ -1574,9 +2225,9 @@
       "full_name": "trimstray/the-book-of-secret-knowledge",
       "html_url": "https://github.com/trimstray/the-book-of-secret-knowledge",
       "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-      "stargazers_count": 220827,
-      "forks_count": 13202,
-      "watchers_count": 220827,
+      "stargazers_count": 220833,
+      "forks_count": 13204,
+      "watchers_count": 220833,
       "language": null,
       "owner_login": "trimstray",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/31127917?v=4",
@@ -1602,9 +2253,9 @@
       "full_name": "ossu/computer-science",
       "html_url": "https://github.com/ossu/computer-science",
       "description": "🎓 Path to a free self-taught education in Computer Science!",
-      "stargazers_count": 203935,
-      "forks_count": 25384,
-      "watchers_count": 203935,
+      "stargazers_count": 203937,
+      "forks_count": 25383,
+      "watchers_count": 203937,
       "language": "HTML",
       "owner_login": "ossu",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/14957346?v=4",
@@ -1616,9 +2267,9 @@
       "full_name": "obra/superpowers",
       "html_url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stargazers_count": 196512,
-      "forks_count": 17508,
-      "watchers_count": 196512,
+      "stargazers_count": 196556,
+      "forks_count": 17516,
+      "watchers_count": 196556,
       "language": "Shell",
       "owner_login": "obra",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/45416?v=4",
@@ -1630,9 +2281,9 @@
       "full_name": "trekhleb/javascript-algorithms",
       "html_url": "https://github.com/trekhleb/javascript-algorithms",
       "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
-      "stargazers_count": 195969,
+      "stargazers_count": 195971,
       "forks_count": 31071,
-      "watchers_count": 195969,
+      "watchers_count": 195971,
       "language": "JavaScript",
       "owner_login": "trekhleb",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3000285?v=4",
@@ -1644,23 +2295,23 @@
       "full_name": "tensorflow/tensorflow",
       "html_url": "https://github.com/tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stargazers_count": 195151,
+      "stargazers_count": 195152,
       "forks_count": 75307,
-      "watchers_count": 195151,
+      "watchers_count": 195152,
       "language": "C++",
       "owner_login": "tensorflow",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
       "owner_type": "Organization",
       "created_at": "2015-11-07T01:19:20Z",
-      "pushed_at": "2026-05-18T17:43:36Z"
+      "pushed_at": "2026-05-18T18:53:38Z"
     },
     {
       "full_name": "ultraworkers/claw-code",
       "html_url": "https://github.com/ultraworkers/claw-code",
       "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
-      "stargazers_count": 191892,
-      "forks_count": 109926,
-      "watchers_count": 191892,
+      "stargazers_count": 191897,
+      "forks_count": 109929,
+      "watchers_count": 191897,
       "language": "Rust",
       "owner_login": "ultraworkers",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/272961631?v=4",
@@ -1672,15 +2323,15 @@
       "full_name": "n8n-io/n8n",
       "html_url": "https://github.com/n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stargazers_count": 188550,
-      "forks_count": 57781,
-      "watchers_count": 188550,
+      "stargazers_count": 188555,
+      "forks_count": 57784,
+      "watchers_count": 188555,
       "language": "TypeScript",
       "owner_login": "n8n-io",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/45487711?v=4",
       "owner_type": "Organization",
       "created_at": "2019-06-22T09:24:21Z",
-      "pushed_at": "2026-05-18T17:35:19Z"
+      "pushed_at": "2026-05-18T19:00:55Z"
     },
     {
       "full_name": "ohmyzsh/ohmyzsh",
@@ -1700,37 +2351,37 @@
       "full_name": "affaan-m/everything-claude-code",
       "html_url": "https://github.com/affaan-m/everything-claude-code",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stargazers_count": 186419,
-      "forks_count": 28855,
-      "watchers_count": 186419,
+      "stargazers_count": 186451,
+      "forks_count": 28863,
+      "watchers_count": 186451,
       "language": "JavaScript",
       "owner_login": "affaan-m",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/124439313?v=4",
       "owner_type": "User",
       "created_at": "2026-01-18T00:51:51Z",
-      "pushed_at": "2026-05-18T17:41:18Z"
+      "pushed_at": "2026-05-18T18:39:12Z"
     },
     {
       "full_name": "microsoft/vscode",
       "html_url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
-      "stargazers_count": 185060,
+      "stargazers_count": 185061,
       "forks_count": 39944,
-      "watchers_count": 185060,
+      "watchers_count": 185061,
       "language": "TypeScript",
       "owner_login": "microsoft",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "owner_type": "Organization",
       "created_at": "2015-09-03T20:23:38Z",
-      "pushed_at": "2026-05-18T17:41:01Z"
+      "pushed_at": "2026-05-18T19:01:30Z"
     },
     {
       "full_name": "getify/You-Dont-Know-JS",
       "html_url": "https://github.com/getify/You-Dont-Know-JS",
       "description": "A book series (2 published editions) on the JS language.",
-      "stargazers_count": 184462,
-      "forks_count": 33566,
-      "watchers_count": 184462,
+      "stargazers_count": 184461,
+      "forks_count": 33565,
+      "watchers_count": 184461,
       "language": null,
       "owner_login": "getify",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/150330?v=4",
@@ -1770,9 +2421,9 @@
       "full_name": "jackfrued/Python-100-Days",
       "html_url": "https://github.com/jackfrued/Python-100-Days",
       "description": "Python - 100天从新手到大师",
-      "stargazers_count": 182576,
+      "stargazers_count": 182578,
       "forks_count": 55692,
-      "watchers_count": 182576,
+      "watchers_count": 182578,
       "language": "Jupyter Notebook",
       "owner_login": "jackfrued",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7474657?v=4",
@@ -1792,15 +2443,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
       "owner_type": "Organization",
       "created_at": "2015-03-06T22:54:58Z",
-      "pushed_at": "2026-05-18T16:35:30Z"
+      "pushed_at": "2026-05-18T18:32:38Z"
     },
     {
       "full_name": "massgravel/Microsoft-Activation-Scripts",
       "html_url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
       "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
-      "stargazers_count": 175663,
-      "forks_count": 16868,
-      "watchers_count": 175663,
+      "stargazers_count": 175668,
+      "forks_count": 16869,
+      "watchers_count": 175668,
       "language": "Batchfile",
       "owner_login": "massgravel",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/59795046?v=4",
@@ -1826,9 +2477,9 @@
       "full_name": "github/gitignore",
       "html_url": "https://github.com/github/gitignore",
       "description": "A collection of useful .gitignore templates",
-      "stargazers_count": 173982,
-      "forks_count": 82516,
-      "watchers_count": 173982,
+      "stargazers_count": 173984,
+      "forks_count": 82515,
+      "watchers_count": 173984,
       "language": null,
       "owner_login": "github",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -1840,23 +2491,23 @@
       "full_name": "avelino/awesome-go",
       "html_url": "https://github.com/avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
-      "stargazers_count": 172986,
+      "stargazers_count": 172992,
       "forks_count": 13223,
-      "watchers_count": 172986,
+      "watchers_count": 172992,
       "language": "Go",
       "owner_login": "avelino",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/31996?v=4",
       "owner_type": "User",
       "created_at": "2014-07-06T13:42:15Z",
-      "pushed_at": "2026-05-17T20:01:36Z"
+      "pushed_at": "2026-05-18T18:22:36Z"
     },
     {
       "full_name": "ollama/ollama",
       "html_url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stargazers_count": 171695,
+      "stargazers_count": 171699,
       "forks_count": 16181,
-      "watchers_count": 171695,
+      "watchers_count": 171699,
       "language": "Go",
       "owner_login": "ollama",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -1868,9 +2519,9 @@
       "full_name": "DigitalPlatDev/FreeDomain",
       "html_url": "https://github.com/DigitalPlatDev/FreeDomain",
       "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
-      "stargazers_count": 163521,
-      "forks_count": 2850,
-      "watchers_count": 163521,
+      "stargazers_count": 163526,
+      "forks_count": 2851,
+      "watchers_count": 163526,
       "language": "HTML",
       "owner_login": "DigitalPlatDev",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/126394654?v=4",
@@ -1882,9 +2533,9 @@
       "full_name": "AUTOMATIC1111/stable-diffusion-webui",
       "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
-      "stargazers_count": 163129,
-      "forks_count": 30351,
-      "watchers_count": 163129,
+      "stargazers_count": 163132,
+      "forks_count": 30352,
+      "watchers_count": 163132,
       "language": "Python",
       "owner_login": "AUTOMATIC1111",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20920490?v=4",
@@ -1896,9 +2547,9 @@
       "full_name": "yt-dlp/yt-dlp",
       "html_url": "https://github.com/yt-dlp/yt-dlp",
       "description": "A feature-rich command-line audio/video downloader",
-      "stargazers_count": 162975,
+      "stargazers_count": 162980,
       "forks_count": 13677,
-      "watchers_count": 162975,
+      "watchers_count": 162980,
       "language": "Python",
       "owner_login": "yt-dlp",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/79589310?v=4",
@@ -1910,9 +2561,9 @@
       "full_name": "f/prompts.chat",
       "html_url": "https://github.com/f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "stargazers_count": 162470,
+      "stargazers_count": 162474,
       "forks_count": 21151,
-      "watchers_count": 162470,
+      "watchers_count": 162474,
       "language": "HTML",
       "owner_login": "f",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/196477?v=4",
@@ -1924,15 +2575,15 @@
       "full_name": "anomalyco/opencode",
       "html_url": "https://github.com/anomalyco/opencode",
       "description": "The open source coding agent.",
-      "stargazers_count": 162088,
-      "forks_count": 19067,
-      "watchers_count": 162088,
+      "stargazers_count": 162109,
+      "forks_count": 19071,
+      "watchers_count": 162109,
       "language": "TypeScript",
       "owner_login": "anomalyco",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/66570915?v=4",
       "owner_type": "Organization",
       "created_at": "2025-04-30T20:08:00Z",
-      "pushed_at": "2026-05-18T17:30:43Z"
+      "pushed_at": "2026-05-18T18:59:09Z"
     },
     {
       "full_name": "jlevy/the-art-of-command-line",
@@ -1952,23 +2603,23 @@
       "full_name": "huggingface/transformers",
       "html_url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stargazers_count": 160732,
+      "stargazers_count": 160733,
       "forks_count": 33250,
-      "watchers_count": 160732,
+      "watchers_count": 160733,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
       "owner_type": "Organization",
       "created_at": "2018-10-29T13:56:00Z",
-      "pushed_at": "2026-05-18T17:35:48Z"
+      "pushed_at": "2026-05-18T17:51:33Z"
     },
     {
       "full_name": "521xueweihan/HelloGitHub",
       "html_url": "https://github.com/521xueweihan/HelloGitHub",
       "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-      "stargazers_count": 157545,
+      "stargazers_count": 157548,
       "forks_count": 12001,
-      "watchers_count": 157545,
+      "watchers_count": 157548,
       "language": "Python",
       "owner_login": "521xueweihan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8255800?v=4",
@@ -1980,22 +2631,22 @@
       "full_name": "NousResearch/hermes-agent",
       "html_url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stargazers_count": 156187,
-      "forks_count": 25098,
-      "watchers_count": 156187,
+      "stargazers_count": 156235,
+      "forks_count": 25110,
+      "watchers_count": 156235,
       "language": "Python",
       "owner_login": "NousResearch",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/134168893?v=4",
       "owner_type": "Organization",
       "created_at": "2025-07-22T22:22:28Z",
-      "pushed_at": "2026-05-18T17:48:09Z"
+      "pushed_at": "2026-05-18T18:47:29Z"
     },
     {
       "full_name": "Snailclimb/JavaGuide",
       "html_url": "https://github.com/Snailclimb/JavaGuide",
       "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
       "stargazers_count": 155749,
-      "forks_count": 46133,
+      "forks_count": 46132,
       "watchers_count": 155749,
       "language": "JavaScript",
       "owner_login": "Snailclimb",
@@ -2008,23 +2659,23 @@
       "full_name": "langflow-ai/langflow",
       "html_url": "https://github.com/langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stargazers_count": 148447,
-      "forks_count": 9033,
-      "watchers_count": 148447,
+      "stargazers_count": 148449,
+      "forks_count": 9034,
+      "watchers_count": 148449,
       "language": "Python",
       "owner_login": "langflow-ai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/85702467?v=4",
       "owner_type": "Organization",
       "created_at": "2023-02-08T22:28:03Z",
-      "pushed_at": "2026-05-18T17:37:12Z"
+      "pushed_at": "2026-05-18T19:00:56Z"
     },
     {
       "full_name": "airbnb/javascript",
       "html_url": "https://github.com/airbnb/javascript",
       "description": "JavaScript Style Guide",
-      "stargazers_count": 148122,
+      "stargazers_count": 148123,
       "forks_count": 26681,
-      "watchers_count": 148122,
+      "watchers_count": 148123,
       "language": "JavaScript",
       "owner_login": "airbnb",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/698437?v=4",
@@ -2036,9 +2687,9 @@
       "full_name": "Genymobile/scrcpy",
       "html_url": "https://github.com/Genymobile/scrcpy",
       "description": "Display and control your Android device",
-      "stargazers_count": 141921,
+      "stargazers_count": 141924,
       "forks_count": 13094,
-      "watchers_count": 141921,
+      "watchers_count": 141924,
       "language": "C",
       "owner_login": "Genymobile",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3427627?v=4",
