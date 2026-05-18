@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>commits.fyi — GitHub city rankings</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --panel-2: #1c2128;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --accent-2: #f0883e;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+    background: var(--panel);
+  }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h1 svg { fill: var(--text); }
+  .sub { color: var(--muted); font-size: 12px; margin-top: 4px; }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 24px; }
+
+  .controls {
+    display: flex;
+    gap: 12px;
+    align-items: end;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  label {
+    display: block;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 4px;
+  }
+  select, input {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    min-width: 200px;
+  }
+  select:focus, input:focus { outline: none; border-color: var(--accent); }
+
+  .meta {
+    color: var(--muted);
+    font-size: 12px;
+    margin-left: auto;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .stat {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  .stat-label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-value { font-size: 22px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 4px; }
+
+  .tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+  .tab {
+    background: none;
+    border: none;
+    color: var(--muted);
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+    font-weight: 500;
+  }
+  .tab:hover { color: var(--text); background: var(--panel-2); }
+  .tab.active { color: var(--text); border-bottom-color: var(--accent-2); }
+
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  th {
+    background: var(--panel-2);
+    font-weight: 600;
+    color: var(--muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    user-select: none;
+  }
+  th.sortable:hover { color: var(--text); }
+  th .arrow { color: var(--accent-2); margin-left: 4px; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--panel-2); }
+  td.rank { color: var(--muted); width: 50px; font-variant-numeric: tabular-nums; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; width: 110px; }
+  .login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--panel-2);
+  }
+  .avatar.sq { border-radius: 4px; }
+  .name-cell { display: flex; flex-direction: column; }
+  .full-name, .repo-meta { color: var(--muted); font-size: 12px; }
+  .tag {
+    display: inline-block;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1px 8px;
+    font-size: 11px;
+    color: var(--muted);
+    margin-left: 6px;
+  }
+
+  .status {
+    color: var(--muted);
+    padding: 16px;
+    text-align: center;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .status.error { color: #f85149; border-color: rgba(248,81,73,0.3); }
+  .hidden { display: none; }
+  footer {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 24px;
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-row">
+    <h1>
+      <svg height="24" viewBox="0 0 16 16" width="24" aria-hidden="true">
+        <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+      </svg>
+      commits.fyi
+    </h1>
+    <div class="sub" id="updated">GitHub city rankings · refreshed daily</div>
+  </div>
+</header>
+
+<main>
+  <div class="controls">
+    <div>
+      <label for="city">City</label>
+      <select id="city"></select>
+    </div>
+    <div>
+      <label for="filter">Filter</label>
+      <input id="filter" type="text" placeholder="login, name, or repo…" />
+    </div>
+  </div>
+
+  <div id="stats" class="stats"></div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="users">Users</button>
+    <button class="tab" data-tab="orgs">Organizations</button>
+    <button class="tab" data-tab="repos">Repositories</button>
+  </div>
+
+  <div id="status" class="status hidden"></div>
+
+  <section id="panel-users" class="panel active">
+    <table id="table-users">
+      <thead>
+        <tr>
+          <th class="rank">#</th>
+          <th>User</th>
+          <th class="num sortable" data-sort="followers">Followers</th>
+          <th class="num sortable" data-sort="total_stars">Total stars</th>
+          <th class="num sortable" data-sort="public_repos">Public repos</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="panel-orgs" class="panel">
+    <table id="table-orgs">
+      <thead>
+        <tr>
+          <th class="rank">#</th>
+          <th>Organization</th>
+          <th class="num sortable" data-sort="followers">Followers</th>
+          <th class="num sortable" data-sort="total_stars">Total stars</th>
+          <th class="num sortable" data-sort="public_repos">Public repos</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="panel-repos" class="panel">
+    <table id="table-repos">
+      <thead>
+        <tr>
+          <th class="rank">#</th>
+          <th>Repository</th>
+          <th class="num sortable" data-sort="stargazers_count">Stars</th>
+          <th class="num sortable" data-sort="forks_count">Forks</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <footer>
+    <strong>How it works.</strong> A GitHub Actions cron job refreshes this data daily.
+    For each city, we search GitHub for users/orgs whose self-reported profile
+    <code>location</code> matches the city, then sum stargazers across their public
+    non-fork repos. Location is free-text — e.g. <em>New York</em> won't match users who wrote
+    <em>NYC</em> or <em>Brooklyn</em>. <a href="https://github.com/" target="_blank" rel="noopener">View source</a>
+  </footer>
+</main>
+
+<script>
+(() => {
+  const citySel = document.getElementById('city');
+  const filterEl = document.getElementById('filter');
+  const updatedEl = document.getElementById('updated');
+  const statsEl = document.getElementById('stats');
+  const statusEl = document.getElementById('status');
+  const tabs = document.querySelectorAll('.tab');
+  const panels = {
+    users: document.getElementById('panel-users'),
+    orgs: document.getElementById('panel-orgs'),
+    repos: document.getElementById('panel-repos'),
+  };
+  const tbodies = {
+    users: panels.users.querySelector('tbody'),
+    orgs: panels.orgs.querySelector('tbody'),
+    repos: panels.repos.querySelector('tbody'),
+  };
+  const tables = {
+    users: document.getElementById('table-users'),
+    orgs: document.getElementById('table-orgs'),
+    repos: document.getElementById('table-repos'),
+  };
+
+  let currentData = null;
+  let activeTab = 'users';
+  const sortState = {
+    users: { key: 'followers', dir: 'desc' },
+    orgs:  { key: 'followers', dir: 'desc' },
+    repos: { key: 'stargazers_count', dir: 'desc' },
+  };
+
+  function fmt(n) {
+    if (n == null) return '—';
+    if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 10_000) return (n / 1000).toFixed(0) + 'k';
+    if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+    return n.toLocaleString();
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function relative(iso) {
+    if (!iso) return '';
+    const ms = Date.now() - new Date(iso).getTime();
+    const m = Math.floor(ms / 60000);
+    if (m < 1) return 'just now';
+    if (m < 60) return `${m}m ago`;
+    const h = Math.floor(m / 60);
+    if (h < 24) return `${h}h ago`;
+    const d = Math.floor(h / 24);
+    return `${d}d ago`;
+  }
+
+  function setStatus(msg, kind = '') {
+    statusEl.className = 'status' + (kind ? ' ' + kind : '');
+    statusEl.textContent = msg;
+    statusEl.classList.remove('hidden');
+  }
+  function clearStatus() { statusEl.classList.add('hidden'); statusEl.textContent = ''; }
+
+  tabs.forEach(t => t.addEventListener('click', () => {
+    tabs.forEach(x => x.classList.remove('active'));
+    Object.values(panels).forEach(p => p.classList.remove('active'));
+    t.classList.add('active');
+    panels[t.dataset.tab].classList.add('active');
+    activeTab = t.dataset.tab;
+    render();
+  }));
+
+  Object.entries(tables).forEach(([tab, table]) => {
+    table.querySelectorAll('th.sortable').forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        const s = sortState[tab];
+        if (s.key === key) s.dir = s.dir === 'desc' ? 'asc' : 'desc';
+        else { s.key = key; s.dir = 'desc'; }
+        render();
+      });
+    });
+  });
+
+  filterEl.addEventListener('input', render);
+  citySel.addEventListener('change', () => loadCity(citySel.value));
+
+  function matches(item, q) {
+    if (!q) return true;
+    const t = q.toLowerCase();
+    return (
+      (item.login && item.login.toLowerCase().includes(t)) ||
+      (item.name && item.name.toLowerCase().includes(t)) ||
+      (item.full_name && item.full_name.toLowerCase().includes(t)) ||
+      (item.description && item.description.toLowerCase().includes(t))
+    );
+  }
+
+  function renderHeaders() {
+    Object.entries(tables).forEach(([tab, table]) => {
+      const s = sortState[tab];
+      table.querySelectorAll('th.sortable').forEach(th => {
+        const arrow = th.querySelector('.arrow');
+        if (arrow) arrow.remove();
+        if (th.dataset.sort === s.key) {
+          const span = document.createElement('span');
+          span.className = 'arrow';
+          span.textContent = s.dir === 'desc' ? '▼' : '▲';
+          th.appendChild(span);
+        }
+      });
+    });
+  }
+
+  function renderUsers(list, tbody, isOrg) {
+    tbody.innerHTML = '';
+    list.forEach((u, i) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="rank">${i + 1}</td>
+        <td>
+          <div class="login">
+            <img class="avatar ${isOrg ? 'sq' : ''}" src="${u.avatar_url}&s=64" loading="lazy" alt="" />
+            <div class="name-cell">
+              <a href="${u.html_url}" target="_blank" rel="noopener">${escapeHtml(u.login)}</a>
+              ${u.name ? `<span class="full-name">${escapeHtml(u.name)}</span>` : ''}
+            </div>
+          </div>
+        </td>
+        <td class="num">${fmt(u.followers)}</td>
+        <td class="num">${fmt(u.total_stars)}</td>
+        <td class="num">${fmt(u.public_repos)}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function renderRepos(list, tbody) {
+    tbody.innerHTML = '';
+    list.forEach((r, i) => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td class="rank">${i + 1}</td>
+        <td>
+          <div class="login">
+            ${r.owner_avatar_url ? `<img class="avatar ${r.owner_type === 'Organization' ? 'sq' : ''}" src="${r.owner_avatar_url}&s=64" loading="lazy" alt="" />` : ''}
+            <div class="name-cell">
+              <a href="${r.html_url}" target="_blank" rel="noopener">${escapeHtml(r.full_name)}</a>${r.language ? `<span class="tag">${escapeHtml(r.language)}</span>` : ''}
+              ${r.description ? `<span class="repo-meta">${escapeHtml(r.description.slice(0, 160))}</span>` : ''}
+            </div>
+          </div>
+        </td>
+        <td class="num">${fmt(r.stargazers_count)}</td>
+        <td class="num">${fmt(r.forks_count)}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  function renderStats() {
+    if (!currentData) { statsEl.innerHTML = ''; return; }
+    const t = currentData.totals || {};
+    statsEl.innerHTML = `
+      <div class="stat"><div class="stat-label">Top users</div><div class="stat-value">${fmt(currentData.counts.users)}</div></div>
+      <div class="stat"><div class="stat-label">Top orgs</div><div class="stat-value">${fmt(currentData.counts.orgs)}</div></div>
+      <div class="stat"><div class="stat-label">User followers</div><div class="stat-value">${fmt(t.user_followers)}</div></div>
+      <div class="stat"><div class="stat-label">User stars</div><div class="stat-value">${fmt(t.user_stars)}</div></div>
+      <div class="stat"><div class="stat-label">Org followers</div><div class="stat-value">${fmt(t.org_followers)}</div></div>
+      <div class="stat"><div class="stat-label">Org stars</div><div class="stat-value">${fmt(t.org_stars)}</div></div>
+    `;
+  }
+
+  function render() {
+    renderHeaders();
+    if (!currentData) return;
+    const q = filterEl.value.trim();
+
+    const sort = (arr, tab) => {
+      const s = sortState[tab];
+      const mult = s.dir === 'desc' ? -1 : 1;
+      return [...arr].sort((a, b) => ((a[s.key] || 0) - (b[s.key] || 0)) * mult);
+    };
+
+    const users = sort(currentData.users.filter(x => matches(x, q)), 'users');
+    const orgs  = sort(currentData.orgs.filter(x => matches(x, q)),  'orgs');
+    const repos = sort(currentData.repos.filter(x => matches(x, q)), 'repos');
+
+    renderUsers(users, tbodies.users, false);
+    renderUsers(orgs,  tbodies.orgs,  true);
+    renderRepos(repos, tbodies.repos);
+  }
+
+  async function loadCity(slug) {
+    if (!slug) return;
+    setStatus('Loading…');
+    try {
+      const res = await fetch(`data/${slug}.json?v=${Date.now()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      currentData = await res.json();
+      updatedEl.textContent = `${currentData.city} • updated ${relative(currentData.generated_at)}`;
+      try { localStorage.setItem('gh_city_slug', slug); } catch {}
+      renderStats();
+      render();
+      clearStatus();
+    } catch (e) {
+      setStatus(`Could not load data/${slug}.json — has the cron run yet? (${e.message})`, 'error');
+      currentData = null;
+      Object.values(tbodies).forEach(tb => tb.innerHTML = '');
+      statsEl.innerHTML = '';
+    }
+  }
+
+  async function init() {
+    setStatus('Loading index…');
+    let index;
+    try {
+      const res = await fetch(`data/index.json?v=${Date.now()}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      index = await res.json();
+    } catch (e) {
+      setStatus(`No data yet — waiting for the first cron run. (${e.message})`, 'error');
+      return;
+    }
+    citySel.innerHTML = '';
+    for (const c of index.cities) {
+      const opt = document.createElement('option');
+      opt.value = c.slug;
+      opt.textContent = c.city;
+      citySel.appendChild(opt);
+    }
+    let initial = (() => { try { return localStorage.getItem('gh_city_slug'); } catch { return null; }})();
+    const urlSlug = new URLSearchParams(location.search).get('city');
+    if (urlSlug) initial = urlSlug;
+    if (!initial || !index.cities.find(c => c.slug === initial)) initial = index.cities[0]?.slug;
+    if (initial) {
+      citySel.value = initial;
+      await loadCity(initial);
+    } else {
+      setStatus('Index loaded but no cities present.', 'error');
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
