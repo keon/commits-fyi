@@ -98,9 +98,45 @@
     gap: 32px;
     padding: 24px;
   }
-  @media (max-width: 768px) {
-    .layout { grid-template-columns: 1fr; padding: 16px; gap: 16px; }
-    nav.sidebar { position: static; max-height: none; }
+  @media (max-width: 880px) {
+    .layout { grid-template-columns: 1fr; padding: 16px; gap: 12px; }
+    nav.sidebar { display: none; }
+    .mobile-nav { display: block !important; }
+    header.site .header-right { font-size: 11px; gap: 10px; }
+    header.site .brand small { display: none; }
+    .site-inner { padding: 10px 14px; }
+    .page-title { font-size: 18px; }
+    .page-header { padding-bottom: 8px; margin-bottom: 12px; }
+    th, td { padding: 8px 10px; }
+    .stats { grid-template-columns: repeat(2, 1fr); gap: 6px; }
+    .stat { padding: 8px 10px; }
+    .stat-value { font-size: 16px; }
+    .tabs { overflow-x: auto; flex-wrap: nowrap; }
+    .tab { padding: 8px 10px; flex-shrink: 0; }
+    .table-wrap { overflow-x: auto; }
+    .ent { gap: 8px; }
+    .avatar { width: 28px; height: 28px; }
+    .ent-text { max-width: 60vw; }
+    .ent-text a, .ent-text .secondary, .repo-desc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    details.method .body { padding-left: 16px; }
+    .query-row { font-size: 10px; }
+  }
+  .mobile-nav { display: none; }
+  .mobile-nav select {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16' fill='%2359636e'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
   }
 
   /* Sidebar */
@@ -415,6 +451,9 @@
 <div class="layout">
   <nav class="sidebar" id="sidebar"></nav>
   <main class="content">
+    <div class="mobile-nav">
+      <select id="mobile-nav-select" aria-label="Choose view"></select>
+    </div>
     <div class="page-header">
       <h1 class="page-title" id="page-title">Loading…</h1>
       <div class="page-sub" id="page-sub"></div>
@@ -582,6 +621,37 @@
         loadCurrent();
       });
     });
+
+    // Mobile select mirrors the sidebar.
+    const select = document.getElementById('mobile-nav-select');
+    if (select) {
+      const cur = state.route;
+      const curVal = cur.view === 'global' || cur.view === 'trending'
+        ? cur.view
+        : `${cur.view}:${cur.id}`;
+      const opt = (v, label, selected) => `<option value="${v}"${selected ? ' selected' : ''}>${esc(label)}</option>`;
+      let html = '';
+      html += opt('global', 'Global', curVal === 'global');
+      html += opt('trending', 'Trending today', curVal === 'trending');
+      html += `<optgroup label="Cities">`;
+      for (const c of idx.cities) html += opt(`city:${c.slug}`, c.name, curVal === `city:${c.slug}`);
+      html += `</optgroup>`;
+      html += `<optgroup label="Countries">`;
+      for (const c of idx.countries) html += opt(`country:${c.slug}`, c.name, curVal === `country:${c.slug}`);
+      html += `</optgroup>`;
+      select.innerHTML = html;
+      select.onchange = () => {
+        const v = select.value;
+        if (v === 'global' || v === 'trending') {
+          state.route = { view: v, id: null, tab: null };
+        } else {
+          const [view, id] = v.split(':');
+          state.route = { view, id, tab: null };
+        }
+        pushRoute(state.route);
+        loadCurrent();
+      };
+    }
   }
 
   // ----- Loaders -----
