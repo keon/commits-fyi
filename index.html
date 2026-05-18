@@ -887,6 +887,9 @@
         if (b.dataset.tab === 'repos' || view === 'trending') state.sort = { key: 'stargazers_count', dir: 'desc' };
         else state.sort = { key: 'total_stars', dir: 'desc' };
         pushRoute(state.route);
+        // Update active class without re-rendering the whole tab strip
+        els.tabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        b.classList.add('active');
         renderActive();
       });
     });
