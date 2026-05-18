@@ -55,29 +55,35 @@ jobs:
           fi
 
       - name: Push user cache to data-cache branch
-        # Cache is large (~30MB) and changes daily. Keeping it on a separate
-        # orphan branch (one-commit history) avoids bloating main's history.
+        # Cache changes daily and would otherwise bloat main. Keep it on a
+        # one-commit orphan branch — each run replaces the single commit.
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git ls-remote --exit-code --heads origin data-cache > /dev/null 2>&1; then
-            git worktree add ../cache-wt data-cache
-          else
-            git worktree add --detach ../cache-wt
-            (cd ../cache-wt && git checkout --orphan data-cache && git rm -rf . >/dev/null 2>&1 || true)
-          fi
-          mkdir -p ../cache-wt/data/_cache
-          cp data/_cache/users.json ../cache-wt/data/_cache/users.json
-          cd ../cache-wt
-          git add data/_cache/users.json
-          if git diff --cached --quiet; then
-            echo "Cache unchanged."
+          ls -la data/_cache/
+          SIZE=$(wc -c < data/_cache/users.json)
+          echo "Cache to push: $SIZE bytes"
+          if [ "$SIZE" -lt 100 ]; then
+            echo "Cache suspiciously small ($SIZE bytes); skipping push."
             exit 0
           fi
-          # Squash the previous cache commit so history stays at one commit
-          git commit --amend --no-edit -m "cache: $(date -u +%Y-%m-%dT%H:%MZ)" 2>/dev/null || \
-            git commit -m "cache: $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push --force-with-lease origin data-cache
+
+          # Stash the cache file outside the worktree before we touch git.
+          cp data/_cache/users.json /tmp/cache-to-push.json
+
+          # Build a fresh orphan branch in a separate worktree, then
+          # force-push it — no concern about previous commit shape.
+          rm -rf ../cache-wt 2>/dev/null || true
+          git worktree add --detach ../cache-wt
+          cd ../cache-wt
+          git checkout --orphan data-cache
+          git rm -rf . > /dev/null 2>&1 || true
+          mkdir -p data/_cache
+          cp /tmp/cache-to-push.json data/_cache/users.json
+          echo "Worktree file: $(wc -c < data/_cache/users.json) bytes"
+          git add data/_cache/users.json
+          git commit -m "cache: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force origin data-cache
 
       - name: Commit data changes to main
         # users.json is .gitignored on main so it isn't tracked here.

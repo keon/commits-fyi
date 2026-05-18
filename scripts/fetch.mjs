@@ -170,6 +170,17 @@ async function ghGraphQL(query, variables = {}, { retry = 3 } = {}) {
     const json = await res.json();
     if (json.errors) {
       const msg = json.errors.map(e => e.message).join('; ');
+      // GraphQL returns 200 OK with a "rate limit already exceeded" error in
+      // the body. Wait for reset rather than dropping the candidate.
+      if (/rate limit/i.test(msg)) {
+        const resetAtStr = json.data?.rateLimit?.resetAt;
+        const resetAt = resetAtStr ? new Date(resetAtStr).getTime() : (Date.now() + 60_000);
+        const waitMs = Math.max(5000, resetAt - Date.now() + 2000);
+        console.warn(`GraphQL rate-limited (in body). Waiting ${Math.round(waitMs/1000)}s until reset…`);
+        if (waitMs > 60 * 60 * 1000) throw new Error('GraphQL rate-limit reset >60min away.');
+        await new Promise(r => setTimeout(r, waitMs));
+        continue;
+      }
       // Common: user account suspended / not found. Treat as null result.
       if (/Could not resolve to|not exist|suspended/i.test(msg)) return { data: { repositoryOwner: null } };
       throw new Error(`GraphQL errors: ${msg}`);
