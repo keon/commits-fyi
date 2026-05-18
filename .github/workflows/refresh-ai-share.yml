@@ -1,0 +1,55 @@
+name: Refresh AI share
+
+on:
+  schedule:
+    - cron: '13 7 * * *'  # daily at 07:13 UTC, ~2h after refresh.yml so user cache exists
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Max users to process this run'
+        required: false
+        default: '100'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-ai-share
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Refresh AI-share cache
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_PER_RUN: ${{ github.event.inputs.max || '100' }}
+        run: node scripts/refresh-ai-share.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/_cache/ai_share.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh ai-share $(date -u +%Y-%m-%dT%H:%MZ)"
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "Push rejected; rebasing and retrying ($attempt/3)…"
+            git pull --rebase --strategy-option=ours
+          done
+          exit 1

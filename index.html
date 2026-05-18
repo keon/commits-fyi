@@ -1160,6 +1160,28 @@
 
   const AI_CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
 
+  // Server-side precomputed cache, loaded once and shared by all drawer opens.
+  // Daily cron at refresh-ai-share.yml writes data/_cache/ai_share.json.
+  let SERVER_AI_CACHE = null; // null = not loaded; {} = no data
+  let SERVER_AI_CACHE_PROMISE = null;
+  async function ensureServerAiCache() {
+    if (SERVER_AI_CACHE !== null) return SERVER_AI_CACHE;
+    if (!SERVER_AI_CACHE_PROMISE) {
+      SERVER_AI_CACHE_PROMISE = (async () => {
+        try {
+          const res = await fetch(`data/_cache/ai_share.json?v=${Date.now()}`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const j = await res.json();
+          SERVER_AI_CACHE = j.entries || {};
+        } catch {
+          SERVER_AI_CACHE = {};
+        }
+        return SERVER_AI_CACHE;
+      })();
+    }
+    return SERVER_AI_CACHE_PROMISE;
+  }
+
   async function ghSearchCommitsCount(q) {
     const url = `https://api.github.com/search/commits?q=${encodeURIComponent(q)}&per_page=1`;
     const res = await fetch(url, {
@@ -1278,15 +1300,34 @@
     `;
   }
 
+  function normalizeServerEntry(entry) {
+    // Server cache shape: { fetched_at, total, tools: { claude, cursor, ... } }
+    // Drawer expects:     { total, perTool: { claude, cursor, ... } }
+    return { total: entry.total, perTool: entry.tools || {}, computed_at: new Date(entry.fetched_at).getTime(), source: 'server' };
+  }
+
   async function openAiDrawer(user) {
     renderDrawerHeader(user);
     drawer.classList.add('open');
     drawerBackdrop.classList.add('open');
     drawer.setAttribute('aria-hidden', 'false');
 
-    const cached = readAiCache(user.login);
-    if (cached) { renderAiResults(cached); return; }
+    // 1) localStorage cache (instant, set by previous live fetch)
+    const local = readAiCache(user.login);
+    if (local) { renderAiResults(local); return; }
 
+    // 2) server-precomputed cache (instant, refreshed daily by cron)
+    drawerBody.innerHTML = `<div class="drawer-loading">Loading…</div>`;
+    const server = await ensureServerAiCache();
+    const fromServer = server[user.login];
+    if (fromServer) {
+      const normalized = normalizeServerEntry(fromServer);
+      writeAiCache(user.login, normalized);
+      renderAiResults(normalized);
+      return;
+    }
+
+    // 3) live fetch as fallback (rate-limited, ~10s)
     drawerBody.innerHTML = `<div class="drawer-loading">Querying GitHub Search Commits API for <strong>${esc(user.login)}</strong>…<br/><small>~${AI_TOOLS.length + 1} requests · usually finishes in ~10s</small></div>`;
     try {
       const data = await computeAiShare(user.login);
