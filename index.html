@@ -107,19 +107,64 @@
     .site-inner { padding: 10px 14px; }
     .page-title { font-size: 18px; }
     .page-header { padding-bottom: 8px; margin-bottom: 12px; }
-    th, td { padding: 8px 10px; }
     .stats { grid-template-columns: repeat(2, 1fr); gap: 6px; }
     .stat { padding: 8px 10px; }
     .stat-value { font-size: 16px; }
     .tabs { overflow-x: auto; flex-wrap: nowrap; }
     .tab { padding: 8px 10px; flex-shrink: 0; }
-    .table-wrap { overflow-x: auto; }
-    .ent { gap: 8px; }
-    .avatar { width: 28px; height: 28px; }
-    .ent-text { max-width: 60vw; }
-    .ent-text a, .ent-text .secondary, .repo-desc { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     details.method .body { padding-left: 16px; }
     .query-row { font-size: 10px; }
+
+    /* Card-style rows: rank + entity + just the first (active sort) metric. */
+    .table-wrap table thead { display: none; }
+    .table-wrap table, .table-wrap tbody, .table-wrap tbody tr { display: block; }
+    .table-wrap tbody tr {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border-muted);
+    }
+    .table-wrap tbody tr:last-child { border-bottom: none; }
+    .table-wrap tbody tr:hover td { background: transparent; }
+    .table-wrap tbody td {
+      padding: 0;
+      border: none;
+      width: auto;
+    }
+    .table-wrap tbody td.rank {
+      width: 28px;
+      flex-shrink: 0;
+      color: var(--text-muted);
+      font-size: 13px;
+      text-align: left;
+    }
+    .table-wrap tbody td:nth-child(2) {
+      flex: 1;
+      min-width: 0;
+    }
+    .table-wrap tbody td.num {
+      flex-shrink: 0;
+      text-align: right;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      font-variant-numeric: tabular-nums;
+      padding-left: 8px;
+    }
+    /* Hide every num column except the first one (which is the default sort:
+       total_stars for accounts, stargazers_count for repos). */
+    .table-wrap tbody td.num ~ td.num { display: none; }
+    .ent { gap: 10px; }
+    .avatar { width: 32px; height: 32px; }
+    .ent-text { min-width: 0; }
+    .ent-text a, .ent-text .secondary, .repo-desc {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+    }
+    .lang-tag { display: none; } /* save space on mobile */
   }
   .mobile-nav { display: none; }
   .mobile-nav select {
