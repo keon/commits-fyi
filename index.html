@@ -170,9 +170,16 @@
       font-variant-numeric: tabular-nums;
       padding-left: 8px;
     }
-    /* Hide every num column except the first one (which is the default sort:
-       total_stars for accounts, stargazers_count for repos). */
-    .table-wrap tbody td.num ~ td.num { display: none; }
+    /* Show first two numeric columns; hide the rest. First is the active sort
+       (total_stars / stars), second is the secondary metric (followers / forks). */
+    .table-wrap tbody td.num ~ td.num ~ td.num { display: none; }
+    .table-wrap tbody td.num + td.num {
+      color: var(--text-muted);
+      font-weight: 400;
+      font-size: 12px;
+      padding-left: 4px;
+      min-width: 50px;
+    }
     .ent { gap: 10px; }
     .avatar { width: 32px; height: 32px; }
     .ent-text { min-width: 0; }
@@ -596,6 +603,14 @@
     line-height: 1.5;
   }
   .drawer-caveat strong { color: #4d3800; }
+  .drawer-source {
+    margin-top: 12px;
+    color: var(--text-muted);
+    font-size: 11px;
+    text-align: center;
+  }
+  .drawer-source a { color: var(--text-muted); text-decoration: underline; }
+  .drawer-source a:hover { color: var(--text); }
   .drawer-loading, .drawer-error {
     text-align: center;
     color: var(--text-muted);
@@ -891,10 +906,13 @@
         { key: 'forks_count', label: 'Forks', sortable: true, num: true },
       ];
     }
+    // For orgs the "followers" field is actually membersWithRole.totalCount
+    // (GraphQL Organization type has no followers field). Label accordingly.
+    const followersLabel = tab === 'orgs' ? 'Members' : 'Followers';
     return [
-      { key: 'total_stars', label: 'Total stars', sortable: true, num: true },
-      { key: 'followers',  label: 'Followers',  sortable: true, num: true },
-      { key: 'public_repos', label: 'Repos', sortable: true, num: true },
+      { key: 'total_stars',  label: 'Total stars',  sortable: true, num: true },
+      { key: 'followers',    label: followersLabel, sortable: true, num: true },
+      { key: 'public_repos', label: 'Repos',        sortable: true, num: true },
     ];
   }
 
@@ -1030,24 +1048,56 @@
     const items = qs.map(q => {
       const apiCode = q.api_url.replace('https://api.github.com', '');
       const uiLink = q.ui_url ? ` · <a href="${esc(q.ui_url)}" target="_blank" rel="noopener">open in GitHub Search</a>` : '';
+      // Verb is GET unless the URL string starts with another verb.
+      const verbMatch = apiCode.match(/^(POST|PUT|DELETE)\s+/);
+      const verb = verbMatch ? verbMatch[1] : 'GET';
+      const apiPath = verbMatch ? apiCode.slice(verb.length + 1) : apiCode;
       const apiLink = q.api_url.startsWith('http')
-        ? `<a href="${esc(q.api_url)}" target="_blank" rel="noopener">${esc(apiCode)}</a>`
-        : esc(apiCode);
+        ? `<a href="${esc(q.api_url)}" target="_blank" rel="noopener">${esc(apiPath)}</a>`
+        : esc(apiPath);
       return `
         <li>
           <div>${esc(q.label)}${uiLink}</div>
-          <div class="query-row"><code>GET ${apiLink}</code></div>
+          <div class="query-row"><code>${esc(verb)} ${apiLink}</code></div>
         </li>
       `;
     }).join('');
     els.methodBody.innerHTML = `
       <div style="margin-bottom:10px; color:var(--text-muted); font-size:12px;">
-        These are the public GitHub REST/Search API requests executed by our daily
+        Public GitHub REST/Search/GraphQL requests executed by the daily
         <a href="https://github.com/keon/commits-fyi/blob/main/scripts/fetch.mjs" target="_blank" rel="noopener">fetch script</a>.
-        Search-API totals and ordering can shift slightly between runs.
+        Search-API totals and ordering shift slightly between runs.
       </div>
       <ol>${items}</ol>
+      <div id="ai-cache-coverage" style="margin-top:14px; padding-top:10px; border-top:1px solid var(--border-muted); color:var(--text-muted); font-size:12px;">Loading AI-share cache stats…</div>
     `;
+    renderAiCacheCoverage();
+  }
+
+  async function renderAiCacheCoverage() {
+    const el = document.getElementById('ai-cache-coverage');
+    if (!el) return;
+    try {
+      const [usersRes, aiRes] = await Promise.all([
+        fetch(`data/_cache/users.json?v=${Date.now()}`).catch(() => null),
+        fetch(`data/_cache/ai_share.json?v=${Date.now()}`).catch(() => null),
+      ]);
+      const ai = aiRes && aiRes.ok ? await aiRes.json() : { entries: {} };
+      // We only care about User accounts (orgs don't have author commits).
+      let userTotal = 0;
+      if (usersRes && usersRes.ok) {
+        const u = await usersRes.json();
+        for (const e of Object.values(u.entries || {})) {
+          if (e?.payload?.acct?.type === 'User') userTotal++;
+        }
+      }
+      const cached = Object.keys(ai.entries || {}).length;
+      const pct = userTotal ? Math.round((cached / userTotal) * 100) : 0;
+      el.innerHTML = `<strong>AI-share cache</strong>: ${cached.toLocaleString()} of ${userTotal.toLocaleString()} users covered (${pct}%). Refreshed daily, 7-day per-user TTL.
+      ${cached < userTotal ? '<span style="color:var(--text-muted)"> · Click any user without cached data to compute it live.</span>' : ''}`;
+    } catch {
+      el.style.display = 'none';
+    }
   }
 
   function filterFn(q) {
@@ -1280,6 +1330,16 @@
         </div>
       `;
     }).join('');
+    const fromServer = data.source === 'server';
+    const ageMs = data.computed_at ? Date.now() - data.computed_at : null;
+    const ageLabel = ageMs == null ? '' :
+      ageMs < 60 * 60 * 1000 ? 'just now'
+      : ageMs < 24 * 60 * 60 * 1000 ? `${Math.round(ageMs / 3600000)}h ago`
+      : `${Math.round(ageMs / 86400000)}d ago`;
+    const sourceLine = fromServer
+      ? `Cached server-side, refreshed weekly · computed ${ageLabel}`
+      : `Computed live via the <a href="https://docs.github.com/en/rest/search/search#search-commits" target="_blank" rel="noopener">Search Commits API</a> · ${ageLabel}`;
+
     drawerBody.innerHTML = `
       <div class="ai-summary">
         <div class="ai-summary-num">${tagPct < 0.01 ? '0%' : tagPct.toFixed(tagPct < 1 ? 2 : 1) + '%'}</div>
@@ -1287,16 +1347,12 @@
       </div>
       <div>${rows}</div>
       <div class="drawer-caveat">
-        <strong>This is a floor, not the truth.</strong> Only commits with an explicit AI attribution
-        (e.g. <code>Co-Authored-By: Claude</code>) are counted. Most AI-assisted code &mdash; especially
-        IDE autocomplete like Copilot suggestions &mdash; doesn't leave any trace. Reading 0% here means
+        <strong>Floor, not the truth.</strong> Only commits with an explicit AI attribution
+        (e.g. <code>Co-Authored-By: Claude</code>) are counted. Most AI-assisted code &mdash;
+        especially IDE autocomplete &mdash; leaves no trace. 0% here means
         "no detectable AI-tagged commits," not "no AI use."
       </div>
-      <div class="drawer-caveat" style="background:#ddf4ff;border-color:#54aeff;color:#0a3069;margin-top:8px;">
-        Computed live via the public
-        <a href="https://docs.github.com/en/rest/search/search#search-commits" target="_blank" rel="noopener">GitHub Search Commits API</a>.
-        Cached for 24h. Anonymous callers are limited to 10 req/min, so each click costs ~${AI_TOOLS.length + 1} requests.
-      </div>
+      <div class="drawer-source">${sourceLine}</div>
     `;
   }
 

@@ -19,7 +19,7 @@ const CITIES_DIR = join(DATA_DIR, 'cities');
 const CACHE_DIR = join(DATA_DIR, '_cache');
 const CACHE_FILE = join(CACHE_DIR, 'users.json');
 const CACHE_TTL_MS = 3 * 24 * 60 * 60 * 1000; // 3 days
-const REPOS_PER_USER = 30;
+const REPOS_PER_USER = 100;  // max per GraphQL request; ensures total_stars covers the long tail
 
 const CITIES = [
   'New York', 'San Francisco', 'Seattle', 'Austin', 'Toronto',
@@ -595,8 +595,8 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
       'https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc',
     ),
     queryObj(
-      'Per-account repo list (to sum stars and surface top repos)',
-      '/users/{login}/repos?per_page=100&type=owner',
+      'Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request',
+      'POST /graphql  query { repositoryOwner(login: "...") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }',
       null,
     ),
   ];
@@ -685,8 +685,11 @@ async function buildGlobal(ownerPool = []) {
     queryObj(`Top ${TOP_REPOS} repos by stars (for the Repositories tab)`,
       `/search/repositories?q=${encodeURIComponent(repoQ)}&sort=stars&order=desc&per_page=${TOP_REPOS}`,
       `https://github.com/search?q=${encodeURIComponent(repoQ)}&type=repositories&s=stars&o=desc`),
-    queryObj('Per-account repo list (to sum stars across all owned repos)',
-      '/users/{login}/repos?per_page=100&type=owner', null),
+    queryObj(
+      'Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request',
+      'POST /graphql  query { repositoryOwner(login: "...") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }',
+      null,
+    ),
   ];
 
   const payload = {
