@@ -91,13 +91,13 @@
 
   /* Layout */
   .layout {
-    max-width: 1280px;
+    max-width: 920px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 240px 1fr;
-    gap: 32px;
-    padding: 24px;
+    padding: 28px 24px;
   }
+  nav.sidebar { display: none; }
+  .mobile-nav { display: block; margin-bottom: 20px; max-width: 320px; }
+  .controls-row #filter { display: none; }
   @media (max-width: 880px) {
     .layout { grid-template-columns: 1fr; padding: 16px; gap: 12px; }
     nav.sidebar { display: none; }
