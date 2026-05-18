@@ -52,4 +52,14 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): refresh rankings $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push
+          # Push with rebase-on-conflict retry — long fetch runs can race with
+          # concurrent pushes (deploy, manual pushes, prior refresh).
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected; rebasing on origin/main and retrying ($attempt/3)…"
+            git pull --rebase --strategy-option=ours
+          done
+          echo "Push still failing after 3 attempts." >&2
+          exit 1
