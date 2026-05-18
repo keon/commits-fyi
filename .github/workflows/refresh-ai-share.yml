@@ -8,7 +8,7 @@ on:
       max:
         description: 'Max users to process this run'
         required: false
-        default: '100'
+        default: '400'
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
       - name: Refresh AI-share cache
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MAX_PER_RUN: ${{ github.event.inputs.max || '100' }}
+          MAX_PER_RUN: ${{ github.event.inputs.max || '400' }}
         run: node scripts/refresh-ai-share.mjs
 
       - name: Commit if changed
