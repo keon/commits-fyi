@@ -31,6 +31,18 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Restore user cache from data-cache branch
+        run: |
+          mkdir -p data/_cache
+          if git ls-remote --exit-code --heads origin data-cache > /dev/null 2>&1; then
+            git fetch origin data-cache:data-cache
+            git show data-cache:data/_cache/users.json > data/_cache/users.json
+            echo "Restored cache: $(wc -c < data/_cache/users.json) bytes"
+          else
+            echo "No data-cache branch yet — skipping AI-share refresh."
+            exit 0
+          fi
+
       - name: Refresh AI-share cache
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

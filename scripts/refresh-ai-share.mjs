@@ -90,18 +90,22 @@ async function main() {
   const ttlMs = AI_TTL_DAYS * 24 * 60 * 60 * 1000;
   const now = Date.now();
 
-  // Only User accounts — orgs don't author commits via /search/commits
-  const allUserLogins = Object.entries(usersCache.entries)
+  // Only User accounts — orgs don't author commits via /search/commits.
+  // Sort by total_stars descending so high-impact users (the most likely to
+  // be clicked) get cached first, instead of insertion order which leaves
+  // late-added accounts perpetually behind.
+  const allUserEntries = Object.entries(usersCache.entries)
     .filter(([, e]) => e?.payload?.acct?.type === 'User')
+    .sort(([, a], [, b]) => (b.payload?.totalStars || 0) - (a.payload?.totalStars || 0))
     .map(([login]) => login);
 
-  const stale = allUserLogins.filter(login => {
+  const stale = allUserEntries.filter(login => {
     const existing = aiCache.entries[login];
     if (!existing) return true;
     return (now - new Date(existing.fetched_at).getTime()) > ttlMs;
   });
 
-  console.log(`User accounts in cache: ${allUserLogins.length}`);
+  console.log(`User accounts in cache: ${allUserEntries.length}`);
   console.log(`Stale/missing AI entries: ${stale.length}`);
   const batch = stale.slice(0, MAX_PER_RUN);
   console.log(`Processing ${batch.length} this run\n`);
