@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-05-18T07:11:27.174Z",
+  "generated_at": "2026-05-18T08:42:54.430Z",
   "counts": {
-    "users": 50,
+    "users": 51,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 433688,
+    "user_followers": 435335,
     "org_followers": 57680,
-    "user_stars": 444630,
-    "org_stars": 151445
+    "user_stars": 499115,
+    "org_stars": 151481
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Brazil",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Brazil%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Brazil%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Brazil\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,7 +48,20 @@
       "location": "Brazil",
       "bio": "CTO at @buserbrasil, open source engineer",
       "company": "@buserbrasil",
-      "total_stars": 174610
+      "total_stars": 174613
+    },
+    {
+      "login": "vsouza",
+      "name": "Vinicius Souza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/484656?v=4",
+      "html_url": "https://github.com/vsouza",
+      "followers": 1644,
+      "following": 340,
+      "public_repos": 43,
+      "location": "Brazil",
+      "bio": "Guitarist, ZCPE, Gopher, creator of Awesome iOS and Software Engineer at @ifood ",
+      "company": "@ifood",
+      "total_stars": 54481
     },
     {
       "login": "insidegui",
@@ -56,7 +74,7 @@
       "location": "Brazil",
       "bio": "Mac and iOS developer, security researcher. ",
       "company": "Best Buddy Apps",
-      "total_stars": 31774
+      "total_stars": 31775
     },
     {
       "login": "gustavoguanabara",
@@ -115,7 +133,7 @@
       "name": "Erick Wendel",
       "avatar_url": "https://avatars.githubusercontent.com/u/8060102?v=4",
       "html_url": "https://github.com/ErickWendel",
-      "followers": 10932,
+      "followers": 10933,
       "following": 97,
       "public_repos": 331,
       "location": "São Paulo - Brazil",
@@ -141,7 +159,7 @@
       "name": "Carlos Alexandro Becker",
       "avatar_url": "https://avatars.githubusercontent.com/u/245435?v=4",
       "html_url": "https://github.com/caarlos0",
-      "followers": 4562,
+      "followers": 4563,
       "following": 176,
       "public_repos": 84,
       "location": "Brazil",
@@ -480,7 +498,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/43296467?v=4",
       "html_url": "https://github.com/lucasrmagalhaes",
       "followers": 4651,
-      "following": 16841,
+      "following": 16840,
       "public_repos": 199,
       "location": "Canoas, RS - Brazil",
       "bio": "Full Stack Developer | AI Engineer",
@@ -609,7 +627,7 @@
       "name": "oluiscabral",
       "avatar_url": "https://avatars.githubusercontent.com/u/58452540?v=4",
       "html_url": "https://github.com/oluiscabral",
-      "followers": 6002,
+      "followers": 6003,
       "following": 53847,
       "public_repos": 39,
       "location": "São Paulo, Brazil",
@@ -747,7 +765,7 @@
       "location": "Brazil",
       "bio": null,
       "company": null,
-      "total_stars": 10492
+      "total_stars": 10493
     },
     {
       "login": "UndeadSec",
@@ -864,7 +882,7 @@
       "location": "Brazil",
       "bio": "Comunidade Brasileira de desenvolvimento de software e liderança técnica.",
       "company": null,
-      "total_stars": 4206
+      "total_stars": 4241
     },
     {
       "login": "devfullcycle",
@@ -1080,9 +1098,9 @@
       "full_name": "avelino/awesome-go",
       "html_url": "https://github.com/avelino/awesome-go",
       "description": "A curated list of awesome Go frameworks, libraries and software",
-      "stargazers_count": 172942,
+      "stargazers_count": 172945,
       "forks_count": 13218,
-      "watchers_count": 172942,
+      "watchers_count": 172945,
       "language": "Go",
       "owner_login": "avelino",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/31996?v=4",
@@ -1091,11 +1109,25 @@
       "pushed_at": "2026-05-17T20:01:36Z"
     },
     {
+      "full_name": "vsouza/awesome-ios",
+      "html_url": "https://github.com/vsouza/awesome-ios",
+      "description": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects ",
+      "stargazers_count": 52207,
+      "forks_count": 6961,
+      "watchers_count": 52207,
+      "language": "Swift",
+      "owner_login": "vsouza",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/484656?v=4",
+      "owner_type": "User",
+      "created_at": "2014-07-10T16:03:45Z",
+      "pushed_at": "2026-04-24T18:48:56Z"
+    },
+    {
       "full_name": "Universidade-Livre/ciencia-da-computacao",
       "html_url": "https://github.com/Universidade-Livre/ciencia-da-computacao",
       "description": "🎓 Um caminho para a educação autodidata em Ciência da Computação!",
       "stargazers_count": 20195,
-      "forks_count": 1613,
+      "forks_count": 1612,
       "watchers_count": 20195,
       "language": null,
       "owner_login": "Universidade-Livre",
@@ -1220,9 +1252,9 @@
       "full_name": "evolution-foundation/evolution-api",
       "html_url": "https://github.com/evolution-foundation/evolution-api",
       "description": "Evolution API is an open-source WhatsApp integration API",
-      "stargazers_count": 8300,
+      "stargazers_count": 8301,
       "forks_count": 6365,
-      "watchers_count": 8300,
+      "watchers_count": 8301,
       "language": "TypeScript",
       "owner_login": "evolution-foundation",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/136080052?v=4",
@@ -1234,9 +1266,9 @@
       "full_name": "insidegui/VirtualBuddy",
       "html_url": "https://github.com/insidegui/VirtualBuddy",
       "description": "Virtualize macOS 12 and later on Apple Silicon, VirtualBuddy is a virtual machine GUI for macOS M1, M2, M3, M4",
-      "stargazers_count": 7993,
+      "stargazers_count": 7994,
       "forks_count": 232,
-      "watchers_count": 7993,
+      "watchers_count": 7994,
       "language": "Swift",
       "owner_login": "insidegui",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/67184?v=4",
@@ -1360,9 +1392,9 @@
       "full_name": "tech-leads-club/agent-skills",
       "html_url": "https://github.com/tech-leads-club/agent-skills",
       "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
-      "stargazers_count": 3709,
-      "forks_count": 329,
-      "watchers_count": 3709,
+      "stargazers_count": 3744,
+      "forks_count": 331,
+      "watchers_count": 3744,
       "language": "TypeScript",
       "owner_login": "tech-leads-club",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/132809264?v=4",
@@ -1761,20 +1793,6 @@
       "owner_type": "User",
       "created_at": "2017-07-07T01:08:03Z",
       "pushed_at": "2026-05-02T16:46:29Z"
-    },
-    {
-      "full_name": "cami-la/loops-e-arrays",
-      "html_url": "https://github.com/cami-la/loops-e-arrays",
-      "description": "Repositório do curso Estruturas de Repetição e Arrays com Java. Curso este oferecido pela Digital Innovation one e ministrado por mim.",
-      "stargazers_count": 1412,
-      "forks_count": 344,
-      "watchers_count": 1412,
-      "language": "Java",
-      "owner_login": "cami-la",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/64323124?v=4",
-      "owner_type": "User",
-      "created_at": "2021-08-24T22:39:37Z",
-      "pushed_at": "2023-05-06T16:31:38Z"
     }
   ]
 }

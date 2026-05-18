@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-05-18T07:09:07.380Z",
+  "generated_at": "2026-05-18T08:34:04.073Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 288438,
-    "org_followers": 69121,
-    "user_stars": 1040616,
-    "org_stars": 992201
+    "user_followers": 288450,
+    "org_followers": 69131,
+    "user_stars": 1040663,
+    "org_stars": 992279
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22Singapore%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Singapore\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,7 +42,7 @@
       "name": "Yangshun Tay",
       "avatar_url": "https://avatars.githubusercontent.com/u/1315101?v=4",
       "html_url": "https://github.com/yangshun",
-      "followers": 13268,
+      "followers": 13269,
       "following": 296,
       "public_repos": 133,
       "location": "Singapore",
@@ -56,7 +61,7 @@
       "location": "Singapore",
       "bio": "Making affordable remote desktop service for everyone",
       "company": "Purslane Ltd.",
-      "total_stars": 126146
+      "total_stars": 126153
     },
     {
       "login": "DIYgod",
@@ -69,7 +74,7 @@
       "location": "Singapore",
       "bio": "写代码是热爱，写到世界充满爱！",
       "company": "Natural Selection Labs",
-      "total_stars": 80227
+      "total_stars": 80228
     },
     {
       "login": "binhnguyennus",
@@ -82,7 +87,7 @@
       "location": "Singapore",
       "bio": "Engineering for Scale | Software Engineering & Technical Leadership | MSc Computer Science, NUS",
       "company": "IBM",
-      "total_stars": 71185
+      "total_stars": 71187
     },
     {
       "login": "unclecode",
@@ -95,20 +100,20 @@
       "location": "Singapore",
       "bio": "Author of Crawl4AI (#1 GitHub Trending). Founder of Kidocode, SE Asia's largest tech & biz school. Leading AI research on synthetic data & coffee lover.",
       "company": "AlephNul, and KidoCode",
-      "total_stars": 66851
+      "total_stars": 66853
     },
     {
       "login": "halfrost",
       "name": "halfrost",
       "avatar_url": "https://avatars.githubusercontent.com/u/10825609?v=4",
       "html_url": "https://github.com/halfrost",
-      "followers": 17449,
+      "followers": 17450,
       "following": 363,
       "public_repos": 34,
       "location": "[California, Singapore, China]",
       "bio": "CS master @Stanford 💪 天道酬勤，勤能补拙。博观而约取，厚积而薄发。Gopher / Rustacean / Kubernetes / Cloud Native / Machine Learning / DeFi Smart Contract",
       "company": "@Kubeflow @CNCF",
-      "total_stars": 49724
+      "total_stars": 49725
     },
     {
       "login": "XingangPan",
@@ -134,7 +139,7 @@
       "location": "Singapore",
       "bio": null,
       "company": "Singapore",
-      "total_stars": 35919
+      "total_stars": 35920
     },
     {
       "login": "niklasvh",
@@ -147,7 +152,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 34839
+      "total_stars": 34840
     },
     {
       "login": "sczhou",
@@ -186,7 +191,7 @@
       "location": "Singapore",
       "bio": "Postgres Hacker, Distribution Maker, @pgsty Founder, Cloud-Exit Han Solo\r\npigsty.io / pigsty.cc / vonng.com",
       "company": "Pigsty",
-      "total_stars": 26517
+      "total_stars": 26518
     },
     {
       "login": "happydog-intj",
@@ -225,20 +230,20 @@
       "location": "Singapore",
       "bio": "Phd Candidate in Neuroscience,\r\nindependent educator in Web3.",
       "company": "Peking University",
-      "total_stars": 15315
+      "total_stars": 15316
     },
     {
       "login": "yyx990803",
       "name": "Evan You",
       "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
       "html_url": "https://github.com/yyx990803",
-      "followers": 108037,
+      "followers": 108041,
       "following": 100,
       "public_repos": 199,
       "location": "Singapore",
       "bio": "Founder @voidzero-dev, author of @vuejs and @vitejs. Connoisseur of sushi.",
       "company": "VoidZero",
-      "total_stars": 14998
+      "total_stars": 14999
     },
     {
       "login": "ritchieng",
@@ -323,7 +328,7 @@
       "name": "Karl Seguin",
       "avatar_url": "https://avatars.githubusercontent.com/u/206480?v=4",
       "html_url": "https://github.com/karlseguin",
-      "followers": 2520,
+      "followers": 2521,
       "following": 3,
       "public_repos": 149,
       "location": "Singapore",
@@ -355,7 +360,7 @@
       "location": "Singapore",
       "bio": "高级CV工程师，资深哲♂学家。互联网分享精神，勤于发现，乐于分享！",
       "company": "新日暮里娼片公司",
-      "total_stars": 10259
+      "total_stars": 10257
     },
     {
       "login": "j3ssie",
@@ -368,7 +373,7 @@
       "location": "Singapore",
       "bio": "A passionate security engineer and creator of Osmedeus, Metabigor, and Vigolium.",
       "company": "@osmedeus @vigolium ",
-      "total_stars": 8893
+      "total_stars": 8894
     },
     {
       "login": "cch123",
@@ -446,7 +451,7 @@
       "location": "Singapore",
       "bio": "I dream of coding and then I code my dream. \r\n🏆 2019 WWDC Scholarship Winner ",
       "company": "ByteDance",
-      "total_stars": 6061
+      "total_stars": 6062
     },
     {
       "login": "fmzquant",
@@ -472,7 +477,7 @@
       "location": "Singapore",
       "bio": "Web expert with 10 years of experience, Google Developer Expert (Web), fosters web dev communities and speaks globally, based in Singapore.",
       "company": "@kaligo",
-      "total_stars": 5909
+      "total_stars": 5910
     },
     {
       "login": "sausheong",
@@ -566,30 +571,30 @@
       "total_stars": 1534
     },
     {
+      "login": "seehiong",
+      "name": "seehiong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6965893?v=4",
+      "html_url": "https://github.com/seehiong",
+      "followers": 9965,
+      "following": 9644,
+      "public_repos": 28,
+      "location": "Singapore",
+      "bio": "Always learning, sometimes breaking, forever caffeinated! PyTorch | TensorFlow | LangChain | MLflow | KubeFlow | Neural Networks | Kubernetes",
+      "company": null,
+      "total_stars": 1474
+    },
+    {
       "login": "mmumshad",
       "name": "Mumshad Mannambeth",
       "avatar_url": "https://avatars.githubusercontent.com/u/2704615?v=4",
       "html_url": "https://github.com/mmumshad",
-      "followers": 5617,
+      "followers": 5618,
       "following": 2,
       "public_repos": 73,
       "location": "Singapore",
       "bio": "Trainer and Founder at KodeKloud.com",
       "company": null,
       "total_stars": 1474
-    },
-    {
-      "login": "seehiong",
-      "name": "seehiong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6965893?v=4",
-      "html_url": "https://github.com/seehiong",
-      "followers": 9961,
-      "following": 9643,
-      "public_repos": 28,
-      "location": "Singapore",
-      "bio": "Always learning, sometimes breaking, forever caffeinated! PyTorch | TensorFlow | LangChain | MLflow | KubeFlow | Neural Networks | Kubernetes",
-      "company": null,
-      "total_stars": 1446
     },
     {
       "login": "kazura233",
@@ -689,26 +694,26 @@
       "name": "Bytedance Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
       "html_url": "https://github.com/bytedance",
-      "followers": 17662,
+      "followers": 17664,
       "following": 0,
       "public_repos": 406,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 266530
+      "total_stars": 266733
     },
     {
       "login": "cloudflare",
       "name": "Cloudflare",
       "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "html_url": "https://github.com/cloudflare",
-      "followers": 13401,
+      "followers": 13405,
       "following": 0,
       "public_repos": 561,
       "location": "San Francisco, London, Austin, Lisbon, Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 195218
+      "total_stars": 194987
     },
     {
       "login": "fossasia",
@@ -734,7 +739,7 @@
       "location": "Singapore",
       "bio": "Building for a semantic future. To shape, not to adapt. https://affine.pro",
       "company": null,
-      "total_stars": 76739
+      "total_stars": 76740
     },
     {
       "login": "shareAI-lab",
@@ -747,7 +752,7 @@
       "location": "Singapore",
       "bio": "Hacking & Accelerating & Saving the World",
       "company": null,
-      "total_stars": 70237
+      "total_stars": 70259
     },
     {
       "login": "CodePhiliaX",
@@ -760,7 +765,7 @@
       "location": "Singapore",
       "bio": "Passionate about code, passionate about open source.",
       "company": null,
-      "total_stars": 26494
+      "total_stars": 26495
     },
     {
       "login": "SkyworkAI",
@@ -786,7 +791,7 @@
       "location": "Singapore",
       "bio": "Driving South-east Asia forward!",
       "company": null,
-      "total_stars": 24242
+      "total_stars": 24243
     },
     {
       "login": "YouMind-OpenLab",
@@ -799,20 +804,20 @@
       "location": "Singapore",
       "bio": "YouMind is where learning meets creation. In YouMind, you can learn, think, and create with AI agents. Everything flows together and grows with you.",
       "company": null,
-      "total_stars": 21628
+      "total_stars": 21648
     },
     {
       "login": "duixcom",
       "name": "Duix",
       "avatar_url": "https://avatars.githubusercontent.com/u/170155462?v=4",
       "html_url": "https://github.com/duixcom",
-      "followers": 853,
+      "followers": 854,
       "following": 0,
       "public_repos": 2,
       "location": "Singapore",
       "bio": "Duix is a global leader in digital human(AI avatar) solutions, offering open-source technologies for video-based avatars, real-time interactive avatars.",
       "company": null,
-      "total_stars": 20985
+      "total_stars": 20993
     },
     {
       "login": "oceanbase",
@@ -838,7 +843,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 18192
+      "total_stars": 18246
     },
     {
       "login": "sail-sg",
@@ -851,7 +856,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 17935
+      "total_stars": 17936
     },
     {
       "login": "EvolvingLMMs-Lab",
@@ -864,7 +869,7 @@
       "location": "Singapore",
       "bio": "Feeling and building multimodal intelligence.",
       "company": null,
-      "total_stars": 14983
+      "total_stars": 14985
     },
     {
       "login": "longbridge",
@@ -884,13 +889,13 @@
       "name": "MiroMind",
       "avatar_url": "https://avatars.githubusercontent.com/u/209656584?v=4",
       "html_url": "https://github.com/MiroMindAI",
-      "followers": 1471,
+      "followers": 1473,
       "following": 0,
       "public_repos": 8,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 11844
+      "total_stars": 11848
     },
     {
       "login": "RfidResearchGroup",
@@ -903,7 +908,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 8900
+      "total_stars": 8901
     },
     {
       "login": "okx",
@@ -912,11 +917,11 @@
       "html_url": "https://github.com/okx",
       "followers": 2075,
       "following": 0,
-      "public_repos": 90,
+      "public_repos": 82,
       "location": "Singapore",
       "bio": "OKX is a world-leading digital asset exchange, providing advanced financial services to traders globally by using blockchain technology.",
       "company": null,
-      "total_stars": 4057
+      "total_stars": 4048
     },
     {
       "login": "terra-money",
@@ -1001,7 +1006,7 @@
       "name": "DeBank",
       "avatar_url": "https://avatars.githubusercontent.com/u/35694601?v=4",
       "html_url": "https://github.com/DeBankDeFi",
-      "followers": 1269,
+      "followers": 1270,
       "following": 0,
       "public_repos": 63,
       "location": "Singapore",
@@ -1094,9 +1099,9 @@
       "full_name": "rustdesk/rustdesk",
       "html_url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "stargazers_count": 114455,
-      "forks_count": 17213,
-      "watchers_count": 114455,
+      "stargazers_count": 114462,
+      "forks_count": 17214,
+      "watchers_count": 114462,
       "language": "Rust",
       "owner_login": "rustdesk",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/71636191?v=4",
@@ -1108,9 +1113,9 @@
       "full_name": "binhnguyennus/awesome-scalability",
       "html_url": "https://github.com/binhnguyennus/awesome-scalability",
       "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-      "stargazers_count": 71072,
+      "stargazers_count": 71074,
       "forks_count": 6994,
-      "watchers_count": 71072,
+      "watchers_count": 71074,
       "language": null,
       "owner_login": "binhnguyennus",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/15001306?v=4",
@@ -1123,7 +1128,7 @@
       "html_url": "https://github.com/toeverything/AFFiNE",
       "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and r",
       "stargazers_count": 68487,
-      "forks_count": 4862,
+      "forks_count": 4863,
       "watchers_count": 68487,
       "language": "TypeScript",
       "owner_login": "toeverything",
@@ -1136,9 +1141,9 @@
       "full_name": "bytedance/deer-flow",
       "html_url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of ta",
-      "stargazers_count": 68286,
-      "forks_count": 9093,
-      "watchers_count": 68286,
+      "stargazers_count": 68302,
+      "forks_count": 9096,
+      "watchers_count": 68302,
       "language": "Python",
       "owner_login": "bytedance",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -1150,9 +1155,9 @@
       "full_name": "unclecode/crawl4ai",
       "html_url": "https://github.com/unclecode/crawl4ai",
       "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-      "stargazers_count": 65812,
+      "stargazers_count": 65814,
       "forks_count": 6731,
-      "watchers_count": 65812,
+      "watchers_count": 65814,
       "language": "Python",
       "owner_login": "unclecode",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12494079?v=4",
@@ -1164,9 +1169,9 @@
       "full_name": "shareAI-lab/learn-claude-code",
       "html_url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-      "stargazers_count": 61047,
-      "forks_count": 9986,
-      "watchers_count": 61047,
+      "stargazers_count": 61068,
+      "forks_count": 9990,
+      "watchers_count": 61068,
       "language": "TypeScript",
       "owner_login": "shareAI-lab",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/189210346?v=4",
@@ -1178,9 +1183,9 @@
       "full_name": "DIYgod/RSSHub",
       "html_url": "https://github.com/DIYgod/RSSHub",
       "description": "🧡 Everything is RSSible",
-      "stargazers_count": 44104,
-      "forks_count": 9786,
-      "watchers_count": 44104,
+      "stargazers_count": 44105,
+      "forks_count": 9788,
+      "watchers_count": 44105,
       "language": "TypeScript",
       "owner_login": "DIYgod",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8266075?v=4",
@@ -1207,7 +1212,7 @@
       "html_url": "https://github.com/XingangPan/DragGAN",
       "description": "Official Code for DragGAN (SIGGRAPH 2023)",
       "stargazers_count": 35859,
-      "forks_count": 3428,
+      "forks_count": 3427,
       "watchers_count": 35859,
       "language": "Python",
       "owner_login": "XingangPan",
@@ -1220,9 +1225,9 @@
       "full_name": "bytedance/UI-TARS-desktop",
       "html_url": "https://github.com/bytedance/UI-TARS-desktop",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "stargazers_count": 34497,
-      "forks_count": 3457,
-      "watchers_count": 34497,
+      "stargazers_count": 34512,
+      "forks_count": 3459,
+      "watchers_count": 34512,
       "language": "TypeScript",
       "owner_login": "bytedance",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -1248,9 +1253,9 @@
       "full_name": "niklasvh/html2canvas",
       "html_url": "https://github.com/niklasvh/html2canvas",
       "description": "Screenshots with JavaScript",
-      "stargazers_count": 31857,
+      "stargazers_count": 31858,
       "forks_count": 4885,
-      "watchers_count": 31857,
+      "watchers_count": 31858,
       "language": "TypeScript",
       "owner_login": "niklasvh",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/551347?v=4",
@@ -1262,9 +1267,9 @@
       "full_name": "cloudflare/pingora",
       "html_url": "https://github.com/cloudflare/pingora",
       "description": "A library for building fast, reliable and evolvable network services.",
-      "stargazers_count": 26653,
+      "stargazers_count": 26654,
       "forks_count": 1647,
-      "watchers_count": 26653,
+      "watchers_count": 26654,
       "language": "Rust",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1276,9 +1281,9 @@
       "full_name": "CodePhiliaX/Chat2DB",
       "html_url": "https://github.com/CodePhiliaX/Chat2DB",
       "description": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-      "stargazers_count": 25596,
+      "stargazers_count": 25597,
       "forks_count": 2808,
-      "watchers_count": 25596,
+      "watchers_count": 25597,
       "language": "Java",
       "owner_login": "CodePhiliaX",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/131834193?v=4",
@@ -1290,9 +1295,9 @@
       "full_name": "Vonng/ddia",
       "html_url": "https://github.com/Vonng/ddia",
       "description": "《Designing Data-Intensive Application》DDIA 第一版 / 第二版 中文翻译",
-      "stargazers_count": 23041,
+      "stargazers_count": 23042,
       "forks_count": 4529,
-      "watchers_count": 23041,
+      "watchers_count": 23042,
       "language": "Python",
       "owner_login": "Vonng",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8587410?v=4",
@@ -1374,9 +1379,9 @@
       "full_name": "AmazingAng/WTF-Solidity",
       "html_url": "https://github.com/AmazingAng/WTF-Solidity",
       "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
-      "stargazers_count": 13976,
-      "forks_count": 2418,
-      "watchers_count": 13976,
+      "stargazers_count": 13977,
+      "forks_count": 2419,
+      "watchers_count": 13977,
       "language": "Solidity",
       "owner_login": "AmazingAng",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/14728591?v=4",
@@ -1388,9 +1393,9 @@
       "full_name": "halfrost/Halfrost-Field",
       "html_url": "https://github.com/halfrost/Halfrost-Field",
       "description": "✍🏻 这里是写博客的地方 —— Halfrost-Field 冰霜之地",
-      "stargazers_count": 13212,
+      "stargazers_count": 13213,
       "forks_count": 1880,
-      "watchers_count": 13212,
+      "watchers_count": 13213,
       "language": "Go",
       "owner_login": "halfrost",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/10825609?v=4",
@@ -1402,9 +1407,9 @@
       "full_name": "duixcom/Duix-Avatar",
       "html_url": "https://github.com/duixcom/Duix-Avatar",
       "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
-      "stargazers_count": 13011,
+      "stargazers_count": 13015,
       "forks_count": 2155,
-      "watchers_count": 13011,
+      "watchers_count": 13015,
       "language": "C",
       "owner_login": "duixcom",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/170155462?v=4",
@@ -1430,9 +1435,9 @@
       "full_name": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
       "html_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
       "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
-      "stargazers_count": 12026,
+      "stargazers_count": 12028,
       "forks_count": 1298,
-      "watchers_count": 12026,
+      "watchers_count": 12028,
       "language": "TypeScript",
       "owner_login": "YouMind-OpenLab",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/245655810?v=4",
@@ -1444,9 +1449,9 @@
       "full_name": "bytedance/trae-agent",
       "html_url": "https://github.com/bytedance/trae-agent",
       "description": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
-      "stargazers_count": 11554,
+      "stargazers_count": 11556,
       "forks_count": 1270,
-      "watchers_count": 11554,
+      "watchers_count": 11556,
       "language": "Python",
       "owner_login": "bytedance",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -1466,7 +1471,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2018-09-29T18:22:05Z",
-      "pushed_at": "2026-05-14T22:06:56Z"
+      "pushed_at": "2026-05-18T07:43:50Z"
     },
     {
       "full_name": "longbridge/gpui-component",
@@ -1480,21 +1485,21 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/68419756?v=4",
       "owner_type": "Organization",
       "created_at": "2024-06-13T13:45:39Z",
-      "pushed_at": "2026-05-17T10:44:34Z"
+      "pushed_at": "2026-05-18T08:15:24Z"
     },
     {
       "full_name": "larksuite/cli",
       "html_url": "https://github.com/larksuite/cli",
       "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meeti",
-      "stargazers_count": 11350,
-      "forks_count": 751,
-      "watchers_count": 11350,
+      "stargazers_count": 11400,
+      "forks_count": 752,
+      "watchers_count": 11400,
       "language": "Go",
       "owner_login": "larksuite",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/54944174?v=4",
       "owner_type": "Organization",
       "created_at": "2026-03-25T07:13:30Z",
-      "pushed_at": "2026-05-18T07:08:24Z"
+      "pushed_at": "2026-05-18T08:29:40Z"
     },
     {
       "full_name": "JamesNK/Newtonsoft.Json",
@@ -1528,9 +1533,9 @@
       "full_name": "bytedance/UI-TARS",
       "html_url": "https://github.com/bytedance/UI-TARS",
       "description": "Pioneering Automated GUI Interaction with Native Agents",
-      "stargazers_count": 10628,
+      "stargazers_count": 10629,
       "forks_count": 795,
-      "watchers_count": 10628,
+      "watchers_count": 10629,
       "language": "Python",
       "owner_login": "bytedance",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -1612,9 +1617,9 @@
       "full_name": "cloudflare/cfssl",
       "html_url": "https://github.com/cloudflare/cfssl",
       "description": "CFSSL: Cloudflare's PKI and TLS toolkit",
-      "stargazers_count": 9413,
+      "stargazers_count": 9412,
       "forks_count": 1143,
-      "watchers_count": 9413,
+      "watchers_count": 9412,
       "language": "Go",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1626,9 +1631,9 @@
       "full_name": "bytedance/sonic",
       "html_url": "https://github.com/bytedance/sonic",
       "description": "A blazingly fast JSON serializing & deserializing library",
-      "stargazers_count": 9391,
+      "stargazers_count": 9392,
       "forks_count": 442,
-      "watchers_count": 9391,
+      "watchers_count": 9392,
       "language": "Go",
       "owner_login": "bytedance",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -1655,7 +1660,7 @@
       "html_url": "https://github.com/cmliu/CF-Workers-docker.io",
       "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
       "stargazers_count": 9215,
-      "forks_count": 10648,
+      "forks_count": 10652,
       "watchers_count": 9215,
       "language": "JavaScript",
       "owner_login": "cmliu",
@@ -1710,23 +1715,23 @@
       "full_name": "cloudflare/workerd",
       "html_url": "https://github.com/cloudflare/workerd",
       "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
-      "stargazers_count": 8226,
+      "stargazers_count": 8227,
       "forks_count": 639,
-      "watchers_count": 8226,
+      "watchers_count": 8227,
       "language": "C++",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2022-09-15T15:15:16Z",
-      "pushed_at": "2026-05-18T05:16:49Z"
+      "pushed_at": "2026-05-18T08:25:28Z"
     },
     {
       "full_name": "MiroMindAI/MiroThinker",
       "html_url": "https://github.com/MiroMindAI/MiroThinker",
       "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively.",
-      "stargazers_count": 8159,
+      "stargazers_count": 8162,
       "forks_count": 630,
-      "watchers_count": 8159,
+      "watchers_count": 8162,
       "language": "Python",
       "owner_login": "MiroMindAI",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/209656584?v=4",
@@ -1738,23 +1743,23 @@
       "full_name": "cloudflare/vinext",
       "html_url": "https://github.com/cloudflare/vinext",
       "description": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
-      "stargazers_count": 8068,
+      "stargazers_count": 8069,
       "forks_count": 326,
-      "watchers_count": 8068,
+      "watchers_count": 8069,
       "language": "TypeScript",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2026-02-24T05:07:41Z",
-      "pushed_at": "2026-05-16T19:16:39Z"
+      "pushed_at": "2026-05-18T08:30:36Z"
     },
     {
       "full_name": "bytedance/flowgram.ai",
       "html_url": "https://github.com/bytedance/flowgram.ai",
       "description": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
-      "stargazers_count": 8042,
+      "stargazers_count": 8041,
       "forks_count": 723,
-      "watchers_count": 8042,
+      "watchers_count": 8041,
       "language": "TypeScript",
       "owner_login": "bytedance",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -1766,9 +1771,9 @@
       "full_name": "duixcom/Duix-Mobile",
       "html_url": "https://github.com/duixcom/Duix-Mobile",
       "description": "🚀 The best real-time interactive AI avatar(digital human) with on-premise deployment and <1.5 s latency.",
-      "stargazers_count": 7974,
+      "stargazers_count": 7978,
       "forks_count": 1180,
-      "watchers_count": 7974,
+      "watchers_count": 7978,
       "language": "C++",
       "owner_login": "duixcom",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/170155462?v=4",

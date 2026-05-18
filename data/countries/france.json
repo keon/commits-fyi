@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-05-18T07:10:15.062Z",
+  "generated_at": "2026-05-18T08:41:58.267Z",
   "counts": {
-    "users": 50,
-    "orgs": 30,
+    "users": 53,
+    "orgs": 31,
     "repos": 50
   },
   "totals": {
-    "user_followers": 176759,
-    "org_followers": 27684,
-    "user_stars": 799072,
-    "org_stars": 280483
+    "user_followers": 179738,
+    "org_followers": 27992,
+    "user_stars": 908543,
+    "org_stars": 327152
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in France",
       "api_url": "https://api.github.com/search/users?q=location%3A%22France%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22France%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"France\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,7 +48,7 @@
       "location": "Paris, France",
       "bio": null,
       "company": "Disco Hello / Lizardcube",
-      "total_stars": 75637
+      "total_stars": 75638
     },
     {
       "login": "Solido",
@@ -63,7 +68,7 @@
       "name": "Nicolas P. Rougier",
       "avatar_url": "https://avatars.githubusercontent.com/u/327203?v=4",
       "html_url": "https://github.com/rougier",
-      "followers": 7825,
+      "followers": 7826,
       "following": 3,
       "public_repos": 300,
       "location": "Bordeaux, France",
@@ -102,13 +107,52 @@
       "name": "Samuel Berthe",
       "avatar_url": "https://avatars.githubusercontent.com/u/2951285?v=4",
       "html_url": "https://github.com/samber",
-      "followers": 2107,
+      "followers": 2108,
       "following": 49,
       "public_repos": 276,
       "location": "Nantes, France",
       "bio": "Software Engineer | Go Open-sourcer | GenAI community leader",
       "company": null,
-      "total_stars": 42379
+      "total_stars": 42381
+    },
+    {
+      "login": "CorentinTh",
+      "name": "Corentin Thomasset",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25065347?v=4",
+      "html_url": "https://github.com/CorentinTh",
+      "followers": 1311,
+      "following": 130,
+      "public_repos": 69,
+      "location": "France - Lyon",
+      "bio": "Computer Science Engineer.\r\nFullstack JS. FOSS creator and maintainer.\r\nMade @papra-hq, it-tools.tech, jugly.io, enclosed.cc, and more.",
+      "company": "Founder of @papra-hq",
+      "total_stars": 41094
+    },
+    {
+      "login": "nicolargo",
+      "name": "Nicolas Hennion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/776747?v=4",
+      "html_url": "https://github.com/nicolargo",
+      "followers": 931,
+      "following": 17,
+      "public_repos": 97,
+      "location": "Valbonne, France",
+      "bio": "Open-source developer enthusiast.\r\nFather of the Glances software.",
+      "company": "Le blog de Nicolargo",
+      "total_stars": 34257
+    },
+    {
+      "login": "luongnv89",
+      "name": "Luong NGUYEN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3288457?v=4",
+      "html_url": "https://github.com/luongnv89",
+      "followers": 733,
+      "following": 20,
+      "public_repos": 128,
+      "location": "Paris, France",
+      "bio": "Software Engineer\r\n/ AI, Cybersecurity\r\n/ Learn, Build, Share and Connect",
+      "company": "https://montimage.com",
+      "total_stars": 34101
     },
     {
       "login": "Dimillian",
@@ -121,7 +165,7 @@
       "location": "France",
       "bio": "Developer Experience, Codex @openai \r\n\r\nPreviously: \r\n@medium, @glose, @google, Co-Founded @MySeeen (Share movies !) @RobinBrowser (The smart Browser).",
       "company": "@OpenAI",
-      "total_stars": 33932
+      "total_stars": 33933
     },
     {
       "login": "jedisct1",
@@ -134,7 +178,7 @@
       "location": "Antibes, France",
       "bio": "Get my public keys here: https://sk.tl/7CPRo8kn",
       "company": null,
-      "total_stars": 33583
+      "total_stars": 33590
     },
     {
       "login": "fzaninotto",
@@ -186,7 +230,7 @@
       "location": "France",
       "bio": "Web & JavaScript enthusiast, @vuejs core team.",
       "company": null,
-      "total_stars": 23725
+      "total_stars": 23726
     },
     {
       "login": "4ian",
@@ -206,7 +250,7 @@
       "name": "mxrch",
       "avatar_url": "https://avatars.githubusercontent.com/u/17338428?v=4",
       "html_url": "https://github.com/mxrch",
-      "followers": 1877,
+      "followers": 1878,
       "following": 178,
       "public_repos": 102,
       "location": "France",
@@ -251,7 +295,7 @@
       "location": "France",
       "bio": "I work on open-source software. \r\n\r\nMost of my other contributions are on Codeberg and gitlab.freedesktop.org.",
       "company": null,
-      "total_stars": 17517
+      "total_stars": 17518
     },
     {
       "login": "JingMatrix",
@@ -264,7 +308,7 @@
       "location": "Toulouse, France",
       "bio": "Doctor of mathematics (PhD).\r\nI enjoy poems and philosophy.\r\nAvailable for business collaboration or consultation.",
       "company": "[Founder] Matrix Transformation",
-      "total_stars": 16303
+      "total_stars": 16304
     },
     {
       "login": "benoitc",
@@ -329,7 +373,7 @@
       "location": "France",
       "bio": "tilen@majerle.eu",
       "company": null,
-      "total_stars": 13510
+      "total_stars": 13511
     },
     {
       "login": "JonathanSalwan",
@@ -342,7 +386,7 @@
       "location": "France",
       "bio": "Program analysis, reverse engineering and vulnerability research",
       "company": null,
-      "total_stars": 12252
+      "total_stars": 12253
     },
     {
       "login": "AliSoftware",
@@ -446,7 +490,7 @@
       "location": "Montpellier, France",
       "bio": "I ❤️ data visualization 🤷🏻‍♂️",
       "company": "Software Engineer - Dataviz",
-      "total_stars": 5810
+      "total_stars": 5811
     },
     {
       "login": "atinux",
@@ -459,7 +503,7 @@
       "location": "France",
       "bio": "Creator of @nuxt • Working on OSS at @vercel to make the Web faster with a great DX.",
       "company": "@nuxt . @vercel",
-      "total_stars": 5628
+      "total_stars": 5629
     },
     {
       "login": "cyrilmottier",
@@ -544,13 +588,13 @@
       "name": "Thibault Duplessis",
       "avatar_url": "https://avatars.githubusercontent.com/u/140370?v=4",
       "html_url": "https://github.com/ornicar",
-      "followers": 6399,
+      "followers": 6400,
       "following": 211,
       "public_repos": 426,
       "location": "France",
       "bio": "Maker of lichess.org, a gay hippie communist chess server for drug fueled transgender atheists.",
       "company": "lichess.org",
-      "total_stars": 1955
+      "total_stars": 1956
     },
     {
       "login": "fabpot",
@@ -695,7 +739,20 @@
       "location": "France",
       "bio": "rtk tools to optimise your vibecoding",
       "company": null,
-      "total_stars": 50066
+      "total_stars": 50114
+    },
+    {
+      "login": "QuivrHQ",
+      "name": "Quivr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/159330290?v=4",
+      "html_url": "https://github.com/QuivrHQ",
+      "followers": 308,
+      "following": 0,
+      "public_repos": 10,
+      "location": "France",
+      "bio": null,
+      "company": null,
+      "total_stars": 46610
     },
     {
       "login": "notepad-plus-plus",
@@ -708,7 +765,7 @@
       "location": "France",
       "bio": null,
       "company": null,
-      "total_stars": 30887
+      "total_stars": 30891
     },
     {
       "login": "uutils",
@@ -734,7 +791,7 @@
       "location": "France",
       "bio": "Kyutai - Open Science AI Lab",
       "company": null,
-      "total_stars": 22056
+      "total_stars": 22059
     },
     {
       "login": "Orange-OpenSource",
@@ -756,11 +813,11 @@
       "html_url": "https://github.com/suitenumerique",
       "followers": 3302,
       "following": 0,
-      "public_repos": 40,
+      "public_repos": 42,
       "location": "France",
       "bio": "La Suite numérique is a set of open-source applications for digital collaboration and teamwork. It offers modern solutions for the digital workplace.",
       "company": null,
-      "total_stars": 19705
+      "total_stars": 19706
     },
     {
       "login": "Chainlit",
@@ -786,7 +843,7 @@
       "location": "Paris - France",
       "bio": null,
       "company": null,
-      "total_stars": 10142
+      "total_stars": 10143
     },
     {
       "login": "quarkslab",
@@ -799,7 +856,7 @@
       "location": "France",
       "bio": null,
       "company": null,
-      "total_stars": 8249
+      "total_stars": 8248
     },
     {
       "login": "ANSSI-FR",
@@ -825,7 +882,7 @@
       "location": "France",
       "bio": "Open Source ERP & CRM suite for Business (sme, freelance, foundations...). This is the official public repositories provided by the Dolibarr association.",
       "company": null,
-      "total_stars": 7432
+      "total_stars": 7433
     },
     {
       "login": "GDQuest",
@@ -929,7 +986,7 @@
       "location": "France",
       "bio": "Trusted hardware for blockchain applications",
       "company": null,
-      "total_stars": 4261
+      "total_stars": 4263
     },
     {
       "login": "AdaCore",
@@ -1080,9 +1137,9 @@
       "full_name": "ocornut/imgui",
       "html_url": "https://github.com/ocornut/imgui",
       "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
-      "stargazers_count": 73270,
-      "forks_count": 11766,
-      "watchers_count": 73270,
+      "stargazers_count": 73271,
+      "forks_count": 11765,
+      "watchers_count": 73271,
       "language": "C++",
       "owner_login": "ocornut",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8225057?v=4",
@@ -1108,9 +1165,9 @@
       "full_name": "rtk-ai/rtk",
       "html_url": "https://github.com/rtk-ai/rtk",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "stargazers_count": 49511,
-      "forks_count": 3014,
-      "watchers_count": 49511,
+      "stargazers_count": 49558,
+      "forks_count": 3017,
+      "watchers_count": 49558,
       "language": "Rust",
       "owner_login": "rtk-ai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/258253854?v=4",
@@ -1133,12 +1190,68 @@
       "pushed_at": "2021-10-19T22:38:47Z"
     },
     {
+      "full_name": "QuivrHQ/quivr",
+      "html_url": "https://github.com/QuivrHQ/quivr",
+      "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore:",
+      "stargazers_count": 39153,
+      "forks_count": 3745,
+      "watchers_count": 39153,
+      "language": "Python",
+      "owner_login": "QuivrHQ",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/159330290?v=4",
+      "owner_type": "Organization",
+      "created_at": "2023-05-12T23:53:30Z",
+      "pushed_at": "2025-07-09T12:55:23Z"
+    },
+    {
+      "full_name": "CorentinTh/it-tools",
+      "html_url": "https://github.com/CorentinTh/it-tools",
+      "description": "Collection of handy online tools for developers, with great UX. ",
+      "stargazers_count": 38708,
+      "forks_count": 4893,
+      "watchers_count": 38708,
+      "language": "Vue",
+      "owner_login": "CorentinTh",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25065347?v=4",
+      "owner_type": "User",
+      "created_at": "2020-04-05T11:50:24Z",
+      "pushed_at": "2026-05-14T16:32:58Z"
+    },
+    {
+      "full_name": "luongnv89/claude-howto",
+      "html_url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "stargazers_count": 33346,
+      "forks_count": 4082,
+      "watchers_count": 33346,
+      "language": "Python",
+      "owner_login": "luongnv89",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3288457?v=4",
+      "owner_type": "User",
+      "created_at": "2025-11-07T22:59:34Z",
+      "pushed_at": "2026-05-15T06:55:32Z"
+    },
+    {
+      "full_name": "nicolargo/glances",
+      "html_url": "https://github.com/nicolargo/glances",
+      "description": "Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.",
+      "stargazers_count": 32569,
+      "forks_count": 1736,
+      "watchers_count": 32569,
+      "language": "Python",
+      "owner_login": "nicolargo",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/776747?v=4",
+      "owner_type": "User",
+      "created_at": "2011-12-04T08:49:15Z",
+      "pushed_at": "2026-05-18T07:29:57Z"
+    },
+    {
       "full_name": "notepad-plus-plus/notepad-plus-plus",
       "html_url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
       "description": "Notepad++ official repository",
-      "stargazers_count": 28059,
+      "stargazers_count": 28063,
       "forks_count": 5224,
-      "watchers_count": 28059,
+      "watchers_count": 28063,
       "language": "C++",
       "owner_login": "notepad-plus-plus",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12589084?v=4",
@@ -1165,14 +1278,14 @@
       "html_url": "https://github.com/uutils/coreutils",
       "description": "Cross-platform Rust rewrite of the GNU coreutils",
       "stargazers_count": 23256,
-      "forks_count": 1858,
+      "forks_count": 1859,
       "watchers_count": 23256,
       "language": "Rust",
       "owner_login": "uutils",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5148717?v=4",
       "owner_type": "Organization",
       "created_at": "2013-08-02T16:22:56Z",
-      "pushed_at": "2026-05-17T11:19:49Z"
+      "pushed_at": "2026-05-18T08:26:39Z"
     },
     {
       "full_name": "4ian/GDevelop",
@@ -1242,21 +1355,21 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1506386?v=4",
       "owner_type": "Organization",
       "created_at": "2020-08-25T14:50:56Z",
-      "pushed_at": "2026-05-18T05:24:17Z"
+      "pushed_at": "2026-05-18T08:31:50Z"
     },
     {
       "full_name": "suitenumerique/docs",
       "html_url": "https://github.com/suitenumerique/docs",
       "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React. ",
       "stargazers_count": 16509,
-      "forks_count": 589,
+      "forks_count": 590,
       "watchers_count": 16509,
       "language": "Python",
       "owner_login": "suitenumerique",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/185937207?v=4",
       "owner_type": "Organization",
       "created_at": "2024-01-09T14:17:32Z",
-      "pushed_at": "2026-05-18T06:53:28Z"
+      "pushed_at": "2026-05-18T07:56:59Z"
     },
     {
       "full_name": "cyrildiagne/ar-cutpaste",
@@ -1360,9 +1473,9 @@
       "full_name": "Akryum/vue-virtual-scroller",
       "html_url": "https://github.com/Akryum/vue-virtual-scroller",
       "description": "⚡️ Blazing fast scrolling for any amount of data",
-      "stargazers_count": 10756,
+      "stargazers_count": 10757,
       "forks_count": 977,
-      "watchers_count": 10756,
+      "watchers_count": 10757,
       "language": "TypeScript",
       "owner_login": "Akryum",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2798204?v=4",
@@ -1388,9 +1501,9 @@
       "full_name": "kyutai-labs/moshi",
       "html_url": "https://github.com/kyutai-labs/moshi",
       "description": "Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.",
-      "stargazers_count": 10220,
+      "stargazers_count": 10223,
       "forks_count": 951,
-      "watchers_count": 10220,
+      "watchers_count": 10223,
       "language": "Python",
       "owner_login": "kyutai-labs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/151010778?v=4",
@@ -1441,18 +1554,32 @@
       "pushed_at": "2025-05-18T01:23:54Z"
     },
     {
+      "full_name": "QuivrHQ/MegaParse",
+      "html_url": "https://github.com/QuivrHQ/MegaParse",
+      "description": "File Parser optimised for LLM Ingestion with no loss 🧠 Parse PDFs, Docx, PPTx in a format that is ideal for LLMs. ",
+      "stargazers_count": 7365,
+      "forks_count": 415,
+      "watchers_count": 7365,
+      "language": "Python",
+      "owner_login": "QuivrHQ",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/159330290?v=4",
+      "owner_type": "Organization",
+      "created_at": "2024-05-29T08:40:29Z",
+      "pushed_at": "2025-02-21T15:21:14Z"
+    },
+    {
       "full_name": "Dolibarr/dolibarr",
       "html_url": "https://github.com/Dolibarr/dolibarr",
       "description": "Dolibarr ERP CRM is a modern software package to manage your company or foundation's activity (contacts, suppliers, invoices, orders, stocks, agenda, accounting, ...). it's an open source Web applicat",
-      "stargazers_count": 7215,
+      "stargazers_count": 7216,
       "forks_count": 3380,
-      "watchers_count": 7215,
+      "watchers_count": 7216,
       "language": "PHP",
       "owner_login": "Dolibarr",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/877491?v=4",
       "owner_type": "Organization",
       "created_at": "2011-06-26T21:55:03Z",
-      "pushed_at": "2026-05-18T01:52:53Z"
+      "pushed_at": "2026-05-18T07:22:23Z"
     },
     {
       "full_name": "Dimillian/IceCubesApp",
@@ -1514,9 +1641,9 @@
       "full_name": "jedisct1/dsvpn",
       "html_url": "https://github.com/jedisct1/dsvpn",
       "description": "A Dead Simple VPN.",
-      "stargazers_count": 5477,
-      "forks_count": 419,
-      "watchers_count": 5477,
+      "stargazers_count": 5484,
+      "forks_count": 421,
+      "watchers_count": 5484,
       "language": "C",
       "owner_login": "jedisct1",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/124872?v=4",
@@ -1705,76 +1832,6 @@
       "owner_type": "User",
       "created_at": "2026-01-11T07:56:35Z",
       "pushed_at": "2026-03-26T07:01:43Z"
-    },
-    {
-      "full_name": "fzaninotto/uptime",
-      "html_url": "https://github.com/fzaninotto/uptime",
-      "description": "A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.",
-      "stargazers_count": 3594,
-      "forks_count": 700,
-      "watchers_count": 3594,
-      "language": "JavaScript",
-      "owner_login": "fzaninotto",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/99944?v=4",
-      "owner_type": "User",
-      "created_at": "2012-01-04T07:56:18Z",
-      "pushed_at": "2021-10-01T11:20:04Z"
-    },
-    {
-      "full_name": "dunglas/vulcain",
-      "html_url": "https://github.com/dunglas/vulcain",
-      "description": "🔨 Fast and idiomatic client-driven REST APIs.",
-      "stargazers_count": 3576,
-      "forks_count": 103,
-      "watchers_count": 3576,
-      "language": "Go",
-      "owner_login": "dunglas",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/57224?v=4",
-      "owner_type": "User",
-      "created_at": "2019-09-09T16:24:00Z",
-      "pushed_at": "2026-05-16T16:01:18Z"
-    },
-    {
-      "full_name": "Dimillian/Skills",
-      "html_url": "https://github.com/Dimillian/Skills",
-      "description": "My Codex Skills",
-      "stargazers_count": 3520,
-      "forks_count": 184,
-      "watchers_count": 3520,
-      "language": "Shell",
-      "owner_login": "Dimillian",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/535509?v=4",
-      "owner_type": "User",
-      "created_at": "2025-12-30T14:36:32Z",
-      "pushed_at": "2026-03-29T15:28:02Z"
-    },
-    {
-      "full_name": "Akryum/floating-vue",
-      "html_url": "https://github.com/Akryum/floating-vue",
-      "description": "💬 Easy tooltips, popovers, dropdown, menus... for Vue",
-      "stargazers_count": 3461,
-      "forks_count": 343,
-      "watchers_count": 3461,
-      "language": "TypeScript",
-      "owner_login": "Akryum",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2798204?v=4",
-      "owner_type": "User",
-      "created_at": "2016-12-14T13:50:06Z",
-      "pushed_at": "2026-04-29T14:32:32Z"
-    },
-    {
-      "full_name": "samber/mo",
-      "html_url": "https://github.com/samber/mo",
-      "description": "🦄  Monads and popular FP abstractions, powered by Go 1.18+ Generics (Option, Result, Either...)",
-      "stargazers_count": 3356,
-      "forks_count": 111,
-      "watchers_count": 3356,
-      "language": "Go",
-      "owner_login": "samber",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2951285?v=4",
-      "owner_type": "User",
-      "created_at": "2022-05-17T23:07:48Z",
-      "pushed_at": "2026-05-15T16:50:40Z"
     }
   ]
 }

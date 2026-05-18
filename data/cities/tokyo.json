@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-05-18T07:08:48.190Z",
+  "generated_at": "2026-05-18T08:33:44.409Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 159597,
-    "org_followers": 17574,
-    "user_stars": 740203,
-    "org_stars": 273426
+    "user_followers": 159599,
+    "org_followers": 17579,
+    "user_stars": 740219,
+    "org_stars": 273434
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22Tokyo%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Tokyo\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,13 +42,13 @@
       "name": "Daichi Furiya",
       "avatar_url": "https://avatars.githubusercontent.com/u/1833474?v=4",
       "html_url": "https://github.com/wasabeef",
-      "followers": 9640,
+      "followers": 9639,
       "following": 60,
       "public_repos": 62,
       "location": "Tokyo, Japan",
       "bio": "Google Developers Expert for Android",
       "company": "CyberAgent, Inc.",
-      "total_stars": 112490
+      "total_stars": 112493
     },
     {
       "login": "TapXWorld",
@@ -56,7 +61,7 @@
       "location": "Tokyo",
       "bio": "We can rule the world",
       "company": null,
-      "total_stars": 71490
+      "total_stars": 71494
     },
     {
       "login": "bee-san",
@@ -102,13 +107,13 @@
       "name": "Rui Ueyama",
       "avatar_url": "https://avatars.githubusercontent.com/u/47400?v=4",
       "html_url": "https://github.com/rui314",
-      "followers": 6646,
+      "followers": 6647,
       "following": 8,
       "public_repos": 46,
       "location": "Tokyo",
       "bio": null,
       "company": "Blue Whale Systems",
-      "total_stars": 38435
+      "total_stars": 38437
     },
     {
       "login": "rhysd",
@@ -121,7 +126,7 @@
       "location": "Tokyo, Japan",
       "bio": "A dog enjoying software development (with bugs)",
       "company": "#\"><img src=X onerror=alert('👋🐶');>",
-      "total_stars": 29738
+      "total_stars": 29739
     },
     {
       "login": "privatenumber",
@@ -134,7 +139,7 @@
       "location": "Tokyo, Japan",
       "bio": "I'm on a mission to open source my solutions 🚀",
       "company": "@vercel",
-      "total_stars": 26522
+      "total_stars": 26524
     },
     {
       "login": "shu223",
@@ -160,14 +165,14 @@
       "location": "Tokyo, Japan",
       "bio": "Building intelligence to automate more.",
       "company": "@mujin",
-      "total_stars": 25411
+      "total_stars": 25412
     },
     {
       "login": "kishikawakatsumi",
       "name": "Kishikawa Katsumi",
       "avatar_url": "https://avatars.githubusercontent.com/u/40610?v=4",
       "html_url": "https://github.com/kishikawakatsumi",
-      "followers": 2940,
+      "followers": 2941,
       "following": 40,
       "public_repos": 178,
       "location": "Tokyo",
@@ -180,13 +185,13 @@
       "name": "Brett Wooldridge",
       "avatar_url": "https://avatars.githubusercontent.com/u/1538661?v=4",
       "html_url": "https://github.com/brettwooldridge",
-      "followers": 1984,
+      "followers": 1985,
       "following": 4,
       "public_repos": 91,
       "location": "Tokyo, Japan",
       "bio": "Vice President and Lead Architect of Software Development.  Father of an angel who fell to Earth and somehow into my life.\r\n",
       "company": "LogicVein, Inc",
-      "total_stars": 23250
+      "total_stars": 23249
     },
     {
       "login": "mob-sakai",
@@ -199,7 +204,7 @@
       "location": "Tokyo, Japan",
       "bio": null,
       "company": "WFS, Inc.",
-      "total_stars": 21353
+      "total_stars": 21354
     },
     {
       "login": "dai-shi",
@@ -427,7 +432,7 @@
       "name": "Domenic Denicola",
       "avatar_url": "https://avatars.githubusercontent.com/u/617481?v=4",
       "html_url": "https://github.com/domenic",
-      "followers": 5601,
+      "followers": 5602,
       "following": 80,
       "public_repos": 86,
       "location": "Tokyo, Japan",
@@ -446,7 +451,7 @@
       "location": "Tokyo/Japan",
       "bio": null,
       "company": null,
-      "total_stars": 4969
+      "total_stars": 4970
     },
     {
       "login": "acgotaku",
@@ -498,7 +503,7 @@
       "location": "Tokyo",
       "bio": "Seeking the meaning of existence.",
       "company": "undefined",
-      "total_stars": 3105
+      "total_stars": 3106
     },
     {
       "login": "seratch",
@@ -576,7 +581,7 @@
       "location": "Tokyo",
       "bio": "ceo at nakazawa.tech, built Athena Crisis, fate.technology, fbtee.dev, jest, metro, yarn and mootools",
       "company": "Nakazawa Tech",
-      "total_stars": 797
+      "total_stars": 798
     },
     {
       "login": "chomado",
@@ -661,7 +666,7 @@
       "name": "Achraf",
       "avatar_url": "https://avatars.githubusercontent.com/u/43996450?v=4",
       "html_url": "https://github.com/AchrafReyani",
-      "followers": 1901,
+      "followers": 1900,
       "following": 2463,
       "public_repos": 11,
       "location": "Tokyo, Japan",
@@ -695,7 +700,7 @@
       "location": "Tokyo, Japan",
       "bio": "Cysharp is a subsidiary of Cygames, that is focusing C# both .NET and Unity.",
       "company": null,
-      "total_stars": 50019
+      "total_stars": 50020
     },
     {
       "login": "wix",
@@ -715,13 +720,13 @@
       "name": "Sakana AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/140988036?v=4",
       "html_url": "https://github.com/SakanaAI",
-      "followers": 3181,
+      "followers": 3183,
       "following": 0,
       "public_repos": 53,
       "location": "Tokyo",
       "bio": "On a quest to create a new kind of foundation model based on nature-inspired intelligence.",
       "company": null,
-      "total_stars": 31799
+      "total_stars": 31805
     },
     {
       "login": "line",
@@ -734,7 +739,7 @@
       "location": "Tokyo, Japan",
       "bio": null,
       "company": null,
-      "total_stars": 24238
+      "total_stars": 24239
     },
     {
       "login": "openstf",
@@ -832,7 +837,7 @@
       "name": "DroidKaigi",
       "avatar_url": "https://avatars.githubusercontent.com/u/10727543?v=4",
       "html_url": "https://github.com/DroidKaigi",
-      "followers": 272,
+      "followers": 273,
       "following": 0,
       "public_repos": 23,
       "location": "Tokyo, Japan",
@@ -1001,7 +1006,7 @@
       "name": "Nikkei Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/1000731?v=4",
       "html_url": "https://github.com/Nikkei",
-      "followers": 581,
+      "followers": 583,
       "following": 0,
       "public_repos": 11,
       "location": "Tokyo",
@@ -1080,9 +1085,9 @@
       "full_name": "TapXWorld/ChinaTextbook",
       "html_url": "https://github.com/TapXWorld/ChinaTextbook",
       "description": "所有小初高、大学PDF教材。",
-      "stargazers_count": 71066,
-      "forks_count": 15921,
-      "watchers_count": 71066,
+      "stargazers_count": 71070,
+      "forks_count": 15922,
+      "watchers_count": 71070,
       "language": "Roff",
       "owner_login": "TapXWorld",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3353541?v=4",
@@ -1094,9 +1099,9 @@
       "full_name": "wasabeef/awesome-android-ui",
       "html_url": "https://github.com/wasabeef/awesome-android-ui",
       "description": "A curated list of awesome Android UI/UX libraries",
-      "stargazers_count": 56126,
+      "stargazers_count": 56129,
       "forks_count": 10256,
-      "watchers_count": 56126,
+      "watchers_count": 56129,
       "language": null,
       "owner_login": "wasabeef",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1833474?v=4",
@@ -1150,9 +1155,9 @@
       "full_name": "brettwooldridge/HikariCP",
       "html_url": "https://github.com/brettwooldridge/HikariCP",
       "description": "光 HikariCP・A solid, high-performance, JDBC connection pool at last.",
-      "stargazers_count": 21109,
+      "stargazers_count": 21108,
       "forks_count": 3011,
-      "watchers_count": 21109,
+      "watchers_count": 21108,
       "language": "Java",
       "owner_login": "brettwooldridge",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1538661?v=4",
@@ -1178,9 +1183,9 @@
       "full_name": "rui314/mold",
       "html_url": "https://github.com/rui314/mold",
       "description": "mold: A Modern Linker 🦠",
-      "stargazers_count": 16495,
+      "stargazers_count": 16496,
       "forks_count": 536,
-      "watchers_count": 16495,
+      "watchers_count": 16496,
       "language": "C++",
       "owner_login": "rui314",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/47400?v=4",
@@ -1192,9 +1197,9 @@
       "full_name": "wkentaro/labelme",
       "html_url": "https://github.com/wkentaro/labelme",
       "description": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation.",
-      "stargazers_count": 15882,
+      "stargazers_count": 15883,
       "forks_count": 3679,
-      "watchers_count": 15882,
+      "watchers_count": 15883,
       "language": "Python",
       "owner_login": "wkentaro",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4310419?v=4",
@@ -1220,9 +1225,9 @@
       "full_name": "SakanaAI/AI-Scientist",
       "html_url": "https://github.com/SakanaAI/AI-Scientist",
       "description": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬",
-      "stargazers_count": 13661,
+      "stargazers_count": 13664,
       "forks_count": 1951,
-      "watchers_count": 13661,
+      "watchers_count": 13664,
       "language": "Jupyter Notebook",
       "owner_login": "SakanaAI",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/140988036?v=4",
@@ -1242,7 +1247,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
       "owner_type": "Organization",
       "created_at": "2016-03-11T11:22:54Z",
-      "pushed_at": "2026-05-17T11:47:32Z"
+      "pushed_at": "2026-05-18T08:10:06Z"
     },
     {
       "full_name": "hajimehoshi/ebiten",
@@ -1290,9 +1295,9 @@
       "full_name": "rui314/chibicc",
       "html_url": "https://github.com/rui314/chibicc",
       "description": "A small C compiler",
-      "stargazers_count": 11624,
+      "stargazers_count": 11625,
       "forks_count": 1043,
-      "watchers_count": 11624,
+      "watchers_count": 11625,
       "language": "C",
       "owner_login": "rui314",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/47400?v=4",
@@ -1459,7 +1464,7 @@
       "html_url": "https://github.com/wix/react-native-ui-lib",
       "description": "UI Components Library for React Native",
       "stargazers_count": 7135,
-      "forks_count": 751,
+      "forks_count": 752,
       "watchers_count": 7135,
       "language": "TypeScript",
       "owner_login": "wix",
@@ -1497,6 +1502,20 @@
       "pushed_at": "2024-05-21T09:52:28Z"
     },
     {
+      "full_name": "SakanaAI/AI-Scientist-v2",
+      "html_url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "stargazers_count": 6284,
+      "forks_count": 851,
+      "watchers_count": 6284,
+      "language": "Python",
+      "owner_login": "SakanaAI",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/140988036?v=4",
+      "owner_type": "Organization",
+      "created_at": "2025-04-08T06:37:25Z",
+      "pushed_at": "2025-12-19T07:46:32Z"
+    },
+    {
       "full_name": "Hironsan/BossSensor",
       "html_url": "https://github.com/Hironsan/BossSensor",
       "description": "Hide screen when boss is approaching.",
@@ -1511,20 +1530,6 @@
       "pushed_at": "2018-10-31T11:42:42Z"
     },
     {
-      "full_name": "SakanaAI/AI-Scientist-v2",
-      "html_url": "https://github.com/SakanaAI/AI-Scientist-v2",
-      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
-      "stargazers_count": 6281,
-      "forks_count": 851,
-      "watchers_count": 6281,
-      "language": "Python",
-      "owner_login": "SakanaAI",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/140988036?v=4",
-      "owner_type": "Organization",
-      "created_at": "2025-04-08T06:37:25Z",
-      "pushed_at": "2025-12-19T07:46:32Z"
-    },
-    {
       "full_name": "zabbix/zabbix",
       "html_url": "https://github.com/zabbix/zabbix",
       "description": "Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.",
@@ -1536,15 +1541,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4561226?v=4",
       "owner_type": "Organization",
       "created_at": "2014-02-27T15:36:03Z",
-      "pushed_at": "2026-05-15T13:00:39Z"
+      "pushed_at": "2026-05-18T08:30:37Z"
     },
     {
       "full_name": "mob-sakai/ParticleEffectForUGUI",
       "html_url": "https://github.com/mob-sakai/ParticleEffectForUGUI",
       "description": "Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas.",
-      "stargazers_count": 5735,
+      "stargazers_count": 5736,
       "forks_count": 747,
-      "watchers_count": 5735,
+      "watchers_count": 5736,
       "language": "C#",
       "owner_login": "mob-sakai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12690315?v=4",

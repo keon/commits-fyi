@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-05-18T07:07:36.793Z",
+  "generated_at": "2026-05-18T08:32:21.894Z",
   "counts": {
     "users": 50,
     "orgs": 30,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 131808,
-    "org_followers": 30141,
-    "user_stars": 422130,
-    "org_stars": 365724
+    "org_followers": 30146,
+    "user_stars": 422134,
+    "org_stars": 365494
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Austin",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Austin%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Austin%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Austin\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -56,7 +61,7 @@
       "location": "Austin, TX",
       "bio": "I build communities, code, & companies.",
       "company": "@author",
-      "total_stars": 52369
+      "total_stars": 52372
     },
     {
       "login": "davatron5000",
@@ -121,7 +126,7 @@
       "location": "Austin, TX",
       "bio": "The Barley Architect, Architect Consultant",
       "company": "Jimmy Bogard Consulting, LLC",
-      "total_stars": 8000
+      "total_stars": 7999
     },
     {
       "login": "ericclemmons",
@@ -186,7 +191,7 @@
       "location": "Austin",
       "bio": "Waymo Perception SWE. Phd graduate from TTIC.",
       "company": "Waymo",
-      "total_stars": 5708
+      "total_stars": 5709
     },
     {
       "login": "aweary",
@@ -427,7 +432,7 @@
       "name": "Mike McNeil",
       "avatar_url": "https://avatars.githubusercontent.com/u/618009?v=4",
       "html_url": "https://github.com/mikermcneil",
-      "followers": 2357,
+      "followers": 2356,
       "following": 283,
       "public_repos": 229,
       "location": "Austin, Texas",
@@ -492,13 +497,13 @@
       "name": "Chris Tate",
       "avatar_url": "https://avatars.githubusercontent.com/u/366502?v=4",
       "html_url": "https://github.com/ctate",
-      "followers": 1797,
+      "followers": 1798,
       "following": 23,
       "public_repos": 154,
       "location": "Austin, TX",
       "bio": "Dev @Vercel | Creator @SpecUI",
       "company": "Vercel",
-      "total_stars": 320
+      "total_stars": 321
     },
     {
       "login": "JessicaSachs",
@@ -689,13 +694,13 @@
       "name": "Cloudflare",
       "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "html_url": "https://github.com/cloudflare",
-      "followers": 13401,
+      "followers": 13405,
       "following": 0,
       "public_repos": 561,
       "location": "San Francisco, London, Austin, Lisbon, Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 195218
+      "total_stars": 194987
     },
     {
       "login": "oracle",
@@ -741,7 +746,7 @@
       "name": "Second State",
       "avatar_url": "https://avatars.githubusercontent.com/u/47135233?v=4",
       "html_url": "https://github.com/second-state",
-      "followers": 484,
+      "followers": 485,
       "following": 0,
       "public_repos": 331,
       "location": "Austin, TX, USA",
@@ -760,7 +765,7 @@
       "location": "Austin, TX",
       "bio": null,
       "company": null,
-      "total_stars": 7154
+      "total_stars": 7155
     },
     {
       "login": "Embarcadero",
@@ -1094,9 +1099,9 @@
       "full_name": "coreybutler/nvm-windows",
       "html_url": "https://github.com/coreybutler/nvm-windows",
       "description": "A node.js version management utility for Windows. Ironically written in Go.",
-      "stargazers_count": 46413,
+      "stargazers_count": 46416,
       "forks_count": 3825,
-      "watchers_count": 46413,
+      "watchers_count": 46416,
       "language": "Go",
       "owner_login": "coreybutler",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/770982?v=4",
@@ -1108,9 +1113,9 @@
       "full_name": "cloudflare/pingora",
       "html_url": "https://github.com/cloudflare/pingora",
       "description": "A library for building fast, reliable and evolvable network services.",
-      "stargazers_count": 26653,
+      "stargazers_count": 26654,
       "forks_count": 1647,
-      "watchers_count": 26653,
+      "watchers_count": 26654,
       "language": "Rust",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1130,7 +1135,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4430336?v=4",
       "owner_type": "Organization",
       "created_at": "2016-01-14T17:11:35Z",
-      "pushed_at": "2026-05-17T20:41:06Z"
+      "pushed_at": "2026-05-18T07:51:09Z"
     },
     {
       "full_name": "dhg/Skeleton",
@@ -1200,7 +1205,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2018-09-29T18:22:05Z",
-      "pushed_at": "2026-05-14T22:06:56Z"
+      "pushed_at": "2026-05-18T07:43:50Z"
     },
     {
       "full_name": "cloudflare/moltworker",
@@ -1220,9 +1225,9 @@
       "full_name": "cloudflare/cfssl",
       "html_url": "https://github.com/cloudflare/cfssl",
       "description": "CFSSL: Cloudflare's PKI and TLS toolkit",
-      "stargazers_count": 9413,
+      "stargazers_count": 9412,
       "forks_count": 1143,
-      "watchers_count": 9413,
+      "watchers_count": 9412,
       "language": "Go",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1234,37 +1239,37 @@
       "full_name": "cloudflare/workerd",
       "html_url": "https://github.com/cloudflare/workerd",
       "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
-      "stargazers_count": 8226,
+      "stargazers_count": 8227,
       "forks_count": 639,
-      "watchers_count": 8226,
+      "watchers_count": 8227,
       "language": "C++",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2022-09-15T15:15:16Z",
-      "pushed_at": "2026-05-18T05:16:49Z"
+      "pushed_at": "2026-05-18T08:25:28Z"
     },
     {
       "full_name": "cloudflare/vinext",
       "html_url": "https://github.com/cloudflare/vinext",
       "description": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
-      "stargazers_count": 8068,
+      "stargazers_count": 8069,
       "forks_count": 326,
-      "watchers_count": 8068,
+      "watchers_count": 8069,
       "language": "TypeScript",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2026-02-24T05:07:41Z",
-      "pushed_at": "2026-05-16T19:16:39Z"
+      "pushed_at": "2026-05-18T08:30:36Z"
     },
     {
       "full_name": "cloudflare/boringtun",
       "html_url": "https://github.com/cloudflare/boringtun",
       "description": "Userspace WireGuard® Implementation in Rust",
-      "stargazers_count": 7052,
+      "stargazers_count": 7053,
       "forks_count": 512,
-      "watchers_count": 7052,
+      "watchers_count": 7053,
       "language": "Rust",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1374,15 +1379,15 @@
       "full_name": "cloudflare/cloudflare-docs",
       "html_url": "https://github.com/cloudflare/cloudflare-docs",
       "description": "Cloudflare’s documentation",
-      "stargazers_count": 4724,
-      "forks_count": 14402,
-      "watchers_count": 4724,
+      "stargazers_count": 4725,
+      "forks_count": 14405,
+      "watchers_count": 4725,
       "language": "MDX",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2020-09-03T20:29:26Z",
-      "pushed_at": "2026-05-18T05:23:29Z"
+      "pushed_at": "2026-05-18T08:22:12Z"
     },
     {
       "full_name": "davatron5000/FitVids.js",
@@ -1494,7 +1499,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2021-11-10T14:45:40Z",
-      "pushed_at": "2026-05-17T20:05:37Z"
+      "pushed_at": "2026-05-18T08:31:56Z"
     },
     {
       "full_name": "cloudflare/miniflare",
@@ -1514,9 +1519,9 @@
       "full_name": "theori-io/copy-fail-CVE-2026-31431",
       "html_url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
       "description": "Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code",
-      "stargazers_count": 3831,
+      "stargazers_count": 3832,
       "forks_count": 850,
-      "watchers_count": 3831,
+      "watchers_count": 3832,
       "language": "Python",
       "owner_login": "theori-io",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/18063559?v=4",
@@ -1627,7 +1632,7 @@
       "html_url": "https://github.com/cloudflare/agentic-inbox",
       "description": "A self-hosted email client with an AI agent, running entirely on Cloudflare Workers",
       "stargazers_count": 3039,
-      "forks_count": 400,
+      "forks_count": 402,
       "watchers_count": 3039,
       "language": "TypeScript",
       "owner_login": "cloudflare",
@@ -1640,9 +1645,9 @@
       "full_name": "jbogard/Respawn",
       "html_url": "https://github.com/jbogard/Respawn",
       "description": "Intelligent database cleaner for integration tests",
-      "stargazers_count": 2990,
+      "stargazers_count": 2989,
       "forks_count": 153,
-      "watchers_count": 2990,
+      "watchers_count": 2989,
       "language": "C#",
       "owner_login": "jbogard",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/104498?v=4",

@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Australia",
   "slug": "australia",
-  "generated_at": "2026-05-18T07:11:51.062Z",
+  "generated_at": "2026-05-18T08:43:14.349Z",
   "counts": {
-    "users": 50,
+    "users": 51,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 162976,
-    "org_followers": 24773,
-    "user_stars": 446012,
-    "org_stars": 305258
+    "user_followers": 165738,
+    "org_followers": 24776,
+    "user_stars": 505108,
+    "org_stars": 305263
   },
   "queries": [
     {
@@ -26,12 +26,30 @@
       "ui_url": "https://github.com/search?q=location%3A%22Australia%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Australia\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
     }
   ],
   "users": [
+    {
+      "login": "sickcodes",
+      "name": "sickcodes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65906298?v=4",
+      "html_url": "https://github.com/sickcodes",
+      "followers": 2762,
+      "following": 166,
+      "public_repos": 205,
+      "location": "Australiasia",
+      "bio": "Security Researcher | Freelance Developer | Open Source\r\n\r\nI'm on Twitter, Linkedin, Discord, Telegram, Element\r\n\r\nLinks: http://sick.codes\r\n\r\ninfo@sick.codes",
+      "company": "Hacker | Contractor | Security Researcer | Freelance Developer | Open Source",
+      "total_stars": 59092
+    },
     {
       "login": "jpillora",
       "name": "Jaime Pillora",
@@ -69,7 +87,7 @@
       "location": "Sydney, Australia",
       "bio": null,
       "company": null,
-      "total_stars": 29175
+      "total_stars": 29176
     },
     {
       "login": "jasontaylordev",
@@ -82,7 +100,7 @@
       "location": "Brisbane, Australia",
       "bio": "Solutions Architect • Microsoft MVP",
       "company": "@Particular",
-      "total_stars": 26383
+      "total_stars": 26384
     },
     {
       "login": "basarat",
@@ -173,7 +191,7 @@
       "location": "Australia",
       "bio": "CLIMBER NERD!",
       "company": "Crossfire Coding",
-      "total_stars": 13985
+      "total_stars": 13986
     },
     {
       "login": "davecheney",
@@ -329,7 +347,7 @@
       "location": "Brisbane, Australia",
       "bio": "Robotics research and education.",
       "company": null,
-      "total_stars": 6464
+      "total_stars": 6465
     },
     {
       "login": "haskellcamargo",
@@ -695,7 +713,7 @@
       "location": "Australia",
       "bio": null,
       "company": null,
-      "total_stars": 98852
+      "total_stars": 98853
     },
     {
       "login": "atlassian",
@@ -741,13 +759,13 @@
       "name": "Betaflight",
       "avatar_url": "https://avatars.githubusercontent.com/u/19597933?v=4",
       "html_url": "https://github.com/betaflight",
-      "followers": 2106,
+      "followers": 2107,
       "following": 0,
       "public_repos": 25,
       "location": "Australia",
       "bio": "Open Source Flight Controller Firmware Project",
       "company": null,
-      "total_stars": 16274
+      "total_stars": 16276
     },
     {
       "login": "cdnjs",
@@ -877,7 +895,7 @@
       "location": "Canberra, Australia",
       "bio": null,
       "company": null,
-      "total_stars": 2557
+      "total_stars": 2559
     },
     {
       "login": "csiro-robotics",
@@ -1027,7 +1045,7 @@
       "name": "WiseTech Global",
       "avatar_url": "https://avatars.githubusercontent.com/u/18300026?v=4",
       "html_url": "https://github.com/WiseTechGlobal",
-      "followers": 844,
+      "followers": 846,
       "following": 0,
       "public_repos": 7,
       "location": "Australia",
@@ -1076,6 +1094,20 @@
     }
   ],
   "repos": [
+    {
+      "full_name": "sickcodes/Docker-OSX",
+      "html_url": "https://github.com/sickcodes/Docker-OSX",
+      "description": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.",
+      "stargazers_count": 52503,
+      "forks_count": 2887,
+      "watchers_count": 52503,
+      "language": "Shell",
+      "owner_login": "sickcodes",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/65906298?v=4",
+      "owner_type": "User",
+      "created_at": "2020-06-04T11:01:37Z",
+      "pushed_at": "2025-11-11T05:23:57Z"
+    },
     {
       "full_name": "wailsapp/wails",
       "html_url": "https://github.com/wailsapp/wails",
@@ -1150,9 +1182,9 @@
       "full_name": "jasontaylordev/CleanArchitecture",
       "html_url": "https://github.com/jasontaylordev/CleanArchitecture",
       "description": "Clean Architecture Solution Template for ASP.NET Core",
-      "stargazers_count": 20079,
+      "stargazers_count": 20080,
       "forks_count": 4208,
-      "watchers_count": 20079,
+      "watchers_count": 20080,
       "language": "C#",
       "owner_login": "jasontaylordev",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1988321?v=4",
@@ -1206,9 +1238,9 @@
       "full_name": "OJ/gobuster",
       "html_url": "https://github.com/OJ/gobuster",
       "description": "Directory/File, DNS and VHost busting tool written in Go",
-      "stargazers_count": 13706,
+      "stargazers_count": 13707,
       "forks_count": 1577,
-      "watchers_count": 13706,
+      "watchers_count": 13707,
       "language": "Go",
       "owner_login": "OJ",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/28896?v=4",
@@ -1276,9 +1308,9 @@
       "full_name": "betaflight/betaflight",
       "html_url": "https://github.com/betaflight/betaflight",
       "description": "Open Source Flight Controller Firmware",
-      "stargazers_count": 10967,
+      "stargazers_count": 10969,
       "forks_count": 3761,
-      "watchers_count": 10967,
+      "watchers_count": 10969,
       "language": "C",
       "owner_login": "betaflight",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/19597933?v=4",
@@ -1290,9 +1322,9 @@
       "full_name": "fastai/numerical-linear-algebra",
       "html_url": "https://github.com/fastai/numerical-linear-algebra",
       "description": "Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course",
-      "stargazers_count": 10864,
+      "stargazers_count": 10865,
       "forks_count": 2676,
-      "watchers_count": 10864,
+      "watchers_count": 10865,
       "language": "Jupyter Notebook",
       "owner_login": "fastai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20547620?v=4",
@@ -1333,7 +1365,7 @@
       "html_url": "https://github.com/is-a-dev/register",
       "description": "Grab your own sweet-looking '.is-a.dev' subdomain.",
       "stargazers_count": 10305,
-      "forks_count": 21456,
+      "forks_count": 21458,
       "watchers_count": 10305,
       "language": "JavaScript",
       "owner_login": "is-a-dev",
@@ -1529,7 +1561,7 @@
       "html_url": "https://github.com/alecthomas/chroma",
       "description": "A general purpose syntax highlighter in pure Go ",
       "stargazers_count": 4930,
-      "forks_count": 485,
+      "forks_count": 486,
       "watchers_count": 4930,
       "language": "Go",
       "owner_login": "alecthomas",
@@ -1761,20 +1793,6 @@
       "owner_type": "User",
       "created_at": "2013-04-09T01:55:55Z",
       "pushed_at": "2025-09-15T17:12:18Z"
-    },
-    {
-      "full_name": "petercorke/robotics-toolbox-python",
-      "html_url": "https://github.com/petercorke/robotics-toolbox-python",
-      "description": "Robotics Toolbox for Python",
-      "stargazers_count": 3090,
-      "forks_count": 577,
-      "watchers_count": 3090,
-      "language": "Python",
-      "owner_login": "petercorke",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11801682?v=4",
-      "owner_type": "User",
-      "created_at": "2015-04-06T05:05:25Z",
-      "pushed_at": "2024-09-03T22:16:41Z"
     }
   ]
 }

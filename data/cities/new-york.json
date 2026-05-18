@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-05-18T07:07:05.782Z",
+  "generated_at": "2026-05-18T08:31:47.188Z",
   "counts": {
     "users": 50,
-    "orgs": 30,
+    "orgs": 31,
     "repos": 50
   },
   "totals": {
-    "user_followers": 329721,
-    "org_followers": 51722,
-    "user_stars": 870762,
-    "org_stars": 666427
+    "user_followers": 329726,
+    "org_followers": 51960,
+    "user_stars": 870776,
+    "org_stars": 733646
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in New York",
       "api_url": "https://api.github.com/search/users?q=location%3A%22New%20York%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22New%20York%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"New York\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,7 +48,7 @@
       "location": "New York, NY",
       "bio": "Building 🎧",
       "company": null,
-      "total_stars": 88422
+      "total_stars": 88427
     },
     {
       "login": "jaredpalmer",
@@ -89,13 +94,13 @@
       "name": "Hassan El Mghari",
       "avatar_url": "https://avatars.githubusercontent.com/u/63742054?v=4",
       "html_url": "https://github.com/Nutlope",
-      "followers": 8009,
+      "followers": 8010,
       "following": 43,
       "public_repos": 94,
       "location": "New York City, NY",
       "bio": "Building.",
       "company": null,
-      "total_stars": 63056
+      "total_stars": 63057
     },
     {
       "login": "charlax",
@@ -108,7 +113,7 @@
       "location": "New York",
       "bio": "Scaling teams, product and tech at a stealth startup",
       "company": null,
-      "total_stars": 61007
+      "total_stars": 61011
     },
     {
       "login": "keon",
@@ -121,7 +126,7 @@
       "location": "New York City",
       "bio": "Co-founder @ Om Labs,\r\nex-Uber\r\n\r\n#rai-verify-2026 ",
       "company": "Om Labs",
-      "total_stars": 50628
+      "total_stars": 50630
     },
     {
       "login": "acdlite",
@@ -264,14 +269,14 @@
       "location": "New York",
       "bio": "Co-Founder and CTO at AI startup Nebula.io",
       "company": "Nebula.io",
-      "total_stars": 12451
+      "total_stars": 12452
     },
     {
       "login": "erikbern",
       "name": "Erik Bernhardsson",
       "avatar_url": "https://avatars.githubusercontent.com/u/1027979?v=4",
       "html_url": "https://github.com/erikbern",
-      "followers": 3558,
+      "followers": 3559,
       "following": 5,
       "public_repos": 38,
       "location": "New York City",
@@ -414,7 +419,7 @@
       "name": "Zac Sweers",
       "avatar_url": "https://avatars.githubusercontent.com/u/1361086?v=4",
       "html_url": "https://github.com/ZacSweers",
-      "followers": 2596,
+      "followers": 2597,
       "following": 109,
       "public_repos": 243,
       "location": "New York",
@@ -433,7 +438,7 @@
       "location": "New York",
       "bio": "Chief Data Scientist; Author of \"Deep Learning Illustrated\"; SuperDataScience Host",
       "company": "Y Carrot",
-      "total_stars": 5625
+      "total_stars": 5626
     },
     {
       "login": "indexzero",
@@ -557,7 +562,7 @@
       "name": "Dmitry Selikhov",
       "avatar_url": "https://avatars.githubusercontent.com/u/6536323?v=4",
       "html_url": "https://github.com/idimetrix",
-      "followers": 15686,
+      "followers": 15687,
       "following": 237773,
       "public_repos": 4275,
       "location": "New York",
@@ -583,7 +588,7 @@
       "name": "Monica Powell",
       "avatar_url": "https://avatars.githubusercontent.com/u/6998954?v=4",
       "html_url": "https://github.com/M0nica",
-      "followers": 4051,
+      "followers": 4052,
       "following": 72,
       "public_repos": 209,
       "location": "New York, New York",
@@ -596,7 +601,7 @@
       "name": "Gazi",
       "avatar_url": "https://avatars.githubusercontent.com/u/32211479?v=4",
       "html_url": "https://github.com/gazijarin",
-      "followers": 5137,
+      "followers": 5138,
       "following": 5,
       "public_repos": 19,
       "location": "New York City",
@@ -623,7 +628,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/97250816?v=4",
       "html_url": "https://github.com/cumsoft",
       "followers": 18474,
-      "following": 175310,
+      "following": 175309,
       "public_repos": 8,
       "location": "New York, NY",
       "bio": "CLT, XR & Hybrid Kernel Dev",
@@ -648,8 +653,8 @@
       "name": "Michael Paulino ",
       "avatar_url": "https://avatars.githubusercontent.com/u/181088958?v=4",
       "html_url": "https://github.com/mi6paulino",
-      "followers": 3149,
-      "following": 53141,
+      "followers": 3148,
+      "following": 53140,
       "public_repos": 67,
       "location": "New York City ",
       "bio": "Founder VIGIA.I ©️ tracking integrated data . \r\nA.i Artist  . my cashapp is $Mrveryviral if you want to buy me a coffee",
@@ -695,7 +700,7 @@
       "location": "New York, NY",
       "bio": "A repository for good papers to read, PWL chapters, and PWL content. ",
       "company": null,
-      "total_stars": 107135
+      "total_stars": 107139
     },
     {
       "login": "daytonaio",
@@ -708,7 +713,20 @@
       "location": "New York",
       "bio": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code.",
       "company": null,
-      "total_stars": 73473
+      "total_stars": 73476
+    },
+    {
+      "login": "Semantic-Org",
+      "name": "Semantic Org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+      "html_url": "https://github.com/Semantic-Org",
+      "followers": 239,
+      "following": 0,
+      "public_repos": 81,
+      "location": "New York",
+      "bio": "Semantic Organization",
+      "company": null,
+      "total_stars": 67201
     },
     {
       "login": "trailofbits",
@@ -721,20 +739,20 @@
       "location": "New York, New York",
       "bio": "More code: binary lifters @lifting-bits, blockchain @crytic, forks @trail-of-forks ",
       "company": null,
-      "total_stars": 66479
+      "total_stars": 66480
     },
     {
       "login": "AI4Finance-Foundation",
       "name": "AI4Finance Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/68813910?v=4",
       "html_url": "https://github.com/AI4Finance-Foundation",
-      "followers": 6455,
+      "followers": 6453,
       "following": 0,
       "public_repos": 43,
       "location": "New York City",
       "bio": "A Nonprofit Organization Dedicated to Advancing AI in the Finance Industry through Promoting Better Standardization and Open-Source Tooling.",
       "company": null,
-      "total_stars": 56425
+      "total_stars": 56430
     },
     {
       "login": "wix",
@@ -799,7 +817,7 @@
       "location": "New York",
       "bio": null,
       "company": null,
-      "total_stars": 30611
+      "total_stars": 30612
     },
     {
       "login": "exyte",
@@ -864,7 +882,7 @@
       "location": "New York City",
       "bio": "Polymarket",
       "company": null,
-      "total_stars": 10980
+      "total_stars": 10982
     },
     {
       "login": "zabbix",
@@ -942,7 +960,7 @@
       "location": "New York, NY",
       "bio": "Open source code from Very Good Ventures (@VGVentures)",
       "company": null,
-      "total_stars": 5477
+      "total_stars": 5479
     },
     {
       "login": "twosigma",
@@ -1066,7 +1084,7 @@
       "name": "10gen",
       "avatar_url": "https://avatars.githubusercontent.com/u/15374?v=4",
       "html_url": "https://github.com/10gen",
-      "followers": 741,
+      "followers": 742,
       "following": 0,
       "public_repos": 23,
       "location": "New York, NY",
@@ -1080,9 +1098,9 @@
       "full_name": "papers-we-love/papers-we-love",
       "html_url": "https://github.com/papers-we-love/papers-we-love",
       "description": "Papers from the computer science community to read and discuss.",
-      "stargazers_count": 106266,
+      "stargazers_count": 106270,
       "forks_count": 6353,
-      "watchers_count": 106266,
+      "watchers_count": 106270,
       "language": "Shell",
       "owner_login": "papers-we-love",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6187757?v=4",
@@ -1094,15 +1112,15 @@
       "full_name": "daytonaio/daytona",
       "html_url": "https://github.com/daytonaio/daytona",
       "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
-      "stargazers_count": 72424,
+      "stargazers_count": 72427,
       "forks_count": 5571,
-      "watchers_count": 72424,
+      "watchers_count": 72427,
       "language": "TypeScript",
       "owner_login": "daytonaio",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/130513197?v=4",
       "owner_type": "Organization",
       "created_at": "2024-02-06T08:21:20Z",
-      "pushed_at": "2026-05-17T21:24:17Z"
+      "pushed_at": "2026-05-18T07:51:04Z"
     },
     {
       "full_name": "kdn251/interviews",
@@ -1122,9 +1140,9 @@
       "full_name": "virattt/ai-hedge-fund",
       "html_url": "https://github.com/virattt/ai-hedge-fund",
       "description": "An AI Hedge Fund Team",
-      "stargazers_count": 58943,
-      "forks_count": 10362,
-      "watchers_count": 58943,
+      "stargazers_count": 58944,
+      "forks_count": 10363,
+      "watchers_count": 58944,
       "language": "Python",
       "owner_login": "virattt",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/901795?v=4",
@@ -1133,12 +1151,26 @@
       "pushed_at": "2026-05-14T19:56:58Z"
     },
     {
+      "full_name": "Semantic-Org/Semantic-UI",
+      "html_url": "https://github.com/Semantic-Org/Semantic-UI",
+      "description": "Semantic is a UI component framework based around useful principles from natural language.",
+      "stargazers_count": 51093,
+      "forks_count": 4876,
+      "watchers_count": 51093,
+      "language": "JavaScript",
+      "owner_login": "Semantic-Org",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+      "owner_type": "Organization",
+      "created_at": "2013-04-08T23:32:04Z",
+      "pushed_at": "2024-11-27T21:01:48Z"
+    },
+    {
       "full_name": "charlax/professional-programming",
       "html_url": "https://github.com/charlax/professional-programming",
       "description": "A collection of learning resources for curious software engineers",
-      "stargazers_count": 50938,
+      "stargazers_count": 50942,
       "forks_count": 3983,
-      "watchers_count": 50938,
+      "watchers_count": 50942,
       "language": "Python",
       "owner_login": "charlax",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/120501?v=4",
@@ -1192,9 +1224,9 @@
       "full_name": "virattt/dexter",
       "html_url": "https://github.com/virattt/dexter",
       "description": "An autonomous agent for deep financial research",
-      "stargazers_count": 25820,
-      "forks_count": 3157,
-      "watchers_count": 25820,
+      "stargazers_count": 25824,
+      "forks_count": 3158,
+      "watchers_count": 25824,
       "language": "TypeScript",
       "owner_login": "virattt",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/901795?v=4",
@@ -1207,7 +1239,7 @@
       "html_url": "https://github.com/keon/algorithms",
       "description": "Minimal examples of data structures and algorithms in Python",
       "stargazers_count": 25450,
-      "forks_count": 4723,
+      "forks_count": 4722,
       "watchers_count": 25450,
       "language": "Python",
       "owner_login": "keon",
@@ -1234,9 +1266,9 @@
       "full_name": "AI4Finance-Foundation/FinGPT",
       "html_url": "https://github.com/AI4Finance-Foundation/FinGPT",
       "description": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
-      "stargazers_count": 20229,
+      "stargazers_count": 20230,
       "forks_count": 2876,
-      "watchers_count": 20229,
+      "watchers_count": 20230,
       "language": "Jupyter Notebook",
       "owner_login": "AI4Finance-Foundation",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/68813910?v=4",
@@ -1276,9 +1308,9 @@
       "full_name": "AI4Finance-Foundation/FinRL",
       "html_url": "https://github.com/AI4Finance-Foundation/FinRL",
       "description": "FinRL®:  Financial Reinforcement Learning. 🔥",
-      "stargazers_count": 15175,
-      "forks_count": 3341,
-      "watchers_count": 15175,
+      "stargazers_count": 15177,
+      "forks_count": 3342,
+      "watchers_count": 15177,
       "language": "Jupyter Notebook",
       "owner_login": "AI4Finance-Foundation",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/68813910?v=4",
@@ -1315,6 +1347,20 @@
       "pushed_at": "2026-01-22T13:03:07Z"
     },
     {
+      "full_name": "Semantic-Org/Semantic-UI-React",
+      "html_url": "https://github.com/Semantic-Org/Semantic-UI-React",
+      "description": "The official Semantic-UI-React integration",
+      "stargazers_count": 13223,
+      "forks_count": 4029,
+      "watchers_count": 13223,
+      "language": "JavaScript",
+      "owner_login": "Semantic-Org",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?v=4",
+      "owner_type": "Organization",
+      "created_at": "2015-06-19T16:47:19Z",
+      "pushed_at": "2024-11-22T09:09:59Z"
+    },
+    {
       "full_name": "wix/react-native-navigation",
       "html_url": "https://github.com/wix/react-native-navigation",
       "description": "A complete native navigation solution for React Native",
@@ -1326,7 +1372,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
       "owner_type": "Organization",
       "created_at": "2016-03-11T11:22:54Z",
-      "pushed_at": "2026-05-17T11:47:32Z"
+      "pushed_at": "2026-05-18T08:10:06Z"
     },
     {
       "full_name": "acdlite/react-fiber-architecture",
@@ -1571,7 +1617,7 @@
       "html_url": "https://github.com/wix/react-native-ui-lib",
       "description": "UI Components Library for React Native",
       "stargazers_count": 7135,
-      "forks_count": 751,
+      "forks_count": 752,
       "watchers_count": 7135,
       "language": "TypeScript",
       "owner_login": "wix",
@@ -1584,9 +1630,9 @@
       "full_name": "Nutlope/logocreator",
       "html_url": "https://github.com/Nutlope/logocreator",
       "description": "A free + OSS logo generator powered by Flux on Together AI",
-      "stargazers_count": 6997,
+      "stargazers_count": 6998,
       "forks_count": 678,
-      "watchers_count": 6997,
+      "watchers_count": 6998,
       "language": "TypeScript",
       "owner_login": "Nutlope",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/63742054?v=4",
@@ -1598,9 +1644,9 @@
       "full_name": "AI4Finance-Foundation/FinRobot",
       "html_url": "https://github.com/AI4Finance-Foundation/FinRobot",
       "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 ",
-      "stargazers_count": 6984,
+      "stargazers_count": 6985,
       "forks_count": 1180,
-      "watchers_count": 6984,
+      "watchers_count": 6985,
       "language": "Jupyter Notebook",
       "owner_login": "AI4Finance-Foundation",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/68813910?v=4",
@@ -1747,34 +1793,6 @@
       "owner_type": "User",
       "created_at": "2024-08-31T23:24:51Z",
       "pushed_at": "2026-05-16T16:05:15Z"
-    },
-    {
-      "full_name": "exyte/Macaw",
-      "html_url": "https://github.com/exyte/Macaw",
-      "description": "Powerful and easy-to-use vector graphics Swift library with SVG support",
-      "stargazers_count": 6048,
-      "forks_count": 567,
-      "watchers_count": 6048,
-      "language": "Swift",
-      "owner_login": "exyte",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10406525?v=4",
-      "owner_type": "Organization",
-      "created_at": "2015-12-02T12:37:24Z",
-      "pushed_at": "2024-02-07T13:37:26Z"
-    },
-    {
-      "full_name": "zabbix/zabbix",
-      "html_url": "https://github.com/zabbix/zabbix",
-      "description": "Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.",
-      "stargazers_count": 5910,
-      "forks_count": 1206,
-      "watchers_count": 5910,
-      "language": "Go Template",
-      "owner_login": "zabbix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4561226?v=4",
-      "owner_type": "Organization",
-      "created_at": "2014-02-27T15:36:03Z",
-      "pushed_at": "2026-05-15T13:00:39Z"
     }
   ]
 }

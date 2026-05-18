@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Japan",
   "slug": "japan",
-  "generated_at": "2026-05-18T07:11:02.205Z",
+  "generated_at": "2026-05-18T08:42:34.495Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 273101,
-    "org_followers": 21547,
-    "user_stars": 794018,
-    "org_stars": 284363
+    "user_followers": 273104,
+    "org_followers": 21549,
+    "user_stars": 794030,
+    "org_stars": 284371
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22Japan%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Japan\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,13 +42,13 @@
       "name": "Daichi Furiya",
       "avatar_url": "https://avatars.githubusercontent.com/u/1833474?v=4",
       "html_url": "https://github.com/wasabeef",
-      "followers": 9640,
+      "followers": 9639,
       "following": 60,
       "public_repos": 62,
       "location": "Tokyo, Japan",
       "bio": "Google Developers Expert for Android",
       "company": "CyberAgent, Inc.",
-      "total_stars": 112490
+      "total_stars": 112493
     },
     {
       "login": "blueimp",
@@ -63,7 +68,7 @@
       "name": "Keijiro Takahashi",
       "avatar_url": "https://avatars.githubusercontent.com/u/343936?v=4",
       "html_url": "https://github.com/keijiro",
-      "followers": 23623,
+      "followers": 23624,
       "following": 0,
       "public_repos": 919,
       "location": "Japan",
@@ -77,7 +82,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/1019875?v=4",
       "html_url": "https://github.com/onevcat",
       "followers": 15805,
-      "following": 142,
+      "following": 143,
       "public_repos": 256,
       "location": "Yokohama, Japan / China",
       "bio": "A creator creating for creators: thinking, building, evolving.",
@@ -89,7 +94,7 @@
       "name": "mattn",
       "avatar_url": "https://avatars.githubusercontent.com/u/10111?v=4",
       "html_url": "https://github.com/mattn",
-      "followers": 13334,
+      "followers": 13335,
       "following": 1698,
       "public_repos": 2176,
       "location": "Osaka, Japan",
@@ -147,7 +152,7 @@
       "location": "Tokyo, Japan",
       "bio": "A dog enjoying software development (with bugs)",
       "company": "#\"><img src=X onerror=alert('👋🐶');>",
-      "total_stars": 29738
+      "total_stars": 29739
     },
     {
       "login": "privatenumber",
@@ -160,7 +165,7 @@
       "location": "Tokyo, Japan",
       "bio": "I'm on a mission to open source my solutions 🚀",
       "company": "@vercel",
-      "total_stars": 26522
+      "total_stars": 26524
     },
     {
       "login": "shu223",
@@ -193,13 +198,13 @@
       "name": "Brett Wooldridge",
       "avatar_url": "https://avatars.githubusercontent.com/u/1538661?v=4",
       "html_url": "https://github.com/brettwooldridge",
-      "followers": 1984,
+      "followers": 1985,
       "following": 4,
       "public_repos": 91,
       "location": "Tokyo, Japan",
       "bio": "Vice President and Lead Architect of Software Development.  Father of an angel who fell to Earth and somehow into my life.\r\n",
       "company": "LogicVein, Inc",
-      "total_stars": 23250
+      "total_stars": 23249
     },
     {
       "login": "mob-sakai",
@@ -212,7 +217,7 @@
       "location": "Tokyo, Japan",
       "bio": null,
       "company": "WFS, Inc.",
-      "total_stars": 21353
+      "total_stars": 21354
     },
     {
       "login": "mame",
@@ -290,7 +295,7 @@
       "location": "Japan",
       "bio": null,
       "company": "AIST",
-      "total_stars": 13452
+      "total_stars": 13454
     },
     {
       "login": "kevinzhow",
@@ -368,7 +373,7 @@
       "location": "Japan",
       "bio": "Software Dev @ X | Linux, Java, Spring, Python, Golang, Next.js | Open Source Enthusiast | LLM Innovator | M.Sc. in Software Engineering 🚀",
       "company": "Jobleap.cn",
-      "total_stars": 8659
+      "total_stars": 8661
     },
     {
       "login": "fukamachi",
@@ -433,7 +438,7 @@
       "location": "Tokyo, Japan",
       "bio": "\r\n    ＼ Software Engineer ／\r\n\r\n",
       "company": null,
-      "total_stars": 6582
+      "total_stars": 6583
     },
     {
       "login": "drakeet",
@@ -479,7 +484,7 @@
       "name": "Domenic Denicola",
       "avatar_url": "https://avatars.githubusercontent.com/u/617481?v=4",
       "html_url": "https://github.com/domenic",
-      "followers": 5601,
+      "followers": 5602,
       "following": 80,
       "public_repos": 86,
       "location": "Tokyo, Japan",
@@ -498,7 +503,7 @@
       "location": "Tokyo/Japan",
       "bio": null,
       "company": null,
-      "total_stars": 4969
+      "total_stars": 4970
     },
     {
       "login": "yusukebe",
@@ -622,7 +627,7 @@
       "name": "manman4",
       "avatar_url": "https://avatars.githubusercontent.com/u/7023566?v=4",
       "html_url": "https://github.com/manman4",
-      "followers": 4383,
+      "followers": 4384,
       "following": 4888,
       "public_repos": 37,
       "location": "Japan",
@@ -661,7 +666,7 @@
       "name": "Achraf",
       "avatar_url": "https://avatars.githubusercontent.com/u/43996450?v=4",
       "html_url": "https://github.com/AchrafReyani",
-      "followers": 1901,
+      "followers": 1900,
       "following": 2463,
       "public_repos": 11,
       "location": "Tokyo, Japan",
@@ -689,7 +694,7 @@
       "name": "The Ruby Programming Language",
       "avatar_url": "https://avatars.githubusercontent.com/u/210414?v=4",
       "html_url": "https://github.com/ruby",
-      "followers": 2028,
+      "followers": 2030,
       "following": 0,
       "public_repos": 189,
       "location": "Japan",
@@ -708,7 +713,7 @@
       "location": "Tokyo, Japan",
       "bio": "Cysharp is a subsidiary of Cygames, that is focusing C# both .NET and Unity.",
       "company": null,
-      "total_stars": 50019
+      "total_stars": 50020
     },
     {
       "login": "mybatis",
@@ -721,7 +726,7 @@
       "location": "Canada, Colombia, Italy, Japan, Perú, Spain, Russia, Thailand, UK, Ukranie and USA",
       "bio": null,
       "company": null,
-      "total_stars": 37131
+      "total_stars": 37132
     },
     {
       "login": "line",
@@ -734,7 +739,7 @@
       "location": "Tokyo, Japan",
       "bio": null,
       "company": null,
-      "total_stars": 24238
+      "total_stars": 24239
     },
     {
       "login": "sony",
@@ -799,7 +804,7 @@
       "location": "Japan",
       "bio": "Open source disk encryption based on defunct TrueCrypt with strong security for the Paranoid ",
       "company": null,
-      "total_stars": 10035
+      "total_stars": 10036
     },
     {
       "login": "Floorp-Projects",
@@ -825,7 +830,7 @@
       "location": "Japan",
       "bio": "Lightweight Plain Text Editor for macOS",
       "company": null,
-      "total_stars": 8234
+      "total_stars": 8235
     },
     {
       "login": "JPCERTCC",
@@ -864,7 +869,7 @@
       "location": "Japan",
       "bio": null,
       "company": null,
-      "total_stars": 5544
+      "total_stars": 5545
     },
     {
       "login": "CyberAgentGameEntertainment",
@@ -929,7 +934,7 @@
       "location": "Japan",
       "bio": null,
       "company": null,
-      "total_stars": 2520
+      "total_stars": 2522
     },
     {
       "login": "llm-jp",
@@ -1080,9 +1085,9 @@
       "full_name": "wasabeef/awesome-android-ui",
       "html_url": "https://github.com/wasabeef/awesome-android-ui",
       "description": "A curated list of awesome Android UI/UX libraries",
-      "stargazers_count": 56126,
+      "stargazers_count": 56129,
       "forks_count": 10256,
-      "watchers_count": 56126,
+      "watchers_count": 56129,
       "language": null,
       "owner_login": "wasabeef",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1833474?v=4",
@@ -1123,7 +1128,7 @@
       "html_url": "https://github.com/onevcat/Kingfisher",
       "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
       "stargazers_count": 24329,
-      "forks_count": 2758,
+      "forks_count": 2759,
       "watchers_count": 24329,
       "language": "Swift",
       "owner_login": "onevcat",
@@ -1164,9 +1169,9 @@
       "full_name": "brettwooldridge/HikariCP",
       "html_url": "https://github.com/brettwooldridge/HikariCP",
       "description": "光 HikariCP・A solid, high-performance, JDBC connection pool at last.",
-      "stargazers_count": 21109,
+      "stargazers_count": 21108,
       "forks_count": 3011,
-      "watchers_count": 21109,
+      "watchers_count": 21108,
       "language": "Java",
       "owner_login": "brettwooldridge",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1538661?v=4",
@@ -1178,9 +1183,9 @@
       "full_name": "mybatis/mybatis-3",
       "html_url": "https://github.com/mybatis/mybatis-3",
       "description": "MyBatis SQL mapper framework for Java",
-      "stargazers_count": 20413,
+      "stargazers_count": 20414,
       "forks_count": 12914,
-      "watchers_count": 20413,
+      "watchers_count": 20414,
       "language": "Java",
       "owner_login": "mybatis",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1483254?v=4",
@@ -1304,9 +1309,9 @@
       "full_name": "veracrypt/VeraCrypt",
       "html_url": "https://github.com/veracrypt/VeraCrypt",
       "description": "Disk encryption with strong security based on TrueCrypt",
-      "stargazers_count": 9811,
-      "forks_count": 1184,
-      "watchers_count": 9811,
+      "stargazers_count": 9812,
+      "forks_count": 1185,
+      "watchers_count": 9812,
       "language": "C",
       "owner_login": "veracrypt",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7925881?v=4",
@@ -1388,9 +1393,9 @@
       "full_name": "coteditor/CotEditor",
       "html_url": "https://github.com/coteditor/CotEditor",
       "description": "Lightweight Plain Text Editor for macOS",
-      "stargazers_count": 8039,
+      "stargazers_count": 8040,
       "forks_count": 502,
-      "watchers_count": 8039,
+      "watchers_count": 8040,
       "language": "Swift",
       "owner_login": "coteditor",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4069840?v=4",
@@ -1522,7 +1527,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4561226?v=4",
       "owner_type": "Organization",
       "created_at": "2014-02-27T15:36:03Z",
-      "pushed_at": "2026-05-15T13:00:39Z"
+      "pushed_at": "2026-05-18T08:30:37Z"
     },
     {
       "full_name": "drakeet/MultiType",
@@ -1542,9 +1547,9 @@
       "full_name": "mob-sakai/ParticleEffectForUGUI",
       "html_url": "https://github.com/mob-sakai/ParticleEffectForUGUI",
       "description": "Render particle effect in UnityUI(uGUI). Maskable, sortable, and no extra Camera/RenderTexture/Canvas.",
-      "stargazers_count": 5735,
+      "stargazers_count": 5736,
       "forks_count": 747,
-      "watchers_count": 5735,
+      "watchers_count": 5736,
       "language": "C#",
       "owner_login": "mob-sakai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12690315?v=4",

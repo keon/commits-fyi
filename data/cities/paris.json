@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-05-18T07:08:18.030Z",
+  "generated_at": "2026-05-18T08:33:08.122Z",
   "counts": {
-    "users": 50,
+    "users": 51,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 153225,
-    "org_followers": 87669,
-    "user_stars": 625371,
-    "org_stars": 1036387
+    "user_followers": 153960,
+    "org_followers": 87671,
+    "user_stars": 659484,
+    "org_stars": 1036108
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Paris",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Paris%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Paris%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Paris\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,7 +48,7 @@
       "location": "Paris, France",
       "bio": null,
       "company": "Disco Hello / Lizardcube",
-      "total_stars": 75637
+      "total_stars": 75638
     },
     {
       "login": "juliangarnier",
@@ -56,7 +61,7 @@
       "location": "Paris",
       "bio": "Making Anime.js",
       "company": "https://animejs.com",
-      "total_stars": 69817
+      "total_stars": 69826
     },
     {
       "login": "florent37",
@@ -98,6 +103,19 @@
       "total_stars": 44573
     },
     {
+      "login": "luongnv89",
+      "name": "Luong NGUYEN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3288457?v=4",
+      "html_url": "https://github.com/luongnv89",
+      "followers": 733,
+      "following": 20,
+      "public_repos": 128,
+      "location": "Paris, France",
+      "bio": "Software Engineer\r\n/ AI, Cybersecurity\r\n/ Learn, Build, Share and Connect",
+      "company": "https://montimage.com",
+      "total_stars": 34101
+    },
+    {
       "login": "angristan",
       "name": "Stanislas",
       "avatar_url": "https://avatars.githubusercontent.com/u/11699655?v=4",
@@ -108,7 +126,7 @@
       "location": "Paris",
       "bio": "making computers do things",
       "company": "Software Engineer",
-      "total_stars": 30298
+      "total_stars": 30299
     },
     {
       "login": "VincentGarreau",
@@ -154,7 +172,7 @@
       "name": "Farid Safi",
       "avatar_url": "https://avatars.githubusercontent.com/u/388375?v=4",
       "html_url": "https://github.com/FaridSafi",
-      "followers": 1823,
+      "followers": 1824,
       "following": 115,
       "public_repos": 69,
       "location": "Paris, France",
@@ -206,7 +224,7 @@
       "name": "Cyrille Rossant",
       "avatar_url": "https://avatars.githubusercontent.com/u/1942359?v=4",
       "html_url": "https://github.com/rossant",
-      "followers": 1257,
+      "followers": 1258,
       "following": 709,
       "public_repos": 78,
       "location": "Paris",
@@ -225,7 +243,7 @@
       "location": "Paris",
       "bio": null,
       "company": "Creative Journey",
-      "total_stars": 15936
+      "total_stars": 15937
     },
     {
       "login": "gre",
@@ -689,13 +707,13 @@
       "name": "Hugging Face",
       "avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
       "html_url": "https://github.com/huggingface",
-      "followers": 63530,
+      "followers": 63532,
       "following": 0,
       "public_repos": 423,
       "location": "NYC + Paris",
       "bio": "The AI community building the future.",
       "company": null,
-      "total_stars": 643056
+      "total_stars": 642770
     },
     {
       "login": "Genymobile",
@@ -708,7 +726,7 @@
       "location": "Paris, Lyon, San Francisco",
       "bio": null,
       "company": null,
-      "total_stars": 150546
+      "total_stars": 150551
     },
     {
       "login": "zama-ai",
@@ -773,7 +791,7 @@
       "location": "Paris",
       "bio": "The universal open-source software platform to build your e-commerce solution.",
       "company": null,
-      "total_stars": 11777
+      "total_stars": 11778
     },
     {
       "login": "synacktiv",
@@ -786,7 +804,7 @@
       "location": "Paris - France",
       "bio": null,
       "company": null,
-      "total_stars": 10142
+      "total_stars": 10143
     },
     {
       "login": "medialab",
@@ -1080,23 +1098,23 @@
       "full_name": "huggingface/transformers",
       "html_url": "https://github.com/huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stargazers_count": 160708,
-      "forks_count": 33240,
-      "watchers_count": 160709,
+      "stargazers_count": 160711,
+      "forks_count": 33243,
+      "watchers_count": 160711,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
       "owner_type": "Organization",
       "created_at": "2018-10-29T13:56:00Z",
-      "pushed_at": "2026-05-18T07:05:53Z"
+      "pushed_at": "2026-05-18T08:16:46Z"
     },
     {
       "full_name": "Genymobile/scrcpy",
       "html_url": "https://github.com/Genymobile/scrcpy",
       "description": "Display and control your Android device",
-      "stargazers_count": 141877,
-      "forks_count": 13091,
-      "watchers_count": 141877,
+      "stargazers_count": 141882,
+      "forks_count": 13094,
+      "watchers_count": 141882,
       "language": "C",
       "owner_login": "Genymobile",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3427627?v=4",
@@ -1108,9 +1126,9 @@
       "full_name": "ocornut/imgui",
       "html_url": "https://github.com/ocornut/imgui",
       "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
-      "stargazers_count": 73270,
-      "forks_count": 11766,
-      "watchers_count": 73270,
+      "stargazers_count": 73271,
+      "forks_count": 11765,
+      "watchers_count": 73271,
       "language": "C++",
       "owner_login": "ocornut",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8225057?v=4",
@@ -1122,9 +1140,9 @@
       "full_name": "juliangarnier/anime",
       "html_url": "https://github.com/juliangarnier/anime",
       "description": "JavaScript animation engine",
-      "stargazers_count": 68567,
+      "stargazers_count": 68576,
       "forks_count": 4618,
-      "watchers_count": 68567,
+      "watchers_count": 68576,
       "language": "JavaScript",
       "owner_login": "juliangarnier",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1268691?v=4",
@@ -1164,9 +1182,9 @@
       "full_name": "huggingface/pytorch-image-models",
       "html_url": "https://github.com/huggingface/pytorch-image-models",
       "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT)",
-      "stargazers_count": 36817,
+      "stargazers_count": 36815,
       "forks_count": 5163,
-      "watchers_count": 36817,
+      "watchers_count": 36815,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -1178,15 +1196,29 @@
       "full_name": "huggingface/diffusers",
       "html_url": "https://github.com/huggingface/diffusers",
       "description": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch.",
-      "stargazers_count": 33643,
+      "stargazers_count": 33644,
       "forks_count": 6992,
-      "watchers_count": 33643,
+      "watchers_count": 33644,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
       "owner_type": "Organization",
       "created_at": "2022-05-30T16:04:02Z",
-      "pushed_at": "2026-05-17T10:15:45Z"
+      "pushed_at": "2026-05-18T08:19:29Z"
+    },
+    {
+      "full_name": "luongnv89/claude-howto",
+      "html_url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "stargazers_count": 33346,
+      "forks_count": 4082,
+      "watchers_count": 33346,
+      "language": "Python",
+      "owner_login": "luongnv89",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3288457?v=4",
+      "owner_type": "User",
+      "created_at": "2025-11-07T22:59:34Z",
+      "pushed_at": "2026-05-15T06:55:32Z"
     },
     {
       "full_name": "VincentGarreau/particles.js",
@@ -1206,9 +1238,9 @@
       "full_name": "huggingface/agents-course",
       "html_url": "https://github.com/huggingface/agents-course",
       "description": "This repository contains the Hugging Face Agents Course. ",
-      "stargazers_count": 28700,
-      "forks_count": 2062,
-      "watchers_count": 28700,
+      "stargazers_count": 28701,
+      "forks_count": 2063,
+      "watchers_count": 28701,
       "language": "MDX",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -1234,9 +1266,9 @@
       "full_name": "huggingface/smolagents",
       "html_url": "https://github.com/huggingface/smolagents",
       "description": "🤗 smolagents: a barebones library for agents that think in code.",
-      "stargazers_count": 27363,
+      "stargazers_count": 27367,
       "forks_count": 2589,
-      "watchers_count": 27363,
+      "watchers_count": 27367,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -1270,21 +1302,21 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/57671822?v=4",
       "owner_type": "Organization",
       "created_at": "2025-05-02T10:48:20Z",
-      "pushed_at": "2026-05-16T09:25:02Z"
+      "pushed_at": "2026-05-18T08:12:17Z"
     },
     {
       "full_name": "huggingface/lerobot",
       "html_url": "https://github.com/huggingface/lerobot",
       "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
-      "stargazers_count": 24099,
-      "forks_count": 4559,
-      "watchers_count": 24099,
+      "stargazers_count": 24103,
+      "forks_count": 4562,
+      "watchers_count": 24103,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
       "owner_type": "Organization",
       "created_at": "2024-01-26T15:50:41Z",
-      "pushed_at": "2026-05-18T05:00:16Z"
+      "pushed_at": "2026-05-18T07:49:12Z"
     },
     {
       "full_name": "4ian/GDevelop",
@@ -1382,7 +1414,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1506386?v=4",
       "owner_type": "Organization",
       "created_at": "2020-08-25T14:50:56Z",
-      "pushed_at": "2026-05-18T05:24:17Z"
+      "pushed_at": "2026-05-18T08:31:50Z"
     },
     {
       "full_name": "huggingface/sentence-transformers",
@@ -1410,14 +1442,14 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
       "owner_type": "Organization",
       "created_at": "2020-03-27T10:54:55Z",
-      "pushed_at": "2026-05-18T04:38:17Z"
+      "pushed_at": "2026-05-18T07:38:47Z"
     },
     {
       "full_name": "emilwallner/Screenshot-to-code",
       "html_url": "https://github.com/emilwallner/Screenshot-to-code",
       "description": "A neural network that transforms a design mock-up into a static website.",
       "stargazers_count": 16484,
-      "forks_count": 1549,
+      "forks_count": 1548,
       "watchers_count": 16484,
       "language": "HTML",
       "owner_login": "emilwallner",
@@ -1528,9 +1560,9 @@
       "full_name": "angristan/wireguard-install",
       "html_url": "https://github.com/angristan/wireguard-install",
       "description": "WireGuard VPN installer for Linux servers",
-      "stargazers_count": 10906,
+      "stargazers_count": 10907,
       "forks_count": 1646,
-      "watchers_count": 10906,
+      "watchers_count": 10907,
       "language": "Shell",
       "owner_login": "angristan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11699655?v=4",
@@ -1612,9 +1644,9 @@
       "full_name": "huggingface/ml-intern",
       "html_url": "https://github.com/huggingface/ml-intern",
       "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
-      "stargazers_count": 9597,
-      "forks_count": 1021,
-      "watchers_count": 9597,
+      "stargazers_count": 9604,
+      "forks_count": 1023,
+      "watchers_count": 9604,
       "language": "Python",
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -1640,9 +1672,9 @@
       "full_name": "PrestaShop/PrestaShop",
       "html_url": "https://github.com/PrestaShop/PrestaShop",
       "description": "PrestaShop is the universal open-source software platform to build your e-commerce solution.",
-      "stargazers_count": 9076,
+      "stargazers_count": 9077,
       "forks_count": 5035,
-      "watchers_count": 9076,
+      "watchers_count": 9077,
       "language": "PHP",
       "owner_login": "PrestaShop",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2815696?v=4",
@@ -1761,20 +1793,6 @@
       "owner_type": "User",
       "created_at": "2010-04-04T11:10:22Z",
       "pushed_at": "2025-06-04T07:52:57Z"
-    },
-    {
-      "full_name": "huggingface/alignment-handbook",
-      "html_url": "https://github.com/huggingface/alignment-handbook",
-      "description": "Robust recipes to align language models with human and AI preferences",
-      "stargazers_count": 5602,
-      "forks_count": 489,
-      "watchers_count": 5602,
-      "language": "Python",
-      "owner_login": "huggingface",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?v=4",
-      "owner_type": "Organization",
-      "created_at": "2023-08-25T11:35:34Z",
-      "pushed_at": "2026-04-08T14:29:28Z"
     }
   ]
 }

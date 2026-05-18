@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-05-18T07:09:17.934Z",
+  "generated_at": "2026-05-18T08:34:17.827Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 117699,
+    "user_followers": 117698,
     "org_followers": 16529,
-    "user_stars": 270766,
-    "org_stars": 295802
+    "user_stars": 270773,
+    "org_stars": 295806
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Bangalore",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Bangalore%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Bangalore%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Bangalore\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -56,7 +61,7 @@
       "location": "Bangalore, India",
       "bio": "Software Engineer 👨‍💻\r\nReact.js and Motion Design 🏎️",
       "company": "@ThoughtSpot",
-      "total_stars": 24862
+      "total_stars": 24864
     },
     {
       "login": "dipakkr",
@@ -69,7 +74,7 @@
       "location": "Bangalore, India",
       "bio": "Building in AI ",
       "company": "Wrike",
-      "total_stars": 22154
+      "total_stars": 22155
     },
     {
       "login": "sachinchoolur",
@@ -128,7 +133,7 @@
       "name": "Arpit Bhayani",
       "avatar_url": "https://avatars.githubusercontent.com/u/4745789?v=4",
       "html_url": "https://github.com/arpitbbhayani",
-      "followers": 7562,
+      "followers": 7561,
       "following": 5,
       "public_repos": 198,
       "location": "Bangalore",
@@ -277,7 +282,7 @@
       "location": "Bangalore, India",
       "bio": "Cloud Engineer at AWS| Open Source Contributor  |  🧑‍💻 Developer Program Member",
       "company": "Amazon Web Services",
-      "total_stars": 4784
+      "total_stars": 4785
     },
     {
       "login": "vinitshahdeo",
@@ -329,7 +334,7 @@
       "location": "Bangalore - India",
       "bio": "Creator of OpenAlgo - OpenSource Algo Trading framework for Indian Traders. ",
       "company": "Marketcalls",
-      "total_stars": 2889
+      "total_stars": 2892
     },
     {
       "login": "sunnysavita10",
@@ -695,7 +700,7 @@
       "location": "Bangalore, India",
       "bio": "An Open Source Hacking Tools database.",
       "company": null,
-      "total_stars": 121416
+      "total_stars": 121420
     },
     {
       "login": "hasura",
@@ -1080,9 +1085,9 @@
       "full_name": "Hack-with-Github/Awesome-Hacking",
       "html_url": "https://github.com/Hack-with-Github/Awesome-Hacking",
       "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
-      "stargazers_count": 112407,
-      "forks_count": 10284,
-      "watchers_count": 112407,
+      "stargazers_count": 112411,
+      "forks_count": 10285,
+      "watchers_count": 112411,
       "language": null,
       "owner_login": "Hack-with-Github",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/18143746?v=4",
@@ -1094,15 +1099,15 @@
       "full_name": "juspay/hyperswitch",
       "html_url": "https://github.com/juspay/hyperswitch",
       "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorizati",
-      "stargazers_count": 42707,
+      "stargazers_count": 42706,
       "forks_count": 4692,
-      "watchers_count": 42707,
+      "watchers_count": 42706,
       "language": "Rust",
       "owner_login": "juspay",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11497632?v=4",
       "owner_type": "Organization",
       "created_at": "2022-10-17T11:18:28Z",
-      "pushed_at": "2026-05-18T07:05:45Z"
+      "pushed_at": "2026-05-18T08:27:02Z"
     },
     {
       "full_name": "hasura/graphql-engine",
@@ -1116,15 +1121,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/13966722?v=4",
       "owner_type": "Organization",
       "created_at": "2018-06-18T07:57:36Z",
-      "pushed_at": "2026-05-16T14:55:19Z"
+      "pushed_at": "2026-05-18T07:41:28Z"
     },
     {
       "full_name": "rahuldkjain/github-profile-readme-generator",
       "html_url": "https://github.com/rahuldkjain/github-profile-readme-generator",
       "description": "🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.",
-      "stargazers_count": 24237,
+      "stargazers_count": 24239,
       "forks_count": 8341,
-      "watchers_count": 24237,
+      "watchers_count": 24239,
       "language": "TypeScript",
       "owner_login": "rahuldkjain",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/26406279?v=4",
@@ -1136,9 +1141,9 @@
       "full_name": "dipakkr/A-to-Z-Resources-for-Students",
       "html_url": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
       "description": "✅  Curated list of resources for developers ",
-      "stargazers_count": 21807,
+      "stargazers_count": 21808,
       "forks_count": 4816,
-      "watchers_count": 21807,
+      "watchers_count": 21808,
       "language": null,
       "owner_login": "dipakkr",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/17788569?v=4",
@@ -1192,9 +1197,9 @@
       "full_name": "krishnaik06/The-Grand-Complete-Data-Science-Materials",
       "html_url": "https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials",
       "description": null,
-      "stargazers_count": 8770,
-      "forks_count": 4437,
-      "watchers_count": 8770,
+      "stargazers_count": 8771,
+      "forks_count": 4438,
+      "watchers_count": 8771,
       "language": "Python",
       "owner_login": "krishnaik06",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20041231?v=4",
@@ -1473,7 +1478,7 @@
       "html_url": "https://github.com/krishnaik06/Complete-Python-Bootcamp",
       "description": null,
       "stargazers_count": 2719,
-      "forks_count": 3410,
+      "forks_count": 3411,
       "watchers_count": 2719,
       "language": "Jupyter Notebook",
       "owner_login": "krishnaik06",
@@ -1626,9 +1631,9 @@
       "full_name": "marketcalls/openalgo",
       "html_url": "https://github.com/marketcalls/openalgo",
       "description": "Open Source Algo Trading Platform for Everyone",
-      "stargazers_count": 1842,
-      "forks_count": 897,
-      "watchers_count": 1842,
+      "stargazers_count": 1843,
+      "forks_count": 896,
+      "watchers_count": 1843,
       "language": "Python",
       "owner_login": "marketcalls",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8728989?v=4",

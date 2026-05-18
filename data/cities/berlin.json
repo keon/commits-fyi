@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-05-18T07:08:07.987Z",
+  "generated_at": "2026-05-18T08:32:56.586Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 223643,
-    "org_followers": 24405,
-    "user_stars": 695792,
-    "org_stars": 622884
+    "user_followers": 223650,
+    "org_followers": 24406,
+    "user_stars": 695805,
+    "org_stars": 622890
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Berlin",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Berlin%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Berlin%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Berlin\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,20 +48,20 @@
       "location": "Berlin, Germany",
       "bio": null,
       "company": null,
-      "total_stars": 101606
+      "total_stars": 101607
     },
     {
       "login": "nlohmann",
       "name": "Niels Lohmann",
       "avatar_url": "https://avatars.githubusercontent.com/u/159488?v=4",
       "html_url": "https://github.com/nlohmann",
-      "followers": 3056,
+      "followers": 3057,
       "following": 19,
       "public_repos": 45,
       "location": "Berlin, Germany",
       "bio": "You may know me from my JSON library for C++.",
       "company": null,
-      "total_stars": 50943
+      "total_stars": 50946
     },
     {
       "login": "greenrobot",
@@ -82,7 +87,7 @@
       "location": "Berlin, Germany",
       "bio": "Juggling work, life and OSS 🤹",
       "company": "@elaradigital",
-      "total_stars": 38433
+      "total_stars": 38438
     },
     {
       "login": "nikic",
@@ -251,14 +256,14 @@
       "location": "Berlin, Germany",
       "bio": "Running @DataTalksClub and hacking some personal projects",
       "company": "@DataTalksClub ",
-      "total_stars": 15882
+      "total_stars": 15883
     },
     {
       "login": "tiangolo",
       "name": "Sebastián Ramírez",
       "avatar_url": "https://avatars.githubusercontent.com/u/1326112?v=4",
       "html_url": "https://github.com/tiangolo",
-      "followers": 31339,
+      "followers": 31345,
       "following": 7,
       "public_repos": 48,
       "location": "Berlin, Germany",
@@ -303,7 +308,7 @@
       "location": "Berlin",
       "bio": "Security researcher since 1994\r\n\r\nhttps://www.mh-sec.de/\r\nhttps://www.thc.org/",
       "company": "The Hacker's Choice | mh-sec | me | myself",
-      "total_stars": 13450
+      "total_stars": 13452
     },
     {
       "login": "muan",
@@ -381,7 +386,7 @@
       "location": "Berlin",
       "bio": "Fractional CTO, software architect, leader, lecturer, public speaker, mentor, entrepreneur, JS evangelist, electronics engineer, guitarist, singer, radio host.",
       "company": "@coyotiv ",
-      "total_stars": 6752
+      "total_stars": 6753
     },
     {
       "login": "rwieruch",
@@ -636,7 +641,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/46030850?v=4",
       "html_url": "https://github.com/mxmnk",
       "followers": 6462,
-      "following": 6885,
+      "following": 6884,
       "public_repos": 7,
       "location": "Berlin, Germany",
       "bio": "⭐️ Passionate Full-Stack Developer ⭐️",
@@ -708,7 +713,7 @@
       "location": "Berlin",
       "bio": "The new foundation for documents: Limitless power to write, create, and automate anything that you can fit on a page.",
       "company": null,
-      "total_stars": 58313
+      "total_stars": 58315
     },
     {
       "login": "explosion",
@@ -760,20 +765,20 @@
       "location": "Berlin, Germany",
       "bio": "The developer toolkit for modern content editing infrastructure",
       "company": null,
-      "total_stars": 41519
+      "total_stars": 41520
     },
     {
       "login": "xyflow",
       "name": "xyflow",
       "avatar_url": "https://avatars.githubusercontent.com/u/7106853?v=4",
       "html_url": "https://github.com/xyflow",
-      "followers": 979,
+      "followers": 980,
       "following": 0,
       "public_repos": 24,
       "location": "Berlin",
       "bio": "Powerful open source libraries for building node-based UIs with React or Svelte. Ready out-of-the-box and infinitely customizable",
       "company": null,
-      "total_stars": 41257
+      "total_stars": 41258
     },
     {
       "login": "photoprism",
@@ -825,7 +830,7 @@
       "location": "Germany, Berlin",
       "bio": "Shared Editing",
       "company": null,
-      "total_stars": 26686
+      "total_stars": 26687
     },
     {
       "login": "opf",
@@ -838,7 +843,7 @@
       "location": "Berlin",
       "bio": "The leading open source project management and team collaboration software.",
       "company": null,
-      "total_stars": 15855
+      "total_stars": 15856
     },
     {
       "login": "zalandoresearch",
@@ -1094,9 +1099,9 @@
       "full_name": "tonsky/FiraCode",
       "html_url": "https://github.com/tonsky/FiraCode",
       "description": "Free monospaced font with programming ligatures",
-      "stargazers_count": 81622,
+      "stargazers_count": 81623,
       "forks_count": 3187,
-      "watchers_count": 81622,
+      "watchers_count": 81623,
       "language": "Clojure",
       "owner_login": "tonsky",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/285292?v=4",
@@ -1108,9 +1113,9 @@
       "full_name": "typst/typst",
       "html_url": "https://github.com/typst/typst",
       "description": "A markup-based typesetting system that is powerful and easy to learn.",
-      "stargazers_count": 53589,
+      "stargazers_count": 53591,
       "forks_count": 1575,
-      "watchers_count": 53589,
+      "watchers_count": 53591,
       "language": "Rust",
       "owner_login": "typst",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/67595261?v=4",
@@ -1122,9 +1127,9 @@
       "full_name": "nlohmann/json",
       "html_url": "https://github.com/nlohmann/json",
       "description": "JSON for Modern C++",
-      "stargazers_count": 49717,
+      "stargazers_count": 49720,
       "forks_count": 7394,
-      "watchers_count": 49717,
+      "watchers_count": 49720,
       "language": "C++",
       "owner_login": "nlohmann",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/159488?v=4",
@@ -1144,15 +1149,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/32436079?v=4",
       "owner_type": "Organization",
       "created_at": "2018-01-27T12:00:15Z",
-      "pushed_at": "2026-05-17T15:08:08Z"
+      "pushed_at": "2026-05-18T08:12:48Z"
     },
     {
       "full_name": "amruthpillai/reactive-resume",
       "html_url": "https://github.com/amruthpillai/reactive-resume",
       "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-      "stargazers_count": 37267,
-      "forks_count": 4201,
-      "watchers_count": 37267,
+      "stargazers_count": 37272,
+      "forks_count": 4202,
+      "watchers_count": 37272,
       "language": "TypeScript",
       "owner_login": "amruthpillai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1134738?v=4",
@@ -1164,9 +1169,9 @@
       "full_name": "ueberdosis/tiptap",
       "html_url": "https://github.com/ueberdosis/tiptap",
       "description": "The headless rich text editor framework for web artisans.",
-      "stargazers_count": 36813,
+      "stargazers_count": 36814,
       "forks_count": 2982,
-      "watchers_count": 36813,
+      "watchers_count": 36814,
       "language": "TypeScript",
       "owner_login": "ueberdosis",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/16939337?v=4",
@@ -1179,7 +1184,7 @@
       "html_url": "https://github.com/xyflow/xyflow",
       "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customi",
       "stargazers_count": 36628,
-      "forks_count": 2405,
+      "forks_count": 2406,
       "watchers_count": 36628,
       "language": "TypeScript",
       "owner_login": "xyflow",
@@ -1234,9 +1239,9 @@
       "full_name": "yjs/yjs",
       "html_url": "https://github.com/yjs/yjs",
       "description": "Shared data types for building collaborative software",
-      "stargazers_count": 21839,
+      "stargazers_count": 21840,
       "forks_count": 770,
-      "watchers_count": 21839,
+      "watchers_count": 21840,
       "language": "JavaScript",
       "owner_login": "yjs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/45042178?v=4",
@@ -1312,7 +1317,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6709482?v=4",
       "owner_type": "User",
       "created_at": "2014-02-17T21:48:14Z",
-      "pushed_at": "2026-05-17T15:39:46Z"
+      "pushed_at": "2026-05-18T07:38:15Z"
     },
     {
       "full_name": "janl/mustache.js",
@@ -1346,15 +1351,15 @@
       "full_name": "opf/openproject",
       "html_url": "https://github.com/opf/openproject",
       "description": "OpenProject is the leading open source project management software.",
-      "stargazers_count": 15096,
+      "stargazers_count": 15097,
       "forks_count": 3244,
-      "watchers_count": 15096,
+      "watchers_count": 15097,
       "language": "Ruby",
       "owner_login": "opf",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1756674?v=4",
       "owner_type": "Organization",
       "created_at": "2012-11-28T09:59:11Z",
-      "pushed_at": "2026-05-18T06:59:58Z"
+      "pushed_at": "2026-05-18T08:23:53Z"
     },
     {
       "full_name": "schickling/chromeless",
@@ -1382,7 +1387,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
       "owner_type": "Organization",
       "created_at": "2016-03-11T11:22:54Z",
-      "pushed_at": "2026-05-17T11:47:32Z"
+      "pushed_at": "2026-05-18T08:10:06Z"
     },
     {
       "full_name": "zalandoresearch/fashion-mnist",
@@ -1430,9 +1435,9 @@
       "full_name": "vanhauser-thc/thc-hydra",
       "html_url": "https://github.com/vanhauser-thc/thc-hydra",
       "description": "hydra",
-      "stargazers_count": 11798,
+      "stargazers_count": 11800,
       "forks_count": 2533,
-      "watchers_count": 11798,
+      "watchers_count": 11800,
       "language": "C",
       "owner_login": "vanhauser-thc",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7396244?v=4",
@@ -1543,7 +1548,7 @@
       "html_url": "https://github.com/wix/react-native-ui-lib",
       "description": "UI Components Library for React Native",
       "stargazers_count": 7135,
-      "forks_count": 751,
+      "forks_count": 752,
       "watchers_count": 7135,
       "language": "TypeScript",
       "owner_login": "wix",
@@ -1690,7 +1695,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/476779?v=4",
       "owner_type": "Organization",
       "created_at": "2020-08-07T19:08:07Z",
-      "pushed_at": "2026-05-18T06:59:42Z"
+      "pushed_at": "2026-05-18T08:29:12Z"
     },
     {
       "full_name": "android10/Android-CleanArchitecture-Kotlin",

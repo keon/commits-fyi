@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-05-18T07:11:39.651Z",
+  "generated_at": "2026-05-18T08:43:04.936Z",
   "counts": {
-    "users": 50,
-    "orgs": 30,
+    "users": 53,
+    "orgs": 31,
     "repos": 50
   },
   "totals": {
-    "user_followers": 231018,
-    "org_followers": 40001,
-    "user_stars": 593503,
-    "org_stars": 504667
+    "user_followers": 234576,
+    "org_followers": 40331,
+    "user_stars": 741136,
+    "org_stars": 556047
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22Canada%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Canada\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,13 +42,13 @@
       "name": "David Dias",
       "avatar_url": "https://avatars.githubusercontent.com/u/237229?v=4",
       "html_url": "https://github.com/thedaviddias",
-      "followers": 4935,
+      "followers": 4936,
       "following": 309,
       "public_repos": 93,
       "location": "Toronto, Canada",
       "bio": "Former Staff Frontend Engineer exploring multi-passionate career development. Creator of Front-End Checklist (72K+ ⭐) and other tools serving 100K+ developers. ",
       "company": "@DavidDiasDigital",
-      "total_stars": 101322
+      "total_stars": 101323
     },
     {
       "login": "developit",
@@ -69,7 +74,46 @@
       "location": "Canada / Québec",
       "bio": "_",
       "company": null,
-      "total_stars": 75058
+      "total_stars": 75059
+    },
+    {
+      "login": "adam-p",
+      "name": "Adam Pritchard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/425687?v=4",
+      "html_url": "https://github.com/adam-p",
+      "followers": 1670,
+      "following": 2,
+      "public_repos": 65,
+      "location": "Toronto, Canada",
+      "bio": null,
+      "company": "Psiphon Inc., Proven Security Solutions Inc.",
+      "total_stars": 60460
+    },
+    {
+      "login": "ziishaned",
+      "name": "Zeeshan Ahmad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16267321?v=4",
+      "html_url": "https://github.com/ziishaned",
+      "followers": 1137,
+      "following": 91,
+      "public_repos": 42,
+      "location": "Toronto, Canada",
+      "bio": "Turning complexity into simplicity 🧑‍💻",
+      "company": null,
+      "total_stars": 51655
+    },
+    {
+      "login": "ibraheemdev",
+      "name": "Ibraheem Ahmed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34988408?v=4",
+      "html_url": "https://github.com/ibraheemdev",
+      "followers": 744,
+      "following": 4,
+      "public_repos": 41,
+      "location": "Toronto, Canada",
+      "bio": "Software developer interested in building fast, concurrent, and robust systems.",
+      "company": "@astral-sh",
+      "total_stars": 35508
     },
     {
       "login": "clauderic",
@@ -95,7 +139,7 @@
       "location": "Ottawa, Canada",
       "bio": null,
       "company": "Shopify",
-      "total_stars": 33504
+      "total_stars": 33510
     },
     {
       "login": "CamDavidsonPilon",
@@ -154,7 +198,7 @@
       "name": "Lewis Menelaws",
       "avatar_url": "https://avatars.githubusercontent.com/u/6053155?v=4",
       "html_url": "https://github.com/elebumm",
-      "followers": 2763,
+      "followers": 2764,
       "following": 35,
       "public_repos": 80,
       "location": "Ontario, Canada",
@@ -323,7 +367,7 @@
       "name": "Jennifer (Jenny) Bryan",
       "avatar_url": "https://avatars.githubusercontent.com/u/599454?v=4",
       "html_url": "https://github.com/jennybc",
-      "followers": 5637,
+      "followers": 5638,
       "following": 38,
       "public_repos": 273,
       "location": "Vancouver, BC, Canada",
@@ -381,7 +425,7 @@
       "location": "Canada",
       "bio": null,
       "company": "Google",
-      "total_stars": 3989
+      "total_stars": 3991
     },
     {
       "login": "rspivak",
@@ -440,7 +484,7 @@
       "name": "Xe Iaso",
       "avatar_url": "https://avatars.githubusercontent.com/u/529003?v=4",
       "html_url": "https://github.com/Xe",
-      "followers": 4078,
+      "followers": 4079,
       "following": 630,
       "public_repos": 240,
       "location": "Canada",
@@ -479,7 +523,7 @@
       "name": "Mostafa Saad Ibrahim",
       "avatar_url": "https://avatars.githubusercontent.com/u/5536363?v=4",
       "html_url": "https://github.com/mostafa-saad",
-      "followers": 5185,
+      "followers": 5184,
       "following": 0,
       "public_repos": 9,
       "location": "Canada, BC",
@@ -544,7 +588,7 @@
       "name": "Ansh Lamba",
       "avatar_url": "https://avatars.githubusercontent.com/u/187516785?v=4",
       "html_url": "https://github.com/anshlambagit",
-      "followers": 2283,
+      "followers": 2285,
       "following": 0,
       "public_repos": 65,
       "location": "Canada",
@@ -571,7 +615,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/6508763?v=4",
       "html_url": "https://github.com/dalindev",
       "followers": 7277,
-      "following": 159087,
+      "following": 159088,
       "public_repos": 45,
       "location": "Canada",
       "bio": "“Stay Hungry, Stay Foolish”",
@@ -649,7 +693,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/7399939?v=4",
       "html_url": "https://github.com/KylerCondran",
       "followers": 4340,
-      "following": 9752,
+      "following": 9751,
       "public_repos": 15,
       "location": "Canada",
       "bio": "Full-stack .NET Developer (C# / .NET Core / PowerShell / Winform / SQL / ASP.NET / CSS / Bootstrap / jQuery / Ajax / Scripts) Build something crazy with me.",
@@ -661,8 +705,8 @@
       "name": "Cogito Ergo Sum",
       "avatar_url": "https://avatars.githubusercontent.com/u/43516554?v=4",
       "html_url": "https://github.com/standardgalactic",
-      "followers": 21326,
-      "following": 1082905,
+      "followers": 21328,
+      "following": 1082904,
       "public_repos": 23790,
       "location": "Canada",
       "bio": "𝘏𝘰𝘮𝘦 𝘰𝘧 𝘵𝘩𝘦 𝚂𝚝𝚊𝚗𝚍𝚊𝚛𝚍 𝙶𝚊𝚕𝚊𝚌𝚝𝚒𝚌 𝙰𝚕𝚙𝚑𝚊𝚋𝚎𝚝",
@@ -689,13 +733,13 @@
       "name": "Ultraworkers - ULW",
       "avatar_url": "https://avatars.githubusercontent.com/u/272961631?v=4",
       "html_url": "https://github.com/ultraworkers",
-      "followers": 1510,
+      "followers": 1511,
       "following": 0,
       "public_repos": 4,
       "location": "Canada",
       "bio": "The boulder never stops.",
       "company": null,
-      "total_stars": 198632
+      "total_stars": 198648
     },
     {
       "login": "realpython",
@@ -711,6 +755,19 @@
       "total_stars": 54064
     },
     {
+      "login": "meteor",
+      "name": "Meteor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/789528?v=4",
+      "html_url": "https://github.com/meteor",
+      "followers": 329,
+      "following": 0,
+      "public_repos": 230,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "total_stars": 51346
+    },
+    {
       "login": "tailscale",
       "name": "Tailscale",
       "avatar_url": "https://avatars.githubusercontent.com/u/48932923?v=4",
@@ -721,7 +778,7 @@
       "location": "Canada",
       "bio": "Tailscale is a WireGuard-based app that makes secure, private networks easy for teams of any scale.",
       "company": null,
-      "total_stars": 45710
+      "total_stars": 45712
     },
     {
       "login": "mybatis",
@@ -734,7 +791,7 @@
       "location": "Canada, Colombia, Italy, Japan, Perú, Spain, Russia, Thailand, UK, Ukranie and USA",
       "bio": null,
       "company": null,
-      "total_stars": 37131
+      "total_stars": 37132
     },
     {
       "login": "go-playground",
@@ -760,7 +817,7 @@
       "location": "Canada",
       "bio": "Flet enables developers to easily build realtime web, mobile and desktop apps in Python. No frontend experience required.",
       "company": null,
-      "total_stars": 17651
+      "total_stars": 17653
     },
     {
       "login": "gskinnerTeam",
@@ -786,7 +843,7 @@
       "location": "Toronto, Canada",
       "bio": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.",
       "company": null,
-      "total_stars": 12553
+      "total_stars": 12560
     },
     {
       "login": "unoplatform",
@@ -825,7 +882,7 @@
       "location": "190 Elizabeth St, Toronto, ON M5G 2C4 Canada",
       "bio": "BoWang's Lab at University of Toronto",
       "company": null,
-      "total_stars": 11445
+      "total_stars": 11449
     },
     {
       "login": "GrapheneOS",
@@ -838,7 +895,7 @@
       "location": "Toronto, Ontario, Canada",
       "bio": "Security and privacy focused mobile OS with Android app compatibility. We focus on developing substantial privacy and security improvements.",
       "company": null,
-      "total_stars": 10462
+      "total_stars": 10463
     },
     {
       "login": "inference-labs-inc",
@@ -864,7 +921,7 @@
       "location": "Ottawa, Ontario, Canada",
       "bio": null,
       "company": null,
-      "total_stars": 8355
+      "total_stars": 8356
     },
     {
       "login": "cohere-ai",
@@ -1080,9 +1137,9 @@
       "full_name": "ultraworkers/claw-code",
       "html_url": "https://github.com/ultraworkers/claw-code",
       "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
-      "stargazers_count": 191836,
-      "forks_count": 109924,
-      "watchers_count": 191836,
+      "stargazers_count": 191852,
+      "forks_count": 109925,
+      "watchers_count": 191852,
       "language": "Rust",
       "owner_login": "ultraworkers",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/272961631?v=4",
@@ -1094,9 +1151,9 @@
       "full_name": "thedaviddias/Front-End-Checklist",
       "html_url": "https://github.com/thedaviddias/Front-End-Checklist",
       "description": "🗂 The perfect Front-End Checklist for modern websites and meticulous developers",
-      "stargazers_count": 72628,
+      "stargazers_count": 72629,
       "forks_count": 6642,
-      "watchers_count": 72628,
+      "watchers_count": 72629,
       "language": null,
       "owner_login": "thedaviddias",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/237229?v=4",
@@ -1108,9 +1165,9 @@
       "full_name": "gorhill/uBlock",
       "html_url": "https://github.com/gorhill/uBlock",
       "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
-      "stargazers_count": 64766,
+      "stargazers_count": 64767,
       "forks_count": 4114,
-      "watchers_count": 64766,
+      "watchers_count": 64767,
       "language": "JavaScript",
       "owner_login": "gorhill",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/585534?v=4",
@@ -1119,12 +1176,68 @@
       "pushed_at": "2026-05-16T13:44:22Z"
     },
     {
+      "full_name": "adam-p/markdown-here",
+      "html_url": "https://github.com/adam-p/markdown-here",
+      "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
+      "stargazers_count": 60200,
+      "forks_count": 11069,
+      "watchers_count": 60200,
+      "language": "JavaScript",
+      "owner_login": "adam-p",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/425687?v=4",
+      "owner_type": "User",
+      "created_at": "2012-05-13T03:27:22Z",
+      "pushed_at": "2025-08-22T00:21:50Z"
+    },
+    {
+      "full_name": "ziishaned/learn-regex",
+      "html_url": "https://github.com/ziishaned/learn-regex",
+      "description": "Learn regex the easy way",
+      "stargazers_count": 46120,
+      "forks_count": 6178,
+      "watchers_count": 46120,
+      "language": null,
+      "owner_login": "ziishaned",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/16267321?v=4",
+      "owner_type": "User",
+      "created_at": "2017-07-22T12:21:03Z",
+      "pushed_at": "2025-08-25T23:17:54Z"
+    },
+    {
+      "full_name": "meteor/meteor",
+      "html_url": "https://github.com/meteor/meteor",
+      "description": "Meteor, the JavaScript App Platform",
+      "stargazers_count": 44782,
+      "forks_count": 5254,
+      "watchers_count": 44782,
+      "language": "JavaScript",
+      "owner_login": "meteor",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/789528?v=4",
+      "owner_type": "Organization",
+      "created_at": "2012-01-19T01:58:17Z",
+      "pushed_at": "2026-05-15T19:47:30Z"
+    },
+    {
+      "full_name": "ibraheemdev/modern-unix",
+      "html_url": "https://github.com/ibraheemdev/modern-unix",
+      "description": "A collection of modern/faster/saner alternatives to common unix commands.",
+      "stargazers_count": 32918,
+      "forks_count": 829,
+      "watchers_count": 32918,
+      "language": null,
+      "owner_login": "ibraheemdev",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34988408?v=4",
+      "owner_type": "User",
+      "created_at": "2021-01-12T00:50:14Z",
+      "pushed_at": "2024-09-10T19:48:56Z"
+    },
+    {
       "full_name": "tailscale/tailscale",
       "html_url": "https://github.com/tailscale/tailscale",
       "description": "The easiest, most secure way to use WireGuard and 2FA.",
-      "stargazers_count": 31675,
-      "forks_count": 2568,
-      "watchers_count": 31675,
+      "stargazers_count": 31676,
+      "forks_count": 2569,
+      "watchers_count": 31676,
       "language": "Go",
       "owner_login": "tailscale",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/48932923?v=4",
@@ -1164,9 +1277,9 @@
       "full_name": "tobi/qmd",
       "html_url": "https://github.com/tobi/qmd",
       "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
-      "stargazers_count": 25048,
+      "stargazers_count": 25054,
       "forks_count": 1578,
-      "watchers_count": 25048,
+      "watchers_count": 25054,
       "language": "TypeScript",
       "owner_login": "tobi",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/347?v=4",
@@ -1178,9 +1291,9 @@
       "full_name": "mybatis/mybatis-3",
       "html_url": "https://github.com/mybatis/mybatis-3",
       "description": "MyBatis SQL mapper framework for Java",
-      "stargazers_count": 20413,
+      "stargazers_count": 20414,
       "forks_count": 12914,
-      "watchers_count": 20413,
+      "watchers_count": 20414,
       "language": "Java",
       "owner_login": "mybatis",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1483254?v=4",
@@ -1248,9 +1361,9 @@
       "full_name": "flet-dev/flet",
       "html_url": "https://github.com/flet-dev/flet",
       "description": "Build realtime web, mobile and desktop apps in Python only. No frontend experience required.",
-      "stargazers_count": 16090,
+      "stargazers_count": 16092,
       "forks_count": 653,
-      "watchers_count": 16090,
+      "watchers_count": 16092,
       "language": "Python",
       "owner_login": "flet-dev",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/102273996?v=4",
@@ -1277,7 +1390,7 @@
       "html_url": "https://github.com/elebumm/RedditVideoMakerBot",
       "description": "Create Reddit Videos with just✨ one command ✨",
       "stargazers_count": 11952,
-      "forks_count": 2816,
+      "forks_count": 2817,
       "watchers_count": 11952,
       "language": "Python",
       "owner_login": "elebumm",
@@ -1340,7 +1453,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/52228309?v=4",
       "owner_type": "Organization",
       "created_at": "2018-05-07T11:52:27Z",
-      "pushed_at": "2026-05-18T07:04:47Z"
+      "pushed_at": "2026-05-18T08:28:20Z"
     },
     {
       "full_name": "bigbluebutton/bigbluebutton",
@@ -1626,9 +1739,9 @@
       "full_name": "bowang-lab/MedSAM",
       "html_url": "https://github.com/bowang-lab/MedSAM",
       "description": "Segment Anything in Medical Images",
-      "stargazers_count": 4265,
+      "stargazers_count": 4267,
       "forks_count": 586,
-      "watchers_count": 4265,
+      "watchers_count": 4267,
       "language": "Jupyter Notebook",
       "owner_login": "bowang-lab",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/50999261?v=4",
@@ -1719,62 +1832,6 @@
       "owner_type": "User",
       "created_at": "2009-09-02T03:35:45Z",
       "pushed_at": "2026-05-17T19:13:06Z"
-    },
-    {
-      "full_name": "openbsd/src",
-      "html_url": "https://github.com/openbsd/src",
-      "description": "Read-only git conversion of OpenBSD's official CVS src repository. Pull requests not accepted - send diffs to the tech@ mailing list.",
-      "stargazers_count": 3759,
-      "forks_count": 933,
-      "watchers_count": 3759,
-      "language": "C",
-      "owner_login": "openbsd",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/929183?v=4",
-      "owner_type": "Organization",
-      "created_at": "2016-08-30T18:18:25Z",
-      "pushed_at": "2026-05-18T04:50:48Z"
-    },
-    {
-      "full_name": "tobi/try",
-      "html_url": "https://github.com/tobi/try",
-      "description": "fresh directories for every vibe",
-      "stargazers_count": 3661,
-      "forks_count": 144,
-      "watchers_count": 3661,
-      "language": "Shell",
-      "owner_login": "tobi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/347?v=4",
-      "owner_type": "User",
-      "created_at": "2025-08-19T19:25:23Z",
-      "pushed_at": "2026-03-10T15:30:46Z"
-    },
-    {
-      "full_name": "priya-dwivedi/Deep-Learning",
-      "html_url": "https://github.com/priya-dwivedi/Deep-Learning",
-      "description": null,
-      "stargazers_count": 3357,
-      "forks_count": 2451,
-      "watchers_count": 3357,
-      "language": "Jupyter Notebook",
-      "owner_login": "priya-dwivedi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/21087800?v=4",
-      "owner_type": "User",
-      "created_at": "2016-08-17T18:29:12Z",
-      "pushed_at": "2023-03-24T22:23:11Z"
-    },
-    {
-      "full_name": "cohere-ai/cohere-toolkit",
-      "html_url": "https://github.com/cohere-ai/cohere-toolkit",
-      "description": "Cohere Toolkit is a collection of prebuilt components enabling users to quickly build and deploy RAG applications.",
-      "stargazers_count": 3173,
-      "forks_count": 426,
-      "watchers_count": 3173,
-      "language": "TypeScript",
-      "owner_login": "cohere-ai",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/54850923?v=4",
-      "owner_type": "Organization",
-      "created_at": "2024-04-19T09:59:08Z",
-      "pushed_at": "2026-03-31T13:26:56Z"
     }
   ]
 }

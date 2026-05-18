@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-05-18T07:11:13.322Z",
+  "generated_at": "2026-05-18T08:42:44.360Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 56196,
+    "user_followers": 56198,
     "org_followers": 15501,
-    "user_stars": 292376,
+    "user_stars": 292382,
     "org_stars": 113709
   },
   "queries": [
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in South Korea",
       "api_url": "https://api.github.com/search/users?q=location%3A%22South%20Korea%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22South%20Korea%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"South Korea\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -56,7 +61,7 @@
       "location": "South Korea",
       "bio": null,
       "company": "NAVER AI Lab",
-      "total_stars": 40137
+      "total_stars": 40141
     },
     {
       "login": "terryum",
@@ -95,7 +100,7 @@
       "location": "South Korea",
       "bio": "Email : gyuseok6394@gmail.com",
       "company": "@Samsung Electronics",
-      "total_stars": 17395
+      "total_stars": 17396
     },
     {
       "login": "taki0112",
@@ -225,7 +230,7 @@
       "location": "Daejeon, South Korea",
       "bio": "Postdoc @ Urban Robotics Lab, KAIST | Ph.D. in Robotics & EE",
       "company": "KAIST",
-      "total_stars": 3779
+      "total_stars": 3780
     },
     {
       "login": "Beomi",
@@ -258,7 +263,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/30000519?v=4",
       "html_url": "https://github.com/Gezine",
-      "followers": 2155,
+      "followers": 2156,
       "following": 2,
       "public_repos": 17,
       "location": "Seoul, South Korea",
@@ -375,7 +380,7 @@
       "name": "Trustin Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/173918?v=4",
       "html_url": "https://github.com/trustin",
-      "followers": 2969,
+      "followers": 2970,
       "following": 22,
       "public_repos": 42,
       "location": "South Korea",
@@ -597,7 +602,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/40110649?v=4",
       "html_url": "https://github.com/choiis",
       "followers": 661,
-      "following": 1069,
+      "following": 1068,
       "public_repos": 18,
       "location": "South Korea",
       "bio": "Backend Developer, DevOps Engineer\r\n\r\nNHN Cloud, Samsung Electronics,\r\nNexon Korea, Dongbu CNI",
@@ -721,7 +726,7 @@
       "location": "Korea, South",
       "bio": "Maintaining the largest community-curated list of free public APIs. Browse, search, contribute.",
       "company": null,
-      "total_stars": 14486
+      "total_stars": 14487
     },
     {
       "login": "brave-people",
@@ -938,11 +943,11 @@
       "html_url": "https://github.com/DeveloperAcademy-POSTECH",
       "followers": 591,
       "following": 0,
-      "public_repos": 329,
+      "public_repos": 330,
       "location": "Korea, South",
       "bio": null,
       "company": null,
-      "total_stars": 824
+      "total_stars": 822
     },
     {
       "login": "codestates-seb",
@@ -968,7 +973,7 @@
       "location": "Korea, South",
       "bio": "🇰🇷 파이토치 한국 사용자 모임 🇰🇷 PyTorch Korea User Group 🇰🇷",
       "company": null,
-      "total_stars": 497
+      "total_stars": 498
     },
     {
       "login": "instructkr",
@@ -1094,9 +1099,9 @@
       "full_name": "yunjey/pytorch-tutorial",
       "html_url": "https://github.com/yunjey/pytorch-tutorial",
       "description": "PyTorch Tutorial for Deep Learning Researchers",
-      "stargazers_count": 32350,
+      "stargazers_count": 32354,
       "forks_count": 8243,
-      "watchers_count": 32350,
+      "watchers_count": 32354,
       "language": "Python",
       "owner_login": "yunjey",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/15663219?v=4",
@@ -1130,15 +1135,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/211280852?v=4",
       "owner_type": "Organization",
       "created_at": "2025-05-13T05:48:02Z",
-      "pushed_at": "2026-05-15T08:07:57Z"
+      "pushed_at": "2026-05-18T08:14:21Z"
     },
     {
       "full_name": "gyoogle/tech-interview-for-developer",
       "html_url": "https://github.com/gyoogle/tech-interview-for-developer",
       "description": "👶🏻 신입 개발자 전공 지식 & 기술 면접 백과사전 📖",
-      "stargazers_count": 17348,
+      "stargazers_count": 17349,
       "forks_count": 3725,
-      "watchers_count": 17348,
+      "watchers_count": 17349,
       "language": "Java",
       "owner_login": "gyoogle",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/34904741?v=4",
@@ -1150,9 +1155,9 @@
       "full_name": "graykode/nlp-tutorial",
       "html_url": "https://github.com/graykode/nlp-tutorial",
       "description": "Natural Language Processing Tutorial for Deep Learning Researchers",
-      "stargazers_count": 14895,
+      "stargazers_count": 14894,
       "forks_count": 3953,
-      "watchers_count": 14895,
+      "watchers_count": 14894,
       "language": "Jupyter Notebook",
       "owner_login": "graykode",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/10525011?v=4",
@@ -1164,9 +1169,9 @@
       "full_name": "public-api-lists/public-api-lists",
       "html_url": "https://github.com/public-api-lists/public-api-lists",
       "description": "A curated list of free public APIs across 48 categories — searchable, community-maintained, with a free JSON API.",
-      "stargazers_count": 14486,
+      "stargazers_count": 14487,
       "forks_count": 1502,
-      "watchers_count": 14486,
+      "watchers_count": 14487,
       "language": null,
       "owner_login": "public-api-lists",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/59540994?v=4",
@@ -1284,7 +1289,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/13158709?v=4",
       "owner_type": "User",
       "created_at": "2022-04-18T18:13:59Z",
-      "pushed_at": "2026-05-17T17:43:07Z"
+      "pushed_at": "2026-05-18T07:51:42Z"
     },
     {
       "full_name": "yunjey/stargan",
@@ -1444,9 +1449,9 @@
       "full_name": "graykode/abtop",
       "html_url": "https://github.com/graykode/abtop",
       "description": "Like htop, but for AI coding agents. Monitor Claude    Code & Codex CLI sessions, tokens, context window,    rate limits, and ports in real-time.",
-      "stargazers_count": 2250,
+      "stargazers_count": 2251,
       "forks_count": 204,
-      "watchers_count": 2250,
+      "watchers_count": 2251,
       "language": "Rust",
       "owner_login": "graykode",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/10525011?v=4",
@@ -1640,9 +1645,9 @@
       "full_name": "engcang/SLAM-application",
       "html_url": "https://github.com/engcang/SLAM-application",
       "description": "LeGO-LOAM, LIO-SAM, LVI-SAM, FAST-LIO2, Faster-LIO, VoxelMap, R3LIVE, Point-LIO, KISS-ICP, DLO, DLIO, Ada-LIO, PV-LIO, SLAMesh, ImMesh, FAST-LIO-MULTI, M-LOAM, LOCUS, SLICT, MA-LIO, CT-ICP, GenZ-ICP, ",
-      "stargazers_count": 1155,
+      "stargazers_count": 1156,
       "forks_count": 153,
-      "watchers_count": 1155,
+      "watchers_count": 1156,
       "language": "C++",
       "owner_login": "engcang",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/34734707?v=4",
@@ -1693,20 +1698,6 @@
       "pushed_at": "2026-02-04T12:58:58Z"
     },
     {
-      "full_name": "mingrammer/git-tips",
-      "html_url": "https://github.com/mingrammer/git-tips",
-      "description": ":books: Git 팁 모음집 (https://github.com/git-tips/tips 한국어 버전)",
-      "stargazers_count": 1022,
-      "forks_count": 266,
-      "watchers_count": 1022,
-      "language": null,
-      "owner_login": "mingrammer",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6178510?v=4",
-      "owner_type": "User",
-      "created_at": "2017-06-20T04:01:46Z",
-      "pushed_at": "2022-03-11T16:05:57Z"
-    },
-    {
       "full_name": "toss/suspensive",
       "html_url": "https://github.com/toss/suspensive",
       "description": "All-in-one for React Suspense — ErrorBoundary with shouldCatch, clientOnly to skip SSR for a boundary, Delay, and more",
@@ -1733,6 +1724,20 @@
       "owner_type": "Organization",
       "created_at": "2025-02-13T02:25:56Z",
       "pushed_at": "2026-04-27T05:58:49Z"
+    },
+    {
+      "full_name": "mingrammer/git-tips",
+      "html_url": "https://github.com/mingrammer/git-tips",
+      "description": ":books: Git 팁 모음집 (https://github.com/git-tips/tips 한국어 버전)",
+      "stargazers_count": 1022,
+      "forks_count": 266,
+      "watchers_count": 1022,
+      "language": null,
+      "owner_login": "mingrammer",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6178510?v=4",
+      "owner_type": "User",
+      "created_at": "2017-06-20T04:01:46Z",
+      "pushed_at": "2022-03-11T16:05:57Z"
     },
     {
       "full_name": "daangn/stackflow",

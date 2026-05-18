@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-05-18T07:09:27.748Z",
+  "generated_at": "2026-05-18T08:34:30.367Z",
   "counts": {
     "users": 50,
     "orgs": 30,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 106883,
     "org_followers": 7317,
-    "user_stars": 430900,
+    "user_stars": 430914,
     "org_stars": 41518
   },
   "queries": [
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Sydney",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Sydney%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Sydney%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Sydney\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -82,7 +87,7 @@
       "location": "Sydney, Australia",
       "bio": null,
       "company": null,
-      "total_stars": 29175
+      "total_stars": 29176
     },
     {
       "login": "dragen1860",
@@ -108,7 +113,7 @@
       "location": "Sydney, Australia",
       "bio": null,
       "company": null,
-      "total_stars": 26327
+      "total_stars": 26339
     },
     {
       "login": "orhanobut",
@@ -199,7 +204,7 @@
       "location": "Sydney",
       "bio": "Codemonkey",
       "company": null,
-      "total_stars": 10876
+      "total_stars": 10877
     },
     {
       "login": "tonybaloney",
@@ -1094,9 +1099,9 @@
       "full_name": "jarrodwatts/claude-hud",
       "html_url": "https://github.com/jarrodwatts/claude-hud",
       "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
-      "stargazers_count": 23069,
-      "forks_count": 1040,
-      "watchers_count": 23069,
+      "stargazers_count": 23081,
+      "forks_count": 1039,
+      "watchers_count": 23081,
       "language": "JavaScript",
       "owner_login": "jarrodwatts",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/35651410?v=4",
@@ -1333,7 +1338,7 @@
       "html_url": "https://github.com/alecthomas/chroma",
       "description": "A general purpose syntax highlighter in pure Go ",
       "stargazers_count": 4930,
-      "forks_count": 485,
+      "forks_count": 486,
       "watchers_count": 4930,
       "language": "Go",
       "owner_login": "alecthomas",
@@ -1571,7 +1576,7 @@
       "html_url": "https://github.com/redguardtoo/emacs.d",
       "description": "Fast and robust Emacs setup.",
       "stargazers_count": 2481,
-      "forks_count": 619,
+      "forks_count": 620,
       "watchers_count": 2481,
       "language": "Emacs Lisp",
       "owner_login": "redguardtoo",
@@ -1640,9 +1645,9 @@
       "full_name": "alecthomas/entityx",
       "html_url": "https://github.com/alecthomas/entityx",
       "description": "EntityX - A fast, type-safe C++ Entity-Component system",
-      "stargazers_count": 2335,
+      "stargazers_count": 2336,
       "forks_count": 301,
-      "watchers_count": 2335,
+      "watchers_count": 2336,
       "language": "C++",
       "owner_login": "alecthomas",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/41767?v=4",

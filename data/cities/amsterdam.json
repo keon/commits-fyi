@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Amsterdam",
   "slug": "amsterdam",
-  "generated_at": "2026-05-18T07:08:28.732Z",
+  "generated_at": "2026-05-18T08:33:20.615Z",
   "counts": {
     "users": 50,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 99550,
-    "org_followers": 9513,
-    "user_stars": 354144,
-    "org_stars": 205663
+    "user_followers": 99554,
+    "org_followers": 9514,
+    "user_stars": 354181,
+    "org_stars": 205670
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Amsterdam",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Amsterdam%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Amsterdam%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Amsterdam\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -56,7 +61,7 @@
       "location": "Amsterdam, Netherlands",
       "bio": "CPO @ Social Links",
       "company": "Social Links",
-      "total_stars": 33635
+      "total_stars": 33649
     },
     {
       "login": "SamyPesse",
@@ -108,7 +113,7 @@
       "location": "Amsterdam, the Netherlands",
       "bio": "Founder of SwiftLee, Indie Dev behind RocketSim\r\n",
       "company": "SwiftLee",
-      "total_stars": 14385
+      "total_stars": 14386
     },
     {
       "login": "gorhom",
@@ -147,7 +152,7 @@
       "location": "Amsterdam",
       "bio": null,
       "company": "@databricks",
-      "total_stars": 11943
+      "total_stars": 11944
     },
     {
       "login": "Yorko",
@@ -180,13 +185,13 @@
       "name": "Amin Mahmoudi",
       "avatar_url": "https://avatars.githubusercontent.com/u/1076030?v=4",
       "html_url": "https://github.com/masterking32",
-      "followers": 1521,
+      "followers": 1524,
       "following": 6,
       "public_repos": 57,
       "location": "Amsterdam",
       "bio": "Full-Stack developer",
       "company": "Self-Employment",
-      "total_stars": 8460
+      "total_stars": 8479
     },
     {
       "login": "daveebbelaar",
@@ -342,7 +347,7 @@
       "location": "Amsterdam, The Netherlands",
       "bio": "Developer Relations Lead @GetStream 🥑 | Google Developer Expert, Flutter 💙 ",
       "company": "getstream.io",
-      "total_stars": 2113
+      "total_stars": 2114
     },
     {
       "login": "hootlex",
@@ -466,7 +471,7 @@
       "name": "Frank de Jonge",
       "avatar_url": "https://avatars.githubusercontent.com/u/534693?v=4",
       "html_url": "https://github.com/frankdejonge",
-      "followers": 1142,
+      "followers": 1143,
       "following": 16,
       "public_repos": 94,
       "location": "Amsterdam, The Netherlands",
@@ -563,7 +568,7 @@
       "location": "Amsterdam",
       "bio": "Moussa Ouallaf @Avelero ",
       "company": "@Avelero",
-      "total_stars": 208
+      "total_stars": 209
     },
     {
       "login": "mattgperry",
@@ -689,13 +694,13 @@
       "name": "DuckDB Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/82039556?v=4",
       "html_url": "https://github.com/duckdb",
-      "followers": 1549,
+      "followers": 1550,
       "following": 0,
       "public_repos": 88,
       "location": "Amsterdam, The Netherlands",
       "bio": null,
       "company": null,
-      "total_stars": 54355
+      "total_stars": 54359
     },
     {
       "login": "ajaxorg",
@@ -721,7 +726,7 @@
       "location": "Leeds, UK and Amsterdam, The Netherlands",
       "bio": "Enterprise-grade WebAssembly solutions",
       "company": null,
-      "total_stars": 20397
+      "total_stars": 20398
     },
     {
       "login": "outflanknl",
@@ -838,7 +843,7 @@
       "location": "Amsterdam, The Netherlands",
       "bio": "OSS SIP / VoIP / RTC Packet Capture & Monitoring",
       "company": null,
-      "total_stars": 3871
+      "total_stars": 3873
     },
     {
       "login": "SWI-Prolog",
@@ -1094,29 +1099,29 @@
       "full_name": "duckdb/duckdb",
       "html_url": "https://github.com/duckdb/duckdb",
       "description": "DuckDB is an analytical in-process SQL database management system",
-      "stargazers_count": 38258,
-      "forks_count": 3242,
-      "watchers_count": 38258,
+      "stargazers_count": 38261,
+      "forks_count": 3243,
+      "watchers_count": 38261,
       "language": "C++",
       "owner_login": "duckdb",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/82039556?v=4",
       "owner_type": "Organization",
       "created_at": "2018-06-26T15:04:45Z",
-      "pushed_at": "2026-05-18T07:03:22Z"
+      "pushed_at": "2026-05-18T07:26:25Z"
     },
     {
       "full_name": "soxoj/maigret",
       "html_url": "https://github.com/soxoj/maigret",
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-      "stargazers_count": 29236,
-      "forks_count": 2093,
-      "watchers_count": 29236,
+      "stargazers_count": 29250,
+      "forks_count": 2094,
+      "watchers_count": 29250,
       "language": "Python",
       "owner_login": "soxoj",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/31013580?v=4",
       "owner_type": "User",
       "created_at": "2020-06-27T14:16:42Z",
-      "pushed_at": "2026-05-17T08:44:12Z"
+      "pushed_at": "2026-05-18T08:22:02Z"
     },
     {
       "full_name": "ajaxorg/ace",
@@ -1178,9 +1183,9 @@
       "full_name": "xupefei/Locale-Emulator",
       "html_url": "https://github.com/xupefei/Locale-Emulator",
       "description": "Yet Another System Region and Language Simulator",
-      "stargazers_count": 11525,
+      "stargazers_count": 11526,
       "forks_count": 817,
-      "watchers_count": 11525,
+      "watchers_count": 11526,
       "language": "C#",
       "owner_login": "xupefei",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1687847?v=4",
@@ -1360,9 +1365,9 @@
       "full_name": "masterking32/MasterDnsVPN",
       "html_url": "https://github.com/masterking32/MasterDnsVPN",
       "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
-      "stargazers_count": 3560,
-      "forks_count": 372,
-      "watchers_count": 3560,
+      "stargazers_count": 3577,
+      "forks_count": 373,
+      "watchers_count": 3577,
       "language": "Go",
       "owner_login": "masterking32",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1076030?v=4",
@@ -1374,9 +1379,9 @@
       "full_name": "masterking32/MasterHttpRelayVPN",
       "html_url": "https://github.com/masterking32/MasterHttpRelayVPN",
       "description": "Domain-fronted HTTP/SOCKS5 proxy tunneling traffic through Google Apps Script with MITM TLS interception, HTTP/1-2 multiplexing, and DPI evasion.",
-      "stargazers_count": 3469,
+      "stargazers_count": 3471,
       "forks_count": 408,
-      "watchers_count": 3469,
+      "watchers_count": 3471,
       "language": "Python",
       "owner_login": "masterking32",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1076030?v=4",
@@ -1430,9 +1435,9 @@
       "full_name": "AvdLee/SwiftUI-Agent-Skill",
       "html_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
       "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-      "stargazers_count": 2888,
+      "stargazers_count": 2889,
       "forks_count": 130,
-      "watchers_count": 2888,
+      "watchers_count": 2889,
       "language": "Python",
       "owner_login": "AvdLee",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4329185?v=4",
@@ -1592,7 +1597,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/13854005?v=4",
       "owner_type": "Organization",
       "created_at": "2019-04-11T18:19:58Z",
-      "pushed_at": "2026-05-17T22:29:02Z"
+      "pushed_at": "2026-05-18T07:49:17Z"
     },
     {
       "full_name": "gorhom/react-native-animated-tabbar",

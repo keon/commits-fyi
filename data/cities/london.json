@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-05-18T07:07:58.105Z",
+  "generated_at": "2026-05-18T08:32:46.075Z",
   "counts": {
-    "users": 50,
+    "users": 53,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 335129,
-    "org_followers": 58350,
-    "user_stars": 959728,
-    "org_stars": 534293
+    "user_followers": 338572,
+    "org_followers": 58355,
+    "user_stars": 1077193,
+    "org_stars": 533975
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22London%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"London\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,13 +42,13 @@
       "name": "Alicia Sykes",
       "avatar_url": "https://avatars.githubusercontent.com/u/1862727?v=4",
       "html_url": "https://github.com/lissy93",
-      "followers": 7108,
+      "followers": 7107,
       "following": 158,
       "public_repos": 132,
       "location": "London, UK",
       "bio": "Turning caffeine into code 🥤",
       "company": null,
-      "total_stars": 101085
+      "total_stars": 101089
     },
     {
       "login": "mlabonne",
@@ -56,7 +61,7 @@
       "location": "London, United Kingdom",
       "bio": "Head of Post-Training @ Liquid AI",
       "company": "Liquid AI",
-      "total_stars": 85553
+      "total_stars": 85555
     },
     {
       "login": "jgthms",
@@ -95,20 +100,20 @@
       "location": "London",
       "bio": null,
       "company": null,
-      "total_stars": 61282
+      "total_stars": 61284
     },
     {
       "login": "steipete",
       "name": "Peter Steinberger",
       "avatar_url": "https://avatars.githubusercontent.com/u/58493?v=4",
       "html_url": "https://github.com/steipete",
-      "followers": 50047,
+      "followers": 50042,
       "following": 109,
       "public_repos": 170,
       "location": "Vienna & London",
       "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
       "company": "OpenAI",
-      "total_stars": 55563
+      "total_stars": 55582
     },
     {
       "login": "alyssaxuu",
@@ -124,17 +129,30 @@
       "total_stars": 51960
     },
     {
+      "login": "safishamsi",
+      "name": "Safi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216348667?v=4",
+      "html_url": "https://github.com/safishamsi",
+      "followers": 986,
+      "following": 0,
+      "public_repos": 12,
+      "location": "London, United Kingdom",
+      "bio": "AI Engineer | MSc Data Science (Distinction) @UniofBirmingham | Medical AI & Knowledge Graphs | MICAD 2025 | Building explainable healthcare AI",
+      "company": null,
+      "total_stars": 48977
+    },
+    {
       "login": "rohitg00",
       "name": "Rohit Ghumare",
       "avatar_url": "https://avatars.githubusercontent.com/u/48523873?v=4",
       "html_url": "https://github.com/rohitg00",
-      "followers": 2805,
+      "followers": 2806,
       "following": 53,
       "public_repos": 297,
       "location": "London, UK",
       "bio": "Engineer | DevRel | GDE @Google Cloud | CNCF Ambassador | Docker Captain | AWS CommunityBuilder | Ex - Solo.io, Cerbos, Oracle, Reliance Jio",
       "company": "iii.dev",
-      "total_stars": 35244
+      "total_stars": 35348
     },
     {
       "login": "gajus",
@@ -148,6 +166,32 @@
       "bio": "Software architect. Passionate about Node.js, React, GraphQL, PostgreSQL. Active open-source contributor.",
       "company": null,
       "total_stars": 35194
+    },
+    {
+      "login": "lovell",
+      "name": "Lovell Fuller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210965?v=4",
+      "html_url": "https://github.com/lovell",
+      "followers": 1731,
+      "following": 52,
+      "public_repos": 75,
+      "location": "London, UK",
+      "bio": null,
+      "company": null,
+      "total_stars": 34533
+    },
+    {
+      "login": "bayandin",
+      "name": "Alexander Bayandin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/864213?v=4",
+      "html_url": "https://github.com/bayandin",
+      "followers": 728,
+      "following": 0,
+      "public_repos": 28,
+      "location": "London, UK",
+      "bio": null,
+      "company": "@neondatabase / @databricks",
+      "total_stars": 33822
     },
     {
       "login": "mattdesl",
@@ -193,13 +237,13 @@
       "name": "Kunal Kushwaha",
       "avatar_url": "https://avatars.githubusercontent.com/u/42698533?v=4",
       "html_url": "https://github.com/kunal-kushwaha",
-      "followers": 37064,
+      "followers": 37065,
       "following": 0,
       "public_repos": 48,
       "location": "London, UK",
       "bio": "Teaching millions how to code and helping businesses scale.",
       "company": "Cast AI",
-      "total_stars": 29107
+      "total_stars": 29108
     },
     {
       "login": "LaravelDaily",
@@ -297,7 +341,7 @@
       "name": "Jessica Lord",
       "avatar_url": "https://avatars.githubusercontent.com/u/1305617?v=4",
       "html_url": "https://github.com/jlord",
-      "followers": 16574,
+      "followers": 16575,
       "following": 30,
       "public_repos": 171,
       "location": "London, England",
@@ -316,7 +360,7 @@
       "location": "London",
       "bio": "I build software.",
       "company": "@onechronos",
-      "total_stars": 12048
+      "total_stars": 12049
     },
     {
       "login": "steveruizok",
@@ -583,7 +627,7 @@
       "name": "Eddie Jaoude",
       "avatar_url": "https://avatars.githubusercontent.com/u/624760?v=4",
       "html_url": "https://github.com/eddiejaoude",
-      "followers": 8659,
+      "followers": 8660,
       "following": 32,
       "public_repos": 96,
       "location": "London, UK",
@@ -675,7 +719,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/4786022?v=4",
       "html_url": "https://github.com/Soldy",
       "followers": 3642,
-      "following": 25867,
+      "following": 25866,
       "public_repos": 370,
       "location": "London UK ",
       "bio": "Mathematics has no gender and can work with all skin types.\r\n",
@@ -689,13 +733,13 @@
       "name": "Cloudflare",
       "avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "html_url": "https://github.com/cloudflare",
-      "followers": 13401,
+      "followers": 13405,
       "following": 0,
       "public_repos": 561,
       "location": "San Francisco, London, Austin, Lisbon, Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 195218
+      "total_stars": 194987
     },
     {
       "login": "lewagon",
@@ -721,7 +765,7 @@
       "location": "London, UK",
       "bio": null,
       "company": null,
-      "total_stars": 41380
+      "total_stars": 41358
     },
     {
       "login": "openfaas",
@@ -741,13 +785,13 @@
       "name": "PlayCanvas",
       "avatar_url": "https://avatars.githubusercontent.com/u/1030579?v=4",
       "html_url": "https://github.com/playcanvas",
-      "followers": 3731,
+      "followers": 3732,
       "following": 0,
       "public_repos": 72,
       "location": "London, UK",
       "bio": "Web Graphics Creation Platform",
       "company": null,
-      "total_stars": 30743
+      "total_stars": 30752
     },
     {
       "login": "paritytech",
@@ -756,11 +800,11 @@
       "html_url": "https://github.com/paritytech",
       "followers": 2054,
       "following": 0,
-      "public_repos": 629,
+      "public_repos": 630,
       "location": "London",
       "bio": "Solutions for a trust-free world",
       "company": null,
-      "total_stars": 28947
+      "total_stars": 28924
     },
     {
       "login": "fluttercommunity",
@@ -786,7 +830,7 @@
       "location": "London",
       "bio": "A set of libraries to write better TypeScript",
       "company": null,
-      "total_stars": 16181
+      "total_stars": 16184
     },
     {
       "login": "londonappbrewery",
@@ -877,7 +921,7 @@
       "location": "London",
       "bio": "Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.",
       "company": null,
-      "total_stars": 6155
+      "total_stars": 6158
     },
     {
       "login": "alphagov",
@@ -912,11 +956,11 @@
       "html_url": "https://github.com/instadeepai",
       "followers": 622,
       "following": 0,
-      "public_repos": 76,
+      "public_repos": 75,
       "location": "London, UK",
       "bio": "We productionise innovation for the benefit of everyone",
       "company": null,
-      "total_stars": 4696
+      "total_stars": 4697
     },
     {
       "login": "appbrewery",
@@ -1007,7 +1051,7 @@
       "location": "London, UK",
       "bio": null,
       "company": null,
-      "total_stars": 1205
+      "total_stars": 1147
     },
     {
       "login": "essentialdevelopercom",
@@ -1080,9 +1124,9 @@
       "full_name": "mlabonne/llm-course",
       "html_url": "https://github.com/mlabonne/llm-course",
       "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "stargazers_count": 79415,
+      "stargazers_count": 79417,
       "forks_count": 9227,
-      "watchers_count": 79415,
+      "watchers_count": 79417,
       "language": null,
       "owner_login": "mlabonne",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/81252890?v=4",
@@ -1094,9 +1138,9 @@
       "full_name": "laurent22/joplin",
       "html_url": "https://github.com/laurent22/joplin",
       "description": "Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.",
-      "stargazers_count": 54854,
+      "stargazers_count": 54856,
       "forks_count": 6105,
-      "watchers_count": 54854,
+      "watchers_count": 54856,
       "language": "TypeScript",
       "owner_login": "laurent22",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1285584?v=4",
@@ -1119,11 +1163,39 @@
       "pushed_at": "2026-03-01T20:13:02Z"
     },
     {
+      "full_name": "safishamsi/graphify",
+      "html_url": "https://github.com/safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable",
+      "stargazers_count": 48909,
+      "forks_count": 5314,
+      "watchers_count": 48909,
+      "language": "Python",
+      "owner_login": "safishamsi",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/216348667?v=4",
+      "owner_type": "User",
+      "created_at": "2026-04-03T15:49:07Z",
+      "pushed_at": "2026-05-17T22:09:51Z"
+    },
+    {
+      "full_name": "bayandin/awesome-awesomeness",
+      "html_url": "https://github.com/bayandin/awesome-awesomeness",
+      "description": "A curated list of awesome awesomeness",
+      "stargazers_count": 33434,
+      "forks_count": 3599,
+      "watchers_count": 33434,
+      "language": "Ruby",
+      "owner_login": "bayandin",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/864213?v=4",
+      "owner_type": "User",
+      "created_at": "2014-07-08T05:44:19Z",
+      "pushed_at": "2024-06-02T22:46:41Z"
+    },
+    {
       "full_name": "lissy93/web-check",
       "html_url": "https://github.com/lissy93/web-check",
       "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
       "stargazers_count": 33104,
-      "forks_count": 2676,
+      "forks_count": 2677,
       "watchers_count": 33104,
       "language": "TypeScript",
       "owner_login": "lissy93",
@@ -1133,12 +1205,26 @@
       "pushed_at": "2026-05-11T10:03:33Z"
     },
     {
+      "full_name": "lovell/sharp",
+      "html_url": "https://github.com/lovell/sharp",
+      "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library.",
+      "stargazers_count": 32232,
+      "forks_count": 1405,
+      "watchers_count": 32232,
+      "language": "JavaScript",
+      "owner_login": "lovell",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/210965?v=4",
+      "owner_type": "User",
+      "created_at": "2013-08-19T20:24:24Z",
+      "pushed_at": "2026-05-17T15:10:27Z"
+    },
+    {
       "full_name": "cloudflare/pingora",
       "html_url": "https://github.com/cloudflare/pingora",
       "description": "A library for building fast, reliable and evolvable network services.",
-      "stargazers_count": 26653,
+      "stargazers_count": 26654,
       "forks_count": 1647,
-      "watchers_count": 26653,
+      "watchers_count": 26654,
       "language": "Rust",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1164,9 +1250,9 @@
       "full_name": "lissy93/dashy",
       "html_url": "https://github.com/lissy93/dashy",
       "description": "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
-      "stargazers_count": 25182,
+      "stargazers_count": 25184,
       "forks_count": 1841,
-      "watchers_count": 25182,
+      "watchers_count": 25184,
       "language": "Vue",
       "owner_login": "lissy93",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1862727?v=4",
@@ -1178,9 +1264,9 @@
       "full_name": "kunal-kushwaha/DSA-Bootcamp-Java",
       "html_url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
       "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
-      "stargazers_count": 22661,
-      "forks_count": 13291,
-      "watchers_count": 22661,
+      "stargazers_count": 22662,
+      "forks_count": 13292,
+      "watchers_count": 22662,
       "language": "Java",
       "owner_login": "kunal-kushwaha",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/42698533?v=4",
@@ -1304,9 +1390,9 @@
       "full_name": "Effect-TS/effect",
       "html_url": "https://github.com/Effect-TS/effect",
       "description": "Build production-ready applications in TypeScript",
-      "stargazers_count": 14268,
+      "stargazers_count": 14269,
       "forks_count": 571,
-      "watchers_count": 14268,
+      "watchers_count": 14269,
       "language": "TypeScript",
       "owner_login": "Effect-TS",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/77678942?v=4",
@@ -1332,9 +1418,9 @@
       "full_name": "steipete/CodexBar",
       "html_url": "https://github.com/steipete/CodexBar",
       "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-      "stargazers_count": 12653,
-      "forks_count": 988,
-      "watchers_count": 12653,
+      "stargazers_count": 12663,
+      "forks_count": 989,
+      "watchers_count": 12663,
       "language": "Swift",
       "owner_login": "steipete",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/58493?v=4",
@@ -1374,9 +1460,9 @@
       "full_name": "rohitg00/agentmemory",
       "html_url": "https://github.com/rohitg00/agentmemory",
       "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-      "stargazers_count": 11691,
-      "forks_count": 982,
-      "watchers_count": 11691,
+      "stargazers_count": 11788,
+      "forks_count": 996,
+      "watchers_count": 11788,
       "language": "TypeScript",
       "owner_login": "rohitg00",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/48523873?v=4",
@@ -1396,7 +1482,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2018-09-29T18:22:05Z",
-      "pushed_at": "2026-05-14T22:06:56Z"
+      "pushed_at": "2026-05-18T07:43:50Z"
     },
     {
       "full_name": "londonappbrewery/Flutter-Course-Resources",
@@ -1430,9 +1516,9 @@
       "full_name": "cloudflare/cfssl",
       "html_url": "https://github.com/cloudflare/cfssl",
       "description": "CFSSL: Cloudflare's PKI and TLS toolkit",
-      "stargazers_count": 9413,
+      "stargazers_count": 9412,
       "forks_count": 1143,
-      "watchers_count": 9413,
+      "watchers_count": 9412,
       "language": "Go",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1458,9 +1544,9 @@
       "full_name": "canonical/microk8s",
       "html_url": "https://github.com/canonical/microk8s",
       "description": "MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.",
-      "stargazers_count": 9287,
+      "stargazers_count": 9288,
       "forks_count": 822,
-      "watchers_count": 9287,
+      "watchers_count": 9288,
       "language": "Python",
       "owner_login": "canonical",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/53057619?v=4",
@@ -1542,9 +1628,9 @@
       "full_name": "playcanvas/supersplat",
       "html_url": "https://github.com/playcanvas/supersplat",
       "description": "3D Gaussian Splat Editor",
-      "stargazers_count": 8312,
-      "forks_count": 895,
-      "watchers_count": 8312,
+      "stargazers_count": 8320,
+      "forks_count": 897,
+      "watchers_count": 8320,
       "language": "TypeScript",
       "owner_login": "playcanvas",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1030579?v=4",
@@ -1556,37 +1642,37 @@
       "full_name": "cloudflare/workerd",
       "html_url": "https://github.com/cloudflare/workerd",
       "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
-      "stargazers_count": 8226,
+      "stargazers_count": 8227,
       "forks_count": 639,
-      "watchers_count": 8226,
+      "watchers_count": 8227,
       "language": "C++",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2022-09-15T15:15:16Z",
-      "pushed_at": "2026-05-18T05:16:49Z"
+      "pushed_at": "2026-05-18T08:25:28Z"
     },
     {
       "full_name": "cloudflare/vinext",
       "html_url": "https://github.com/cloudflare/vinext",
       "description": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
-      "stargazers_count": 8068,
+      "stargazers_count": 8069,
       "forks_count": 326,
-      "watchers_count": 8068,
+      "watchers_count": 8069,
       "language": "TypeScript",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
       "owner_type": "Organization",
       "created_at": "2026-02-24T05:07:41Z",
-      "pushed_at": "2026-05-16T19:16:39Z"
+      "pushed_at": "2026-05-18T08:30:36Z"
     },
     {
       "full_name": "rohitg00/ai-engineering-from-scratch",
       "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "description": "Learn it. Build it. Ship it for others.",
-      "stargazers_count": 7930,
-      "forks_count": 1650,
-      "watchers_count": 7930,
+      "stargazers_count": 7934,
+      "forks_count": 1651,
+      "watchers_count": 7934,
       "language": "Python",
       "owner_login": "rohitg00",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/48523873?v=4",
@@ -1626,9 +1712,9 @@
       "full_name": "cloudflare/boringtun",
       "html_url": "https://github.com/cloudflare/boringtun",
       "description": "Userspace WireGuard® Implementation in Rust",
-      "stargazers_count": 7052,
+      "stargazers_count": 7053,
       "forks_count": 512,
-      "watchers_count": 7052,
+      "watchers_count": 7053,
       "language": "Rust",
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -1682,9 +1768,9 @@
       "full_name": "steipete/summarize",
       "html_url": "https://github.com/steipete/summarize",
       "description": "Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.",
-      "stargazers_count": 5976,
+      "stargazers_count": 5977,
       "forks_count": 383,
-      "watchers_count": 5976,
+      "watchers_count": 5977,
       "language": "TypeScript",
       "owner_login": "steipete",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/58493?v=4",
@@ -1733,48 +1819,6 @@
       "owner_type": "User",
       "created_at": "2013-01-19T08:39:17Z",
       "pushed_at": "2026-05-13T10:30:15Z"
-    },
-    {
-      "full_name": "steveruizok/perfect-freehand",
-      "html_url": "https://github.com/steveruizok/perfect-freehand",
-      "description": "Draw perfect pressure-sensitive freehand lines.",
-      "stargazers_count": 5565,
-      "forks_count": 209,
-      "watchers_count": 5565,
-      "language": "HTML",
-      "owner_login": "steveruizok",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/23072548?v=4",
-      "owner_type": "User",
-      "created_at": "2021-02-19T22:59:03Z",
-      "pushed_at": "2026-04-13T04:44:47Z"
-    },
-    {
-      "full_name": "snyk/cli",
-      "html_url": "https://github.com/snyk/cli",
-      "description": "Snyk CLI scans and monitors your projects for security vulnerabilities.",
-      "stargazers_count": 5537,
-      "forks_count": 681,
-      "watchers_count": 5537,
-      "language": "TypeScript",
-      "owner_login": "snyk",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12959162?v=4",
-      "owner_type": "Organization",
-      "created_at": "2015-10-30T11:36:00Z",
-      "pushed_at": "2026-05-17T01:01:33Z"
-    },
-    {
-      "full_name": "emilsjolander/StickyListHeaders",
-      "html_url": "https://github.com/emilsjolander/StickyListHeaders",
-      "description": "An android library for section headers that stick to the top",
-      "stargazers_count": 5471,
-      "forks_count": 1489,
-      "watchers_count": 5471,
-      "language": "Java",
-      "owner_login": "emilsjolander",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1525924?v=4",
-      "owner_type": "User",
-      "created_at": "2012-03-11T18:29:18Z",
-      "pushed_at": "2021-05-21T09:48:05Z"
     }
   ]
 }

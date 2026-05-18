@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-05-18T07:08:38.641Z",
+  "generated_at": "2026-05-18T08:33:33.192Z",
   "counts": {
     "users": 50,
     "orgs": 30,
@@ -11,8 +11,8 @@
   "totals": {
     "user_followers": 31149,
     "org_followers": 2715,
-    "user_stars": 201836,
-    "org_stars": 87691
+    "user_stars": 195484,
+    "org_stars": 87413
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Tel Aviv",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Tel%20Aviv%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Tel%20Aviv%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Tel Aviv\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,7 +48,7 @@
       "location": "Tel Aviv, Israel",
       "bio": null,
       "company": "SpectralOps",
-      "total_stars": 62505
+      "total_stars": 62506
     },
     {
       "login": "cool-RR",
@@ -108,20 +113,7 @@
       "location": "Tel Aviv, Israel",
       "bio": "Building Inbox Zero: https://getinboxzero.com\r\n\r\nMy YouTube channel about open source and AI coding: https://youtube.com/elie2222",
       "company": "@inbox-zero ",
-      "total_stars": 11446
-    },
-    {
-      "login": "lirantal",
-      "name": "Liran Tal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
-      "html_url": "https://github.com/lirantal",
-      "followers": 2462,
-      "following": 1157,
-      "public_repos": 479,
-      "location": "Tel Aviv, Israel",
-      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
-      "company": "@snyk",
-      "total_stars": 10248
+      "total_stars": 11448
     },
     {
       "login": "filsv",
@@ -174,6 +166,19 @@
       "bio": "Creator of Novu 🚀 - The open-source notification infrastructure",
       "company": "@novuhq",
       "total_stars": 3916
+    },
+    {
+      "login": "lirantal",
+      "name": "Liran Tal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
+      "html_url": "https://github.com/lirantal",
+      "followers": 2462,
+      "following": 1157,
+      "public_repos": 479,
+      "location": "Tel Aviv, Israel",
+      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
+      "company": "@snyk",
+      "total_stars": 3892
     },
     {
       "login": "liady",
@@ -277,7 +282,7 @@
       "location": "Tel Aviv",
       "bio": "🛰️",
       "company": null,
-      "total_stars": 1655
+      "total_stars": 1656
     },
     {
       "login": "davidyaha",
@@ -704,11 +709,11 @@
       "html_url": "https://github.com/wix-incubator",
       "followers": 153,
       "following": 0,
-      "public_repos": 648,
+      "public_repos": 649,
       "location": "Tel Aviv, Vilnius, Dnipropetrovsk, Kiev, San Francisco, Miami, NYC",
       "bio": "An incubator for experimental WIX OSS code. For official Wix OSS releases please visit github.com/wix",
       "company": null,
-      "total_stars": 22852
+      "total_stars": 22574
     },
     {
       "login": "komodorio",
@@ -1130,7 +1135,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?v=4",
       "owner_type": "Organization",
       "created_at": "2016-03-11T11:22:54Z",
-      "pushed_at": "2026-05-17T11:47:32Z"
+      "pushed_at": "2026-05-18T08:10:06Z"
     },
     {
       "full_name": "wix/Detox",
@@ -1150,15 +1155,15 @@
       "full_name": "elie222/inbox-zero",
       "html_url": "https://github.com/elie222/inbox-zero",
       "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
-      "stargazers_count": 10709,
-      "forks_count": 1326,
-      "watchers_count": 10709,
+      "stargazers_count": 10711,
+      "forks_count": 1327,
+      "watchers_count": 10711,
       "language": "TypeScript",
       "owner_login": "elie222",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3090527?v=4",
       "owner_type": "User",
       "created_at": "2023-07-12T15:34:57Z",
-      "pushed_at": "2026-05-18T07:07:13Z"
+      "pushed_at": "2026-05-18T08:28:02Z"
     },
     {
       "full_name": "wix/react-native-calendars",
@@ -1235,7 +1240,7 @@
       "html_url": "https://github.com/wix/react-native-ui-lib",
       "description": "UI Components Library for React Native",
       "stargazers_count": 7135,
-      "forks_count": 751,
+      "forks_count": 752,
       "watchers_count": 7135,
       "language": "TypeScript",
       "owner_login": "wix",
@@ -1287,20 +1292,6 @@
       "pushed_at": "2023-06-28T11:45:48Z"
     },
     {
-      "full_name": "lirantal/nodejs-cli-apps-best-practices",
-      "html_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
-      "description": "The largest Node.js CLI Apps best practices list ✨",
-      "stargazers_count": 3983,
-      "forks_count": 159,
-      "watchers_count": 3983,
-      "language": "JavaScript",
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
-      "owner_type": "User",
-      "created_at": "2019-12-28T22:37:12Z",
-      "pushed_at": "2026-05-17T14:43:16Z"
-    },
-    {
       "full_name": "scopsy/await-to-js",
       "html_url": "https://github.com/scopsy/await-to-js",
       "description": "Async await wrapper for easy error handling without try-catch",
@@ -1346,9 +1337,9 @@
       "full_name": "jondot/awesome-devenv",
       "html_url": "https://github.com/jondot/awesome-devenv",
       "description": "A curated list of awesome tools, resources and workflow tips making an awesome development environment.",
-      "stargazers_count": 3254,
+      "stargazers_count": 3255,
       "forks_count": 203,
-      "watchers_count": 3254,
+      "watchers_count": 3255,
       "language": null,
       "owner_login": "jondot",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/83390?v=4",
@@ -1441,20 +1432,6 @@
       "pushed_at": "2024-06-26T20:05:06Z"
     },
     {
-      "full_name": "lirantal/is-website-vulnerable",
-      "html_url": "https://github.com/lirantal/is-website-vulnerable",
-      "description": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
-      "stargazers_count": 2024,
-      "forks_count": 126,
-      "watchers_count": 2024,
-      "language": "JavaScript",
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
-      "owner_type": "User",
-      "created_at": "2019-10-05T10:52:11Z",
-      "pushed_at": "2026-05-17T14:44:00Z"
-    },
-    {
       "full_name": "ronami/HypeScript",
       "html_url": "https://github.com/ronami/HypeScript",
       "description": "🐬 A simplified implementation of TypeScript's type system written in TypeScript's type system",
@@ -1508,15 +1485,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
       "owner_type": "User",
       "created_at": "2017-12-14T21:37:48Z",
-      "pushed_at": "2026-05-17T14:40:37Z"
+      "pushed_at": "2026-05-18T08:18:14Z"
     },
     {
       "full_name": "assafdori/bypass-mdm",
       "html_url": "https://github.com/assafdori/bypass-mdm",
       "description": "Bypass MDM Setup for MacOS, up to MacOS Tahoe 26.3",
-      "stargazers_count": 1633,
+      "stargazers_count": 1634,
       "forks_count": 406,
-      "watchers_count": 1633,
+      "watchers_count": 1634,
       "language": "Shell",
       "owner_login": "assafdori",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/83507910?v=4",
@@ -1746,7 +1723,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?v=4",
       "owner_type": "User",
       "created_at": "2025-10-02T08:08:33Z",
-      "pushed_at": "2026-05-17T14:38:42Z"
+      "pushed_at": "2026-05-18T08:19:55Z"
     },
     {
       "full_name": "wix-incubator/mjml-react",
@@ -1775,6 +1752,34 @@
       "owner_type": "User",
       "created_at": "2016-06-15T18:42:48Z",
       "pushed_at": "2018-09-20T20:59:08Z"
+    },
+    {
+      "full_name": "jondot/awesome-weekly",
+      "html_url": "https://github.com/jondot/awesome-weekly",
+      "description": "An \"awesome\" type curated list of quality weekly subscription newsletters from the software world",
+      "stargazers_count": 940,
+      "forks_count": 97,
+      "watchers_count": 940,
+      "language": null,
+      "owner_login": "jondot",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/83390?v=4",
+      "owner_type": "User",
+      "created_at": "2014-09-20T19:10:41Z",
+      "pushed_at": "2024-06-11T05:28:44Z"
+    },
+    {
+      "full_name": "a8m/envsubst",
+      "html_url": "https://github.com/a8m/envsubst",
+      "description": "Environment variables substitution for Go",
+      "stargazers_count": 885,
+      "forks_count": 97,
+      "watchers_count": 885,
+      "language": "Go",
+      "owner_login": "a8m",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7413593?v=4",
+      "owner_type": "User",
+      "created_at": "2016-04-28T16:03:12Z",
+      "pushed_at": "2025-12-10T12:33:56Z"
     }
   ]
 }

@@ -187,6 +187,18 @@ async function hydrateAndRank(searchResults) {
   return enriched.filter(Boolean);
 }
 
+function dedupeByLogin(arr) {
+  const seen = new Set();
+  const out = [];
+  for (const x of arr) {
+    const key = (x.login || '').toLowerCase();
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    out.push(x);
+  }
+  return out;
+}
+
 function aggregateRepos(enriched, limit) {
   const m = new Map();
   for (const { repos } of enriched) {
@@ -202,31 +214,82 @@ function aggregateRepos(enriched, limit) {
 
 // ----- Builders -----
 
-async function buildLocation(name, kind, outDir) {
+async function buildOwnerPool() {
+  console.log('\n=== owner pool discovery (shared across global/cities/countries) ===');
+  const q = 'stars:>5000';
+  console.log(`Pulling top-starred repos (${q})…`);
+  const repos = await searchRepos(q, 1000);
+  console.log(`  ${repos.length} repos`);
+  const seen = new Set();
+  const candidates = [];
+  for (const r of repos) {
+    const login = r.owner?.login;
+    if (!login || seen.has(login)) continue;
+    seen.add(login);
+    candidates.push({ login, type: r.owner.type, avatar_url: r.owner.avatar_url });
+  }
+  console.log(`  ${candidates.length} unique owners`);
+  console.log('Hydrating owner pool…');
+  const enriched = await hydrateAndRank(candidates);
+  console.log(`  ${enriched.length} hydrated`);
+  return enriched;
+}
+
+function locationMatches(loc, name) {
+  if (!loc) return false;
+  return loc.toLowerCase().includes(name.toLowerCase());
+}
+
+async function buildLocation(name, kind, outDir, ownerPool = []) {
   const slug = slugify(name);
   console.log(`\n=== ${kind}: ${name} (${slug}) ===`);
   const userQ = `location:"${name}" type:user`;
   const orgQ  = `location:"${name}" type:org`;
 
-  console.log('Searching users…');
+  console.log('Searching users by followers…');
   const userSearch = await searchUsers(userQ, LOC_USERS);
   console.log(`  found ${userSearch.length}`);
-  console.log('Searching orgs…');
+  console.log('Searching orgs by followers…');
   const orgSearch = await searchUsers(orgQ, LOC_ORGS);
   console.log(`  found ${orgSearch.length}`);
 
-  console.log(`Hydrating ${userSearch.length + orgSearch.length} accounts + repos…`);
-  const enriched = await hydrateAndRank([...userSearch, ...orgSearch]);
+  // Reuse owner-pool hydration where logins overlap
+  const poolByLogin = new Map(ownerPool.map(p => [p.acct.login, p]));
+  const newCandidates = [...userSearch, ...orgSearch].filter(c => !poolByLogin.has(c.login));
+  const reused = (userSearch.length + orgSearch.length) - newCandidates.length;
+  console.log(`Hydrating ${newCandidates.length} new candidates (${reused} reused from owner pool)…`);
+  const newEnriched = await hydrateAndRank(newCandidates);
 
-  const users = enriched
-    .filter(x => x.acct.type === 'User')
-    .map(x => compactAccount(x.acct, x.totalStars))
-    .sort((a, b) => b.total_stars - a.total_stars);
+  // Pool entries whose self-reported location matches this city/country
+  const poolMatches = ownerPool.filter(p => locationMatches(p.acct.location, name));
+  console.log(`  + ${poolMatches.length} additional candidates from owner pool (location match)`);
 
-  const orgs = enriched
-    .filter(x => x.acct.type === 'Organization')
-    .map(x => compactAccount(x.acct, x.totalStars))
-    .sort((a, b) => b.total_stars - a.total_stars);
+  // Pool entries that were ALSO in the location-followers search
+  const searchLogins = new Set([...userSearch, ...orgSearch].map(s => s.login));
+  const poolViaSearch = [];
+  for (const login of searchLogins) if (poolByLogin.has(login)) poolViaSearch.push(poolByLogin.get(login));
+
+  // Dedupe by login
+  const merged = new Map();
+  for (const e of [...newEnriched, ...poolViaSearch, ...poolMatches]) {
+    if (e?.acct?.login) merged.set(e.acct.login, e);
+  }
+  const enriched = Array.from(merged.values());
+  console.log(`Total ${enriched.length} unique accounts ranked.`);
+
+  const users = dedupeByLogin(
+    enriched
+      .filter(x => x.acct.type === 'User')
+      .map(x => compactAccount(x.acct, x.totalStars))
+      .sort((a, b) => b.total_stars - a.total_stars)
+  );
+
+  const orgs = dedupeByLogin(
+    enriched
+      .filter(x => x.acct.type === 'Organization')
+      .map(x => compactAccount(x.acct, x.totalStars))
+      .sort((a, b) => b.total_stars - a.total_stars)
+  );
 
   const repos = aggregateRepos(enriched, TOP_REPOS);
 
@@ -247,6 +310,11 @@ async function buildLocation(name, kind, outDir) {
       `Top ${LOC_ORGS} orgs in ${name}`,
       `/search/users?q=${encodeURIComponent(orgQ)}&sort=followers&order=desc&per_page=${LOC_ORGS}`,
       `https://github.com/search?q=${encodeURIComponent(orgQ)}&type=users&s=followers&o=desc`,
+    ),
+    queryObj(
+      `Plus owners from the global top-starred-repo pool whose self-reported location contains "${name}"`,
+      '/search/repositories?q=stars:>5000&sort=stars&order=desc',
+      'https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc',
     ),
     queryObj(
       'Per-account repo list (to sum stars and surface top repos)',
@@ -270,34 +338,51 @@ async function buildLocation(name, kind, outDir) {
   return { kind, name, slug, generated_at: payload.generated_at, counts: payload.counts };
 }
 
-async function buildGlobal() {
+async function buildGlobal(ownerPool = []) {
   console.log('\n=== global ===');
   const userQ = 'followers:>1000';
   const orgQ = 'followers:>500 type:org';
   const repoQ = 'stars:>1000';
 
-  console.log('Searching top users globally…');
-  const userSearch = await searchUsers(userQ, GLOBAL_USERS);
+  console.log('Searching top users by followers…');
+  const userSearch = await searchUsers(userQ, GLOBAL_USERS * 2);
   console.log(`  found ${userSearch.length}`);
-  console.log('Searching top orgs globally…');
-  const orgSearch = await searchUsers(orgQ, GLOBAL_ORGS);
+  console.log('Searching top orgs by followers…');
+  const orgSearch = await searchUsers(orgQ, GLOBAL_ORGS * 2);
   console.log(`  found ${orgSearch.length}`);
-  console.log('Searching top repos globally…');
+  console.log('Searching top repos for display…');
   const repoSearch = await searchRepos(repoQ, TOP_REPOS);
   console.log(`  found ${repoSearch.length}`);
 
-  console.log('Hydrating accounts…');
-  const enriched = await hydrateAndRank([...userSearch, ...orgSearch]);
+  // Hydrate follower-based candidates that aren't already in the owner pool.
+  const poolByLogin = new Map(ownerPool.map(p => [p.acct.login.toLowerCase(), p]));
+  const newCandidates = [...userSearch, ...orgSearch]
+    .filter(c => c.login && !poolByLogin.has(c.login.toLowerCase()));
+  const reused = (userSearch.length + orgSearch.length) - newCandidates.length;
+  console.log(`Hydrating ${newCandidates.length} follower-based new candidates (${reused} reused from owner pool)…`);
+  const newEnriched = await hydrateAndRank(newCandidates);
 
-  const users = enriched
-    .filter(x => x.acct.type === 'User')
-    .map(x => compactAccount(x.acct, x.totalStars))
-    .sort((a, b) => b.total_stars - a.total_stars);
+  // Union all enriched entries (owner pool + freshly hydrated), keyed case-insensitively.
+  const enrichedMap = new Map();
+  for (const e of [...ownerPool, ...newEnriched]) {
+    if (e?.acct?.login) enrichedMap.set(e.acct.login.toLowerCase(), e);
+  }
+  const enriched = Array.from(enrichedMap.values());
+  console.log(`Total unique enriched accounts: ${enriched.length}`);
 
-  const orgs = enriched
-    .filter(x => x.acct.type === 'Organization')
-    .map(x => compactAccount(x.acct, x.totalStars))
-    .sort((a, b) => b.total_stars - a.total_stars);
+  const users = dedupeByLogin(
+    enriched
+      .filter(x => x.acct.type === 'User')
+      .map(x => compactAccount(x.acct, x.totalStars))
+      .sort((a, b) => b.total_stars - a.total_stars)
+  ).slice(0, GLOBAL_USERS);
+
+  const orgs = dedupeByLogin(
+    enriched
+      .filter(x => x.acct.type === 'Organization')
+      .map(x => compactAccount(x.acct, x.totalStars))
+      .sort((a, b) => b.total_stars - a.total_stars)
+  ).slice(0, GLOBAL_ORGS);
 
   const repos = repoSearch.map(compactRepo);
 
@@ -310,16 +395,19 @@ async function buildGlobal() {
   };
 
   const queries = [
-    queryObj(`Top ${GLOBAL_USERS} users by followers`,
-      `/search/users?q=${encodeURIComponent(userQ)}&sort=followers&order=desc&per_page=${GLOBAL_USERS}`,
+    queryObj(`Candidate pool A — top users by followers`,
+      `/search/users?q=${encodeURIComponent(userQ)}&sort=followers&order=desc`,
       `https://github.com/search?q=${encodeURIComponent(userQ)}&type=users&s=followers&o=desc`),
-    queryObj(`Top ${GLOBAL_ORGS} orgs by followers`,
-      `/search/users?q=${encodeURIComponent(orgQ)}&sort=followers&order=desc&per_page=${GLOBAL_ORGS}`,
+    queryObj(`Candidate pool A — top orgs by followers`,
+      `/search/users?q=${encodeURIComponent(orgQ)}&sort=followers&order=desc`,
       `https://github.com/search?q=${encodeURIComponent(orgQ)}&type=users&s=followers&o=desc`),
-    queryObj(`Top ${TOP_REPOS} repos by stars`,
+    queryObj(`Candidate pool B — owners of most-starred repos (top 1,000)`,
+      `/search/repositories?q=${encodeURIComponent('stars:>5000')}&sort=stars&order=desc`,
+      `https://github.com/search?q=${encodeURIComponent('stars:>5000')}&type=repositories&s=stars&o=desc`),
+    queryObj(`Top ${TOP_REPOS} repos by stars (for the Repositories tab)`,
       `/search/repositories?q=${encodeURIComponent(repoQ)}&sort=stars&order=desc&per_page=${TOP_REPOS}`,
       `https://github.com/search?q=${encodeURIComponent(repoQ)}&type=repositories&s=stars&o=desc`),
-    queryObj('Per-account repo list (to sum stars)',
+    queryObj('Per-account repo list (to sum stars across all owned repos)',
       '/users/{login}/repos?per_page=100&type=owner', null),
   ];
 
@@ -428,15 +516,23 @@ async function main() {
 
   if (!existsSync(DATA_DIR)) await mkdir(DATA_DIR, { recursive: true });
 
-  if (args.global)   { try { await buildGlobal(); }   catch (e) { console.error('global FAILED:', e.message); } }
-  if (args.trending) { try { await buildTrending(); } catch (e) { console.error('trending FAILED:', e.message); } }
+  // Shared owner pool: discovered from top-starred repos. Reused across global
+  // and every city/country to catch high-star/low-follower accounts.
+  let ownerPool = [];
+  if (args.global || args.cities.length || args.countries.length) {
+    try { ownerPool = await buildOwnerPool(); }
+    catch (e) { console.error('owner pool FAILED:', e.message); }
+  }
+
+  if (args.global)   { try { await buildGlobal(ownerPool); }   catch (e) { console.error('global FAILED:', e.message); } }
+  if (args.trending) { try { await buildTrending(); }          catch (e) { console.error('trending FAILED:', e.message); } }
 
   for (const city of args.cities) {
-    try { await buildLocation(city, 'city', CITIES_DIR); }
+    try { await buildLocation(city, 'city', CITIES_DIR, ownerPool); }
     catch (e) { console.error(`city ${city} FAILED:`, e.message); }
   }
   for (const country of args.countries) {
-    try { await buildLocation(country, 'country', COUNTRIES_DIR); }
+    try { await buildLocation(country, 'country', COUNTRIES_DIR, ownerPool); }
     catch (e) { console.error(`country ${country} FAILED:`, e.message); }
   }
 

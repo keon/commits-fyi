@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-05-18T07:10:28.037Z",
+  "generated_at": "2026-05-18T08:42:08.250Z",
   "counts": {
-    "users": 50,
+    "users": 54,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 143825,
-    "org_followers": 37974,
-    "user_stars": 544353,
-    "org_stars": 423213
+    "user_followers": 147784,
+    "org_followers": 37977,
+    "user_stars": 735474,
+    "org_stars": 423171
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in Netherlands",
       "api_url": "https://api.github.com/search/users?q=location%3A%22Netherlands%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22Netherlands%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Netherlands\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -44,6 +49,58 @@
       "bio": "Software Developer",
       "company": null,
       "total_stars": 99893
+    },
+    {
+      "login": "JuliusBrussee",
+      "name": "Julius Brussee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104168679?v=4",
+      "html_url": "https://github.com/JuliusBrussee",
+      "followers": 1423,
+      "following": 6,
+      "public_repos": 46,
+      "location": "Netherlands",
+      "bio": null,
+      "company": null,
+      "total_stars": 63230
+    },
+    {
+      "login": "Raphire",
+      "name": "Jeffrey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9938813?v=4",
+      "html_url": "https://github.com/Raphire",
+      "followers": 637,
+      "following": 2,
+      "public_repos": 7,
+      "location": "The Netherlands",
+      "bio": null,
+      "company": null,
+      "total_stars": 46444
+    },
+    {
+      "login": "faif",
+      "name": "Sakis K",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1304661?v=4",
+      "html_url": "https://github.com/faif",
+      "followers": 1128,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Netherlands",
+      "bio": "Software Architect interested in distributed systems and functional programming.",
+      "company": "Mentech",
+      "total_stars": 42921
+    },
+    {
+      "login": "juanfont",
+      "name": "Juan Font",
+      "avatar_url": "https://avatars.githubusercontent.com/u/181059?v=4",
+      "html_url": "https://github.com/juanfont",
+      "followers": 770,
+      "following": 3,
+      "public_repos": 44,
+      "location": "Leiden, Netherlands",
+      "bio": null,
+      "company": "European Space Agency",
+      "total_stars": 38495
     },
     {
       "login": "mislav",
@@ -69,7 +126,7 @@
       "location": "Utrecht, Netherlands",
       "bio": "Software Engineer @ Pydantic 🇧🇷🇺🇾🇮🇹\r\nUvicorn & Starlette maintainer 🦄🌟\r\nFastAPI Expert ⚡",
       "company": "@pydantic",
-      "total_stars": 33697
+      "total_stars": 33698
     },
     {
       "login": "soxoj",
@@ -82,7 +139,7 @@
       "location": "Amsterdam, Netherlands",
       "bio": "CPO @ Social Links",
       "company": "Social Links",
-      "total_stars": 33635
+      "total_stars": 33649
     },
     {
       "login": "nvie",
@@ -167,13 +224,13 @@
       "name": "Dirk-jan",
       "avatar_url": "https://avatars.githubusercontent.com/u/1773762?v=4",
       "html_url": "https://github.com/dirkjanm",
-      "followers": 2361,
+      "followers": 2362,
       "following": 1,
       "public_repos": 44,
       "location": "The Netherlands",
       "bio": null,
       "company": "Outsider Security",
-      "total_stars": 15926
+      "total_stars": 15929
     },
     {
       "login": "KenneyNL",
@@ -186,7 +243,7 @@
       "location": "Netherlands",
       "bio": "Game assets, software and games.",
       "company": null,
-      "total_stars": 14986
+      "total_stars": 14988
     },
     {
       "login": "JerBouma",
@@ -199,7 +256,7 @@
       "location": "Utrecht, The Netherlands",
       "bio": "With Experience and Education in the area of Quantitative Finance, my ambition is to continuously improve in the area of Quant Finance and Python Programming.",
       "company": "Quantitative Investment Strategist at a.s.r. asset management",
-      "total_stars": 14628
+      "total_stars": 14629
     },
     {
       "login": "AvdLee",
@@ -212,7 +269,7 @@
       "location": "Amsterdam, the Netherlands",
       "bio": "Founder of SwiftLee, Indie Dev behind RocketSim\r\n",
       "company": "SwiftLee",
-      "total_stars": 14385
+      "total_stars": 14386
     },
     {
       "login": "MaartenGr",
@@ -238,7 +295,7 @@
       "location": "The Netherlands",
       "bio": "Security researcher and reverse engineer. \r\n\r\nInterested in Windows kernel development, low-level programming, static program analysis and cryptography.",
       "company": null,
-      "total_stars": 13023
+      "total_stars": 13032
     },
     {
       "login": "hollance",
@@ -689,26 +746,26 @@
       "name": "JetBrains",
       "avatar_url": "https://avatars.githubusercontent.com/u/878437?v=4",
       "html_url": "https://github.com/JetBrains",
-      "followers": 12997,
+      "followers": 12998,
       "following": 0,
       "public_repos": 818,
       "location": "Netherlands",
       "bio": "JetBrains Open Source",
       "company": null,
-      "total_stars": 194441
+      "total_stars": 194389
     },
     {
       "login": "duckdb",
       "name": "DuckDB Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/82039556?v=4",
       "html_url": "https://github.com/duckdb",
-      "followers": 1549,
+      "followers": 1550,
       "following": 0,
       "public_repos": 88,
       "location": "Amsterdam, The Netherlands",
       "bio": null,
       "company": null,
-      "total_stars": 54355
+      "total_stars": 54359
     },
     {
       "login": "pola-rs",
@@ -721,7 +778,7 @@
       "location": "Netherlands",
       "bio": "Extremely fast Query Engine for DataFrames, written in Rust ",
       "company": null,
-      "total_stars": 42042
+      "total_stars": 42044
     },
     {
       "login": "motiondivision",
@@ -734,7 +791,7 @@
       "location": "Netherlands",
       "bio": null,
       "company": null,
-      "total_stars": 37094
+      "total_stars": 37095
     },
     {
       "login": "leaningtech",
@@ -747,7 +804,7 @@
       "location": "Leeds, UK and Amsterdam, The Netherlands",
       "bio": "Enterprise-grade WebAssembly solutions",
       "company": null,
-      "total_stars": 20397
+      "total_stars": 20398
     },
     {
       "login": "outflanknl",
@@ -825,7 +882,7 @@
       "location": "Eindhoven, the Netherlands",
       "bio": "HERE Technologies, the leading location cloud.",
       "company": null,
-      "total_stars": 5607
+      "total_stars": 5608
     },
     {
       "login": "ing-bank",
@@ -851,7 +908,7 @@
       "location": "Netherlands",
       "bio": "We help developers and development teams write better software.",
       "company": null,
-      "total_stars": 4315
+      "total_stars": 4316
     },
     {
       "login": "tudelft3d",
@@ -1001,7 +1058,7 @@
       "name": "Philips Internal",
       "avatar_url": "https://avatars.githubusercontent.com/u/57478301?v=4",
       "html_url": "https://github.com/philips-internal",
-      "followers": 4049,
+      "followers": 4050,
       "following": 0,
       "public_repos": 0,
       "location": "Netherlands",
@@ -1091,54 +1148,110 @@
       "pushed_at": "2024-07-19T14:56:13Z"
     },
     {
+      "full_name": "JuliusBrussee/caveman",
+      "html_url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "stargazers_count": 61503,
+      "forks_count": 3429,
+      "watchers_count": 61503,
+      "language": "JavaScript",
+      "owner_login": "JuliusBrussee",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/104168679?v=4",
+      "owner_type": "User",
+      "created_at": "2026-04-04T10:03:00Z",
+      "pushed_at": "2026-05-17T22:40:11Z"
+    },
+    {
       "full_name": "JetBrains/kotlin",
       "html_url": "https://github.com/JetBrains/kotlin",
       "description": "The Kotlin Programming Language. ",
-      "stargazers_count": 52740,
-      "forks_count": 6303,
-      "watchers_count": 52740,
+      "stargazers_count": 52742,
+      "forks_count": 6302,
+      "watchers_count": 52742,
       "language": "Kotlin",
       "owner_login": "JetBrains",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/878437?v=4",
       "owner_type": "Organization",
       "created_at": "2012-02-13T17:29:58Z",
-      "pushed_at": "2026-05-18T06:59:00Z"
+      "pushed_at": "2026-05-18T08:26:01Z"
+    },
+    {
+      "full_name": "Raphire/Win11Debloat",
+      "html_url": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Wi",
+      "stargazers_count": 46371,
+      "forks_count": 1887,
+      "watchers_count": 46371,
+      "language": "PowerShell",
+      "owner_login": "Raphire",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9938813?v=4",
+      "owner_type": "User",
+      "created_at": "2020-10-27T22:26:59Z",
+      "pushed_at": "2026-05-17T21:43:38Z"
+    },
+    {
+      "full_name": "faif/python-patterns",
+      "html_url": "https://github.com/faif/python-patterns",
+      "description": "A collection of design patterns/idioms in Python",
+      "stargazers_count": 42744,
+      "forks_count": 7035,
+      "watchers_count": 42744,
+      "language": "Python",
+      "owner_login": "faif",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1304661?v=4",
+      "owner_type": "User",
+      "created_at": "2012-06-06T21:02:35Z",
+      "pushed_at": "2026-03-13T17:04:16Z"
     },
     {
       "full_name": "pola-rs/polars",
       "html_url": "https://github.com/pola-rs/polars",
       "description": "Extremely fast Query Engine for DataFrames, written in Rust",
-      "stargazers_count": 38516,
+      "stargazers_count": 38518,
       "forks_count": 2832,
-      "watchers_count": 38516,
+      "watchers_count": 38518,
       "language": "Rust",
       "owner_login": "pola-rs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/83768144?v=4",
       "owner_type": "Organization",
       "created_at": "2020-05-13T19:45:33Z",
-      "pushed_at": "2026-05-15T19:18:31Z"
+      "pushed_at": "2026-05-18T07:44:24Z"
+    },
+    {
+      "full_name": "juanfont/headscale",
+      "html_url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "stargazers_count": 38449,
+      "forks_count": 2109,
+      "watchers_count": 38449,
+      "language": "Go",
+      "owner_login": "juanfont",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/181059?v=4",
+      "owner_type": "User",
+      "created_at": "2020-06-21T09:21:05Z",
+      "pushed_at": "2026-05-17T00:50:25Z"
     },
     {
       "full_name": "duckdb/duckdb",
       "html_url": "https://github.com/duckdb/duckdb",
       "description": "DuckDB is an analytical in-process SQL database management system",
-      "stargazers_count": 38258,
-      "forks_count": 3242,
-      "watchers_count": 38258,
+      "stargazers_count": 38261,
+      "forks_count": 3243,
+      "watchers_count": 38261,
       "language": "C++",
       "owner_login": "duckdb",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/82039556?v=4",
       "owner_type": "Organization",
       "created_at": "2018-06-26T15:04:45Z",
-      "pushed_at": "2026-05-18T07:03:22Z"
+      "pushed_at": "2026-05-18T07:26:25Z"
     },
     {
       "full_name": "motiondivision/motion",
       "html_url": "https://github.com/motiondivision/motion",
       "description": "A modern animation library for React and JavaScript",
-      "stargazers_count": 31984,
+      "stargazers_count": 31985,
       "forks_count": 1169,
-      "watchers_count": 31984,
+      "watchers_count": 31985,
       "language": "TypeScript",
       "owner_login": "motiondivision",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/84441432?v=4",
@@ -1150,15 +1263,15 @@
       "full_name": "soxoj/maigret",
       "html_url": "https://github.com/soxoj/maigret",
       "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-      "stargazers_count": 29236,
-      "forks_count": 2093,
-      "watchers_count": 29236,
+      "stargazers_count": 29250,
+      "forks_count": 2094,
+      "watchers_count": 29250,
       "language": "Python",
       "owner_login": "soxoj",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/31013580?v=4",
       "owner_type": "User",
       "created_at": "2020-06-27T14:16:42Z",
-      "pushed_at": "2026-05-17T08:44:12Z"
+      "pushed_at": "2026-05-18T08:22:02Z"
     },
     {
       "full_name": "nvie/gitflow",
@@ -1186,7 +1299,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11044339?v=4",
       "owner_type": "User",
       "created_at": "2017-01-28T13:37:08Z",
-      "pushed_at": "2026-05-17T13:46:34Z"
+      "pushed_at": "2026-05-18T08:01:12Z"
     },
     {
       "full_name": "mislav/hub",
@@ -1206,9 +1319,9 @@
       "full_name": "JetBrains/intellij-community",
       "html_url": "https://github.com/JetBrains/intellij-community",
       "description": "IntelliJ IDEA & IntelliJ Platform",
-      "stargazers_count": 20119,
+      "stargazers_count": 20120,
       "forks_count": 5883,
-      "watchers_count": 20119,
+      "watchers_count": 20120,
       "language": "Java",
       "owner_login": "JetBrains",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -1234,9 +1347,9 @@
       "full_name": "JetBrains/compose-multiplatform",
       "html_url": "https://github.com/JetBrains/compose-multiplatform",
       "description": "Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable.",
-      "stargazers_count": 19067,
+      "stargazers_count": 19068,
       "forks_count": 1397,
-      "watchers_count": 19067,
+      "watchers_count": 19068,
       "language": "Kotlin",
       "owner_login": "JetBrains",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -1256,7 +1369,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5805413?v=4",
       "owner_type": "Organization",
       "created_at": "2022-01-31T20:45:58Z",
-      "pushed_at": "2026-05-07T13:02:23Z"
+      "pushed_at": "2026-05-18T08:38:59Z"
     },
     {
       "full_name": "Koenkk/zigbee2mqtt",
@@ -1304,9 +1417,9 @@
       "full_name": "Kludex/starlette",
       "html_url": "https://github.com/Kludex/starlette",
       "description": "The little ASGI framework that shines. 🌟",
-      "stargazers_count": 12318,
+      "stargazers_count": 12319,
       "forks_count": 1172,
-      "watchers_count": 12318,
+      "watchers_count": 12319,
       "language": "Python",
       "owner_login": "Kludex",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7353520?v=4",
@@ -1360,9 +1473,9 @@
       "full_name": "KenneyNL/Adobe-Alternatives",
       "html_url": "https://github.com/KenneyNL/Adobe-Alternatives",
       "description": "A list of alternatives for Adobe software",
-      "stargazers_count": 8990,
+      "stargazers_count": 8991,
       "forks_count": 337,
-      "watchers_count": 8990,
+      "watchers_count": 8991,
       "language": null,
       "owner_login": "KenneyNL",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6953026?v=4",
@@ -1382,15 +1495,15 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/195327?v=4",
       "owner_type": "User",
       "created_at": "2018-07-30T17:48:40Z",
-      "pushed_at": "2026-05-17T10:12:23Z"
+      "pushed_at": "2026-05-18T08:32:14Z"
     },
     {
       "full_name": "JerBouma/FinanceDatabase",
       "html_url": "https://github.com/JerBouma/FinanceDatabase",
       "description": "This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",
-      "stargazers_count": 7618,
+      "stargazers_count": 7619,
       "forks_count": 775,
-      "watchers_count": 7618,
+      "watchers_count": 7619,
       "language": "Python",
       "owner_login": "JerBouma",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/46355364?v=4",
@@ -1500,9 +1613,9 @@
       "full_name": "can1357/oh-my-pi",
       "html_url": "https://github.com/can1357/oh-my-pi",
       "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "stargazers_count": 4644,
+      "stargazers_count": 4653,
       "forks_count": 425,
-      "watchers_count": 4644,
+      "watchers_count": 4653,
       "language": "TypeScript",
       "owner_login": "can1357",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11807264?v=4",
@@ -1578,7 +1691,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/259573?v=4",
       "owner_type": "User",
       "created_at": "2018-08-02T13:30:25Z",
-      "pushed_at": "2026-05-18T06:33:19Z"
+      "pushed_at": "2026-05-18T08:41:19Z"
     },
     {
       "full_name": "JetBrains/fernflower",
@@ -1598,9 +1711,9 @@
       "full_name": "JetBrains/koog",
       "html_url": "https://github.com/JetBrains/koog",
       "description": "Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-brow",
-      "stargazers_count": 4191,
+      "stargazers_count": 4192,
       "forks_count": 404,
-      "watchers_count": 4191,
+      "watchers_count": 4192,
       "language": "Kotlin",
       "owner_login": "JetBrains",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -1634,7 +1747,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/878437?v=4",
       "owner_type": "Organization",
       "created_at": "2017-07-19T09:25:26Z",
-      "pushed_at": "2026-05-17T00:22:21Z"
+      "pushed_at": "2026-05-18T07:59:54Z"
     },
     {
       "full_name": "JetBrains/intellij-platform-plugin-template",
@@ -1719,62 +1832,6 @@
       "owner_type": "Organization",
       "created_at": "2024-03-20T15:46:12Z",
       "pushed_at": "2026-03-16T09:08:43Z"
-    },
-    {
-      "full_name": "AvdLee/SwiftUI-Agent-Skill",
-      "html_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
-      "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-      "stargazers_count": 2888,
-      "forks_count": 130,
-      "watchers_count": 2888,
-      "language": "Python",
-      "owner_login": "AvdLee",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4329185?v=4",
-      "owner_type": "User",
-      "created_at": "2026-01-21T14:42:30Z",
-      "pushed_at": "2026-05-17T14:52:50Z"
-    },
-    {
-      "full_name": "motiondivision/motionone",
-      "html_url": "https://github.com/motiondivision/motionone",
-      "description": null,
-      "stargazers_count": 2875,
-      "forks_count": 55,
-      "watchers_count": 2875,
-      "language": "TypeScript",
-      "owner_login": "motiondivision",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/84441432?v=4",
-      "owner_type": "Organization",
-      "created_at": "2021-03-20T06:49:46Z",
-      "pushed_at": "2024-11-12T10:17:53Z"
-    },
-    {
-      "full_name": "barryvdh/laravel-snappy",
-      "html_url": "https://github.com/barryvdh/laravel-snappy",
-      "description": "Laravel Snappy PDF",
-      "stargazers_count": 2757,
-      "forks_count": 285,
-      "watchers_count": 2757,
-      "language": "PHP",
-      "owner_login": "barryvdh",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/973269?v=4",
-      "owner_type": "User",
-      "created_at": "2013-12-18T12:09:11Z",
-      "pushed_at": "2026-03-23T08:22:09Z"
-    },
-    {
-      "full_name": "duckdb/ducklake",
-      "html_url": "https://github.com/duckdb/ducklake",
-      "description": "DuckLake is an integrated data lake and catalog format",
-      "stargazers_count": 2745,
-      "forks_count": 183,
-      "watchers_count": 2745,
-      "language": "C++",
-      "owner_login": "duckdb",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/82039556?v=4",
-      "owner_type": "Organization",
-      "created_at": "2025-03-03T16:01:19Z",
-      "pushed_at": "2026-05-15T14:39:06Z"
     }
   ]
 }

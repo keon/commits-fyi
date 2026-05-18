@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-05-18T07:07:46.817Z",
+  "generated_at": "2026-05-18T08:32:34.224Z",
   "counts": {
-    "users": 50,
+    "users": 52,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 109514,
+    "user_followers": 111282,
     "org_followers": 20434,
-    "user_stars": 458793,
-    "org_stars": 137773
+    "user_stars": 536950,
+    "org_stars": 137784
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22Toronto%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Toronto\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,13 +42,13 @@
       "name": "David Dias",
       "avatar_url": "https://avatars.githubusercontent.com/u/237229?v=4",
       "html_url": "https://github.com/thedaviddias",
-      "followers": 4935,
+      "followers": 4936,
       "following": 309,
       "public_repos": 93,
       "location": "Toronto, Canada",
       "bio": "Former Staff Frontend Engineer exploring multi-passionate career development. Creator of Front-End Checklist (72K+ ⭐) and other tools serving 100K+ developers. ",
       "company": "@DavidDiasDigital",
-      "total_stars": 101322
+      "total_stars": 101323
     },
     {
       "login": "adam-p",
@@ -56,7 +61,7 @@
       "location": "Toronto, Canada",
       "bio": null,
       "company": "Psiphon Inc., Proven Security Solutions Inc.",
-      "total_stars": 60461
+      "total_stars": 60460
     },
     {
       "login": "ziishaned",
@@ -70,6 +75,32 @@
       "bio": "Turning complexity into simplicity 🧑‍💻",
       "company": null,
       "total_stars": 51655
+    },
+    {
+      "login": "k88hudson",
+      "name": "Kate Hudson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1455535?v=4",
+      "html_url": "https://github.com/k88hudson",
+      "followers": 1022,
+      "following": 24,
+      "public_repos": 405,
+      "location": "Toronto",
+      "bio": "I'm currently working on scientific computing / agent based modelling in Rust/WASM as a government contractor. I'm formerly a senior principal engineer, Firefox",
+      "company": null,
+      "total_stars": 42649
+    },
+    {
+      "login": "ibraheemdev",
+      "name": "Ibraheem Ahmed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34988408?v=4",
+      "html_url": "https://github.com/ibraheemdev",
+      "followers": 744,
+      "following": 4,
+      "public_repos": 41,
+      "location": "Toronto, Canada",
+      "bio": "Software developer interested in building fast, concurrent, and robust systems.",
+      "company": "@astral-sh",
+      "total_stars": 35508
     },
     {
       "login": "MustangYM",
@@ -661,7 +692,7 @@
       "name": "Abby Cabunoc Mayes",
       "avatar_url": "https://avatars.githubusercontent.com/u/617994?v=4",
       "html_url": "https://github.com/abbycabs",
-      "followers": 1412,
+      "followers": 1413,
       "following": 0,
       "public_repos": 135,
       "location": "Toronto, Ontario",
@@ -721,7 +752,7 @@
       "location": "Toronto, Canada",
       "bio": "1Password remembers all your passwords for you. It keeps your digital life secure and always available, safe behind the one password that only you know.",
       "company": null,
-      "total_stars": 12553
+      "total_stars": 12560
     },
     {
       "login": "bowang-lab",
@@ -734,7 +765,7 @@
       "location": "190 Elizabeth St, Toronto, ON M5G 2C4 Canada",
       "bio": "BoWang's Lab at University of Toronto",
       "company": null,
-      "total_stars": 11445
+      "total_stars": 11448
     },
     {
       "login": "GrapheneOS",
@@ -747,7 +778,7 @@
       "location": "Toronto, Ontario, Canada",
       "bio": "Security and privacy focused mobile OS with Android app compatibility. We focus on developing substantial privacy and security improvements.",
       "company": null,
-      "total_stars": 10462
+      "total_stars": 10463
     },
     {
       "login": "pycaret",
@@ -786,7 +817,7 @@
       "location": "Toronto",
       "bio": "Business intelligence as code",
       "company": null,
-      "total_stars": 6984
+      "total_stars": 6986
     },
     {
       "login": "ChainSafe",
@@ -981,7 +1012,7 @@
       "location": "Toronto & Worldwide",
       "bio": "Design, deployment, and management partner for your cloud",
       "company": null,
-      "total_stars": 807
+      "total_stars": 804
     },
     {
       "login": "KinkyMakers",
@@ -994,7 +1025,7 @@
       "location": "Toronto, Canada",
       "bio": "A maker group interested in creating art, sex toys, zines, blogs, fetish wear, anything related to the broad spectrum of human sexuality!",
       "company": null,
-      "total_stars": 562
+      "total_stars": 563
     },
     {
       "login": "HackerYou",
@@ -1080,9 +1111,9 @@
       "full_name": "thedaviddias/Front-End-Checklist",
       "html_url": "https://github.com/thedaviddias/Front-End-Checklist",
       "description": "🗂 The perfect Front-End Checklist for modern websites and meticulous developers",
-      "stargazers_count": 72628,
+      "stargazers_count": 72629,
       "forks_count": 6642,
-      "watchers_count": 72628,
+      "watchers_count": 72629,
       "language": null,
       "owner_login": "thedaviddias",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/237229?v=4",
@@ -1094,9 +1125,9 @@
       "full_name": "adam-p/markdown-here",
       "html_url": "https://github.com/adam-p/markdown-here",
       "description": "Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.",
-      "stargazers_count": 60201,
+      "stargazers_count": 60200,
       "forks_count": 11069,
-      "watchers_count": 60201,
+      "watchers_count": 60200,
       "language": "JavaScript",
       "owner_login": "adam-p",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/425687?v=4",
@@ -1109,7 +1140,7 @@
       "html_url": "https://github.com/ziishaned/learn-regex",
       "description": "Learn regex the easy way",
       "stargazers_count": 46120,
-      "forks_count": 6179,
+      "forks_count": 6178,
       "watchers_count": 46120,
       "language": null,
       "owner_login": "ziishaned",
@@ -1117,6 +1148,34 @@
       "owner_type": "User",
       "created_at": "2017-07-22T12:21:03Z",
       "pushed_at": "2025-08-25T23:17:54Z"
+    },
+    {
+      "full_name": "k88hudson/git-flight-rules",
+      "html_url": "https://github.com/k88hudson/git-flight-rules",
+      "description": "Flight rules for git",
+      "stargazers_count": 42479,
+      "forks_count": 3180,
+      "watchers_count": 42479,
+      "language": null,
+      "owner_login": "k88hudson",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1455535?v=4",
+      "owner_type": "User",
+      "created_at": "2014-07-22T20:35:09Z",
+      "pushed_at": "2025-10-27T01:17:31Z"
+    },
+    {
+      "full_name": "ibraheemdev/modern-unix",
+      "html_url": "https://github.com/ibraheemdev/modern-unix",
+      "description": "A collection of modern/faster/saner alternatives to common unix commands.",
+      "stargazers_count": 32918,
+      "forks_count": 829,
+      "watchers_count": 32918,
+      "language": null,
+      "owner_login": "ibraheemdev",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34988408?v=4",
+      "owner_type": "User",
+      "created_at": "2021-01-12T00:50:14Z",
+      "pushed_at": "2024-09-10T19:48:56Z"
     },
     {
       "full_name": "MustangYM/WeChatExtension-ForMac",
@@ -1249,7 +1308,7 @@
       "html_url": "https://github.com/ethers-io/ethers.js",
       "description": "Complete Ethereum library and wallet implementation in JavaScript.",
       "stargazers_count": 8667,
-      "forks_count": 2108,
+      "forks_count": 2107,
       "watchers_count": 8667,
       "language": "TypeScript",
       "owner_login": "ethers-io",
@@ -1263,7 +1322,7 @@
       "html_url": "https://github.com/MagicStack/asyncpg",
       "description": "A fast PostgreSQL Database Client Library for Python/asyncio.",
       "stargazers_count": 8023,
-      "forks_count": 444,
+      "forks_count": 445,
       "watchers_count": 8023,
       "language": "Python",
       "owner_login": "MagicStack",
@@ -1304,9 +1363,9 @@
       "full_name": "evidence-dev/evidence",
       "html_url": "https://github.com/evidence-dev/evidence",
       "description": "Business intelligence as code: build fast, interactive data visualizations in SQL and markdown",
-      "stargazers_count": 6356,
-      "forks_count": 357,
-      "watchers_count": 6356,
+      "stargazers_count": 6358,
+      "forks_count": 358,
+      "watchers_count": 6358,
       "language": "JavaScript",
       "owner_login": "evidence-dev",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/82418810?v=4",
@@ -1388,9 +1447,9 @@
       "full_name": "bowang-lab/MedSAM",
       "html_url": "https://github.com/bowang-lab/MedSAM",
       "description": "Segment Anything in Medical Images",
-      "stargazers_count": 4265,
+      "stargazers_count": 4266,
       "forks_count": 586,
-      "watchers_count": 4265,
+      "watchers_count": 4266,
       "language": "Jupyter Notebook",
       "owner_login": "bowang-lab",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/50999261?v=4",
@@ -1696,9 +1755,9 @@
       "full_name": "GrapheneOS/hardened_malloc",
       "html_url": "https://github.com/GrapheneOS/hardened_malloc",
       "description": "Hardened allocator designed for modern systems. It has integration into Android's Bionic libc and can be used externally with musl and glibc as a dynamic library for use on other Linux-based platforms",
-      "stargazers_count": 1858,
+      "stargazers_count": 1859,
       "forks_count": 142,
-      "watchers_count": 1858,
+      "watchers_count": 1859,
       "language": "C",
       "owner_login": "GrapheneOS",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/48847184?v=4",
@@ -1747,34 +1806,6 @@
       "owner_type": "User",
       "created_at": "2017-05-06T15:56:19Z",
       "pushed_at": "2023-12-12T02:58:36Z"
-    },
-    {
-      "full_name": "bowang-lab/scGPT",
-      "html_url": "https://github.com/bowang-lab/scGPT",
-      "description": null,
-      "stargazers_count": 1564,
-      "forks_count": 333,
-      "watchers_count": 1564,
-      "language": "Jupyter Notebook",
-      "owner_login": "bowang-lab",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/50999261?v=4",
-      "owner_type": "Organization",
-      "created_at": "2023-04-23T21:15:27Z",
-      "pushed_at": "2026-04-29T17:41:42Z"
-    },
-    {
-      "full_name": "sideeffects/HoudiniEngineForUnreal",
-      "html_url": "https://github.com/sideeffects/HoudiniEngineForUnreal",
-      "description": "Houdini Engine Plugin for Unreal Engine.",
-      "stargazers_count": 1558,
-      "forks_count": 397,
-      "watchers_count": 1558,
-      "language": "C++",
-      "owner_login": "sideeffects",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1576570?v=4",
-      "owner_type": "Organization",
-      "created_at": "2014-04-09T17:12:10Z",
-      "pushed_at": "2026-05-08T04:00:06Z"
     }
   ]
 }

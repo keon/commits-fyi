@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-05-18T07:09:51.176Z",
+  "generated_at": "2026-05-18T08:34:49.116Z",
   "counts": {
-    "users": 50,
-    "orgs": 30,
+    "users": 51,
+    "orgs": 31,
     "repos": 50
   },
   "totals": {
-    "user_followers": 199101,
-    "org_followers": 50884,
-    "user_stars": 868644,
-    "org_stars": 525335
+    "user_followers": 200088,
+    "org_followers": 51311,
+    "user_stars": 917628,
+    "org_stars": 559400
   },
   "queries": [
     {
@@ -24,6 +24,11 @@
       "label": "Top 30 orgs in United Kingdom",
       "api_url": "https://api.github.com/search/users?q=location%3A%22United%20Kingdom%22%20type%3Aorg&sort=followers&order=desc&per_page=30",
       "ui_url": "https://github.com/search?q=location%3A%22United%20Kingdom%22%20type%3Aorg&type=users&s=followers&o=desc"
+    },
+    {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"United Kingdom\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
     },
     {
       "label": "Per-account repo list (to sum stars and surface top repos)",
@@ -43,7 +48,7 @@
       "location": "United Kingdom",
       "bio": "I love building things 🧑‍💻",
       "company": null,
-      "total_stars": 453353
+      "total_stars": 453356
     },
     {
       "login": "mlabonne",
@@ -56,7 +61,20 @@
       "location": "London, United Kingdom",
       "bio": "Head of Post-Training @ Liquid AI",
       "company": "Liquid AI",
-      "total_stars": 85553
+      "total_stars": 85555
+    },
+    {
+      "login": "safishamsi",
+      "name": "Safi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216348667?v=4",
+      "html_url": "https://github.com/safishamsi",
+      "followers": 986,
+      "following": 0,
+      "public_repos": 12,
+      "location": "London, United Kingdom",
+      "bio": "AI Engineer | MSc Data Science (Distinction) @UniofBirmingham | Medical AI & Knowledge Graphs | MICAD 2025 | Building explainable healthcare AI",
+      "company": null,
+      "total_stars": 48977
     },
     {
       "login": "dwmkerr",
@@ -102,7 +120,7 @@
       "name": "Shaun",
       "avatar_url": "https://avatars.githubusercontent.com/u/9838872?v=4",
       "html_url": "https://github.com/iamshaunjp",
-      "followers": 32466,
+      "followers": 32467,
       "following": 1,
       "public_repos": 149,
       "location": "United Kingdom",
@@ -121,7 +139,7 @@
       "location": "United Kingdom",
       "bio": "Founder @openfaas @inlets @self-actuated ",
       "company": "@openfaas",
-      "total_stars": 21740
+      "total_stars": 21741
     },
     {
       "login": "jgilfelt",
@@ -186,7 +204,7 @@
       "location": "London, United Kingdom",
       "bio": "Cloud Architect, DevOps, Data Engineer, Big Data (ex-Cloudera), 100% Remote Overseas Digital Nomad",
       "company": "Private cos of a Crazy Exe",
-      "total_stars": 14422
+      "total_stars": 14423
     },
     {
       "login": "utkusen",
@@ -689,13 +707,13 @@
       "name": "draw.io",
       "avatar_url": "https://avatars.githubusercontent.com/u/1769238?v=4",
       "html_url": "https://github.com/jgraph",
-      "followers": 4789,
+      "followers": 4790,
       "following": 0,
       "public_repos": 32,
       "location": "United Kingdom",
       "bio": "draw.io specialises in browser-based diagramming components and applications.",
       "company": null,
-      "total_stars": 81533
+      "total_stars": 81535
     },
     {
       "login": "Stirling-Tools",
@@ -708,7 +726,7 @@
       "location": "United Kingdom",
       "bio": "Creators of Stirling-PDF!",
       "company": null,
-      "total_stars": 79042
+      "total_stars": 79047
     },
     {
       "login": "Stability-AI",
@@ -721,7 +739,7 @@
       "location": "United Kingdom",
       "bio": null,
       "company": null,
-      "total_stars": 77936
+      "total_stars": 77937
     },
     {
       "login": "tldraw",
@@ -734,7 +752,7 @@
       "location": "United Kingdom",
       "bio": "Infinite canvas SDK.",
       "company": null,
-      "total_stars": 50514
+      "total_stars": 50516
     },
     {
       "login": "surrealdb",
@@ -747,7 +765,20 @@
       "location": "United Kingdom",
       "bio": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
       "company": null,
-      "total_stars": 37754
+      "total_stars": 37756
+    },
+    {
+      "login": "VectifyAI",
+      "name": "Vectify AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133959746?v=4",
+      "html_url": "https://github.com/VectifyAI",
+      "followers": 424,
+      "following": 0,
+      "public_repos": 8,
+      "location": "United Kingdom",
+      "bio": "Building next-gen Vectorless, Reasoning-based RAG",
+      "company": null,
+      "total_stars": 34051
     },
     {
       "login": "invertase",
@@ -812,7 +843,7 @@
       "location": "United Kingdom",
       "bio": null,
       "company": null,
-      "total_stars": 13359
+      "total_stars": 13360
     },
     {
       "login": "satellite-image-deep-learning",
@@ -942,7 +973,7 @@
       "location": "United Kingdom",
       "bio": "Imperial College London main code repository",
       "company": null,
-      "total_stars": 4233
+      "total_stars": 4234
     },
     {
       "login": "arm-education",
@@ -1014,7 +1045,7 @@
       "name": "Sky UK Ltd",
       "avatar_url": "https://avatars.githubusercontent.com/u/1391938?v=4",
       "html_url": "https://github.com/sky-uk",
-      "followers": 2432,
+      "followers": 2434,
       "following": 0,
       "public_repos": 192,
       "location": "United Kingdom",
@@ -1080,23 +1111,23 @@
       "full_name": "nilbuild/developer-roadmap",
       "html_url": "https://github.com/nilbuild/developer-roadmap",
       "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "stargazers_count": 354982,
-      "forks_count": 44080,
-      "watchers_count": 354982,
+      "stargazers_count": 354985,
+      "forks_count": 44081,
+      "watchers_count": 354985,
       "language": "TypeScript",
       "owner_login": "nilbuild",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
       "owner_type": "User",
       "created_at": "2017-03-15T13:45:52Z",
-      "pushed_at": "2026-05-14T10:12:48Z"
+      "pushed_at": "2026-05-18T07:15:46Z"
     },
     {
       "full_name": "mlabonne/llm-course",
       "html_url": "https://github.com/mlabonne/llm-course",
       "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "stargazers_count": 79415,
+      "stargazers_count": 79417,
       "forks_count": 9227,
-      "watchers_count": 79415,
+      "watchers_count": 79417,
       "language": null,
       "owner_login": "mlabonne",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/81252890?v=4",
@@ -1108,15 +1139,15 @@
       "full_name": "Stirling-Tools/Stirling-PDF",
       "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
       "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-      "stargazers_count": 78875,
+      "stargazers_count": 78880,
       "forks_count": 6906,
-      "watchers_count": 78875,
+      "watchers_count": 78880,
       "language": "TypeScript",
       "owner_login": "Stirling-Tools",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/139791695?v=4",
       "owner_type": "Organization",
       "created_at": "2023-01-27T18:22:42Z",
-      "pushed_at": "2026-05-18T06:57:47Z"
+      "pushed_at": "2026-05-18T08:23:16Z"
     },
     {
       "full_name": "jgraph/drawio-desktop",
@@ -1131,6 +1162,20 @@
       "owner_type": "Organization",
       "created_at": "2017-05-25T20:58:42Z",
       "pushed_at": "2026-05-16T19:01:17Z"
+    },
+    {
+      "full_name": "safishamsi/graphify",
+      "html_url": "https://github.com/safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable",
+      "stargazers_count": 48909,
+      "forks_count": 5314,
+      "watchers_count": 48909,
+      "language": "Python",
+      "owner_login": "safishamsi",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/216348667?v=4",
+      "owner_type": "User",
+      "created_at": "2026-04-03T15:49:07Z",
+      "pushed_at": "2026-05-17T22:09:51Z"
     },
     {
       "full_name": "nilbuild/design-patterns-for-humans",
@@ -1150,9 +1195,9 @@
       "full_name": "tldraw/tldraw",
       "html_url": "https://github.com/tldraw/tldraw",
       "description": "very good whiteboard infinite canvas SDK",
-      "stargazers_count": 47078,
-      "forks_count": 3217,
-      "watchers_count": 47078,
+      "stargazers_count": 47080,
+      "forks_count": 3216,
+      "watchers_count": 47080,
       "language": "TypeScript",
       "owner_login": "tldraw",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/86724562?v=4",
@@ -1164,9 +1209,9 @@
       "full_name": "surrealdb/surrealdb",
       "html_url": "https://github.com/surrealdb/surrealdb",
       "description": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
-      "stargazers_count": 32137,
+      "stargazers_count": 32139,
       "forks_count": 1266,
-      "watchers_count": 32137,
+      "watchers_count": 32139,
       "language": "Rust",
       "owner_login": "surrealdb",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/10982346?v=4",
@@ -1175,11 +1220,25 @@
       "pushed_at": "2026-05-12T13:39:33Z"
     },
     {
+      "full_name": "VectifyAI/PageIndex",
+      "html_url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "stargazers_count": 31594,
+      "forks_count": 2711,
+      "watchers_count": 31594,
+      "language": "Python",
+      "owner_login": "VectifyAI",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/133959746?v=4",
+      "owner_type": "Organization",
+      "created_at": "2025-04-01T10:53:54Z",
+      "pushed_at": "2026-05-15T10:10:51Z"
+    },
+    {
       "full_name": "MichaelCade/90DaysOfDevOps",
       "html_url": "https://github.com/MichaelCade/90DaysOfDevOps",
       "description": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things DevOps",
       "stargazers_count": 29471,
-      "forks_count": 6728,
+      "forks_count": 6729,
       "watchers_count": 29471,
       "language": "Shell",
       "owner_login": "MichaelCade",
@@ -1332,9 +1391,9 @@
       "full_name": "HariSekhon/DevOps-Bash-tools",
       "html_url": "https://github.com/HariSekhon/DevOps-Bash-tools",
       "description": "1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub, GitLab, BitBucket, Azure DevOps, TeamCity, Spotify, MP3, LD",
-      "stargazers_count": 8272,
+      "stargazers_count": 8273,
       "forks_count": 1571,
-      "watchers_count": 8272,
+      "watchers_count": 8273,
       "language": "Shell",
       "owner_login": "HariSekhon",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2211051?v=4",
@@ -1360,9 +1419,9 @@
       "full_name": "alexellis/k3sup",
       "html_url": "https://github.com/alexellis/k3sup",
       "description": "bootstrap K3s over SSH in < 60s 🚀",
-      "stargazers_count": 7386,
+      "stargazers_count": 7387,
       "forks_count": 449,
-      "watchers_count": 7386,
+      "watchers_count": 7387,
       "language": "Go",
       "owner_login": "alexellis",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6358735?v=4",
@@ -1416,9 +1475,9 @@
       "full_name": "Facepunch/sbox-public",
       "html_url": "https://github.com/Facepunch/sbox-public",
       "description": "s&box is a modern game engine, built on Valve's Source 2 and the latest .NET technology, it provides a modern intuitive editor for creating games",
-      "stargazers_count": 6191,
-      "forks_count": 595,
-      "watchers_count": 6191,
+      "stargazers_count": 6192,
+      "forks_count": 594,
+      "watchers_count": 6192,
       "language": "C#",
       "owner_login": "Facepunch",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3371040?v=4",
@@ -1458,9 +1517,9 @@
       "full_name": "jgraph/drawio",
       "html_url": "https://github.com/jgraph/drawio",
       "description": "draw.io is a JavaScript, client-side editor for general diagramming.",
-      "stargazers_count": 5434,
+      "stargazers_count": 5435,
       "forks_count": 871,
-      "watchers_count": 5434,
+      "watchers_count": 5435,
       "language": "JavaScript",
       "owner_login": "jgraph",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1769238?v=4",
@@ -1648,7 +1707,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/17707542?v=4",
       "owner_type": "Organization",
       "created_at": "2020-09-21T10:14:04Z",
-      "pushed_at": "2026-05-18T06:23:15Z"
+      "pushed_at": "2026-05-18T08:30:13Z"
     },
     {
       "full_name": "mvdan/gofumpt",
@@ -1696,9 +1755,9 @@
       "full_name": "jgraph/drawio-mcp",
       "html_url": "https://github.com/jgraph/drawio-mcp",
       "description": null,
-      "stargazers_count": 3818,
-      "forks_count": 237,
-      "watchers_count": 3818,
+      "stargazers_count": 3819,
+      "forks_count": 236,
+      "watchers_count": 3819,
       "language": "JavaScript",
       "owner_login": "jgraph",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1769238?v=4",
@@ -1747,34 +1806,6 @@
       "owner_type": "User",
       "created_at": "2014-09-20T10:16:49Z",
       "pushed_at": "2025-10-01T12:01:49Z"
-    },
-    {
-      "full_name": "bbc/peaks.js",
-      "html_url": "https://github.com/bbc/peaks.js",
-      "description": "JavaScript UI component for interacting with audio waveforms",
-      "stargazers_count": 3396,
-      "forks_count": 287,
-      "watchers_count": 3396,
-      "language": "JavaScript",
-      "owner_login": "bbc",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/828722?v=4",
-      "owner_type": "Organization",
-      "created_at": "2013-10-14T12:53:33Z",
-      "pushed_at": "2025-11-08T03:09:27Z"
-    },
-    {
-      "full_name": "nilbuild/githunt",
-      "html_url": "https://github.com/nilbuild/githunt",
-      "description": "Hunt the most starred projects on any date on GitHub",
-      "stargazers_count": 3137,
-      "forks_count": 289,
-      "watchers_count": 3137,
-      "language": "JavaScript",
-      "owner_login": "nilbuild",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
-      "owner_type": "User",
-      "created_at": "2016-03-25T21:30:38Z",
-      "pushed_at": "2026-05-06T23:45:10Z"
     }
   ]
 }

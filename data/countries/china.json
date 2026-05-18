@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "China",
   "slug": "china",
-  "generated_at": "2026-05-18T07:10:39.856Z",
+  "generated_at": "2026-05-18T08:42:16.194Z",
   "counts": {
-    "users": 50,
-    "orgs": 30,
+    "users": 71,
+    "orgs": 41,
     "repos": 50
   },
   "totals": {
-    "user_followers": 756553,
-    "org_followers": 150372,
-    "user_stars": 2918538,
-    "org_stars": 3013183
+    "user_followers": 814658,
+    "org_followers": 158735,
+    "user_stars": 4033398,
+    "org_stars": 3522793
   },
   "queries": [
     {
@@ -26,6 +26,11 @@
       "ui_url": "https://github.com/search?q=location%3A%22China%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"China\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
@@ -37,13 +42,13 @@
       "name": "削微寒",
       "avatar_url": "https://avatars.githubusercontent.com/u/8255800?v=4",
       "html_url": "https://github.com/521xueweihan",
-      "followers": 12614,
+      "followers": 12615,
       "following": 186,
       "public_repos": 165,
       "location": "Beijing, China",
       "bio": "时间会让「平凡的事」变得「与众不同」\r\nTime will make ordinary things become extraordinary.",
       "company": "公众号：HelloGitHub",
-      "total_stars": 206043
+      "total_stars": 206063
     },
     {
       "login": "ruanyf",
@@ -56,20 +61,20 @@
       "location": "Shanghai, China",
       "bio": null,
       "company": null,
-      "total_stars": 206026
+      "total_stars": 206032
     },
     {
       "login": "jaywcjlove",
       "name": "小弟调调",
       "avatar_url": "https://avatars.githubusercontent.com/u/1680273?v=4",
       "html_url": "https://github.com/jaywcjlove",
-      "followers": 9151,
+      "followers": 9152,
       "following": 140,
       "public_repos": 215,
       "location": "Suzhou, China",
       "bio": "Hi, I'm Kenny, Fullstack developer from Suzhou, China.",
       "company": "ʕ•̫͡•ʔ-̫͡-ʕ•͓͡•ʔ-̫͡-ʔ",
-      "total_stars": 200052
+      "total_stars": 200059
     },
     {
       "login": "jackfrued",
@@ -82,7 +87,7 @@
       "location": "Chengdu Sichuan, China",
       "bio": "只有非常努力，才能看起来毫不费力！",
       "company": null,
-      "total_stars": 197153
+      "total_stars": 197156
     },
     {
       "login": "justjavac",
@@ -95,7 +100,7 @@
       "location": "Tianjin, China",
       "bio": "Creator of vscode-deno. Currently a contributor to Deno.",
       "company": null,
-      "total_stars": 195588
+      "total_stars": 195591
     },
     {
       "login": "CyC2018",
@@ -108,7 +113,7 @@
       "location": "Guangzhou, China",
       "bio": null,
       "company": "@ByteDance",
-      "total_stars": 191249
+      "total_stars": 191253
     },
     {
       "login": "macrozheng",
@@ -121,7 +126,7 @@
       "location": "Wuxi,China",
       "bio": "Justice may be late, but will never be absent.",
       "company": null,
-      "total_stars": 132620
+      "total_stars": 132622
     },
     {
       "login": "PanJiaChen",
@@ -134,7 +139,33 @@
       "location": "Shanghai, China",
       "bio": null,
       "company": "ByteDance",
-      "total_stars": 118755
+      "total_stars": 118753
+    },
+    {
+      "login": "GrowingGit",
+      "name": "GrowingGit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21018904?v=4",
+      "html_url": "https://github.com/GrowingGit",
+      "followers": 2866,
+      "following": 0,
+      "public_repos": 2,
+      "location": "Guangzhou, China",
+      "bio": null,
+      "company": null,
+      "total_stars": 110388
+    },
+    {
+      "login": "666ghj",
+      "name": "BaiFu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110395318?v=4",
+      "html_url": "https://github.com/666ghj",
+      "followers": 3974,
+      "following": 0,
+      "public_repos": 7,
+      "location": "Shanghai, China",
+      "bio": "Do what you love, and love what you do.",
+      "company": "BUPT, Shanda",
+      "total_stars": 103675
     },
     {
       "login": "fengdu78",
@@ -147,7 +178,7 @@
       "location": "Qingdao,China",
       "bio": "黄海广，计算机博士，微信公众号：机器学习初学者；知乎：黄海广；知识星球ID:92416895",
       "company": null,
-      "total_stars": 90172
+      "total_stars": 90173
     },
     {
       "login": "easychen",
@@ -160,7 +191,7 @@
       "location": "Chongqing, China",
       "bio": null,
       "company": "ft07.com",
-      "total_stars": 86850
+      "total_stars": 86854
     },
     {
       "login": "bailicangdu",
@@ -173,7 +204,7 @@
       "location": "Shanghai, China",
       "bio": "水光潋滟晴方好，山色空蒙雨亦奇。",
       "company": "jd.com",
-      "total_stars": 86771
+      "total_stars": 86773
     },
     {
       "login": "PKUFlyingPig",
@@ -186,7 +217,20 @@
       "location": "Beijing, China",
       "bio": "CS Ph.D @ PKU | Machine Learning Systems | Previously @ StepFun, ByteDance, Alibaba |",
       "company": "Peking University",
-      "total_stars": 84186
+      "total_stars": 84188
+    },
+    {
+      "login": "hiyouga",
+      "name": "Yaowei Zheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16256802?v=4",
+      "html_url": "https://github.com/hiyouga",
+      "followers": 6332,
+      "following": 99,
+      "public_repos": 63,
+      "location": "Beijing, China",
+      "bio": "No code All live",
+      "company": "Millennium Science School",
+      "total_stars": 81977
     },
     {
       "login": "MisterBooo",
@@ -199,20 +243,33 @@
       "location": "Guangzhou, China",
       "bio": "公众号：吴师兄学算法",
       "company": null,
-      "total_stars": 80826
+      "total_stars": 80827
+    },
+    {
+      "login": "ventoy",
+      "name": "longpanda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59477474?v=4",
+      "html_url": "https://github.com/ventoy",
+      "followers": 3983,
+      "following": 2,
+      "public_repos": 22,
+      "location": "China",
+      "bio": null,
+      "company": null,
+      "total_stars": 78921
     },
     {
       "login": "liyupi",
       "name": "程序员鱼皮",
       "avatar_url": "https://avatars.githubusercontent.com/u/26037703?v=4",
       "html_url": "https://github.com/liyupi",
-      "followers": 23201,
+      "followers": 23205,
       "following": 30,
       "public_repos": 102,
       "location": "China Shanghai",
       "bio": "speak less do more！前腾讯全栈开发，现科技公司创始人",
       "company": "编程学习公众号【程序员鱼皮】",
-      "total_stars": 63966
+      "total_stars": 63984
     },
     {
       "login": "egoist",
@@ -228,6 +285,45 @@
       "total_stars": 61069
     },
     {
+      "login": "azl397985856",
+      "name": "lucifer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12479470?v=4",
+      "html_url": "https://github.com/azl397985856",
+      "followers": 4680,
+      "following": 74,
+      "public_repos": 151,
+      "location": "China",
+      "bio": "搞定算法面试，关注我的公众号《力扣加加》",
+      "company": "secret",
+      "total_stars": 60235
+    },
+    {
+      "login": "hehonghui",
+      "name": "Mr.Simple",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1683811?v=4",
+      "html_url": "https://github.com/hehonghui",
+      "followers": 7575,
+      "following": 23,
+      "public_repos": 294,
+      "location": "china",
+      "bio": "┈╭━━━━━━━━━━━╮┈ ┈┃╭━━━╮┊╭━━━╮┃┈ ┃┃╰━━━╯┊╰━━━╯┃┃ ╰┫╭━╮╰━━━╯╭━╮┣╯ ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈ ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈ ┈╰━━━━━━━━━━━╯┈",
+      "company": "UIT",
+      "total_stars": 59449
+    },
+    {
+      "login": "jingyaogong",
+      "name": "jingyaogong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62287848?v=4",
+      "html_url": "https://github.com/jingyaogong",
+      "followers": 1841,
+      "following": 0,
+      "public_repos": 10,
+      "location": "China",
+      "bio": "無限進步",
+      "company": "3.1415926535897",
+      "total_stars": 59405
+    },
+    {
       "login": "YunaiV",
       "name": "芋道源码",
       "avatar_url": "https://avatars.githubusercontent.com/u/2015545?v=4",
@@ -238,7 +334,7 @@
       "location": "Shanghai, China",
       "bio": "愿半生编码，如一生老友！",
       "company": "芋道源码，纯源码解析公众号",
-      "total_stars": 59321
+      "total_stars": 59323
     },
     {
       "login": "astaxie",
@@ -254,6 +350,19 @@
       "total_stars": 54620
     },
     {
+      "login": "iamkun",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/17680888?v=4",
+      "html_url": "https://github.com/iamkun",
+      "followers": 1980,
+      "following": 11,
+      "public_repos": 3,
+      "location": "Shanghai, China",
+      "bio": " internet noob  (╯' - ')╯ ┻━┻",
+      "company": "@ElemeFE ",
+      "total_stars": 50261
+    },
+    {
       "login": "Jack-Cherish",
       "name": "Jack Cui",
       "avatar_url": "https://avatars.githubusercontent.com/u/16872370?v=4",
@@ -264,20 +373,33 @@
       "location": "China",
       "bio": "公众号：jackcui-ai",
       "company": "Northeastern University",
-      "total_stars": 50083
+      "total_stars": 50084
     },
     {
       "login": "halfrost",
       "name": "halfrost",
       "avatar_url": "https://avatars.githubusercontent.com/u/10825609?v=4",
       "html_url": "https://github.com/halfrost",
-      "followers": 17449,
+      "followers": 17450,
       "following": 363,
       "public_repos": 34,
       "location": "[California, Singapore, China]",
       "bio": "CS master @Stanford 💪 天道酬勤，勤能补拙。博观而约取，厚积而薄发。Gopher / Rustacean / Kubernetes / Cloud Native / Machine Learning / DeFi Smart Contract",
       "company": "@Kubeflow @CNCF",
-      "total_stars": 49724
+      "total_stars": 49725
+    },
+    {
+      "login": "xinntao",
+      "name": "Xintao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17445847?v=4",
+      "html_url": "https://github.com/xinntao",
+      "followers": 4043,
+      "following": 31,
+      "public_repos": 66,
+      "location": "Shenzhen, China",
+      "bio": "Researcher at Tencent ARC Lab, (Applied Research Center)",
+      "company": "Tencent",
+      "total_stars": 48818
     },
     {
       "login": "sorrycc",
@@ -290,7 +412,7 @@
       "location": "HangZhou, China",
       "bio": "Front-end developer at alipay, creator of @neovateai, @umijs, @dvajs, mako, father, roadhog, babel-plugin-import, awesome-javascript...",
       "company": "@antgroup",
-      "total_stars": 47969
+      "total_stars": 47968
     },
     {
       "login": "ityouknow",
@@ -311,7 +433,7 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/1019875?v=4",
       "html_url": "https://github.com/onevcat",
       "followers": 15805,
-      "following": 142,
+      "following": 143,
       "public_repos": 256,
       "location": "Yokohama, Japan / China",
       "bio": "A creator creating for creators: thinking, building, evolving.",
@@ -329,7 +451,20 @@
       "location": "Beijing, China",
       "bio": "Coder | Investor | Tech Enthusiast",
       "company": null,
-      "total_stars": 46450
+      "total_stars": 46451
+    },
+    {
+      "login": "formulahendry",
+      "name": "Jun Han",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1050213?v=4",
+      "html_url": "https://github.com/formulahendry",
+      "followers": 2981,
+      "following": 31,
+      "public_repos": 118,
+      "location": "Shanghai, China",
+      "bio": "Author of Code Runner for VS Code, \r\nAuthor of the book of 'Visual Studio Code 权威指南', \r\nSpeaker in QCon, PyCon, JSConf, .NET Conf, COSCon and so on",
+      "company": "@Microsoft ",
+      "total_stars": 45910
     },
     {
       "login": "hongyangAndroid",
@@ -345,6 +480,32 @@
       "total_stars": 44055
     },
     {
+      "login": "huihut",
+      "name": "huihut",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23519480?v=4",
+      "html_url": "https://github.com/huihut",
+      "followers": 1433,
+      "following": 94,
+      "public_repos": 48,
+      "location": "Guangzhou, China",
+      "bio": null,
+      "company": null,
+      "total_stars": 43451
+    },
+    {
+      "login": "LC044",
+      "name": "SiYuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95485601?v=4",
+      "html_url": "https://github.com/LC044",
+      "followers": 1095,
+      "following": 1,
+      "public_repos": 35,
+      "location": "China",
+      "bio": "An undergraduate student studying computer science with a research focus on databases.",
+      "company": null,
+      "total_stars": 42649
+    },
+    {
       "login": "programthink",
       "name": "编程随想",
       "avatar_url": "https://avatars.githubusercontent.com/u/4027957?v=4",
@@ -356,6 +517,45 @@
       "bio": null,
       "company": null,
       "total_stars": 41997
+    },
+    {
+      "login": "songquanpeng",
+      "name": "JustSong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39998050?v=4",
+      "html_url": "https://github.com/songquanpeng",
+      "followers": 1836,
+      "following": 245,
+      "public_repos": 102,
+      "location": "Shanghai, China",
+      "bio": "Maximizing the objective function.",
+      "company": "South China University of Technology",
+      "total_stars": 41611
+    },
+    {
+      "login": "huiyadanli",
+      "name": "辉鸭蛋",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15783049?v=4",
+      "html_url": "https://github.com/huiyadanli",
+      "followers": 2235,
+      "following": 33,
+      "public_repos": 39,
+      "location": "Hangzhou,China",
+      "bio": "🥚 𝒁-𝑻𝒖𝒓𝒏 𝒐𝒓 𝒅𝒊𝒆 不折腾会死",
+      "company": null,
+      "total_stars": 39628
+    },
+    {
+      "login": "binarywang",
+      "name": "Binary Wang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1343140?v=4",
+      "html_url": "https://github.com/binarywang",
+      "followers": 3454,
+      "following": 6,
+      "public_repos": 37,
+      "location": "China",
+      "bio": "WxJava ",
+      "company": "WxJava",
+      "total_stars": 39294
     },
     {
       "login": "chokcoco",
@@ -371,6 +571,32 @@
       "total_stars": 38727
     },
     {
+      "login": "Lordog",
+      "name": "Tongxin Yuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59903352?v=4",
+      "html_url": "https://github.com/Lordog",
+      "followers": 418,
+      "following": 28,
+      "public_repos": 4,
+      "location": "Shanghai, China",
+      "bio": "Master currently focusing on Safety of LLM&Agent.",
+      "company": "Shanghai Jiao Tong University",
+      "total_stars": 38629
+    },
+    {
+      "login": "lizongying",
+      "name": "李宗英",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16871545?v=4",
+      "html_url": "https://github.com/lizongying",
+      "followers": 2457,
+      "following": 1,
+      "public_repos": 113,
+      "location": "China",
+      "bio": "不自由 毋宁死",
+      "company": null,
+      "total_stars": 38035
+    },
+    {
       "login": "QianMo",
       "name": "浅墨（毛星云）",
       "avatar_url": "https://avatars.githubusercontent.com/u/7830161?v=4",
@@ -384,6 +610,32 @@
       "total_stars": 35534
     },
     {
+      "login": "xkcoding",
+      "name": "Yangkai.Shen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10429917?v=4",
+      "html_url": "https://github.com/xkcoding",
+      "followers": 1310,
+      "following": 82,
+      "public_repos": 125,
+      "location": "Hangzhou, China",
+      "bio": "不积跬步无以至千里，不积小流无以成江海。",
+      "company": "@Programming-With-Love @lets-mica @pig-mesh",
+      "total_stars": 34464
+    },
+    {
+      "login": "qier222",
+      "name": "qier222",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68148142?v=4",
+      "html_url": "https://github.com/qier222",
+      "followers": 1258,
+      "following": 39,
+      "public_repos": 14,
+      "location": "China",
+      "bio": null,
+      "company": null,
+      "total_stars": 33748
+    },
+    {
       "login": "mqyqingfeng",
       "name": "冴羽",
       "avatar_url": "https://avatars.githubusercontent.com/u/11458263?v=4",
@@ -395,6 +647,32 @@
       "bio": "前端工程师",
       "company": "Taobao FED",
       "total_stars": 33342
+    },
+    {
+      "login": "iawia002",
+      "name": "Xinzhao Xu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9134003?v=4",
+      "html_url": "https://github.com/iawia002",
+      "followers": 1055,
+      "following": 77,
+      "public_repos": 33,
+      "location": "Chengdu, China",
+      "bio": null,
+      "company": null,
+      "total_stars": 32225
+    },
+    {
+      "login": "Chanzhaoyu",
+      "name": "Redon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24789441?v=4",
+      "html_url": "https://github.com/Chanzhaoyu",
+      "followers": 1289,
+      "following": 22,
+      "public_repos": 48,
+      "location": "DongGuan, China",
+      "bio": "最近患有拖延症，很懒。",
+      "company": null,
+      "total_stars": 32008
     },
     {
       "login": "miloyip",
@@ -414,7 +692,7 @@
       "name": "HuangYi",
       "avatar_url": "https://avatars.githubusercontent.com/u/5359011?v=4",
       "html_url": "https://github.com/ustbhuangyi",
-      "followers": 9663,
+      "followers": 9662,
       "following": 56,
       "public_repos": 75,
       "location": "HeFei,China",
@@ -492,7 +770,7 @@
       "name": "Crypto Michael",
       "avatar_url": "https://avatars.githubusercontent.com/u/470058?v=4",
       "html_url": "https://github.com/michaelliao",
-      "followers": 38516,
+      "followers": 38517,
       "following": 3,
       "public_repos": 116,
       "location": "Beijing, China",
@@ -511,7 +789,7 @@
       "location": "china beijing",
       "bio": "focus on Node.js AI Agent。",
       "company": "bytedance,ex: alibaba",
-      "total_stars": 17787
+      "total_stars": 17788
     },
     {
       "login": "draveness",
@@ -550,7 +828,7 @@
       "location": "Bellevue, WA, USA ⇌ Shanghai, China",
       "bio": "building database systems @databricks, previously @cmu-db; a bubble tea every day makes me happy right away",
       "company": "Databricks 🧱",
-      "total_stars": 12853
+      "total_stars": 12856
     },
     {
       "login": "sofish",
@@ -661,9 +939,9 @@
       "name": "MK (fengmk2)",
       "avatar_url": "https://avatars.githubusercontent.com/u/156269?v=4",
       "html_url": "https://github.com/fengmk2",
-      "followers": 8346,
+      "followers": 8347,
       "following": 564,
-      "public_repos": 391,
+      "public_repos": 392,
       "location": "Hangzhou, China",
       "bio": "Developer of https://viteplus.dev, @eggjs, @koajs and @cnpm ",
       "company": "@voidzero-dev",
@@ -674,7 +952,7 @@
       "name": "Sun Geer",
       "avatar_url": "https://avatars.githubusercontent.com/u/26924670?v=4",
       "html_url": "https://github.com/sungeer",
-      "followers": 10779,
+      "followers": 10781,
       "following": 978,
       "public_repos": 13,
       "location": "Shanghai, China",
@@ -689,26 +967,26 @@
       "name": "Alibaba",
       "avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
       "html_url": "https://github.com/alibaba",
-      "followers": 19632,
+      "followers": 19633,
       "following": 0,
       "public_repos": 533,
       "location": "Hangzhou, China",
       "bio": "Alibaba Open Source",
       "company": null,
-      "total_stars": 649482
+      "total_stars": 647397
     },
     {
       "login": "Tencent",
       "name": "Tencent",
       "avatar_url": "https://avatars.githubusercontent.com/u/18461506?v=4",
       "html_url": "https://github.com/Tencent",
-      "followers": 13367,
+      "followers": 13368,
       "following": 0,
       "public_repos": 263,
       "location": "Shenzhen, China",
       "bio": null,
       "company": null,
-      "total_stars": 445216
+      "total_stars": 445280
     },
     {
       "login": "ant-design",
@@ -721,7 +999,7 @@
       "location": "HangZhou, China",
       "bio": "A UI Design Language",
       "company": null,
-      "total_stars": 191422
+      "total_stars": 191423
     },
     {
       "login": "QwenLM",
@@ -734,7 +1012,7 @@
       "location": "China",
       "bio": "Alibaba Cloud's general-purpose AI models",
       "company": null,
-      "total_stars": 179630
+      "total_stars": 179644
     },
     {
       "login": "doocs",
@@ -747,7 +1025,7 @@
       "location": "China",
       "bio": "Doocs Open Source Community.",
       "company": null,
-      "total_stars": 172833
+      "total_stars": 172834
     },
     {
       "login": "open-mmlab",
@@ -760,7 +1038,7 @@
       "location": "China",
       "bio": null,
       "company": null,
-      "total_stars": 140711
+      "total_stars": 140713
     },
     {
       "login": "0voice",
@@ -773,14 +1051,14 @@
       "location": "China",
       "bio": "Probably  the most comprehensive and professional c/c++ course of the world",
       "company": null,
-      "total_stars": 136365
+      "total_stars": 136371
     },
     {
       "login": "apachecn",
       "name": "ApacheCN",
       "avatar_url": "https://avatars.githubusercontent.com/u/24802038?v=4",
       "html_url": "https://github.com/apachecn",
-      "followers": 4168,
+      "followers": 4169,
       "following": 0,
       "public_repos": 1192,
       "location": "China",
@@ -799,7 +1077,7 @@
       "location": "Shanghai, China",
       "bio": "bilibili Open Source Task Force",
       "company": null,
-      "total_stars": 94645
+      "total_stars": 94649
     },
     {
       "login": "dromara",
@@ -812,7 +1090,7 @@
       "location": "china",
       "bio": "poems & dreams",
       "company": null,
-      "total_stars": 89763
+      "total_stars": 89766
     },
     {
       "login": "opendatalab",
@@ -825,7 +1103,7 @@
       "location": "China",
       "bio": "OpenDataLab provides access to numerous significant open-source datasets.",
       "company": null,
-      "total_stars": 86136
+      "total_stars": 86150
     },
     {
       "login": "espressif",
@@ -838,7 +1116,7 @@
       "location": "Shanghai, China",
       "bio": null,
       "company": null,
-      "total_stars": 82606
+      "total_stars": 82616
     },
     {
       "login": "baidu",
@@ -851,7 +1129,7 @@
       "location": "Beijing, China",
       "bio": "Baidu Open Source Projects",
       "company": null,
-      "total_stars": 80950
+      "total_stars": 80952
     },
     {
       "login": "antvis",
@@ -864,7 +1142,33 @@
       "location": "Hangzhou, China",
       "bio": "Visualize Data with Vitality by AI  让数据栩栩如生",
       "company": null,
-      "total_stars": 69595
+      "total_stars": 69598
+    },
+    {
+      "login": "dcloudio",
+      "name": "DCloud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5485517?v=4",
+      "html_url": "https://github.com/dcloudio",
+      "followers": 600,
+      "following": 0,
+      "public_repos": 68,
+      "location": "Beijing,China",
+      "bio": null,
+      "company": null,
+      "total_stars": 65833
+    },
+    {
+      "login": "jeecgboot",
+      "name": "JEECG官方开源",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86360035?v=4",
+      "html_url": "https://github.com/jeecgboot",
+      "followers": 1481,
+      "following": 0,
+      "public_repos": 20,
+      "location": "China",
+      "bio": " 企业级AI低代码平台研发公司，致力于国内开源事业，打造JEECG低代码平台、JimuReport可视化报表、敲敲云零代码平台。 （以往荣誉: 获得CSDN专家访谈，ITEYE访谈、连续五年中国最火TOP5、十大优秀开源项目等、2014年微信开发商大会第一名等等）",
+      "company": null,
+      "total_stars": 60922
     },
     {
       "login": "LSPosed",
@@ -877,7 +1181,7 @@
       "location": "China",
       "bio": null,
       "company": null,
-      "total_stars": 59554
+      "total_stars": 59557
     },
     {
       "login": "IDEA-Research",
@@ -890,7 +1194,7 @@
       "location": "China",
       "bio": "The International Digital Economy Academy (“IDEA”). ",
       "company": null,
-      "total_stars": 57168
+      "total_stars": 57172
     },
     {
       "login": "agentscope-ai",
@@ -903,7 +1207,7 @@
       "location": "China",
       "bio": null,
       "company": null,
-      "total_stars": 56299
+      "total_stars": 56321
     },
     {
       "login": "XiaoMi",
@@ -916,7 +1220,46 @@
       "location": "China",
       "bio": null,
       "company": null,
-      "total_stars": 54398
+      "total_stars": 54399
+    },
+    {
+      "login": "chinese-poetry",
+      "name": "chinese-poetry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30764933?v=4",
+      "html_url": "https://github.com/chinese-poetry",
+      "followers": 647,
+      "following": 0,
+      "public_repos": 7,
+      "location": "Shanghai, China",
+      "bio": "最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。",
+      "company": null,
+      "total_stars": 52779
+    },
+    {
+      "login": "CherryHQ",
+      "name": "CherryHQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/187777663?v=4",
+      "html_url": "https://github.com/CherryHQ",
+      "followers": 1119,
+      "following": 0,
+      "public_repos": 24,
+      "location": "China",
+      "bio": null,
+      "company": null,
+      "total_stars": 49673
+    },
+    {
+      "login": "siyuan-note",
+      "name": "SiYuan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70468694?v=4",
+      "html_url": "https://github.com/siyuan-note",
+      "followers": 1340,
+      "following": 0,
+      "public_repos": 38,
+      "location": "China",
+      "bio": "The next generation PKM system, refactor your thinking.",
+      "company": null,
+      "total_stars": 45894
     },
     {
       "login": "InternLM",
@@ -929,7 +1272,46 @@
       "location": "China",
       "bio": null,
       "company": null,
-      "total_stars": 43234
+      "total_stars": 43237
+    },
+    {
+      "login": "gkd-kit",
+      "name": "gkd-kit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/138121201?v=4",
+      "html_url": "https://github.com/gkd-kit",
+      "followers": 1090,
+      "following": 0,
+      "public_repos": 8,
+      "location": "China",
+      "bio": "amagi",
+      "company": null,
+      "total_stars": 42351
+    },
+    {
+      "login": "QSCTech",
+      "name": "求是潮产品研发中心",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4727983?v=4",
+      "html_url": "https://github.com/QSCTech",
+      "followers": 664,
+      "following": 0,
+      "public_repos": 59,
+      "location": "China",
+      "bio": "一入潮门，终生潮人",
+      "company": null,
+      "total_stars": 41179
+    },
+    {
+      "login": "halo-dev",
+      "name": "Halo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48195280?v=4",
+      "html_url": "https://github.com/halo-dev",
+      "followers": 790,
+      "following": 0,
+      "public_repos": 63,
+      "location": "China",
+      "bio": "强大易用的开源建站工具。",
+      "company": null,
+      "total_stars": 40866
     },
     {
       "login": "zju3dv",
@@ -942,7 +1324,46 @@
       "location": "Hangzhou, China",
       "bio": "ZJU3DV is a research group affliated with the State Key Lab of CAD&CG, Zhejiang University. We focus on the research of 3D computer vision, SLAM and AR.",
       "company": null,
-      "total_stars": 40351
+      "total_stars": 40350
+    },
+    {
+      "login": "exacity",
+      "name": "Exacity",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24405523?v=4",
+      "html_url": "https://github.com/exacity",
+      "followers": 102,
+      "following": 0,
+      "public_repos": 2,
+      "location": "China",
+      "bio": null,
+      "company": null,
+      "total_stars": 39807
+    },
+    {
+      "login": "FreeCodeCampChina",
+      "name": "freeCodeCamp 中国",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18478284?v=4",
+      "html_url": "https://github.com/FreeCodeCampChina",
+      "followers": 118,
+      "following": 0,
+      "public_repos": 10,
+      "location": "Suzhou, China",
+      "bio": "FCC中国",
+      "company": null,
+      "total_stars": 37814
+    },
+    {
+      "login": "AstrBotDevs",
+      "name": "AstrBot AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/197911947?v=4",
+      "html_url": "https://github.com/AstrBotDevs",
+      "followers": 407,
+      "following": 0,
+      "public_repos": 32,
+      "location": "China",
+      "bio": "We rise together, back to the moon and beyond.",
+      "company": null,
+      "total_stars": 34400
     },
     {
       "login": "HumanAIGC",
@@ -981,7 +1402,7 @@
       "location": "China",
       "bio": "MAA stands for MAA Assistant Arknights | Developer QQ group: 655031753",
       "company": null,
-      "total_stars": 23351
+      "total_stars": 23355
     },
     {
       "login": "fluttercandies",
@@ -994,20 +1415,20 @@
       "location": "China",
       "bio": "Custom Flutter candies (packages) for you to build your Flutter app easily. Enjoy it! ",
       "company": null,
-      "total_stars": 22184
+      "total_stars": 22185
     },
     {
       "login": "unitreerobotics",
       "name": "Unitree Robotics",
       "avatar_url": "https://avatars.githubusercontent.com/u/44998897?v=4",
       "html_url": "https://github.com/unitreerobotics",
-      "followers": 6149,
+      "followers": 6150,
       "following": 0,
       "public_repos": 46,
       "location": "Hangzhou China",
       "bio": "High performance civilian robot manufacturer. Please everyone be sure to use the robot in a Friendly and Safe manner.",
       "company": null,
-      "total_stars": 17238
+      "total_stars": 17244
     },
     {
       "login": "ZJU-FAST-Lab",
@@ -1020,7 +1441,7 @@
       "location": "Hangzhou, China",
       "bio": null,
       "company": null,
-      "total_stars": 16489
+      "total_stars": 16491
     },
     {
       "login": "Xinyuan-LilyGO",
@@ -1059,20 +1480,20 @@
       "location": "Shenzhen,China",
       "bio": "Build Fast, Stack Smart!",
       "company": null,
-      "total_stars": 7860
+      "total_stars": 7866
     },
     {
       "login": "AgibotTech",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/182621657?v=4",
       "html_url": "https://github.com/AgibotTech",
-      "followers": 1996,
+      "followers": 1997,
       "following": 0,
       "public_repos": 14,
       "location": "China",
       "bio": "以智能机器创造无限生产力",
       "company": null,
-      "total_stars": 6507
+      "total_stars": 6509
     }
   ],
   "repos": [
@@ -1080,9 +1501,9 @@
       "full_name": "CyC2018/CS-Notes",
       "html_url": "https://github.com/CyC2018/CS-Notes",
       "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
-      "stargazers_count": 184384,
+      "stargazers_count": 184388,
       "forks_count": 51003,
-      "watchers_count": 184384,
+      "watchers_count": 184388,
       "language": null,
       "owner_login": "CyC2018",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/36260787?v=4",
@@ -1094,9 +1515,9 @@
       "full_name": "jackfrued/Python-100-Days",
       "html_url": "https://github.com/jackfrued/Python-100-Days",
       "description": "Python - 100天从新手到大师",
-      "stargazers_count": 182548,
-      "forks_count": 55697,
-      "watchers_count": 182548,
+      "stargazers_count": 182551,
+      "forks_count": 55696,
+      "watchers_count": 182551,
       "language": "Jupyter Notebook",
       "owner_login": "jackfrued",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7474657?v=4",
@@ -1108,9 +1529,9 @@
       "full_name": "521xueweihan/HelloGitHub",
       "html_url": "https://github.com/521xueweihan/HelloGitHub",
       "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-      "stargazers_count": 157440,
+      "stargazers_count": 157459,
       "forks_count": 11999,
-      "watchers_count": 157440,
+      "watchers_count": 157459,
       "language": "Python",
       "owner_login": "521xueweihan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8255800?v=4",
@@ -1122,9 +1543,9 @@
       "full_name": "justjavac/free-programming-books-zh_CN",
       "html_url": "https://github.com/justjavac/free-programming-books-zh_CN",
       "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
-      "stargazers_count": 116960,
-      "forks_count": 28312,
-      "watchers_count": 116960,
+      "stargazers_count": 116961,
+      "forks_count": 28311,
+      "watchers_count": 116961,
       "language": null,
       "owner_login": "justjavac",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/359395?v=4",
@@ -1133,12 +1554,26 @@
       "pushed_at": "2024-07-15T08:55:20Z"
     },
     {
+      "full_name": "GrowingGit/GitHub-Chinese-Top-Charts",
+      "html_url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
+      "description": ":cn: GitHub中文排行榜，各语言分设「软件 | 资料」榜单，精准定位中文好项目。各取所需，高效学习。",
+      "stargazers_count": 107994,
+      "forks_count": 13541,
+      "watchers_count": 107994,
+      "language": "Java",
+      "owner_login": "GrowingGit",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/21018904?v=4",
+      "owner_type": "User",
+      "created_at": "2019-09-05T03:01:56Z",
+      "pushed_at": "2024-10-12T06:51:36Z"
+    },
+    {
       "full_name": "jaywcjlove/awesome-mac",
       "html_url": "https://github.com/jaywcjlove/awesome-mac",
       "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
-      "stargazers_count": 104271,
-      "forks_count": 7769,
-      "watchers_count": 104271,
+      "stargazers_count": 104278,
+      "forks_count": 7771,
+      "watchers_count": 104278,
       "language": "Swift",
       "owner_login": "jaywcjlove",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1680273?v=4",
@@ -1150,23 +1585,23 @@
       "full_name": "ant-design/ant-design",
       "html_url": "https://github.com/ant-design/ant-design",
       "description": "An enterprise-class UI design language and React UI library",
-      "stargazers_count": 98060,
-      "forks_count": 54614,
-      "watchers_count": 98060,
+      "stargazers_count": 98059,
+      "forks_count": 54615,
+      "watchers_count": 98059,
       "language": "TypeScript",
       "owner_login": "ant-design",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12101536?v=4",
       "owner_type": "Organization",
       "created_at": "2015-04-24T15:37:24Z",
-      "pushed_at": "2026-05-18T06:57:32Z"
+      "pushed_at": "2026-05-18T08:05:26Z"
     },
     {
       "full_name": "ruanyf/weekly",
       "html_url": "https://github.com/ruanyf/weekly",
       "description": "科技爱好者周刊，每周五发布",
-      "stargazers_count": 91341,
-      "forks_count": 4092,
-      "watchers_count": 91341,
+      "stargazers_count": 91347,
+      "forks_count": 4093,
+      "watchers_count": 91347,
       "language": null,
       "owner_login": "ruanyf",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/905434?v=4",
@@ -1178,9 +1613,9 @@
       "full_name": "PanJiaChen/vue-element-admin",
       "html_url": "https://github.com/PanJiaChen/vue-element-admin",
       "description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
-      "stargazers_count": 90273,
+      "stargazers_count": 90271,
       "forks_count": 30497,
-      "watchers_count": 90273,
+      "watchers_count": 90271,
       "language": "Vue",
       "owner_login": "PanJiaChen",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8121621?v=4",
@@ -1193,7 +1628,7 @@
       "html_url": "https://github.com/macrozheng/mall",
       "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
       "stargazers_count": 83627,
-      "forks_count": 29702,
+      "forks_count": 29701,
       "watchers_count": 83627,
       "language": "Java",
       "owner_login": "macrozheng",
@@ -1217,12 +1652,26 @@
       "pushed_at": "2026-05-03T00:58:42Z"
     },
     {
+      "full_name": "ventoy/Ventoy",
+      "html_url": "https://github.com/ventoy/Ventoy",
+      "description": "A new bootable USB solution.",
+      "stargazers_count": 76684,
+      "forks_count": 4805,
+      "watchers_count": 76684,
+      "language": "C",
+      "owner_login": "ventoy",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/59477474?v=4",
+      "owner_type": "User",
+      "created_at": "2020-03-10T15:19:19Z",
+      "pushed_at": "2026-05-07T03:18:40Z"
+    },
+    {
       "full_name": "MisterBooo/LeetCodeAnimation",
       "html_url": "https://github.com/MisterBooo/LeetCodeAnimation",
       "description": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）",
-      "stargazers_count": 76615,
+      "stargazers_count": 76616,
       "forks_count": 13926,
-      "watchers_count": 76615,
+      "watchers_count": 76616,
       "language": "Java",
       "owner_login": "MisterBooo",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/15308811?v=4",
@@ -1234,9 +1683,9 @@
       "full_name": "PKUFlyingPig/cs-self-learning",
       "html_url": "https://github.com/PKUFlyingPig/cs-self-learning",
       "description": "计算机自学指南",
-      "stargazers_count": 72800,
+      "stargazers_count": 72802,
       "forks_count": 7889,
-      "watchers_count": 72800,
+      "watchers_count": 72802,
       "language": "HTML",
       "owner_login": "PKUFlyingPig",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/60659728?v=4",
@@ -1245,32 +1694,158 @@
       "pushed_at": "2026-02-24T14:45:49Z"
     },
     {
+      "full_name": "hiyouga/LlamaFactory",
+      "html_url": "https://github.com/hiyouga/LlamaFactory",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "stargazers_count": 71356,
+      "forks_count": 8717,
+      "watchers_count": 71356,
+      "language": "Python",
+      "owner_login": "hiyouga",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/16256802?v=4",
+      "owner_type": "User",
+      "created_at": "2023-05-28T10:09:12Z",
+      "pushed_at": "2026-05-13T12:56:44Z"
+    },
+    {
       "full_name": "opendatalab/MinerU",
       "html_url": "https://github.com/opendatalab/MinerU",
       "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
-      "stargazers_count": 63480,
-      "forks_count": 5351,
-      "watchers_count": 63480,
+      "stargazers_count": 63494,
+      "forks_count": 5353,
+      "watchers_count": 63494,
       "language": "Python",
       "owner_login": "opendatalab",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/97503431?v=4",
       "owner_type": "Organization",
       "created_at": "2024-02-29T08:52:34Z",
-      "pushed_at": "2026-05-17T17:39:30Z"
+      "pushed_at": "2026-05-18T08:29:32Z"
+    },
+    {
+      "full_name": "666ghj/MiroFish",
+      "html_url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "stargazers_count": 61102,
+      "forks_count": 9560,
+      "watchers_count": 61102,
+      "language": "Python",
+      "owner_login": "666ghj",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/110395318?v=4",
+      "owner_type": "User",
+      "created_at": "2025-11-26T04:23:02Z",
+      "pushed_at": "2026-04-02T08:54:54Z"
+    },
+    {
+      "full_name": "azl397985856/leetcode",
+      "html_url": "https://github.com/azl397985856/leetcode",
+      "description": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+      "stargazers_count": 55779,
+      "forks_count": 9439,
+      "watchers_count": 55779,
+      "language": "JavaScript",
+      "owner_login": "azl397985856",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12479470?v=4",
+      "owner_type": "User",
+      "created_at": "2018-03-30T09:13:51Z",
+      "pushed_at": "2025-07-16T09:42:17Z"
+    },
+    {
+      "full_name": "chinese-poetry/chinese-poetry",
+      "html_url": "https://github.com/chinese-poetry/chinese-poetry",
+      "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
+      "stargazers_count": 51470,
+      "forks_count": 10375,
+      "watchers_count": 51470,
+      "language": "JavaScript",
+      "owner_login": "chinese-poetry",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/30764933?v=4",
+      "owner_type": "Organization",
+      "created_at": "2016-09-02T03:32:25Z",
+      "pushed_at": "2026-05-06T02:14:34Z"
     },
     {
       "full_name": "justjavac/awesome-wechat-weapp",
       "html_url": "https://github.com/justjavac/awesome-wechat-weapp",
       "description": "微信小程序开发资源汇总 :100:",
-      "stargazers_count": 50965,
+      "stargazers_count": 50967,
       "forks_count": 9015,
-      "watchers_count": 50965,
+      "watchers_count": 50967,
       "language": null,
       "owner_login": "justjavac",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/359395?v=4",
       "owner_type": "User",
       "created_at": "2016-09-22T20:04:48Z",
       "pushed_at": "2025-11-19T06:06:13Z"
+    },
+    {
+      "full_name": "jingyaogong/minimind",
+      "html_url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "stargazers_count": 50097,
+      "forks_count": 6378,
+      "watchers_count": 50097,
+      "language": "Python",
+      "owner_login": "jingyaogong",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/62287848?v=4",
+      "owner_type": "User",
+      "created_at": "2024-07-27T04:34:12Z",
+      "pushed_at": "2026-05-16T10:08:44Z"
+    },
+    {
+      "full_name": "iamkun/dayjs",
+      "html_url": "https://github.com/iamkun/dayjs",
+      "description": "⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API",
+      "stargazers_count": 48645,
+      "forks_count": 2427,
+      "watchers_count": 48645,
+      "language": "JavaScript",
+      "owner_login": "iamkun",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17680888?v=4",
+      "owner_type": "User",
+      "created_at": "2018-04-10T09:26:44Z",
+      "pushed_at": "2026-05-07T04:08:18Z"
+    },
+    {
+      "full_name": "jeecgboot/JeecgBoot",
+      "html_url": "https://github.com/jeecgboot/JeecgBoot",
+      "description": "AI 低代码平台，「低代码 + 零代码」双模式驱动：低代码一键生成前后端代码，零代码 5 分钟搭建系统，AI Skills 一句话画流程、设计表单、生成整套系统。内置 AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领「AI 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，消除 Java 项目 80% 的重复工作，提效而不失灵活。",
+      "stargazers_count": 46305,
+      "forks_count": 15997,
+      "watchers_count": 46305,
+      "language": "Java",
+      "owner_login": "jeecgboot",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/86360035?v=4",
+      "owner_type": "Organization",
+      "created_at": "2018-11-26T10:40:00Z",
+      "pushed_at": "2026-05-18T01:41:09Z"
+    },
+    {
+      "full_name": "CherryHQ/cherry-studio",
+      "html_url": "https://github.com/CherryHQ/cherry-studio",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "stargazers_count": 45852,
+      "forks_count": 4359,
+      "watchers_count": 45852,
+      "language": "TypeScript",
+      "owner_login": "CherryHQ",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/187777663?v=4",
+      "owner_type": "Organization",
+      "created_at": "2024-05-24T01:56:26Z",
+      "pushed_at": "2026-05-18T08:24:22Z"
+    },
+    {
+      "full_name": "siyuan-note/siyuan",
+      "html_url": "https://github.com/siyuan-note/siyuan",
+      "description": "A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.",
+      "stargazers_count": 43942,
+      "forks_count": 2801,
+      "watchers_count": 43942,
+      "language": "TypeScript",
+      "owner_login": "siyuan-note",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/70468694?v=4",
+      "owner_type": "Organization",
+      "created_at": "2020-08-30T09:21:35Z",
+      "pushed_at": "2026-05-18T03:36:09Z"
     },
     {
       "full_name": "astaxie/build-web-application-with-golang",
@@ -1301,12 +1876,40 @@
       "pushed_at": "2024-11-12T16:21:55Z"
     },
     {
+      "full_name": "dcloudio/uni-app",
+      "html_url": "https://github.com/dcloudio/uni-app",
+      "description": "A cross-platform framework using Vue.js",
+      "stargazers_count": 41527,
+      "forks_count": 3715,
+      "watchers_count": 41527,
+      "language": "Objective-C",
+      "owner_login": "dcloudio",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5485517?v=4",
+      "owner_type": "Organization",
+      "created_at": "2018-07-12T08:52:39Z",
+      "pushed_at": "2026-05-18T08:29:24Z"
+    },
+    {
+      "full_name": "LC044/WeChatMsg",
+      "html_url": "https://github.com/LC044/WeChatMsg",
+      "description": null,
+      "stargazers_count": 41436,
+      "forks_count": 5127,
+      "watchers_count": 41436,
+      "language": null,
+      "owner_login": "LC044",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/95485601?v=4",
+      "owner_type": "User",
+      "created_at": "2023-01-11T05:03:49Z",
+      "pushed_at": "2025-12-30T13:31:16Z"
+    },
+    {
       "full_name": "bailicangdu/vue2-elm",
       "html_url": "https://github.com/bailicangdu/vue2-elm",
       "description": "Large single page application with 45 pages built on vue2 + vuex. 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用",
-      "stargazers_count": 41086,
+      "stargazers_count": 41087,
       "forks_count": 12290,
-      "watchers_count": 41086,
+      "watchers_count": 41087,
       "language": "Vue",
       "owner_login": "bailicangdu",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20297227?v=4",
@@ -1315,12 +1918,82 @@
       "pushed_at": "2025-04-11T12:52:02Z"
     },
     {
+      "full_name": "666ghj/BettaFish",
+      "html_url": "https://github.com/666ghj/BettaFish",
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+      "stargazers_count": 40952,
+      "forks_count": 7566,
+      "watchers_count": 40952,
+      "language": "Python",
+      "owner_login": "666ghj",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/110395318?v=4",
+      "owner_type": "User",
+      "created_at": "2024-07-01T13:11:38Z",
+      "pushed_at": "2026-05-08T10:22:58Z"
+    },
+    {
+      "full_name": "QSCTech/zju-icicles",
+      "html_url": "https://github.com/QSCTech/zju-icicles",
+      "description": "浙江大学课程攻略共享计划",
+      "stargazers_count": 40527,
+      "forks_count": 9585,
+      "watchers_count": 40527,
+      "language": "HTML",
+      "owner_login": "QSCTech",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4727983?v=4",
+      "owner_type": "Organization",
+      "created_at": "2016-06-28T16:17:32Z",
+      "pushed_at": "2026-01-20T11:01:02Z"
+    },
+    {
+      "full_name": "gkd-kit/gkd",
+      "html_url": "https://github.com/gkd-kit/gkd",
+      "description": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+      "stargazers_count": 38659,
+      "forks_count": 1842,
+      "watchers_count": 38659,
+      "language": "Kotlin",
+      "owner_login": "gkd-kit",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/138121201?v=4",
+      "owner_type": "Organization",
+      "created_at": "2023-07-04T03:59:15Z",
+      "pushed_at": "2026-05-18T03:54:34Z"
+    },
+    {
+      "full_name": "halo-dev/halo",
+      "html_url": "https://github.com/halo-dev/halo",
+      "description": "Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。",
+      "stargazers_count": 38652,
+      "forks_count": 10261,
+      "watchers_count": 38652,
+      "language": "Java",
+      "owner_login": "halo-dev",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/48195280?v=4",
+      "owner_type": "Organization",
+      "created_at": "2018-03-21T12:56:52Z",
+      "pushed_at": "2026-05-18T07:50:31Z"
+    },
+    {
+      "full_name": "Lordog/dive-into-llms",
+      "html_url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "stargazers_count": 38525,
+      "forks_count": 4725,
+      "watchers_count": 38525,
+      "language": "Jupyter Notebook",
+      "owner_login": "Lordog",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/59903352?v=4",
+      "owner_type": "User",
+      "created_at": "2024-04-08T13:11:40Z",
+      "pushed_at": "2025-10-10T06:25:48Z"
+    },
+    {
       "full_name": "ant-design/ant-design-pro",
       "html_url": "https://github.com/ant-design/ant-design-pro",
       "description": "👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!",
-      "stargazers_count": 38237,
-      "forks_count": 8243,
-      "watchers_count": 38237,
+      "stargazers_count": 38238,
+      "forks_count": 8244,
+      "watchers_count": 38238,
       "language": "TypeScript",
       "owner_login": "ant-design",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12101536?v=4",
@@ -1329,18 +2002,74 @@
       "pushed_at": "2026-05-16T16:50:44Z"
     },
     {
+      "full_name": "huihut/interview",
+      "html_url": "https://github.com/huihut/interview",
+      "description": "📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, incl",
+      "stargazers_count": 37813,
+      "forks_count": 8113,
+      "watchers_count": 37813,
+      "language": "C++",
+      "owner_login": "huihut",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/23519480?v=4",
+      "owner_type": "User",
+      "created_at": "2018-02-09T09:49:48Z",
+      "pushed_at": "2025-08-24T07:01:54Z"
+    },
+    {
+      "full_name": "FreeCodeCampChina/freecodecamp.cn",
+      "html_url": "https://github.com/FreeCodeCampChina/freecodecamp.cn",
+      "description": "FCC China open source codebase and curriculum. Learn to code and help nonprofits.",
+      "stargazers_count": 37704,
+      "forks_count": 1414,
+      "watchers_count": 37704,
+      "language": "CSS",
+      "owner_login": "FreeCodeCampChina",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/18478284?v=4",
+      "owner_type": "Organization",
+      "created_at": "2016-09-30T03:13:43Z",
+      "pushed_at": "2023-07-16T16:48:59Z"
+    },
+    {
+      "full_name": "huiyadanli/RevokeMsgPatcher",
+      "html_url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+      "description": ":trollface: A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
+      "stargazers_count": 37636,
+      "forks_count": 3989,
+      "watchers_count": 37636,
+      "language": "C#",
+      "owner_login": "huiyadanli",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/15783049?v=4",
+      "owner_type": "User",
+      "created_at": "2019-07-21T15:12:52Z",
+      "pushed_at": "2026-05-11T18:40:35Z"
+    },
+    {
       "full_name": "alibaba/arthas",
       "html_url": "https://github.com/alibaba/arthas",
       "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
       "stargazers_count": 37312,
-      "forks_count": 7636,
+      "forks_count": 7637,
       "watchers_count": 37312,
       "language": "Java",
       "owner_login": "alibaba",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
       "owner_type": "Organization",
       "created_at": "2018-08-29T17:15:57Z",
-      "pushed_at": "2026-05-14T09:01:02Z"
+      "pushed_at": "2026-05-18T08:08:11Z"
+    },
+    {
+      "full_name": "exacity/deeplearningbook-chinese",
+      "html_url": "https://github.com/exacity/deeplearningbook-chinese",
+      "description": "Deep Learning Book Chinese Translation",
+      "stargazers_count": 37268,
+      "forks_count": 9140,
+      "watchers_count": 37268,
+      "language": "TeX",
+      "owner_login": "exacity",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/24405523?v=4",
+      "owner_type": "Organization",
+      "created_at": "2016-12-07T11:46:51Z",
+      "pushed_at": "2019-12-03T04:25:44Z"
     },
     {
       "full_name": "0voice/interview_internal_reference",
@@ -1360,9 +2089,9 @@
       "full_name": "YunaiV/ruoyi-vue-pro",
       "html_url": "https://github.com/YunaiV/ruoyi-vue-pro",
       "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Sta",
-      "stargazers_count": 37151,
-      "forks_count": 8055,
-      "watchers_count": 37151,
+      "stargazers_count": 37152,
+      "forks_count": 8058,
+      "watchers_count": 37152,
       "language": "Java",
       "owner_login": "YunaiV",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2015545?v=4",
@@ -1374,15 +2103,29 @@
       "full_name": "fengdu78/Coursera-ML-AndrewNg-Notes",
       "html_url": "https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes",
       "description": "吴恩达老师的机器学习课程个人笔记",
-      "stargazers_count": 36956,
+      "stargazers_count": 36957,
       "forks_count": 11183,
-      "watchers_count": 36956,
+      "watchers_count": 36957,
       "language": "HTML",
       "owner_login": "fengdu78",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/26119052?v=4",
       "owner_type": "User",
       "created_at": "2017-11-04T10:04:08Z",
       "pushed_at": "2025-08-25T04:02:38Z"
+    },
+    {
+      "full_name": "formulahendry/955.WLB",
+      "html_url": "https://github.com/formulahendry/955.WLB",
+      "description": "955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)",
+      "stargazers_count": 36233,
+      "forks_count": 1744,
+      "watchers_count": 36233,
+      "language": null,
+      "owner_login": "formulahendry",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1050213?v=4",
+      "owner_type": "User",
+      "created_at": "2019-03-27T23:53:37Z",
+      "pushed_at": "2025-02-03T05:15:20Z"
     },
     {
       "full_name": "jaywcjlove/linux-command",
@@ -1402,9 +2145,9 @@
       "full_name": "doocs/leetcode",
       "html_url": "https://github.com/doocs/leetcode",
       "description": "🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解",
-      "stargazers_count": 36016,
+      "stargazers_count": 36017,
       "forks_count": 9416,
-      "watchers_count": 36016,
+      "watchers_count": 36017,
       "language": "Java",
       "owner_login": "doocs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/43716716?v=4",
@@ -1413,12 +2156,26 @@
       "pushed_at": "2026-05-18T06:58:09Z"
     },
     {
+      "full_name": "xinntao/Real-ESRGAN",
+      "html_url": "https://github.com/xinntao/Real-ESRGAN",
+      "description": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration.",
+      "stargazers_count": 35448,
+      "forks_count": 4333,
+      "watchers_count": 35448,
+      "language": "Python",
+      "owner_login": "xinntao",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17445847?v=4",
+      "owner_type": "User",
+      "created_at": "2021-07-19T03:23:30Z",
+      "pushed_at": "2024-08-06T13:15:18Z"
+    },
+    {
       "full_name": "sorrycc/awesome-javascript",
       "html_url": "https://github.com/sorrycc/awesome-javascript",
       "description": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.",
-      "stargazers_count": 34969,
+      "stargazers_count": 34968,
       "forks_count": 4539,
-      "watchers_count": 34969,
+      "watchers_count": 34968,
       "language": null,
       "owner_login": "sorrycc",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/35128?v=4",
@@ -1427,354 +2184,18 @@
       "pushed_at": "2026-04-23T10:42:52Z"
     },
     {
-      "full_name": "halfrost/LeetCode-Go",
-      "html_url": "https://github.com/halfrost/LeetCode-Go",
-      "description": "✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解",
-      "stargazers_count": 33795,
-      "forks_count": 5739,
-      "watchers_count": 33795,
-      "language": "Go",
-      "owner_login": "halfrost",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10825609?v=4",
+      "full_name": "xkcoding/spring-boot-demo",
+      "html_url": "https://github.com/xkcoding/spring-boot-demo",
+      "description": "🚀一个用来深入学习并实战 Spring Boot 的项目。",
+      "stargazers_count": 34102,
+      "forks_count": 10945,
+      "watchers_count": 34102,
+      "language": "Java",
+      "owner_login": "xkcoding",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10429917?v=4",
       "owner_type": "User",
-      "created_at": "2017-07-18T00:06:14Z",
-      "pushed_at": "2024-12-11T05:55:51Z"
-    },
-    {
-      "full_name": "alibaba/easyexcel",
-      "html_url": "https://github.com/alibaba/easyexcel",
-      "description": "快速、简洁、解决大文件内存溢出的java处理Excel工具",
-      "stargazers_count": 33722,
-      "forks_count": 7598,
-      "watchers_count": 33722,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2018-02-06T03:14:08Z",
-      "pushed_at": "2024-10-29T06:07:07Z"
-    },
-    {
-      "full_name": "bilibili/ijkplayer",
-      "html_url": "https://github.com/bilibili/ijkplayer",
-      "description": "Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.",
-      "stargazers_count": 33152,
-      "forks_count": 8235,
-      "watchers_count": 33152,
-      "language": "C",
-      "owner_login": "bilibili",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12002442?v=4",
-      "owner_type": "Organization",
-      "created_at": "2013-06-03T04:12:04Z",
-      "pushed_at": "2024-08-13T00:53:33Z"
-    },
-    {
-      "full_name": "alibaba/nacos",
-      "html_url": "https://github.com/alibaba/nacos",
-      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
-      "stargazers_count": 32956,
-      "forks_count": 13278,
-      "watchers_count": 32956,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2018-06-15T06:49:27Z",
-      "pushed_at": "2026-05-18T03:53:21Z"
-    },
-    {
-      "full_name": "open-mmlab/mmdetection",
-      "html_url": "https://github.com/open-mmlab/mmdetection",
-      "description": "OpenMMLab Detection Toolbox and Benchmark",
-      "stargazers_count": 32693,
-      "forks_count": 9837,
-      "watchers_count": 32693,
-      "language": "Python",
-      "owner_login": "open-mmlab",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10245193?v=4",
-      "owner_type": "Organization",
-      "created_at": "2018-08-22T07:06:06Z",
-      "pushed_at": "2024-08-21T02:01:07Z"
-    },
-    {
-      "full_name": "mqyqingfeng/Blog",
-      "html_url": "https://github.com/mqyqingfeng/Blog",
-      "description": "冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。",
-      "stargazers_count": 31114,
-      "forks_count": 4659,
-      "watchers_count": 31114,
-      "language": null,
-      "owner_login": "mqyqingfeng",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11458263?v=4",
-      "owner_type": "User",
-      "created_at": "2017-03-13T10:04:33Z",
-      "pushed_at": "2026-05-17T09:47:31Z"
-    },
-    {
-      "full_name": "alibaba/p3c",
-      "html_url": "https://github.com/alibaba/p3c",
-      "description": "Alibaba Java Coding Guidelines pmd implements and IDE plugin",
-      "stargazers_count": 30840,
-      "forks_count": 8008,
-      "watchers_count": 30840,
-      "language": "Kotlin",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2017-06-23T06:15:51Z",
-      "pushed_at": "2024-08-06T08:22:02Z"
-    },
-    {
-      "full_name": "ityouknow/spring-boot-examples",
-      "html_url": "https://github.com/ityouknow/spring-boot-examples",
-      "description": "about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。 ",
-      "stargazers_count": 30595,
-      "forks_count": 12233,
-      "watchers_count": 30595,
-      "language": "Java",
-      "owner_login": "ityouknow",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4979648?v=4",
-      "owner_type": "User",
-      "created_at": "2016-11-05T05:32:33Z",
-      "pushed_at": "2023-11-18T16:32:16Z"
-    },
-    {
-      "full_name": "alibaba/canal",
-      "html_url": "https://github.com/alibaba/canal",
-      "description": "阿里巴巴 MySQL binlog 增量订阅&消费组件 ",
-      "stargazers_count": 29696,
-      "forks_count": 7647,
-      "watchers_count": 29696,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2013-01-13T10:59:52Z",
-      "pushed_at": "2026-04-29T10:07:22Z"
-    },
-    {
-      "full_name": "alibaba/spring-cloud-alibaba",
-      "html_url": "https://github.com/alibaba/spring-cloud-alibaba",
-      "description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.",
-      "stargazers_count": 29111,
-      "forks_count": 8513,
-      "watchers_count": 29111,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2017-12-01T20:49:15Z",
-      "pushed_at": "2026-05-18T03:15:30Z"
-    },
-    {
-      "full_name": "521xueweihan/GitHub520",
-      "html_url": "https://github.com/521xueweihan/GitHub520",
-      "description": ":kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）",
-      "stargazers_count": 28691,
-      "forks_count": 2705,
-      "watchers_count": 28691,
-      "language": "Python",
-      "owner_login": "521xueweihan",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8255800?v=4",
-      "owner_type": "User",
-      "created_at": "2020-05-13T07:25:21Z",
-      "pushed_at": "2026-05-18T05:29:51Z"
-    },
-    {
-      "full_name": "alibaba/druid",
-      "html_url": "https://github.com/alibaba/druid",
-      "description": "阿里云计算平台DataWorks(https://help.aliyun.com/document_detail/137663.html) 团队出品，为监控而生的数据库连接池",
-      "stargazers_count": 28196,
-      "forks_count": 8597,
-      "watchers_count": 28196,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2011-11-03T05:12:51Z",
-      "pushed_at": "2026-05-12T14:16:07Z"
-    },
-    {
-      "full_name": "Tencent/weui",
-      "html_url": "https://github.com/Tencent/weui",
-      "description": "A UI library by WeChat official design team, includes the most useful widgets/modules in mobile web applications.",
-      "stargazers_count": 27370,
-      "forks_count": 6308,
-      "watchers_count": 27370,
-      "language": "HTML",
-      "owner_login": "Tencent",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/18461506?v=4",
-      "owner_type": "Organization",
-      "created_at": "2014-12-18T04:09:54Z",
-      "pushed_at": "2026-03-12T12:23:29Z"
-    },
-    {
-      "full_name": "QwenLM/Qwen3",
-      "html_url": "https://github.com/QwenLM/Qwen3",
-      "description": "Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
-      "stargazers_count": 27239,
-      "forks_count": 1979,
-      "watchers_count": 27239,
-      "language": "Python",
-      "owner_login": "QwenLM",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4",
-      "owner_type": "Organization",
-      "created_at": "2024-02-05T05:45:08Z",
-      "pushed_at": "2026-01-09T03:05:47Z"
-    },
-    {
-      "full_name": "alibaba/fastjson",
-      "html_url": "https://github.com/alibaba/fastjson",
-      "description": "FASTJSON 2.0.x has been released, faster and more secure, recommend you upgrade.",
-      "stargazers_count": 25659,
-      "forks_count": 6425,
-      "watchers_count": 25659,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2011-11-03T06:58:52Z",
-      "pushed_at": "2024-07-16T07:35:37Z"
-    },
-    {
-      "full_name": "agentscope-ai/agentscope",
-      "html_url": "https://github.com/agentscope-ai/agentscope",
-      "description": "Build and run agents you can see, understand and trust.",
-      "stargazers_count": 25212,
-      "forks_count": 2724,
-      "watchers_count": 25212,
-      "language": "Python",
-      "owner_login": "agentscope-ai",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/211762292?v=4",
-      "owner_type": "Organization",
-      "created_at": "2024-01-12T03:41:59Z",
-      "pushed_at": "2026-05-18T07:01:00Z"
-    },
-    {
-      "full_name": "QwenLM/qwen-code",
-      "html_url": "https://github.com/QwenLM/qwen-code",
-      "description": "An open-source AI agent that lives in your terminal.",
-      "stargazers_count": 24451,
-      "forks_count": 2378,
-      "watchers_count": 24451,
-      "language": "TypeScript",
-      "owner_login": "QwenLM",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4",
-      "owner_type": "Organization",
-      "created_at": "2025-06-26T01:37:46Z",
-      "pushed_at": "2026-05-18T07:08:57Z"
-    },
-    {
-      "full_name": "onevcat/Kingfisher",
-      "html_url": "https://github.com/onevcat/Kingfisher",
-      "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
-      "stargazers_count": 24329,
-      "forks_count": 2758,
-      "watchers_count": 24329,
-      "language": "Swift",
-      "owner_login": "onevcat",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1019875?v=4",
-      "owner_type": "User",
-      "created_at": "2015-04-06T14:26:21Z",
-      "pushed_at": "2026-05-05T15:00:59Z"
-    },
-    {
-      "full_name": "LSPosed/LSPosed",
-      "html_url": "https://github.com/LSPosed/LSPosed",
-      "description": "LSPosed Framework",
-      "stargazers_count": 23745,
-      "forks_count": 3560,
-      "watchers_count": 23745,
-      "language": "Java",
-      "owner_login": "LSPosed",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/75879071?v=4",
-      "owner_type": "Organization",
-      "created_at": "2020-12-12T08:39:37Z",
-      "pushed_at": "2025-03-04T21:28:36Z"
-    },
-    {
-      "full_name": "alibaba/flutter-go",
-      "html_url": "https://github.com/alibaba/flutter-go",
-      "description": "flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档",
-      "stargazers_count": 23679,
-      "forks_count": 3771,
-      "watchers_count": 23679,
-      "language": "Dart",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2019-01-08T09:03:40Z",
-      "pushed_at": "2023-12-11T20:49:42Z"
-    },
-    {
-      "full_name": "Tencent/ncnn",
-      "html_url": "https://github.com/Tencent/ncnn",
-      "description": "ncnn is a high-performance neural network inference framework optimized for the mobile platform",
-      "stargazers_count": 23239,
-      "forks_count": 4425,
-      "watchers_count": 23239,
-      "language": "C++",
-      "owner_login": "Tencent",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/18461506?v=4",
-      "owner_type": "Organization",
-      "created_at": "2017-06-30T10:55:37Z",
-      "pushed_at": "2026-05-18T03:47:41Z"
-    },
-    {
-      "full_name": "bilibili/flv.js",
-      "html_url": "https://github.com/bilibili/flv.js",
-      "description": "HTML5 FLV Player",
-      "stargazers_count": 23222,
-      "forks_count": 3352,
-      "watchers_count": 23222,
-      "language": "JavaScript",
-      "owner_login": "bilibili",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12002442?v=4",
-      "owner_type": "Organization",
-      "created_at": "2016-05-12T08:34:31Z",
-      "pushed_at": "2024-07-07T07:28:53Z"
-    },
-    {
-      "full_name": "doocs/source-code-hunter",
-      "html_url": "https://github.com/doocs/source-code-hunter",
-      "description": "😱 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等",
-      "stargazers_count": 23127,
-      "forks_count": 4243,
-      "watchers_count": 23127,
-      "language": "Java",
-      "owner_login": "doocs",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/43716716?v=4",
-      "owner_type": "Organization",
-      "created_at": "2019-10-28T01:35:10Z",
-      "pushed_at": "2026-04-17T09:35:40Z"
-    },
-    {
-      "full_name": "alibaba/Sentinel",
-      "html_url": "https://github.com/alibaba/Sentinel",
-      "description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件)",
-      "stargazers_count": 23113,
-      "forks_count": 8150,
-      "watchers_count": 23113,
-      "language": "Java",
-      "owner_login": "alibaba",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1961952?v=4",
-      "owner_type": "Organization",
-      "created_at": "2018-04-04T06:37:33Z",
-      "pushed_at": "2026-05-11T08:33:01Z"
-    },
-    {
-      "full_name": "fouber/blog",
-      "html_url": "https://github.com/fouber/blog",
-      "description": "没事写写文章，喜欢的话请点star，想订阅点watch，千万别fork！",
-      "stargazers_count": 22614,
-      "forks_count": 2336,
-      "watchers_count": 22614,
-      "language": null,
-      "owner_login": "fouber",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/536297?v=4",
-      "owner_type": "User",
-      "created_at": "2014-04-25T09:44:42Z",
-      "pushed_at": "2019-11-12T05:28:36Z"
+      "created_at": "2017-11-10T06:27:29Z",
+      "pushed_at": "2024-07-24T02:02:52Z"
     }
   ]
 }

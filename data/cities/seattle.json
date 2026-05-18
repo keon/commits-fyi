@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-05-18T07:07:27.265Z",
+  "generated_at": "2026-05-18T08:32:09.567Z",
   "counts": {
-    "users": 50,
+    "users": 51,
     "orgs": 30,
     "repos": 50
   },
   "totals": {
-    "user_followers": 208882,
-    "org_followers": 32892,
-    "user_stars": 639788,
-    "org_stars": 444023
+    "user_followers": 210218,
+    "org_followers": 32895,
+    "user_stars": 710692,
+    "org_stars": 444038
   },
   "queries": [
     {
@@ -26,12 +26,30 @@
       "ui_url": "https://github.com/search?q=location%3A%22Seattle%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
+      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Seattle\"",
+      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
+      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
+    },
+    {
       "label": "Per-account repo list (to sum stars and surface top repos)",
       "api_url": "https://api.github.com/users/{login}/repos?per_page=100&type=owner",
       "ui_url": null
     }
   ],
   "users": [
+    {
+      "login": "ryanoasis",
+      "name": "Ryan L McIntyre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8083459?v=4",
+      "html_url": "https://github.com/ryanoasis",
+      "followers": 1333,
+      "following": 21,
+      "public_repos": 151,
+      "location": "Seattle, WA, USA",
+      "bio": " Full Stack Application Developer ┋ Focused on UI - JavaScript - OSS - Vim ┋ Creator of Nerd Fonts  & VimDevIcons ",
+      "company": null,
+      "total_stars": 70898
+    },
     {
       "login": "schollz",
       "name": "Zack",
@@ -43,7 +61,7 @@
       "location": "Seattle, WA",
       "bio": "Software Engineer + Scientist",
       "company": null,
-      "total_stars": 68628
+      "total_stars": 68630
     },
     {
       "login": "karan",
@@ -89,13 +107,13 @@
       "name": "Colin McDonnell",
       "avatar_url": "https://avatars.githubusercontent.com/u/3084745?v=4",
       "html_url": "https://github.com/colinhacks",
-      "followers": 3716,
+      "followers": 3717,
       "following": 70,
       "public_repos": 160,
       "location": "Seattle, WA",
       "bio": "I have come here to chew bubblegum and write code. And _InsufficientBubblegumException_",
       "company": null,
-      "total_stars": 45464
+      "total_stars": 45465
     },
     {
       "login": "anvaka",
@@ -147,14 +165,14 @@
       "location": "Seattle, WA",
       "bio": "building @dubinc | prev: @vercel",
       "company": "@dubinc",
-      "total_stars": 24440
+      "total_stars": 24442
     },
     {
       "login": "btholt",
       "name": "Brian Holt",
       "avatar_url": "https://avatars.githubusercontent.com/u/999523?v=4",
       "html_url": "https://github.com/btholt",
-      "followers": 13492,
+      "followers": 13493,
       "following": 77,
       "public_repos": 174,
       "location": "Seattle, WA",
@@ -258,7 +276,7 @@
       "name": "Jeff L.",
       "avatar_url": "https://avatars.githubusercontent.com/u/1571674?v=4",
       "html_url": "https://github.com/jtleek",
-      "followers": 7415,
+      "followers": 7416,
       "following": 7,
       "public_repos": 113,
       "location": "Seattle, WA",
@@ -277,7 +295,7 @@
       "location": "Seattle",
       "bio": "Code & Cats & Rock'n'Roll!\r\n",
       "company": "@evilmartians ",
-      "total_stars": 10508
+      "total_stars": 10509
     },
     {
       "login": "armankhondker",
@@ -401,7 +419,7 @@
       "name": "Eric Niebler",
       "avatar_url": "https://avatars.githubusercontent.com/u/225757?v=4",
       "html_url": "https://github.com/ericniebler",
-      "followers": 1793,
+      "followers": 1792,
       "following": 2,
       "public_repos": 55,
       "location": "Seattle, WA",
@@ -479,7 +497,7 @@
       "name": "Will Schroeder",
       "avatar_url": "https://avatars.githubusercontent.com/u/5504523?v=4",
       "html_url": "https://github.com/HarmJ0y",
-      "followers": 3717,
+      "followers": 3718,
       "following": 4,
       "public_repos": 67,
       "location": "Seattle, WA",
@@ -695,7 +713,7 @@
       "location": "Seattle, WA",
       "bio": "AWS Labs",
       "company": null,
-      "total_stars": 98000
+      "total_stars": 98004
     },
     {
       "login": "FormidableLabs",
@@ -715,13 +733,13 @@
       "name": "Ai2",
       "avatar_url": "https://avatars.githubusercontent.com/u/5667695?v=4",
       "html_url": "https://github.com/allenai",
-      "followers": 4691,
+      "followers": 4693,
       "following": 0,
       "public_repos": 581,
       "location": "Seattle, WA",
       "bio": null,
       "company": null,
-      "total_stars": 68481
+      "total_stars": 68484
     },
     {
       "login": "auth0",
@@ -845,13 +863,13 @@
       "name": "IPinfo",
       "avatar_url": "https://avatars.githubusercontent.com/u/15721521?v=4",
       "html_url": "https://github.com/ipinfo",
-      "followers": 648,
+      "followers": 649,
       "following": 0,
       "public_repos": 38,
       "location": "Seattle, WA",
       "bio": "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
       "company": null,
-      "total_stars": 4196
+      "total_stars": 4202
     },
     {
       "login": "googlecolab",
@@ -864,7 +882,7 @@
       "location": "Seattle, WA",
       "bio": "Colaboratory is a research tool for machine learning education and research. It’s a Jupyter notebook environment that requires no setup to use.",
       "company": null,
-      "total_stars": 4101
+      "total_stars": 4102
     },
     {
       "login": "PlayFab",
@@ -903,7 +921,7 @@
       "location": "Seattle, WA",
       "bio": "Please visit http://alleninstitute.github.io/ for more information.",
       "company": null,
-      "total_stars": 1935
+      "total_stars": 1936
     },
     {
       "login": "F5Networks",
@@ -1077,6 +1095,20 @@
   ],
   "repos": [
     {
+      "full_name": "ryanoasis/nerd-fonts",
+      "html_url": "https://github.com/ryanoasis/nerd-fonts",
+      "description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome, Material Design Icons, Octicons, & more",
+      "stargazers_count": 63021,
+      "forks_count": 3921,
+      "watchers_count": 63021,
+      "language": "CSS",
+      "owner_login": "ryanoasis",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8083459?v=4",
+      "owner_type": "User",
+      "created_at": "2014-12-05T04:31:17Z",
+      "pushed_at": "2026-03-17T19:17:14Z"
+    },
+    {
       "full_name": "karan/Projects",
       "html_url": "https://github.com/karan/Projects",
       "description": ":page_with_curl: A list of practical projects that anyone can solve in any programming language.",
@@ -1094,9 +1126,9 @@
       "full_name": "colinhacks/zod",
       "html_url": "https://github.com/colinhacks/zod",
       "description": "TypeScript-first schema validation with static type inference",
-      "stargazers_count": 42698,
-      "forks_count": 1953,
-      "watchers_count": 42698,
+      "stargazers_count": 42699,
+      "forks_count": 1954,
+      "watchers_count": 42699,
       "language": "TypeScript",
       "owner_login": "colinhacks",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3084745?v=4",
@@ -1108,9 +1140,9 @@
       "full_name": "schollz/croc",
       "html_url": "https://github.com/schollz/croc",
       "description": "Easily and securely send things from one computer to another :crocodile: :package:",
-      "stargazers_count": 35041,
+      "stargazers_count": 35043,
       "forks_count": 1383,
-      "watchers_count": 35041,
+      "watchers_count": 35043,
       "language": "Go",
       "owner_login": "schollz",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6550035?v=4",
@@ -1192,9 +1224,9 @@
       "full_name": "steven-tey/novel",
       "html_url": "https://github.com/steven-tey/novel",
       "description": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-      "stargazers_count": 16269,
+      "stargazers_count": 16271,
       "forks_count": 1374,
-      "watchers_count": 16269,
+      "watchers_count": 16271,
       "language": "TypeScript",
       "owner_login": "steven-tey",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/28986134?v=4",
@@ -1382,7 +1414,7 @@
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3299148?v=4",
       "owner_type": "Organization",
       "created_at": "2023-09-20T12:57:50Z",
-      "pushed_at": "2026-05-18T06:22:25Z"
+      "pushed_at": "2026-05-18T07:51:48Z"
     },
     {
       "full_name": "PWhiddy/PokemonRedExperiments",
@@ -1523,6 +1555,20 @@
       "owner_type": "User",
       "created_at": "2017-07-30T06:43:24Z",
       "pushed_at": "2025-02-07T08:38:37Z"
+    },
+    {
+      "full_name": "ryanoasis/vim-devicons",
+      "html_url": "https://github.com/ryanoasis/vim-devicons",
+      "description": "Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more",
+      "stargazers_count": 5808,
+      "forks_count": 277,
+      "watchers_count": 5808,
+      "language": "Vim Script",
+      "owner_login": "ryanoasis",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8083459?v=4",
+      "owner_type": "User",
+      "created_at": "2014-11-22T02:57:04Z",
+      "pushed_at": "2024-05-09T13:57:14Z"
     },
     {
       "full_name": "koush/scrypted",
@@ -1747,34 +1793,6 @@
       "owner_type": "User",
       "created_at": "2011-04-26T17:33:28Z",
       "pushed_at": "2026-05-12T22:44:44Z"
-    },
-    {
-      "full_name": "karan/Projects-Solutions",
-      "html_url": "https://github.com/karan/Projects-Solutions",
-      "description": ":pager: Links to others' solutions to Projects (https://github.com/karan/Projects/)",
-      "stargazers_count": 4370,
-      "forks_count": 1295,
-      "watchers_count": 4370,
-      "language": null,
-      "owner_login": "karan",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3261985?v=4",
-      "owner_type": "User",
-      "created_at": "2013-07-31T13:05:16Z",
-      "pushed_at": "2024-07-10T17:41:43Z"
-    },
-    {
-      "full_name": "armankhondker/awesome-ai-ml-resources",
-      "html_url": "https://github.com/armankhondker/awesome-ai-ml-resources",
-      "description": "Learn AI/ML for beginners with a roadmap and free resources. ",
-      "stargazers_count": 4368,
-      "forks_count": 505,
-      "watchers_count": 4368,
-      "language": null,
-      "owner_login": "armankhondker",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/22623742?v=4",
-      "owner_type": "User",
-      "created_at": "2025-02-09T00:12:17Z",
-      "pushed_at": "2026-05-09T02:19:13Z"
     }
   ]
 }
