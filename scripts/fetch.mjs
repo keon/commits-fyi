@@ -216,19 +216,28 @@ function aggregateRepos(enriched, limit) {
 
 async function buildOwnerPool() {
   console.log('\n=== owner pool discovery (shared across global/cities/countries) ===');
-  const q = 'stars:>5000';
-  console.log(`Pulling top-starred repos (${q})…`);
-  const repos = await searchRepos(q, 1000);
-  console.log(`  ${repos.length} repos`);
-  const seen = new Set();
+  // Search API caps results at 1000 per query, and there are ~1500 repos with
+  // >25k stars. Use range queries so we capture the long tail too (e.g.
+  // keon/algorithms at 25k stars sits below the top-1000 stars:>5000 cutoff
+  // which lands around 31k).
+  const ranges = ['stars:>50000', 'stars:25000..50000', 'stars:10000..25000'];
+  const seenOwners = new Set();
+  const seenRepos = new Set();
   const candidates = [];
-  for (const r of repos) {
-    const login = r.owner?.login;
-    if (!login || seen.has(login)) continue;
-    seen.add(login);
-    candidates.push({ login, type: r.owner.type, avatar_url: r.owner.avatar_url });
+  for (const q of ranges) {
+    console.log(`Pulling repos (${q})…`);
+    const repos = await searchRepos(q, 1000);
+    console.log(`  ${repos.length} repos`);
+    for (const r of repos) {
+      if (seenRepos.has(r.full_name)) continue;
+      seenRepos.add(r.full_name);
+      const login = r.owner?.login;
+      if (!login || seenOwners.has(login)) continue;
+      seenOwners.add(login);
+      candidates.push({ login, type: r.owner.type, avatar_url: r.owner.avatar_url });
+    }
   }
-  console.log(`  ${candidates.length} unique owners`);
+  console.log(`Total: ${candidates.length} unique owners across ${seenRepos.size} repos`);
   console.log('Hydrating owner pool…');
   const enriched = await hydrateAndRank(candidates);
   console.log(`  ${enriched.length} hydrated`);
