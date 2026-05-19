@@ -3,6 +3,13 @@ name: Deploy to Pages
 on:
   push:
     branches: [main]
+  # Push events from the github-actions[bot] (data refresh commits) don't
+  # re-trigger workflows by default, so the live site was stuck on whatever
+  # the last human push deployed. workflow_run fires after the data workflows.
+  workflow_run:
+    workflows: ["Refresh rankings", "Refresh AI share"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
