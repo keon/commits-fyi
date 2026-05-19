@@ -451,12 +451,14 @@
     renderFilterPanel(entity, filter);
   }
 
-  function renderEntityPanel(curEntity, curFilter) {
-    // If filter is repo-only, the only option is Repos.
-    const repoOnly = (curFilter.kind === 'topic' || curFilter.kind === 'language' || curFilter.kind === 'trending');
-    const items = repoOnly
-      ? [{ id: 'repos', label: 'Repos' }]
-      : [{ id: 'users', label: 'Users' }, { id: 'orgs', label: 'Orgs' }, { id: 'repos', label: 'Repos' }];
+  function renderEntityPanel(curEntity) {
+    // Always show all three entities. Picking Users/Orgs while the filter is
+    // repo-only resets the filter to Worldwide (handled in pickEntity).
+    const items = [
+      { id: 'users', label: 'Users' },
+      { id: 'orgs',  label: 'Orgs' },
+      { id: 'repos', label: 'Repos' },
+    ];
     els.entityPanel.innerHTML = items.map(it =>
       `<div class="dd-item ${it.id === curEntity ? 'selected' : ''}" data-entity="${it.id}">
         <span>${esc(it.label)}</span>
