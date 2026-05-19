@@ -47,110 +47,74 @@
     margin-top: 2px;
   }
 
-  /* Mode tabs */
-  nav.modes {
-    margin-top: 24px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 18px;
-    font-size: 14px;
-    color: var(--muted);
-  }
-  nav.modes a {
-    color: var(--muted);
-    cursor: pointer;
-    padding: 4px 0;
-    border-bottom: 1.5px solid transparent;
-  }
-  nav.modes a:hover { color: var(--text); text-decoration: none; }
-  nav.modes a.active { color: var(--text); border-bottom-color: var(--text); font-weight: 600; }
-
-  /* Custom picker: trigger doubles as the page title */
-  .picker { position: relative; margin: 12px 0 4px; }
-  .picker-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: none;
-    border: none;
-    padding: 0;
-    color: var(--text);
-    font-family: inherit;
-    font-size: 24px;
+  /* Sentence-style picker */
+  .sentence {
+    margin: 28px 0 20px;
+    font-size: 22px;
     font-weight: 700;
     letter-spacing: -0.01em;
-    cursor: pointer;
-    max-width: 100%;
+    line-height: 1.4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 8px;
   }
-  .picker-btn .chev { font-size: 16px; color: var(--muted); transform: translateY(-1px); }
-  .picker-btn:hover { color: var(--link); }
-  .picker-btn:focus { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 4px; }
-  .picker-btn[disabled] { cursor: default; opacity: 0.6; }
-  .picker-btn[disabled] .chev { display: none; }
-
-  .picker-panel {
+  .sentence .lead { color: var(--text); }
+  .sentence .prep { color: var(--muted); font-weight: 400; font-size: 18px; }
+  .dd { position: relative; display: inline-flex; align-items: baseline; }
+  .dd-btn {
+    background: none;
+    border: none;
+    color: var(--link);
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    border-bottom: 2px solid transparent;
+    border-radius: 2px;
+  }
+  .dd-btn:hover { color: var(--link-hover); border-bottom-color: currentColor; }
+  .dd-btn:focus { outline: 2px solid var(--link); outline-offset: 4px; }
+  .dd-btn .chev { font-size: 14px; color: var(--muted); }
+  .dd-panel {
     position: absolute;
-    top: calc(100% + 6px);
+    top: calc(100% + 4px);
     left: 0;
-    min-width: 260px;
-    max-width: 360px;
-    max-height: 380px;
+    min-width: 240px;
+    max-width: 320px;
+    max-height: 360px;
     overflow-y: auto;
     background: var(--bg);
     border: 1px solid var(--border);
-    border-radius: 10px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
     padding: 4px 0;
     z-index: 60;
+    font-size: 14px;
+    font-weight: 400;
   }
-  .picker-group {
-    padding: 6px 14px 4px;
+  .dd-group {
+    padding: 8px 14px 4px;
     color: var(--muted);
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 600;
   }
-  .picker-item {
+  .dd-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 14px;
+    padding: 7px 14px;
+    cursor: pointer;
     color: var(--text);
-    cursor: pointer;
-    font-size: 14px;
   }
-  .picker-item:hover, .picker-item.kbd { background: var(--bg-soft); }
-  .picker-item.selected { color: var(--text); font-weight: 600; }
-  .picker-item .check { color: var(--text); font-size: 12px; }
+  .dd-item:hover { background: var(--bg-soft); }
+  .dd-item.selected { font-weight: 600; }
+  .dd-item .check { color: var(--text); font-size: 12px; }
 
-  .page-sub {
-    color: var(--muted);
-    font-size: 13px;
-    margin-bottom: 16px;
-  }
-
-  .tabs {
-    display: flex;
-    gap: 4px;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 8px;
-  }
-  .tabs button {
-    background: none;
-    border: none;
-    color: var(--muted);
-    padding: 10px 12px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    border-bottom: 2px solid transparent;
-    margin-bottom: -1px;
-    font-family: inherit;
-  }
-  .tabs button:hover { color: var(--text); }
-  .tabs button.active { color: var(--text); border-bottom-color: var(--text); }
-  .tabs button .n { color: var(--muted); font-weight: 400; margin-left: 4px; }
 
   ol.list {
     list-style: none;
@@ -338,19 +302,22 @@
     <div class="tag">GitHub leaderboards · <span id="updated">refreshed daily</span></div>
   </header>
 
-  <nav class="modes" id="modes"></nav>
-
-  <div class="picker" id="picker">
-    <button class="picker-btn" id="picker-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
-      <span id="picker-label">Loading…</span>
-      <span class="chev" aria-hidden="true">⌄</span>
-    </button>
-    <div class="picker-panel" id="picker-panel" role="listbox" hidden></div>
+  <div class="sentence">
+    <span class="lead">Top <span id="topn">100</span></span>
+    <span class="dd">
+      <button class="dd-btn" id="entity-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span id="entity-label">Users</span><span class="chev">⌄</span>
+      </button>
+      <div class="dd-panel" id="entity-panel" role="listbox" hidden></div>
+    </span>
+    <span class="prep" id="prep">in</span>
+    <span class="dd">
+      <button class="dd-btn" id="filter-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span id="filter-label">Worldwide</span><span class="chev">⌄</span>
+      </button>
+      <div class="dd-panel" id="filter-panel" role="listbox" hidden></div>
+    </span>
   </div>
-
-  <div class="page-sub" id="subtitle"></div>
-
-  <div class="tabs" id="tabs"></div>
 
   <ol class="list" id="list"></ol>
 
@@ -368,13 +335,14 @@
 <script>
 (() => {
   const els = {
-    modes: document.getElementById('modes'),
-    picker: document.getElementById('picker'),
-    pickerBtn: document.getElementById('picker-btn'),
-    pickerLabel: document.getElementById('picker-label'),
-    pickerPanel: document.getElementById('picker-panel'),
-    subtitle: document.getElementById('subtitle'),
-    tabs: document.getElementById('tabs'),
+    topn: document.getElementById('topn'),
+    entityBtn: document.getElementById('entity-btn'),
+    entityLabel: document.getElementById('entity-label'),
+    entityPanel: document.getElementById('entity-panel'),
+    filterBtn: document.getElementById('filter-btn'),
+    filterLabel: document.getElementById('filter-label'),
+    filterPanel: document.getElementById('filter-panel'),
+    prep: document.getElementById('prep'),
     list: document.getElementById('list'),
     updated: document.getElementById('updated'),
     drawer: document.getElementById('drawer'),
@@ -420,160 +388,188 @@
     pushRoute(state.route);
     loadCurrent();
   }
-  function modeForView(view) {
-    if (view === 'topic')    return 'topic';
-    if (view === 'language') return 'language';
-    if (view === 'trending') return 'trending';
-    return 'location';
+  // ----- Sentence: "Top N [Entity] [prep] [Filter]" -----
+  //
+  // Entity ∈ {users, orgs, repos}
+  // Filter encodes one axis at a time: worldwide, city, country, topic,
+  // language, trending. Topic/language/trending force entity=repos.
+
+  function sentenceState() {
+    const r = state.route;
+    const entityFromTab = r.tab;
+    const isRepoOnly = (r.view === 'topic' || r.view === 'language' || r.view === 'trending');
+    const entity = isRepoOnly ? 'repos' : (entityFromTab || 'users');
+    let filter;
+    if (r.view === 'global')   filter = { kind: 'worldwide' };
+    else if (r.view === 'city')     filter = { kind: 'city',     id: r.id };
+    else if (r.view === 'country')  filter = { kind: 'country',  id: r.id };
+    else if (r.view === 'topic')    filter = { kind: 'topic',    id: r.id };
+    else if (r.view === 'language') filter = { kind: 'language', id: r.id };
+    else if (r.view === 'trending') filter = { kind: 'trending', sub: r.tab || 'active' };
+    else filter = { kind: 'worldwide' };
+    return { entity, filter };
   }
 
-  // The four modes. `trending` has no value picker — clicking just navigates.
-  const MODES = [
-    { id: 'location', label: 'Location' },
-    { id: 'topic',    label: 'Topic' },
-    { id: 'language', label: 'Language' },
-    { id: 'trending', label: 'Trending' },
-  ];
-
-  function renderModes() {
-    const active = modeForView(state.route.view);
-    els.modes.innerHTML = MODES.map(m =>
-      `<a data-mode="${m.id}" class="${m.id === active ? 'active' : ''}">${esc(m.label)}</a>`
-    ).join('');
-    els.modes.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => onModeClick(a.dataset.mode));
-    });
+  function entityLabel(entity) { return entity === 'users' ? 'Users' : entity === 'orgs' ? 'Orgs' : 'Repos'; }
+  function prepFor(filter) {
+    if (filter.kind === 'topic')    return 'tagged';
+    if (filter.kind === 'trending') return '';
+    return 'in';
   }
-
-  function onModeClick(mode) {
-    if (mode === 'trending') { closePicker(); go('trending'); return; }
-    if (mode === 'location') {
-      // No-op if already on a location view — let user open the picker instead.
-      if (modeForView(state.route.view) === 'location') { togglePicker(); return; }
-      // Default location target: Global.
-      go('global');
-      return;
+  function filterLabel(filter) {
+    if (filter.kind === 'worldwide') return 'Worldwide';
+    if (filter.kind === 'city' || filter.kind === 'country') return state.data?.name || filter.id || '…';
+    if (filter.kind === 'topic')    return '#' + (filter.id || '');
+    if (filter.kind === 'language') return state.data?.name || filter.id || '';
+    if (filter.kind === 'trending') {
+      const sub = filter.sub || 'active';
+      return sub === 'active' ? 'trending today' : sub === 'new' ? 'new today' : 'surging (6mo)';
     }
-    if (mode === 'topic' || mode === 'language') {
-      // If already on this mode, just toggle the picker.
-      if (state.route.view === mode) { togglePicker(); return; }
-      // Otherwise switch to a fresh picker so user can pick a value.
-      state.route = { view: mode, id: null, tab: null };
-      // Don't navigate yet (no id) — just show picker open. UI updates via renderPicker.
-      renderPicker();
-      openPicker();
-    }
-  }
-
-  function pickerLabelFor(view, id) {
-    if (view === 'trending') return 'Trending today';
-    if (view === 'global')   return 'Global';
-    if (view === 'city')     return state.data?.name || id || '';
-    if (view === 'country')  return state.data?.name || id || '';
-    if (view === 'topic')    return id ? '#' + id : 'Choose a topic';
-    if (view === 'language') return id ? (state.data?.name || id) : 'Choose a language';
     return '';
   }
 
-  function renderPicker() {
-    const r = state.route;
-    const mode = modeForView(r.view);
-    els.pickerLabel.textContent = pickerLabelFor(r.view, r.id);
-    // Trending has no picker — hide the chev and disable.
-    if (mode === 'trending') {
-      els.pickerBtn.disabled = true;
-      els.pickerBtn.setAttribute('aria-expanded', 'false');
-    } else {
-      els.pickerBtn.disabled = false;
+  // Update top-N number from data counts.
+  function topN(data, entity, filter) {
+    if (!data) return 100;
+    if (filter.kind === 'trending') {
+      const sub = filter.sub || 'active';
+      return data.counts?.[sub] || 50;
     }
-    populatePanel(mode);
+    if (entity === 'orgs')  return data.counts?.orgs  || 0;
+    if (entity === 'repos') return data.counts?.repos || 0;
+    return data.counts?.users || 0;
   }
 
-  function populatePanel(mode) {
-    const idx = state.index, r = state.route;
+  function renderSentence() {
+    const { entity, filter } = sentenceState();
+    els.entityLabel.textContent = entityLabel(entity);
+    els.filterLabel.textContent = filterLabel(filter);
+    els.prep.textContent = prepFor(filter);
+    els.prep.style.display = els.prep.textContent ? '' : 'none';
+    els.topn.textContent = fmt(topN(state.data, entity, filter));
+    renderEntityPanel(entity, filter);
+    renderFilterPanel(entity, filter);
+  }
+
+  function renderEntityPanel(curEntity, curFilter) {
+    // If filter is repo-only, the only option is Repos.
+    const repoOnly = (curFilter.kind === 'topic' || curFilter.kind === 'language' || curFilter.kind === 'trending');
+    const items = repoOnly
+      ? [{ id: 'repos', label: 'Repos' }]
+      : [{ id: 'users', label: 'Users' }, { id: 'orgs', label: 'Orgs' }, { id: 'repos', label: 'Repos' }];
+    els.entityPanel.innerHTML = items.map(it =>
+      `<div class="dd-item ${it.id === curEntity ? 'selected' : ''}" data-entity="${it.id}">
+        <span>${esc(it.label)}</span>
+        ${it.id === curEntity ? '<span class="check">✓</span>' : ''}
+      </div>`
+    ).join('');
+    els.entityPanel.querySelectorAll('.dd-item').forEach(el => {
+      el.addEventListener('click', () => pickEntity(el.dataset.entity));
+    });
+  }
+
+  function renderFilterPanel(curEntity, curFilter) {
+    const idx = state.index;
+    const isCur = (kind, id, sub) =>
+      curFilter.kind === kind && (id === undefined || curFilter.id === id) && (sub === undefined || curFilter.sub === sub);
     let html = '';
-    const item = (label, view, id, current) => `
-      <div class="picker-item ${current ? 'selected' : ''}" data-view="${view}" data-id="${esc(id || '')}" role="option">
-        <span>${esc(label)}</span>
-        ${current ? '<span class="check">✓</span>' : ''}
+    const item = (label, kind, id, sub) => {
+      const cur = isCur(kind, id, sub);
+      const attrs = `data-kind="${kind}"${id !== undefined ? ` data-id="${esc(id || '')}"` : ''}${sub !== undefined ? ` data-sub="${sub}"` : ''}`;
+      return `<div class="dd-item ${cur ? 'selected' : ''}" ${attrs}>
+        <span>${esc(label)}</span>${cur ? '<span class="check">✓</span>' : ''}
       </div>`;
-    if (mode === 'location') {
-      html += item('Global', 'global', null, r.view === 'global');
-      if (idx.cities?.length) {
-        html += `<div class="picker-group">Cities</div>`;
-        for (const c of idx.cities) html += item(c.name, 'city', c.slug, r.view === 'city' && r.id === c.slug);
-      }
-      if (idx.countries?.length) {
-        html += `<div class="picker-group">Countries</div>`;
-        for (const c of idx.countries) html += item(c.name, 'country', c.slug, r.view === 'country' && r.id === c.slug);
-      }
-    } else if (mode === 'topic') {
-      for (const t of (idx.topics || [])) html += item('#' + t.name, 'topic', t.slug, r.view === 'topic' && r.id === t.slug);
-    } else if (mode === 'language') {
-      for (const l of (idx.languages || [])) html += item(l.name, 'language', l.slug, r.view === 'language' && r.id === l.slug);
+    };
+    html += item('Worldwide', 'worldwide');
+    if (idx.cities?.length) {
+      html += `<div class="dd-group">Cities</div>`;
+      for (const c of idx.cities) html += item(c.name, 'city', c.slug);
     }
-    els.pickerPanel.innerHTML = html;
-    els.pickerPanel.querySelectorAll('.picker-item').forEach(el => {
-      el.addEventListener('click', () => {
-        closePicker();
-        go(el.dataset.view, el.dataset.id || null);
-      });
+    if (idx.countries?.length) {
+      html += `<div class="dd-group">Countries</div>`;
+      for (const c of idx.countries) html += item(c.name, 'country', c.slug);
+    }
+    if (curEntity === 'repos') {
+      if (idx.topics?.length) {
+        html += `<div class="dd-group">Topics</div>`;
+        for (const t of idx.topics) html += item('#' + t.name, 'topic', t.slug);
+      }
+      if (idx.languages?.length) {
+        html += `<div class="dd-group">Languages</div>`;
+        for (const l of idx.languages) html += item(l.name, 'language', l.slug);
+      }
+      html += `<div class="dd-group">Trending</div>`;
+      html += item('trending today',      'trending', undefined, 'active');
+      html += item('new today',           'trending', undefined, 'new');
+      html += item('surging (6 months)',  'trending', undefined, 'surging');
+    }
+    els.filterPanel.innerHTML = html;
+    els.filterPanel.querySelectorAll('.dd-item').forEach(el => {
+      el.addEventListener('click', () => pickFilter({
+        kind: el.dataset.kind,
+        id: el.dataset.id || null,
+        sub: el.dataset.sub || null,
+      }));
     });
   }
 
-  function openPicker() {
-    if (els.pickerBtn.disabled) return;
-    els.pickerPanel.hidden = false;
-    els.pickerBtn.setAttribute('aria-expanded', 'true');
+  function pickEntity(newEntity) {
+    closeDropdowns();
+    const { filter } = sentenceState();
+    // If filter is repo-only and user picks non-repos, reset filter to worldwide.
+    const repoOnly = (filter.kind === 'topic' || filter.kind === 'language' || filter.kind === 'trending');
+    if (repoOnly && newEntity !== 'repos') {
+      go('global', null);
+      state.route.tab = newEntity;
+      pushRoute(state.route);
+      loadCurrent();
+      return;
+    }
+    // Same filter, different entity → update tab only, same data.
+    state.route.tab = newEntity;
+    pushRoute(state.route);
+    renderSentence();
+    renderList();
   }
-  function closePicker() {
-    els.pickerPanel.hidden = true;
-    els.pickerBtn.setAttribute('aria-expanded', 'false');
-  }
-  function togglePicker() { els.pickerPanel.hidden ? openPicker() : closePicker(); }
 
-  els.pickerBtn.addEventListener('click', togglePicker);
+  function pickFilter(f) {
+    closeDropdowns();
+    const { entity } = sentenceState();
+    let view, id, tab;
+    if (f.kind === 'worldwide') { view = 'global';   id = null;  tab = entity; }
+    else if (f.kind === 'city')      { view = 'city';     id = f.id; tab = entity; }
+    else if (f.kind === 'country')   { view = 'country';  id = f.id; tab = entity; }
+    else if (f.kind === 'topic')     { view = 'topic';    id = f.id; tab = null; }
+    else if (f.kind === 'language')  { view = 'language'; id = f.id; tab = null; }
+    else if (f.kind === 'trending')  { view = 'trending'; id = null; tab = f.sub || 'active'; }
+    state.route = { view, id, tab };
+    pushRoute(state.route);
+    loadCurrent();
+  }
+
+  // Dropdown open/close
+  function openPanel(panel, btn) { panel.hidden = false; btn.setAttribute('aria-expanded', 'true'); }
+  function closePanel(panel, btn) { panel.hidden = true; btn.setAttribute('aria-expanded', 'false'); }
+  function closeDropdowns() {
+    closePanel(els.entityPanel, els.entityBtn);
+    closePanel(els.filterPanel, els.filterBtn);
+  }
+  els.entityBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const wasOpen = !els.entityPanel.hidden;
+    closeDropdowns();
+    if (!wasOpen) openPanel(els.entityPanel, els.entityBtn);
+  });
+  els.filterBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const wasOpen = !els.filterPanel.hidden;
+    closeDropdowns();
+    if (!wasOpen) openPanel(els.filterPanel, els.filterBtn);
+  });
   document.addEventListener('click', (e) => {
-    if (!els.picker.contains(e.target)) closePicker();
+    if (!e.target.closest('.dd')) closeDropdowns();
   });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !els.pickerPanel.hidden) closePicker();
-  });
-
-  // ----- Tabs -----
-  function tabsFor(data) {
-    if (data.kind === 'trending') {
-      const t = [
-        { id: 'active', label: 'Active', count: data.counts.active },
-        { id: 'new',    label: 'New',    count: data.counts.new },
-      ];
-      if (data.counts.surging != null) t.push({ id: 'surging', label: 'Surging', count: data.counts.surging });
-      return t;
-    }
-    if (data.kind === 'topic' || data.kind === 'language') {
-      return [{ id: 'repos', label: 'Repos', count: data.counts.repos }];
-    }
-    return [
-      { id: 'users', label: 'Users', count: data.counts.users },
-      { id: 'orgs',  label: 'Orgs',  count: data.counts.orgs },
-      { id: 'repos', label: 'Repos', count: data.counts.repos },
-    ];
-  }
-  function renderTabs(data, activeId) {
-    const tabs = tabsFor(data);
-    els.tabs.innerHTML = tabs.map(t => `
-      <button data-tab="${t.id}" class="${t.id === activeId ? 'active' : ''}">${esc(t.label)}<span class="n">${fmt(t.count)}</span></button>
-    `).join('');
-    els.tabs.querySelectorAll('button').forEach(b => {
-      b.addEventListener('click', () => {
-        state.route.tab = b.dataset.tab;
-        pushRoute(state.route);
-        els.tabs.querySelectorAll('button').forEach(x => x.classList.remove('active'));
-        b.classList.add('active');
-        renderList();
-      });
-    });
-  }
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDropdowns(); });
 
   // ----- List -----
   function listFor(data, tab) {
@@ -626,17 +622,7 @@
     </li>`;
   }
 
-  // ----- Subtitle (title is the dropdown now) -----
   function renderHeader(data) {
-    const subs = {
-      global:    'Top GitHub accounts, worldwide.',
-      trending:  'Repos created or active in the last 24 hours.',
-      city:      `Top GitHub accounts in ${data.name}.`,
-      country:   `Top GitHub accounts in ${data.name}.`,
-      topic:     `Most-starred repos tagged ${data.name}.`,
-      language:  `Most-starred ${data.name} repos.`,
-    };
-    els.subtitle.textContent = subs[data.kind] || '';
     els.updated.textContent = `updated ${relative(data.generated_at)}`;
   }
 
@@ -651,12 +637,9 @@
     return [null, null];
   }
   async function loadCurrent() {
-    renderModes();
-    renderPicker();
+    renderSentence();
     const [path, defaultTab] = pathFor(state.route);
     if (!path) { els.list.innerHTML = `<div class="empty">Unknown view.</div>`; return; }
-    els.subtitle.textContent = '';
-    els.tabs.innerHTML = '';
     els.list.innerHTML = '';
     try {
       const res = await fetch(`${path}?v=${Date.now()}`);
@@ -664,8 +647,7 @@
       state.data = await res.json();
       if (!state.route.tab) state.route.tab = defaultTab;
       renderHeader(state.data);
-      renderPicker();   // re-render now that state.data.name is available
-      renderTabs(state.data, state.route.tab);
+      renderSentence();   // re-render with state.data.name available
       renderList();
     } catch (e) {
       els.list.innerHTML = `<div class="empty">Couldn't load ${path}. The daily cron may not have written this view yet.</div>`;
