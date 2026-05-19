@@ -134,6 +134,26 @@
   .dd-item:active { background: var(--bg-emphasis, #eaeef2); }
   .dd-item.selected { font-weight: 600; }
   .dd-item .check { color: var(--text); font-size: 12px; }
+  .dd-search {
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    padding: 6px 8px 4px;
+    border-bottom: 1px solid var(--border);
+    z-index: 1;
+  }
+  .dd-search input {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    font-family: inherit;
+    color: var(--text);
+    background: var(--bg);
+  }
+  .dd-search input:focus { outline: none; border-color: var(--link); }
+  .dd-empty { padding: 14px; color: var(--muted); font-size: 13px; text-align: center; }
 
   /* Mobile-only fine-tuning */
   @media (max-width: 480px) {
@@ -555,45 +575,64 @@
     const idx = state.index;
     const isCur = (kind, id, sub) =>
       curFilter.kind === kind && (id === undefined || curFilter.id === id) && (sub === undefined || curFilter.sub === sub);
-    let html = '';
-    const item = (label, kind, id, sub) => {
-      const cur = isCur(kind, id, sub);
-      const attrs = `data-kind="${kind}"${id !== undefined ? ` data-id="${esc(id || '')}"` : ''}${sub !== undefined ? ` data-sub="${sub}"` : ''}`;
-      return `<div class="dd-item ${cur ? 'selected' : ''}" ${attrs}>
-        <span>${esc(label)}</span>${cur ? '<span class="check">✓</span>' : ''}
-      </div>`;
-    };
-    html += item('Worldwide', 'worldwide');
-    if (idx.cities?.length) {
-      html += `<div class="dd-group">Cities</div>`;
-      for (const c of idx.cities) html += item(c.name, 'city', c.slug);
-    }
-    if (idx.countries?.length) {
-      html += `<div class="dd-group">Countries</div>`;
-      for (const c of idx.countries) html += item(c.name, 'country', c.slug);
-    }
+    // Build a flat list of all entries first so search can filter across groups.
+    const entries = [];
+    entries.push({ label: 'Worldwide', search: 'worldwide', group: null,        kind: 'worldwide' });
+    for (const c of (idx.cities    || [])) entries.push({ label: c.name,        search: c.name,        group: 'Cities',    kind: 'city',     id: c.slug });
+    for (const c of (idx.countries || [])) entries.push({ label: c.name,        search: c.name,        group: 'Countries', kind: 'country',  id: c.slug });
     if (curEntity === 'repos') {
-      if (idx.topics?.length) {
-        html += `<div class="dd-group">Topics</div>`;
-        for (const t of idx.topics) html += item('#' + t.name, 'topic', t.slug);
-      }
-      if (idx.languages?.length) {
-        html += `<div class="dd-group">Languages</div>`;
-        for (const l of idx.languages) html += item(l.name, 'language', l.slug);
-      }
-      html += `<div class="dd-group">Trending</div>`;
-      html += item('trending today',      'trending', undefined, 'active');
-      html += item('new today',           'trending', undefined, 'new');
-      html += item('surging (6 months)',  'trending', undefined, 'surging');
+      for (const t of (idx.topics    || [])) entries.push({ label: '#' + t.name, search: t.name,        group: 'Topics',    kind: 'topic',    id: t.slug });
+      for (const l of (idx.languages || [])) entries.push({ label: l.name,       search: l.name,        group: 'Languages', kind: 'language', id: l.slug });
+      entries.push({ label: 'trending today',      search: 'trending today',     group: 'Trending', kind: 'trending', sub: 'active' });
+      entries.push({ label: 'new today',           search: 'new today',          group: 'Trending', kind: 'trending', sub: 'new' });
+      entries.push({ label: 'surging (6 months)',  search: 'surging',            group: 'Trending', kind: 'trending', sub: 'surging' });
     }
-    els.filterPanel.innerHTML = html;
-    els.filterPanel.querySelectorAll('.dd-item').forEach(el => {
-      el.addEventListener('click', () => pickFilter({
-        kind: el.dataset.kind,
-        id: el.dataset.id || null,
-        sub: el.dataset.sub || null,
-      }));
+
+    const renderList = (q) => {
+      const filtered = q
+        ? entries.filter(e => e.search.toLowerCase().includes(q.toLowerCase()))
+        : entries;
+      if (!filtered.length) return `<div class="dd-empty">No match for "${esc(q)}"</div>`;
+      let html = '';
+      let lastGroup = undefined;
+      for (const e of filtered) {
+        if (e.group !== lastGroup && e.group) { html += `<div class="dd-group">${esc(e.group)}</div>`; lastGroup = e.group; }
+        else if (!e.group && lastGroup !== undefined) lastGroup = undefined;
+        const cur = isCur(e.kind, e.id, e.sub);
+        const attrs = `data-kind="${e.kind}"${e.id !== undefined ? ` data-id="${esc(e.id || '')}"` : ''}${e.sub !== undefined ? ` data-sub="${e.sub}"` : ''}`;
+        html += `<div class="dd-item ${cur ? 'selected' : ''}" ${attrs}><span>${esc(e.label)}</span>${cur ? '<span class="check">✓</span>' : ''}</div>`;
+      }
+      return html;
+    };
+
+    els.filterPanel.innerHTML = `
+      <div class="dd-search"><input id="dd-search-input" type="text" placeholder="Search…" autocomplete="off" /></div>
+      <div id="dd-list">${renderList('')}</div>
+    `;
+    const wireItems = () => {
+      els.filterPanel.querySelectorAll('.dd-item').forEach(el => {
+        el.addEventListener('click', () => pickFilter({
+          kind: el.dataset.kind, id: el.dataset.id || null, sub: el.dataset.sub || null,
+        }));
+      });
+    };
+    wireItems();
+    const input = els.filterPanel.querySelector('#dd-search-input');
+    const list  = els.filterPanel.querySelector('#dd-list');
+    input.addEventListener('input', () => { list.innerHTML = renderList(input.value); wireItems(); });
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const first = list.querySelector('.dd-item');
+        if (first) first.click();
+      } else if (e.key === 'Escape') {
+        closeDropdowns();
+      }
     });
+    // Auto-focus search when panel opens (desktop only — mobile bottom sheet
+    // would pop the keyboard immediately which is jarring).
+    if (window.matchMedia('(min-width: 481px)').matches) {
+      requestAnimationFrame(() => input.focus());
+    }
   }
 
   function pickEntity(newEntity) {
