@@ -3,8 +3,25 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>commits.fyi — GitHub leaderboards</title>
-<meta name="description" content="Daily-refreshed rankings of GitHub users, organizations, and repositories — globally, by city, by country, by topic, by language, and trending today." />
+<title>commits.fyi — GitHub leaderboards by city, country, topic, language</title>
+<meta name="description" content="Daily-refreshed rankings of GitHub users, organizations, and repositories — globally, by city, by country, by topic, by language, and trending today. Find the top GitHub accounts and projects in your city." />
+<link rel="canonical" href="https://commits.fyi/" />
+<meta name="robots" content="index,follow" />
+<meta name="theme-color" content="#ffffff" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="commits.fyi" />
+<meta property="og:title" content="commits.fyi — GitHub leaderboards" />
+<meta property="og:description" content="Daily-refreshed rankings of GitHub users, orgs, and repos by city, country, topic, language." />
+<meta property="og:url" content="https://commits.fyi/" />
+<meta property="og:image" content="https://commits.fyi/og.png" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="commits.fyi — GitHub leaderboards" />
+<meta name="twitter:description" content="Daily-refreshed rankings of GitHub users, orgs, and repos by city, country, topic, language." />
+<meta name="twitter:image" content="https://commits.fyi/og.png" />
 <style>
   :root {
     --bg: #ffffff;
@@ -690,6 +707,66 @@
 
   function renderHeader(data) {
     els.updated.textContent = `updated ${relative(data.generated_at)}`;
+    updateSEO(data);
+  }
+
+  // Per-view SEO: title, description, canonical URL, JSON-LD ItemList.
+  // Googlebot renders JS so these mutations are picked up.
+  function updateSEO(data) {
+    const { entity, filter } = sentenceState();
+    const ent = entity === 'orgs' ? 'organizations' : entity;
+    const where = filter.kind === 'worldwide' ? 'worldwide'
+      : filter.kind === 'topic' ? `tagged #${filter.id}`
+      : filter.kind === 'trending' ? 'trending today'
+      : filter.kind === 'language' ? `written in ${data?.name || filter.id}`
+      : `in ${data?.name || filter.id}`;
+    const n = topN(data, entity, filter);
+    const title = `Top ${n} GitHub ${ent} ${where} · commits.fyi`;
+    const desc = `Daily-refreshed leaderboard of the top ${n} GitHub ${ent} ${where}. Updated ${relative(data.generated_at)}.`;
+    document.title = title;
+    setMeta('description', desc);
+    setMetaProp('og:title', title);
+    setMetaProp('og:description', desc);
+    setMeta('twitter:title', title);
+    setMeta('twitter:description', desc);
+    setMetaProp('og:url', location.href);
+    let canon = document.querySelector('link[rel="canonical"]');
+    if (canon) canon.href = location.href;
+
+    // JSON-LD ItemList
+    const items = listFor(state.data, state.route.tab).slice(0, 100);
+    const isRepoTab = entity === 'repos' || data.kind === 'trending' || data.kind === 'topic' || data.kind === 'language';
+    const ld = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: title,
+      description: desc,
+      numberOfItems: items.length,
+      itemListElement: items.slice(0, 50).map((it, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: isRepoTab ? it.html_url : it.html_url,
+        name: isRepoTab ? it.full_name : it.login,
+      })),
+    };
+    let ldEl = document.getElementById('ld');
+    if (!ldEl) {
+      ldEl = document.createElement('script');
+      ldEl.type = 'application/ld+json';
+      ldEl.id = 'ld';
+      document.head.appendChild(ldEl);
+    }
+    ldEl.textContent = JSON.stringify(ld);
+  }
+  function setMeta(name, content) {
+    let el = document.querySelector(`meta[name="${name}"]`);
+    if (!el) { el = document.createElement('meta'); el.name = name; document.head.appendChild(el); }
+    el.content = content;
+  }
+  function setMetaProp(prop, content) {
+    let el = document.querySelector(`meta[property="${prop}"]`);
+    if (!el) { el = document.createElement('meta'); el.setAttribute('property', prop); document.head.appendChild(el); }
+    el.content = content;
   }
 
   // ----- Loading -----

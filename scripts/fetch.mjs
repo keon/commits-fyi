@@ -906,7 +906,29 @@ async function main() {
   await saveCache();
   await writeUsersDetail();
   await writeBadges();
+  await writeSitemap();
   console.log('\nDone.');
+}
+
+// Generate sitemap.xml at the repo root from the same index we just wrote.
+async function writeSitemap() {
+  const base = 'https://commits.fyi';
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = [`${base}/`, `${base}/?v=trending`];
+  for (const c of CITIES)     urls.push(`${base}/?v=city&id=${slugify(c)}`);
+  for (const c of COUNTRIES)  urls.push(`${base}/?v=country&id=${slugify(c)}`);
+  for (const t of TOPICS)     urls.push(`${base}/?v=topic&id=${slugify(t)}`);
+  for (const l of LANGUAGES)  urls.push(`${base}/?v=language&id=${slugify(l)}`);
+
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map(u =>
+  `  <url><loc>${u}</loc><lastmod>${today}</lastmod><changefreq>daily</changefreq></url>`
+).join('\n')}
+</urlset>
+`;
+  await writeFile(join(ROOT, 'sitemap.xml'), xml);
+  console.log(`Wrote sitemap.xml (${urls.length} URLs)`);
 }
 
 // Derive a slim public users-detail.json that the frontend can serve directly.
