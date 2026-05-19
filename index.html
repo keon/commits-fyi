@@ -115,6 +115,27 @@
   .dd-item.selected { font-weight: 600; }
   .dd-item .check { color: var(--text); font-size: 12px; }
 
+  /* Print: strip interactive chrome, render as a clean document */
+  @media print {
+    body { background: #fff; color: #000; font-size: 12pt; }
+    .wrap { max-width: none; padding: 0; }
+    header .tag { color: #555; }
+    .sentence { font-size: 18pt; margin: 16pt 0 10pt; page-break-after: avoid; }
+    .sentence .prep { color: #555; font-weight: 400; }
+    .dd-btn { color: #000; border: none !important; padding: 0; cursor: default; pointer-events: none; }
+    .dd-btn .chev { display: none; }
+    .dd-panel { display: none !important; }
+    .picker-btn, .picker-panel { display: none !important; }
+    ol.list li { break-inside: avoid; padding: 4pt 0; border-bottom: 1px solid #ddd; cursor: default; }
+    ol.list li:hover { background: transparent; }
+    .rank { color: #555; }
+    .avatar { display: none; }
+    .who .sub { color: #555; }
+    .metric { color: #000; }
+    .backdrop, .drawer, footer { display: none !important; }
+    a { color: #000; text-decoration: none; }
+  }
+
 
   ol.list {
     list-style: none;
