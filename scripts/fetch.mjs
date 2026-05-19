@@ -864,7 +864,45 @@ async function main() {
 
   await rebuildIndex();
   await saveCache();
+  await writeUsersDetail();
   console.log('\nDone.');
+}
+
+// Derive a slim public users-detail.json that the frontend can serve directly.
+// Only top 6 repos per user, no created_at/pushed_at, so the file is a few MB
+// instead of the 60+MB cache. Loaded once per session for the click-to-profile
+// drawer.
+async function writeUsersDetail() {
+  const out = {};
+  for (const [, entry] of _cache.entries) {
+    const p = entry?.payload;
+    if (!p?.acct?.login) continue;
+    out[p.acct.login] = {
+      login: p.acct.login,
+      type: p.acct.type,
+      name: p.acct.name,
+      bio: p.acct.bio,
+      avatar_url: p.acct.avatar_url,
+      html_url: p.acct.html_url,
+      location: p.acct.location,
+      company: p.acct.company,
+      followers: p.acct.followers || 0,
+      public_repos: p.acct.public_repos || 0,
+      total_stars: p.totalStars || 0,
+      top_repos: (p.repos || []).slice(0, 6).map(r => ({
+        full_name: r.full_name,
+        html_url: r.html_url,
+        description: r.description,
+        stargazers_count: r.stargazers_count,
+        forks_count: r.forks_count,
+        language: r.language,
+      })),
+    };
+  }
+  await writeFile(join(DATA_DIR, 'users-detail.json'), JSON.stringify(out));
+  const count = Object.keys(out).length;
+  const bytes = JSON.stringify(out).length;
+  console.log(`Wrote data/users-detail.json: ${count} accounts, ${(bytes/1024/1024).toFixed(2)} MB`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

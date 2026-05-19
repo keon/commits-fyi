@@ -550,59 +550,95 @@
     overflow-y: auto;
     flex: 1;
   }
-  .ai-summary {
-    background: var(--bg-subtle);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 14px 16px;
+  .profile-bio {
+    font-size: 14px;
+    line-height: 1.45;
+    color: var(--text);
     margin-bottom: 12px;
   }
-  .ai-summary-num {
-    font-size: 28px; font-weight: 600; font-variant-numeric: tabular-nums;
-    line-height: 1;
-  }
-  .ai-summary-label {
-    color: var(--text-muted); font-size: 12px; margin-top: 4px;
-  }
-  .ai-row {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    align-items: center;
+  .profile-meta {
+    display: flex;
+    flex-wrap: wrap;
     gap: 12px;
-    padding: 10px 0;
-    border-bottom: 1px solid var(--border-muted);
-    font-size: 13px;
-  }
-  .ai-row:last-child { border-bottom: none; }
-  .ai-tool { font-weight: 500; }
-  .ai-count { color: var(--text-muted); font-variant-numeric: tabular-nums; font-size: 12px; }
-  .ai-pct { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 50px; text-align: right; }
-  .ai-pct.zero { color: var(--text-muted); font-weight: 400; }
-  .ai-bar {
-    grid-column: 1 / -1;
-    height: 4px;
-    background: var(--bg-emphasis);
-    border-radius: 2px;
-    overflow: hidden;
-    margin-top: -4px;
-    margin-bottom: 4px;
-  }
-  .ai-bar-fill {
-    height: 100%;
-    background: var(--accent);
-    border-radius: 2px;
-  }
-  .drawer-caveat {
-    margin-top: 16px;
-    padding: 12px;
-    background: #fff8c5;
-    border: 1px solid #d4a72c;
-    border-radius: 6px;
+    color: var(--text-muted);
     font-size: 12px;
-    color: #54470b;
-    line-height: 1.5;
+    margin-bottom: 16px;
   }
-  .drawer-caveat strong { color: #4d3800; }
+  .profile-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  .profile-stat {
+    background: var(--bg-subtle);
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .profile-stat-num {
+    font-size: 18px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .profile-stat-label {
+    color: var(--text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-top: 2px;
+  }
+  .profile-section-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .proj-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--border-muted);
+    border: 1px solid var(--border-muted);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .proj-row {
+    display: block;
+    background: var(--bg);
+    padding: 10px 12px;
+    text-decoration: none;
+    color: var(--text);
+    transition: background 0.05s;
+  }
+  .proj-row:hover { background: var(--bg-subtle); text-decoration: none; }
+  .proj-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 2px;
+  }
+  .proj-name { font-weight: 500; font-size: 13px; color: var(--link); }
+  .proj-lang { color: var(--text-muted); font-size: 11px; }
+  .proj-desc {
+    color: var(--text-muted);
+    font-size: 12px;
+    line-height: 1.4;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .proj-meta {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
   .drawer-source {
     margin-top: 12px;
     color: var(--text-muted);
@@ -1072,35 +1108,7 @@
         Search-API totals and ordering shift slightly between runs.
       </div>
       <ol>${items}</ol>
-      <div id="ai-cache-coverage" style="margin-top:14px; padding-top:10px; border-top:1px solid var(--border-muted); color:var(--text-muted); font-size:12px;">Loading AI-share cache stats…</div>
     `;
-    renderAiCacheCoverage();
-  }
-
-  async function renderAiCacheCoverage() {
-    const el = document.getElementById('ai-cache-coverage');
-    if (!el) return;
-    try {
-      const [usersRes, aiRes] = await Promise.all([
-        fetch(`data/_cache/users.json?v=${Date.now()}`).catch(() => null),
-        fetch(`data/_cache/ai_share.json?v=${Date.now()}`).catch(() => null),
-      ]);
-      const ai = aiRes && aiRes.ok ? await aiRes.json() : { entries: {} };
-      // We only care about User accounts (orgs don't have author commits).
-      let userTotal = 0;
-      if (usersRes && usersRes.ok) {
-        const u = await usersRes.json();
-        for (const e of Object.values(u.entries || {})) {
-          if (e?.payload?.acct?.type === 'User') userTotal++;
-        }
-      }
-      const cached = Object.keys(ai.entries || {}).length;
-      const pct = userTotal ? Math.round((cached / userTotal) * 100) : 0;
-      el.innerHTML = `<strong>AI-share cache</strong>: ${cached.toLocaleString()} of ${userTotal.toLocaleString()} users covered (${pct}%). Refreshed daily, 7-day per-user TTL.
-      ${cached < userTotal ? '<span style="color:var(--text-muted)"> · Click any user without cached data to compute it live.</span>' : ''}`;
-    } catch {
-      el.style.display = 'none';
-    }
   }
 
   function filterFn(q) {
@@ -1192,97 +1200,58 @@
     }
   }
 
-  // ----- AI-share drawer -----
-  // GitHub Search Commits API queries: count commits per AI tool by matching
-  // the tool's standard attribution signature. Only counts commits that opt in
-  // to attribution — this is a FLOOR, not a true measure of AI usage.
-  const AI_TOOLS = [
-    { id: 'claude',    name: 'Claude (Claude Code)',  signature: '"noreply@anthropic.com"',
-      desc: 'Co-Authored-By trailer added by Claude Code' },
-    { id: 'cursor',    name: 'Cursor',                signature: '"cursoragent"',
-      desc: 'Cursor agent commit signature' },
-    { id: 'devin',     name: 'Devin',                 signature: '"devin-ai-integration"',
-      desc: 'Devin AI bot account' },
-    { id: 'aider',     name: 'aider',                 signature: '"noreply@aider.chat"',
-      desc: 'aider co-author email' },
-    { id: 'sweep',     name: 'Sweep',                 signature: '"sweep-ai"',
-      desc: 'Sweep AI bot' },
-    { id: 'openhands', name: 'OpenHands',             signature: '"openhands-agent"',
-      desc: 'OpenHands agent commits' },
-    { id: 'copilot',   name: 'GitHub Copilot',        signature: '"Copilot <198982749+Copilot@users.noreply.github.com>"',
-      desc: "Copilot coding-agent commits (Copilot doesn't tag IDE suggestions — this is a floor)" },
-  ];
-
-  const AI_CACHE_TTL_MS = 24 * 60 * 60 * 1000; // 24h
-
-  // Server-side precomputed cache, loaded once and shared by all drawer opens.
-  // Daily cron at refresh-ai-share.yml writes data/_cache/ai_share.json.
-  let SERVER_AI_CACHE = null; // null = not loaded; {} = no data
-  let SERVER_AI_CACHE_PROMISE = null;
-  async function ensureServerAiCache() {
-    if (SERVER_AI_CACHE !== null) return SERVER_AI_CACHE;
-    if (!SERVER_AI_CACHE_PROMISE) {
-      SERVER_AI_CACHE_PROMISE = (async () => {
+  // ----- Profile drawer -----
+  // Loads data/users-detail.json once per session (~5 MB), then every drawer
+  // open for a cached login is instant. Uncached logins fall back to a live
+  // REST hit. Source of truth is the daily cron's user cache.
+  let USERS_DETAIL = null;
+  let USERS_DETAIL_PROMISE = null;
+  async function ensureUsersDetail() {
+    if (USERS_DETAIL !== null) return USERS_DETAIL;
+    if (!USERS_DETAIL_PROMISE) {
+      USERS_DETAIL_PROMISE = (async () => {
         try {
-          const res = await fetch(`data/_cache/ai_share.json?v=${Date.now()}`);
+          const res = await fetch(`data/users-detail.json?v=${Date.now()}`);
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
-          const j = await res.json();
-          SERVER_AI_CACHE = j.entries || {};
+          USERS_DETAIL = await res.json();
         } catch {
-          SERVER_AI_CACHE = {};
+          USERS_DETAIL = {};
         }
-        return SERVER_AI_CACHE;
+        return USERS_DETAIL;
       })();
     }
-    return SERVER_AI_CACHE_PROMISE;
+    return USERS_DETAIL_PROMISE;
   }
 
-  async function ghSearchCommitsCount(q) {
-    const url = `https://api.github.com/search/commits?q=${encodeURIComponent(q)}&per_page=1`;
-    const res = await fetch(url, {
-      headers: { 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' },
-    });
-    if (res.status === 403 || res.status === 429) {
-      const reset = res.headers.get('x-ratelimit-reset');
-      const err = new Error('Rate-limited by the GitHub Search API. Try again in a minute.');
-      err.rateReset = reset;
-      throw err;
-    }
-    if (res.status === 422) return 0; // invalid query (e.g. user has no commits indexed)
-    if (!res.ok) throw new Error(`GitHub API ${res.status}`);
-    const j = await res.json();
-    return j.total_count || 0;
-  }
-
-  function aiCacheKey(login) { return `aishare:${login.toLowerCase()}`; }
-  function readAiCache(login) {
-    try {
-      const raw = localStorage.getItem(aiCacheKey(login));
-      if (!raw) return null;
-      const obj = JSON.parse(raw);
-      if (!obj.ts || Date.now() - obj.ts > AI_CACHE_TTL_MS) return null;
-      return obj.data;
-    } catch { return null; }
-  }
-  function writeAiCache(login, data) {
-    try { localStorage.setItem(aiCacheKey(login), JSON.stringify({ ts: Date.now(), data })); } catch {}
-  }
-
-  async function computeAiShare(login) {
-    const total = await ghSearchCommitsCount(`author:${login}`);
-    const perTool = {};
-    // Run sequentially — search API limits anonymous callers to 10/min.
-    for (const t of AI_TOOLS) {
-      try {
-        const count = await ghSearchCommitsCount(`author:${login} ${t.signature}`);
-        perTool[t.id] = count;
-      } catch (e) {
-        // Bail out on rate-limit; show partial data
-        if (e.rateReset) throw e;
-        perTool[t.id] = 0;
-      }
-    }
-    return { total, perTool, computed_at: Date.now() };
+  // Fall back to GitHub's public API if a clicked user isn't in the cache.
+  async function fetchProfileLive(login) {
+    const [u, r] = await Promise.all([
+      fetch(`https://api.github.com/users/${encodeURIComponent(login)}`).then(r => r.ok ? r.json() : null),
+      fetch(`https://api.github.com/users/${encodeURIComponent(login)}/repos?per_page=100&sort=updated`).then(r => r.ok ? r.json() : []),
+    ]);
+    if (!u) return null;
+    const ownRepos = (r || []).filter(x => !x.fork).sort((a, b) => (b.stargazers_count||0) - (a.stargazers_count||0));
+    return {
+      login: u.login,
+      type: u.type,
+      name: u.name || null,
+      bio: u.bio || null,
+      avatar_url: u.avatar_url,
+      html_url: u.html_url,
+      location: u.location || null,
+      company: u.company || null,
+      followers: u.followers || 0,
+      public_repos: u.public_repos || 0,
+      total_stars: ownRepos.reduce((s, x) => s + (x.stargazers_count||0), 0),
+      top_repos: ownRepos.slice(0, 6).map(x => ({
+        full_name: x.full_name,
+        html_url: x.html_url,
+        description: x.description,
+        stargazers_count: x.stargazers_count,
+        forks_count: x.forks_count,
+        language: x.language,
+      })),
+    };
   }
 
   const drawer = document.getElementById('drawer');
@@ -1298,114 +1267,89 @@
   drawerBackdrop.addEventListener('click', closeDrawer);
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDrawer(); });
 
-  function renderDrawerHeader(user) {
-    const isOrg = user.type === 'Organization';
+  function renderDrawerHeader(profile) {
+    const isOrg = profile.type === 'Organization';
     drawerHeader.innerHTML = `
-      <img class="avatar ${isOrg ? 'sq' : ''}" src="${user.avatar}&s=88" alt="" />
+      <img class="avatar ${isOrg ? 'sq' : ''}" src="${profile.avatar_url}&s=88" alt="" />
       <div class="who-text">
-        <strong><a href="${user.html}" target="_blank" rel="noopener">${esc(user.login)}</a></strong>
-        ${user.name ? `<div class="meta">${esc(user.name)}</div>` : ''}
+        <strong><a href="${profile.html_url}" target="_blank" rel="noopener">${esc(profile.login)}</a></strong>
+        ${profile.name ? `<div class="meta">${esc(profile.name)}</div>` : ''}
       </div>
       <button class="drawer-close" aria-label="Close" type="button">✕</button>
     `;
     drawerHeader.querySelector('.drawer-close').addEventListener('click', closeDrawer);
   }
 
-  function renderAiResults(data) {
-    if (data.total === 0) {
-      drawerBody.innerHTML = `
-        <div class="drawer-loading">No authored commits found via the public Search Commits API.</div>
-        <div class="drawer-caveat"><strong>Why?</strong> The Search Commits API only indexes commits on the default branch of public repos. Forks, private work, and merged-but-unauthored commits aren't counted.</div>
-      `;
-      return;
-    }
-    const taggedTotal = Object.values(data.perTool).reduce((s, n) => s + n, 0);
-    const pct = (n) => data.total ? (n / data.total * 100) : 0;
-    const tagPct = pct(taggedTotal);
-    const rows = AI_TOOLS.map(t => {
-      const n = data.perTool[t.id] || 0;
-      const p = pct(n);
-      const cls = n === 0 ? 'zero' : '';
-      return `
-        <div class="ai-row">
-          <div class="ai-tool" title="${esc(t.desc)}">${esc(t.name)}</div>
-          <div class="ai-count">${fmt(n)}</div>
-          <div class="ai-pct ${cls}">${p < 0.01 ? '0%' : p.toFixed(p < 1 ? 2 : 1) + '%'}</div>
-          ${n > 0 ? `<div class="ai-bar"><div class="ai-bar-fill" style="width:${Math.min(p, 100)}%"></div></div>` : ''}
+  function renderProfile(profile) {
+    const stats = [
+      { label: 'Followers', value: fmt(profile.followers) },
+      { label: 'Total stars', value: fmt(profile.total_stars) },
+      { label: 'Public repos', value: fmt(profile.public_repos) },
+    ];
+    const meta = [];
+    if (profile.location) meta.push(`<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:-2px"><path d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zM8 9a2 2 0 100-4 2 2 0 000 4z"></path></svg> ${esc(profile.location)}`);
+    if (profile.company) meta.push(`<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:-2px"><path d="M1.75 16A1.75 1.75 0 010 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 00.25-.25V8.285a.25.25 0 00-.111-.208l-1.055-.703a.749.749 0 11.832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0114.25 16h-3.5a.766.766 0 01-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 01-.75-.75V14h-1v1.25a.75.75 0 01-.75.75zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 01.75-.75h2.5a.75.75 0 01.75.75v1.25h2.25a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25h-8.5a.25.25 0 00-.25.25z"></path></svg> ${esc(profile.company)}`);
+    const repoRows = (profile.top_repos || []).map(r => `
+      <a class="proj-row" href="${esc(r.html_url)}" target="_blank" rel="noopener">
+        <div class="proj-head">
+          <span class="proj-name">${esc(r.full_name)}</span>
+          ${r.language ? `<span class="proj-lang">${esc(r.language)}</span>` : ''}
         </div>
-      `;
-    }).join('');
-    const fromServer = data.source === 'server';
-    const ageMs = data.computed_at ? Date.now() - data.computed_at : null;
-    const ageLabel = ageMs == null ? '' :
-      ageMs < 60 * 60 * 1000 ? 'just now'
-      : ageMs < 24 * 60 * 60 * 1000 ? `${Math.round(ageMs / 3600000)}h ago`
-      : `${Math.round(ageMs / 86400000)}d ago`;
-    const sourceLine = fromServer
-      ? `Cached server-side, refreshed weekly · computed ${ageLabel}`
-      : `Computed live via the <a href="https://docs.github.com/en/rest/search/search#search-commits" target="_blank" rel="noopener">Search Commits API</a> · ${ageLabel}`;
+        ${r.description ? `<div class="proj-desc">${esc(r.description)}</div>` : ''}
+        <div class="proj-meta">
+          <span>★ ${fmt(r.stargazers_count)}</span>
+          <span>⑂ ${fmt(r.forks_count)}</span>
+        </div>
+      </a>
+    `).join('');
 
     drawerBody.innerHTML = `
-      <div class="ai-summary">
-        <div class="ai-summary-num">${tagPct < 0.01 ? '0%' : tagPct.toFixed(tagPct < 1 ? 2 : 1) + '%'}</div>
-        <div class="ai-summary-label">of ${fmt(data.total)} authored commits have a known AI co-author trailer</div>
+      ${profile.bio ? `<div class="profile-bio">${esc(profile.bio)}</div>` : ''}
+      ${meta.length ? `<div class="profile-meta">${meta.join('')}</div>` : ''}
+      <div class="profile-stats">
+        ${stats.map(s => `<div class="profile-stat"><div class="profile-stat-num">${s.value}</div><div class="profile-stat-label">${esc(s.label)}</div></div>`).join('')}
       </div>
-      <div>${rows}</div>
-      <div class="drawer-caveat">
-        <strong>Floor, not the truth.</strong> Only commits with an explicit AI attribution
-        (e.g. <code>Co-Authored-By: Claude</code>) are counted. Most AI-assisted code &mdash;
-        especially IDE autocomplete &mdash; leaves no trace. 0% here means
-        "no detectable AI-tagged commits," not "no AI use."
-      </div>
-      <div class="drawer-source">${sourceLine}</div>
+      ${repoRows ? `<div class="profile-section-title">Top repositories</div><div class="proj-list">${repoRows}</div>` : '<div class="drawer-loading">No public repositories.</div>'}
+      <div class="drawer-source"><a href="${esc(profile.html_url)}" target="_blank" rel="noopener">View full profile on GitHub →</a></div>
     `;
   }
 
-  function normalizeServerEntry(entry) {
-    // Server cache shape: { fetched_at, total, tools: { claude, cursor, ... } }
-    // Drawer expects:     { total, perTool: { claude, cursor, ... } }
-    return { total: entry.total, perTool: entry.tools || {}, computed_at: new Date(entry.fetched_at).getTime(), source: 'server' };
-  }
-
-  async function openAiDrawer(user) {
-    renderDrawerHeader(user);
+  async function openProfileDrawer(stub) {
     drawer.classList.add('open');
     drawerBackdrop.classList.add('open');
     drawer.setAttribute('aria-hidden', 'false');
 
-    // 1) localStorage cache (instant, set by previous live fetch)
-    const local = readAiCache(user.login);
-    if (local) { renderAiResults(local); return; }
-
-    // 2) server-precomputed cache (instant, refreshed daily by cron)
+    // Show a stub header immediately so the drawer doesn't look empty.
+    renderDrawerHeader({ login: stub.login, type: stub.type, name: stub.name, html_url: stub.html, avatar_url: stub.avatar });
     drawerBody.innerHTML = `<div class="drawer-loading">Loading…</div>`;
-    const server = await ensureServerAiCache();
-    const fromServer = server[user.login];
-    if (fromServer) {
-      const normalized = normalizeServerEntry(fromServer);
-      writeAiCache(user.login, normalized);
-      renderAiResults(normalized);
-      return;
-    }
 
-    // 3) live fetch as fallback (rate-limited, ~10s)
-    drawerBody.innerHTML = `<div class="drawer-loading">Querying GitHub Search Commits API for <strong>${esc(user.login)}</strong>…<br/><small>~${AI_TOOLS.length + 1} requests · usually finishes in ~10s</small></div>`;
-    try {
-      const data = await computeAiShare(user.login);
-      writeAiCache(user.login, data);
-      renderAiResults(data);
-    } catch (e) {
-      drawerBody.innerHTML = `<div class="drawer-error">${esc(e.message)}</div>`;
+    const detail = await ensureUsersDetail();
+    let profile = detail[stub.login];
+    if (!profile) {
+      // Live fallback for users outside the cached top set
+      drawerBody.innerHTML = `<div class="drawer-loading">Fetching ${esc(stub.login)} from GitHub…</div>`;
+      try {
+        profile = await fetchProfileLive(stub.login);
+      } catch (e) {
+        drawerBody.innerHTML = `<div class="drawer-error">${esc(e.message)}</div>`;
+        return;
+      }
+      if (!profile) {
+        drawerBody.innerHTML = `<div class="drawer-error">Profile not found.</div>`;
+        return;
+      }
     }
+    renderDrawerHeader(profile);
+    renderProfile(profile);
   }
 
   // Delegate clicks on table body rows
   document.getElementById('tbody').addEventListener('click', (e) => {
     const tr = e.target.closest('tr.clickable');
     if (!tr) return;
-    // ignore clicks on the username link itself — let it navigate to github.com
+    // Click on the inner username link → let it navigate to github.com.
     if (e.target.closest('a')) return;
-    openAiDrawer({
+    openProfileDrawer({
       login: tr.dataset.login,
       type: tr.dataset.type,
       avatar: tr.dataset.avatar,
