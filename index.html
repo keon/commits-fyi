@@ -424,6 +424,14 @@
     };
     wireSelect(els.pickTopic,    'Topic',    idx.topics    || [], 'topic',    (i) => '#' + i.name);
     wireSelect(els.pickLanguage, 'Language', idx.languages || [], 'language');
+
+    // Show only relevant pickers: Location for account-centric views,
+    // Topic+Language for repo-centric views.
+    const v = r.view;
+    const isRepoView = v === 'trending' || v === 'topic' || v === 'language';
+    els.pickLocation.style.display = isRepoView ? 'none' : '';
+    els.pickTopic.style.display    = isRepoView ? '' : 'none';
+    els.pickLanguage.style.display = isRepoView ? '' : 'none';
   }
   function renderNav() { renderTopNav(); renderPickers(); }
 
