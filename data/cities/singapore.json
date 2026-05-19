@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-05-19T11:47:40.925Z",
+  "generated_at": "2026-05-19T13:21:14.840Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 336205,
-    "org_followers": 84682,
-    "user_stars": 1223120,
-    "org_stars": 995297
+    "user_followers": 336259,
+    "org_followers": 84776,
+    "user_stars": 1223342,
+    "org_stars": 996411
   },
   "queries": [
     {
@@ -42,13 +42,14 @@
       "name": "Evan You",
       "avatar_url": "https://avatars.githubusercontent.com/u/499550?s=88&u=dd9a9ba40daf29be7c310f7075e74251609b03f3&v=4",
       "html_url": "https://github.com/yyx990803",
-      "followers": 108059,
+      "followers": 108073,
       "following": 99,
       "public_repos": 76,
       "location": "Singapore",
       "bio": "Founder @voidzero-dev, author of @vuejs and @vitejs. Connoisseur of sushi.",
       "company": "VoidZero",
-      "total_stars": 15239
+      "created_at": "2010-11-28T01:05:40Z",
+      "total_stars": 15240
     },
     {
       "login": "halfrost",
@@ -61,6 +62,7 @@
       "location": "[California, Singapore, China]",
       "bio": "CS master @Stanford 💪 天道酬勤，勤能补拙。博观而约取，厚积而薄发。Gopher / Rustacean / Kubernetes / Cloud Native / Machine Learning / DeFi Smart Contract",
       "company": "@Kubeflow @CNCF",
+      "created_at": "2015-02-03T07:01:48Z",
       "total_stars": 49724
     },
     {
@@ -74,7 +76,8 @@
       "location": "Singapore",
       "bio": "写代码是热爱，写到世界充满爱！",
       "company": "Natural Selection Labs",
-      "total_stars": 80022
+      "created_at": "2014-07-25T09:27:56Z",
+      "total_stars": 80033
     },
     {
       "login": "yangshun",
@@ -87,33 +90,36 @@
       "location": "Singapore",
       "bio": "Building @greatfrontend. Ex-@facebook, @docusaurus, Flux. Authored Blind 75 and Grind 75",
       "company": "@greatfrontend",
-      "total_stars": 189495
+      "created_at": "2012-01-09T12:30:00Z",
+      "total_stars": 189508
     },
     {
       "login": "seehiong",
       "name": "seehiong",
       "avatar_url": "https://avatars.githubusercontent.com/u/6965893?s=88&u=3fabbddef2ceb55a4325fedfc1afe855dceb27d9&v=4",
       "html_url": "https://github.com/seehiong",
-      "followers": 9973,
-      "following": 9639,
+      "followers": 9997,
+      "following": 8941,
       "public_repos": 28,
       "location": "Singapore",
       "bio": "Always learning, sometimes breaking, forever caffeinated! PyTorch | TensorFlow | LangChain | MLflow | KubeFlow | Neural Networks | Kubernetes",
       "company": null,
-      "total_stars": 1475
+      "created_at": "2014-03-16T11:47:31Z",
+      "total_stars": 1478
     },
     {
       "login": "rustdesk",
       "name": "RustDesk",
       "avatar_url": "https://avatars.githubusercontent.com/u/71636191?s=88&u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
       "html_url": "https://github.com/rustdesk",
-      "followers": 8596,
+      "followers": 8598,
       "following": 0,
       "public_repos": 8,
       "location": "Singapore",
       "bio": "Making affordable remote desktop service for everyone",
       "company": "Purslane Ltd.",
-      "total_stars": 126202
+      "created_at": "2020-09-21T09:13:05Z",
+      "total_stars": 126275
     },
     {
       "login": "phith0n",
@@ -126,7 +132,8 @@
       "location": "Singapore",
       "bio": "Creator of @vulhub ",
       "company": null,
-      "total_stars": 11208
+      "created_at": "2013-10-17T16:10:21Z",
+      "total_stars": 11209
     },
     {
       "login": "Jinjiang",
@@ -139,6 +146,7 @@
       "location": "Singapore",
       "bio": "0.1.x Engineer + ⚽️💻",
       "company": "@vuejs @teambit",
+      "created_at": "2010-02-19T16:30:03Z",
       "total_stars": 1932
     },
     {
@@ -146,25 +154,27 @@
       "name": "CMLiussss",
       "avatar_url": "https://avatars.githubusercontent.com/u/24787744?s=88&u=703922e1f9e4129656faaddf2099a7da58d45254&v=4",
       "html_url": "https://github.com/cmliu",
-      "followers": 6016,
+      "followers": 6019,
       "following": 8,
-      "public_repos": 39,
+      "public_repos": 40,
       "location": "Singapore",
       "bio": null,
       "company": "Singapore",
-      "total_stars": 35742
+      "created_at": "2016-12-27T06:48:06Z",
+      "total_stars": 35747
     },
     {
       "login": "mmumshad",
       "name": "Mumshad Mannambeth",
       "avatar_url": "https://avatars.githubusercontent.com/u/2704615?s=88&u=627db6c6ad927a39625860523f059201f6e65867&v=4",
       "html_url": "https://github.com/mmumshad",
-      "followers": 5619,
+      "followers": 5620,
       "following": 2,
       "public_repos": 43,
       "location": "Singapore",
       "bio": "Trainer and Founder at KodeKloud.com",
       "company": null,
+      "created_at": "2012-11-02T05:45:30Z",
       "total_stars": 1465
     },
     {
@@ -178,6 +188,7 @@
       "location": "Singapore",
       "bio": "TypeScript at day, Rustacean at night. Coding for fun.",
       "company": "@voidzero-dev @napi-rs @rolldown",
+      "created_at": "2013-02-04T05:37:28Z",
       "total_stars": 4677
     },
     {
@@ -185,25 +196,27 @@
       "name": "James Newton-King",
       "avatar_url": "https://avatars.githubusercontent.com/u/303201?s=88&u=a4521438844aae7f844f8717a79a9858d6c805da&v=4",
       "html_url": "https://github.com/JamesNK",
-      "followers": 4690,
+      "followers": 4691,
       "following": 0,
       "public_repos": 28,
       "location": "Singapore",
       "bio": "Software Developer. Author of Json.NET.",
       "company": "@microsoft ",
-      "total_stars": 12135
+      "created_at": "2010-06-11T23:08:02Z",
+      "total_stars": 12136
     },
     {
       "login": "doodlewind",
       "name": "Yifeng \"Evan\" Wang",
       "avatar_url": "https://avatars.githubusercontent.com/u/7312949?s=88&u=da6b44360fdcfceccdeff4da3f729758ef545c82&v=4",
       "html_url": "https://github.com/doodlewind",
-      "followers": 4655,
+      "followers": 4654,
       "following": 267,
       "public_repos": 63,
       "location": "China ⇔ Singapore",
       "bio": "王译锋 (雪碧) / founder @spool-lab / ex @lovartai / ex-cofounded @toeverything / juggling parenting and code commits.",
       "company": null,
+      "created_at": "2014-04-16T09:44:18Z",
       "total_stars": 6602
     },
     {
@@ -217,6 +230,7 @@
       "location": "Singapore",
       "bio": "Avatar generated by stable diffusion",
       "company": null,
+      "created_at": "2010-09-02T02:12:50Z",
       "total_stars": 7418
     },
     {
@@ -230,6 +244,7 @@
       "location": "singapore",
       "bio": "Engineer@Github",
       "company": "Open Source",
+      "created_at": "2010-03-01T08:05:07Z",
       "total_stars": 19791
     },
     {
@@ -243,7 +258,8 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 26589
+      "created_at": "2011-07-30T18:03:26Z",
+      "total_stars": 26590
     },
     {
       "login": "kazura233",
@@ -256,6 +272,7 @@
       "location": "Singapore",
       "bio": "我挥舞着键盘和本子，发誓要把世界写个明明白白。",
       "company": "@DreamBox2020",
+      "created_at": "2017-03-12T12:56:22Z",
       "total_stars": 1072
     },
     {
@@ -269,6 +286,7 @@
       "location": "Singapore",
       "bio": "Assistant Professor at Nanyang Technological University",
       "company": null,
+      "created_at": "2015-07-30T23:29:45Z",
       "total_stars": 39118
     },
     {
@@ -276,12 +294,13 @@
       "name": "Sonny Lazuardi",
       "avatar_url": "https://avatars.githubusercontent.com/u/856609?s=88&u=64056f5d541a735ff7c96e11b5338b4982bc051a&v=4",
       "html_url": "https://github.com/sonnylazuardi",
-      "followers": 2776,
+      "followers": 2775,
       "following": 2345,
       "public_repos": 217,
       "location": "Singapore",
       "bio": "Design Engineer",
       "company": "@grab",
+      "created_at": "2011-06-17T14:13:40Z",
       "total_stars": 6521
     },
     {
@@ -289,26 +308,28 @@
       "name": "Grey Li",
       "avatar_url": "https://avatars.githubusercontent.com/u/12967000?s=88&u=dd086202e11997756d307f086414c9e93ece3066&v=4",
       "html_url": "https://github.com/greyli",
-      "followers": 2591,
+      "followers": 2590,
       "following": 8,
       "public_repos": 45,
       "location": "Singapore",
       "bio": "A 0.8x, single-threaded developer. Creator of @helloflask, @apiflask, and @codekitchen-community.",
       "company": "Dell",
-      "total_stars": 4121
+      "created_at": "2015-06-19T13:00:23Z",
+      "total_stars": 4122
     },
     {
       "login": "karlseguin",
       "name": "Karl Seguin",
       "avatar_url": "https://avatars.githubusercontent.com/u/206480?s=88&v=4",
       "html_url": "https://github.com/karlseguin",
-      "followers": 2522,
+      "followers": 2523,
       "following": 3,
       "public_repos": 117,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 11134
+      "created_at": "2010-02-19T04:01:58Z",
+      "total_stars": 11135
     },
     {
       "login": "mariobehling",
@@ -321,6 +342,7 @@
       "location": "Singapore",
       "bio": "Open Tech around the world | @fossasia @OpnTec",
       "company": "FOSSASIA",
+      "created_at": "2012-03-28T15:13:30Z",
       "total_stars": 1628
     },
     {
@@ -334,6 +356,7 @@
       "location": "Singapore",
       "bio": "STAY HUNGRY. STAY FOOLISH",
       "company": "CodeXplore",
+      "created_at": "2020-04-29T00:48:32Z",
       "total_stars": 561
     },
     {
@@ -341,12 +364,13 @@
       "name": "0xAA",
       "avatar_url": "https://avatars.githubusercontent.com/u/14728591?s=88&u=c13f8b64443351a60ef0ac2a610aeaed1ee49da2&v=4",
       "html_url": "https://github.com/AmazingAng",
-      "followers": 2220,
+      "followers": 2221,
       "following": 15,
       "public_repos": 23,
       "location": "Singapore",
       "bio": "Phd Candidate in Neuroscience,\r\nindependent educator in Web3.",
       "company": "Peking University",
+      "created_at": "2015-09-22T06:53:49Z",
       "total_stars": 15320
     },
     {
@@ -360,6 +384,7 @@
       "location": "Singapore, Shanghai",
       "bio": null,
       "company": null,
+      "created_at": "2011-09-22T01:39:03Z",
       "total_stars": 756
     },
     {
@@ -373,7 +398,8 @@
       "location": "Singapore",
       "bio": "Founder of @FOSSASIA developing #OpenSource #Software and #Hardware with a global community from our base in Asia. http://fossasia.org",
       "company": "FOSSASIA",
-      "total_stars": 1583
+      "created_at": "2012-04-19T10:11:01Z",
+      "total_stars": 1582
     },
     {
       "login": "vintagewang",
@@ -386,6 +412,7 @@
       "location": "Singapore",
       "bio": "Founder, PMC Chair of Apache RocketMQ. Now, I focus on @AutoMQ. My mission is to build a cloud-first Kafka to make stream processing more efficient.",
       "company": "AutoMQ",
+      "created_at": "2012-03-12T06:08:22Z",
       "total_stars": 116
     },
     {
@@ -399,7 +426,8 @@
       "location": "Singapore",
       "bio": "Postgres Hacker, Distribution Maker, @pgsty Founder, Cloud-Exit Han Solo\r\npigsty.io / pigsty.cc / vonng.com",
       "company": "Pigsty",
-      "total_stars": 26520
+      "created_at": "2014-08-29T05:40:32Z",
+      "total_stars": 26526
     },
     {
       "login": "fmzquant",
@@ -412,6 +440,7 @@
       "location": "Singapore",
       "bio": "Financial Management Zen",
       "company": "@fmzquant",
+      "created_at": "2013-03-15T07:09:02Z",
       "total_stars": 5940
     },
     {
@@ -425,7 +454,8 @@
       "location": "Singapore",
       "bio": "Frontend Software Engineer. Robotics and Japanese Language Enthusiast. \r\n",
       "company": null,
-      "total_stars": 12164
+      "created_at": "2012-04-23T10:39:21Z",
+      "total_stars": 12167
     },
     {
       "login": "airingursb",
@@ -438,6 +468,7 @@
       "location": "Singapore",
       "bio": "I dream of coding and then I code my dream. \r\n🏆 2019 WWDC Scholarship Winner ",
       "company": "ByteDance",
+      "created_at": "2015-01-13T09:55:59Z",
       "total_stars": 5931
     },
     {
@@ -445,25 +476,27 @@
       "name": "Chee Aun",
       "avatar_url": "https://avatars.githubusercontent.com/u/2296?s=88&u=27cda8842db37edd84d12b2668f6d93564319899&v=4",
       "html_url": "https://github.com/cheeaun",
-      "followers": 1865,
+      "followers": 1866,
       "following": 1029,
       "public_repos": 155,
       "location": "Singapore",
       "bio": "Product-first Front-end Engineer. Interested in design, dataviz, maps, public transport & stickers.",
       "company": "Unemployed since Jul'22",
-      "total_stars": 12008
+      "created_at": "2008-03-05T17:58:29Z",
+      "total_stars": 12010
     },
     {
       "login": "zer0yu",
       "name": "z3r0yu",
       "avatar_url": "https://avatars.githubusercontent.com/u/16551733?s=88&u=0d6437de7d96a6b559df49c99578adf5771952a5&v=4",
       "html_url": "https://github.com/zer0yu",
-      "followers": 1856,
+      "followers": 1857,
       "following": 4577,
       "public_repos": 26,
       "location": "Singapore / China",
       "bio": "BugHunter@OverSpace /\r\nRedTeamer@PolarisLab / \r\nCTFer@kn0ck",
       "company": null,
+      "created_at": "2016-01-05T04:00:33Z",
       "total_stars": 7274
     },
     {
@@ -477,6 +510,7 @@
       "location": "Singapore",
       "bio": null,
       "company": "Nanyang Technological University",
+      "created_at": "2012-12-31T10:28:30Z",
       "total_stars": 1534
     },
     {
@@ -490,7 +524,8 @@
       "location": "Singapore",
       "bio": "Engineering for Scale | Software Engineering & Technical Leadership | MSc Computer Science, NUS",
       "company": "IBM",
-      "total_stars": 71199
+      "created_at": "2015-10-06T17:31:12Z",
+      "total_stars": 71210
     },
     {
       "login": "tanhauhau",
@@ -503,6 +538,7 @@
       "location": "Singapore",
       "bio": "Frontend Developer at @Shopee \r\n🇲🇾💻in 🇸🇬",
       "company": "@Shopee",
+      "created_at": "2012-09-13T10:58:14Z",
       "total_stars": 725
     },
     {
@@ -516,7 +552,8 @@
       "location": "Singapore",
       "bio": "I love system administration as much as I love programming.",
       "company": "Shopee",
-      "total_stars": 7187
+      "created_at": "2014-11-11T12:51:04Z",
+      "total_stars": 7186
     },
     {
       "login": "trungvose",
@@ -529,6 +566,7 @@
       "location": "Singapore",
       "bio": "Web expert with 10 years of experience, Google Developer Expert (Web), fosters web dev communities and speaks globally, based in Singapore.",
       "company": "@kaligo",
+      "created_at": "2014-02-24T03:43:49Z",
       "total_stars": 5907
     },
     {
@@ -536,13 +574,14 @@
       "name": "UncleCode",
       "avatar_url": "https://avatars.githubusercontent.com/u/12494079?s=88&u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
       "html_url": "https://github.com/unclecode",
-      "followers": 1632,
+      "followers": 1633,
       "following": 1,
       "public_repos": 100,
       "location": "Singapore",
       "bio": "Author of Crawl4AI (#1 GitHub Trending). Founder of Kidocode, SE Asia's largest tech & biz school. Leading AI research on synthetic data & coffee lover.",
       "company": "AlephNul, and KidoCode",
-      "total_stars": 66803
+      "created_at": "2015-05-18T09:41:03Z",
+      "total_stars": 66845
     },
     {
       "login": "balloonwj",
@@ -555,7 +594,8 @@
       "location": "Singapore",
       "bio": "wx：cppxiaofang",
       "company": null,
-      "total_stars": 11669
+      "created_at": "2015-12-16T01:45:53Z",
+      "total_stars": 11671
     },
     {
       "login": "ldqk",
@@ -568,7 +608,8 @@
       "location": "Singapore",
       "bio": "高级CV工程师，资深哲♂学家。互联网分享精神，勤于发现，乐于分享！",
       "company": "新日暮里娼片公司",
-      "total_stars": 9414
+      "created_at": "2016-07-02T10:36:22Z",
+      "total_stars": 9419
     },
     {
       "login": "bunnie",
@@ -581,6 +622,7 @@
       "location": "Singapore",
       "bio": "Good at following directions. Bad at obeying rules.",
       "company": null,
+      "created_at": "2011-11-02T20:56:08Z",
       "total_stars": 380
     },
     {
@@ -594,6 +636,7 @@
       "location": "Singapore",
       "bio": "Research Assistant Professor at MMLab@NTU. ",
       "company": "Nanyang Technological University",
+      "created_at": "2015-09-17T16:54:52Z",
       "total_stars": 27204
     },
     {
@@ -607,7 +650,8 @@
       "location": "Singapore",
       "bio": "A passionate security engineer and creator of Osmedeus, Metabigor, and Vigolium.",
       "company": "@osmedeus @vigolium ",
-      "total_stars": 8902
+      "created_at": "2016-11-06T05:56:34Z",
+      "total_stars": 8905
     },
     {
       "login": "ritchieng",
@@ -620,7 +664,8 @@
       "location": "Singapore",
       "bio": "Notes: ritchieng.com • Guides: deeplearningwizard.com",
       "company": "Imperial College London | NUS",
-      "total_stars": 14263
+      "created_at": "2015-03-26T02:20:49Z",
+      "total_stars": 14264
     },
     {
       "login": "Hackl0us",
@@ -633,7 +678,8 @@
       "location": "Singapore",
       "bio": null,
       "company": "National University of Singapore",
-      "total_stars": 19149
+      "created_at": "2014-12-17T01:07:24Z",
+      "total_stars": 19150
     },
     {
       "login": "niklasvh",
@@ -646,6 +692,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2011-01-07T03:10:02Z",
       "total_stars": 34837
     },
     {
@@ -653,12 +700,13 @@
       "name": "Guan Wang",
       "avatar_url": "https://avatars.githubusercontent.com/u/2224389?s=88&u=11198545c4b1a8ad258c2db644f64e1bf342a776&v=4",
       "html_url": "https://github.com/crownpku",
-      "followers": 1258,
+      "followers": 1259,
       "following": 58,
       "public_repos": 25,
       "location": "Singapore",
       "bio": "I train myself to train machines.",
       "company": "Manulife",
+      "created_at": "2012-08-27T01:29:26Z",
       "total_stars": 12890
     },
     {
@@ -672,7 +720,8 @@
       "location": "Singapore",
       "bio": "LLM Psychologist",
       "company": "Straive",
-      "total_stars": 850
+      "created_at": "2009-03-15T22:00:25Z",
+      "total_stars": 851
     },
     {
       "login": "sausheong",
@@ -685,6 +734,7 @@
       "location": "Singapore",
       "bio": "I write, code.",
       "company": "GovTech Singapore",
+      "created_at": "2008-04-09T02:16:03Z",
       "total_stars": 5004
     },
     {
@@ -692,13 +742,14 @@
       "name": "Phone Thiri Yadana",
       "avatar_url": "https://avatars.githubusercontent.com/u/656931?s=88&u=a4676809a62afb45a69e67583226d213dd1a31c6&v=4",
       "html_url": "https://github.com/ptyadana",
-      "followers": 1204,
+      "followers": 1205,
       "following": 33,
       "public_repos": 33,
       "location": "Singapore",
       "bio": "Machine Learning Enthusiast | Lifelong learner",
       "company": null,
-      "total_stars": 2658
+      "created_at": "2011-03-08T03:56:32Z",
+      "total_stars": 2659
     },
     {
       "login": "Elliott-Chong",
@@ -711,6 +762,7 @@
       "location": "Singapore",
       "bio": "Founding & Lead Engineer at @cascadingAI - Making Banking Magical 🔮\r\n\r\n21 year old YouTuber teaching full stack AI SaaS tutorials. 🎥\r\n\r\n",
       "company": "Cascading AI",
+      "created_at": "2021-01-05T13:17:53Z",
       "total_stars": 1857
     },
     {
@@ -724,7 +776,8 @@
       "location": "Singapore",
       "bio": null,
       "company": "HeyGen",
-      "total_stars": 3020
+      "created_at": "2015-12-06T00:52:43Z",
+      "total_stars": 3021
     },
     {
       "login": "rphly",
@@ -737,6 +790,7 @@
       "location": "Singapore",
       "bio": "CS @ SUTD, backend swe @carousell, @team99",
       "company": "Renderspace",
+      "created_at": "2016-11-01T07:30:31Z",
       "total_stars": 15
     },
     {
@@ -750,7 +804,8 @@
       "location": "Singapore",
       "bio": "AI Quant and Data Scientist in Finance. Data Science MSc @ UC Berkeley. Economics PhD candidate @ Oxford. MSc Finance @ MBS. Yes, that's me playing ice hockey",
       "company": null,
-      "total_stars": 5960
+      "created_at": "2018-02-21T13:06:04Z",
+      "total_stars": 5961
     },
     {
       "login": "kennethleungty",
@@ -763,7 +818,8 @@
       "location": "Singapore",
       "bio": "AI Lead at Boston Consulting Group • Tech Author • linkedin.com/in/kennethleungty • kennethleungty.medium.com",
       "company": "Boston Consulting Group (BCG)",
-      "total_stars": 5260
+      "created_at": "2016-01-13T19:59:00Z",
+      "total_stars": 5262
     },
     {
       "login": "moonD4rk",
@@ -776,7 +832,8 @@
       "location": "Singapore",
       "bio": "Cybersecurity Engineer and Bug Hunter",
       "company": null,
-      "total_stars": 14182
+      "created_at": "2016-12-01T02:09:40Z",
+      "total_stars": 14187
     },
     {
       "login": "xbresson",
@@ -789,6 +846,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2016-10-12T19:23:18Z",
       "total_stars": 2904
     },
     {
@@ -802,20 +860,22 @@
       "location": "Singapore",
       "bio": "Focused on Machine Learning & Deep Learning @reddragonai ",
       "company": null,
-      "total_stars": 3276
+      "created_at": "2011-11-09T13:51:05Z",
+      "total_stars": 3277
     },
     {
       "login": "Snowming04",
       "name": "Snowming",
       "avatar_url": "https://avatars.githubusercontent.com/u/47935594?s=88&u=716473ad05d13503e33777839aa6febc9056dcba&v=4",
       "html_url": "https://github.com/Snowming04",
-      "followers": 1106,
+      "followers": 1107,
       "following": 0,
       "public_repos": 7,
       "location": "Singapore",
       "bio": "@QAX",
       "company": "National University of Singapore",
-      "total_stars": 2801
+      "created_at": "2019-02-24T05:21:55Z",
+      "total_stars": 2803
     },
     {
       "login": "hyf0",
@@ -828,6 +888,7 @@
       "location": "Singapore",
       "bio": "Programmer by interest",
       "company": "@voidzero-dev",
+      "created_at": "2019-04-11T00:38:51Z",
       "total_stars": 320
     },
     {
@@ -841,6 +902,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2013-02-16T02:03:02Z",
       "total_stars": 3489
     },
     {
@@ -854,6 +916,7 @@
       "location": "Singapore",
       "bio": "Twitter @yeyint_mth",
       "company": null,
+      "created_at": "2014-01-09T10:19:33Z",
       "total_stars": 9637
     },
     {
@@ -861,12 +924,13 @@
       "name": "Aniruddha Adhikary (Ani)",
       "avatar_url": "https://avatars.githubusercontent.com/u/932949?s=88&u=f49c1c0b958da191fd0f87ef0212cc40f8218cf8&v=4",
       "html_url": "https://github.com/aniruddha-adhikary",
-      "followers": 1080,
+      "followers": 1081,
       "following": 47,
-      "public_repos": 30,
+      "public_repos": 29,
       "location": "Singapore",
       "bio": null,
       "company": "@GovTechSG",
+      "created_at": "2011-07-22T17:44:41Z",
       "total_stars": 464
     },
     {
@@ -880,6 +944,7 @@
       "location": "Singapore",
       "bio": "🇲🇾👾🏀🚲🖌👟💻🖊🎙🐈‍⬛🧗‍♀️🎹🏳️‍🌈",
       "company": null,
+      "created_at": "2012-02-22T14:48:12Z",
       "total_stars": 365
     },
     {
@@ -887,12 +952,13 @@
       "name": "Binyuan Hui",
       "avatar_url": "https://avatars.githubusercontent.com/u/13436140?s=88&u=02c13f94f8511d720ee6fc32ac54735301c05897&v=4",
       "html_url": "https://github.com/huybery",
-      "followers": 1039,
+      "followers": 1040,
       "following": 88,
       "public_repos": 10,
       "location": "Singapore",
       "bio": "🐚 Code Less, Make More |\r\nQwen Team | Alibaba Group",
       "company": "Formerly @ Qwen",
+      "created_at": "2015-07-21T14:05:32Z",
       "total_stars": 1655
     },
     {
@@ -906,6 +972,7 @@
       "location": "Singapore",
       "bio": "Ghost like",
       "company": null,
+      "created_at": "2010-12-02T07:28:41Z",
       "total_stars": 225
     },
     {
@@ -919,6 +986,7 @@
       "location": "Singapore",
       "bio": "AI Engineer @ Menyala | O'Reilly Instructor | \r\nUniversity of Melbourne Alumni",
       "company": "@Menyala ",
+      "created_at": "2015-05-02T03:58:11Z",
       "total_stars": 1400
     },
     {
@@ -926,13 +994,14 @@
       "name": "Yujia Qiao",
       "avatar_url": "https://avatars.githubusercontent.com/u/20105061?s=88&u=ba5a90334463de7c98e8c7a9287297df9d32a21f&v=4",
       "html_url": "https://github.com/yujqiao",
-      "followers": 982,
+      "followers": 983,
       "following": 253,
       "public_repos": 26,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 3442
+      "created_at": "2016-06-23T07:15:20Z",
+      "total_stars": 3445
     },
     {
       "login": "honcheng",
@@ -945,6 +1014,7 @@
       "location": "Singapore",
       "bio": null,
       "company": "buUuk Pte Ltd",
+      "created_at": "2010-02-23T01:18:23Z",
       "total_stars": 8031
     },
     {
@@ -952,13 +1022,14 @@
       "name": "Zack Wu",
       "avatar_url": "https://avatars.githubusercontent.com/u/20233656?s=88&u=261e9618e33664855cb352dc1809167ad8e69ea0&v=4",
       "html_url": "https://github.com/izackwu",
-      "followers": 975,
+      "followers": 974,
       "following": 85,
       "public_repos": 22,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 22170
+      "created_at": "2016-07-01T00:24:28Z",
+      "total_stars": 22169
     },
     {
       "login": "auxten",
@@ -971,20 +1042,36 @@
       "location": "Singapore",
       "bio": "AI & Database",
       "company": "@ClickHouse",
-      "total_stars": 1723
+      "created_at": "2010-04-09T09:00:05Z",
+      "total_stars": 1725
     },
     {
       "login": "notlhw",
       "name": "Lim How Wei",
       "avatar_url": "https://avatars.githubusercontent.com/u/149965018?s=88&u=0251f2fa92c4da94a202488668be20efc2069a8c&v=4",
       "html_url": "https://github.com/notlhw",
-      "followers": 955,
+      "followers": 953,
       "following": 61,
       "public_repos": 8,
       "location": "Singapore",
       "bio": "building tools for markets and content. 65m+ blog visitors. singapore.",
       "company": null,
+      "created_at": "2023-11-05T18:15:23Z",
       "total_stars": 100
+    },
+    {
+      "login": "chen3feng",
+      "name": "CHEN Feng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1998410?s=88&u=f26ef01b966517192ae4fe88bd00b8e1a6d02c00&v=4",
+      "html_url": "https://github.com/chen3feng",
+      "followers": 930,
+      "following": 14,
+      "public_repos": 29,
+      "location": "Singapore",
+      "bio": "Expert Engineer in Tencent.com",
+      "company": "@Tencent",
+      "created_at": "2012-07-18T12:49:36Z",
+      "total_stars": 895
     },
     {
       "login": "gobysec",
@@ -997,32 +1084,21 @@
       "location": "Singapore",
       "bio": "Goby - Make Cybersecurity More Effective\r\nThe new generation of network security technology",
       "company": "Goby",
+      "created_at": "2019-05-23T13:27:06Z",
       "total_stars": 2711
-    },
-    {
-      "login": "chen3feng",
-      "name": "CHEN Feng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1998410?s=88&u=f26ef01b966517192ae4fe88bd00b8e1a6d02c00&v=4",
-      "html_url": "https://github.com/chen3feng",
-      "followers": 924,
-      "following": 14,
-      "public_repos": 29,
-      "location": "Singapore",
-      "bio": "Expert Engineer in Tencent.com",
-      "company": "@Tencent",
-      "total_stars": 895
     },
     {
       "login": "yinglantan",
       "name": "Yinglan",
       "avatar_url": "https://avatars.githubusercontent.com/u/68122829?s=88&u=98545811354fbda7b71592da7927f93a7f333f09&v=4",
       "html_url": "https://github.com/yinglantan",
-      "followers": 909,
+      "followers": 906,
       "following": 78,
       "public_repos": 84,
       "location": "Singapore",
       "bio": "capital markets - founder insignia vc",
       "company": null,
+      "created_at": "2020-07-10T17:14:35Z",
       "total_stars": 192
     },
     {
@@ -1036,6 +1112,7 @@
       "location": "Singapore",
       "bio": "Open source princess. I create projects that make a difference to me and the world",
       "company": "NTU, UC Berkeley, @google, @xlang-ai",
+      "created_at": "2019-12-21T14:51:01Z",
       "total_stars": 8540
     },
     {
@@ -1049,6 +1126,7 @@
       "location": "Singapore",
       "bio": "李立源 / IoT Techie and Educator / Apache NuttX PMC",
       "company": "@Apache NuttX RTOS PMC",
+      "created_at": "2014-11-26T09:02:06Z",
       "total_stars": 1403
     },
     {
@@ -1062,6 +1140,7 @@
       "location": "Singapore",
       "bio": "Retired.",
       "company": "@bitlabstudio ",
+      "created_at": "2009-12-12T13:17:59Z",
       "total_stars": 2090
     },
     {
@@ -1075,6 +1154,7 @@
       "location": "Singapore",
       "bio": "@reactjs | @freeCodeCamp | @docschina ",
       "company": "RitMEX",
+      "created_at": "2013-05-23T07:27:57Z",
       "total_stars": 2314
     },
     {
@@ -1088,6 +1168,7 @@
       "location": "Singapore",
       "bio": "i like coding",
       "company": "Jialidun",
+      "created_at": "2014-11-24T03:10:42Z",
       "total_stars": 1601
     },
     {
@@ -1101,6 +1182,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2017-05-03T19:06:13Z",
       "total_stars": 11794
     },
     {
@@ -1114,6 +1196,7 @@
       "location": "Singapore",
       "bio": "Cofounder & CTO of @AutoMQ, Apache Member, RocketMQ co-creator. We are hiring, connect me with WeChat: zhou-xiny",
       "company": "@automq",
+      "created_at": "2013-03-25T05:57:47Z",
       "total_stars": 0
     },
     {
@@ -1127,6 +1210,7 @@
       "location": "Singapore",
       "bio": "Ponnuthurai Nagaratnam Suganthan finished schooling at Union College (Jaffna) and received BA & MA in Elect and Info Engg from the U. of Cambridge, UK. ",
       "company": "https://www.ntu.edu.sg/home/epnsugan/ ",
+      "created_at": "2019-06-30T05:04:17Z",
       "total_stars": 542
     },
     {
@@ -1134,13 +1218,14 @@
       "name": "Gelei Deng",
       "avatar_url": "https://avatars.githubusercontent.com/u/78410652?s=88&u=317b9d7badfdd48154c750f10883d1832f3a67ff&v=4",
       "html_url": "https://github.com/GreyDGL",
-      "followers": 810,
+      "followers": 811,
       "following": 35,
       "public_repos": 13,
       "location": "Singapore",
       "bio": "Ph.D. in Cybersecurity from NTU,\r\nAI Engineer @ Quantstamp, OpenAI Red Team Network.",
       "company": "Quantstamp, Inc.",
-      "total_stars": 13231
+      "created_at": "2021-02-02T08:48:42Z",
+      "total_stars": 13247
     },
     {
       "login": "kossnocorp",
@@ -1153,6 +1238,7 @@
       "location": "Singapore",
       "bio": "👋 Hi, I'm Sasha, an open-source writer and an indie maker.\r\n",
       "company": "@mindcontrolai",
+      "created_at": "2009-02-05T23:22:09Z",
       "total_stars": 2802
     },
     {
@@ -1166,6 +1252,7 @@
       "location": "Singapore",
       "bio": "Everything works—until volatility hits. We’re building the exchange that doesn’t trade against you.",
       "company": "Candora",
+      "created_at": "2026-03-21T18:00:52Z",
       "total_stars": 2
     },
     {
@@ -1179,6 +1266,7 @@
       "location": "Singapore",
       "bio": null,
       "company": "National University of Singapore",
+      "created_at": "2013-08-19T02:15:22Z",
       "total_stars": 2315
     },
     {
@@ -1192,6 +1280,7 @@
       "location": "Singapore",
       "bio": "Exploring low power wireless sensor networks through practical everyday things",
       "company": null,
+      "created_at": "2010-09-24T02:48:06Z",
       "total_stars": 1074
     },
     {
@@ -1205,6 +1294,7 @@
       "location": "Singapore",
       "bio": null,
       "company": "National University of Singapore",
+      "created_at": "2017-01-28T02:59:58Z",
       "total_stars": 5445
     },
     {
@@ -1218,6 +1308,7 @@
       "location": "Singapore",
       "bio": "Newbie programmer",
       "company": null,
+      "created_at": "2013-12-28T14:46:56Z",
       "total_stars": 1089
     },
     {
@@ -1231,7 +1322,8 @@
       "location": "Singapore",
       "bio": "I am currently a Phd Candidate at Nanyang Technological University, Singapore, specialize in computer vision and robotics",
       "company": "Nanyang Technological University",
-      "total_stars": 3554
+      "created_at": "2014-05-13T09:13:54Z",
+      "total_stars": 3555
     },
     {
       "login": "VainF",
@@ -1244,6 +1336,7 @@
       "location": "Singapore",
       "bio": "Zzz (¦3[▓▓] | Ph.D. Student @ NUS \r\n",
       "company": "National University of Singapore",
+      "created_at": "2016-04-21T09:12:29Z",
       "total_stars": 10172
     },
     {
@@ -1257,6 +1350,7 @@
       "location": "Singapore",
       "bio": "<script>alert('momika233')</script>",
       "company": null,
+      "created_at": "2019-10-08T06:41:51Z",
       "total_stars": 701
     },
     {
@@ -1270,6 +1364,7 @@
       "location": "Singapore",
       "bio": "Lifelong Learner, Not available for hiring.",
       "company": null,
+      "created_at": "2008-04-13T18:12:39Z",
       "total_stars": 61
     },
     {
@@ -1283,7 +1378,8 @@
       "location": "Singapore",
       "bio": "A developer, a gopher, a Vimer, and a mechanical keyboard enthusiast.",
       "company": null,
-      "total_stars": 4771
+      "created_at": "2011-06-20T02:28:23Z",
+      "total_stars": 4774
     },
     {
       "login": "lxtGH",
@@ -1296,7 +1392,8 @@
       "location": "Singapore",
       "bio": "Work For Multi-Modal Models.\r\n\r\n\r\n",
       "company": "Bytedance (Tiktok)",
-      "total_stars": 5058
+      "created_at": "2016-02-12T16:43:36Z",
+      "total_stars": 5057
     },
     {
       "login": "Spritetm",
@@ -1309,7 +1406,8 @@
       "location": "Singapore",
       "bio": null,
       "company": "Espressif",
-      "total_stars": 1293
+      "created_at": "2014-09-30T21:19:12Z",
+      "total_stars": 1292
     },
     {
       "login": "jamesmawm",
@@ -1322,7 +1420,8 @@
       "location": "Singapore",
       "bio": "Full-stack software engineer based in Singapore. Researcher in payments technology. Author of Mastering Python for Finance. ",
       "company": null,
-      "total_stars": 4083
+      "created_at": "2014-05-16T03:54:09Z",
+      "total_stars": 4084
     },
     {
       "login": "SivilTaram",
@@ -1335,6 +1434,7 @@
       "location": "Singapore",
       "bio": null,
       "company": "coding @xai-org",
+      "created_at": "2014-12-23T00:50:13Z",
       "total_stars": 1033
     }
   ],
@@ -1344,38 +1444,41 @@
       "name": "Bytedance Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
       "html_url": "https://github.com/bytedance",
-      "followers": 17674,
+      "followers": 17684,
       "following": 0,
       "public_repos": 369,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 237808
+      "created_at": "2013-04-15T08:03:53Z",
+      "total_stars": 238168
     },
     {
       "login": "cloudflare",
       "name": "Cloudflare",
       "avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
       "html_url": "https://github.com/cloudflare",
-      "followers": 13426,
+      "followers": 13449,
       "following": 0,
-      "public_repos": 485,
+      "public_repos": 486,
       "location": "San Francisco, London, Austin, Lisbon, Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 163360
+      "created_at": "2010-06-25T01:24:59Z",
+      "total_stars": 163417
     },
     {
       "login": "OptimaiNetwork",
       "name": "OptimAI Network",
       "avatar_url": "https://avatars.githubusercontent.com/u/165470045?s=88&v=4",
       "html_url": "https://github.com/OptimaiNetwork",
-      "followers": 5660,
+      "followers": 5688,
       "following": 0,
       "public_repos": 7,
       "location": "Singapore",
       "bio": "L2 DePIN Reinforcement Data Network for Agentic AI. On a mission to democratize Decentralized Data and Agentic AI — Built For the People, By the People.",
       "company": null,
+      "created_at": "2024-03-30T09:35:34Z",
       "total_stars": 177
     },
     {
@@ -1383,13 +1486,14 @@
       "name": "shareAI-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/189210346?s=88&v=4",
       "html_url": "https://github.com/shareAI-lab",
-      "followers": 3211,
+      "followers": 3212,
       "following": 0,
       "public_repos": 28,
       "location": "Singapore",
       "bio": "Hacking & Accelerating & Saving the World",
       "company": null,
-      "total_stars": 70365
+      "created_at": "2024-11-21T08:00:02Z",
+      "total_stars": 70538
     },
     {
       "login": "Shib-Chain",
@@ -1402,6 +1506,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2022-09-06T07:39:53Z",
       "total_stars": 2
     },
     {
@@ -1409,26 +1514,28 @@
       "name": "FOSSASIA",
       "avatar_url": "https://avatars.githubusercontent.com/u/6295529?s=88&v=4",
       "html_url": "https://github.com/fossasia",
-      "followers": 2584,
+      "followers": 2583,
       "following": 0,
       "public_repos": 238,
       "location": "Singapore",
       "bio": "Open Technologies developed in Asia and Around the Globe",
       "company": null,
-      "total_stars": 66955
+      "created_at": "2014-01-01T02:02:27Z",
+      "total_stars": 66956
     },
     {
       "login": "okx",
       "name": "OKX.com",
       "avatar_url": "https://avatars.githubusercontent.com/u/120148534?s=88&v=4",
       "html_url": "https://github.com/okx",
-      "followers": 2075,
+      "followers": 2077,
       "following": 0,
       "public_repos": 48,
       "location": "Singapore",
       "bio": "OKX is a world-leading digital asset exchange, providing advanced financial services to traders globally by using blockchain technology.",
       "company": null,
-      "total_stars": 4028
+      "created_at": "2022-12-09T01:40:23Z",
+      "total_stars": 4032
     },
     {
       "login": "SkyworkAI",
@@ -1437,24 +1544,26 @@
       "html_url": "https://github.com/SkyworkAI",
       "followers": 1744,
       "following": 0,
-      "public_repos": 35,
+      "public_repos": 36,
       "location": "Singapore",
       "bio": "Transfer knowledge, Unlock creativity.",
       "company": null,
-      "total_stars": 26317
+      "created_at": "2023-10-08T07:30:21Z",
+      "total_stars": 26326
     },
     {
       "login": "toeverything",
       "name": "Toeverything",
       "avatar_url": "https://avatars.githubusercontent.com/u/78728988?s=88&v=4",
       "html_url": "https://github.com/toeverything",
-      "followers": 1582,
+      "followers": 1584,
       "following": 0,
       "public_repos": 36,
       "location": "Singapore",
       "bio": "Building for a semantic future. To shape, not to adapt. https://affine.pro",
       "company": null,
-      "total_stars": 76761
+      "created_at": "2021-02-08T09:54:14Z",
+      "total_stars": 76787
     },
     {
       "login": "mind-network",
@@ -1467,7 +1576,8 @@
       "location": "Singapore",
       "bio": "Mind Network is pioneering FHE Infra for a Fully Encrypted Web",
       "company": null,
-      "total_stars": 1467
+      "created_at": "2022-01-09T13:49:46Z",
+      "total_stars": 1468
     },
     {
       "login": "MiroMindAI",
@@ -1480,7 +1590,8 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 11850
+      "created_at": "2025-04-29T14:42:17Z",
+      "total_stars": 11856
     },
     {
       "login": "DeBankDeFi",
@@ -1493,6 +1604,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2018-01-22T14:18:16Z",
       "total_stars": 445
     },
     {
@@ -1506,6 +1618,7 @@
       "location": "Singapore",
       "bio": "Neyra Labs builds the privacy layer for AI & the new internet—client-side encryption, client AI, and Web3 storage powered by Drive369  DAO (GhostDrive Protocol)",
       "company": null,
+      "created_at": "2023-02-19T14:13:10Z",
       "total_stars": 2
     },
     {
@@ -1513,12 +1626,13 @@
       "name": "Mint Blockchain",
       "avatar_url": "https://avatars.githubusercontent.com/u/150416831?s=88&v=4",
       "html_url": "https://github.com/Mint-Blockchain",
-      "followers": 1167,
+      "followers": 1168,
       "following": 0,
       "public_repos": 9,
       "location": "Singapore",
       "bio": "Mint is the L2 blockchain for NFT Industry.",
       "company": null,
+      "created_at": "2023-11-10T05:27:38Z",
       "total_stars": 587
     },
     {
@@ -1526,13 +1640,14 @@
       "name": "Lark Technologies Pte. Ltd.",
       "avatar_url": "https://avatars.githubusercontent.com/u/54944174?s=88&v=4",
       "html_url": "https://github.com/larksuite",
-      "followers": 1051,
+      "followers": 1059,
       "following": 0,
       "public_repos": 33,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 18444
+      "created_at": "2019-09-05T13:02:51Z",
+      "total_stars": 18676
     },
     {
       "login": "0xmetaschool",
@@ -1545,6 +1660,7 @@
       "location": "Singapore",
       "bio": "Learn, Build and Ship the Coolest Web3 Projects",
       "company": null,
+      "created_at": "2022-02-23T14:24:31Z",
       "total_stars": 1271
     },
     {
@@ -1552,52 +1668,56 @@
       "name": "Duix",
       "avatar_url": "https://avatars.githubusercontent.com/u/170155462?s=88&v=4",
       "html_url": "https://github.com/duixcom",
-      "followers": 854,
+      "followers": 855,
       "following": 0,
       "public_repos": 2,
       "location": "Singapore",
       "bio": "Duix is a global leader in digital human(AI avatar) solutions, offering open-source technologies for video-based avatars, real-time interactive avatars.",
       "company": null,
-      "total_stars": 21002
+      "created_at": "2024-05-18T02:58:27Z",
+      "total_stars": 21013
     },
     {
       "login": "RfidResearchGroup",
       "name": "RFID Research Group",
       "avatar_url": "https://avatars.githubusercontent.com/u/40314039?s=88&v=4",
       "html_url": "https://github.com/RfidResearchGroup",
-      "followers": 826,
+      "followers": 827,
       "following": 0,
       "public_repos": 7,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 8907
+      "created_at": "2018-06-16T07:44:20Z",
+      "total_stars": 8911
     },
     {
       "login": "YouMind-OpenLab",
       "name": "YouMind OpenLab",
       "avatar_url": "https://avatars.githubusercontent.com/u/245655810?s=88&v=4",
       "html_url": "https://github.com/YouMind-OpenLab",
-      "followers": 785,
+      "followers": 792,
       "following": 0,
       "public_repos": 18,
       "location": "Singapore",
       "bio": "YouMind is where learning meets creation. In YouMind, you can learn, think, and create with AI agents. Everything flows together and grows with you.",
       "company": null,
-      "total_stars": 21715
+      "created_at": "2025-11-23T07:14:54Z",
+      "total_stars": 21845
     },
     {
       "login": "sail-sg",
       "name": "Sea AI Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/85740051?s=88&v=4",
       "html_url": "https://github.com/sail-sg",
-      "followers": 769,
+      "followers": 770,
       "following": 0,
       "public_repos": 94,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 15482
+      "created_at": "2021-06-11T10:39:05Z",
+      "total_stars": 15488
     },
     {
       "login": "terra-money",
@@ -1610,6 +1730,7 @@
       "location": "Singapore",
       "bio": "The official repositories for Terra",
       "company": null,
+      "created_at": "2018-04-09T08:58:26Z",
       "total_stars": 3203
     },
     {
@@ -1617,13 +1738,14 @@
       "name": "OceanBase",
       "avatar_url": "https://avatars.githubusercontent.com/u/82347605?s=88&v=4",
       "html_url": "https://github.com/oceanbase",
-      "followers": 720,
+      "followers": 721,
       "following": 0,
-      "public_repos": 100,
+      "public_repos": 101,
       "location": "Singapore",
       "bio": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads",
       "company": null,
-      "total_stars": 19855
+      "created_at": "2021-04-12T00:14:26Z",
+      "total_stars": 19859
     },
     {
       "login": "makerkit",
@@ -1636,7 +1758,8 @@
       "location": "Singapore",
       "bio": "MakerKit builds the best Next.js SaaS Starter Kit in the world. Built on top of a Supabase, Prisma or Drizzle backend, ship your SaaS in days instead of month",
       "company": null,
-      "total_stars": 913
+      "created_at": "2020-10-25T14:10:34Z",
+      "total_stars": 914
     },
     {
       "login": "AElfProject",
@@ -1649,6 +1772,7 @@
       "location": "Singapore",
       "bio": "aelf is an AI-enhanced cloud-native layer-1 blockchain network based in Singapore.",
       "company": null,
+      "created_at": "2017-07-11T04:29:25Z",
       "total_stars": 1660
     },
     {
@@ -1662,7 +1786,8 @@
       "location": "Singapore",
       "bio": "Driving South-east Asia forward!",
       "company": null,
-      "total_stars": 24223
+      "created_at": "2016-02-17T02:10:15Z",
+      "total_stars": 24225
     },
     {
       "login": "Ecrox-Chain",
@@ -1675,6 +1800,7 @@
       "location": "Singapore",
       "bio": "Ecrox Chain: A Revolutionary Blockchain Ecosystem Set to Redefine Secure and High-Speed Transactions.",
       "company": null,
+      "created_at": "2023-09-06T10:18:55Z",
       "total_stars": 0
     },
     {
@@ -1688,6 +1814,7 @@
       "location": "Singapore",
       "bio": "The first aggregated Layer 3 zkEVM network that links Ethereum and its Layer 2 Rollups for any use case.",
       "company": null,
+      "created_at": "2021-05-26T15:10:10Z",
       "total_stars": 233
     },
     {
@@ -1695,13 +1822,14 @@
       "name": "LMMs-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/154951679?s=88&v=4",
       "html_url": "https://github.com/EvolvingLMMs-Lab",
-      "followers": 560,
+      "followers": 561,
       "following": 0,
-      "public_repos": 31,
+      "public_repos": 32,
       "location": "Singapore",
       "bio": "Feeling and building multimodal intelligence.",
       "company": null,
-      "total_stars": 14998
+      "created_at": "2023-12-27T04:31:39Z",
+      "total_stars": 15015
     },
     {
       "login": "CodePhiliaX",
@@ -1714,7 +1842,8 @@
       "location": "Singapore",
       "bio": "Passionate about code, passionate about open source.",
       "company": null,
-      "total_stars": 26495
+      "created_at": "2023-04-26T01:40:35Z",
+      "total_stars": 26500
     },
     {
       "login": "longbridge",
@@ -1727,19 +1856,21 @@
       "location": "Singapore",
       "bio": "Longbridge Developers",
       "company": null,
-      "total_stars": 14057
+      "created_at": "2020-07-17T08:10:18Z",
+      "total_stars": 14061
     },
     {
       "login": "opengovsg",
       "name": "Open Government Products",
       "avatar_url": "https://avatars.githubusercontent.com/u/36905052?s=88&v=4",
       "html_url": "https://github.com/opengovsg",
-      "followers": 513,
+      "followers": 514,
       "following": 0,
       "public_repos": 63,
       "location": "Singapore",
       "bio": "Building technology for the public good",
       "company": null,
+      "created_at": "2018-02-28T00:31:49Z",
       "total_stars": 981
     },
     {
@@ -1753,7 +1884,8 @@
       "location": "Singapore",
       "bio": "Simple, Non-custodial auth infrastructure for Web3 wallets and dapps. Social logins, powered by off-chain multi-sigs on the Auth Network",
       "company": null,
-      "total_stars": 1203
+      "created_at": "2021-11-03T03:41:41Z",
+      "total_stars": 1204
     },
     {
       "login": "Particle-Network",
@@ -1766,6 +1898,7 @@
       "location": "Singapore",
       "bio": "Chain abstraction, social logins, and account abstraction in 30 lines of code.",
       "company": null,
+      "created_at": "2022-03-17T08:14:38Z",
       "total_stars": 379
     },
     {
@@ -1779,6 +1912,7 @@
       "location": "Singapore",
       "bio": "Cosmos Hub's all-in-one DeFi Appchain.  Break free from centralized exchanges and own your DeFi journey.",
       "company": null,
+      "created_at": "2023-01-03T13:36:02Z",
       "total_stars": 126
     },
     {
@@ -1792,6 +1926,7 @@
       "location": "Singapore",
       "bio": "The first Bitcoin security-equivalent Layer 2 based on the BitVM paradigm",
       "company": null,
+      "created_at": "2023-12-14T11:55:14Z",
       "total_stars": 116
     },
     {
@@ -1805,6 +1940,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2021-02-19T04:03:58Z",
       "total_stars": 2008
     },
     {
@@ -1818,6 +1954,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2023-04-17T05:21:51Z",
       "total_stars": 8997
     },
     {
@@ -1825,12 +1962,13 @@
       "name": "Manus",
       "avatar_url": "https://avatars.githubusercontent.com/u/164309810?s=88&v=4",
       "html_url": "https://github.com/manus-ai-team",
-      "followers": 402,
+      "followers": 403,
       "following": 0,
       "public_repos": 0,
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2024-03-21T06:18:23Z",
       "total_stars": 0
     },
     {
@@ -1844,6 +1982,7 @@
       "location": "Singapore",
       "bio": "Pioneering fast, flexible, and scalable web3 infrastructure. Supercharge your dApp with SubQuery today.",
       "company": null,
+      "created_at": "2021-01-06T01:37:07Z",
       "total_stars": 19122
     },
     {
@@ -1857,6 +1996,7 @@
       "location": "Singapore",
       "bio": "Tools for the Web3 Data Economy",
       "company": null,
+      "created_at": "2017-08-31T22:48:50Z",
       "total_stars": 1241
     },
     {
@@ -1870,7 +2010,8 @@
       "location": "Singapore",
       "bio": "Our mission is to accelerate the design and discovery of breakthrough materials through the integration of theory, experiments, and AI.",
       "company": null,
-      "total_stars": 3069
+      "created_at": "2013-08-15T14:41:39Z",
+      "total_stars": 3072
     },
     {
       "login": "chainbase-labs",
@@ -1883,6 +2024,7 @@
       "location": "Singapore",
       "bio": "Chainbase is building the Hyperdata Network — a structured, verifiable, and AI-ready data layer powering the next generation of DataFi and onchain intelligence.",
       "company": null,
+      "created_at": "2021-12-23T06:34:57Z",
       "total_stars": 886
     },
     {
@@ -1890,12 +2032,13 @@
       "name": "Isomer",
       "avatar_url": "https://avatars.githubusercontent.com/u/40887764?s=88&v=4",
       "html_url": "https://github.com/isomerpages",
-      "followers": 390,
+      "followers": 391,
       "following": 0,
       "public_repos": 1119,
       "location": "Singapore",
       "bio": "Isomer is a informational website builder for the Government",
       "company": null,
+      "created_at": "2018-07-06T09:52:42Z",
       "total_stars": 143
     },
     {
@@ -1909,6 +2052,7 @@
       "location": "Singapore",
       "bio": "Shape your onchain identity",
       "company": null,
+      "created_at": "2022-07-31T04:20:24Z",
       "total_stars": 179
     },
     {
@@ -1916,13 +2060,14 @@
       "name": "ConsenLabs",
       "avatar_url": "https://avatars.githubusercontent.com/u/19341221?s=88&v=4",
       "html_url": "https://github.com/consenlabs",
-      "followers": 372,
+      "followers": 371,
       "following": 0,
       "public_repos": 38,
       "location": "Singapore",
       "bio": "Digital assets  under your control",
       "company": null,
-      "total_stars": 3177
+      "created_at": "2016-05-13T07:06:29Z",
+      "total_stars": 3179
     },
     {
       "login": "RabbyHub",
@@ -1935,6 +2080,7 @@
       "location": "Singapore",
       "bio": "A browser plugin for DeFi users",
       "company": null,
+      "created_at": "2021-05-26T10:25:04Z",
       "total_stars": 2137
     },
     {
@@ -1948,7 +2094,8 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 9873
+      "created_at": "2019-12-23T09:24:42Z",
+      "total_stars": 9880
     },
     {
       "login": "Sin7Y",
@@ -1961,6 +2108,7 @@
       "location": "Singapore",
       "bio": "blockchain, economy, infrastructure ",
       "company": null,
+      "created_at": "2021-07-08T06:44:30Z",
       "total_stars": 270
     },
     {
@@ -1974,6 +2122,7 @@
       "location": "Singapore",
       "bio": "Data Intelligence Network, DIN to connect Human, Data and AI",
       "company": null,
+      "created_at": "2021-09-28T03:17:17Z",
       "total_stars": 38
     },
     {
@@ -1987,6 +2136,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2023-11-10T07:24:53Z",
       "total_stars": 62
     },
     {
@@ -2000,7 +2150,8 @@
       "location": "Singapore",
       "bio": "High-level and typesafe Node.js Node-API (N-API) bindings for Rust",
       "company": null,
-      "total_stars": 9893
+      "created_at": "2017-12-01T03:58:46Z",
+      "total_stars": 9894
     },
     {
       "login": "NebulaiNetwork",
@@ -2013,6 +2164,7 @@
       "location": "Singapore",
       "bio": "A decentralized, programmable compute layer that turns idle GPUs and CPUs into a global, permissionless compute network.",
       "company": null,
+      "created_at": "2025-01-07T06:18:21Z",
       "total_stars": 2443
     },
     {
@@ -2026,7 +2178,22 @@
       "location": "Singapore",
       "bio": "Growing local AI talents and empowering start-ups, SMEs and enterprises with AI components, frameworks, platforms and advisory services.",
       "company": null,
+      "created_at": "2022-07-29T07:58:39Z",
       "total_stars": 7203
+    },
+    {
+      "login": "GovTechSG",
+      "name": "Government Technology Agency of Singapore (GovTech Singapore)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12439141?s=88&v=4",
+      "html_url": "https://github.com/GovTechSG",
+      "followers": 303,
+      "following": 0,
+      "public_repos": 133,
+      "location": "Singapore",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-05-14T03:32:23Z",
+      "total_stars": 517
     },
     {
       "login": "ffmpegwasm",
@@ -2039,20 +2206,8 @@
       "location": "Singapore",
       "bio": "ffmpeg.wasm is a pure WebAssembly / JavaScript port of FFmpeg. It enables video & audio record, convert and stream right inside browsers.",
       "company": null,
-      "total_stars": 18008
-    },
-    {
-      "login": "GovTechSG",
-      "name": "Government Technology Agency of Singapore (GovTech Singapore)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12439141?s=88&v=4",
-      "html_url": "https://github.com/GovTechSG",
-      "followers": 301,
-      "following": 0,
-      "public_repos": 133,
-      "location": "Singapore",
-      "bio": null,
-      "company": null,
-      "total_stars": 517
+      "created_at": "2019-10-25T09:37:27Z",
+      "total_stars": 18013
     },
     {
       "login": "KyberNetwork",
@@ -2065,6 +2220,7 @@
       "location": "Singapore",
       "bio": "Kyber Network is a multi-chain crypto trading and liquidity hub that connects liquidity from different sources to enable trades at the best rates",
       "company": null,
+      "created_at": "2017-05-19T17:51:12Z",
       "total_stars": 1328
     },
     {
@@ -2078,7 +2234,8 @@
       "location": "Singapore",
       "bio": "Official OrcaSlicer ",
       "company": null,
-      "total_stars": 14154
+      "created_at": "2023-05-26T10:49:16Z",
+      "total_stars": 14179
     },
     {
       "login": "risechain",
@@ -2091,6 +2248,7 @@
       "location": "Singapore",
       "bio": "RISE Chain & RISEx",
       "company": null,
+      "created_at": "2023-12-04T04:29:43Z",
       "total_stars": 402
     },
     {
@@ -2104,7 +2262,8 @@
       "location": "Singapore",
       "bio": "Contribute to your very first open source project here :)",
       "company": null,
-      "total_stars": 337
+      "created_at": "2022-06-18T12:16:16Z",
+      "total_stars": 338
     },
     {
       "login": "cartesi",
@@ -2117,6 +2276,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2018-03-23T11:19:40Z",
       "total_stars": 841
     },
     {
@@ -2130,7 +2290,8 @@
       "location": "National University of Singapore (NUS)",
       "bio": "MultiAgent Robotic MOTion laboratory at the National University of Singapore",
       "company": null,
-      "total_stars": 1589
+      "created_at": "2019-04-30T04:40:44Z",
+      "total_stars": 1591
     },
     {
       "login": "star-sg",
@@ -2143,6 +2304,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2018-10-31T07:50:04Z",
       "total_stars": 660
     },
     {
@@ -2150,12 +2312,13 @@
       "name": "OmniBTC",
       "avatar_url": "https://avatars.githubusercontent.com/u/109131039?s=88&v=4",
       "html_url": "https://github.com/OmniBTC",
-      "followers": 257,
+      "followers": 258,
       "following": 0,
       "public_repos": 23,
       "location": "Singapore",
       "bio": "Omnichain financial platform/ Omnichain aggregated liquidity protocol/ Make Finance Omnichainable",
       "company": null,
+      "created_at": "2022-07-12T05:59:27Z",
       "total_stars": 322
     },
     {
@@ -2169,6 +2332,7 @@
       "location": "Singapore",
       "bio": "The Urban Analytics Lab is a research group at the National University of Singapore. Our focus is GIS, 3D city modelling, and urban informatics",
       "company": null,
+      "created_at": "2019-06-28T06:31:38Z",
       "total_stars": 633
     },
     {
@@ -2182,6 +2346,7 @@
       "location": "Singapore",
       "bio": "Enterprise ready Hybrid Blockchain for Global Trade and Finance",
       "company": null,
+      "created_at": "2017-05-29T08:49:51Z",
       "total_stars": 282
     },
     {
@@ -2195,7 +2360,22 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "total_stars": 12466
+      "created_at": "2025-11-02T06:03:03Z",
+      "total_stars": 12471
+    },
+    {
+      "login": "menloresearch",
+      "name": "Menlo Research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176367161?s=88&v=4",
+      "html_url": "https://github.com/menloresearch",
+      "followers": 224,
+      "following": 0,
+      "public_repos": 6,
+      "location": "Singapore",
+      "bio": "Menlo is building robots.",
+      "company": null,
+      "created_at": "2024-07-23T06:07:50Z",
+      "total_stars": 16
     },
     {
       "login": "FSecureLABS",
@@ -2208,20 +2388,8 @@
       "location": "Basingstoke, Johannesburg, London, Manchester, Singapore, New York",
       "bio": null,
       "company": null,
+      "created_at": "2012-02-24T14:57:16Z",
       "total_stars": 1498
-    },
-    {
-      "login": "menloresearch",
-      "name": "Menlo Research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176367161?s=88&v=4",
-      "html_url": "https://github.com/menloresearch",
-      "followers": 221,
-      "following": 0,
-      "public_repos": 6,
-      "location": "Singapore",
-      "bio": "Menlo is building robots.",
-      "company": null,
-      "total_stars": 16
     },
     {
       "login": "reddio-com",
@@ -2234,6 +2402,7 @@
       "location": "Singapore",
       "bio": "https://reddio.com",
       "company": null,
+      "created_at": "2021-10-14T16:58:02Z",
       "total_stars": 89
     },
     {
@@ -2247,7 +2416,8 @@
       "location": "Singapore",
       "bio": "Modular logistics and supply chain operating system (LSOS)",
       "company": null,
-      "total_stars": 2267
+      "created_at": "2018-04-05T03:02:18Z",
+      "total_stars": 2272
     },
     {
       "login": "mises-id",
@@ -2260,6 +2430,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2021-06-04T03:02:25Z",
       "total_stars": 146
     },
     {
@@ -2273,6 +2444,7 @@
       "location": "Singapore",
       "bio": "LLMs for data analysis",
       "company": null,
+      "created_at": "2021-02-16T08:12:13Z",
       "total_stars": 5245
     },
     {
@@ -2286,7 +2458,8 @@
       "location": "Singapore",
       "bio": "BTW we use OCaml",
       "company": null,
-      "total_stars": 1277
+      "created_at": "2012-12-19T19:16:27Z",
+      "total_stars": 1279
     },
     {
       "login": "graphdeeplearning",
@@ -2299,6 +2472,7 @@
       "location": "Singapore",
       "bio": "We investigate fundamental techniques in Graph Deep Learning, a new framework that combines graph theory and deep neural networks.",
       "company": null,
+      "created_at": "2020-01-14T06:26:01Z",
       "total_stars": 3690
     },
     {
@@ -2312,6 +2486,7 @@
       "location": "Singapore",
       "bio": "Virtual Interaction Made Real.",
       "company": null,
+      "created_at": "2021-11-24T06:51:25Z",
       "total_stars": 572
     },
     {
@@ -2325,7 +2500,8 @@
       "location": "Singapore",
       "bio": "API7.ai is an open source software startup company delivering the most performance, security and scalable platform for APIs and microservices. ",
       "company": null,
-      "total_stars": 1925
+      "created_at": "2020-02-15T08:28:38Z",
+      "total_stars": 1927
     },
     {
       "login": "oraichain",
@@ -2338,6 +2514,7 @@
       "location": "Singapore",
       "bio": "AI Layer 1 for Data Economy and Oracle Services",
       "company": null,
+      "created_at": "2020-08-19T14:32:01Z",
       "total_stars": 272
     },
     {
@@ -2351,6 +2528,7 @@
       "location": "Singapore",
       "bio": "ai workspace for computational research",
       "company": null,
+      "created_at": "2023-02-14T03:03:43Z",
       "total_stars": 73
     },
     {
@@ -2364,6 +2542,7 @@
       "location": "Singapore",
       "bio": null,
       "company": null,
+      "created_at": "2018-10-11T06:11:57Z",
       "total_stars": 304
     },
     {
@@ -2377,6 +2556,7 @@
       "location": "Singapore",
       "bio": "CodexField: The Truly Decentralized Platform to Store, Share and Trade Code.",
       "company": null,
+      "created_at": "2023-08-08T08:55:03Z",
       "total_stars": 256
     }
   ],
@@ -2385,82 +2565,166 @@
       "full_name": "yangshun/tech-interview-handbook",
       "html_url": "https://github.com/yangshun/tech-interview-handbook",
       "description": "Curated coding interview preparation materials for busy software engineers",
-      "stargazers_count": 139603,
-      "forks_count": 16582,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "stargazers_count": 139615,
+      "forks_count": 16583,
+      "language": "TypeScript",
+      "topics": [
+        "interview-questions",
+        "coding-interviews",
+        "interview-practice",
+        "interview-preparation",
+        "algorithm"
+      ],
+      "owner_login": "yangshun",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1315101?s=88&u=0072fd0322e6b282bba91092eb379f985377a1f0&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "rustdesk/rustdesk",
       "html_url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-      "stargazers_count": 114508,
-      "forks_count": 17230,
-      "watchers_count": 0,
-      "language": "Rust"
+      "stargazers_count": 114575,
+      "forks_count": 17244,
+      "language": "Rust",
+      "topics": [
+        "remote-control",
+        "remote-desktop",
+        "teamviewer",
+        "anydesk",
+        "vnc"
+      ],
+      "owner_login": "rustdesk",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/71636191?s=88&u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "binhnguyennus/awesome-scalability",
       "html_url": "https://github.com/binhnguyennus/awesome-scalability",
       "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
-      "stargazers_count": 71086,
+      "stargazers_count": 71097,
       "forks_count": 6994,
-      "watchers_count": 0,
-      "language": null
-    },
-    {
-      "full_name": "toeverything/AFFiNE",
-      "html_url": "https://github.com/toeverything/AFFiNE",
-      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating ",
-      "stargazers_count": 68506,
-      "forks_count": 4863,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "language": null,
+      "topics": [
+        "system-design",
+        "backend",
+        "scalability",
+        "interview",
+        "architecture"
+      ],
+      "owner_login": "binhnguyennus",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/15001306?s=88&u=78e2607faf16958d6ffdf09f5a65bff28cec5f39&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "bytedance/deer-flow",
       "html_url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, suba",
-      "stargazers_count": 68438,
-      "forks_count": 9114,
-      "watchers_count": 0,
-      "language": "Python"
+      "stargazers_count": 68637,
+      "forks_count": 9145,
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agentic",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai"
+      ],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "toeverything/AFFiNE",
+      "html_url": "https://github.com/toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating ",
+      "stargazers_count": 68528,
+      "forks_count": 4869,
+      "language": "TypeScript",
+      "topics": [
+        "editor",
+        "crdt",
+        "knowledge-base",
+        "markdown",
+        "miro"
+      ],
+      "owner_login": "toeverything",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/78728988?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "unclecode/crawl4ai",
       "html_url": "https://github.com/unclecode/crawl4ai",
       "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-      "stargazers_count": 65837,
-      "forks_count": 6731,
-      "watchers_count": 0,
-      "language": "Python"
+      "stargazers_count": 65878,
+      "forks_count": 6735,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "unclecode",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12494079?s=88&u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "shareAI-lab/learn-claude-code",
       "html_url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
-      "stargazers_count": 61168,
-      "forks_count": 10004,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "stargazers_count": 61316,
+      "forks_count": 10026,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "claude-code",
+        "teaching",
+        "agent-development",
+        "ai-agent"
+      ],
+      "owner_login": "shareAI-lab",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/189210346?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "DIYgod/RSSHub",
       "html_url": "https://github.com/DIYgod/RSSHub",
       "description": "🧡 Everything is RSSible",
-      "stargazers_count": 44111,
-      "forks_count": 9795,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "stargazers_count": 44124,
+      "forks_count": 9798,
+      "language": "TypeScript",
+      "topics": [
+        "rss",
+        "twitter",
+        "weibo",
+        "bilibili",
+        "wechat"
+      ],
+      "owner_login": "DIYgod",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8266075?s=88&u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "yangshun/front-end-interview-handbook",
       "html_url": "https://github.com/yangshun/front-end-interview-handbook",
       "description": "Front End interview preparation materials for busy engineers (updated for 2026)",
-      "stargazers_count": 43965,
-      "forks_count": 5952,
-      "watchers_count": 0,
-      "language": "MDX"
+      "stargazers_count": 43966,
+      "forks_count": 5953,
+      "language": "MDX",
+      "topics": [
+        "front-end",
+        "interview-questions",
+        "html",
+        "javascript",
+        "css"
+      ],
+      "owner_login": "yangshun",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1315101?s=88&u=0072fd0322e6b282bba91092eb379f985377a1f0&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "XingangPan/DragGAN",
@@ -2468,26 +2732,55 @@
       "description": "Official Code for DragGAN (SIGGRAPH 2023)",
       "stargazers_count": 35855,
       "forks_count": 3426,
-      "watchers_count": 0,
-      "language": "Python"
+      "language": "Python",
+      "topics": [
+        "artificial-intelligence",
+        "generative-adversarial-network",
+        "generative-models",
+        "image-manipulation"
+      ],
+      "owner_login": "XingangPan",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/13579537?s=88&u=d3436a58b7f07f60d1ddd0e30e33e9c1f0b5e331&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "bytedance/UI-TARS-desktop",
       "html_url": "https://github.com/bytedance/UI-TARS-desktop",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-      "stargazers_count": 34597,
-      "forks_count": 3466,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "stargazers_count": 34717,
+      "forks_count": 3485,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "vlm",
+        "vision",
+        "computer-use",
+        "mcp"
+      ],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "halfrost/LeetCode-Go",
       "html_url": "https://github.com/halfrost/LeetCode-Go",
       "description": "✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解",
-      "stargazers_count": 33794,
-      "forks_count": 5739,
-      "watchers_count": 0,
-      "language": "Go"
+      "stargazers_count": 33793,
+      "forks_count": 5738,
+      "language": "Go",
+      "topics": [
+        "leetcode",
+        "golang",
+        "go",
+        "leetcode-golang",
+        "leetcode-solutions"
+      ],
+      "owner_login": "halfrost",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10825609?s=88&u=03334ecb4f5215e795ed600b655acd597945d4f9&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "niklasvh/html2canvas",
@@ -2495,53 +2788,102 @@
       "description": "Screenshots with JavaScript",
       "stargazers_count": 31855,
       "forks_count": 4885,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "language": "TypeScript",
+      "topics": [
+        "javascript",
+        "screenshot",
+        "dom"
+      ],
+      "owner_login": "niklasvh",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/551347?s=88&u=3b7f436a57f4a525ceb216ead0c8a145875fced8&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "cloudflare/pingora",
       "html_url": "https://github.com/cloudflare/pingora",
       "description": "A library for building fast, reliable and evolvable network services.",
-      "stargazers_count": 26657,
-      "forks_count": 1646,
-      "watchers_count": 0,
-      "language": "Rust"
+      "stargazers_count": 26663,
+      "forks_count": 1647,
+      "language": "Rust",
+      "topics": [],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "CodePhiliaX/Chat2DB",
       "html_url": "https://github.com/CodePhiliaX/Chat2DB",
       "description": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, Clic",
-      "stargazers_count": 25597,
-      "forks_count": 2808,
-      "watchers_count": 0,
-      "language": "Java"
+      "stargazers_count": 25601,
+      "forks_count": 2810,
+      "language": "Java",
+      "topics": [
+        "ai",
+        "chatgpt",
+        "datagrip",
+        "dbeaver",
+        "gpt"
+      ],
+      "owner_login": "CodePhiliaX",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/131834193?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "Vonng/ddia",
       "html_url": "https://github.com/Vonng/ddia",
       "description": "《Designing Data-Intensive Application》DDIA 第一版 / 第二版 中文翻译",
-      "stargazers_count": 23043,
-      "forks_count": 4529,
-      "watchers_count": 0,
-      "language": "Python"
+      "stargazers_count": 23048,
+      "forks_count": 4530,
+      "language": "Python",
+      "topics": [
+        "book",
+        "distributed-systems",
+        "database",
+        "ddia"
+      ],
+      "owner_login": "Vonng",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8587410?s=88&u=e9b7c9c5d370f615607fbbfe850590f467ce0ba3&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "izackwu/TeachYourselfCS-CN",
       "html_url": "https://github.com/izackwu/TeachYourselfCS-CN",
       "description": "TeachYourselfCS 的中文翻译 |  A Chinese translation of TeachYourselfCS",
-      "stargazers_count": 22060,
-      "forks_count": 3364,
-      "watchers_count": 0,
-      "language": null
+      "stargazers_count": 22059,
+      "forks_count": 3363,
+      "language": null,
+      "topics": [
+        "translation",
+        "chinese-translation",
+        "teachyourselfcs",
+        "tutorial"
+      ],
+      "owner_login": "izackwu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20233656?s=88&u=261e9618e33664855cb352dc1809167ad8e69ea0&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "matiassingers/awesome-readme",
       "html_url": "https://github.com/matiassingers/awesome-readme",
       "description": "A curated list of awesome READMEs",
-      "stargazers_count": 20918,
-      "forks_count": 3953,
-      "watchers_count": 0,
-      "language": null
+      "stargazers_count": 20920,
+      "forks_count": 3952,
+      "language": null,
+      "topics": [
+        "awesome-list",
+        "awesome",
+        "list",
+        "readme"
+      ],
+      "owner_login": "matiassingers",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/938453?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "camsong/You-Dont-Need-jQuery",
@@ -2549,8 +2891,12 @@
       "description": "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
       "stargazers_count": 20173,
       "forks_count": 1721,
-      "watchers_count": 0,
-      "language": "JavaScript"
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "camsong",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/948896?s=88&u=85a3066e49484f8c15bb9b9c40cbd331320813b8&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "subquery/subql",
@@ -2558,35 +2904,69 @@
       "description": "SubQuery is an Open, Flexible, Fast and Universal data indexing framework for web3. Our mission is to help developers create the decentralis",
       "stargazers_count": 18805,
       "forks_count": 394,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "language": "TypeScript",
+      "topics": [],
+      "owner_login": "subquery",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/77033664?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "iCHAIT/awesome-macOS",
       "html_url": "https://github.com/iCHAIT/awesome-macOS",
       "description": "  A curated list of awesome applications, softwares, tools and shiny things for macOS.",
-      "stargazers_count": 18584,
+      "stargazers_count": 18588,
       "forks_count": 1221,
-      "watchers_count": 0,
-      "language": null
+      "language": null,
+      "topics": [
+        "macos",
+        "mac",
+        "awesome-list",
+        "apple",
+        "awesome-lists"
+      ],
+      "owner_login": "iCHAIT",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8472314?s=88&u=3e6f37e42518322643eea0404d23b7d8e9dbb895&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "sczhou/CodeFormer",
       "html_url": "https://github.com/sczhou/CodeFormer",
       "description": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer",
-      "stargazers_count": 17981,
+      "stargazers_count": 17980,
       "forks_count": 3710,
-      "watchers_count": 0,
-      "language": "Python"
+      "language": "Python",
+      "topics": [
+        "codebook",
+        "codeformer",
+        "face-enhancement",
+        "face-restoration",
+        "pytorch"
+      ],
+      "owner_login": "sczhou",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/14334509?s=88&u=7d30c71af7c2ab4d4f2fbbdead98722f5886cee8&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "ffmpegwasm/ffmpeg.wasm",
       "html_url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
       "description": "FFmpeg for browser, powered by WebAssembly",
-      "stargazers_count": 17479,
+      "stargazers_count": 17484,
       "forks_count": 1071,
-      "watchers_count": 0,
-      "language": "C"
+      "language": "C",
+      "topics": [
+        "ffmpeg",
+        "wasm",
+        "experimental-features",
+        "video",
+        "audio"
+      ],
+      "owner_login": "ffmpegwasm",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/56998921?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "DIYgod/DPlayer",
@@ -2594,8 +2974,18 @@
       "description": ":lollipop: Wow, such a lovely HTML5 danmaku video player",
       "stargazers_count": 16391,
       "forks_count": 2487,
-      "watchers_count": 0,
-      "language": "JavaScript"
+      "language": "JavaScript",
+      "topics": [
+        "dplayer",
+        "video",
+        "player",
+        "danmaku",
+        "hls"
+      ],
+      "owner_login": "DIYgod",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8266075?s=88&u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "grab/front-end-guide",
@@ -2603,152 +2993,306 @@
       "description": "📚 Study guide and introduction to the modern front end stack.",
       "stargazers_count": 15239,
       "forks_count": 1102,
-      "watchers_count": 0,
-      "language": "JavaScript"
+      "language": "JavaScript",
+      "topics": [
+        "front-end",
+        "grab",
+        "engineering",
+        "study-plan",
+        "javascript"
+      ],
+      "owner_login": "grab",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17284363?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "cloudflare/cloudflared",
       "html_url": "https://github.com/cloudflare/cloudflared",
       "description": "Cloudflare Tunnel client",
-      "stargazers_count": 14226,
-      "forks_count": 1295,
-      "watchers_count": 0,
-      "language": "Go"
+      "stargazers_count": 14230,
+      "forks_count": 1298,
+      "language": "Go",
+      "topics": [
+        "cloudflare",
+        "reverse-proxy",
+        "cloudflare-tunnel",
+        "zero-trust-network-access"
+      ],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "OrcaSlicer/OrcaSlicer",
       "html_url": "https://github.com/OrcaSlicer/OrcaSlicer",
       "description": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",
-      "stargazers_count": 14104,
-      "forks_count": 2419,
-      "watchers_count": 0,
-      "language": "C++"
+      "stargazers_count": 14129,
+      "forks_count": 2427,
+      "language": "C++",
+      "topics": [
+        "3d-printer",
+        "3d-printing",
+        "makers",
+        "orca",
+        "orcaslicer"
+      ],
+      "owner_login": "OrcaSlicer",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/134699248?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "moonD4rk/HackBrowserData",
       "html_url": "https://github.com/moonD4rk/HackBrowserData",
       "description": "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).",
-      "stargazers_count": 14099,
-      "forks_count": 1778,
-      "watchers_count": 0,
-      "language": "Go"
+      "stargazers_count": 14104,
+      "forks_count": 1777,
+      "language": "Go",
+      "topics": [
+        "chrome",
+        "macos",
+        "windows",
+        "pentest-tool",
+        "hacking"
+      ],
+      "owner_login": "moonD4rk",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/24284231?s=88&u=9f095f72efa33857739af052beb9c528ba8bba20&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "AmazingAng/WTF-Solidity",
       "html_url": "https://github.com/AmazingAng/WTF-Solidity",
       "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
-      "stargazers_count": 13978,
+      "stargazers_count": 13977,
       "forks_count": 2418,
-      "watchers_count": 0,
-      "language": "Solidity"
+      "language": "Solidity",
+      "topics": [
+        "airdrop",
+        "auction",
+        "blockchain",
+        "dapp",
+        "dapps"
+      ],
+      "owner_login": "AmazingAng",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/14728591?s=88&u=c13f8b64443351a60ef0ac2a610aeaed1ee49da2&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "halfrost/Halfrost-Field",
       "html_url": "https://github.com/halfrost/Halfrost-Field",
       "description": "✍🏻 这里是写博客的地方 —— Halfrost-Field 冰霜之地",
-      "stargazers_count": 13213,
+      "stargazers_count": 13214,
       "forks_count": 1880,
-      "watchers_count": 0,
-      "language": "Go"
+      "language": "Go",
+      "topics": [
+        "ios",
+        "source-code",
+        "objective-c",
+        "swift",
+        "javascript"
+      ],
+      "owner_login": "halfrost",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10825609?s=88&u=03334ecb4f5215e795ed600b655acd597945d4f9&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "GreyDGL/PentestGPT",
       "html_url": "https://github.com/GreyDGL/PentestGPT",
       "description": "Automated Penetration Testing Agentic Framework Powered by Large Language Models",
-      "stargazers_count": 13167,
-      "forks_count": 2259,
-      "watchers_count": 0,
-      "language": "Python"
+      "stargazers_count": 13183,
+      "forks_count": 2260,
+      "language": "Python",
+      "topics": [
+        "penetration-testing",
+        "python",
+        "large-language-models",
+        "llm"
+      ],
+      "owner_login": "GreyDGL",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/78410652?s=88&u=317b9d7badfdd48154c750f10883d1832f3a67ff&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "duixcom/Duix-Avatar",
       "html_url": "https://github.com/duixcom/Duix-Avatar",
       "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
-      "stargazers_count": 13022,
-      "forks_count": 2155,
-      "watchers_count": 0,
-      "language": "C"
+      "stargazers_count": 13030,
+      "forks_count": 2159,
+      "language": "C",
+      "topics": [
+        "ai-avatar",
+        "ai-avatars",
+        "digital-human",
+        "video-generation",
+        "cloning"
+      ],
+      "owner_login": "duixcom",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/170155462?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "ritchieng/the-incredible-pytorch",
       "html_url": "https://github.com/ritchieng/the-incredible-pytorch",
       "description": "The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch. ",
-      "stargazers_count": 12535,
+      "stargazers_count": 12536,
       "forks_count": 2215,
-      "watchers_count": 0,
-      "language": null
+      "language": null,
+      "topics": [
+        "pytorch",
+        "python",
+        "deep-learning-tutorial",
+        "deep-neural-networks",
+        "deep-learning-library"
+      ],
+      "owner_login": "ritchieng",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11657655?s=88&u=94b5ed7226c15a7b1220fb711462ebf908dda6a5&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "NoFxAiOS/nofx",
       "html_url": "https://github.com/NoFxAiOS/nofx",
       "description": "Your personal AI trading assistant. Any market. Any model. Pay with USDC, not API keys.",
-      "stargazers_count": 12438,
-      "forks_count": 2976,
-      "watchers_count": 0,
-      "language": "Go"
-    },
-    {
-      "full_name": "assimon/dujiaoka",
-      "html_url": "https://github.com/assimon/dujiaoka",
-      "description": "🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉",
-      "stargazers_count": 12051,
-      "forks_count": 2752,
-      "watchers_count": 0,
-      "language": "PHP"
+      "stargazers_count": 12443,
+      "forks_count": 2975,
+      "language": "Go",
+      "topics": [
+        "ai-trading",
+        "agentictrading",
+        "ai",
+        "trading",
+        "arbitrage"
+      ],
+      "owner_login": "NoFxAiOS",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/241546879?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
       "html_url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
       "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image genera",
-      "stargazers_count": 12051,
-      "forks_count": 1302,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "stargazers_count": 12099,
+      "forks_count": 1307,
+      "language": "TypeScript",
+      "topics": [
+        "gemini-ai",
+        "nano-banana-pro",
+        "prompt-engineering",
+        "awesome",
+        "nano-banana"
+      ],
+      "owner_login": "YouMind-OpenLab",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/245655810?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "assimon/dujiaoka",
+      "html_url": "https://github.com/assimon/dujiaoka",
+      "description": "🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉",
+      "stargazers_count": 12053,
+      "forks_count": 2751,
+      "language": "PHP",
+      "topics": [
+        "faka",
+        "dujiaoka",
+        "dujiaofaka"
+      ],
+      "owner_login": "assimon",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/35057561?s=88&u=8c3289ad741dbe5cd3d62d0a98e26664f06b137a&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "larksuite/cli",
       "html_url": "https://github.com/larksuite/cli",
       "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including",
-      "stargazers_count": 11593,
-      "forks_count": 767,
-      "watchers_count": 0,
-      "language": "Go"
+      "stargazers_count": 11821,
+      "forks_count": 789,
+      "language": "Go",
+      "topics": [],
+      "owner_login": "larksuite",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/54944174?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "bytedance/trae-agent",
       "html_url": "https://github.com/bytedance/trae-agent",
       "description": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
-      "stargazers_count": 11558,
+      "stargazers_count": 11563,
       "forks_count": 1271,
-      "watchers_count": 0,
-      "language": "Python"
+      "language": "Python",
+      "topics": [
+        "agent",
+        "llm",
+        "software-engineering"
+      ],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "cloudflare/quiche",
       "html_url": "https://github.com/cloudflare/quiche",
       "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
-      "stargazers_count": 11493,
-      "forks_count": 991,
-      "watchers_count": 0,
-      "language": "Rust"
+      "stargazers_count": 11496,
+      "forks_count": 993,
+      "language": "Rust",
+      "topics": [
+        "quic",
+        "http3",
+        "network-programming",
+        "protocol",
+        "rust"
+      ],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "longbridge/gpui-component",
       "html_url": "https://github.com/longbridge/gpui-component",
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-      "stargazers_count": 11470,
-      "forks_count": 604,
-      "watchers_count": 0,
-      "language": "Rust"
+      "stargazers_count": 11473,
+      "forks_count": 602,
+      "language": "Rust",
+      "topics": [
+        "gpui",
+        "desktop-application",
+        "uikit",
+        "rust"
+      ],
+      "owner_login": "longbridge",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/68419756?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "JamesNK/Newtonsoft.Json",
       "html_url": "https://github.com/JamesNK/Newtonsoft.Json",
       "description": "Json.NET is a popular high-performance JSON framework for .NET",
-      "stargazers_count": 11296,
+      "stargazers_count": 11297,
       "forks_count": 3305,
-      "watchers_count": 0,
-      "language": "C#"
+      "language": "C#",
+      "topics": [
+        "json",
+        "c-sharp"
+      ],
+      "owner_login": "JamesNK",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/303201?s=88&u=a4521438844aae7f844f8717a79a9858d6c805da&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "Hackl0us/SS-Rule-Snippet",
@@ -2756,17 +3300,33 @@
       "description": "搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。",
       "stargazers_count": 11264,
       "forks_count": 1793,
-      "watchers_count": 0,
-      "language": "JavaScript"
+      "language": "JavaScript",
+      "topics": [
+        "surge",
+        "shadowrocket",
+        "gfwlist",
+        "macos",
+        "proxy"
+      ],
+      "owner_login": "Hackl0us",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10215166?s=88&u=23cf50919551a4fa8014e94cb3aef07c8650fdd9&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "bytedance/UI-TARS",
       "html_url": "https://github.com/bytedance/UI-TARS",
       "description": "Pioneering Automated GUI Interaction with Native Agents",
-      "stargazers_count": 10636,
-      "forks_count": 796,
-      "watchers_count": 0,
-      "language": "Python"
+      "stargazers_count": 10653,
+      "forks_count": 797,
+      "language": "Python",
+      "topics": [
+        "research"
+      ],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "timlrx/tailwind-nextjs-starter-blog",
@@ -2774,26 +3334,50 @@
       "description": "This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical wr",
       "stargazers_count": 10475,
       "forks_count": 2569,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "language": "TypeScript",
+      "topics": [
+        "nextjs",
+        "tailwind-css",
+        "mdx",
+        "demo-blog",
+        "reactjs"
+      ],
+      "owner_login": "timlrx",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/28362229?s=88&u=9a745ca31372ee324af682715ae88ce8522f9094&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "fossasia/visdom",
       "html_url": "https://github.com/fossasia/visdom",
       "description": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy",
-      "stargazers_count": 10257,
+      "stargazers_count": 10258,
       "forks_count": 1233,
-      "watchers_count": 0,
-      "language": "Python"
+      "language": "Python",
+      "topics": [],
+      "owner_login": "fossasia",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6295529?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "oceanbase/oceanbase",
       "html_url": "https://github.com/oceanbase/oceanbase",
       "description": "The Fastest Distributed Database for Transactional, Analytical, and  AI Workloads.",
-      "stargazers_count": 10111,
-      "forks_count": 1891,
-      "watchers_count": 0,
-      "language": "C++"
+      "stargazers_count": 10114,
+      "forks_count": 1892,
+      "language": "C++",
+      "topics": [
+        "oceanbase",
+        "paxos",
+        "htap",
+        "cloud-native",
+        "mysql-compatibility"
+      ],
+      "owner_login": "oceanbase",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/82347605?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "happydog-intj/JsBridge",
@@ -2801,8 +3385,12 @@
       "description": "android java and javascript bridge, inspired by wechat webview jsbridge",
       "stargazers_count": 9915,
       "forks_count": 2009,
-      "watchers_count": 0,
-      "language": "Java"
+      "language": "Java",
+      "topics": [],
+      "owner_login": "happydog-intj",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/212984?s=88&u=cd5ac3952f33d265ffb1bc3c25f6ba0e0bcfe682&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "cloudflare/moltworker",
@@ -2810,26 +3398,46 @@
       "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
       "stargazers_count": 9898,
       "forks_count": 1773,
-      "watchers_count": 0,
-      "language": "TypeScript"
+      "language": "TypeScript",
+      "topics": [
+        "ai-agents",
+        "cloudflare-workers"
+      ],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     },
     {
       "full_name": "rustdesk/rustdesk-server",
       "html_url": "https://github.com/rustdesk/rustdesk-server",
       "description": "RustDesk Server Program",
-      "stargazers_count": 9819,
-      "forks_count": 2339,
-      "watchers_count": 0,
-      "language": "Rust"
+      "stargazers_count": 9823,
+      "forks_count": 2341,
+      "language": "Rust",
+      "topics": [
+        "remote-desktop",
+        "remote-control",
+        "remote-access",
+        "tauri"
+      ],
+      "owner_login": "rustdesk",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/71636191?s=88&u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
+      "owner_type": "User",
+      "fork": false
     },
     {
       "full_name": "cloudflare/cfssl",
       "html_url": "https://github.com/cloudflare/cfssl",
       "description": "CFSSL: Cloudflare's PKI and TLS toolkit",
-      "stargazers_count": 9412,
-      "forks_count": 1145,
-      "watchers_count": 0,
-      "language": "Go"
+      "stargazers_count": 9413,
+      "forks_count": 1144,
+      "language": "Go",
+      "topics": [],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
     }
   ]
 }
