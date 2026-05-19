@@ -157,20 +157,23 @@
     .dd-btn .chev { display: none; }
     .dd-panel, .picker-btn, .picker-panel { display: none !important; }
 
-    ol.list { margin: 0; padding: 0; }
+    ol.list { margin: 0; padding: 0; column-count: 2; column-gap: 24pt; }
     ol.list li {
       break-inside: avoid;
-      padding: 2pt 0;
+      padding: 0;
       border: none;
       cursor: default;
       gap: 6pt;
+      line-height: 1.25;
+      font-size: 9pt;
     }
     ol.list li:hover { background: transparent; }
     .avatar { display: none; }
+    .who { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .who .name { font-weight: 500; }
+    .who .sub { display: none; }       /* full name dropped — login is enough on paper */
     .rank { color: #555; font-size: 9pt; min-width: 2.2em; }
-    .who .name { font-weight: 600; }
-    .who .sub { color: #555; font-size: 9pt; }
-    .metric { color: #000; font-size: 10pt; font-weight: 500; }
+    .metric { color: #000; font-size: 9pt; font-weight: 500; }
 
     .backdrop, .drawer, footer { display: none !important; }
     a { color: #000; text-decoration: none; }
