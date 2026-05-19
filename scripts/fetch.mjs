@@ -584,22 +584,24 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
   const enriched = Array.from(merged.values());
   console.log(`Total ${enriched.length} unique accounts ranked.`);
 
-  // Filter zero-star accounts — they're noise at the bottom of a "Top stars"
-  // leaderboard. They still appear via the followers sort if a viewer toggles,
-  // because total_stars=0 trivially fails the sort comparison.
+  // Keep the leaderboard meaningful — a "Top stars" page is embarrassing
+  // when rank 150 has 2 stars. Apply a floor + top-N cap. Small cities
+  // with fewer qualifiers simply show a shorter list.
+  const MIN_STARS = 100;
+  const MAX_PER_LIST = 100;
   const users = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'User' && x.totalStars > 0)
+      .filter(x => x.acct.type === 'User' && x.totalStars >= MIN_STARS)
       .map(x => compactAccount(x.acct, x.totalStars))
       .sort((a, b) => b.total_stars - a.total_stars)
-  );
+  ).slice(0, MAX_PER_LIST);
 
   const orgs = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'Organization' && x.totalStars > 0)
+      .filter(x => x.acct.type === 'Organization' && x.totalStars >= MIN_STARS)
       .map(x => compactAccount(x.acct, x.totalStars))
       .sort((a, b) => b.total_stars - a.total_stars)
-  );
+  ).slice(0, MAX_PER_LIST);
 
   const repos = aggregateRepos(enriched, TOP_REPOS);
 
