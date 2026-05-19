@@ -47,26 +47,48 @@
     margin-top: 2px;
   }
 
-  nav.view {
-    margin-top: 24px;
+  nav.top {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    align-items: center;
+    color: var(--muted);
+    font-size: 14px;
   }
-  nav.view select {
-    width: 100%;
+  nav.top a {
+    color: var(--muted);
+    padding: 4px 2px;
+    border-bottom: 1.5px solid transparent;
+  }
+  nav.top a:hover { color: var(--text); text-decoration: none; }
+  nav.top a.active { color: var(--text); border-bottom-color: var(--text); }
+
+  nav.pickers {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  nav.pickers select {
     appearance: none;
     -webkit-appearance: none;
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 10px 36px 10px 14px;
-    font-size: 15px;
-    font-weight: 500;
+    padding: 8px 30px 8px 12px;
+    font-size: 14px;
     background: var(--bg);
     color: var(--text);
     cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16' fill='%236b7280'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 16 16' fill='%236b7280'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
     background-repeat: no-repeat;
-    background-position: right 12px center;
+    background-position: right 10px center;
+    font-family: inherit;
+    flex: 1 1 0;
+    min-width: 0;
   }
-  nav.view select:focus { outline: 2px solid var(--link); outline-offset: 1px; }
+  nav.pickers select:focus { outline: 2px solid var(--link); outline-offset: 1px; }
+  nav.pickers select.active { font-weight: 600; }
 
   .page-title {
     font-size: 22px;
@@ -288,8 +310,11 @@
     <div class="tag">GitHub leaderboards · <span id="updated">refreshed daily</span></div>
   </header>
 
-  <nav class="view">
-    <select id="view"></select>
+  <nav class="top" id="top-nav"></nav>
+  <nav class="pickers" id="pickers">
+    <select id="pick-location" aria-label="Location"></select>
+    <select id="pick-topic"    aria-label="Topic"></select>
+    <select id="pick-language" aria-label="Language"></select>
   </nav>
 
   <h2 class="page-title" id="title">Loading…</h2>
@@ -313,7 +338,10 @@
 <script>
 (() => {
   const els = {
-    view: document.getElementById('view'),
+    topNav: document.getElementById('top-nav'),
+    pickLocation: document.getElementById('pick-location'),
+    pickTopic:    document.getElementById('pick-topic'),
+    pickLanguage: document.getElementById('pick-language'),
     title: document.getElementById('title'),
     subtitle: document.getElementById('subtitle'),
     tabs: document.getElementById('tabs'),
@@ -356,44 +384,48 @@
     history.pushState(r, '', sp.toString() ? `?${sp}` : location.pathname);
   }
 
-  // ----- View select -----
-  function renderViewSelect() {
-    const idx = state.index;
-    const cur = state.route.view === 'global' || state.route.view === 'trending'
-      ? state.route.view
-      : `${state.route.view}:${state.route.id}`;
-    const opt = (v, label) => `<option value="${v}"${v === cur ? ' selected' : ''}>${esc(label)}</option>`;
-    let html = '';
-    html += opt('global', 'Global');
-    html += opt('trending', 'Trending today');
-    if (idx.cities?.length) {
-      html += `<optgroup label="Cities">`;
-      for (const c of idx.cities) html += opt(`city:${c.slug}`, c.name);
-      html += `</optgroup>`;
-    }
-    if (idx.countries?.length) {
-      html += `<optgroup label="Countries">`;
-      for (const c of idx.countries) html += opt(`country:${c.slug}`, c.name);
-      html += `</optgroup>`;
-    }
-    if (idx.topics?.length) {
-      html += `<optgroup label="Topics">`;
-      for (const c of idx.topics) html += opt(`topic:${c.slug}`, '#' + c.name);
-      html += `</optgroup>`;
-    }
-    if (idx.languages?.length) {
-      html += `<optgroup label="Languages">`;
-      for (const l of idx.languages) html += opt(`language:${l.slug}`, l.name);
-      html += `</optgroup>`;
-    }
-    els.view.innerHTML = html;
-    els.view.onchange = () => {
-      const v = els.view.value;
-      if (v === 'global' || v === 'trending') state.route = { view: v, id: null, tab: null };
-      else { const [view, id] = v.split(':'); state.route = { view, id, tab: null }; }
-      pushRoute(state.route); loadCurrent();
-    };
+  // ----- Top nav (Global / Trending) + three category pickers -----
+  function go(view, id) {
+    state.route = { view, id: id || null, tab: null };
+    pushRoute(state.route);
+    loadCurrent();
   }
+  function renderTopNav() {
+    const r = state.route;
+    const link = (view, label) => `<a href="?${view === 'global' ? '' : 'v=' + view}" data-view="${view}" class="${r.view === view ? 'active' : ''}">${label}</a>`;
+    els.topNav.innerHTML = link('global', 'Global') + link('trending', 'Trending today');
+    els.topNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', (e) => { e.preventDefault(); go(a.dataset.view); });
+    });
+  }
+  function renderPickers() {
+    const idx = state.index, r = state.route;
+    const wireSelect = (sel, ph, items, viewKind, labelFn = (i) => i.name) => {
+      const curId = r.view === viewKind ? r.id : null;
+      sel.innerHTML = `<option value="">${esc(ph)}</option>` +
+        items.map(i => `<option value="${esc(i.slug)}"${i.slug === curId ? ' selected' : ''}>${esc(labelFn(i))}</option>`).join('');
+      sel.classList.toggle('active', !!curId);
+      sel.onchange = () => { if (sel.value) go(viewKind, sel.value); };
+    };
+    // Location combines cities + countries (with a divider via optgroup-ish blank options).
+    const locItems = [
+      ...(idx.cities    || []).map(c => ({ ...c, viewKind: 'city' })),
+      ...(idx.countries || []).map(c => ({ ...c, viewKind: 'country' })),
+    ];
+    const curLoc = (r.view === 'city' || r.view === 'country') ? `${r.view}:${r.id}` : '';
+    els.pickLocation.innerHTML = `<option value="">Location</option>` +
+      (idx.cities?.length ? `<optgroup label="Cities">${idx.cities.map(c => `<option value="city:${esc(c.slug)}"${`city:${c.slug}` === curLoc ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</optgroup>` : '') +
+      (idx.countries?.length ? `<optgroup label="Countries">${idx.countries.map(c => `<option value="country:${esc(c.slug)}"${`country:${c.slug}` === curLoc ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</optgroup>` : '');
+    els.pickLocation.classList.toggle('active', !!curLoc);
+    els.pickLocation.onchange = () => {
+      if (!els.pickLocation.value) return;
+      const [view, id] = els.pickLocation.value.split(':');
+      go(view, id);
+    };
+    wireSelect(els.pickTopic,    'Topic',    idx.topics    || [], 'topic',    (i) => '#' + i.name);
+    wireSelect(els.pickLanguage, 'Language', idx.languages || [], 'language');
+  }
+  function renderNav() { renderTopNav(); renderPickers(); }
 
   // ----- Tabs -----
   function tabsFor(data) {
@@ -508,7 +540,7 @@
     return [null, null];
   }
   async function loadCurrent() {
-    renderViewSelect();
+    renderNav();
     const [path, defaultTab] = pathFor(state.route);
     if (!path) { els.list.innerHTML = `<div class="empty">Unknown view.</div>`; return; }
     els.title.textContent = 'Loading…';
