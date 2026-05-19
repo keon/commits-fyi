@@ -436,22 +436,26 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* Language indicator — small colored dot + name, matches GitHub convention */
+  /* Language tag — pill with a colored dot, neutral background */
   .lang {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
+    gap: 5px;
     font-size: 11px;
-    color: var(--text-muted);
-    font-weight: 400;
+    line-height: 1;
+    color: var(--text);
+    font-weight: 500;
     white-space: nowrap;
+    padding: 3px 8px 3px 7px;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-muted);
+    border-radius: 999px;
   }
   .lang-dot {
-    width: 9px;
-    height: 9px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: var(--text-muted);
-    border: 1px solid rgba(0,0,0,0.06);
     flex-shrink: 0;
   }
 
