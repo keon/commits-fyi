@@ -343,10 +343,32 @@ function cacheGet(login) {
   return e.payload;
 }
 
+// Periodic-save state for pause/resume. After every N successful hydrations,
+// flush the cache to disk so a workflow kill (timeout, OOM) doesn't lose
+// hours of API work — the next cron resumes from the saved state.
+const CACHE_SAVE_EVERY = 200;
+let _cacheSaveScheduled = false;
+let _cacheUnsaved = 0;
+
 function cachePut(login, payload) {
   const key = login.toLowerCase();
   _cache.entries.set(key, { fetched_at: new Date().toISOString(), payload });
   _cache.written++;
+  _cacheUnsaved++;
+  if (_cacheUnsaved >= CACHE_SAVE_EVERY && !_cacheSaveScheduled) {
+    _cacheSaveScheduled = true;
+    setImmediate(async () => {
+      try {
+        await saveCache();
+        _cacheUnsaved = 0;
+        console.log(`Periodic save: ${_cache.entries.size} entries flushed.`);
+      } catch (e) {
+        console.warn('Periodic save failed:', e.message);
+      } finally {
+        _cacheSaveScheduled = false;
+      }
+    });
+  }
 }
 
 async function saveCache() {
@@ -869,7 +891,11 @@ async function buildTrending() {
 }
 
 async function rebuildIndex() {
-  const index = { generated_at: new Date().toISOString(), global: null, trending: null, cities: [], countries: [] };
+  const index = {
+    generated_at: new Date().toISOString(),
+    global: null, trending: null,
+    cities: [], countries: [], topics: [], languages: [],
+  };
 
   const tryRead = async (p) => { try { return JSON.parse(await readFile(p, 'utf8')); } catch { return null; } };
 
@@ -889,18 +915,29 @@ async function rebuildIndex() {
     const d = await tryRead(join(COUNTRIES_DIR, `${slug}.json`));
     if (d) index.countries.push({ name: country, slug, generated_at: d.generated_at, counts: d.counts });
   }
+  for (const topic of TOPICS) {
+    const slug = slugify(topic);
+    const d = await tryRead(join(TOPICS_DIR, `${slug}.json`));
+    if (d) index.topics.push({ name: topic, slug, generated_at: d.generated_at, counts: d.counts });
+  }
+  for (const lang of LANGUAGES) {
+    const slug = slugify(lang);
+    const d = await tryRead(join(LANGUAGES_DIR, `${slug}.json`));
+    if (d) index.languages.push({ name: lang, slug, generated_at: d.generated_at, counts: d.counts });
+  }
 
   index.cities.sort((a, b) => a.name.localeCompare(b.name));
   index.countries.sort((a, b) => a.name.localeCompare(b.name));
+  // Keep topics + languages in their CURATED order (matches LIST const) for stable UI.
 
   await writeFile(join(DATA_DIR, 'index.json'), JSON.stringify(index, null, 2));
-  console.log(`Wrote data/index.json (${index.cities.length} cities, ${index.countries.length} countries)`);
+  console.log(`Wrote data/index.json (${index.cities.length} cities, ${index.countries.length} countries, ${index.topics.length} topics, ${index.languages.length} languages)`);
 }
 
 // ----- CLI -----
 
 function parseArgs(argv) {
-  const args = { cities: [], countries: [], global: false, trending: false, all: false };
+  const args = { cities: [], countries: [], topics: [], languages: [], global: false, trending: false, all: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--all') args.all = true;
@@ -908,6 +945,8 @@ function parseArgs(argv) {
     else if (a === '--trending') args.trending = true;
     else if (a === '--city') args.cities.push(argv[++i]);
     else if (a === '--country') args.countries.push(argv[++i]);
+    else if (a === '--topic') args.topics.push(argv[++i]);
+    else if (a === '--language') args.languages.push(argv[++i]);
     else { console.error('Unknown arg:', a); process.exit(2); }
   }
   return args;
@@ -922,6 +961,8 @@ async function main() {
     args.trending = true;
     args.cities = CITIES.slice();
     args.countries = COUNTRIES.slice();
+    args.topics = TOPICS.slice();
+    args.languages = LANGUAGES.slice();
   }
 
   if (!existsSync(DATA_DIR)) await mkdir(DATA_DIR, { recursive: true });
@@ -946,6 +987,14 @@ async function main() {
   for (const country of args.countries) {
     try { await buildLocation(country, 'country', COUNTRIES_DIR, ownerPool); }
     catch (e) { console.error(`country ${country} FAILED:`, e.message); }
+  }
+  for (const topic of args.topics) {
+    try { await buildTopic(topic); }
+    catch (e) { console.error(`topic ${topic} FAILED:`, e.message); }
+  }
+  for (const lang of args.languages) {
+    try { await buildLanguage(lang); }
+    catch (e) { console.error(`language ${lang} FAILED:`, e.message); }
   }
 
   await rebuildIndex();

@@ -44,7 +44,9 @@ jobs:
 
       - name: Fetch rankings
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Prefer the user-configured PAT (separate 5000-pt/hr GraphQL budget
+          # from the workflow GITHUB_TOKEN which is shared with other jobs).
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           CITIES: ${{ github.event.inputs.cities }}
         run: |
           if [ -n "$CITIES" ]; then

@@ -113,7 +113,6 @@
     flex: 1;
     max-width: 280px;
   }
-  .controls-row #filter { display: none; }
   @media (max-width: 880px) {
     .layout { grid-template-columns: 1fr; padding: 16px; gap: 12px; }
     nav.sidebar { display: none; }
@@ -291,6 +290,28 @@
     font-variant-numeric: tabular-nums;
   }
   .page-summary span { white-space: nowrap; }
+
+  .topic-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+  }
+  .topic-chips:empty { display: none; }
+  .topic-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--bg-subtle);
+    border: 1px solid var(--border-muted);
+    color: var(--text);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    text-decoration: none;
+  }
+  .topic-chip:hover { background: var(--bg-emphasis); text-decoration: none; }
+  .topic-chip .count { color: var(--text-muted); font-variant-numeric: tabular-nums; }
 
   /* Tabs + filter unified row */
   .controls-row {
@@ -723,6 +744,7 @@
       <h1 class="page-title" id="page-title">Loading…</h1>
       <div class="page-sub" id="page-sub"></div>
       <div class="page-summary" id="page-summary"></div>
+      <div class="topic-chips" id="topic-chips"></div>
     </div>
 
     <div class="controls-row">
@@ -772,6 +794,7 @@
     pageTitle: document.getElementById('page-title'),
     pageSub: document.getElementById('page-sub'),
     pageSummary: document.getElementById('page-summary'),
+    topicChips: document.getElementById('topic-chips'),
     tabs: document.getElementById('tabs'),
     filter: document.getElementById('filter'),
     status: document.getElementById('status'),
@@ -938,6 +961,16 @@
       html += `<optgroup label="Countries">`;
       for (const c of idx.countries) html += opt(`country:${c.slug}`, c.name, curVal === `country:${c.slug}`);
       html += `</optgroup>`;
+      if (idx.topics?.length) {
+        html += `<optgroup label="Topics">`;
+        for (const c of idx.topics) html += opt(`topic:${c.slug}`, c.name, curVal === `topic:${c.slug}`);
+        html += `</optgroup>`;
+      }
+      if (idx.languages?.length) {
+        html += `<optgroup label="Languages">`;
+        for (const c of idx.languages) html += opt(`language:${c.slug}`, c.name, curVal === `language:${c.slug}`);
+        html += `</optgroup>`;
+      }
       select.innerHTML = html;
       select.onchange = () => {
         const v = select.value;
@@ -996,6 +1029,8 @@
       tabs.push({ id: 'active',  label: 'Active',  count: data.counts.active });
       tabs.push({ id: 'new',     label: 'New',     count: data.counts.new });
       if (data.counts.surging != null) tabs.push({ id: 'surging', label: 'Surging (6mo)', count: data.counts.surging });
+    } else if (view === 'topic' || view === 'language') {
+      tabs.push({ id: 'repos', label: 'Repositories', count: data.counts.repos });
     } else {
       tabs.push({ id: 'users', label: 'Users',         count: data.counts.users });
       tabs.push({ id: 'orgs',  label: 'Organizations', count: data.counts.orgs });
@@ -1033,6 +1068,10 @@
       els.pageSummary.innerHTML = parts.join('');
       return;
     }
+    if (view === 'topic' || view === 'language') {
+      els.pageSummary.innerHTML = `<span><span class="num">${fmt(data.counts.repos)}</span> repositories</span>`;
+      return;
+    }
     const t = data.totals || {};
     els.pageSummary.innerHTML = `
       <span><span class="num">${fmt(data.counts.users)}</span> users</span>
@@ -1040,6 +1079,25 @@
       <span><span class="num">${fmt((t.user_stars || 0) + (t.org_stars || 0))}</span> combined stars</span>
       <span><span class="num">${fmt((t.user_followers || 0) + (t.org_followers || 0))}</span> combined followers</span>
     `;
+  }
+
+  function renderTopicChips(data) {
+    const topics = data.top_topics || [];
+    if (!topics.length) { els.topicChips.innerHTML = ''; return; }
+    els.topicChips.innerHTML = topics.slice(0, 12).map(t => {
+      const slug = esc(t.name);
+      return `<a class="topic-chip" href="?v=topic&id=${slug}">${esc(t.name)} <span class="count">${t.count}</span></a>`;
+    }).join('');
+    // Wire chip clicks to the same internal nav
+    els.topicChips.querySelectorAll('.topic-chip').forEach(a => {
+      a.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = new URL(a.href, location.origin).searchParams.get('id');
+        state.route = { view: 'topic', id, tab: null };
+        pushRoute(state.route);
+        loadCurrent();
+      });
+    });
   }
 
   function renderHeader(data) {
@@ -1055,6 +1113,12 @@
     } else if (data.kind === 'country') {
       els.pageTitle.textContent = data.name;
       els.pageSub.textContent = `Top users, organizations, and repositories with profile location matching "${data.name}".`;
+    } else if (data.kind === 'topic') {
+      els.pageTitle.textContent = '#' + data.name;
+      els.pageSub.textContent = `Most-starred repositories tagged with the "${data.name}" topic.`;
+    } else if (data.kind === 'language') {
+      els.pageTitle.textContent = data.name;
+      els.pageSub.textContent = `Most-starred repositories whose primary language is ${data.name}.`;
     }
     els.updatedLabel.textContent = `Updated ${relative(data.generated_at)}`;
   }
@@ -1220,6 +1284,8 @@
     else if (r.view === 'trending') { path = 'data/trending.json'; defaultTab = 'active'; }
     else if (r.view === 'city') { path = `data/cities/${r.id}.json`; defaultTab = 'users'; }
     else if (r.view === 'country') { path = `data/countries/${r.id}.json`; defaultTab = 'users'; }
+    else if (r.view === 'topic') { path = `data/topics/${r.id}.json`; defaultTab = 'repos'; }
+    else if (r.view === 'language') { path = `data/languages/${r.id}.json`; defaultTab = 'repos'; }
     else { setStatus('Unknown view', 'error'); return; }
 
     renderSidebar();
@@ -1234,6 +1300,7 @@
       clearStatus();
       renderHeader(data);
       renderSummary(r.view, data);
+      renderTopicChips(data);
       renderTabs(r.view, data);
       renderActive();
       renderMethod(data);
@@ -1331,6 +1398,11 @@
     const meta = [];
     if (profile.location) meta.push(`<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:-2px"><path d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zM8 9a2 2 0 100-4 2 2 0 000 4z"></path></svg> ${esc(profile.location)}`);
     if (profile.company) meta.push(`<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:-2px"><path d="M1.75 16A1.75 1.75 0 010 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 00.25-.25V8.285a.25.25 0 00-.111-.208l-1.055-.703a.749.749 0 11.832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0114.25 16h-3.5a.766.766 0 01-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 01-.75-.75V14h-1v1.25a.75.75 0 01-.75.75zm-.25-1.75c0 .138.112.25.25.25H4v-1.25a.75.75 0 01.75-.75h2.5a.75.75 0 01.75.75v1.25h2.25a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25h-8.5a.25.25 0 00-.25.25z"></path></svg> ${esc(profile.company)}`);
+    if (profile.created_at) {
+      const yrs = Math.floor((Date.now() - new Date(profile.created_at).getTime()) / (365.25 * 24 * 60 * 60 * 1000));
+      const joinedYear = new Date(profile.created_at).getUTCFullYear();
+      meta.push(`<svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor" style="vertical-align:-2px"><path d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h-2a.25.25 0 00-.25.25V6h11V3.75a.25.25 0 00-.25-.25h-2v.75a.75.75 0 01-1.5 0V3.5h-5v.75a.75.75 0 01-1.5 0V3.5zm-2 4V14.25c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"></path></svg> Joined ${joinedYear} (${yrs} yr${yrs === 1 ? '' : 's'})`);
+    }
     const repoRows = (profile.top_repos || []).map(r => `
       <a class="proj-row" href="${esc(r.html_url)}" target="_blank" rel="noopener">
         <div class="proj-head">
