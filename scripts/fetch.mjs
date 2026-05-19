@@ -16,11 +16,13 @@ const ROOT = join(__dirname, '..');
 const DATA_DIR = join(ROOT, 'data');
 const COUNTRIES_DIR = join(DATA_DIR, 'countries');
 const CITIES_DIR = join(DATA_DIR, 'cities');
+const TOPICS_DIR = join(DATA_DIR, 'topics');
+const LANGUAGES_DIR = join(DATA_DIR, 'languages');
 const CACHE_DIR = join(DATA_DIR, '_cache');
 const CACHE_FILE = join(CACHE_DIR, 'users.json');
 const CACHE_TTL_MS = 3 * 24 * 60 * 60 * 1000; // 3 days
 const REPOS_PER_USER = 30;  // cap chosen to keep cache file under GitHub's 100MB blob limit
-const CACHE_VERSION = 2;    // bump to force re-hydration when payload shape changes
+const CACHE_VERSION = 3;    // bump to force re-hydration when payload shape changes
 
 const CITIES = [
   'New York', 'San Francisco', 'Seattle', 'Austin', 'Toronto',
@@ -32,6 +34,20 @@ const COUNTRIES = [
   'United States', 'United Kingdom', 'Germany', 'France', 'Netherlands',
   'China', 'India', 'Japan', 'South Korea', 'Brazil',
   'Canada', 'Australia',
+];
+
+const TOPICS = [
+  'ai', 'llm', 'machine-learning', 'deep-learning',
+  'web3', 'blockchain', 'ethereum',
+  'react', 'nextjs', 'svelte',
+  'typescript', 'rust', 'golang',
+  'kubernetes', 'docker', 'devops',
+  'cli', 'gamedev', 'security',
+];
+
+const LANGUAGES = [
+  'TypeScript', 'JavaScript', 'Python', 'Rust', 'Go',
+  'Java', 'C++', 'C', 'Swift', 'Kotlin', 'Ruby', 'PHP',
 ];
 
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
@@ -202,6 +218,7 @@ query($login: String!, $first: Int!) {
       bio
       company
       location
+      createdAt
       followers { totalCount }
       following { totalCount }
       repositories(first: $first, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
@@ -213,8 +230,7 @@ query($login: String!, $first: Int!) {
           stargazerCount
           forkCount
           primaryLanguage { name }
-          createdAt
-          pushedAt
+          repositoryTopics(first: 5) { nodes { topic { name } } }
         }
       }
     }
@@ -223,6 +239,7 @@ query($login: String!, $first: Int!) {
       description
       location
       websiteUrl
+      createdAt
       repositories(first: $first, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) {
         totalCount
         nodes {
@@ -232,8 +249,7 @@ query($login: String!, $first: Int!) {
           stargazerCount
           forkCount
           primaryLanguage { name }
-          createdAt
-          pushedAt
+          repositoryTopics(first: 5) { nodes { topic { name } } }
         }
       }
     }
@@ -269,6 +285,7 @@ async function hydrateOneViaGraphQL(login) {
     bio: isUser ? (owner.bio || null) : (owner.description || null),
     company: isUser ? (owner.company || null) : null,
     location: owner.location || null,
+    created_at: owner.createdAt || null,
     followers: isUser ? (owner.followers?.totalCount || 0) : orgFollowers,
     following: isUser ? (owner.following?.totalCount || 0) : 0,
     public_repos: reposNode.totalCount || 0,
@@ -286,6 +303,7 @@ async function hydrateOneViaGraphQL(login) {
     stargazers_count: r.stargazerCount || 0,
     forks_count: r.forkCount || 0,
     language: r.primaryLanguage?.name || null,
+    topics: (r.repositoryTopics?.nodes || []).map(t => t.topic?.name).filter(Boolean),
     owner_login: owner.login,
     owner_avatar_url: owner.avatarUrl,
     owner_type: acct.type,
@@ -356,6 +374,7 @@ function compactAccount(a, totalStars) {
     location: a.location || null,
     bio: a.bio || null,
     company: a.company || null,
+    created_at: a.created_at || null,
     total_stars: totalStars,
   };
 }
@@ -410,17 +429,34 @@ function dedupeByLogin(arr) {
   return out;
 }
 
+// enriched.repos come from GraphQL hydration (flat owner_* fields + topics),
+// not the REST search shape — pass through directly instead of going through
+// compactRepo which expects r.owner.login.
 function aggregateRepos(enriched, limit) {
   const m = new Map();
   for (const { repos } of enriched) {
     for (const r of repos) {
       if (r.fork) continue;
-      if (!m.has(r.full_name)) m.set(r.full_name, compactRepo(r));
+      if (!m.has(r.full_name)) m.set(r.full_name, r);
     }
   }
   return Array.from(m.values())
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
     .slice(0, limit);
+}
+
+// Topic frequency across a set of repos, returned as [[topic, count], ...] desc.
+function aggregateTopics(repos, limit = 15) {
+  const counts = new Map();
+  for (const r of repos) {
+    for (const t of (r.topics || [])) {
+      counts.set(t, (counts.get(t) || 0) + 1);
+    }
+  }
+  return Array.from(counts.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([name, count]) => ({ name, count }));
 }
 
 // ----- Builders -----
@@ -603,6 +639,8 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
   ).slice(0, MAX_PER_LIST);
 
   const repos = aggregateRepos(enriched, TOP_REPOS);
+  // Top topics aggregated across this location's top repos.
+  const top_topics = aggregateTopics(repos.flatMap(r => r.topics ? [r] : []), 20);
 
   const totals = {
     user_followers: users.reduce((s, u) => s + u.followers, 0),
@@ -735,6 +773,54 @@ async function buildGlobal(ownerPool = []) {
 
   await writeFile(join(DATA_DIR, 'global.json'), JSON.stringify(payload, null, 2));
   console.log('Wrote data/global.json');
+}
+
+async function buildTopic(topic) {
+  const slug = slugify(topic);
+  console.log(`\n=== topic: ${topic} ===`);
+  const q = `topic:${topic}`;
+  console.log(`Searching top repos for topic:${topic}…`);
+  const repos = await searchRepos(q, 100);
+  console.log(`  found ${repos.length}`);
+  const payload = {
+    kind: 'topic', name: topic, slug,
+    generated_at: new Date().toISOString(),
+    counts: { repos: repos.length },
+    queries: [
+      queryObj(`Top ${repos.length} repos with topic:${topic}`,
+        `/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=100`,
+        `https://github.com/search?q=${encodeURIComponent(q)}&type=repositories&s=stars&o=desc`),
+    ],
+    repos: repos.map(compactRepo),
+  };
+  if (!existsSync(TOPICS_DIR)) await mkdir(TOPICS_DIR, { recursive: true });
+  await writeFile(join(TOPICS_DIR, `${slug}.json`), JSON.stringify(payload, null, 2));
+  console.log(`Wrote data/topics/${slug}.json`);
+  return { name: topic, slug, generated_at: payload.generated_at, counts: payload.counts };
+}
+
+async function buildLanguage(lang) {
+  const slug = slugify(lang);
+  console.log(`\n=== language: ${lang} ===`);
+  const q = `language:${JSON.stringify(lang)}`;
+  console.log(`Searching top repos for language:${lang}…`);
+  const repos = await searchRepos(q, 100);
+  console.log(`  found ${repos.length}`);
+  const payload = {
+    kind: 'language', name: lang, slug,
+    generated_at: new Date().toISOString(),
+    counts: { repos: repos.length },
+    queries: [
+      queryObj(`Top ${repos.length} repos in ${lang}`,
+        `/search/repositories?q=${encodeURIComponent(q)}&sort=stars&order=desc&per_page=100`,
+        `https://github.com/search?q=${encodeURIComponent(q)}&type=repositories&s=stars&o=desc`),
+    ],
+    repos: repos.map(compactRepo),
+  };
+  if (!existsSync(LANGUAGES_DIR)) await mkdir(LANGUAGES_DIR, { recursive: true });
+  await writeFile(join(LANGUAGES_DIR, `${slug}.json`), JSON.stringify(payload, null, 2));
+  console.log(`Wrote data/languages/${slug}.json`);
+  return { name: lang, slug, generated_at: payload.generated_at, counts: payload.counts };
 }
 
 async function buildTrending() {
