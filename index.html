@@ -47,55 +47,26 @@
     margin-top: 2px;
   }
 
-  nav.top {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 16px;
-    align-items: center;
-    color: var(--muted);
-    font-size: 14px;
-  }
-  nav.top a {
-    color: var(--muted);
-    padding: 4px 2px;
-    border-bottom: 1.5px solid transparent;
-  }
-  nav.top a:hover { color: var(--text); text-decoration: none; }
-  nav.top a.active { color: var(--text); border-bottom-color: var(--text); }
-
-  nav.pickers {
-    margin-top: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  nav.pickers select {
+  .title-row { margin: 28px 0 4px; }
+  .title-select {
     appearance: none;
     -webkit-appearance: none;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 8px 30px 8px 12px;
-    font-size: 14px;
-    background: var(--bg);
+    border: none;
+    background: transparent;
     color: var(--text);
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 16 16' fill='%236b7280'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    font-family: inherit;
-    flex: 1 1 0;
-    min-width: 0;
-  }
-  nav.pickers select:focus { outline: 2px solid var(--link); outline-offset: 1px; }
-  nav.pickers select.active { font-weight: 600; }
-
-  .page-title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
-    margin: 28px 0 4px;
     letter-spacing: -0.01em;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 0 26px 0 0;
+    max-width: 100%;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 16 16' fill='%231f2328'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0 center;
   }
+  .title-select:focus { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 4px; }
+  .title-select:hover { color: var(--link); }
   .page-sub {
     color: var(--muted);
     font-size: 13px;
@@ -310,14 +281,9 @@
     <div class="tag">GitHub leaderboards · <span id="updated">refreshed daily</span></div>
   </header>
 
-  <nav class="top" id="top-nav"></nav>
-  <nav class="pickers" id="pickers">
-    <select id="pick-location" aria-label="Location"></select>
-    <select id="pick-topic"    aria-label="Topic"></select>
-    <select id="pick-language" aria-label="Language"></select>
-  </nav>
-
-  <h2 class="page-title" id="title">Loading…</h2>
+  <div class="title-row">
+    <select class="title-select" id="title" aria-label="Choose view"></select>
+  </div>
   <div class="page-sub" id="subtitle"></div>
 
   <div class="tabs" id="tabs"></div>
@@ -338,10 +304,6 @@
 <script>
 (() => {
   const els = {
-    topNav: document.getElementById('top-nav'),
-    pickLocation: document.getElementById('pick-location'),
-    pickTopic:    document.getElementById('pick-topic'),
-    pickLanguage: document.getElementById('pick-language'),
     title: document.getElementById('title'),
     subtitle: document.getElementById('subtitle'),
     tabs: document.getElementById('tabs'),
@@ -384,56 +346,46 @@
     history.pushState(r, '', sp.toString() ? `?${sp}` : location.pathname);
   }
 
-  // ----- Top nav (Global / Trending) + three category pickers -----
+  // ----- Title selector: a single dropdown that IS the page title -----
   function go(view, id) {
     state.route = { view, id: id || null, tab: null };
     pushRoute(state.route);
     loadCurrent();
   }
-  function renderTopNav() {
-    const r = state.route;
-    const link = (view, label) => `<a href="?${view === 'global' ? '' : 'v=' + view}" data-view="${view}" class="${r.view === view ? 'active' : ''}">${label}</a>`;
-    els.topNav.innerHTML = link('global', 'Global') + link('trending', 'Trending today');
-    els.topNav.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', (e) => { e.preventDefault(); go(a.dataset.view); });
-    });
-  }
-  function renderPickers() {
+  function renderTitleSelect() {
     const idx = state.index, r = state.route;
-    const wireSelect = (sel, ph, items, viewKind, labelFn = (i) => i.name) => {
-      const curId = r.view === viewKind ? r.id : null;
-      sel.innerHTML = `<option value="">${esc(ph)}</option>` +
-        items.map(i => `<option value="${esc(i.slug)}"${i.slug === curId ? ' selected' : ''}>${esc(labelFn(i))}</option>`).join('');
-      sel.classList.toggle('active', !!curId);
-      sel.onchange = () => { if (sel.value) go(viewKind, sel.value); };
+    const cur = (r.view === 'global' || r.view === 'trending') ? r.view : `${r.view}:${r.id}`;
+    const opt = (v, label) => `<option value="${v}"${v === cur ? ' selected' : ''}>${esc(label)}</option>`;
+    let html = '';
+    html += opt('global',   'Global');
+    html += opt('trending', 'Trending today');
+    if (idx.cities?.length) {
+      html += `<optgroup label="Cities">`;
+      for (const c of idx.cities) html += opt(`city:${c.slug}`, c.name);
+      html += `</optgroup>`;
+    }
+    if (idx.countries?.length) {
+      html += `<optgroup label="Countries">`;
+      for (const c of idx.countries) html += opt(`country:${c.slug}`, c.name);
+      html += `</optgroup>`;
+    }
+    if (idx.topics?.length) {
+      html += `<optgroup label="Topics">`;
+      for (const c of idx.topics) html += opt(`topic:${c.slug}`, '#' + c.name);
+      html += `</optgroup>`;
+    }
+    if (idx.languages?.length) {
+      html += `<optgroup label="Languages">`;
+      for (const l of idx.languages) html += opt(`language:${l.slug}`, l.name);
+      html += `</optgroup>`;
+    }
+    els.title.innerHTML = html;
+    els.title.onchange = () => {
+      const v = els.title.value;
+      if (v === 'global' || v === 'trending') go(v);
+      else { const [view, id] = v.split(':'); go(view, id); }
     };
-    // Location combines cities + countries (with a divider via optgroup-ish blank options).
-    const locItems = [
-      ...(idx.cities    || []).map(c => ({ ...c, viewKind: 'city' })),
-      ...(idx.countries || []).map(c => ({ ...c, viewKind: 'country' })),
-    ];
-    const curLoc = (r.view === 'city' || r.view === 'country') ? `${r.view}:${r.id}` : '';
-    els.pickLocation.innerHTML = `<option value="">Location</option>` +
-      (idx.cities?.length ? `<optgroup label="Cities">${idx.cities.map(c => `<option value="city:${esc(c.slug)}"${`city:${c.slug}` === curLoc ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</optgroup>` : '') +
-      (idx.countries?.length ? `<optgroup label="Countries">${idx.countries.map(c => `<option value="country:${esc(c.slug)}"${`country:${c.slug}` === curLoc ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</optgroup>` : '');
-    els.pickLocation.classList.toggle('active', !!curLoc);
-    els.pickLocation.onchange = () => {
-      if (!els.pickLocation.value) return;
-      const [view, id] = els.pickLocation.value.split(':');
-      go(view, id);
-    };
-    wireSelect(els.pickTopic,    'Topic',    idx.topics    || [], 'topic',    (i) => '#' + i.name);
-    wireSelect(els.pickLanguage, 'Language', idx.languages || [], 'language');
-
-    // Show only relevant pickers: Location for account-centric views,
-    // Topic+Language for repo-centric views.
-    const v = r.view;
-    const isRepoView = v === 'trending' || v === 'topic' || v === 'language';
-    els.pickLocation.style.display = isRepoView ? 'none' : '';
-    els.pickTopic.style.display    = isRepoView ? '' : 'none';
-    els.pickLanguage.style.display = isRepoView ? '' : 'none';
   }
-  function renderNav() { renderTopNav(); renderPickers(); }
 
   // ----- Tabs -----
   function tabsFor(data) {
@@ -521,19 +473,17 @@
     </li>`;
   }
 
-  // ----- Header -----
+  // ----- Subtitle (title is the dropdown now) -----
   function renderHeader(data) {
-    const titles = {
-      global:    ['Global', 'Top GitHub accounts, worldwide.'],
-      trending:  ['Trending today', 'Repos created or active in the last 24 hours.'],
-      city:      [data.name, `Top GitHub accounts in ${data.name}.`],
-      country:   [data.name, `Top GitHub accounts in ${data.name}.`],
-      topic:     ['#' + data.name, `Most-starred repos tagged ${data.name}.`],
-      language:  [data.name, `Most-starred ${data.name} repos.`],
+    const subs = {
+      global:    'Top GitHub accounts, worldwide.',
+      trending:  'Repos created or active in the last 24 hours.',
+      city:      `Top GitHub accounts in ${data.name}.`,
+      country:   `Top GitHub accounts in ${data.name}.`,
+      topic:     `Most-starred repos tagged ${data.name}.`,
+      language:  `Most-starred ${data.name} repos.`,
     };
-    const [t, s] = titles[data.kind] || [data.name, ''];
-    els.title.textContent = t;
-    els.subtitle.textContent = s;
+    els.subtitle.textContent = subs[data.kind] || '';
     els.updated.textContent = `updated ${relative(data.generated_at)}`;
   }
 
@@ -548,10 +498,9 @@
     return [null, null];
   }
   async function loadCurrent() {
-    renderNav();
+    renderTitleSelect();
     const [path, defaultTab] = pathFor(state.route);
     if (!path) { els.list.innerHTML = `<div class="empty">Unknown view.</div>`; return; }
-    els.title.textContent = 'Loading…';
     els.subtitle.textContent = '';
     els.tabs.innerHTML = '';
     els.list.innerHTML = '';
