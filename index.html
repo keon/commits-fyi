@@ -70,8 +70,31 @@
   .page-sub {
     color: var(--muted);
     font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .picker-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-bottom: 16px;
   }
+  .picker {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 7px 28px 7px 12px;
+    font-size: 13px;
+    background: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 16 16' fill='%236b7280'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    font-family: inherit;
+  }
+  .picker:focus { outline: 2px solid var(--link); outline-offset: 1px; }
+  .picker.on { font-weight: 600; }
 
   .tabs {
     display: flex;
@@ -282,9 +305,13 @@
   </header>
 
   <div class="title-row">
-    <select class="title-select" id="title" aria-label="Choose view"></select>
+    <select class="title-select" id="title" aria-label="Location / Global / Trending"></select>
   </div>
   <div class="page-sub" id="subtitle"></div>
+  <div class="picker-row">
+    <select class="picker" id="pick-topic" aria-label="Topic"></select>
+    <select class="picker" id="pick-language" aria-label="Language"></select>
+  </div>
 
   <div class="tabs" id="tabs"></div>
 
@@ -305,6 +332,8 @@
 (() => {
   const els = {
     title: document.getElementById('title'),
+    pickTopic: document.getElementById('pick-topic'),
+    pickLanguage: document.getElementById('pick-language'),
     subtitle: document.getElementById('subtitle'),
     tabs: document.getElementById('tabs'),
     list: document.getElementById('list'),
@@ -354,9 +383,14 @@
   }
   function renderTitleSelect() {
     const idx = state.index, r = state.route;
-    const cur = (r.view === 'global' || r.view === 'trending') ? r.view : `${r.view}:${r.id}`;
+    // Title selector covers location-flavored views: Global, Trending, Cities, Countries.
+    // Topics + Languages live in their own selectors below.
+    const cur = (r.view === 'global' || r.view === 'trending') ? r.view
+              : (r.view === 'city' || r.view === 'country') ? `${r.view}:${r.id}`
+              : '';
     const opt = (v, label) => `<option value="${v}"${v === cur ? ' selected' : ''}>${esc(label)}</option>`;
     let html = '';
+    if (!cur) html = `<option value="" selected>${esc(r.view === 'topic' ? '#' + (r.id || '') : r.id || '')}</option>`;
     html += opt('global',   'Global');
     html += opt('trending', 'Trending today');
     if (idx.cities?.length) {
@@ -369,22 +403,29 @@
       for (const c of idx.countries) html += opt(`country:${c.slug}`, c.name);
       html += `</optgroup>`;
     }
-    if (idx.topics?.length) {
-      html += `<optgroup label="Topics">`;
-      for (const c of idx.topics) html += opt(`topic:${c.slug}`, '#' + c.name);
-      html += `</optgroup>`;
-    }
-    if (idx.languages?.length) {
-      html += `<optgroup label="Languages">`;
-      for (const l of idx.languages) html += opt(`language:${l.slug}`, l.name);
-      html += `</optgroup>`;
-    }
     els.title.innerHTML = html;
     els.title.onchange = () => {
       const v = els.title.value;
+      if (!v) return;
       if (v === 'global' || v === 'trending') go(v);
       else { const [view, id] = v.split(':'); go(view, id); }
     };
+  }
+
+  function renderPickers() {
+    const idx = state.index, r = state.route;
+    const curTopic    = r.view === 'topic'    ? r.id : '';
+    const curLanguage = r.view === 'language' ? r.id : '';
+    const opt = (slug, label, sel) => `<option value="${esc(slug)}"${sel ? ' selected' : ''}>${esc(label)}</option>`;
+    els.pickTopic.innerHTML = `<option value="">Topic</option>` +
+      (idx.topics || []).map(t => opt(t.slug, '#' + t.name, t.slug === curTopic)).join('');
+    els.pickTopic.classList.toggle('on', !!curTopic);
+    els.pickTopic.onchange = () => { if (els.pickTopic.value) go('topic', els.pickTopic.value); };
+
+    els.pickLanguage.innerHTML = `<option value="">Language</option>` +
+      (idx.languages || []).map(l => opt(l.slug, l.name, l.slug === curLanguage)).join('');
+    els.pickLanguage.classList.toggle('on', !!curLanguage);
+    els.pickLanguage.onchange = () => { if (els.pickLanguage.value) go('language', els.pickLanguage.value); };
   }
 
   // ----- Tabs -----
@@ -499,6 +540,7 @@
   }
   async function loadCurrent() {
     renderTitleSelect();
+    renderPickers();
     const [path, defaultTab] = pathFor(state.route);
     if (!path) { els.list.innerHTML = `<div class="empty">Unknown view.</div>`; return; }
     els.subtitle.textContent = '';
