@@ -436,24 +436,13 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  /* Language indicator — subtle colored dot + name, inline beside the title */
+  /* Language indicator — just the name, muted, inline beside the title */
   .lang {
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
     font-size: 12px;
     color: var(--text-muted);
     font-weight: 400;
     white-space: nowrap;
     align-self: flex-start;
-  }
-  .lang-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--text-muted);
-    flex-shrink: 0;
-    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
   }
   /* Row that holds the repo name + language tag on a single line. */
   .ent-name-row {
@@ -823,8 +812,7 @@
   };
   function langChip(name) {
     if (!name) return '';
-    const color = LANG_COLORS[name] || 'var(--text-muted)';
-    return `<span class="lang"><span class="lang-dot" style="background:${color}"></span>${esc(name)}</span>`;
+    return `<span class="lang">${esc(name)}</span>`;
   }
 
   const fmt = (n) => {
