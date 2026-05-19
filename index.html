@@ -47,54 +47,88 @@
     margin-top: 2px;
   }
 
-  .title-row { margin: 28px 0 4px; }
-  .title-select {
-    appearance: none;
-    -webkit-appearance: none;
+  /* Mode tabs */
+  nav.modes {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  nav.modes a {
+    color: var(--muted);
+    cursor: pointer;
+    padding: 4px 0;
+    border-bottom: 1.5px solid transparent;
+  }
+  nav.modes a:hover { color: var(--text); text-decoration: none; }
+  nav.modes a.active { color: var(--text); border-bottom-color: var(--text); font-weight: 600; }
+
+  /* Custom picker: trigger doubles as the page title */
+  .picker { position: relative; margin: 12px 0 4px; }
+  .picker-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
     border: none;
-    background: transparent;
+    padding: 0;
     color: var(--text);
+    font-family: inherit;
     font-size: 24px;
     font-weight: 700;
     letter-spacing: -0.01em;
-    font-family: inherit;
     cursor: pointer;
-    padding: 0 26px 0 0;
     max-width: 100%;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 16 16' fill='%231f2328'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
-    background-repeat: no-repeat;
-    background-position: right 0 center;
   }
-  .title-select:focus { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 4px; }
-  .title-select:hover { color: var(--link); }
+  .picker-btn .chev { font-size: 16px; color: var(--muted); transform: translateY(-1px); }
+  .picker-btn:hover { color: var(--link); }
+  .picker-btn:focus { outline: 2px solid var(--link); outline-offset: 4px; border-radius: 4px; }
+  .picker-btn[disabled] { cursor: default; opacity: 0.6; }
+  .picker-btn[disabled] .chev { display: none; }
+
+  .picker-panel {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 260px;
+    max-width: 360px;
+    max-height: 380px;
+    overflow-y: auto;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    padding: 4px 0;
+    z-index: 60;
+  }
+  .picker-group {
+    padding: 6px 14px 4px;
+    color: var(--muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .picker-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 14px;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .picker-item:hover, .picker-item.kbd { background: var(--bg-soft); }
+  .picker-item.selected { color: var(--text); font-weight: 600; }
+  .picker-item .check { color: var(--text); font-size: 12px; }
+
   .page-sub {
     color: var(--muted);
     font-size: 13px;
-    margin-bottom: 12px;
-  }
-  .picker-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
     margin-bottom: 16px;
   }
-  .picker {
-    appearance: none;
-    -webkit-appearance: none;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 7px 28px 7px 12px;
-    font-size: 13px;
-    background: var(--bg);
-    color: var(--text);
-    cursor: pointer;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 16 16' fill='%236b7280'><path d='M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z'></path></svg>");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    font-family: inherit;
-  }
-  .picker:focus { outline: 2px solid var(--link); outline-offset: 1px; }
-  .picker.on { font-weight: 600; }
 
   .tabs {
     display: flex;
@@ -304,14 +338,17 @@
     <div class="tag">GitHub leaderboards · <span id="updated">refreshed daily</span></div>
   </header>
 
-  <div class="title-row">
-    <select class="title-select" id="title" aria-label="Location / Global / Trending"></select>
+  <nav class="modes" id="modes"></nav>
+
+  <div class="picker" id="picker">
+    <button class="picker-btn" id="picker-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+      <span id="picker-label">Loading…</span>
+      <span class="chev" aria-hidden="true">⌄</span>
+    </button>
+    <div class="picker-panel" id="picker-panel" role="listbox" hidden></div>
   </div>
+
   <div class="page-sub" id="subtitle"></div>
-  <div class="picker-row">
-    <select class="picker" id="pick-topic" aria-label="Topic"></select>
-    <select class="picker" id="pick-language" aria-label="Language"></select>
-  </div>
 
   <div class="tabs" id="tabs"></div>
 
@@ -331,9 +368,11 @@
 <script>
 (() => {
   const els = {
-    title: document.getElementById('title'),
-    pickTopic: document.getElementById('pick-topic'),
-    pickLanguage: document.getElementById('pick-language'),
+    modes: document.getElementById('modes'),
+    picker: document.getElementById('picker'),
+    pickerBtn: document.getElementById('picker-btn'),
+    pickerLabel: document.getElementById('picker-label'),
+    pickerPanel: document.getElementById('picker-panel'),
     subtitle: document.getElementById('subtitle'),
     tabs: document.getElementById('tabs'),
     list: document.getElementById('list'),
@@ -375,58 +414,131 @@
     history.pushState(r, '', sp.toString() ? `?${sp}` : location.pathname);
   }
 
-  // ----- Title selector: a single dropdown that IS the page title -----
+  // ----- Mode tabs + custom picker -----
   function go(view, id) {
     state.route = { view, id: id || null, tab: null };
     pushRoute(state.route);
     loadCurrent();
   }
-  function renderTitleSelect() {
+  function modeForView(view) {
+    if (view === 'topic')    return 'topic';
+    if (view === 'language') return 'language';
+    if (view === 'trending') return 'trending';
+    return 'location';
+  }
+
+  // The four modes. `trending` has no value picker — clicking just navigates.
+  const MODES = [
+    { id: 'location', label: 'Location' },
+    { id: 'topic',    label: 'Topic' },
+    { id: 'language', label: 'Language' },
+    { id: 'trending', label: 'Trending' },
+  ];
+
+  function renderModes() {
+    const active = modeForView(state.route.view);
+    els.modes.innerHTML = MODES.map(m =>
+      `<a data-mode="${m.id}" class="${m.id === active ? 'active' : ''}">${esc(m.label)}</a>`
+    ).join('');
+    els.modes.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => onModeClick(a.dataset.mode));
+    });
+  }
+
+  function onModeClick(mode) {
+    if (mode === 'trending') { closePicker(); go('trending'); return; }
+    if (mode === 'location') {
+      // No-op if already on a location view — let user open the picker instead.
+      if (modeForView(state.route.view) === 'location') { togglePicker(); return; }
+      // Default location target: Global.
+      go('global');
+      return;
+    }
+    if (mode === 'topic' || mode === 'language') {
+      // If already on this mode, just toggle the picker.
+      if (state.route.view === mode) { togglePicker(); return; }
+      // Otherwise switch to a fresh picker so user can pick a value.
+      state.route = { view: mode, id: null, tab: null };
+      // Don't navigate yet (no id) — just show picker open. UI updates via renderPicker.
+      renderPicker();
+      openPicker();
+    }
+  }
+
+  function pickerLabelFor(view, id) {
+    if (view === 'trending') return 'Trending today';
+    if (view === 'global')   return 'Global';
+    if (view === 'city')     return state.data?.name || id || '';
+    if (view === 'country')  return state.data?.name || id || '';
+    if (view === 'topic')    return id ? '#' + id : 'Choose a topic';
+    if (view === 'language') return id ? (state.data?.name || id) : 'Choose a language';
+    return '';
+  }
+
+  function renderPicker() {
+    const r = state.route;
+    const mode = modeForView(r.view);
+    els.pickerLabel.textContent = pickerLabelFor(r.view, r.id);
+    // Trending has no picker — hide the chev and disable.
+    if (mode === 'trending') {
+      els.pickerBtn.disabled = true;
+      els.pickerBtn.setAttribute('aria-expanded', 'false');
+    } else {
+      els.pickerBtn.disabled = false;
+    }
+    populatePanel(mode);
+  }
+
+  function populatePanel(mode) {
     const idx = state.index, r = state.route;
-    // Title selector covers location-flavored views: Global, Trending, Cities, Countries.
-    // Topics + Languages live in their own selectors below.
-    const cur = (r.view === 'global' || r.view === 'trending') ? r.view
-              : (r.view === 'city' || r.view === 'country') ? `${r.view}:${r.id}`
-              : '';
-    const opt = (v, label) => `<option value="${v}"${v === cur ? ' selected' : ''}>${esc(label)}</option>`;
     let html = '';
-    if (!cur) html = `<option value="" selected>${esc(r.view === 'topic' ? '#' + (r.id || '') : r.id || '')}</option>`;
-    html += opt('global',   'Global');
-    html += opt('trending', 'Trending today');
-    if (idx.cities?.length) {
-      html += `<optgroup label="Cities">`;
-      for (const c of idx.cities) html += opt(`city:${c.slug}`, c.name);
-      html += `</optgroup>`;
+    const item = (label, view, id, current) => `
+      <div class="picker-item ${current ? 'selected' : ''}" data-view="${view}" data-id="${esc(id || '')}" role="option">
+        <span>${esc(label)}</span>
+        ${current ? '<span class="check">✓</span>' : ''}
+      </div>`;
+    if (mode === 'location') {
+      html += item('Global', 'global', null, r.view === 'global');
+      if (idx.cities?.length) {
+        html += `<div class="picker-group">Cities</div>`;
+        for (const c of idx.cities) html += item(c.name, 'city', c.slug, r.view === 'city' && r.id === c.slug);
+      }
+      if (idx.countries?.length) {
+        html += `<div class="picker-group">Countries</div>`;
+        for (const c of idx.countries) html += item(c.name, 'country', c.slug, r.view === 'country' && r.id === c.slug);
+      }
+    } else if (mode === 'topic') {
+      for (const t of (idx.topics || [])) html += item('#' + t.name, 'topic', t.slug, r.view === 'topic' && r.id === t.slug);
+    } else if (mode === 'language') {
+      for (const l of (idx.languages || [])) html += item(l.name, 'language', l.slug, r.view === 'language' && r.id === l.slug);
     }
-    if (idx.countries?.length) {
-      html += `<optgroup label="Countries">`;
-      for (const c of idx.countries) html += opt(`country:${c.slug}`, c.name);
-      html += `</optgroup>`;
-    }
-    els.title.innerHTML = html;
-    els.title.onchange = () => {
-      const v = els.title.value;
-      if (!v) return;
-      if (v === 'global' || v === 'trending') go(v);
-      else { const [view, id] = v.split(':'); go(view, id); }
-    };
+    els.pickerPanel.innerHTML = html;
+    els.pickerPanel.querySelectorAll('.picker-item').forEach(el => {
+      el.addEventListener('click', () => {
+        closePicker();
+        go(el.dataset.view, el.dataset.id || null);
+      });
+    });
   }
 
-  function renderPickers() {
-    const idx = state.index, r = state.route;
-    const curTopic    = r.view === 'topic'    ? r.id : '';
-    const curLanguage = r.view === 'language' ? r.id : '';
-    const opt = (slug, label, sel) => `<option value="${esc(slug)}"${sel ? ' selected' : ''}>${esc(label)}</option>`;
-    els.pickTopic.innerHTML = `<option value="">Topic</option>` +
-      (idx.topics || []).map(t => opt(t.slug, '#' + t.name, t.slug === curTopic)).join('');
-    els.pickTopic.classList.toggle('on', !!curTopic);
-    els.pickTopic.onchange = () => { if (els.pickTopic.value) go('topic', els.pickTopic.value); };
-
-    els.pickLanguage.innerHTML = `<option value="">Language</option>` +
-      (idx.languages || []).map(l => opt(l.slug, l.name, l.slug === curLanguage)).join('');
-    els.pickLanguage.classList.toggle('on', !!curLanguage);
-    els.pickLanguage.onchange = () => { if (els.pickLanguage.value) go('language', els.pickLanguage.value); };
+  function openPicker() {
+    if (els.pickerBtn.disabled) return;
+    els.pickerPanel.hidden = false;
+    els.pickerBtn.setAttribute('aria-expanded', 'true');
   }
+  function closePicker() {
+    els.pickerPanel.hidden = true;
+    els.pickerBtn.setAttribute('aria-expanded', 'false');
+  }
+  function togglePicker() { els.pickerPanel.hidden ? openPicker() : closePicker(); }
+
+  els.pickerBtn.addEventListener('click', togglePicker);
+  document.addEventListener('click', (e) => {
+    if (!els.picker.contains(e.target)) closePicker();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !els.pickerPanel.hidden) closePicker();
+  });
 
   // ----- Tabs -----
   function tabsFor(data) {
@@ -539,8 +651,8 @@
     return [null, null];
   }
   async function loadCurrent() {
-    renderTitleSelect();
-    renderPickers();
+    renderModes();
+    renderPicker();
     const [path, defaultTab] = pathFor(state.route);
     if (!path) { els.list.innerHTML = `<div class="empty">Unknown view.</div>`; return; }
     els.subtitle.textContent = '';
@@ -552,6 +664,7 @@
       state.data = await res.json();
       if (!state.route.tab) state.route.tab = defaultTab;
       renderHeader(state.data);
+      renderPicker();   // re-render now that state.data.name is available
       renderTabs(state.data, state.route.tab);
       renderList();
     } catch (e) {
