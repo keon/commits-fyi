@@ -370,7 +370,6 @@
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    cursor: pointer;
     user-select: none;
     white-space: nowrap;
     border-bottom: 1px solid var(--border);
@@ -378,6 +377,7 @@
     padding-bottom: 10px;
     transition: color 0.1s;
   }
+  th.sortable { cursor: pointer; }
   th.sortable:hover { color: var(--text); }
   th .arrow { color: var(--text); margin-left: 4px; font-size: 9px; vertical-align: middle; }
   tbody tr:last-child td { border-bottom: none; }
@@ -906,10 +906,12 @@
         { key: 'forks_count', label: 'Forks', sortable: true, num: true },
       ];
     }
+    // Sort is locked to followers for users and orgs — the natural API metric.
+    // Other columns are display-only.
     return [
-      { key: 'followers',    label: 'Followers',   sortable: true, num: true },
-      { key: 'total_stars',  label: 'Total stars', sortable: true, num: true },
-      { key: 'public_repos', label: 'Repos',       sortable: true, num: true },
+      { key: 'followers',    label: 'Followers',   sortable: false, num: true },
+      { key: 'total_stars',  label: 'Total stars', sortable: false, num: true },
+      { key: 'public_repos', label: 'Repos',       sortable: false, num: true },
     ];
   }
 
