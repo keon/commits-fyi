@@ -584,16 +584,19 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
   const enriched = Array.from(merged.values());
   console.log(`Total ${enriched.length} unique accounts ranked.`);
 
+  // Filter zero-star accounts — they're noise at the bottom of a "Top stars"
+  // leaderboard. They still appear via the followers sort if a viewer toggles,
+  // because total_stars=0 trivially fails the sort comparison.
   const users = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'User')
+      .filter(x => x.acct.type === 'User' && x.totalStars > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
       .sort((a, b) => b.total_stars - a.total_stars)
   );
 
   const orgs = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'Organization')
+      .filter(x => x.acct.type === 'Organization' && x.totalStars > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
       .sort((a, b) => b.total_stars - a.total_stars)
   );
@@ -679,14 +682,14 @@ async function buildGlobal(ownerPool = []) {
 
   const users = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'User')
+      .filter(x => x.acct.type === 'User' && x.totalStars > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
       .sort((a, b) => b.total_stars - a.total_stars)
   ).slice(0, GLOBAL_USERS);
 
   const orgs = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'Organization')
+      .filter(x => x.acct.type === 'Organization' && x.totalStars > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
       .sort((a, b) => b.total_stars - a.total_stars)
   ).slice(0, GLOBAL_ORGS);
