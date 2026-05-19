@@ -605,7 +605,7 @@ function buildMultiLocationQuery(name, type) {
   return `${clauses.join(' ')} type:${type}`;
 }
 
-async function buildLocation(name, kind, outDir, ownerPool = []) {
+async function buildLocation(name, kind, outDir) {
   const slug = slugify(name);
   console.log(`\n=== ${kind}: ${name} (${slug}) ===`);
   const userQ = buildMultiLocationQuery(name, 'user');
@@ -618,29 +618,9 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
   const orgSearch = await searchUsers(orgQ, LOC_ORGS);
   console.log(`  found ${orgSearch.length}`);
 
-  // Reuse owner-pool hydration where logins overlap
-  const poolByLogin = new Map(ownerPool.map(p => [p.acct.login, p]));
-  const newCandidates = [...userSearch, ...orgSearch].filter(c => !poolByLogin.has(c.login));
-  const reused = (userSearch.length + orgSearch.length) - newCandidates.length;
-  console.log(`Hydrating ${newCandidates.length} new candidates (${reused} reused from owner pool)…`);
-  const newEnriched = await hydrateAndRank(newCandidates);
-
-  // Pool entries whose self-reported location matches this city/country
-  const poolMatches = ownerPool.filter(p => locationMatches(p.acct.location, name));
-  console.log(`  + ${poolMatches.length} additional candidates from owner pool (location match)`);
-
-  // Pool entries that were ALSO in the location-followers search
-  const searchLogins = new Set([...userSearch, ...orgSearch].map(s => s.login));
-  const poolViaSearch = [];
-  for (const login of searchLogins) if (poolByLogin.has(login)) poolViaSearch.push(poolByLogin.get(login));
-
-  // Dedupe by login
-  const merged = new Map();
-  for (const e of [...newEnriched, ...poolViaSearch, ...poolMatches]) {
-    if (e?.acct?.login) merged.set(e.acct.login, e);
-  }
-  const enriched = Array.from(merged.values());
-  console.log(`Total ${enriched.length} unique accounts ranked.`);
+  console.log(`Hydrating ${userSearch.length + orgSearch.length} candidates…`);
+  const enriched = await hydrateAndRank([...userSearch, ...orgSearch]);
+  console.log(`Got ${enriched.length} hydrated accounts.`);
 
   // Default ranking is by followers — that's what the Search Users API
   // natively sorts on, and it gives a stable, intuitive "social" ranking
@@ -683,13 +663,8 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
       `https://github.com/search?q=${encodeURIComponent(orgQ)}&type=users&s=followers&o=desc`,
     ),
     queryObj(
-      `Plus owners from the global top-starred-repo pool whose self-reported location contains "${name}"`,
-      '/search/repositories?q=stars:>5000&sort=stars&order=desc',
-      'https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc',
-    ),
-    queryObj(
-      'Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request',
-      'POST /graphql  query { repositoryOwner(login: "...") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }',
+      'Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)',
+      'POST /graphql  query { repositoryOwner(login: "...") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }',
       null,
     ),
   ];
@@ -709,7 +684,7 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
   return { kind, name, slug, generated_at: payload.generated_at, counts: payload.counts };
 }
 
-async function buildGlobal(ownerPool = []) {
+async function buildGlobal() {
   console.log('\n=== global ===');
   const userQ = 'followers:>1000';
   const orgQ = 'followers:>500 type:org';
@@ -725,21 +700,9 @@ async function buildGlobal(ownerPool = []) {
   const repoSearch = await searchRepos(repoQ, TOP_REPOS);
   console.log(`  found ${repoSearch.length}`);
 
-  // Hydrate follower-based candidates that aren't already in the owner pool.
-  const poolByLogin = new Map(ownerPool.map(p => [p.acct.login.toLowerCase(), p]));
-  const newCandidates = [...userSearch, ...orgSearch]
-    .filter(c => c.login && !poolByLogin.has(c.login.toLowerCase()));
-  const reused = (userSearch.length + orgSearch.length) - newCandidates.length;
-  console.log(`Hydrating ${newCandidates.length} follower-based new candidates (${reused} reused from owner pool)…`);
-  const newEnriched = await hydrateAndRank(newCandidates);
-
-  // Union all enriched entries (owner pool + freshly hydrated), keyed case-insensitively.
-  const enrichedMap = new Map();
-  for (const e of [...ownerPool, ...newEnriched]) {
-    if (e?.acct?.login) enrichedMap.set(e.acct.login.toLowerCase(), e);
-  }
-  const enriched = Array.from(enrichedMap.values());
-  console.log(`Total unique enriched accounts: ${enriched.length}`);
+  console.log(`Hydrating ${userSearch.length + orgSearch.length} candidates…`);
+  const enriched = await hydrateAndRank([...userSearch, ...orgSearch]);
+  console.log(`Got ${enriched.length} hydrated accounts.`);
 
   const users = dedupeByLogin(
     enriched
@@ -766,21 +729,18 @@ async function buildGlobal(ownerPool = []) {
   };
 
   const queries = [
-    queryObj(`Candidate pool A — top users by followers`,
+    queryObj(`Top ${GLOBAL_USERS * 2} users by followers`,
       `/search/users?q=${encodeURIComponent(userQ)}&sort=followers&order=desc`,
       `https://github.com/search?q=${encodeURIComponent(userQ)}&type=users&s=followers&o=desc`),
-    queryObj(`Candidate pool A — top orgs by followers`,
+    queryObj(`Top ${GLOBAL_ORGS * 2} orgs by followers`,
       `/search/users?q=${encodeURIComponent(orgQ)}&sort=followers&order=desc`,
       `https://github.com/search?q=${encodeURIComponent(orgQ)}&type=users&s=followers&o=desc`),
-    queryObj(`Candidate pool B — owners of most-starred repos (top 1,000)`,
-      `/search/repositories?q=${encodeURIComponent('stars:>5000')}&sort=stars&order=desc`,
-      `https://github.com/search?q=${encodeURIComponent('stars:>5000')}&type=repositories&s=stars&o=desc`),
     queryObj(`Top ${TOP_REPOS} repos by stars (for the Repositories tab)`,
       `/search/repositories?q=${encodeURIComponent(repoQ)}&sort=stars&order=desc&per_page=${TOP_REPOS}`,
       `https://github.com/search?q=${encodeURIComponent(repoQ)}&type=repositories&s=stars&o=desc`),
     queryObj(
-      'Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request',
-      'POST /graphql  query { repositoryOwner(login: "...") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }',
+      'Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)',
+      'POST /graphql  query { repositoryOwner(login: "...") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }',
       null,
     ),
   ];
@@ -969,23 +929,19 @@ async function main() {
 
   await loadCache();
 
-  // Shared owner pool: discovered from top-starred repos. Reused across global
-  // and every city/country to catch high-star/low-follower accounts.
-  let ownerPool = [];
-  if (args.global || args.cities.length || args.countries.length) {
-    try { ownerPool = await buildOwnerPool(); }
-    catch (e) { console.error('owner pool FAILED:', e.message); }
-  }
+  // Owner pool dropped — was only useful when ranking by total_stars to surface
+  // high-star/low-follower makers. Default ranking is followers now, so the
+  // pool added users whose follower count put them below the cut anyway.
 
-  if (args.global)   { try { await buildGlobal(ownerPool); }   catch (e) { console.error('global FAILED:', e.message); } }
-  if (args.trending) { try { await buildTrending(); }          catch (e) { console.error('trending FAILED:', e.message); } }
+  if (args.global)   { try { await buildGlobal(); }   catch (e) { console.error('global FAILED:', e.message); } }
+  if (args.trending) { try { await buildTrending(); } catch (e) { console.error('trending FAILED:', e.message); } }
 
   for (const city of args.cities) {
-    try { await buildLocation(city, 'city', CITIES_DIR, ownerPool); }
+    try { await buildLocation(city, 'city', CITIES_DIR); }
     catch (e) { console.error(`city ${city} FAILED:`, e.message); }
   }
   for (const country of args.countries) {
-    try { await buildLocation(country, 'country', COUNTRIES_DIR, ownerPool); }
+    try { await buildLocation(country, 'country', COUNTRIES_DIR); }
     catch (e) { console.error(`country ${country} FAILED:`, e.message); }
   }
   for (const topic of args.topics) {

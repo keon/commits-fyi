@@ -96,6 +96,60 @@
     padding: 28px 24px;
   }
   nav.sidebar { display: none; }
+
+  /* Global search/nav bar */
+  .search-bar {
+    position: relative;
+    margin-bottom: 24px;
+    max-width: 540px;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: inherit;
+  }
+  .search-bar input::placeholder { color: var(--text-muted); }
+  .search-bar input:focus { outline: none; border-color: var(--text-muted); box-shadow: 0 0 0 3px rgba(31,35,40,0.06); }
+  .search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-top: 4px;
+    box-shadow: 0 8px 24px rgba(31,35,40,0.10);
+    z-index: 50;
+    max-height: 380px;
+    overflow-y: auto;
+  }
+  .search-suggestions.hidden { display: none; }
+  .search-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 14px;
+    color: var(--text);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .search-result:hover, .search-result.active { background: var(--bg-subtle); text-decoration: none; }
+  .search-result-kind {
+    color: var(--text-muted);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-left: 12px;
+  }
+  .search-empty { padding: 12px 14px; color: var(--text-muted); font-size: 12px; }
+
   .view-picker {
     display: flex;
     align-items: center;
@@ -736,7 +790,12 @@
 <div class="layout">
   <nav class="sidebar" id="sidebar"></nav>
   <main class="content">
-    <div class="view-picker">
+    <div class="search-bar">
+      <input id="global-search" type="text" autocomplete="off" spellcheck="false"
+        placeholder="Search a city, country, topic, language — or filter this list" />
+      <div class="search-suggestions hidden" id="search-suggestions"></div>
+    </div>
+    <div class="view-picker" hidden>
       <label for="mobile-nav-select">Showing</label>
       <select id="mobile-nav-select" aria-label="Choose view"></select>
     </div>
@@ -749,7 +808,6 @@
 
     <div class="controls-row">
       <div class="tabs" id="tabs"></div>
-      <input id="filter" type="text" placeholder="Filter…" />
     </div>
 
     <div id="status" class="status hidden"></div>
@@ -796,7 +854,9 @@
     pageSummary: document.getElementById('page-summary'),
     topicChips: document.getElementById('topic-chips'),
     tabs: document.getElementById('tabs'),
-    filter: document.getElementById('filter'),
+    filter: document.getElementById('global-search'),
+    search: document.getElementById('global-search'),
+    searchSuggest: document.getElementById('search-suggestions'),
     status: document.getElementById('status'),
     tableWrap: document.getElementById('table-wrap'),
     table: document.getElementById('table'),
@@ -991,6 +1051,7 @@
     const res = await fetch(`data/index.json?v=${Date.now()}`);
     if (!res.ok) throw new Error('index.json missing');
     state.index = await res.json();
+    NAV_INDEX = buildNavIndex(state.index);
   }
 
   async function loadJSON(path) {
@@ -1015,11 +1076,10 @@
       ];
     }
     // Sort is locked to followers for users and orgs — the natural API metric.
-    // Other columns are display-only.
+    // Total stars dropped from the leaderboard (still visible in the drawer).
     return [
-      { key: 'followers',    label: 'Followers',   sortable: false, num: true },
-      { key: 'total_stars',  label: 'Total stars', sortable: false, num: true },
-      { key: 'public_repos', label: 'Repos',       sortable: false, num: true },
+      { key: 'followers',    label: 'Followers', sortable: false, num: true },
+      { key: 'public_repos', label: 'Repos',     sortable: false, num: true },
     ];
   }
 
@@ -1076,7 +1136,6 @@
     els.pageSummary.innerHTML = `
       <span><span class="num">${fmt(data.counts.users)}</span> users</span>
       <span><span class="num">${fmt(data.counts.orgs)}</span> orgs</span>
-      <span><span class="num">${fmt((t.user_stars || 0) + (t.org_stars || 0))}</span> combined stars</span>
       <span><span class="num">${fmt((t.user_followers || 0) + (t.org_followers || 0))}</span> combined followers</span>
     `;
   }
@@ -1472,8 +1531,91 @@
     });
   });
 
+  // ----- Global search/nav bar -----
+  // Flat index of navigable targets. Built once after data/index.json loads.
+  let NAV_INDEX = [];
+  function buildNavIndex(idx) {
+    const items = [];
+    items.push({ kind: 'View', label: 'Global', view: 'global' });
+    items.push({ kind: 'View', label: 'Trending today', view: 'trending' });
+    for (const c of (idx.cities || []))     items.push({ kind: 'City',     label: c.name, view: 'city', id: c.slug });
+    for (const c of (idx.countries || []))  items.push({ kind: 'Country',  label: c.name, view: 'country', id: c.slug });
+    for (const t of (idx.topics || []))     items.push({ kind: 'Topic',    label: '#' + t.name, view: 'topic', id: t.slug });
+    for (const l of (idx.languages || []))  items.push({ kind: 'Language', label: l.name, view: 'language', id: l.slug });
+    return items;
+  }
+
+  function navigateTo(view, id) {
+    state.route = { view, id: id || null, tab: null };
+    pushRoute(state.route);
+    els.search.value = '';
+    els.searchSuggest.classList.add('hidden');
+    loadCurrent();
+  }
+
+  function renderSuggestions() {
+    const q = els.search.value.trim().toLowerCase();
+    if (!q) { els.searchSuggest.classList.add('hidden'); return; }
+    const matches = NAV_INDEX
+      .map(it => {
+        const i = it.label.toLowerCase().indexOf(q);
+        if (i < 0) return null;
+        // Prefer prefix matches; rank by where the query appears.
+        return { it, score: i === 0 ? 0 : (i === 1 || it.label.toLowerCase().startsWith('#' + q) ? 1 : 2 + i) };
+      })
+      .filter(Boolean)
+      .sort((a, b) => a.score - b.score)
+      .slice(0, 12);
+
+    if (!matches.length) {
+      els.searchSuggest.innerHTML = `<div class="search-empty">No view matches "${esc(els.search.value)}" · the list below is still filtered.</div>`;
+      els.searchSuggest.classList.remove('hidden');
+      return;
+    }
+    els.searchSuggest.innerHTML = matches.map((m, i) => `
+      <a class="search-result${i === 0 ? ' active' : ''}" href="#" data-view="${esc(m.it.view)}" data-id="${esc(m.it.id || '')}">
+        <span>${esc(m.it.label)}</span>
+        <span class="search-result-kind">${esc(m.it.kind)}</span>
+      </a>
+    `).join('');
+    els.searchSuggest.querySelectorAll('.search-result').forEach(el => {
+      el.addEventListener('mousedown', (e) => {
+        e.preventDefault();
+        navigateTo(el.dataset.view, el.dataset.id || null);
+      });
+    });
+    els.searchSuggest.classList.remove('hidden');
+  }
+
+  els.search.addEventListener('input', () => {
+    renderSuggestions();
+    renderActive();
+  });
+  els.search.addEventListener('focus', () => { if (els.search.value) renderSuggestions(); });
+  els.search.addEventListener('blur',  () => setTimeout(() => els.searchSuggest.classList.add('hidden'), 150));
+  els.search.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      els.search.value = '';
+      els.searchSuggest.classList.add('hidden');
+      renderActive();
+    } else if (e.key === 'Enter') {
+      const active = els.searchSuggest.querySelector('.search-result.active') || els.searchSuggest.querySelector('.search-result');
+      if (active) {
+        e.preventDefault();
+        navigateTo(active.dataset.view, active.dataset.id || null);
+      }
+    } else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      const items = els.searchSuggest.querySelectorAll('.search-result');
+      if (!items.length) return;
+      e.preventDefault();
+      const idx = Array.from(items).findIndex(x => x.classList.contains('active'));
+      items.forEach(x => x.classList.remove('active'));
+      const next = e.key === 'ArrowDown' ? Math.min(idx + 1, items.length - 1) : Math.max(idx - 1, 0);
+      items[next].classList.add('active');
+    }
+  });
+
   // ----- Init -----
-  els.filter.addEventListener('input', renderActive);
   window.addEventListener('popstate', () => {
     state.route = parseRoute();
     loadCurrent();
