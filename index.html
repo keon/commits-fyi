@@ -25,6 +25,8 @@
 <meta name="twitter:title" content="commits.fyi — GitHub leaderboards" />
 <meta name="twitter:description" content="Daily-refreshed rankings of GitHub users, orgs, and repos by city, country, topic, language." />
 <meta name="twitter:image" content="https://commits.fyi/og.png" />
+
+<script defer src="https://cloud.umami.is/script.js" data-website-id="9345b3b6-3557-4338-a4af-6627ef5bc1e9"></script>
 <style>
   :root {
     --bg: #ffffff;
@@ -458,6 +460,9 @@
   const state = { index: null, route: { view: 'global', id: null, tab: null }, data: null };
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  // Umami event tracker. Safe to call before the umami script has loaded.
+  const track = (name, data) => { try { window.umami && window.umami.track(name, data || {}); } catch {} };
   const fmt = (n) => {
     if (n == null) return '—';
     if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
@@ -490,6 +495,7 @@
   function go(view, id) {
     state.route = { view, id: id || null, tab: null };
     pushRoute(state.route);
+    track('view-change', { view, id: id || null });
     loadCurrent();
   }
   // ----- Sentence: "Top N [Entity] [prep] [Filter]" -----
@@ -640,6 +646,7 @@
 
   function pickEntity(newEntity) {
     closeDropdowns();
+    track('entity-change', { entity: newEntity });
     const { filter } = sentenceState();
     // If filter is repo-only and user picks non-repos, reset filter to worldwide.
     const repoOnly = (filter.kind === 'topic' || filter.kind === 'language' || filter.kind === 'trending');
@@ -925,6 +932,7 @@
     `;
   }
   async function openDrawer(stub) {
+    track('profile-open', { login: stub.login, type: stub.type });
     els.drawer.classList.add('open');
     els.backdrop.classList.add('open');
     els.drawer.setAttribute('aria-hidden', 'false');
@@ -944,6 +952,7 @@
     const snip = document.getElementById('embed-snippet');
     if (snip) snip.addEventListener('click', () => {
       navigator.clipboard?.writeText(snip.textContent).catch(() => {});
+      track('embed-copy', { login: p.login });
       const before = snip.style.color;
       snip.style.color = 'var(--link)';
       setTimeout(() => snip.style.color = before, 400);
