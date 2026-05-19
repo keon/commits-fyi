@@ -5,7 +5,7 @@
   "generated_at": "2026-05-19T13:22:35.149Z",
   "counts": {
     "users": 100,
-    "orgs": 92,
+    "orgs": 80,
     "repos": 50
   },
   "totals": {
@@ -26,13 +26,8 @@
       "ui_url": "https://github.com/search?q=location%3A%22united%20kingdom%22%20location%3A%22u.k.%22%20location%3Aengland%20location%3Abritain%20location%3A%22great%20britain%22%20location%3Alondon%20location%3Amanchester%20location%3Aedinburgh%20location%3Aglasgow%20location%3Abristol%20location%3A%22cambridge%2C%20uk%22%20location%3Aoxford%20location%3Abirmingham%20location%3Aleeds%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
-      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"United Kingdom\"",
-      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
-      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
-    },
-    {
-      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
-      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
+      "label": "Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }",
       "ui_url": null
     }
   ],
@@ -1436,6 +1431,104 @@
       "company": "Google",
       "created_at": "2009-01-10T08:09:44Z",
       "total_stars": 2375
+    },
+    {
+      "login": "robmarkcole",
+      "name": "Robin Cole",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11855322?s=88&u=49afed16355ebf7b7d3ebf3b453c06c513e8210c&v=4",
+      "html_url": "https://github.com/robmarkcole",
+      "followers": 2041,
+      "following": 3024,
+      "public_repos": 131,
+      "location": "London, UK",
+      "bio": "Tackling the worlds toughest challenges with AI & ML applied to satellite imagery",
+      "company": "@earthdaily",
+      "created_at": "2015-04-08T14:29:30Z",
+      "total_stars": 3242
+    },
+    {
+      "login": "kadikraman",
+      "name": "Kadi Kraman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6534400?s=88&u=95622405ea4e398705070eb5ab9d2a19147f11f1&v=4",
+      "html_url": "https://github.com/kadikraman",
+      "followers": 2022,
+      "following": 22,
+      "public_repos": 74,
+      "location": "London",
+      "bio": null,
+      "company": "@expo ",
+      "created_at": "2014-01-29T12:12:30Z",
+      "total_stars": 940
+    },
+    {
+      "login": "karlhadwen",
+      "name": "Karl Hadwen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/261669?s=88&u=ce4bae070c934411106342a0ed6fb10091f490e9&v=4",
+      "html_url": "https://github.com/karlhadwen",
+      "followers": 1994,
+      "following": 0,
+      "public_repos": 32,
+      "location": "Leeds, UK",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-05-02T03:25:59Z",
+      "total_stars": 4892
+    },
+    {
+      "login": "christiannwamba",
+      "name": "Christian Nwamba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8108337?s=88&v=4",
+      "html_url": "https://github.com/christiannwamba",
+      "followers": 1976,
+      "following": 50,
+      "public_repos": 21,
+      "location": "London, UK",
+      "bio": "JavaScript - Open Source  - Developer Advocate",
+      "company": null,
+      "created_at": "2014-07-09T00:31:28Z",
+      "total_stars": 15
+    },
+    {
+      "login": "fabiospampinato",
+      "name": "Fabio Spampinato",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1812093?s=88&u=0d6a92ea991be8b4d893c64f017d10b26d60e581&v=4",
+      "html_url": "https://github.com/fabiospampinato",
+      "followers": 1965,
+      "following": 53,
+      "public_repos": 410,
+      "location": "London, UK",
+      "bio": "Trying to write good software.",
+      "company": "@facebook",
+      "created_at": "2012-06-03T12:15:46Z",
+      "total_stars": 13900
+    },
+    {
+      "login": "MilesCranmer",
+      "name": "Miles Cranmer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7593028?s=88&u=0e7755ef777e573eefca1e0b73ec73fa0634aa9b&v=4",
+      "html_url": "https://github.com/MilesCranmer",
+      "followers": 1889,
+      "following": 122,
+      "public_repos": 82,
+      "location": "Cambridge, UK",
+      "bio": "Assistant Professor at University of Cambridge.\r\n\r\nWorks on AI for the physical sciences.",
+      "company": "University of Cambridge",
+      "created_at": "2014-05-15T14:15:36Z",
+      "total_stars": 6542
+    },
+    {
+      "login": "nicholasjackson",
+      "name": "Nicholas Jackson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/773533?s=88&u=c2459d49c16e7052872e8a4968b5be9db6dbf6f5&v=4",
+      "html_url": "https://github.com/nicholasjackson",
+      "followers": 1864,
+      "following": 10,
+      "public_repos": 202,
+      "location": "London",
+      "bio": "Developer advocate working for @hashicorp. \r\nInterested in Go microservices.\r\nAuthor of Building Microservices in Go and Service Mesh Patterns.",
+      "company": "@hashicorp",
+      "created_at": "2011-05-07T07:47:13Z",
+      "total_stars": 2758
     }
   ],
   "orgs": [

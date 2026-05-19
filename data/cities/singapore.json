@@ -26,13 +26,8 @@
       "ui_url": "https://github.com/search?q=location%3Asingapore%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
-      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Singapore\"",
-      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
-      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
-    },
-    {
-      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
-      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
+      "label": "Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }",
       "ui_url": null
     }
   ],

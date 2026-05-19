@@ -5,7 +5,7 @@
   "generated_at": "2026-05-19T12:26:40.737Z",
   "counts": {
     "users": 100,
-    "orgs": 97,
+    "orgs": 80,
     "repos": 50
   },
   "totals": {
@@ -26,13 +26,8 @@
       "ui_url": "https://github.com/search?q=location%3A%22san%20francisco%22%20location%3Asf%2C%20location%3A%22sf%20bay%22%20location%3A%22bay%20area%22%20location%3A%22silicon%20valley%22%20location%3A%22palo%20alto%22%20location%3A%22menlo%20park%22%20location%3A%22mountain%20view%22%20location%3Asunnyvale%20location%3Acupertino%20location%3Aoakland%20location%3Aberkeley%20location%3A%22san%20francisco%20bay%20area%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
-      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"San Francisco\"",
-      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
-      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
-    },
-    {
-      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
-      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
+      "label": "Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }",
       "ui_url": null
     }
   ],
@@ -50,6 +45,20 @@
       "company": null,
       "created_at": "2009-07-25T19:06:27Z",
       "total_stars": 124351
+    },
+    {
+      "login": "steipete",
+      "name": "Peter Steinberger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58493?s=88&u=95a4fccef3d341039661c427695691a664e333ba&v=4",
+      "html_url": "https://github.com/steipete",
+      "followers": 50114,
+      "following": 105,
+      "public_repos": 94,
+      "location": "Vienna & London",
+      "bio": "Came back from retirement to mess with AI. Clawdfather @OpenClaw\r\n\r\nPreviously: Founder of @PSPDFKit.",
+      "company": "OpenAI",
+      "created_at": "2009-02-27T08:34:22Z",
+      "total_stars": 55926
     },
     {
       "login": "addyosmani",

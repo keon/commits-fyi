@@ -26,13 +26,8 @@
       "ui_url": "https://github.com/search?q=location%3Aaustralia%20location%3Asydney%20location%3Amelbourne%20location%3Abrisbane%20location%3Aperth%20location%3Aadelaide%20location%3Acanberra%20location%3A%22gold%20coast%22%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
-      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Australia\"",
-      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
-      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
-    },
-    {
-      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
-      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
+      "label": "Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }",
       "ui_url": null
     }
   ],
@@ -1436,6 +1431,20 @@
       "company": null,
       "created_at": "2012-07-09T02:32:15Z",
       "total_stars": 4006
+    },
+    {
+      "login": "kitsonk",
+      "name": "Kitson Kelly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1282577?s=88&u=c26d8b414dbb03122c8487e1cbccad996e34ef73&v=4",
+      "html_url": "https://github.com/kitsonk",
+      "followers": 1013,
+      "following": 0,
+      "public_repos": 88,
+      "location": "Melbourne, Australia",
+      "bio": "CPTO @A2B-Australia. Ex @CTO-Labs, core team @denoland, author of @oakserver, @ts-why, and @h-o-t",
+      "company": "@A2B-Australia",
+      "created_at": "2011-12-23T17:33:22Z",
+      "total_stars": 492
     }
   ],
   "orgs": [
@@ -2068,6 +2077,20 @@
       "company": null,
       "created_at": "2008-07-16T03:56:33Z",
       "total_stars": 22007
+    },
+    {
+      "login": "qantas-cloud",
+      "name": "Qantas Cloud Platform",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57466381?s=88&v=4",
+      "html_url": "https://github.com/qantas-cloud",
+      "followers": 238,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Australia",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-11-06T23:36:17Z",
+      "total_stars": 0
     },
     {
       "login": "UAdelaide",

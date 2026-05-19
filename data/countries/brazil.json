@@ -26,13 +26,8 @@
       "ui_url": "https://github.com/search?q=location%3Abrazil%20location%3Abrasil%20location%3A%22s%C3%A3o%20paulo%22%20location%3A%22sao%20paulo%22%20location%3A%22rio%20de%20janeiro%22%20location%3A%22belo%20horizonte%22%20location%3A%22porto%20alegre%22%20location%3Acuritiba%20location%3Arecife%20location%3Asalvador%20location%3Aflorian%C3%B3polis%20location%3Aflorianopolis%20location%3Abras%C3%ADlia%20location%3Abrasilia%20type%3Aorg&type=users&s=followers&o=desc"
     },
     {
-      "label": "Plus owners from the global top-starred-repo pool whose self-reported location contains \"Brazil\"",
-      "api_url": "https://api.github.com/search/repositories?q=stars:>5000&sort=stars&order=desc",
-      "ui_url": "https://github.com/search?q=stars%3A%3E5000&type=repositories&s=stars&o=desc"
-    },
-    {
-      "label": "Per-account hydration via GraphQL — user/org details + top 100 repos by stars in one request",
-      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { __typename ... on User { name location followers { totalCount } repositories(first: 100, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } ... on Organization { name location membersWithRole { totalCount } repositories(first: 100, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount } } } } }",
+      "label": "Per-account hydration via GraphQL — profile + top 30 repos (for the drawer)",
+      "api_url": "https://api.github.comPOST /graphql  query { repositoryOwner(login: \"...\") { ... on User { name location createdAt followers { totalCount } repositories(first: 30, ownerAffiliations: OWNER, isFork: false, orderBy: {field: STARGAZERS, direction: DESC}) { nodes { nameWithOwner stargazerCount repositoryTopics(first: 5) { nodes { topic { name } } } } } } } }",
       "ui_url": null
     }
   ],
