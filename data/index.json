@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-19T11:36:31.604Z",
+  "generated_at": "2026-05-19T11:43:32.481Z",
   "global": {
-    "generated_at": "2026-05-19T11:33:42.581Z",
+    "generated_at": "2026-05-19T11:39:59.955Z",
     "counts": {
       "users": 100,
       "orgs": 50,
@@ -9,7 +9,7 @@
     }
   },
   "trending": {
-    "generated_at": "2026-05-19T11:33:47.032Z",
+    "generated_at": "2026-05-19T11:40:30.103Z",
     "counts": {
       "new": 50,
       "active": 50,
@@ -18,64 +18,14 @@
     "window": {
       "since": "2026-05-18",
       "since_long": "2025-11-20",
-      "until": "2026-05-19T11:33:47.032Z"
+      "until": "2026-05-19T11:40:30.103Z"
     }
   },
   "cities": [
     {
       "name": "Amsterdam",
       "slug": "amsterdam",
-      "generated_at": "2026-05-19T11:34:28.399Z",
-      "counts": {
-        "users": 100,
-        "orgs": 66,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Austin",
-      "slug": "austin",
-      "generated_at": "2026-05-19T11:34:22.926Z",
-      "counts": {
-        "users": 100,
-        "orgs": 61,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Bangalore",
-      "slug": "bangalore",
-      "generated_at": "2026-05-19T11:35:25.514Z",
-      "counts": {
-        "users": 100,
-        "orgs": 52,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Berlin",
-      "slug": "berlin",
-      "generated_at": "2026-05-19T11:34:26.298Z",
-      "counts": {
-        "users": 100,
-        "orgs": 77,
-        "repos": 50
-      }
-    },
-    {
-      "name": "London",
-      "slug": "london",
-      "generated_at": "2026-05-19T11:34:25.154Z",
-      "counts": {
-        "users": 100,
-        "orgs": 74,
-        "repos": 50
-      }
-    },
-    {
-      "name": "New York",
-      "slug": "new-york",
-      "generated_at": "2026-05-19T11:33:48.086Z",
+      "generated_at": "2026-05-19T11:41:29.650Z",
       "counts": {
         "users": 100,
         "orgs": 80,
@@ -83,92 +33,142 @@
       }
     },
     {
-      "name": "Paris",
-      "slug": "paris",
-      "generated_at": "2026-05-19T11:34:27.400Z",
+      "name": "Austin",
+      "slug": "austin",
+      "generated_at": "2026-05-19T11:40:34.290Z",
       "counts": {
         "users": 100,
-        "orgs": 73,
+        "orgs": 80,
+        "repos": 50
+      }
+    },
+    {
+      "name": "Bangalore",
+      "slug": "bangalore",
+      "generated_at": "2026-05-19T11:41:34.913Z",
+      "counts": {
+        "users": 100,
+        "orgs": 80,
+        "repos": 50
+      }
+    },
+    {
+      "name": "Berlin",
+      "slug": "berlin",
+      "generated_at": "2026-05-19T11:40:37.584Z",
+      "counts": {
+        "users": 100,
+        "orgs": 80,
+        "repos": 50
+      }
+    },
+    {
+      "name": "London",
+      "slug": "london",
+      "generated_at": "2026-05-19T11:40:36.487Z",
+      "counts": {
+        "users": 100,
+        "orgs": 82,
+        "repos": 50
+      }
+    },
+    {
+      "name": "New York",
+      "slug": "new-york",
+      "generated_at": "2026-05-19T11:40:31.152Z",
+      "counts": {
+        "users": 100,
+        "orgs": 83,
+        "repos": 50
+      }
+    },
+    {
+      "name": "Paris",
+      "slug": "paris",
+      "generated_at": "2026-05-19T11:41:28.540Z",
+      "counts": {
+        "users": 100,
+        "orgs": 80,
         "repos": 50
       }
     },
     {
       "name": "San Francisco",
       "slug": "san-francisco",
-      "generated_at": "2026-05-19T11:34:20.834Z",
+      "generated_at": "2026-05-19T11:40:32.202Z",
       "counts": {
         "users": 100,
-        "orgs": 95,
+        "orgs": 97,
         "repos": 50
       }
     },
     {
       "name": "Seattle",
       "slug": "seattle",
-      "generated_at": "2026-05-19T11:34:21.921Z",
+      "generated_at": "2026-05-19T11:40:33.295Z",
       "counts": {
         "users": 100,
-        "orgs": 70,
+        "orgs": 81,
         "repos": 50
       }
     },
     {
       "name": "Seoul",
       "slug": "seoul",
-      "generated_at": "2026-05-19T11:35:23.325Z",
+      "generated_at": "2026-05-19T11:41:32.807Z",
       "counts": {
         "users": 100,
-        "orgs": 52,
+        "orgs": 80,
         "repos": 50
       }
     },
     {
       "name": "Singapore",
       "slug": "singapore",
-      "generated_at": "2026-05-19T11:35:24.356Z",
+      "generated_at": "2026-05-19T11:41:33.821Z",
       "counts": {
         "users": 100,
-        "orgs": 71,
+        "orgs": 80,
         "repos": 50
       }
     },
     {
       "name": "Sydney",
       "slug": "sydney",
-      "generated_at": "2026-05-19T11:35:26.653Z",
+      "generated_at": "2026-05-19T11:41:35.933Z",
       "counts": {
         "users": 100,
-        "orgs": 42,
+        "orgs": 80,
         "repos": 50
       }
     },
     {
       "name": "Tel Aviv",
       "slug": "tel-aviv",
-      "generated_at": "2026-05-19T11:34:29.507Z",
+      "generated_at": "2026-05-19T11:41:30.712Z",
       "counts": {
-        "users": 84,
-        "orgs": 24,
+        "users": 100,
+        "orgs": 80,
         "repos": 50
       }
     },
     {
       "name": "Tokyo",
       "slug": "tokyo",
-      "generated_at": "2026-05-19T11:35:22.246Z",
+      "generated_at": "2026-05-19T11:41:31.721Z",
       "counts": {
         "users": 100,
-        "orgs": 60,
+        "orgs": 80,
         "repos": 50
       }
     },
     {
       "name": "Toronto",
       "slug": "toronto",
-      "generated_at": "2026-05-19T11:34:24.005Z",
+      "generated_at": "2026-05-19T11:40:35.347Z",
       "counts": {
         "users": 100,
-        "orgs": 66,
+        "orgs": 81,
         "repos": 50
       }
     }
@@ -177,27 +177,7 @@
     {
       "name": "Australia",
       "slug": "australia",
-      "generated_at": "2026-05-19T11:36:31.603Z",
-      "counts": {
-        "users": 100,
-        "orgs": 59,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Brazil",
-      "slug": "brazil",
-      "generated_at": "2026-05-19T11:36:29.511Z",
-      "counts": {
-        "users": 100,
-        "orgs": 65,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Canada",
-      "slug": "canada",
-      "generated_at": "2026-05-19T11:36:30.593Z",
+      "generated_at": "2026-05-19T11:43:32.480Z",
       "counts": {
         "users": 100,
         "orgs": 80,
@@ -205,9 +185,29 @@
       }
     },
     {
+      "name": "Brazil",
+      "slug": "brazil",
+      "generated_at": "2026-05-19T11:42:38.771Z",
+      "counts": {
+        "users": 100,
+        "orgs": 80,
+        "repos": 50
+      }
+    },
+    {
+      "name": "Canada",
+      "slug": "canada",
+      "generated_at": "2026-05-19T11:43:31.311Z",
+      "counts": {
+        "users": 100,
+        "orgs": 86,
+        "repos": 50
+      }
+    },
+    {
       "name": "China",
       "slug": "china",
-      "generated_at": "2026-05-19T11:36:24.938Z",
+      "generated_at": "2026-05-19T11:42:34.283Z",
       "counts": {
         "users": 100,
         "orgs": 100,
@@ -217,17 +217,17 @@
     {
       "name": "France",
       "slug": "france",
-      "generated_at": "2026-05-19T11:36:22.583Z",
+      "generated_at": "2026-05-19T11:42:32.119Z",
       "counts": {
         "users": 100,
-        "orgs": 80,
+        "orgs": 83,
         "repos": 50
       }
     },
     {
       "name": "Germany",
       "slug": "germany",
-      "generated_at": "2026-05-19T11:35:30.159Z",
+      "generated_at": "2026-05-19T11:42:31.037Z",
       "counts": {
         "users": 100,
         "orgs": 89,
@@ -237,47 +237,7 @@
     {
       "name": "India",
       "slug": "india",
-      "generated_at": "2026-05-19T11:36:26.144Z",
-      "counts": {
-        "users": 100,
-        "orgs": 79,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Japan",
-      "slug": "japan",
-      "generated_at": "2026-05-19T11:36:27.234Z",
-      "counts": {
-        "users": 100,
-        "orgs": 66,
-        "repos": 50
-      }
-    },
-    {
-      "name": "Netherlands",
-      "slug": "netherlands",
-      "generated_at": "2026-05-19T11:36:23.698Z",
-      "counts": {
-        "users": 100,
-        "orgs": 74,
-        "repos": 50
-      }
-    },
-    {
-      "name": "South Korea",
-      "slug": "south-korea",
-      "generated_at": "2026-05-19T11:36:28.363Z",
-      "counts": {
-        "users": 100,
-        "orgs": 72,
-        "repos": 50
-      }
-    },
-    {
-      "name": "United Kingdom",
-      "slug": "united-kingdom",
-      "generated_at": "2026-05-19T11:35:28.974Z",
+      "generated_at": "2026-05-19T11:42:35.525Z",
       "counts": {
         "users": 100,
         "orgs": 85,
@@ -285,9 +245,49 @@
       }
     },
     {
+      "name": "Japan",
+      "slug": "japan",
+      "generated_at": "2026-05-19T11:42:36.640Z",
+      "counts": {
+        "users": 100,
+        "orgs": 80,
+        "repos": 50
+      }
+    },
+    {
+      "name": "Netherlands",
+      "slug": "netherlands",
+      "generated_at": "2026-05-19T11:42:33.190Z",
+      "counts": {
+        "users": 100,
+        "orgs": 85,
+        "repos": 50
+      }
+    },
+    {
+      "name": "South Korea",
+      "slug": "south-korea",
+      "generated_at": "2026-05-19T11:42:37.690Z",
+      "counts": {
+        "users": 100,
+        "orgs": 80,
+        "repos": 50
+      }
+    },
+    {
+      "name": "United Kingdom",
+      "slug": "united-kingdom",
+      "generated_at": "2026-05-19T11:42:29.894Z",
+      "counts": {
+        "users": 100,
+        "orgs": 92,
+        "repos": 50
+      }
+    },
+    {
       "name": "United States",
       "slug": "united-states",
-      "generated_at": "2026-05-19T11:35:27.800Z",
+      "generated_at": "2026-05-19T11:41:37.058Z",
       "counts": {
         "users": 100,
         "orgs": 100,
