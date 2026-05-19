@@ -171,7 +171,7 @@
       padding-left: 8px;
     }
     /* Show first two numeric columns; hide the rest. First is the active sort
-       (total_stars / stars), second is the secondary metric (followers / forks). */
+       (followers / stars), second is the secondary metric. */
     .table-wrap tbody td.num ~ td.num ~ td.num { display: none; }
     .table-wrap tbody td.num + td.num {
       color: var(--text-muted);
@@ -719,7 +719,7 @@
     index: null,
     route: { view: 'global', id: null, tab: null },
     data: null,
-    sort: { key: 'total_stars', dir: 'desc' },
+    sort: { key: 'followers', dir: 'desc' },
   };
 
   const els = {
@@ -907,8 +907,8 @@
       ];
     }
     return [
-      { key: 'total_stars',  label: 'Total stars', sortable: true, num: true },
       { key: 'followers',    label: 'Followers',   sortable: true, num: true },
+      { key: 'total_stars',  label: 'Total stars', sortable: true, num: true },
       { key: 'public_repos', label: 'Repos',       sortable: true, num: true },
     ];
   }
@@ -934,7 +934,7 @@
         state.route.tab = b.dataset.tab;
         // Default sort per tab
         if (b.dataset.tab === 'repos' || view === 'trending') state.sort = { key: 'stargazers_count', dir: 'desc' };
-        else state.sort = { key: 'total_stars', dir: 'desc' };
+        else state.sort = { key: 'followers', dir: 'desc' };
         pushRoute(state.route);
         // Update active class without re-rendering the whole tab strip
         els.tabs.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -1178,7 +1178,7 @@
       if (!r.tab) r.tab = defaultTab;
       // Default sort
       if (r.view === 'trending' || r.tab === 'repos') state.sort = { key: 'stargazers_count', dir: 'desc' };
-      else state.sort = { key: 'total_stars', dir: 'desc' };
+      else state.sort = { key: 'followers', dir: 'desc' };
       clearStatus();
       renderHeader(data);
       renderSummary(r.view, data);

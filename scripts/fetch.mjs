@@ -584,23 +584,22 @@ async function buildLocation(name, kind, outDir, ownerPool = []) {
   const enriched = Array.from(merged.values());
   console.log(`Total ${enriched.length} unique accounts ranked.`);
 
-  // Keep the leaderboard meaningful — a "Top stars" page is embarrassing
-  // when rank 150 has 2 stars. Apply a floor + top-N cap. Small cities
-  // with fewer qualifiers simply show a shorter list.
-  const MIN_STARS = 100;
+  // Default ranking is by followers — that's what the Search Users API
+  // natively sorts on, and it gives a stable, intuitive "social" ranking
+  // without the noisy 2-star tail problem.
   const MAX_PER_LIST = 100;
   const users = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'User' && x.totalStars >= MIN_STARS)
+      .filter(x => x.acct.type === 'User' && (x.acct.followers || 0) > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
-      .sort((a, b) => b.total_stars - a.total_stars)
+      .sort((a, b) => b.followers - a.followers)
   ).slice(0, MAX_PER_LIST);
 
   const orgs = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'Organization' && x.totalStars >= MIN_STARS)
+      .filter(x => x.acct.type === 'Organization' && (x.acct.followers || 0) > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
-      .sort((a, b) => b.total_stars - a.total_stars)
+      .sort((a, b) => b.followers - a.followers)
   ).slice(0, MAX_PER_LIST);
 
   const repos = aggregateRepos(enriched, TOP_REPOS);
@@ -684,16 +683,16 @@ async function buildGlobal(ownerPool = []) {
 
   const users = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'User' && x.totalStars > 0)
+      .filter(x => x.acct.type === 'User' && (x.acct.followers || 0) > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
-      .sort((a, b) => b.total_stars - a.total_stars)
+      .sort((a, b) => b.followers - a.followers)
   ).slice(0, GLOBAL_USERS);
 
   const orgs = dedupeByLogin(
     enriched
-      .filter(x => x.acct.type === 'Organization' && x.totalStars > 0)
+      .filter(x => x.acct.type === 'Organization' && (x.acct.followers || 0) > 0)
       .map(x => compactAccount(x.acct, x.totalStars))
-      .sort((a, b) => b.total_stars - a.total_stars)
+      .sort((a, b) => b.followers - a.followers)
   ).slice(0, GLOBAL_ORGS);
 
   const repos = repoSearch.map(compactRepo);
