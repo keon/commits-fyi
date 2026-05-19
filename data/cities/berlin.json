@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-05-18T23:31:15.667Z",
+  "generated_at": "2026-05-19T08:42:41.037Z",
   "counts": {
     "users": 153,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 331914,
-    "org_followers": 31514,
+    "org_followers": 31372,
     "user_stars": 1086439,
-    "org_stars": 732325
+    "org_stars": 731657
   },
   "queries": [
     {
@@ -2640,19 +2640,6 @@
       "total_stars": 1217
     },
     {
-      "login": "mod-audio",
-      "name": "MOD Audio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2923351?s=88&v=4",
-      "html_url": "https://github.com/mod-audio",
-      "followers": 226,
-      "following": 0,
-      "public_repos": 89,
-      "location": "Berlin, Germany",
-      "bio": "Step onto the future!",
-      "company": null,
-      "total_stars": 1160
-    },
-    {
       "login": "cables-gl",
       "name": "cables",
       "avatar_url": "https://avatars.githubusercontent.com/u/22891012?s=88&v=4",
@@ -2846,6 +2833,19 @@
       "bio": null,
       "company": null,
       "total_stars": 530
+    },
+    {
+      "login": "Wikidata",
+      "name": "Wikidata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2691628?s=88&v=4",
+      "html_url": "https://github.com/Wikidata",
+      "followers": 84,
+      "following": 0,
+      "public_repos": 11,
+      "location": "Berlin, Germany",
+      "bio": "Tools related to the Wikidata project. Most of our core software is at https://github.com/wmde/",
+      "company": null,
+      "total_stars": 492
     },
     {
       "login": "goerli",

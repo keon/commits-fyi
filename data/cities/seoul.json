@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-05-18T23:31:25.364Z",
+  "generated_at": "2026-05-19T08:42:47.635Z",
   "counts": {
     "users": 150,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 125317,
+    "user_followers": 125319,
     "org_followers": 10477,
-    "user_stars": 559266,
+    "user_stars": 563441,
     "org_stars": 82897
   },
   "queries": [
@@ -452,6 +452,19 @@
       "bio": "🏄🏼 Open Source | iOS & Swift 📱+ ⛵️\r\nengineer at @hyperconnect",
       "company": "@hyperconnect",
       "total_stars": 4621
+    },
+    {
+      "login": "Q00",
+      "name": "Q00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31264094?s=88&u=52ab710b6502dec7ed0093a031b71d10ae43143e&v=4",
+      "html_url": "https://github.com/Q00",
+      "followers": 366,
+      "following": 166,
+      "public_repos": 65,
+      "location": "seoul",
+      "bio": "@zep-us Tech Lead\r\n\r\n",
+      "company": "@zep-us",
+      "total_stars": 4435
     },
     {
       "login": "Beomi",
@@ -1387,19 +1400,6 @@
       "location": "Seoul, South Korea",
       "bio": "Programmer. SRE. ",
       "company": "Karrot(당근)",
-      "total_stars": 260
-    },
-    {
-      "login": "1ilsang",
-      "name": "1ilsang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23524849?s=88&u=1ed18b19476ef0a246b5b4ec2749ffaf50762d89&v=4",
-      "html_url": "https://github.com/1ilsang",
-      "followers": 364,
-      "following": 41,
-      "public_repos": 55,
-      "location": "Seoul, Republic of Korea",
-      "bio": "🔥",
-      "company": "@woowabros",
       "total_stars": 260
     },
     {
@@ -3230,6 +3230,15 @@
       "language": "Python"
     },
     {
+      "full_name": "Q00/ouroboros",
+      "html_url": "https://github.com/Q00/ouroboros",
+      "description": "Agent OS: Stop prompting. Start specifying.",
+      "stargazers_count": 4155,
+      "forks_count": 395,
+      "watchers_count": 0,
+      "language": "Python"
+    },
+    {
       "full_name": "buriburisuri/speech-to-text-wavenet",
       "html_url": "https://github.com/buriburisuri/speech-to-text-wavenet",
       "description": "Speech-to-Text-WaveNet : End-to-end sentence level English speech recognition based on DeepMind's WaveNet and tensorflow",
@@ -3471,15 +3480,6 @@
       "forks_count": 1139,
       "watchers_count": 0,
       "language": "C++"
-    },
-    {
-      "full_name": "toss/frontend-fundamentals",
-      "html_url": "https://github.com/toss/frontend-fundamentals",
-      "description": "Essential principles for frontend development",
-      "stargazers_count": 1946,
-      "forks_count": 199,
-      "watchers_count": 0,
-      "language": "TypeScript"
     }
   ]
 }
