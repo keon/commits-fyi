@@ -258,6 +258,26 @@
   }
   .repo .row { color: var(--muted); font-size: 12px; display: flex; gap: 12px; font-variant-numeric: tabular-nums; }
   .source { margin-top: 20px; text-align: center; color: var(--muted); font-size: 12px; }
+
+  .embed { margin-top: 24px; }
+  .embed-preview { display: flex; justify-content: center; padding: 12px; background: var(--bg-soft); border: 1px solid var(--border); border-radius: 8px; }
+  .embed-preview img { max-width: 100%; height: auto; }
+  .embed-snippet {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px;
+    background: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-top: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    color: var(--text);
+    cursor: pointer;
+    user-select: all;
+  }
+  .embed-copied { color: var(--text); font-size: 11px; margin-left: 8px; opacity: 0; transition: opacity 0.15s; }
+  .embed-copied.show { opacity: 1; }
 </style>
 </head>
 <body>
@@ -585,6 +605,11 @@
         <div class="stat"><div class="n">${fmt(p.public_repos)}</div><div class="l">Repos</div></div>
       </div>
       ${repos ? `<div class="section-title">Top repositories</div>${repos}` : `<div class="empty">No public repositories.</div>`}
+      <div class="embed">
+        <div class="section-title">Embed in your README</div>
+        <div class="embed-preview"><img src="badges/${esc(p.login)}.svg" alt="commits.fyi badge for ${esc(p.login)}" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'color:var(--muted);font-size:12px\\'>Badge for this account will be generated on the next daily refresh.</div>'"/></div>
+        <div class="embed-snippet" id="embed-snippet" title="Click to copy">[![commits.fyi](https://commits.fyi/badges/${esc(p.login)}.svg)](https://commits.fyi/)</div>
+      </div>
       <div class="source"><a href="${esc(p.html_url)}" target="_blank" rel="noopener">Open on GitHub →</a></div>
     `;
   }
@@ -605,6 +630,13 @@
     els.drawerHead.innerHTML = drawerHeadHTML(p);
     els.drawerHead.querySelector('.drawer-close').addEventListener('click', closeDrawer);
     els.drawerBody.innerHTML = drawerBodyHTML(p);
+    const snip = document.getElementById('embed-snippet');
+    if (snip) snip.addEventListener('click', () => {
+      navigator.clipboard?.writeText(snip.textContent).catch(() => {});
+      const before = snip.style.color;
+      snip.style.color = 'var(--link)';
+      setTimeout(() => snip.style.color = before, 400);
+    });
   }
 
   // ----- Init -----

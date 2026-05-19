@@ -467,51 +467,8 @@ function aggregateRepos(enriched, limit) {
     .slice(0, limit);
 }
 
-// Topic frequency across a set of repos, returned as [[topic, count], ...] desc.
-function aggregateTopics(repos, limit = 15) {
-  const counts = new Map();
-  for (const r of repos) {
-    for (const t of (r.topics || [])) {
-      counts.set(t, (counts.get(t) || 0) + 1);
-    }
-  }
-  return Array.from(counts.entries())
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, limit)
-    .map(([name, count]) => ({ name, count }));
-}
 
 // ----- Builders -----
-
-async function buildOwnerPool() {
-  console.log('\n=== owner pool discovery (shared across global/cities/countries) ===');
-  // Search API caps results at 1000 per query, and there are ~1500 repos with
-  // >25k stars. Use range queries so we capture the long tail too (e.g.
-  // keon/algorithms at 25k stars sits below the top-1000 stars:>5000 cutoff
-  // which lands around 31k).
-  const ranges = ['stars:>50000', 'stars:25000..50000', 'stars:10000..25000', 'stars:5000..10000'];
-  const seenOwners = new Set();
-  const seenRepos = new Set();
-  const candidates = [];
-  for (const q of ranges) {
-    console.log(`Pulling repos (${q})…`);
-    const repos = await searchRepos(q, 1000);
-    console.log(`  ${repos.length} repos`);
-    for (const r of repos) {
-      if (seenRepos.has(r.full_name)) continue;
-      seenRepos.add(r.full_name);
-      const login = r.owner?.login;
-      if (!login || seenOwners.has(login)) continue;
-      seenOwners.add(login);
-      candidates.push({ login, type: r.owner.type, avatar_url: r.owner.avatar_url });
-    }
-  }
-  console.log(`Total: ${candidates.length} unique owners across ${seenRepos.size} repos`);
-  console.log('Hydrating owner pool…');
-  const enriched = await hydrateAndRank(candidates);
-  console.log(`  ${enriched.length} hydrated`);
-  return enriched;
-}
 
 // Curated aliases so high-star/low-follower accounts get pulled into the right
 // city/country bucket even when their self-reported location uses a city name,
@@ -586,12 +543,6 @@ function aliasesFor(name) {
   return LOCATION_ALIASES[name] || [name.toLowerCase()];
 }
 
-function locationMatches(loc, name) {
-  if (!loc) return false;
-  const lower = ' ' + loc.toLowerCase() + ' '; // pad so " us " word-boundary tokens work
-  return aliasesFor(name).some(a => lower.includes(a));
-}
-
 // Build a GitHub search query of the form
 //   location:"new york" location:nyc location:brooklyn ... type:<type>
 // Repeating `location:` qualifiers in a search query yields OR semantics
@@ -641,8 +592,6 @@ async function buildLocation(name, kind, outDir) {
   ).slice(0, MAX_PER_LIST);
 
   const repos = aggregateRepos(enriched, TOP_REPOS);
-  // Top topics aggregated across this location's top repos.
-  const top_topics = aggregateTopics(repos.flatMap(r => r.topics ? [r] : []), 20);
 
   const totals = {
     user_followers: users.reduce((s, u) => s + u.followers, 0),
@@ -956,6 +905,7 @@ async function main() {
   await rebuildIndex();
   await saveCache();
   await writeUsersDetail();
+  await writeBadges();
   console.log('\nDone.');
 }
 
@@ -963,6 +913,88 @@ async function main() {
 // Only top 6 repos per user, no created_at/pushed_at, so the file is a few MB
 // instead of the 60+MB cache. Loaded once per session for the click-to-profile
 // drawer.
+// ----- Embeddable SVG badges (per user / per org) -----
+//
+// For each account that appears in any city/country leaderboard, generate a
+// small SVG card listing their top 3 rankings. Users/orgs embed it in their
+// GitHub README via:
+//   ![](https://commits.fyi/badges/<login>.svg)
+//
+// Pure text + SVG primitives so it renders on GitHub's image proxy without
+// fonts (system-ui falls back to the viewer's default sans-serif).
+async function writeBadges() {
+  const BADGES_DIR = join(DATA_DIR, 'badges');
+  if (!existsSync(BADGES_DIR)) await mkdir(BADGES_DIR, { recursive: true });
+
+  // 1. Build login → [{ kind, name, slug, rank, total }] map by scanning every
+  //    location output that was just written this run.
+  const rankings = new Map();
+  const tryRead = async (p) => { try { return JSON.parse(await readFile(p, 'utf8')); } catch { return null; } };
+
+  const scan = async (dir, list) => {
+    for (const item of list) {
+      const slug = slugify(item);
+      const d = await tryRead(join(dir, `${slug}.json`));
+      if (!d) continue;
+      const note = (login, rank, isOrg) => {
+        if (!rankings.has(login)) rankings.set(login, []);
+        rankings.get(login).push({ kind: d.kind, name: d.name, slug: d.slug, rank, isOrg });
+      };
+      (d.users || []).forEach((u, i) => note(u.login, i + 1, false));
+      (d.orgs  || []).forEach((o, i) => note(o.login, i + 1, true));
+    }
+  };
+  await scan(CITIES_DIR, CITIES);
+  await scan(COUNTRIES_DIR, COUNTRIES);
+
+  // 2. Followers + name lookup from the cache (already in memory).
+  const profile = (login) => {
+    const e = _cache.entries.get(login.toLowerCase());
+    if (!e?.payload?.acct) return null;
+    return e.payload.acct;
+  };
+
+  // 3. Emit one SVG per account. Skip accounts not in cache (no profile data).
+  let count = 0;
+  for (const [login, ranks] of rankings) {
+    const p = profile(login);
+    if (!p) continue;
+    ranks.sort((a, b) => a.rank - b.rank);
+    const top = ranks.slice(0, 3);
+    const isOrg = p.type === 'Organization';
+    const svg = renderBadgeSVG({ login, name: p.name, followers: p.followers || 0, isOrg }, top);
+    await writeFile(join(BADGES_DIR, `${login}.svg`), svg);
+    count++;
+  }
+  console.log(`Wrote ${count} badges to data/badges/`);
+}
+
+function escXml(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;' }[c]));
+}
+function fmtCount(n) {
+  if (n == null) return '0';
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
+  if (n >= 10_000)    return (n / 1000).toFixed(0) + 'k';
+  if (n >= 1000)      return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+  return String(n);
+}
+function renderBadgeSVG(acct, ranks) {
+  const W = 360, H = 96;
+  const rankLine = ranks.length
+    ? ranks.map(r => `#${r.rank} ${escXml(r.name)}`).join(' · ')
+    : 'unranked';
+  const followers = `${fmtCount(acct.followers)} followers`;
+  const titleSuffix = acct.name ? ` · ${escXml(acct.name)}` : '';
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="${W}" height="${H}" rx="10" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="16" y="28" font-size="15" font-weight="700" fill="#1f2328">${escXml(acct.login)}${titleSuffix}</text>
+  <text x="16" y="52" font-size="13" fill="#1f2328">${rankLine}</text>
+  <text x="16" y="76" font-size="11" fill="#6b7280">${followers} · commits.fyi</text>
+</svg>
+`;
+}
+
 async function writeUsersDetail() {
   const out = {};
   for (const [, entry] of _cache.entries) {
