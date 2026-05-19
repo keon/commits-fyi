@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-05-19T13:24:19.632Z",
+  "generated_at": "2026-05-19T18:00:49.415Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 572004,
-    "org_followers": 149010,
+    "org_followers": 148121,
     "user_stars": 1161268,
-    "org_stars": 1113645
+    "org_stars": 1000118
   },
   "queries": [
     {
@@ -873,20 +873,6 @@
       "total_stars": 9403
     },
     {
-      "login": "anil-sidhu",
-      "name": "anil sidhu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14924211?s=88&u=5a8e911f790bc8222c79ca8a6912f105f384cc7d&v=4",
-      "html_url": "https://github.com/anil-sidhu",
-      "followers": 2694,
-      "following": 0,
-      "public_repos": 92,
-      "location": "Noida",
-      "bio": "Youtuber, entrepreneur, and software developer with 6 years of experience in the IT industry.  ",
-      "company": "The Coding Skills",
-      "created_at": "2015-10-01T12:07:59Z",
-      "total_stars": 1042
-    },
-    {
       "login": "rahuldkjain",
       "name": "Rahul Jain",
       "avatar_url": "https://avatars.githubusercontent.com/u/26406279?s=88&u=08729fe37cddd01234a661d511028d698879e257&v=4",
@@ -899,6 +885,20 @@
       "company": "@ThoughtSpot",
       "created_at": "2017-03-14T10:23:00Z",
       "total_stars": 24860
+    },
+    {
+      "login": "anil-sidhu",
+      "name": "anil sidhu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14924211?s=88&u=5a8e911f790bc8222c79ca8a6912f105f384cc7d&v=4",
+      "html_url": "https://github.com/anil-sidhu",
+      "followers": 2694,
+      "following": 0,
+      "public_repos": 92,
+      "location": "Noida",
+      "bio": "Youtuber, entrepreneur, and software developer with 6 years of experience in the IT industry.  ",
+      "company": "The Coding Skills",
+      "created_at": "2015-10-01T12:07:59Z",
+      "total_stars": 1042
     },
     {
       "login": "learning-zone",
@@ -2553,76 +2553,6 @@
       "company": null,
       "created_at": "2014-10-17T10:23:14Z",
       "total_stars": 573
-    },
-    {
-      "login": "GeekyAnts",
-      "name": "GeekyAnts India Pvt Ltd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18482943?s=88&v=4",
-      "html_url": "https://github.com/GeekyAnts",
-      "followers": 252,
-      "following": 0,
-      "public_repos": 199,
-      "location": "Bangalore, India",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-04-15T11:35:55Z",
-      "total_stars": 40307
-    },
-    {
-      "login": "Fincept-Corporation",
-      "name": "Fincept Corporation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
-      "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 251,
-      "following": 0,
-      "public_repos": 1,
-      "location": "India",
-      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
-      "company": null,
-      "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 21690
-    },
-    {
-      "login": "krayin",
-      "name": "Krayin CRM",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86250863?s=88&v=4",
-      "html_url": "https://github.com/krayin",
-      "followers": 197,
-      "following": 0,
-      "public_repos": 16,
-      "location": "India",
-      "bio": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.",
-      "company": null,
-      "created_at": "2021-06-21T16:01:47Z",
-      "total_stars": 22653
-    },
-    {
-      "login": "uvdesk",
-      "name": "Uvdesk ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24730296?s=88&v=4",
-      "html_url": "https://github.com/uvdesk",
-      "followers": 147,
-      "following": 0,
-      "public_repos": 26,
-      "location": "India",
-      "bio": "Uvdesk is an online SAAS based customer support helpdesk software which allows customers to communicate over email, social media with task management.",
-      "company": null,
-      "created_at": "2016-12-23T08:20:24Z",
-      "total_stars": 18937
-    },
-    {
-      "login": "unopim",
-      "name": "UnoPim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176464716?s=88&v=4",
-      "html_url": "https://github.com/unopim",
-      "followers": 42,
-      "following": 0,
-      "public_repos": 13,
-      "location": "India",
-      "bio": "A free and open-source Laravel-based PIM system to help businesses organize, manage, and enrich their product data centrally.",
-      "company": null,
-      "created_at": "2024-07-24T06:35:18Z",
-      "total_stars": 9940
     }
   ],
   "repos": [
@@ -2738,19 +2668,6 @@
       "owner_login": "juspay",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11497632?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "abhigyanpatwari/GitNexus",
-      "html_url": "https://github.com/abhigyanpatwari/GitNexus",
-      "description": "GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your brow",
-      "stargazers_count": 38990,
-      "forks_count": 4464,
-      "language": "TypeScript",
-      "topics": [],
-      "owner_login": "abhigyanpatwari",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/126312502?s=88&u=9365d82c85671bbd26d1ba38a373ec95ee78dae1&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -2903,25 +2820,6 @@
       "fork": false
     },
     {
-      "full_name": "kavishdevar/librepods",
-      "html_url": "https://github.com/kavishdevar/librepods",
-      "description": "AirPods liberated from Apple's ecosystem.",
-      "stargazers_count": 27030,
-      "forks_count": 1509,
-      "language": "Kotlin",
-      "topics": [
-        "airpods",
-        "linux",
-        "reverse-engineering",
-        "android",
-        "battery-monitor"
-      ],
-      "owner_login": "kavishdevar",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/46088622?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "SigNoz/signoz",
       "html_url": "https://github.com/SigNoz/signoz",
       "description": "SigNoz is an open-source observability platform native to OpenTelemetry with logs, traces and metrics in a single application. An open-sourc",
@@ -3017,44 +2915,6 @@
       "fork": false
     },
     {
-      "full_name": "mitesh77/Best-Flutter-UI-Templates",
-      "html_url": "https://github.com/mitesh77/Best-Flutter-UI-Templates",
-      "description": "completely free for everyone. Its build-in Flutter Dart.",
-      "stargazers_count": 22672,
-      "forks_count": 4837,
-      "language": "Dart",
-      "topics": [
-        "flutter",
-        "flutter-apps",
-        "flutter-ui",
-        "flutter-demo",
-        "flutter-examples"
-      ],
-      "owner_login": "mitesh77",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/38649435?s=88&u=1674f36568e39dacdef37e8b17da8ea010e506dc&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "krayin/laravel-crm",
-      "html_url": "https://github.com/krayin/laravel-crm",
-      "description": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.",
-      "stargazers_count": 22542,
-      "forks_count": 1468,
-      "language": "Blade",
-      "topics": [
-        "php",
-        "laravel",
-        "laravel-package",
-        "laravel-framework",
-        "laravel-crm"
-      ],
-      "owner_login": "krayin",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/86250863?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "TheAlgorithms/C",
       "html_url": "https://github.com/TheAlgorithms/C",
       "description": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
@@ -3070,44 +2930,6 @@
       ],
       "owner_login": "TheAlgorithms",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20487725?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "dipakkr/A-to-Z-Resources-for-Students",
-      "html_url": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
-      "description": "✅  Curated list of resources for developers ",
-      "stargazers_count": 21817,
-      "forks_count": 4817,
-      "language": null,
-      "topics": [
-        "hackathon",
-        "students",
-        "android",
-        "conferences",
-        "react"
-      ],
-      "owner_login": "dipakkr",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17788569?s=88&u=8155dc15153e19dc0685cd3b9699d97fe06bdd31&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Fincept-Corporation/FinceptTerminal",
-      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 21690,
-      "forks_count": 2921,
-      "language": "Python",
-      "topics": [
-        "bloomberg-terminal",
-        "finance",
-        "financial-markets",
-        "investment",
-        "investment-research"
-      ],
-      "owner_login": "Fincept-Corporation",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3150,25 +2972,6 @@
       "fork": false
     },
     {
-      "full_name": "GeekyAnts/NativeBase",
-      "html_url": "https://github.com/GeekyAnts/NativeBase",
-      "description": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
-      "stargazers_count": 20391,
-      "forks_count": 2405,
-      "language": "TypeScript",
-      "topics": [
-        "react-native",
-        "nativebase",
-        "ui-components",
-        "native-platforms",
-        "ios"
-      ],
-      "owner_login": "GeekyAnts",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/18482943?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "krishnadey30/LeetCode-Questions-CompanyWise",
       "html_url": "https://github.com/krishnadey30/LeetCode-Questions-CompanyWise",
       "description": "Contains Company Wise Questions sorted based on Frequency and all time",
@@ -3198,25 +3001,6 @@
       "owner_login": "rocksdanister",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/17554161?s=88&u=cf74918fea11cb80eb185453f55cc66a55586c29&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "uvdesk/community-skeleton",
-      "html_url": "https://github.com/uvdesk/community-skeleton",
-      "description": "UVdesk Open Source Community Helpdesk is a comprehensive ticketing support system designed for everyone, offering robust features to streaml",
-      "stargazers_count": 18661,
-      "forks_count": 561,
-      "language": "CSS",
-      "topics": [
-        "ticketing-system",
-        "symfony4",
-        "backbonejs",
-        "opensource",
-        "customer-support"
-      ],
-      "owner_login": "uvdesk",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/24730296?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -3435,25 +3219,6 @@
       "fork": false
     },
     {
-      "full_name": "unopim/unopim",
-      "html_url": "https://github.com/unopim/unopim",
-      "description": "Unopim is a free and open-source Laravel-based Product Information Management (PIM) system that helps businesses manage and enrich product d",
-      "stargazers_count": 9897,
-      "forks_count": 144,
-      "language": "PHP",
-      "topics": [
-        "laravel",
-        "open-source",
-        "php",
-        "pim",
-        "product"
-      ],
-      "owner_login": "unopim",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/176464716?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "iam-veeramalla/Jenkins-Zero-To-Hero",
       "html_url": "https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero",
       "description": "Install Jenkins, configure Docker as slave, set up cicd, deploy applications to k8s using Argo CD in GitOps way.",
@@ -3492,60 +3257,213 @@
       "fork": false
     },
     {
-      "full_name": "Kuberwastaken/claurst",
-      "html_url": "https://github.com/Kuberwastaken/claurst",
-      "description": "Agentic Coding for Builders who Ship",
-      "stargazers_count": 9658,
-      "forks_count": 7822,
-      "language": "Rust",
+      "full_name": "hiteshchoudhary/apihub",
+      "html_url": "https://github.com/hiteshchoudhary/apihub",
+      "description": "Your own API Hub to learn and master API interaction. Ideal for frontend, mobile dev and backend developers. ",
+      "stargazers_count": 9342,
+      "forks_count": 1444,
+      "language": "JavaScript",
       "topics": [
-        "claude",
-        "claude-code",
-        "cli",
-        "codex",
-        "gemini"
+        "api",
+        "backend",
+        "backend-api",
+        "frontend",
+        "mobile-development"
       ],
-      "owner_login": "Kuberwastaken",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/97027230?s=88&u=42eb2a2f12f3b06730b27573e06271cbd23737e8&v=4",
+      "owner_login": "hiteshchoudhary",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11613311?s=88&u=eb5b71a918effbaf14260160d8d7dee7caaffe1f&v=4",
       "owner_type": "User",
       "fork": false
     },
     {
-      "full_name": "dr5hn/countries-states-cities-database",
-      "html_url": "https://github.com/dr5hn/countries-states-cities-database",
-      "description": "🌍 Discover our global repository of countries, states, and cities!  🏙️ Get comprehensive data in JSON, SQL, PSQL, SQLSERVER, MONGODB, SQLI",
-      "stargazers_count": 9561,
-      "forks_count": 3001,
+      "full_name": "Ignitetechnologies/Mindmap",
+      "html_url": "https://github.com/Ignitetechnologies/Mindmap",
+      "description": "This repository will contain many mindmaps for cyber security technologies, methodologies, courses, and certifications in a tree structure t",
+      "stargazers_count": 8884,
+      "forks_count": 1717,
+      "language": null,
+      "topics": [],
+      "owner_login": "Ignitetechnologies",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/23155361?s=88&u=be9f446aa1934c001a1b69a802c24cba848f8a8d&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "krishnaik06/The-Grand-Complete-Data-Science-Materials",
+      "html_url": "https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials",
+      "description": null,
+      "stargazers_count": 8776,
+      "forks_count": 4439,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "krishnaik06",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20041231?s=88&u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "amitshekhariitbhu/Android-Debug-Database",
+      "html_url": "https://github.com/amitshekhariitbhu/Android-Debug-Database",
+      "description": "A library for debugging android databases and shared preferences - Make Debugging Great Again",
+      "stargazers_count": 8657,
+      "forks_count": 884,
+      "language": "Java",
+      "topics": [
+        "android-debug-database",
+        "sharedpreferences",
+        "database",
+        "android",
+        "database-values"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "adi1090x/rofi",
+      "html_url": "https://github.com/adi1090x/rofi",
+      "description": "A huge collection of Rofi based custom Applets, Launchers & Powermenus.",
+      "stargazers_count": 8621,
+      "forks_count": 398,
+      "language": "Shell",
+      "topics": [
+        "rofi",
+        "arch",
+        "archcraft",
+        "archcraft-os",
+        "archlinux"
+      ],
+      "owner_login": "adi1090x",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/26059688?s=88&u=2e4016d5b30dabc530a860014ff59da0da5f1dc7&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "TechnitiumSoftware/DnsServer",
+      "html_url": "https://github.com/TechnitiumSoftware/DnsServer",
+      "description": "Technitium DNS Server",
+      "stargazers_count": 8425,
+      "forks_count": 684,
+      "language": "C#",
+      "topics": [
+        "dns-server",
+        "privacy",
+        "dns-over-https",
+        "dns-over-tls",
+        "dns"
+      ],
+      "owner_login": "TechnitiumSoftware",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12230362?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "TheAlgorithms/C-Sharp",
+      "html_url": "https://github.com/TheAlgorithms/C-Sharp",
+      "description": "All algorithms implemented in C#.",
+      "stargazers_count": 8129,
+      "forks_count": 1695,
+      "language": "C#",
+      "topics": [
+        "c-sharp",
+        "algorithms",
+        "algorithms-and-data-structures",
+        "data-structures",
+        "hacktoberfest"
+      ],
+      "owner_login": "TheAlgorithms",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20487725?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "sameersbn/docker-gitlab",
+      "html_url": "https://github.com/sameersbn/docker-gitlab",
+      "description": "Dockerized GitLab",
+      "stargazers_count": 8094,
+      "forks_count": 2144,
+      "language": "Shell",
+      "topics": [
+        "docker",
+        "docker-image",
+        "containers",
+        "git",
+        "gitlab"
+      ],
+      "owner_login": "sameersbn",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/410147?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "hiteshchoudhary/chai-backend",
+      "html_url": "https://github.com/hiteshchoudhary/chai-backend",
+      "description": "A video series on chai aur code youtube channel",
+      "stargazers_count": 8093,
+      "forks_count": 1203,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "hiteshchoudhary",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11613311?s=88&u=eb5b71a918effbaf14260160d8d7dee7caaffe1f&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "aritraroy/UltimateAndroidReference",
+      "html_url": "https://github.com/aritraroy/UltimateAndroidReference",
+      "description": ":rocket: Ultimate Android Reference - Your Road to Become a Better Android Developer",
+      "stargazers_count": 8074,
+      "forks_count": 1279,
+      "language": "Java",
+      "topics": [
+        "android",
+        "android-library",
+        "android-development",
+        "android-developers",
+        "android-book"
+      ],
+      "owner_login": "aritraroy",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8044760?s=88&u=b11759f9e36708c6bf1519633587bb3ad18bdc47&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "collabnix/dockerlabs",
+      "html_url": "https://github.com/collabnix/dockerlabs",
+      "description": "Docker  - Beginners | Intermediate | Advanced",
+      "stargazers_count": 7991,
+      "forks_count": 2179,
+      "language": "PHP",
+      "topics": [
+        "docker",
+        "beginners",
+        "intermediate",
+        "advance",
+        "dockerfile"
+      ],
+      "owner_login": "collabnix",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34368930?s=88&u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "frappe/hrms",
+      "html_url": "https://github.com/frappe/hrms",
+      "description": "Open Source HR and Payroll Software",
+      "stargazers_count": 7984,
+      "forks_count": 2313,
       "language": "Python",
       "topics": [
-        "cities",
-        "countries",
-        "states",
-        "state",
-        "country"
+        "hr",
+        "hrms",
+        "payroll",
+        "erpnext",
+        "hcm"
       ],
-      "owner_login": "dr5hn",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6929121?s=88&u=74a3cd075eb923b0774f3551d3633ebb1587ac97&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "pastelsky/bundlephobia",
-      "html_url": "https://github.com/pastelsky/bundlephobia",
-      "description": "🏋️ Find out the cost of adding a new frontend dependency to your project",
-      "stargazers_count": 9508,
-      "forks_count": 250,
-      "language": "TypeScript",
-      "topics": [
-        "npm-package",
-        "cost",
-        "performance",
-        "dependencies",
-        "webpack"
-      ],
-      "owner_login": "pastelsky",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8946207?s=88&u=16ab56b5b9dd5edff85dc5d2b0117be4447175f8&v=4",
-      "owner_type": "User",
+      "owner_login": "frappe",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/836974?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]

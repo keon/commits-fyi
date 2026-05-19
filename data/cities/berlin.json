@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-05-19T12:28:49.757Z",
+  "generated_at": "2026-05-19T17:58:56.306Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -635,20 +635,6 @@
       "total_stars": 419
     },
     {
-      "login": "z3tt",
-      "name": "Cédric Scherer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7523556?s=88&u=c8ca0ed79d0d123212d1dc0791d17a58eddfde25&v=4",
-      "html_url": "https://github.com/z3tt",
-      "followers": 1993,
-      "following": 142,
-      "public_repos": 38,
-      "location": "Berlin",
-      "bio": "Consultant, developer, and instructor for data workflows, analysis, visualization & communication.",
-      "company": "Independent Contractor",
-      "created_at": "2014-05-08T12:55:38Z",
-      "total_stars": 2292
-    },
-    {
       "login": "alireza0",
       "name": "Alireza Ahmadi",
       "avatar_url": "https://avatars.githubusercontent.com/u/12573084?s=88&u=82204768787072967a3750cc84406c82553ea7cf&v=4",
@@ -661,6 +647,20 @@
       "company": null,
       "created_at": "2015-05-23T12:47:02Z",
       "total_stars": 8858
+    },
+    {
+      "login": "z3tt",
+      "name": "Cédric Scherer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7523556?s=88&u=c8ca0ed79d0d123212d1dc0791d17a58eddfde25&v=4",
+      "html_url": "https://github.com/z3tt",
+      "followers": 1993,
+      "following": 142,
+      "public_repos": 38,
+      "location": "Berlin",
+      "bio": "Consultant, developer, and instructor for data workflows, analysis, visualization & communication.",
+      "company": "Independent Contractor",
+      "created_at": "2014-05-08T12:55:38Z",
+      "total_stars": 2292
     },
     {
       "login": "janl",
@@ -691,20 +691,6 @@
       "total_stars": 698
     },
     {
-      "login": "hynek",
-      "name": "Hynek Schlawack",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41240?s=88&u=c77db9d353f9df8435a5bfcdaab2121c047f0456&v=4",
-      "html_url": "https://github.com/hynek",
-      "followers": 1900,
-      "following": 6,
-      "public_repos": 23,
-      "location": "Berlin",
-      "bio": null,
-      "company": "Variomedia AG",
-      "created_at": "2008-12-18T12:10:53Z",
-      "total_stars": 9554
-    },
-    {
       "login": "amruthpillai",
       "name": "Amruth Pillai",
       "avatar_url": "https://avatars.githubusercontent.com/u/1134738?s=88&u=0f8751f3a01c2790e7204392a7fb70bcefc56c1c&v=4",
@@ -717,6 +703,20 @@
       "company": "@elaradigital",
       "created_at": "2011-10-18T02:10:26Z",
       "total_stars": 38438
+    },
+    {
+      "login": "hynek",
+      "name": "Hynek Schlawack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41240?s=88&u=c77db9d353f9df8435a5bfcdaab2121c047f0456&v=4",
+      "html_url": "https://github.com/hynek",
+      "followers": 1900,
+      "following": 6,
+      "public_repos": 23,
+      "location": "Berlin",
+      "bio": null,
+      "company": "Variomedia AG",
+      "created_at": "2008-12-18T12:10:53Z",
+      "total_stars": 9554
     },
     {
       "login": "justinmk",
@@ -2808,25 +2808,6 @@
       "fork": false
     },
     {
-      "full_name": "OthmanAdi/planning-with-files",
-      "html_url": "https://github.com/OthmanAdi/planning-with-files",
-      "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
-      "stargazers_count": 21656,
-      "forks_count": 1914,
-      "language": "Python",
-      "topics": [
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "manus",
-        "agent-skills"
-      ],
-      "owner_login": "OthmanAdi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/78882424?s=88&u=0799871dc576e27a4ae3780bbbbc23f5f41e69dd&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "lewagon/setup",
       "html_url": "https://github.com/lewagon/setup",
       "description": "Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp",
@@ -3228,25 +3209,6 @@
       "fork": false
     },
     {
-      "full_name": "aksakalli/gtop",
-      "html_url": "https://github.com/aksakalli/gtop",
-      "description": "System monitoring dashboard for terminal",
-      "stargazers_count": 9915,
-      "forks_count": 335,
-      "language": "JavaScript",
-      "topics": [
-        "monitoring",
-        "nodejs",
-        "tui",
-        "top",
-        "command-line"
-      ],
-      "owner_login": "aksakalli",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1939193?s=88&u=bf9616f10e04a3f2145028a248df97d32fcc647a&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "floooh/sokol",
       "html_url": "https://github.com/floooh/sokol",
       "description": "minimal cross-platform standalone C headers",
@@ -3269,25 +3231,6 @@
       "topics": [],
       "owner_login": "aFarkas",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/188254?s=88&u=e091ca6dd9a228af28bce1d9c1132ac0d2f37017&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Freika/dawarich",
-      "html_url": "https://github.com/Freika/dawarich",
-      "description": "Your favorite self-hostable alternative to Google Timeline (Google Location History)",
-      "stargazers_count": 9048,
-      "forks_count": 300,
-      "language": "Ruby",
-      "topics": [
-        "google-maps",
-        "maps",
-        "self-hosted",
-        "homelab",
-        "owntracks"
-      ],
-      "owner_login": "Freika",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3738638?s=88&u=a83530fd4051e5999400c6ef6edeb87d053cdb59&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3445,6 +3388,56 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "weaveworks/weave",
+      "html_url": "https://github.com/weaveworks/weave",
+      "description": "Simple, resilient multi-host containers networking and more.",
+      "stargazers_count": 6614,
+      "forks_count": 675,
+      "language": "Go",
+      "topics": [
+        "kubernetes",
+        "container-networking",
+        "docker",
+        "go"
+      ],
+      "owner_login": "weaveworks",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9976052?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "nextapps-de/winbox",
+      "html_url": "https://github.com/nextapps-de/winbox",
+      "description": "WinBox is a modern HTML5 window manager for the Web.",
+      "stargazers_count": 6426,
+      "forks_count": 212,
+      "language": "JavaScript",
+      "topics": [
+        "window",
+        "windowmanager",
+        "frame",
+        "popup",
+        "desktop"
+      ],
+      "owner_login": "nextapps-de",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/28928681?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "tonsky/AnyBar",
+      "html_url": "https://github.com/tonsky/AnyBar",
+      "description": "OS X menubar status indicator",
+      "stargazers_count": 6033,
+      "forks_count": 158,
+      "language": "Objective-C",
+      "topics": [],
+      "owner_login": "tonsky",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/285292?s=88&u=8b555ea43da91b4aae6647577dc309a36a697b90&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]

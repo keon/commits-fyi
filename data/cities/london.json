@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-05-19T12:28:22.566Z",
+  "generated_at": "2026-05-19T17:58:55.169Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 426091,
-    "org_followers": 69957,
+    "org_followers": 69821,
     "user_stars": 1225473,
-    "org_stars": 762438
+    "org_stars": 725166
   },
   "queries": [
     {
@@ -1953,20 +1953,6 @@
       "total_stars": 5132
     },
     {
-      "login": "app-ideas",
-      "name": "App Ideas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49730271?s=88&v=4",
-      "html_url": "https://github.com/app-ideas",
-      "followers": 332,
-      "following": 0,
-      "public_repos": 5,
-      "location": "London",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-04-17T18:12:15Z",
-      "total_stars": 0
-    },
-    {
       "login": "ag-grid",
       "name": "AG Grid",
       "avatar_url": "https://avatars.githubusercontent.com/u/30720768?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2017-08-04T09:12:59Z",
       "total_stars": 16492
+    },
+    {
+      "login": "app-ideas",
+      "name": "App Ideas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49730271?s=88&v=4",
+      "html_url": "https://github.com/app-ideas",
+      "followers": 332,
+      "following": 0,
+      "public_repos": 5,
+      "location": "London",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-04-17T18:12:15Z",
+      "total_stars": 0
     },
     {
       "login": "pusher",
@@ -2527,20 +2527,6 @@
       "total_stars": 362
     },
     {
-      "login": "UCL-DSS",
-      "name": "UCL Data Science Society",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63336594?s=88&v=4",
-      "html_url": "https://github.com/UCL-DSS",
-      "followers": 137,
-      "following": 0,
-      "public_repos": 28,
-      "location": "London",
-      "bio": null,
-      "company": null,
-      "created_at": "2020-04-08T06:37:03Z",
-      "total_stars": 210
-    },
-    {
       "login": "elsewhencode",
       "name": "Elsewhen",
       "avatar_url": "https://avatars.githubusercontent.com/u/7815827?s=88&v=4",
@@ -2565,22 +2551,8 @@
       "location": "London",
       "bio": null,
       "company": null,
-      "created_at": "2015-01-15T07:23:15Z",
-      "total_stars": 15891
-    },
-    {
-      "login": "ftlabs",
-      "name": "FT Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1432696?s=88&v=4",
-      "html_url": "https://github.com/ftlabs",
-      "followers": 29,
-      "following": 0,
-      "public_repos": 109,
-      "location": "London, United Kingdom",
-      "bio": "Everything here is MIT licensed and unsupported unless otherwise stated. Use at your own risk.",
-      "company": null,
-      "created_at": "2012-02-13T08:37:04Z",
-      "total_stars": 21381
+      "created_at": "2020-04-08T06:37:03Z",
+      "total_stars": 210
     }
   ],
   "repos": [
@@ -2642,38 +2614,6 @@
       "fork": false
     },
     {
-      "full_name": "safishamsi/graphify",
-      "html_url": "https://github.com/safishamsi/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, she",
-      "stargazers_count": 49388,
-      "forks_count": 5363,
-      "language": "Python",
-      "topics": [
-        "claude-code",
-        "graphrag",
-        "knowledge-graph",
-        "codex",
-        "openclaw"
-      ],
-      "owner_login": "safishamsi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/216348667?s=88&u=6bbf0f3b9175aef7662d55675b88be18655032e2&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "bayandin/awesome-awesomeness",
-      "html_url": "https://github.com/bayandin/awesome-awesomeness",
-      "description": "A curated list of awesome awesomeness",
-      "stargazers_count": 33438,
-      "forks_count": 3599,
-      "language": "Ruby",
-      "topics": [],
-      "owner_login": "bayandin",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/864213?s=88&u=bece5170441fbfed6963d934553abf048d0b14e1&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "lissy93/web-check",
       "html_url": "https://github.com/lissy93/web-check",
       "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
@@ -2728,25 +2668,6 @@
       "owner_login": "elsewhencode",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7815827?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "viatsko/awesome-vscode",
-      "html_url": "https://github.com/viatsko/awesome-vscode",
-      "description": "🎨 A curated list of delightful VS Code packages and resources.",
-      "stargazers_count": 28658,
-      "forks_count": 1387,
-      "language": "JavaScript",
-      "topics": [
-        "visual-studio",
-        "vscode",
-        "vscode-theme",
-        "vscode-extension",
-        "awesome"
-      ],
-      "owner_login": "viatsko",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/376065?s=88&u=63ebe0bc919fabed54305b807ccee56dfce117aa&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -2975,53 +2896,6 @@
       "fork": false
     },
     {
-      "full_name": "chidiwilliams/buzz",
-      "html_url": "https://github.com/chidiwilliams/buzz",
-      "description": "Buzz transcribes and translates audio offline on your personal computer. Powered by OpenAI's Whisper.",
-      "stargazers_count": 19295,
-      "forks_count": 1420,
-      "language": "Python",
-      "topics": [
-        "whisper"
-      ],
-      "owner_login": "chidiwilliams",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17879672?s=88&u=aca9038931e8baf6600a49425f2c79d4a0607640&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Rigellute/spotify-tui",
-      "html_url": "https://github.com/Rigellute/spotify-tui",
-      "description": "Spotify for the terminal written in Rust 🚀",
-      "stargazers_count": 19185,
-      "forks_count": 574,
-      "language": "Rust",
-      "topics": [
-        "spotify",
-        "spotify-api",
-        "spotify-tui",
-        "rust",
-        "terminal-based"
-      ],
-      "owner_login": "Rigellute",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12150276?s=88&u=354519242a389b3def42a4cefa7209e78d00e836&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ftlabs/fastclick",
-      "html_url": "https://github.com/ftlabs/fastclick",
-      "description": "Polyfill to remove click delays on browsers with touch UIs",
-      "stargazers_count": 18538,
-      "forks_count": 3139,
-      "language": "HTML",
-      "topics": [],
-      "owner_login": "ftlabs",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1432696?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "alyssaxuu/screenity",
       "html_url": "https://github.com/alyssaxuu/screenity",
       "description": "The free and privacy-friendly screen recorder with no limits 🎥",
@@ -3037,25 +2911,6 @@
       ],
       "owner_login": "alyssaxuu",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7581348?s=88&u=428dff6968d72fe5eda6c79217c3c684336b2fd9&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Nagi-ovo/gemini-voyager",
-      "html_url": "https://github.com/Nagi-ovo/gemini-voyager",
-      "description": "An all-in-one enhancement suite for Google Gemini & AI Studio - timeline navigation, folder management, prompt library, and chat export in o",
-      "stargazers_count": 18033,
-      "forks_count": 569,
-      "language": "TypeScript",
-      "topics": [
-        "chat-management",
-        "chrome-extension",
-        "gemini",
-        "ai-studio",
-        "safari-extension"
-      ],
-      "owner_login": "Nagi-ovo",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/101612750?s=88&u=5757f982e0b4ee8e5298062bf4b88e072195978e&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3348,19 +3203,6 @@
       "fork": false
     },
     {
-      "full_name": "sjwhitworth/golearn",
-      "html_url": "https://github.com/sjwhitworth/golearn",
-      "description": "Machine Learning for Go",
-      "stargazers_count": 9443,
-      "forks_count": 1174,
-      "language": "Go",
-      "topics": [],
-      "owner_login": "sjwhitworth",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3883338?s=88&u=5a5349dc819ed754d792ded0646ada62f8a6e15d&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "cloudflare/cfssl",
       "html_url": "https://github.com/cloudflare/cfssl",
       "description": "CFSSL: Cloudflare's PKI and TLS toolkit",
@@ -3412,25 +3254,6 @@
       "fork": false
     },
     {
-      "full_name": "shashank88/system_design",
-      "html_url": "https://github.com/shashank88/system_design",
-      "description": "Preparation links and resources for system design questions",
-      "stargazers_count": 9204,
-      "forks_count": 2488,
-      "language": null,
-      "topics": [
-        "interview",
-        "engineering",
-        "architecture",
-        "scale-systems",
-        "facebook"
-      ],
-      "owner_login": "shashank88",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5579108?s=88&u=35dc0708067d13f652a8363460ef4a0c5923268a&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "canonical/multipass",
       "html_url": "https://github.com/canonical/multipass",
       "description": "Multipass orchestrates virtual Ubuntu instances",
@@ -3446,6 +3269,159 @@
       ],
       "owner_login": "canonical",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/53057619?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "OlafenwaMoses/ImageAI",
+      "html_url": "https://github.com/OlafenwaMoses/ImageAI",
+      "description": "A python library built to empower developers to build applications and systems  with self-contained Computer Vision capabilities",
+      "stargazers_count": 8874,
+      "forks_count": 2197,
+      "language": "Python",
+      "topics": [
+        "artificial-intelligence",
+        "machine-learning",
+        "prediction",
+        "image-prediction",
+        "python"
+      ],
+      "owner_login": "OlafenwaMoses",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5909998?s=88&u=040fb861d7a3f33d0dc12de766db87b09241a203&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "nicklockwood/SwiftFormat",
+      "html_url": "https://github.com/nicklockwood/SwiftFormat",
+      "description": "A command-line tool and Xcode Extension for formatting Swift code",
+      "stargazers_count": 8807,
+      "forks_count": 686,
+      "language": "Swift",
+      "topics": [],
+      "owner_login": "nicklockwood",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/546885?s=88&u=27afc21005007e7361c8cf9d88f06c73bbc0cb64&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "mvdan/sh",
+      "html_url": "https://github.com/mvdan/sh",
+      "description": "A shell parser, formatter, and interpreter with bash and zsh support; includes shfmt",
+      "stargazers_count": 8757,
+      "forks_count": 402,
+      "language": "Go",
+      "topics": [
+        "go",
+        "parser",
+        "shell",
+        "bash",
+        "formatter"
+      ],
+      "owner_login": "mvdan",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3576549?s=88&u=a35e1d2c507966ca8d1107301b3853db2bd87a7d&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "sebastianstarke/AI4Animation",
+      "html_url": "https://github.com/sebastianstarke/AI4Animation",
+      "description": "Bringing Characters to Life with Computer Brains in Unity",
+      "stargazers_count": 8701,
+      "forks_count": 1135,
+      "language": "C++",
+      "topics": [],
+      "owner_login": "sebastianstarke",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20269775?s=88&u=d8675f163054fe2207d08fbf96809c7e6dea0229&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "steipete/Aspects",
+      "html_url": "https://github.com/steipete/Aspects",
+      "description": "Delightful, simple library for aspect oriented programming in Objective-C and Swift.",
+      "stargazers_count": 8428,
+      "forks_count": 1268,
+      "language": "Objective-C",
+      "topics": [
+        "objectivec",
+        "aspects",
+        "objective-c",
+        "hooks",
+        "swift"
+      ],
+      "owner_login": "steipete",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/58493?s=88&u=95a4fccef3d341039661c427695691a664e333ba&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "playcanvas/supersplat",
+      "html_url": "https://github.com/playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "stargazers_count": 8416,
+      "forks_count": 902,
+      "language": "TypeScript",
+      "topics": [
+        "3d-gaussian-splatting",
+        "playcanvas",
+        "webgl",
+        "webgpu",
+        "pcui"
+      ],
+      "owner_login": "playcanvas",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1030579?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "paritytech/substrate",
+      "html_url": "https://github.com/paritytech/substrate",
+      "description": "Substrate: The platform for blockchain innovators",
+      "stargazers_count": 8416,
+      "forks_count": 2644,
+      "language": "Rust",
+      "topics": [
+        "parity",
+        "polkadot",
+        "blockchain",
+        "substrate",
+        "client"
+      ],
+      "owner_login": "paritytech",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/14176906?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "HariSekhon/DevOps-Bash-tools",
+      "html_url": "https://github.com/HariSekhon/DevOps-Bash-tools",
+      "description": "1000+ DevOps Bash Scripts - AWS, GCP, Kubernetes, Docker, CI/CD, APIs, SQL, PostgreSQL, MySQL, Hive, Impala, Kafka, Hadoop, Jenkins, GitHub,",
+      "stargazers_count": 8279,
+      "forks_count": 1571,
+      "language": "Shell",
+      "topics": [
+        "bash",
+        "docker",
+        "perl",
+        "cloudera",
+        "hadoop"
+      ],
+      "owner_login": "HariSekhon",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2211051?s=88&u=7747a673d98078d50467ba6e4d4f3a2f17b6db17&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "cloudflare/workerd",
+      "html_url": "https://github.com/cloudflare/workerd",
+      "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
+      "stargazers_count": 8230,
+      "forks_count": 641,
+      "language": "C++",
+      "topics": [],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

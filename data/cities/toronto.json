@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-05-19T12:27:56.856Z",
+  "generated_at": "2026-05-19T17:58:54.063Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 147894,
-    "org_followers": 23740,
+    "org_followers": 23711,
     "user_stars": 689233,
-    "org_stars": 205750
+    "org_stars": 195251
   },
   "queries": [
     {
@@ -2553,20 +2553,6 @@
       "company": null,
       "created_at": "2018-12-24T02:37:31Z",
       "total_stars": 295
-    },
-    {
-      "login": "sdelements",
-      "name": "SD Elements",
-      "avatar_url": "https://avatars.githubusercontent.com/u/739346?s=88&v=4",
-      "html_url": "https://github.com/sdelements",
-      "followers": 29,
-      "following": 0,
-      "public_repos": 24,
-      "location": "Toronto",
-      "bio": "SD Elements is a software security requirements management solution, built by Security Compass.",
-      "company": null,
-      "created_at": "2011-04-19T15:36:31Z",
-      "total_stars": 10499
     }
   ],
   "repos": [
@@ -2867,19 +2853,6 @@
       ],
       "owner_login": "pressly",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/18835?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "sdelements/lets-chat",
-      "html_url": "https://github.com/sdelements/lets-chat",
-      "description": "Self-hosted chat app for small teams",
-      "stargazers_count": 9809,
-      "forks_count": 1565,
-      "language": "JavaScript",
-      "topics": [],
-      "owner_login": "sdelements",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/739346?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3443,6 +3416,23 @@
       ],
       "owner_login": "kamiyaa",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8345320?s=88&u=aa029eb263974f032b92668c19c6ad50ba7d22b2&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "stemmlerjs/software-design-and-architecture-roadmap",
+      "html_url": "https://github.com/stemmlerjs/software-design-and-architecture-roadmap",
+      "description": "🧱 The software design and architecture roadmap for any developer",
+      "stargazers_count": 3395,
+      "forks_count": 418,
+      "language": null,
+      "topics": [
+        "software-design",
+        "architecture",
+        "roadmap"
+      ],
+      "owner_login": "stemmlerjs",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6892666?s=88&u=873a0bd3b94a7a7b4fe90ebc38d13ca7bae3ce5a&v=4",
       "owner_type": "User",
       "fork": false
     }

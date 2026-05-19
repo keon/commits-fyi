@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-05-19T13:21:14.840Z",
+  "generated_at": "2026-05-19T17:59:49.430Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2863,24 +2863,6 @@
       "fork": false
     },
     {
-      "full_name": "matiassingers/awesome-readme",
-      "html_url": "https://github.com/matiassingers/awesome-readme",
-      "description": "A curated list of awesome READMEs",
-      "stargazers_count": 20920,
-      "forks_count": 3952,
-      "language": null,
-      "topics": [
-        "awesome-list",
-        "awesome",
-        "list",
-        "readme"
-      ],
-      "owner_login": "matiassingers",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/938453?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "camsong/You-Dont-Need-jQuery",
       "html_url": "https://github.com/camsong/You-Dont-Need-jQuery",
       "description": "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
@@ -2904,25 +2886,6 @@
       "owner_login": "subquery",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/77033664?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "iCHAIT/awesome-macOS",
-      "html_url": "https://github.com/iCHAIT/awesome-macOS",
-      "description": "  A curated list of awesome applications, softwares, tools and shiny things for macOS.",
-      "stargazers_count": 18588,
-      "forks_count": 1221,
-      "language": null,
-      "topics": [
-        "macos",
-        "mac",
-        "awesome-list",
-        "apple",
-        "awesome-lists"
-      ],
-      "owner_login": "iCHAIT",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8472314?s=88&u=3e6f37e42518322643eea0404d23b7d8e9dbb895&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3431,6 +3394,37 @@
       "topics": [],
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "bytedance/sonic",
+      "html_url": "https://github.com/bytedance/sonic",
+      "description": "A blazingly fast JSON serializing & deserializing library",
+      "stargazers_count": 9396,
+      "forks_count": 442,
+      "language": "Go",
+      "topics": [
+        "high-performance",
+        "json",
+        "jit",
+        "simd"
+      ],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "bytedance/monolith",
+      "html_url": "https://github.com/bytedance/monolith",
+      "description": "A Lightweight Recommendation System",
+      "stargazers_count": 9308,
+      "forks_count": 719,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

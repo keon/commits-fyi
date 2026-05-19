@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-05-19T13:23:15.083Z",
+  "generated_at": "2026-05-19T18:00:45.532Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 301363,
-    "org_followers": 119431,
+    "org_followers": 119037,
     "user_stars": 1156114,
-    "org_stars": 1442041
+    "org_stars": 1402145
   },
   "queries": [
     {
@@ -971,20 +971,6 @@
       "total_stars": 1020
     },
     {
-      "login": "rom1v",
-      "name": "Romain Vimont",
-      "avatar_url": "https://avatars.githubusercontent.com/u/543275?s=88&u=b63fe676f9ee4ea5c8ce5de666230a87a82961f8&v=4",
-      "html_url": "https://github.com/rom1v",
-      "followers": 1729,
-      "following": 97,
-      "public_repos": 46,
-      "location": "Paris, France",
-      "bio": "scrcpy author & VLC developer",
-      "company": "Videolabs",
-      "created_at": "2011-01-01T11:57:54Z",
-      "total_stars": 4835
-    },
-    {
       "login": "beaufortfrancois",
       "name": "François Beaufort",
       "avatar_url": "https://avatars.githubusercontent.com/u/634478?s=88&v=4",
@@ -997,6 +983,20 @@
       "company": "@GoogleChrome",
       "created_at": "2011-02-23T18:28:59Z",
       "total_stars": 1061
+    },
+    {
+      "login": "rom1v",
+      "name": "Romain Vimont",
+      "avatar_url": "https://avatars.githubusercontent.com/u/543275?s=88&u=b63fe676f9ee4ea5c8ce5de666230a87a82961f8&v=4",
+      "html_url": "https://github.com/rom1v",
+      "followers": 1729,
+      "following": 97,
+      "public_repos": 46,
+      "location": "Paris, France",
+      "bio": "scrcpy author & VLC developer",
+      "company": "Videolabs",
+      "created_at": "2011-01-01T11:57:54Z",
+      "total_stars": 4835
     },
     {
       "login": "sarahdayan",
@@ -2553,48 +2553,6 @@
       "company": null,
       "created_at": "2012-01-23T15:46:06Z",
       "total_stars": 48
-    },
-    {
-      "login": "Kozea",
-      "name": "Kozea",
-      "avatar_url": "https://avatars.githubusercontent.com/u/870325?s=88&v=4",
-      "html_url": "https://github.com/Kozea",
-      "followers": 158,
-      "following": 0,
-      "public_repos": 96,
-      "location": "Lyon, France",
-      "bio": "We build open source software that you will love.",
-      "company": null,
-      "created_at": "2011-06-23T10:59:31Z",
-      "total_stars": 20417
-    },
-    {
-      "login": "InsertKoinIO",
-      "name": "insert-koin.io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38280958?s=88&v=4",
-      "html_url": "https://github.com/InsertKoinIO",
-      "followers": 147,
-      "following": 0,
-      "public_repos": 13,
-      "location": "France",
-      "bio": "All about Koin projects",
-      "company": null,
-      "created_at": "2018-04-11T09:32:35Z",
-      "total_stars": 10515
-    },
-    {
-      "login": "reacherhq",
-      "name": "Reacher",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56765733?s=88&v=4",
-      "html_url": "https://github.com/reacherhq",
-      "followers": 89,
-      "following": 0,
-      "public_repos": 4,
-      "location": "France",
-      "bio": "Check if an email exists without sending any email.",
-      "company": null,
-      "created_at": "2019-10-19T15:10:11Z",
-      "total_stars": 8964
     }
   ],
   "repos": [
@@ -2827,42 +2785,6 @@
       "fork": false
     },
     {
-      "full_name": "luongnv89/claude-howto",
-      "html_url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value",
-      "stargazers_count": 33490,
-      "forks_count": 4103,
-      "language": "Python",
-      "topics": [
-        "claude-code",
-        "guide",
-        "tutorial"
-      ],
-      "owner_login": "luongnv89",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3288457?s=88&u=a6493eedf171bb49cdff32c07991c31d70926ab7&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "nicolargo/glances",
-      "html_url": "https://github.com/nicolargo/glances",
-      "description": "Glances an Eye on your system. A top/htop alternative for GNU/Linux, BSD, Mac OS and Windows operating systems.",
-      "stargazers_count": 32586,
-      "forks_count": 1739,
-      "language": "Python",
-      "topics": [
-        "python",
-        "multi-platform",
-        "monitoring",
-        "system",
-        "terminal"
-      ],
-      "owner_login": "nicolargo",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/776747?s=88&u=aa191d095cac0b9bb8ff2aca1d87370b47c0edee&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "VincentGarreau/particles.js",
       "html_url": "https://github.com/VincentGarreau/particles.js",
       "description": "A lightweight JavaScript library for creating particles",
@@ -2977,25 +2899,6 @@
       "fork": false
     },
     {
-      "full_name": "Fosowl/agenticSeek",
-      "html_url": "https://github.com/Fosowl/agenticSeek",
-      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of ",
-      "stargazers_count": 26370,
-      "forks_count": 2953,
-      "language": "Python",
-      "topics": [
-        "agentic-ai",
-        "agents",
-        "ai",
-        "deepseek-r1",
-        "llm"
-      ],
-      "owner_login": "Fosowl",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/49105846?s=88&u=fb60b44e620eb95ecd838656a14d100903150729&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "huggingface/open-r1",
       "html_url": "https://github.com/huggingface/open-r1",
       "description": "Fully open reproduction of DeepSeek-R1",
@@ -3006,22 +2909,6 @@
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "mbeaudru/modern-js-cheatsheet",
-      "html_url": "https://github.com/mbeaudru/modern-js-cheatsheet",
-      "description": "Cheatsheet for the JavaScript knowledge you will frequently encounter in modern projects.",
-      "stargazers_count": 25644,
-      "forks_count": 3169,
-      "language": null,
-      "topics": [
-        "javascript",
-        "es6"
-      ],
-      "owner_login": "mbeaudru",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8942633?s=88&u=2612af9dfc44e2d045b0a67184b916f8d4efc802&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3039,25 +2926,6 @@
       "owner_login": "zama-ai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/57671822?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "gpakosz/.tmux",
-      "html_url": "https://github.com/gpakosz/.tmux",
-      "description": "Oh my tmux! My self-contained, pretty & versatile tmux configuration made with 💛🩷💙🖤❤️🤍",
-      "stargazers_count": 24917,
-      "forks_count": 3577,
-      "language": "Shell",
-      "topics": [
-        "tmux",
-        "tmux-conf",
-        "tmux-configuration",
-        "tmux-config",
-        "powerline"
-      ],
-      "owner_login": "gpakosz",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/553208?s=88&u=fa33d3072d6b7c70d6b6e200acab0bcdc7a34df0&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3208,25 +3076,6 @@
       "fork": false
     },
     {
-      "full_name": "gildas-lormeau/SingleFile",
-      "html_url": "https://github.com/gildas-lormeau/SingleFile",
-      "description": "Web Extension for saving a faithful copy of a complete web page in a single HTML file",
-      "stargazers_count": 21154,
-      "forks_count": 1322,
-      "language": "JavaScript",
-      "topics": [
-        "browser",
-        "archive",
-        "auto-save",
-        "chrome",
-        "firefox"
-      ],
-      "owner_login": "gildas-lormeau",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/396787?s=88&u=9c2aeab0c23cb368b4ae3df9e17bc1ba9d8a51ce&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "huggingface/candle",
       "html_url": "https://github.com/huggingface/candle",
       "description": "Minimalist ML framework for Rust",
@@ -3253,23 +3102,6 @@
       "owner_login": "lewagon",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5470001?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "fathyb/carbonyl",
-      "html_url": "https://github.com/fathyb/carbonyl",
-      "description": "Chromium running inside your terminal",
-      "stargazers_count": 19099,
-      "forks_count": 556,
-      "language": "Rust",
-      "topics": [
-        "browser",
-        "chromium",
-        "terminal"
-      ],
-      "owner_login": "fathyb",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5746414?s=88&u=a167645438e745da25cf959d53cbb313c038d99c&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3463,6 +3295,130 @@
       "owner_login": "rossant",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1942359?s=88&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "gvergnaud/ts-pattern",
+      "html_url": "https://github.com/gvergnaud/ts-pattern",
+      "description": "🎨 The exhaustive Pattern Matching library for TypeScript, with smart type inference.",
+      "stargazers_count": 15001,
+      "forks_count": 164,
+      "language": "TypeScript",
+      "topics": [
+        "pattern-matching",
+        "typescript",
+        "ts",
+        "pattern",
+        "matching"
+      ],
+      "owner_login": "gvergnaud",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9265418?s=88&u=ee590d204f4850ac4db96126e4df1e33d89e9783&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "cyrildiagne/ar-cutpaste",
+      "html_url": "https://github.com/cyrildiagne/ar-cutpaste",
+      "description": "Cut and paste your surroundings using AR",
+      "stargazers_count": 14586,
+      "forks_count": 2031,
+      "language": "TypeScript",
+      "topics": [],
+      "owner_login": "cyrildiagne",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/144372?s=88&u=e829a8ddba74bc0744e55d91d735ee931ffbe07f&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "FaridSafi/react-native-gifted-chat",
+      "html_url": "https://github.com/FaridSafi/react-native-gifted-chat",
+      "description": "💬 The most complete chat UI for React Native",
+      "stargazers_count": 14409,
+      "forks_count": 3612,
+      "language": "TypeScript",
+      "topics": [
+        "react-native",
+        "chat",
+        "component"
+      ],
+      "owner_login": "FaridSafi",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/388375?s=88&u=a10567f0c2ae0b6a68a4d590c8fbdd40851a7d59&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "rougier/numpy-100",
+      "html_url": "https://github.com/rougier/numpy-100",
+      "description": "100 numpy exercises (with solutions)",
+      "stargazers_count": 14127,
+      "forks_count": 6713,
+      "language": "Python",
+      "topics": [
+        "python",
+        "numpy",
+        "binder",
+        "notebook",
+        "exercises"
+      ],
+      "owner_login": "rougier",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/327203?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "jedisct1/libsodium",
+      "html_url": "https://github.com/jedisct1/libsodium",
+      "description": "A modern, portable, easy to use crypto library.",
+      "stargazers_count": 13681,
+      "forks_count": 1869,
+      "language": "C",
+      "topics": [
+        "crypto",
+        "cryptography",
+        "c",
+        "zig-package"
+      ],
+      "owner_login": "jedisct1",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/124872?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "wallabag/wallabag",
+      "html_url": "https://github.com/wallabag/wallabag",
+      "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
+      "stargazers_count": 12719,
+      "forks_count": 874,
+      "language": "PHP",
+      "topics": [
+        "wallabag",
+        "php",
+        "read-it-later",
+        "self-hosted",
+        "symfony"
+      ],
+      "owner_login": "wallabag",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4143872?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "Chainlit/chainlit",
+      "html_url": "https://github.com/Chainlit/chainlit",
+      "description": "Build Conversational AI in minutes ⚡️",
+      "stargazers_count": 12100,
+      "forks_count": 1713,
+      "language": "Python",
+      "topics": [
+        "python",
+        "llm",
+        "ui",
+        "chatgpt",
+        "langchain"
+      ],
+      "owner_login": "Chainlit",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/128686189?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]

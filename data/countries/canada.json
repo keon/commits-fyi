@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-05-19T13:25:39.450Z",
+  "generated_at": "2026-05-19T18:00:54.779Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 354703,
-    "org_followers": 62977,
+    "org_followers": 61934,
     "user_stars": 1028344,
-    "org_stars": 1131116
+    "org_stars": 1034355
   },
   "queries": [
     {
@@ -2553,90 +2553,6 @@
       "company": null,
       "created_at": "2023-11-07T15:30:48Z",
       "total_stars": 18739
-    },
-    {
-      "login": "linkwarden",
-      "name": "Linkwarden",
-      "avatar_url": "https://avatars.githubusercontent.com/u/135248736?s=88&v=4",
-      "html_url": "https://github.com/linkwarden",
-      "followers": 267,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Canada",
-      "bio": "Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
-      "company": null,
-      "created_at": "2023-06-01T15:06:54Z",
-      "total_stars": 18944
-    },
-    {
-      "login": "Devolutions",
-      "name": "Devolutions",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6097418?s=88&v=4",
-      "html_url": "https://github.com/Devolutions",
-      "followers": 265,
-      "following": 0,
-      "public_repos": 60,
-      "location": "Lavaltrie, Quebec, Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-12-03T17:04:37Z",
-      "total_stars": 28348
-    },
-    {
-      "login": "bluewave-labs",
-      "name": "BlueWave Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165089105?s=88&v=4",
-      "html_url": "https://github.com/bluewave-labs",
-      "followers": 235,
-      "following": 0,
-      "public_repos": 13,
-      "location": "Canada",
-      "bio": "We build B2B/SaaS open source software",
-      "company": null,
-      "created_at": "2024-03-26T20:55:05Z",
-      "total_stars": 10165
-    },
-    {
-      "login": "ExistentialAudio",
-      "name": "Existential Audio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55156514?s=88&v=4",
-      "html_url": "https://github.com/ExistentialAudio",
-      "followers": 193,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Burnaby, BC Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-09-10T17:44:53Z",
-      "total_stars": 19323
-    },
-    {
-      "login": "missive",
-      "name": "Missive",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6352330?s=88&v=4",
-      "html_url": "https://github.com/missive",
-      "followers": 54,
-      "following": 0,
-      "public_repos": 9,
-      "location": "Canada",
-      "bio": "The one app for team email and chat.",
-      "company": null,
-      "created_at": "2014-01-08T19:00:49Z",
-      "total_stars": 9482
-    },
-    {
-      "login": "sdelements",
-      "name": "SD Elements",
-      "avatar_url": "https://avatars.githubusercontent.com/u/739346?s=88&v=4",
-      "html_url": "https://github.com/sdelements",
-      "followers": 29,
-      "following": 0,
-      "public_repos": 24,
-      "location": "Toronto",
-      "bio": "SD Elements is a software security requirements management solution, built by Security Compass.",
-      "company": null,
-      "created_at": "2011-04-19T15:36:31Z",
-      "total_stars": 10499
     }
   ],
   "repos": [
@@ -2705,23 +2621,6 @@
       "fork": false
     },
     {
-      "full_name": "ziishaned/learn-regex",
-      "html_url": "https://github.com/ziishaned/learn-regex",
-      "description": "Learn regex the easy way",
-      "stargazers_count": 46120,
-      "forks_count": 6177,
-      "language": null,
-      "topics": [
-        "regex",
-        "regular-expression",
-        "learn-regex"
-      ],
-      "owner_login": "ziishaned",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/16267321?s=88&u=2e69fae65fed819d475dff0c93f569fbfb87b82b&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "meteor/meteor",
       "html_url": "https://github.com/meteor/meteor",
       "description": "Meteor, the JavaScript App Platform",
@@ -2738,38 +2637,6 @@
       "owner_login": "meteor",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/789528?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "k88hudson/git-flight-rules",
-      "html_url": "https://github.com/k88hudson/git-flight-rules",
-      "description": "Flight rules for git",
-      "stargazers_count": 42479,
-      "forks_count": 3180,
-      "language": null,
-      "topics": [],
-      "owner_login": "k88hudson",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1455535?s=88&u=fa6d0d8a4cc62fac1cb06f57e2d2b0ed25592391&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ibraheemdev/modern-unix",
-      "html_url": "https://github.com/ibraheemdev/modern-unix",
-      "description": "A collection of modern/faster/saner alternatives to common unix commands.",
-      "stargazers_count": 32919,
-      "forks_count": 829,
-      "language": null,
-      "topics": [
-        "lists",
-        "unix",
-        "shell",
-        "tools",
-        "command-line"
-      ],
-      "owner_login": "ibraheemdev",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34988408?s=88&u=318ee2128f71719dcbe772f592f5ba33ee21b9c1&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -2885,25 +2752,6 @@
       "fork": false
     },
     {
-      "full_name": "eyaltoledano/claude-task-master",
-      "html_url": "https://github.com/eyaltoledano/claude-task-master",
-      "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
-      "stargazers_count": 27180,
-      "forks_count": 2532,
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "cursor",
-        "task-manager",
-        "tasks",
-        "tasks-list"
-      ],
-      "owner_login": "eyaltoledano",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3160046?s=88&u=f1afa30b0f42cc419cb3d715ce32b748c1099cf7&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "ggreer/the_silver_searcher",
       "html_url": "https://github.com/ggreer/the_silver_searcher",
       "description": "A code-searching tool similar to ack, but faster.",
@@ -3010,25 +2858,6 @@
       "fork": false
     },
     {
-      "full_name": "Devolutions/UniGetUI",
-      "html_url": "https://github.com/Devolutions/UniGetUI",
-      "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package",
-      "stargazers_count": 23903,
-      "forks_count": 816,
-      "language": "C#",
-      "topics": [
-        "winget",
-        "scoop",
-        "cli",
-        "windows-10",
-        "package"
-      ],
-      "owner_login": "Devolutions",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6097418?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "MustangYM/WeChatExtension-ForMac",
       "html_url": "https://github.com/MustangYM/WeChatExtension-ForMac",
       "description": "A plugin for Mac WeChat",
@@ -3044,63 +2873,6 @@
       ],
       "owner_login": "MustangYM",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/21478687?s=88&u=b04ab5e45dbea570ff0869f2ab230a10d886cf3c&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "AnthonyCalandra/modern-cpp-features",
-      "html_url": "https://github.com/AnthonyCalandra/modern-cpp-features",
-      "description": "A cheatsheet of modern C++ language and library features.",
-      "stargazers_count": 21674,
-      "forks_count": 2258,
-      "language": null,
-      "topics": [
-        "cpp",
-        "cpp11",
-        "cpp14",
-        "cpp17",
-        "cpp20"
-      ],
-      "owner_login": "AnthonyCalandra",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/952574?s=88&u=eaa59a6d9aa3fa601bd7765de760757d694535f7&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "SBoudrias/Inquirer.js",
-      "html_url": "https://github.com/SBoudrias/Inquirer.js",
-      "description": "A collection of common interactive command line user interfaces.",
-      "stargazers_count": 21552,
-      "forks_count": 1357,
-      "language": "TypeScript",
-      "topics": [
-        "prompt",
-        "command-line",
-        "javascript-library",
-        "nodejs",
-        "javascript"
-      ],
-      "owner_login": "SBoudrias",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/923865?s=88&u=9b8363e8a37caedaf0c542245e76b181e70f2f13&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "bloc97/Anime4K",
-      "html_url": "https://github.com/bloc97/Anime4K",
-      "description": "A High-Quality Real Time Upscaler for Anime Video",
-      "stargazers_count": 20979,
-      "forks_count": 1392,
-      "language": "Jupyter Notebook",
-      "topics": [
-        "anime",
-        "upscaling",
-        "upsampling",
-        "video-processing",
-        "video"
-      ],
-      "owner_login": "bloc97",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/567732?s=88&u=d940a2b5299af9dc88325a38cdb7ced397b4cbc0&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3174,25 +2946,6 @@
       "fork": false
     },
     {
-      "full_name": "ExistentialAudio/BlackHole",
-      "html_url": "https://github.com/ExistentialAudio/BlackHole",
-      "description": "BlackHole is a modern macOS audio loopback driver that allows applications to pass audio to other applications with zero additional latency.",
-      "stargazers_count": 19013,
-      "forks_count": 801,
-      "language": "C",
-      "topics": [
-        "audio",
-        "driver",
-        "macos",
-        "loopback",
-        "virtual-audio-cable"
-      ],
-      "owner_login": "ExistentialAudio",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/55156514?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "mountain-loop/yaak",
       "html_url": "https://github.com/mountain-loop/yaak",
       "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
@@ -3227,25 +2980,6 @@
       ],
       "owner_login": "plotly",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5997976?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "linkwarden/linkwarden",
-      "html_url": "https://github.com/linkwarden/linkwarden",
-      "description": "⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.",
-      "stargazers_count": 18385,
-      "forks_count": 759,
-      "language": "TypeScript",
-      "topics": [
-        "collaboration",
-        "self-hosted",
-        "typescript",
-        "nextjs",
-        "bookmark-manager"
-      ],
-      "owner_login": "linkwarden",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/135248736?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3541,6 +3275,189 @@
       "owner_login": "danluu",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/157136?s=88&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "elebumm/RedditVideoMakerBot",
+      "html_url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "description": "Create Reddit Videos with just✨ one command ✨",
+      "stargazers_count": 11960,
+      "forks_count": 2819,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "elebumm",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6053155?s=88&u=32f169839931d0b6eac6f5c3633010fd09fbb6b1&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "wix/Detox",
+      "html_url": "https://github.com/wix/Detox",
+      "description": "Gray box end-to-end testing and automation framework for mobile apps",
+      "stargazers_count": 11914,
+      "forks_count": 1913,
+      "language": "JavaScript",
+      "topics": [
+        "e2e-tests",
+        "ios",
+        "react-native",
+        "android",
+        "testing"
+      ],
+      "owner_login": "wix",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "developit/mitt",
+      "html_url": "https://github.com/developit/mitt",
+      "description": "🥊 Tiny 200 byte functional event emitter / pubsub.",
+      "stargazers_count": 11870,
+      "forks_count": 481,
+      "language": "TypeScript",
+      "topics": [
+        "mitt",
+        "event-handlers",
+        "pubsub",
+        "tiny",
+        "event"
+      ],
+      "owner_login": "developit",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/105127?s=88&u=9dbda1907e83e069f6f1ee68b77111f784fae663&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "MagicStack/uvloop",
+      "html_url": "https://github.com/MagicStack/uvloop",
+      "description": "Ultra fast asyncio event loop.",
+      "stargazers_count": 11786,
+      "forks_count": 606,
+      "language": "Cython",
+      "topics": [
+        "asyncio",
+        "async-await",
+        "async",
+        "high-performance",
+        "libuv"
+      ],
+      "owner_login": "MagicStack",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/14324950?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "logaretm/vee-validate",
+      "html_url": "https://github.com/logaretm/vee-validate",
+      "description": "✅  Painless Vue forms",
+      "stargazers_count": 11257,
+      "forks_count": 1296,
+      "language": "TypeScript",
+      "topics": [
+        "vue",
+        "validation",
+        "validate",
+        "vuejs",
+        "vee-validate"
+      ],
+      "owner_login": "logaretm",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6261322?s=88&u=e3c5730ed7d142d8c7a820a167024f450cb6bc71&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "dgryski/go-perfbook",
+      "html_url": "https://github.com/dgryski/go-perfbook",
+      "description": "Thoughts on Go performance optimization",
+      "stargazers_count": 10901,
+      "forks_count": 599,
+      "language": null,
+      "topics": [
+        "optimization",
+        "performance",
+        "performance-optimization",
+        "performance-analysis"
+      ],
+      "owner_login": "dgryski",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/970862?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "clauderic/react-sortable-hoc",
+      "html_url": "https://github.com/clauderic/react-sortable-hoc",
+      "description": "A set of higher-order components to turn any list into an animated, accessible and touch-friendly sortable list✌️",
+      "stargazers_count": 10892,
+      "forks_count": 962,
+      "language": "JavaScript",
+      "topics": [
+        "react",
+        "sortable",
+        "drag-and-drop",
+        "sorting",
+        "javascript"
+      ],
+      "owner_login": "clauderic",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1416436?s=88&u=10d4e0a90e238720d1b7407a48345de0c74aef04&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "wix/react-native-calendars",
+      "html_url": "https://github.com/wix/react-native-calendars",
+      "description": "React Native Calendar Components 🗓️ 📆 ",
+      "stargazers_count": 10284,
+      "forks_count": 3076,
+      "language": "TypeScript",
+      "topics": [
+        "react-native",
+        "android",
+        "ios",
+        "calendar",
+        "ui-components"
+      ],
+      "owner_login": "wix",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "unoplatform/uno",
+      "html_url": "https://github.com/unoplatform/uno",
+      "description": "Open-source platform for building cross-platform native Mobile, Web, Desktop and Embedded apps quickly.  Create rich, C#/XAML, single-codeba",
+      "stargazers_count": 9943,
+      "forks_count": 860,
+      "language": "C#",
+      "topics": [
+        "uno",
+        "uwp",
+        "android",
+        "uno-platform",
+        "roslyn"
+      ],
+      "owner_login": "unoplatform",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/52228309?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "pycaret/pycaret",
+      "html_url": "https://github.com/pycaret/pycaret",
+      "description": "Open-source, low-code AutoML platform for Python. PyCaret 4.0: sklearn-native engine + React control plane.",
+      "stargazers_count": 9794,
+      "forks_count": 1861,
+      "language": "Python",
+      "topics": [
+        "data-science",
+        "python",
+        "machine-learning",
+        "pycaret",
+        "ml"
+      ],
+      "owner_login": "pycaret",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/58118658?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]

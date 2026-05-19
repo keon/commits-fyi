@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Australia",
   "slug": "australia",
-  "generated_at": "2026-05-19T13:26:00.458Z",
+  "generated_at": "2026-05-19T18:01:44.562Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 259419,
+    "user_followers": 257667,
     "org_followers": 35961,
-    "user_stars": 989610,
+    "user_stars": 930979,
     "org_stars": 450887
   },
   "queries": [
@@ -339,20 +339,6 @@
       "company": null,
       "created_at": "2020-09-10T02:13:01Z",
       "total_stars": 3741
-    },
-    {
-      "login": "sickcodes",
-      "name": "sickcodes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65906298?s=88&u=7b8ae9f1fb347ca4f74404d0b379b9779fad3419&v=4",
-      "html_url": "https://github.com/sickcodes",
-      "followers": 2765,
-      "following": 159,
-      "public_repos": 23,
-      "location": "Australiasia",
-      "bio": "Security Researcher | Freelance Developer | Open Source\r\n\r\nI'm on Twitter, Linkedin, Discord, Telegram, Element\r\n\r\nLinks: http://sick.codes\r\n\r\ninfo@sick.codes",
-      "company": "Hacker | Contractor | Security Researcer | Freelance Developer | Open Source",
-      "created_at": "2020-05-25T13:41:24Z",
-      "total_stars": 59123
     },
     {
       "login": "ghuntley",
@@ -2051,20 +2037,6 @@
       "total_stars": 1652
     },
     {
-      "login": "qantas-cloud",
-      "name": "Qantas Cloud Platform",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57466381?s=88&v=4",
-      "html_url": "https://github.com/qantas-cloud",
-      "followers": 238,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-11-06T23:36:17Z",
-      "total_stars": 0
-    },
-    {
       "login": "99designs",
       "name": "99designs",
       "avatar_url": "https://avatars.githubusercontent.com/u/17182?s=88&v=4",
@@ -2602,25 +2574,6 @@
       "fork": false
     },
     {
-      "full_name": "sickcodes/Docker-OSX",
-      "html_url": "https://github.com/sickcodes/Docker-OSX",
-      "description": "Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.",
-      "stargazers_count": 52510,
-      "forks_count": 2889,
-      "language": "Shell",
-      "topics": [
-        "docker",
-        "osx",
-        "macos",
-        "x11",
-        "container"
-      ],
-      "owner_login": "sickcodes",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/65906298?s=88&u=7b8ae9f1fb347ca4f74404d0b379b9779fad3419&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "jesseduffield/lazydocker",
       "html_url": "https://github.com/jesseduffield/lazydocker",
       "description": "The lazier way to manage everything docker",
@@ -2669,38 +2622,6 @@
       "owner_login": "atlassian",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/168166?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "sampotts/plyr",
-      "html_url": "https://github.com/sampotts/plyr",
-      "description": "A simple HTML5, YouTube and Vimeo player",
-      "stargazers_count": 29784,
-      "forks_count": 3106,
-      "language": "JavaScript",
-      "topics": [
-        "html5-video",
-        "youtube",
-        "vimeo",
-        "javascript",
-        "plyr"
-      ],
-      "owner_login": "sampotts",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/719092?s=88&u=7a6ec562a3081548f1befe93cbedcbb7b0ba5645&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "viraptor/reverse-interview",
-      "html_url": "https://github.com/viraptor/reverse-interview",
-      "description": "Questions to ask the company during your interview",
-      "stargazers_count": 28539,
-      "forks_count": 2117,
-      "language": null,
-      "topics": [],
-      "owner_login": "viraptor",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/188063?s=88&u=f6ecb59b6f8558f60a62c6ece8304bea5dd4e9e1&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -2834,63 +2755,6 @@
       "topics": [],
       "owner_login": "brendangregg",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1101211?s=88&u=fdc065e959dc60cddaf2db45ec6595a48a9e38a3&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Donchitos/Claude-Code-Game-Studios",
-      "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hi",
-      "stargazers_count": 19222,
-      "forks_count": 2809,
-      "language": "Shell",
-      "topics": [
-        "ai-agents",
-        "ai-assisted-development",
-        "anthropic",
-        "claude",
-        "claude-code"
-      ],
-      "owner_login": "Donchitos",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/150119193?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "kyleneideck/BackgroundMusic",
-      "html_url": "https://github.com/kyleneideck/BackgroundMusic",
-      "description": "Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.",
-      "stargazers_count": 18961,
-      "forks_count": 762,
-      "language": "C++",
-      "topics": [
-        "audio",
-        "audio-utility",
-        "macos",
-        "cpp",
-        "objective-c"
-      ],
-      "owner_login": "kyleneideck",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2290968?s=88&u=3190a10fac7a30478367fb367d64ddfb19361e18&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "nosir/cleave.js",
-      "html_url": "https://github.com/nosir/cleave.js",
-      "description": "Format input text content when you are typing...",
-      "stargazers_count": 17877,
-      "forks_count": 1581,
-      "language": "JavaScript",
-      "topics": [
-        "input",
-        "input-mask",
-        "credit-card",
-        "creditcard",
-        "telephone-number"
-      ],
-      "owner_login": "nosir",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/352617?s=88&u=44ca0aa90b2089efc5e05fe6649e6278a27e7557&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3446,6 +3310,102 @@
       ],
       "owner_login": "sammchardy",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6649065?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "redguardtoo/mastering-emacs-in-one-year-guide",
+      "html_url": "https://github.com/redguardtoo/mastering-emacs-in-one-year-guide",
+      "description": "Be great at emacs in one year",
+      "stargazers_count": 6440,
+      "forks_count": 881,
+      "language": null,
+      "topics": [],
+      "owner_login": "redguardtoo",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/184553?s=88&u=059419ac278c652d2860e79f0e8721516621a225&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "dragen1860/TensorFlow-2.x-Tutorials",
+      "html_url": "https://github.com/dragen1860/TensorFlow-2.x-Tutorials",
+      "description": "TensorFlow 2.x version's  Tutorials and Examples, including CNN, RNN, GAN, Auto-Encoders, FasterRCNN, GPT, BERT examples, etc. TF 2.0版入门实例代码",
+      "stargazers_count": 6353,
+      "forks_count": 2198,
+      "language": "Jupyter Notebook",
+      "topics": [
+        "tensorflow",
+        "tensorflow-examples",
+        "tensorflow-tutorials",
+        "tensorflow-2",
+        "deep-learning"
+      ],
+      "owner_login": "dragen1860",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4252555?s=88&u=a1772aaf2c43a11da0ee111d44efa67c24f9a9cd&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "dformoso/machine-learning-mindmap",
+      "html_url": "https://github.com/dformoso/machine-learning-mindmap",
+      "description": "A mindmap summarising Machine Learning concepts, from Data Analysis to Deep Learning.",
+      "stargazers_count": 6253,
+      "forks_count": 1009,
+      "language": null,
+      "topics": [
+        "machine",
+        "learning",
+        "data",
+        "science",
+        "python"
+      ],
+      "owner_login": "dformoso",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2955131?s=88&u=05408cecb7b11643f449a605be82ff3af7b1acc9&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "jpillora/cloud-torrent",
+      "html_url": "https://github.com/jpillora/cloud-torrent",
+      "description": "☁️ Cloud Torrent: a self-hosted remote torrent client",
+      "stargazers_count": 6163,
+      "forks_count": 1814,
+      "language": "Go",
+      "topics": [
+        "torrent",
+        "torrent-client",
+        "self-hosted",
+        "golang",
+        "cloud"
+      ],
+      "owner_login": "jpillora",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/633843?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "acantril/learn-cantrill-io-labs",
+      "html_url": "https://github.com/acantril/learn-cantrill-io-labs",
+      "description": "Standard and Advanced Demos for learn.cantrill.io courses",
+      "stargazers_count": 6122,
+      "forks_count": 2319,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "acantril",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/15226029?s=88&u=5b047c423bdd689755f124ed7eaffa6c970dc5cb&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "dmytrodanylyk/circular-progress-button",
+      "html_url": "https://github.com/dmytrodanylyk/circular-progress-button",
+      "description": "Android Circular Progress Button",
+      "stargazers_count": 5754,
+      "forks_count": 1167,
+      "language": "Java",
+      "topics": [],
+      "owner_login": "dmytrodanylyk",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2836354?s=88&u=f84cc19f2218f951d2e1040b53b6c44c233bbe89&v=4",
       "owner_type": "User",
       "fork": false
     }

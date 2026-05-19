@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-05-19T13:23:34.000Z",
+  "generated_at": "2026-05-19T18:00:46.802Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 229557,
-    "org_followers": 49467,
+    "org_followers": 49075,
     "user_stars": 882791,
-    "org_stars": 682641
+    "org_stars": 568040
   },
   "queries": [
     {
@@ -2553,76 +2553,6 @@
       "company": null,
       "created_at": "2020-01-08T16:02:34Z",
       "total_stars": 4867
-    },
-    {
-      "login": "ajaxorg",
-      "name": "Ajax.org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/168515?s=88&v=4",
-      "html_url": "https://github.com/ajaxorg",
-      "followers": 126,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Amsterdam, The Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-12-16T17:47:57Z",
-      "total_stars": 30821
-    },
-    {
-      "login": "phusion",
-      "name": "Phusion B.V.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/830588?s=88&v=4",
-      "html_url": "https://github.com/phusion",
-      "followers": 101,
-      "following": 0,
-      "public_repos": 68,
-      "location": "Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-06-05T10:07:13Z",
-      "total_stars": 22370
-    },
-    {
-      "login": "fruitcake",
-      "name": "Fruitcake",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6661222?s=88&v=4",
-      "html_url": "https://github.com/fruitcake",
-      "followers": 70,
-      "following": 0,
-      "public_repos": 33,
-      "location": "Netherlands",
-      "bio": "Your #1 dev team - PHP & Laravel Agency from The Netherlands (Noord-Brabant)",
-      "company": null,
-      "created_at": "2014-02-12T12:34:37Z",
-      "total_stars": 26841
-    },
-    {
-      "login": "release-it",
-      "name": "Release It!",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46885541?s=88&v=4",
-      "html_url": "https://github.com/release-it",
-      "followers": 52,
-      "following": 0,
-      "public_repos": 7,
-      "location": "Netherlands",
-      "bio": "🚀 Automate versioning and package publishing",
-      "company": null,
-      "created_at": "2019-01-21T07:58:47Z",
-      "total_stars": 9222
-    },
-    {
-      "login": "hammerjs",
-      "name": "Hammer.js",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7997161?s=88&v=4",
-      "html_url": "https://github.com/hammerjs",
-      "followers": 43,
-      "following": 0,
-      "public_repos": 7,
-      "location": "Arnhem, Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-06-26T14:50:18Z",
-      "total_stars": 25347
     }
   ],
   "repos": [
@@ -2681,25 +2611,6 @@
       "fork": false
     },
     {
-      "full_name": "Raphire/Win11Debloat",
-      "html_url": "https://github.com/Raphire/Win11Debloat",
-      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other ch",
-      "stargazers_count": 46428,
-      "forks_count": 1888,
-      "language": "PowerShell",
-      "topics": [
-        "windows",
-        "windows-10",
-        "windows10",
-        "powershell",
-        "ps1"
-      ],
-      "owner_login": "Raphire",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9938813?s=88&u=36a2d1fc354e7314f167dee34ff90e9f2add52dc&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "faif/python-patterns",
       "html_url": "https://github.com/faif/python-patterns",
       "description": "A collection of design patterns/idioms in Python",
@@ -2733,24 +2644,6 @@
       "owner_login": "pola-rs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/83768144?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "juanfont/headscale",
-      "html_url": "https://github.com/juanfont/headscale",
-      "description": "An open source, self-hosted implementation of the Tailscale control server",
-      "stargazers_count": 38494,
-      "forks_count": 2110,
-      "language": "Go",
-      "topics": [
-        "tailscale",
-        "tailscale-control-server",
-        "wireguard",
-        "tailscale-server"
-      ],
-      "owner_login": "juanfont",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/181059?s=88&u=56e87e3bf1145a99035e3ef576bc8c099214ac70&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -2811,19 +2704,6 @@
       "fork": false
     },
     {
-      "full_name": "ajaxorg/ace",
-      "html_url": "https://github.com/ajaxorg/ace",
-      "description": "Ace (Ajax.org Cloud9 Editor)",
-      "stargazers_count": 27133,
-      "forks_count": 5271,
-      "language": "JavaScript",
-      "topics": [],
-      "owner_login": "ajaxorg",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/168515?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "nvie/gitflow",
       "html_url": "https://github.com/nvie/gitflow",
       "description": "Git extensions to provide high-level repository operations for Vincent Driessen's branching model.",
@@ -2833,22 +2713,6 @@
       "topics": [],
       "owner_login": "nvie",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/83844?s=88&u=9dc6d501512fa27781761de35ae8a057a0348ec4&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "HarisIqbal88/PlotNeuralNet",
-      "html_url": "https://github.com/HarisIqbal88/PlotNeuralNet",
-      "description": "Latex code for making neural networks diagrams",
-      "stargazers_count": 24755,
-      "forks_count": 3062,
-      "language": "TeX",
-      "topics": [
-        "latex",
-        "deep-neural-networks"
-      ],
-      "owner_login": "HarisIqbal88",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17570785?s=88&u=31bcd8cb8a43b13519ce177178a1fddcb6cced34&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -2869,19 +2733,6 @@
       "owner_login": "arendst",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11044339?s=88&u=b54c71859c551426b6738921138b740804ca1d62&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "hammerjs/hammer.js",
-      "html_url": "https://github.com/hammerjs/hammer.js",
-      "description": "A javascript library for multi-touch gestures :// You can touch this",
-      "stargazers_count": 24352,
-      "forks_count": 2577,
-      "language": "JavaScript",
-      "topics": [],
-      "owner_login": "hammerjs",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7997161?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -2913,25 +2764,6 @@
       "topics": [],
       "owner_login": "SamyPesse",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/845425?s=88&u=e91b5f83389302c9df0fff0b79c5510ba79f9028&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "nikitabobko/AeroSpace",
-      "html_url": "https://github.com/nikitabobko/AeroSpace",
-      "description": "AeroSpace is an i3-like tiling window manager for macOS",
-      "stargazers_count": 20827,
-      "forks_count": 526,
-      "language": "Swift",
-      "topics": [
-        "i3wm",
-        "macos",
-        "tiling-window-manager",
-        "window-manager",
-        "i3"
-      ],
-      "owner_login": "nikitabobko",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20517828?s=88&u=ee118c65f634378e3d69e0dac1c37cca9851e34d&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -2971,25 +2803,6 @@
       "owner_login": "MoienTajik",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/21059063?s=88&u=bab683098a02cb1864b390695d36d34ccb727cc8&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "fruitcake/laravel-debugbar",
-      "html_url": "https://github.com/fruitcake/laravel-debugbar",
-      "description": "Debugbar for Laravel (Integrates PHP Debug Bar)",
-      "stargazers_count": 19220,
-      "forks_count": 1604,
-      "language": "PHP",
-      "topics": [
-        "laravel",
-        "debugbar",
-        "developer-tool",
-        "profiler",
-        "toolbar"
-      ],
-      "owner_login": "fruitcake",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6661222?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -3324,25 +3137,6 @@
       "fork": false
     },
     {
-      "full_name": "mac-cain13/R.swift",
-      "html_url": "https://github.com/mac-cain13/R.swift",
-      "description": "Strong typed, autocompleted resources like images, fonts and segues in Swift projects",
-      "stargazers_count": 9580,
-      "forks_count": 779,
-      "language": "Swift",
-      "topics": [
-        "swift",
-        "ios",
-        "watchos",
-        "tvos",
-        "code-generator"
-      ],
-      "owner_login": "mac-cain13",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/618233?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "Rob--W/cors-anywhere",
       "html_url": "https://github.com/Rob--W/cors-anywhere",
       "description": "CORS Anywhere is a NodeJS reverse proxy which adds CORS headers to the proxied request.",
@@ -3374,19 +3168,6 @@
       "fork": false
     },
     {
-      "full_name": "phusion/baseimage-docker",
-      "html_url": "https://github.com/phusion/baseimage-docker",
-      "description": "A minimal Ubuntu base image modified for Docker-friendliness",
-      "stargazers_count": 9099,
-      "forks_count": 1077,
-      "language": "Shell",
-      "topics": [],
-      "owner_login": "phusion",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/830588?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "KenneyNL/Adobe-Alternatives",
       "html_url": "https://github.com/KenneyNL/Adobe-Alternatives",
       "description": "A list of alternatives for Adobe software",
@@ -3400,25 +3181,6 @@
       "owner_login": "KenneyNL",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6953026?s=88&u=3abc0d441eb9b95f46102438e90a6c3cdcbd2a0d&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "release-it/release-it",
-      "html_url": "https://github.com/release-it/release-it",
-      "description": "🚀 Automate versioning and package publishing",
-      "stargazers_count": 8950,
-      "forks_count": 563,
-      "language": "JavaScript",
-      "topics": [
-        "release-automation",
-        "publish",
-        "npm",
-        "git",
-        "tool"
-      ],
-      "owner_login": "release-it",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/46885541?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -3441,32 +3203,6 @@
       "fork": false
     },
     {
-      "full_name": "ricklamers/gridstudio",
-      "html_url": "https://github.com/ricklamers/gridstudio",
-      "description": "Grid studio is a web-based application for data science with full integration of open source data science frameworks and languages.",
-      "stargazers_count": 8827,
-      "forks_count": 1486,
-      "language": "JavaScript",
-      "topics": [],
-      "owner_login": "ricklamers",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1309307?s=88&u=d6a8ff449af00afb4e89012c947d8eac126253a6&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ejci/favico.js",
-      "html_url": "https://github.com/ejci/favico.js",
-      "description": "Make use of your favicon with badges, images or videos",
-      "stargazers_count": 8691,
-      "forks_count": 567,
-      "language": "JavaScript",
-      "topics": [],
-      "owner_login": "ejci",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1025656?s=88&u=344c5f8fbe6db569e6ad9c9228f069f9b517c2cd&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "frenck/awesome-home-assistant",
       "html_url": "https://github.com/frenck/awesome-home-assistant",
       "description": "A curated list of amazingly awesome Home Assistant resources.",
@@ -3482,6 +3218,220 @@
       ],
       "owner_login": "frenck",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/195327?s=88&u=c0f88e376380f7a811559aa54d5096a66f6d3488&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "JerBouma/FinanceDatabase",
+      "html_url": "https://github.com/JerBouma/FinanceDatabase",
+      "description": "This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",
+      "stargazers_count": 7623,
+      "forks_count": 776,
+      "language": "Python",
+      "topics": [
+        "finance",
+        "database",
+        "financials",
+        "analysis",
+        "equities"
+      ],
+      "owner_login": "JerBouma",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/46355364?s=88&u=73e5ebde1d475768f58349190a0afcd460cba106&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "MaartenGr/BERTopic",
+      "html_url": "https://github.com/MaartenGr/BERTopic",
+      "description": "Leveraging BERT and c-TF-IDF to create easily interpretable topics. ",
+      "stargazers_count": 7615,
+      "forks_count": 897,
+      "language": "Python",
+      "topics": [
+        "bert",
+        "transformers",
+        "topic-modeling",
+        "sentence-embeddings",
+        "nlp"
+      ],
+      "owner_login": "MaartenGr",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25746895?s=88&u=100007ea591a517bfcfc0b40b9f9bd3c8a25ca38&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "imaNNeo/fl_chart",
+      "html_url": "https://github.com/imaNNeo/fl_chart",
+      "description": "FL Chart is a highly customizable Flutter chart library that supports Line Chart, Bar Chart, Pie Chart, Scatter Chart, Radar Chart and Candl",
+      "stargazers_count": 7515,
+      "forks_count": 1965,
+      "language": "Dart",
+      "topics": [
+        "flutter-widget",
+        "flutter",
+        "chart",
+        "charts",
+        "fl-chart"
+      ],
+      "owner_login": "imaNNeo",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7009300?s=88&u=79b46418859554fbfecd1309f864fc0440a4e3f8&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "tkipf/gcn",
+      "html_url": "https://github.com/tkipf/gcn",
+      "description": "Implementation of Graph Convolutional Networks in TensorFlow",
+      "stargazers_count": 7388,
+      "forks_count": 2006,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "tkipf",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7347296?s=88&u=0ed8b90cb3e89cfec4115ddefd3455fb9a01d76f&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "barryvdh/laravel-dompdf",
+      "html_url": "https://github.com/barryvdh/laravel-dompdf",
+      "description": "A DOMPDF Wrapper for Laravel",
+      "stargazers_count": 7263,
+      "forks_count": 982,
+      "language": "PHP",
+      "topics": [
+        "laravel",
+        "pdf",
+        "hacktoberfest"
+      ],
+      "owner_login": "barryvdh",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/973269?s=88&u=3abe81c05eb57c679423e78d99ee9f6c1724f722&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "JetBrains/kotlin-native",
+      "html_url": "https://github.com/JetBrains/kotlin-native",
+      "description": "Kotlin/Native infrastructure",
+      "stargazers_count": 6988,
+      "forks_count": 560,
+      "language": "Kotlin",
+      "topics": [
+        "kotlin",
+        "compiler",
+        "llvm",
+        "objective-c",
+        "c"
+      ],
+      "owner_login": "JetBrains",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/878437?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "Ultimaker/Cura",
+      "html_url": "https://github.com/Ultimaker/Cura",
+      "description": "3D printer / slicing GUI built on top of the Uranium framework",
+      "stargazers_count": 6963,
+      "forks_count": 2176,
+      "language": "Python",
+      "topics": [
+        "cura",
+        "3d-printing",
+        "python",
+        "uranium",
+        "gcode"
+      ],
+      "owner_login": "Ultimaker",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/499557?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "koenbok/Framer",
+      "html_url": "https://github.com/koenbok/Framer",
+      "description": "Framer - Design Everything",
+      "stargazers_count": 5878,
+      "forks_count": 482,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "koenbok",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/206779?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "terrakok/kmp-awesome",
+      "html_url": "https://github.com/terrakok/kmp-awesome",
+      "description": "An awesome list that curates the best Kotlin Multiplatform libraries, tools and more. ",
+      "stargazers_count": 5748,
+      "forks_count": 356,
+      "language": null,
+      "topics": [
+        "kotlin",
+        "kotlin-multiplatform",
+        "kmm",
+        "awesome",
+        "tools"
+      ],
+      "owner_login": "terrakok",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3532155?s=88&u=3ad655396658fe24e972802416cb431212a6c437&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "lauragift21/awesome-learning-resources",
+      "html_url": "https://github.com/lauragift21/awesome-learning-resources",
+      "description": "🔥 Awesome list of resources on Web Development.",
+      "stargazers_count": 5726,
+      "forks_count": 837,
+      "language": null,
+      "topics": [
+        "open-source",
+        "css",
+        "vue",
+        "javascript",
+        "awesome-list"
+      ],
+      "owner_login": "lauragift21",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17781315?s=88&u=135a419d7a02c75230ccd5d18f12c01d79031f3c&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "mislav/will_paginate",
+      "html_url": "https://github.com/mislav/will_paginate",
+      "description": "Pagination library for Rails and other Ruby applications",
+      "stargazers_count": 5696,
+      "forks_count": 858,
+      "language": "Ruby",
+      "topics": [
+        "rails",
+        "plugin",
+        "pagination-library",
+        "sinatra",
+        "sequel"
+      ],
+      "owner_login": "mislav",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/887?s=88&u=5ce21332bfb47e39de1fddeb28b4192d1f8d543a&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "hacdias/webdav",
+      "html_url": "https://github.com/hacdias/webdav",
+      "description": "A simple and standalone WebDAV server.",
+      "stargazers_count": 5537,
+      "forks_count": 530,
+      "language": "Go",
+      "topics": [
+        "go",
+        "webdav",
+        "filesystem",
+        "http",
+        "server"
+      ],
+      "owner_login": "hacdias",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5447088?s=88&u=433e906852c6953d9de3e6b0a69b00c1dbf5d390&v=4",
       "owner_type": "User",
       "fork": false
     }

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-05-19T13:25:19.664Z",
+  "generated_at": "2026-05-19T18:00:53.487Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2595,25 +2595,6 @@
       "fork": false
     },
     {
-      "full_name": "NickeManarin/ScreenToGif",
-      "html_url": "https://github.com/NickeManarin/ScreenToGif",
-      "description": "🎬 ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.",
-      "stargazers_count": 26959,
-      "forks_count": 2331,
-      "language": "C#",
-      "topics": [
-        "gif",
-        "recorder",
-        "editor",
-        "video",
-        "webcam"
-      ],
-      "owner_login": "NickeManarin",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/14798947?s=88&u=3b8eb996aeb9fe617c733a21fd8e067f2c2fcb4f&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "wilsonfreitas/awesome-quant",
       "html_url": "https://github.com/wilsonfreitas/awesome-quant",
       "description": "A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)",
@@ -2629,42 +2610,6 @@
       ],
       "owner_login": "wilsonfreitas",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1583922?s=88&u=a7c33ec9134890052cc12646f3a039f4af0973f6&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "lfnovo/open-notebook",
-      "html_url": "https://github.com/lfnovo/open-notebook",
-      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-      "stargazers_count": 23551,
-      "forks_count": 2758,
-      "language": "TypeScript",
-      "topics": [
-        "assistant",
-        "learning",
-        "note-taking",
-        "notebook",
-        "notes-app"
-      ],
-      "owner_login": "lfnovo",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/579178?s=88&u=6c2949fe733f6e3ac1b436861a07555d031b866a&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "danielgatis/rembg",
-      "html_url": "https://github.com/danielgatis/rembg",
-      "description": "Rembg is a tool to remove images background",
-      "stargazers_count": 23009,
-      "forks_count": 2305,
-      "language": "Python",
-      "topics": [
-        "image-processing",
-        "background-removal",
-        "python"
-      ],
-      "owner_login": "danielgatis",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7380?s=88&u=11bfe344ea77d1e8ba6c14611cdf40beb11bc249&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3008,25 +2953,6 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "wwmm/easyeffects",
-      "html_url": "https://github.com/wwmm/easyeffects",
-      "description": "Limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications",
-      "stargazers_count": 9503,
-      "forks_count": 350,
-      "language": "HTML",
-      "topics": [
-        "equalizer",
-        "reverberation",
-        "pulseaudio",
-        "compressor",
-        "stereo-equalizer-effects"
-      ],
-      "owner_login": "wwmm",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/16225172?s=88&u=ef6783fb7a3a0dd3c2c5723668aeaefa4c1084e2&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3459,6 +3385,76 @@
       "owner_login": "JoasASantos",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/34966120?s=88&u=04e7f5ad1944b8b42fe2037be089253b89822be0&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "daltonmenezes/aura-theme",
+      "html_url": "https://github.com/daltonmenezes/aura-theme",
+      "description": "✨ A beautiful dark theme for your favorite apps.",
+      "stargazers_count": 3783,
+      "forks_count": 181,
+      "language": "TypeScript",
+      "topics": [
+        "vscode",
+        "theme",
+        "dark",
+        "visual-studio-code",
+        "themes"
+      ],
+      "owner_login": "daltonmenezes",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1149845?s=88&u=a3baa2808d3a9898d95521b8df086ed745098107&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "leandromoreira/cdn-up-and-running",
+      "html_url": "https://github.com/leandromoreira/cdn-up-and-running",
+      "description": "CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.",
+      "stargazers_count": 3667,
+      "forks_count": 239,
+      "language": "Lua",
+      "topics": [
+        "nginx",
+        "cdn",
+        "tutorial",
+        "lua",
+        "load-balancer"
+      ],
+      "owner_login": "leandromoreira",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/55913?s=88&u=b3b7d650afae54e08e4a361553a263ee508e4ba2&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "wix/react-native-notifications",
+      "html_url": "https://github.com/wix/react-native-notifications",
+      "description": "React Native Notifications",
+      "stargazers_count": 3340,
+      "forks_count": 763,
+      "language": "Java",
+      "topics": [],
+      "owner_login": "wix",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "wppconnect-team/wppconnect",
+      "html_url": "https://github.com/wppconnect-team/wppconnect",
+      "description": "WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node",
+      "stargazers_count": 3311,
+      "forks_count": 542,
+      "language": "TypeScript",
+      "topics": [
+        "sulla",
+        "bot",
+        "chat",
+        "framework",
+        "ai"
+      ],
+      "owner_login": "wppconnect-team",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/77944999?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]

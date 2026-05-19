@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-05-19T12:26:21.488Z",
+  "generated_at": "2026-05-19T17:58:49.527Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 542382,
-    "org_followers": 133803,
+    "org_followers": 133411,
     "user_stars": 1463577,
-    "org_stars": 1644201
+    "org_stars": 1582418
   },
   "queries": [
     {
@@ -2553,48 +2553,6 @@
       "company": null,
       "created_at": "2012-10-02T18:21:11Z",
       "total_stars": 417
-    },
-    {
-      "login": "tilt-dev",
-      "name": "Tilt Dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26349925?s=88&v=4",
-      "html_url": "https://github.com/tilt-dev",
-      "followers": 148,
-      "following": 0,
-      "public_repos": 104,
-      "location": "New York, NY",
-      "bio": "Tilting at Cloud-Based Development",
-      "company": null,
-      "created_at": "2017-03-11T18:45:07Z",
-      "total_stars": 11378
-    },
-    {
-      "login": "nylas",
-      "name": "Nylas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4219865?s=88&v=4",
-      "html_url": "https://github.com/nylas",
-      "followers": 130,
-      "following": 0,
-      "public_repos": 50,
-      "location": "SF | NYC | Remote",
-      "bio": "The infrastructure that powers communications. Integrate with Gmail, Microsoft, IMAP, Zoom, and 250+ email, calendar, and meeting providers in 5 minutes.",
-      "company": null,
-      "created_at": "2013-04-22T01:23:47Z",
-      "total_stars": 31066
-    },
-    {
-      "login": "seatgeek",
-      "name": "SeatGeek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/447527?s=88&v=4",
-      "html_url": "https://github.com/seatgeek",
-      "followers": 114,
-      "following": 0,
-      "public_repos": 73,
-      "location": "New York, New York",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-10-20T22:00:54Z",
-      "total_stars": 19339
     }
   ],
   "repos": [
@@ -2980,25 +2938,6 @@
       "fork": false
     },
     {
-      "full_name": "nylas/nylas-mail",
-      "html_url": "https://github.com/nylas/nylas-mail",
-      "description": ":love_letter: An extensible desktop mail app built on the modern web.  Forks welcome!",
-      "stargazers_count": 24757,
-      "forks_count": 1351,
-      "language": "JavaScript",
-      "topics": [
-        "electron",
-        "javascript",
-        "react",
-        "flux",
-        "macos"
-      ],
-      "owner_login": "nylas",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4219865?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "liquidslr/interview-company-wise-problems",
       "html_url": "https://github.com/liquidslr/interview-company-wise-problems",
       "description": "Lists of company wise questions. Every csv file in the companies directory corresponds to a list of questions on leetcode for a specific com",
@@ -3194,38 +3133,6 @@
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "bcicen/ctop",
-      "html_url": "https://github.com/bcicen/ctop",
-      "description": "Top-like interface for container metrics",
-      "stargazers_count": 17737,
-      "forks_count": 589,
-      "language": "Go",
-      "topics": [
-        "docker",
-        "containers",
-        "monitoring",
-        "command-line",
-        "commandline"
-      ],
-      "owner_login": "bcicen",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5673805?s=88&u=9425b1c7caa7bad99ed185919b8491336813f801&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "jmoiron/sqlx",
-      "html_url": "https://github.com/jmoiron/sqlx",
-      "description": "general purpose extensions to golang's database/sql",
-      "stargazers_count": 17621,
-      "forks_count": 1111,
-      "language": "Go",
-      "topics": [],
-      "owner_login": "jmoiron",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/218132?s=88&u=7da1c1b26378ca259ab676fd3ad17243e692d4f9&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3442,6 +3349,63 @@
       "owner_login": "tpope",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/378?s=88&u=5f1fc09a7c183450db7536ddaf3a2c6c25f0986f&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "mwaskom/seaborn",
+      "html_url": "https://github.com/mwaskom/seaborn",
+      "description": "Statistical data visualization in Python",
+      "stargazers_count": 13881,
+      "forks_count": 2113,
+      "language": "Python",
+      "topics": [
+        "python",
+        "data-visualization",
+        "data-science",
+        "matplotlib",
+        "pandas"
+      ],
+      "owner_login": "mwaskom",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/315810?s=88&u=940fea4957256c5443fed77f081db2fbdc91ac32&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "mmistakes/minimal-mistakes",
+      "html_url": "https://github.com/mmistakes/minimal-mistakes",
+      "description": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
+      "stargazers_count": 13502,
+      "forks_count": 27296,
+      "language": "HTML",
+      "topics": [
+        "jekyll",
+        "jekyll-theme",
+        "theme",
+        "github-pages",
+        "ruby-gem"
+      ],
+      "owner_login": "mmistakes",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1376749?s=88&u=57b84c6b694342dbc9aad20579ebc31de309126f&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "Semantic-Org/Semantic-UI-React",
+      "html_url": "https://github.com/Semantic-Org/Semantic-UI-React",
+      "description": "The official Semantic-UI-React integration",
+      "stargazers_count": 13223,
+      "forks_count": 4029,
+      "language": "JavaScript",
+      "topics": [
+        "react",
+        "semantic-ui",
+        "component-library",
+        "components",
+        "javascript-libraries"
+      ],
+      "owner_login": "Semantic-Org",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]

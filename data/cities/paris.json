@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-05-19T12:29:18.017Z",
+  "generated_at": "2026-05-19T17:59:42.875Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1069,20 +1069,6 @@
       "total_stars": 2099
     },
     {
-      "login": "bzg",
-      "name": "Bastien",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63500?s=88&u=5862e080559463f5a99f29683e8fe7766c212279&v=4",
-      "html_url": "https://github.com/bzg",
-      "followers": 859,
-      "following": 585,
-      "public_repos": 58,
-      "location": "Paris",
-      "bio": "Free software contributor, BlueHats 🧢 and now working at Software Heritage",
-      "company": "@SoftwareHeritage",
-      "created_at": "2009-03-14T21:37:56Z",
-      "total_stars": 907
-    },
-    {
       "login": "ask0ldd",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/117862447?s=88&u=26ccc7b22832feeb7a2dc7b8909f6cc90d239a82&v=4",
@@ -1095,6 +1081,20 @@
       "company": null,
       "created_at": "2022-11-09T20:13:30Z",
       "total_stars": 157
+    },
+    {
+      "login": "bzg",
+      "name": "Bastien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63500?s=88&u=5862e080559463f5a99f29683e8fe7766c212279&v=4",
+      "html_url": "https://github.com/bzg",
+      "followers": 859,
+      "following": 585,
+      "public_repos": 58,
+      "location": "Paris",
+      "bio": "Free software contributor, BlueHats 🧢 and now working at Software Heritage",
+      "company": "@SoftwareHeritage",
+      "created_at": "2009-03-14T21:37:56Z",
+      "total_stars": 907
     },
     {
       "login": "mbeaudru",
@@ -2836,25 +2836,6 @@
       "fork": false
     },
     {
-      "full_name": "gpakosz/.tmux",
-      "html_url": "https://github.com/gpakosz/.tmux",
-      "description": "Oh my tmux! My self-contained, pretty & versatile tmux configuration made with 💛🩷💙🖤❤️🤍",
-      "stargazers_count": 24917,
-      "forks_count": 3577,
-      "language": "Shell",
-      "topics": [
-        "tmux",
-        "tmux-conf",
-        "tmux-configuration",
-        "tmux-config",
-        "powerline"
-      ],
-      "owner_login": "gpakosz",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/553208?s=88&u=fa33d3072d6b7c70d6b6e200acab0bcdc7a34df0&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "huggingface/lerobot",
       "html_url": "https://github.com/huggingface/lerobot",
       "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
@@ -3416,6 +3397,25 @@
       ],
       "owner_login": "teh-cmc",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2910679?s=88&u=21549b9a01e9e644a422f9c2dc62cd3b37a83eaf&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "gregberge/loadable-components",
+      "html_url": "https://github.com/gregberge/loadable-components",
+      "description": "The recommended Code Splitting library for React ✂️✨",
+      "stargazers_count": 7803,
+      "forks_count": 386,
+      "language": "JavaScript",
+      "topics": [
+        "react",
+        "ssr",
+        "webpack",
+        "code-splitting",
+        "react-router"
+      ],
+      "owner_login": "gregberge",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/266302?s=88&u=7b1d8d84bfbaf6cf8b340896f3cea02da2669c46&v=4",
       "owner_type": "User",
       "fork": false
     }

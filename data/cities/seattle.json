@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-05-19T12:27:06.317Z",
+  "generated_at": "2026-05-19T17:58:51.830Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 343982,
-    "org_followers": 233657,
-    "user_stars": 1099263,
-    "org_stars": 2565650
+    "user_followers": 343691,
+    "org_followers": 233641,
+    "user_stars": 1070834,
+    "org_stars": 2555649
   },
   "queries": [
     {
@@ -1025,20 +1025,6 @@
       "company": "@anthropics",
       "created_at": "2012-11-01T03:35:08Z",
       "total_stars": 8423
-    },
-    {
-      "login": "ggreer",
-      "name": "Geoff Greer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/200121?s=88&u=d6d1da21bce2510b2f7474f7d08c2d1f3a26b037&v=4",
-      "html_url": "https://github.com/ggreer",
-      "followers": 1416,
-      "following": 21,
-      "public_repos": 30,
-      "location": "Vancouver, WA",
-      "bio": "CEO & Co-founder of @Floobits.\r\nI like to mess with computers and motorcycles.",
-      "company": null,
-      "created_at": "2010-02-09T09:28:13Z",
-      "total_stars": 28495
     },
     {
       "login": "deltakosh",
@@ -2567,20 +2553,6 @@
       "company": null,
       "created_at": "2018-04-25T18:02:01Z",
       "total_stars": 244
-    },
-    {
-      "login": "snapappointments",
-      "name": "SnapAppointments",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3484250?s=88&v=4",
-      "html_url": "https://github.com/snapappointments",
-      "followers": 16,
-      "following": 0,
-      "public_repos": 4,
-      "location": "Seattle, WA",
-      "bio": "Cloud appointment scheduling and client database solutions",
-      "company": null,
-      "created_at": "2013-02-05T18:03:14Z",
-      "total_stars": 10001
     }
   ],
   "repos": [
@@ -3149,25 +3121,6 @@
       "fork": false
     },
     {
-      "full_name": "ggreer/the_silver_searcher",
-      "html_url": "https://github.com/ggreer/the_silver_searcher",
-      "description": "A code-searching tool similar to ack, but faster.",
-      "stargazers_count": 27067,
-      "forks_count": 1439,
-      "language": "C",
-      "topics": [
-        "command-line-tool",
-        "c",
-        "silver-searcher",
-        "pcre",
-        "ag"
-      ],
-      "owner_login": "ggreer",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/200121?s=88&u=d6d1da21bce2510b2f7474f7d08c2d1f3a26b037&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "microsoft/vcpkg",
       "html_url": "https://github.com/microsoft/vcpkg",
       "description": "C++ Library Manager for Windows, Linux, and MacOS",
@@ -3316,25 +3269,6 @@
       "fork": false
     },
     {
-      "full_name": "Olshansk/interview",
-      "html_url": "https://github.com/Olshansk/interview",
-      "description": "Everything you need to prepare for your technical interview",
-      "stargazers_count": 18321,
-      "forks_count": 3700,
-      "language": null,
-      "topics": [
-        "interview",
-        "interview-questions",
-        "google-interview",
-        "list",
-        "guide"
-      ],
-      "owner_login": "Olshansk",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1892194?s=88&u=5452e93e39ce8cec6e20212e557c85e9691b3aa9&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "auth0/node-jsonwebtoken",
       "html_url": "https://github.com/auth0/node-jsonwebtoken",
       "description": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html",
@@ -3439,6 +3373,38 @@
       ],
       "owner_login": "eugeneyan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6831355?s=88&u=4b5cf1f33cb65e8026be3858d624530ec62bbd04&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "allenai/allennlp",
+      "html_url": "https://github.com/allenai/allennlp",
+      "description": "An open-source NLP research library, built on PyTorch.",
+      "stargazers_count": 11894,
+      "forks_count": 2221,
+      "language": "Python",
+      "topics": [
+        "pytorch",
+        "nlp",
+        "natural-language-processing",
+        "deep-learning",
+        "data-science"
+      ],
+      "owner_login": "allenai",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5667695?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "mission-peace/interview",
+      "html_url": "https://github.com/mission-peace/interview",
+      "description": "Interview questions",
+      "stargazers_count": 11337,
+      "forks_count": 5156,
+      "language": "Java",
+      "topics": [],
+      "owner_login": "mission-peace",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8218054?s=88&v=4",
       "owner_type": "User",
       "fork": false
     }
