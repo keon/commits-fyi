@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-05-19T17:58:51.830Z",
+  "generated_at": "2026-05-20T08:36:20.156Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 343691,
+    "user_followers": 347020,
     "org_followers": 233641,
-    "user_stars": 1070834,
+    "user_stars": 1080438,
     "org_stars": 2555649
   },
   "queries": [
@@ -311,6 +311,20 @@
       "company": "Amazon.com",
       "created_at": "2014-07-20T20:19:17Z",
       "total_stars": 11468
+    },
+    {
+      "login": "Nightmare-Eclipse",
+      "name": "Nightmare Eclipse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/271389851?s=88&u=a29271e1cb3416fe681ee9d8574abbb158463d9f&v=4",
+      "html_url": "https://github.com/Nightmare-Eclipse",
+      "followers": 4454,
+      "following": 0,
+      "public_repos": 6,
+      "location": "Redmond",
+      "bio": "Microsoft's nightmare.",
+      "company": "Microsoft",
+      "created_at": "2026-03-27T00:19:51Z",
+      "total_stars": 9670
     },
     {
       "login": "cmuratori",
@@ -1417,20 +1431,6 @@
       "company": "Google",
       "created_at": "2011-06-08T22:51:30Z",
       "total_stars": 708
-    },
-    {
-      "login": "jheer",
-      "name": "Jeffrey Heer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/202799?s=88&u=3918087b0bbb9e30d292c01f0ab5bf216cf4b36f&v=4",
-      "html_url": "https://github.com/jheer",
-      "followers": 1125,
-      "following": 25,
-      "public_repos": 3,
-      "location": "Seattle, WA",
-      "bio": "UW Professor. Data, visualization & interaction. @uwdata @ridge-ai @d3 @vega ",
-      "company": "University of Washington @uwdata, Trifacta Inc.",
-      "created_at": "2010-02-13T00:04:37Z",
-      "total_stars": 66
     }
   ],
   "orgs": [
