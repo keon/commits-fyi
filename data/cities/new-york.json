@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-05-20T08:36:17.881Z",
+  "generated_at": "2026-05-21T08:43:49.984Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -3250,25 +3250,6 @@
       "fork": false
     },
     {
-      "full_name": "auchenberg/volkswagen",
-      "html_url": "https://github.com/auchenberg/volkswagen",
-      "description": ":see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.",
-      "stargazers_count": 15440,
-      "forks_count": 241,
-      "language": "JavaScript",
-      "topics": [
-        "volkswagen",
-        "ci-server",
-        "cheat",
-        "defeat",
-        "javascipt"
-      ],
-      "owner_login": "auchenberg",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/173559?s=88&u=c286bc203ceaa0dcd3b9a9ba9863f74d27f1cbd1&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "AI4Finance-Foundation/FinRL",
       "html_url": "https://github.com/AI4Finance-Foundation/FinRL",
       "description": "FinRL®:  Financial Reinforcement Learning. 🔥",
@@ -3405,6 +3386,25 @@
       ],
       "owner_login": "Semantic-Org",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "wix/react-native-navigation",
+      "html_url": "https://github.com/wix/react-native-navigation",
+      "description": "A complete native navigation solution for React Native",
+      "stargazers_count": 13184,
+      "forks_count": 2643,
+      "language": "MDX",
+      "topics": [
+        "react-native",
+        "navigation",
+        "navigator",
+        "react-native-navigation",
+        "hacktoberfest"
+      ],
+      "owner_login": "wix",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
