@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-05-21T08:45:49.726Z",
+  "generated_at": "2026-05-22T08:35:08.050Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 142546,
-    "org_followers": 28421,
+    "org_followers": 28422,
     "user_stars": 661818,
-    "org_stars": 301054
+    "org_stars": 301271
   },
   "queries": [
     {
@@ -1363,20 +1363,6 @@
       "total_stars": 56
     },
     {
-      "login": "l2hyunwoo",
-      "name": "HyunWoo Lee (Nunu Lee)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54518925?s=88&u=74e3bd8d04f7a1db55ce00c9415e781530b7ea0a&v=4",
-      "html_url": "https://github.com/l2hyunwoo",
-      "followers": 619,
-      "following": 581,
-      "public_repos": 78,
-      "location": "Seoul",
-      "bio": "Newbie Mobile Developer",
-      "company": "@toss",
-      "created_at": "2019-08-26T02:14:39Z",
-      "total_stars": 346
-    },
-    {
       "login": "BasixKOR",
       "name": "Sung Jeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/7413880?s=88&u=583745ada28edcf3181b0646abe94a904a6739a9&v=4",
@@ -1389,6 +1375,20 @@
       "company": null,
       "created_at": "2014-04-26T13:29:56Z",
       "total_stars": 1284
+    },
+    {
+      "login": "l2hyunwoo",
+      "name": "HyunWoo Lee (Nunu Lee)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54518925?s=88&u=74e3bd8d04f7a1db55ce00c9415e781530b7ea0a&v=4",
+      "html_url": "https://github.com/l2hyunwoo",
+      "followers": 619,
+      "following": 581,
+      "public_repos": 78,
+      "location": "Seoul",
+      "bio": "Newbie Mobile Developer",
+      "company": "@toss",
+      "created_at": "2019-08-26T02:14:39Z",
+      "total_stars": 346
     },
     {
       "login": "seominjoon",
@@ -2541,18 +2541,18 @@
       "total_stars": 991
     },
     {
-      "login": "inflearn",
-      "name": "Inflab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43436467?s=88&v=4",
-      "html_url": "https://github.com/inflearn",
-      "followers": 109,
+      "login": "solved-ac",
+      "name": "solved.ac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58624023?s=88&v=4",
+      "html_url": "https://github.com/solved-ac",
+      "followers": 110,
       "following": 0,
-      "public_repos": 17,
+      "public_repos": 12,
       "location": "Korea, South",
-      "bio": "성장기회의 평등을 추구합니다",
+      "bio": "The solved.ac Working Group (previously Solved Company)",
       "company": null,
-      "created_at": "2018-09-20T08:45:12Z",
-      "total_stars": 29
+      "created_at": "2019-12-07T09:41:41Z",
+      "total_stars": 246
     }
   ],
   "repos": [

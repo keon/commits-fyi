@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-05-21T08:45:50.952Z",
+  "generated_at": "2026-05-22T08:35:10.193Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 714209,
+    "user_followers": 703605,
     "org_followers": 84177,
-    "user_stars": 653512,
+    "user_stars": 641632,
     "org_stars": 268315
   },
   "queries": [
@@ -157,20 +157,6 @@
       "company": "Curso em Vídeo",
       "created_at": "2020-05-28T14:34:22Z",
       "total_stars": 1201
-    },
-    {
-      "login": "elidianaandrade",
-      "name": "Eli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97471199?s=88&u=1d3b69213a71286e9ae3626cdf82db1b05961ba9&v=4",
-      "html_url": "https://github.com/elidianaandrade",
-      "followers": 12546,
-      "following": 114,
-      "public_repos": 5,
-      "location": "Brasil",
-      "bio": "👩‍💻 Software Developer ㅤㅤㅤㅤㅤㅤㅤ\r\n💻 @casalfullstack @lucasyanm",
-      "company": null,
-      "created_at": "2022-01-10T18:24:42Z",
-      "total_stars": 12202
     },
     {
       "login": "dsacademybr",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2016-07-21T14:25:07Z",
       "total_stars": 3166
+    },
+    {
+      "login": "vsouzx",
+      "name": "Vitor Souza Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88911545?s=88&u=451a3ee219d436a16a4cdded9dfb3f9ea06a49de&v=4",
+      "html_url": "https://github.com/vsouzx",
+      "followers": 1942,
+      "following": 7,
+      "public_repos": 54,
+      "location": "São Paulo, SP",
+      "bio": "Software Engineer at @Itau",
+      "company": "@Itau",
+      "created_at": "2021-08-13T23:00:31Z",
+      "total_stars": 322
     }
   ],
   "orgs": [
@@ -2886,25 +2886,6 @@
       "fork": false
     },
     {
-      "full_name": "elidianaandrade/git-github-learning-quest",
-      "html_url": "https://github.com/elidianaandrade/git-github-learning-quest",
-      "description": "Material de apoio gamificado com resumos, tarefas e links úteis para estudo sobre Versionamento de Código com Git e GitHub.",
-      "stargazers_count": 10835,
-      "forks_count": 2587,
-      "language": null,
-      "topics": [
-        "git",
-        "github",
-        "version-control-system",
-        "git-commands",
-        "git-manual"
-      ],
-      "owner_login": "elidianaandrade",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/97471199?s=88&u=1d3b69213a71286e9ae3626cdf82db1b05961ba9&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "rafaballerini/GitTutorial",
       "html_url": "https://github.com/rafaballerini/GitTutorial",
       "description": "Tutorial de como usar o Git e Github na prática",
@@ -3455,6 +3436,19 @@
       "owner_login": "wppconnect-team",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/77944999?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "glaucia86/curso-typescript-zero-to-hero",
+      "html_url": "https://github.com/glaucia86/curso-typescript-zero-to-hero",
+      "description": "Repositório responsável pelo Curso de TypeScript - Zero to Hero",
+      "stargazers_count": 3151,
+      "forks_count": 268,
+      "language": "TypeScript",
+      "topics": [],
+      "owner_login": "glaucia86",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1631477?s=88&u=3ba309b2af2f5b4e8d90d589017de19253430f45&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]
