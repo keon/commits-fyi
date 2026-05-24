@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-05-23T07:46:36.206Z",
+  "generated_at": "2026-05-24T08:01:18.097Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 426563,
     "org_followers": 70018,
     "user_stars": 1233994,
-    "org_stars": 725968
+    "org_stars": 696622
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 0
     },
     {
-      "login": "elsewhencode",
-      "name": "Elsewhen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7815827?s=88&v=4",
-      "html_url": "https://github.com/elsewhencode",
+      "login": "UCL-DSS",
+      "name": "UCL Data Science Society",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63336594?s=88&v=4",
+      "html_url": "https://github.com/UCL-DSS",
       "followers": 137,
       "following": 0,
-      "public_repos": 5,
+      "public_repos": 28,
       "location": "London",
-      "bio": "Full-stack consultancy delivering digital products, consumer-grade UX and AI-driven platforms",
+      "bio": null,
       "company": null,
-      "created_at": "2014-06-06T13:21:09Z",
-      "total_stars": 29556
+      "created_at": "2020-04-08T06:37:03Z",
+      "total_stars": 210
     }
   ],
   "repos": [
@@ -2649,25 +2649,6 @@
       "owner_login": "lovell",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/210965?s=88&u=64c063da7bd5a864725d60a20cebf688886824a0&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "elsewhencode/project-guidelines",
-      "html_url": "https://github.com/elsewhencode/project-guidelines",
-      "description": "A set of best practices for JavaScript projects",
-      "stargazers_count": 29464,
-      "forks_count": 3163,
-      "language": "JavaScript",
-      "topics": [
-        "best-practices",
-        "maintainability",
-        "guidelines",
-        "javascript",
-        "javascript-best-practices"
-      ],
-      "owner_login": "elsewhencode",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7815827?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -2930,6 +2911,19 @@
       ],
       "owner_login": "matryer",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/101659?s=88&u=03382a41e9f7a37ccf8a4f8ce3ca62f524ff25ed&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "wagerfield/parallax",
+      "html_url": "https://github.com/wagerfield/parallax",
+      "description": "Parallax Engine that reacts to the orientation of a smart device",
+      "stargazers_count": 16587,
+      "forks_count": 2100,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "wagerfield",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/412747?s=88&u=43fc5e5843d9fcbbf1e4b908a6f24c0c78055c56&v=4",
       "owner_type": "User",
       "fork": false
     },

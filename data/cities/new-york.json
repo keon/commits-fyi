@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-05-23T07:44:55.441Z",
+  "generated_at": "2026-05-24T08:01:13.477Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1279,20 +1279,6 @@
       "total_stars": 4292
     },
     {
-      "login": "xingyizhou",
-      "name": "Xingyi Zhou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
-      "html_url": "https://github.com/xingyizhou",
-      "followers": 1944,
-      "following": 128,
-      "public_repos": 16,
-      "location": "New York",
-      "bio": "Scientist at AMI Labs",
-      "company": "AMI Labs",
-      "created_at": "2014-09-22T12:22:05Z",
-      "total_stars": 14345
-    },
-    {
       "login": "davila7",
       "name": "Daniel Avila",
       "avatar_url": "https://avatars.githubusercontent.com/u/6216945?s=88&u=9cea1838e2bdb1dbfbdb657cf54d1166bd52fc0b&v=4",
@@ -1305,6 +1291,20 @@
       "company": null,
       "created_at": "2013-12-18T18:13:11Z",
       "total_stars": 28613
+    },
+    {
+      "login": "xingyizhou",
+      "name": "Xingyi Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
+      "html_url": "https://github.com/xingyizhou",
+      "followers": 1944,
+      "following": 128,
+      "public_repos": 16,
+      "location": "New York",
+      "bio": "Scientist at AMI Labs",
+      "company": "AMI Labs",
+      "created_at": "2014-09-22T12:22:05Z",
+      "total_stars": 14345
     },
     {
       "login": "natemoo-re",
@@ -3168,25 +3168,6 @@
       "fork": false
     },
     {
-      "full_name": "yhirose/cpp-httplib",
-      "html_url": "https://github.com/yhirose/cpp-httplib",
-      "description": "A C++ header-only HTTP/HTTPS server and client library",
-      "stargazers_count": 16501,
-      "forks_count": 2678,
-      "language": "C++",
-      "topics": [
-        "cpp",
-        "cpp11",
-        "http",
-        "https",
-        "header-only"
-      ],
-      "owner_login": "yhirose",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/357397?s=88&u=c537858a711fa4a23ac0d59903a97c6bfdc6b67c&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "ddbourgin/numpy-ml",
       "html_url": "https://github.com/ddbourgin/numpy-ml",
       "description": "Machine learning, in numpy",
@@ -3406,6 +3387,19 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "acdlite/react-fiber-architecture",
+      "html_url": "https://github.com/acdlite/react-fiber-architecture",
+      "description": "A description of React's new core algorithm, React Fiber",
+      "stargazers_count": 12933,
+      "forks_count": 746,
+      "language": null,
+      "topics": [],
+      "owner_login": "acdlite",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3624098?s=88&u=94d8ba563cef4d8fd24c4b666272a71af46a2fa1&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-05-23T07:45:14.887Z",
+  "generated_at": "2026-05-24T08:01:14.380Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -859,20 +859,6 @@
       "total_stars": 21789
     },
     {
-      "login": "petehunt",
-      "name": "Pete Hunt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/239742?s=88&u=d23a37b678429916399d2706be2f1f25bf865efe&v=4",
-      "html_url": "https://github.com/petehunt",
-      "followers": 6069,
-      "following": 1,
-      "public_repos": 100,
-      "location": "San Francisco, CA",
-      "bio": "CEO @ Dagster Labs\r\nFormerly:\r\nEngineering at Twitter\r\nCEO @ Smyte\r\nEngineering at Instagram\r\nReact team at Facebook",
-      "company": "Dagster Labs",
-      "created_at": "2010-04-08T18:34:21Z",
-      "total_stars": 26164
-    },
-    {
       "login": "EvanBacon",
       "name": "Evan Bacon",
       "avatar_url": "https://avatars.githubusercontent.com/u/9664363?s=88&u=46ba6d5fbd29729df2950b845c9ca2cd085a1c2b&v=4",
@@ -885,6 +871,20 @@
       "company": "@expo ",
       "created_at": "2014-11-10T22:01:21Z",
       "total_stars": 11353
+    },
+    {
+      "login": "petehunt",
+      "name": "Pete Hunt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/239742?s=88&u=d23a37b678429916399d2706be2f1f25bf865efe&v=4",
+      "html_url": "https://github.com/petehunt",
+      "followers": 6069,
+      "following": 1,
+      "public_repos": 100,
+      "location": "San Francisco, CA",
+      "bio": "CEO @ Dagster Labs\r\nFormerly:\r\nEngineering at Twitter\r\nCEO @ Smyte\r\nEngineering at Instagram\r\nReact team at Facebook",
+      "company": "Dagster Labs",
+      "created_at": "2010-04-08T18:34:21Z",
+      "total_stars": 26164
     },
     {
       "login": "JordanSchuetz",
@@ -2163,20 +2163,6 @@
       "total_stars": 12743
     },
     {
-      "login": "openresty",
-      "name": "OpenResty",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7390180?s=88&v=4",
-      "html_url": "https://github.com/openresty",
-      "followers": 1323,
-      "following": 0,
-      "public_repos": 68,
-      "location": "San Francisco Bay Area",
-      "bio": "A Fast and Scalable Web Platform by Extending NGINX with LuaJIT. Commercial support is provided at https://openresty.com/",
-      "company": null,
-      "created_at": "2014-04-24T01:07:11Z",
-      "total_stars": 49960
-    },
-    {
       "login": "sanity-io",
       "name": "Sanity",
       "avatar_url": "https://avatars.githubusercontent.com/u/17177659?s=88&v=4",
@@ -2189,6 +2175,20 @@
       "company": null,
       "created_at": "2016-02-11T12:41:19Z",
       "total_stars": 14613
+    },
+    {
+      "login": "openresty",
+      "name": "OpenResty",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7390180?s=88&v=4",
+      "html_url": "https://github.com/openresty",
+      "followers": 1323,
+      "following": 0,
+      "public_repos": 68,
+      "location": "San Francisco Bay Area",
+      "bio": "A Fast and Scalable Web Platform by Extending NGINX with LuaJIT. Commercial support is provided at https://openresty.com/",
+      "company": null,
+      "created_at": "2014-04-24T01:07:11Z",
+      "total_stars": 49960
     },
     {
       "login": "gradio-app",
