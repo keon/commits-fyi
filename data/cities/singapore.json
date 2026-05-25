@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-05-24T08:02:15.246Z",
+  "generated_at": "2026-05-25T09:08:46.663Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 338056,
+    "user_followers": 338055,
     "org_followers": 85142,
-    "user_stars": 1226483,
+    "user_stars": 1226484,
     "org_stars": 1000316
   },
   "queries": [
@@ -331,14 +331,14 @@
       "name": "Phus Lu",
       "avatar_url": "https://avatars.githubusercontent.com/u/195836?s=88&u=701cb4099e8abed179a130f1aebee7cd8d68ebde&v=4",
       "html_url": "https://github.com/phuslu",
-      "followers": 2382,
+      "followers": 2381,
       "following": 47,
-      "public_repos": 29,
+      "public_repos": 30,
       "location": "Singapore",
       "bio": "Geek",
       "company": null,
       "created_at": "2010-02-03T17:10:50Z",
-      "total_stars": 2353
+      "total_stars": 2354
     },
     {
       "login": "mariobehling",
@@ -1785,20 +1785,6 @@
       "total_stars": 24239
     },
     {
-      "login": "zkLinkProtocol",
-      "name": "zk.Link",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84861176?s=88&v=4",
-      "html_url": "https://github.com/zkLinkProtocol",
-      "followers": 576,
-      "following": 0,
-      "public_repos": 45,
-      "location": "Singapore",
-      "bio": "The first aggregated Layer 3 zkEVM network that links Ethereum and its Layer 2 Rollups for any use case.",
-      "company": null,
-      "created_at": "2021-05-26T15:10:10Z",
-      "total_stars": 233
-    },
-    {
       "login": "Ecrox-Chain",
       "name": "Ecrox Chain Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/144228886?s=88&v=4",
@@ -1811,6 +1797,20 @@
       "company": null,
       "created_at": "2023-09-06T10:18:55Z",
       "total_stars": 0
+    },
+    {
+      "login": "zkLinkProtocol",
+      "name": "zk.Link",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84861176?s=88&v=4",
+      "html_url": "https://github.com/zkLinkProtocol",
+      "followers": 576,
+      "following": 0,
+      "public_repos": 45,
+      "location": "Singapore",
+      "bio": "The first aggregated Layer 3 zkEVM network that links Ethereum and its Layer 2 Rollups for any use case.",
+      "company": null,
+      "created_at": "2021-05-26T15:10:10Z",
+      "total_stars": 233
     },
     {
       "login": "EvolvingLMMs-Lab",
