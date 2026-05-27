@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-05-26T08:52:13.464Z",
+  "generated_at": "2026-05-27T08:51:22.257Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 453014,
+    "user_followers": 452995,
     "org_followers": 112017,
-    "user_stars": 1423060,
+    "user_stars": 1414294,
     "org_stars": 1665371
   },
   "queries": [
@@ -1377,20 +1377,6 @@
       "total_stars": 2031
     },
     {
-      "login": "alireza0",
-      "name": "Alireza Ahmadi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12573084?s=88&u=82204768787072967a3750cc84406c82553ea7cf&v=4",
-      "html_url": "https://github.com/alireza0",
-      "followers": 2016,
-      "following": 6,
-      "public_repos": 4,
-      "location": "Berlin, Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-05-23T12:47:02Z",
-      "total_stars": 9194
-    },
-    {
       "login": "joeel561",
       "name": "Nicole Wolf",
       "avatar_url": "https://avatars.githubusercontent.com/u/16187979?s=88&u=53ae026cb47189c14f5e073b2bd48c2007d7607f&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2019-05-07T00:15:12Z",
       "total_stars": 3147
+    },
+    {
+      "login": "honnibal",
+      "name": "Matthew Honnibal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8059750?s=88&u=4e5174a05523986c65fe62ee514a35499d94c084&v=4",
+      "html_url": "https://github.com/honnibal",
+      "followers": 1997,
+      "following": 6,
+      "public_repos": 19,
+      "location": "Berlin",
+      "bio": "Computational linguist from Sydney and Berlin. Author of the spaCy NLP library.",
+      "company": "Founder @explosion ",
+      "created_at": "2014-07-03T15:12:05Z",
+      "total_stars": 428
     }
   ],
   "orgs": [

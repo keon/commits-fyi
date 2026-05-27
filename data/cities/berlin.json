@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-05-26T08:47:52.337Z",
+  "generated_at": "2026-05-27T08:49:38.373Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 289211,
+    "user_followers": 288161,
     "org_followers": 31464,
-    "user_stars": 926498,
+    "user_stars": 919474,
     "org_stars": 732934
   },
   "queries": [
@@ -605,20 +605,6 @@
       "company": "good beans",
       "created_at": "2008-10-22T18:56:03Z",
       "total_stars": 2031
-    },
-    {
-      "login": "alireza0",
-      "name": "Alireza Ahmadi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12573084?s=88&u=82204768787072967a3750cc84406c82553ea7cf&v=4",
-      "html_url": "https://github.com/alireza0",
-      "followers": 2016,
-      "following": 6,
-      "public_repos": 4,
-      "location": "Berlin, Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-05-23T12:47:02Z",
-      "total_stars": 9194
     },
     {
       "login": "Roaa94",
@@ -1431,6 +1417,20 @@
       "company": "@Vercel",
       "created_at": "2012-07-20T04:51:56Z",
       "total_stars": 9056
+    },
+    {
+      "login": "rednafi",
+      "name": "Redowan Delowar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30027932?s=88&u=d274a53358bbb7384880df191e6af923e14d33cf&v=4",
+      "html_url": "https://github.com/rednafi",
+      "followers": 966,
+      "following": 71,
+      "public_repos": 74,
+      "location": "Berlin",
+      "bio": "Software Engineer Wolt – Databases & Distributed Systems",
+      "company": "@doordash - @creditornot",
+      "created_at": "2017-07-09T19:48:26Z",
+      "total_stars": 2170
     }
   ],
   "orgs": [
@@ -3235,25 +3235,6 @@
       "fork": false
     },
     {
-      "full_name": "alireza0/s-ui",
-      "html_url": "https://github.com/alireza0/s-ui",
-      "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
-      "stargazers_count": 9108,
-      "forks_count": 1579,
-      "language": "Go",
-      "topics": [
-        "hysteria",
-        "hysteria2",
-        "naive-proxy",
-        "shadowsocks",
-        "shadowtls"
-      ],
-      "owner_login": "alireza0",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12573084?s=88&u=82204768787072967a3750cc84406c82553ea7cf&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "spacejam/sled",
       "html_url": "https://github.com/spacejam/sled",
       "description": "the champagne of beta embedded databases",
@@ -3437,6 +3418,19 @@
       "topics": [],
       "owner_login": "jamwithai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/186450365?s=88&u=b997a5ab5180a919c0e8f2f544434d95a61117a5&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "tonsky/AnyBar",
+      "html_url": "https://github.com/tonsky/AnyBar",
+      "description": "OS X menubar status indicator",
+      "stargazers_count": 6032,
+      "forks_count": 158,
+      "language": "Objective-C",
+      "topics": [],
+      "owner_login": "tonsky",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/285292?s=88&u=8b555ea43da91b4aae6647577dc309a36a697b90&v=4",
       "owner_type": "User",
       "fork": false
     }

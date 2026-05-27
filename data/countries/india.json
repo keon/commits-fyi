@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-05-26T08:53:43.863Z",
+  "generated_at": "2026-05-27T08:51:28.071Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 573410,
     "org_followers": 148508,
     "user_stars": 1162932,
-    "org_stars": 1002970
+    "org_stars": 1026616
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 613
     },
     {
-      "login": "KingsGambitLab",
-      "name": "InterviewBit & Scaler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9281433?s=88&v=4",
-      "html_url": "https://github.com/KingsGambitLab",
+      "login": "Fincept-Corporation",
+      "name": "Fincept Corporation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "html_url": "https://github.com/Fincept-Corporation",
       "followers": 276,
       "following": 0,
-      "public_repos": 6,
+      "public_repos": 2,
       "location": "India",
-      "bio": "InterviewBit & Scaler",
+      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
       "company": null,
-      "created_at": "2014-10-17T10:23:14Z",
-      "total_stars": 572
+      "created_at": "2024-08-19T03:09:02Z",
+      "total_stars": 24218
     }
   ],
   "repos": [
@@ -2912,6 +2912,25 @@
       "owner_login": "rahuldkjain",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/26406279?s=88&u=08729fe37cddd01234a661d511028d698879e257&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
+      "stargazers_count": 24217,
+      "forks_count": 3345,
+      "language": "Python",
+      "topics": [
+        "bloomberg-terminal",
+        "finance",
+        "financial-markets",
+        "investment",
+        "investment-research"
+      ],
+      "owner_login": "Fincept-Corporation",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -3445,25 +3464,6 @@
       "owner_login": "frappe",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/836974?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "collabnix/dockerlabs",
-      "html_url": "https://github.com/collabnix/dockerlabs",
-      "description": "Docker  - Beginners | Intermediate | Advanced",
-      "stargazers_count": 7994,
-      "forks_count": 2176,
-      "language": "PHP",
-      "topics": [
-        "docker",
-        "beginners",
-        "intermediate",
-        "advance",
-        "dockerfile"
-      ],
-      "owner_login": "collabnix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34368930?s=88&u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]

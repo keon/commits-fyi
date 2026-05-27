@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-05-26T08:54:10.902Z",
+  "generated_at": "2026-05-27T08:51:31.676Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1363,20 +1363,6 @@
       "total_stars": 1285
     },
     {
-      "login": "jbj338033",
-      "name": "Jeon Min O",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
-      "html_url": "https://github.com/jbj338033",
-      "followers": 619,
-      "following": 2497,
-      "public_repos": 130,
-      "location": "Daegu Software Meister High School",
-      "bio": null,
-      "company": null,
-      "created_at": "2021-04-18T09:22:03Z",
-      "total_stars": 31
-    },
-    {
       "login": "l2hyunwoo",
       "name": "HyunWoo Lee (Nunu Lee)",
       "avatar_url": "https://avatars.githubusercontent.com/u/54518925?s=88&u=74e3bd8d04f7a1db55ce00c9415e781530b7ea0a&v=4",
@@ -1389,6 +1375,20 @@
       "company": "@toss",
       "created_at": "2019-08-26T02:14:39Z",
       "total_stars": 347
+    },
+    {
+      "login": "jbj338033",
+      "name": "Jeon Min O",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
+      "html_url": "https://github.com/jbj338033",
+      "followers": 619,
+      "following": 2497,
+      "public_repos": 130,
+      "location": "Daegu Software Meister High School",
+      "bio": null,
+      "company": null,
+      "created_at": "2021-04-18T09:22:03Z",
+      "total_stars": 31
     },
     {
       "login": "seominjoon",
@@ -2443,6 +2443,20 @@
       "total_stars": 1412
     },
     {
+      "login": "hanwhavision",
+      "name": "Hanwha Vision - Global Vision Solution Provider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149752545?s=88&v=4",
+      "html_url": "https://github.com/hanwhavision",
+      "followers": 117,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Korea, South",
+      "bio": "Hanwha Vision RnD Organization",
+      "company": null,
+      "created_at": "2023-11-03T04:04:51Z",
+      "total_stars": 0
+    },
+    {
       "login": "innovationacademy-kr",
       "name": "Innovation Academy",
       "avatar_url": "https://avatars.githubusercontent.com/u/53462987?s=88&v=4",
@@ -2469,20 +2483,6 @@
       "company": null,
       "created_at": "2021-07-28T08:38:47Z",
       "total_stars": 251
-    },
-    {
-      "login": "hanwhavision",
-      "name": "Hanwha Vision - Global Vision Solution Provider",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149752545?s=88&v=4",
-      "html_url": "https://github.com/hanwhavision",
-      "followers": 117,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Korea, South",
-      "bio": "Hanwha Vision RnD Organization",
-      "company": null,
-      "created_at": "2023-11-03T04:04:51Z",
-      "total_stars": 0
     },
     {
       "login": "fedgkr",
@@ -3378,6 +3378,24 @@
       "fork": false
     },
     {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "stargazers_count": 3624,
+      "forks_count": 550,
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "owner_login": "revfactory",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "cruisediary/Pastel",
       "html_url": "https://github.com/cruisediary/Pastel",
       "description": "🎨 Gradient animation effect like Instagram",
@@ -3393,25 +3411,6 @@
       ],
       "owner_login": "cruisediary",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2609775?s=88&u=98a765989f6e14dcc8374005bb52ad2bed63e236&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "JaKooLit/Hyprland-Dots",
-      "html_url": "https://github.com/JaKooLit/Hyprland-Dots",
-      "description": "Hyprland configuration files or dotfiles - This repo is used as main repo for all my Distro-Hyprland Install Scripts. See the readme",
-      "stargazers_count": 3405,
-      "forks_count": 345,
-      "language": "Shell",
-      "topics": [
-        "hyprland",
-        "hyprland-config",
-        "waybar",
-        "waybar-module",
-        "waybar-themes"
-      ],
-      "owner_login": "JaKooLit",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/85185940?s=88&u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
       "owner_type": "User",
       "fork": false
     }

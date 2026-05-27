@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-05-26T08:45:38.580Z",
+  "generated_at": "2026-05-27T08:49:30.586Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2107,20 +2107,6 @@
       "total_stars": 38730
     },
     {
-      "login": "pinterest",
-      "name": "Pinterest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/541152?s=88&v=4",
-      "html_url": "https://github.com/pinterest",
-      "followers": 1352,
-      "following": 0,
-      "public_repos": 68,
-      "location": "San Francisco, California",
-      "bio": "Pinterest's Open Source Projects",
-      "company": null,
-      "created_at": "2010-12-30T03:32:02Z",
-      "total_stars": 28913
-    },
-    {
       "login": "google-research-datasets",
       "name": "Google Research Datasets",
       "avatar_url": "https://avatars.githubusercontent.com/u/14796310?s=88&v=4",
@@ -2133,6 +2119,20 @@
       "company": null,
       "created_at": "2015-09-23T00:12:43Z",
       "total_stars": 11760
+    },
+    {
+      "login": "pinterest",
+      "name": "Pinterest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/541152?s=88&v=4",
+      "html_url": "https://github.com/pinterest",
+      "followers": 1352,
+      "following": 0,
+      "public_repos": 68,
+      "location": "San Francisco, California",
+      "bio": "Pinterest's Open Source Projects",
+      "company": null,
+      "created_at": "2010-12-30T03:32:02Z",
+      "total_stars": 28913
     },
     {
       "login": "wakatime",
@@ -2471,20 +2471,6 @@
       "total_stars": 2995
     },
     {
-      "login": "newrelic",
-      "name": "New Relic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31739?s=88&v=4",
-      "html_url": "https://github.com/newrelic",
-      "followers": 961,
-      "following": 0,
-      "public_repos": 493,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2008-10-29T23:59:01Z",
-      "total_stars": 9064
-    },
-    {
       "login": "reddit",
       "name": "reddit",
       "avatar_url": "https://avatars.githubusercontent.com/u/14248?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2008-06-18T23:30:15Z",
       "total_stars": 3693
+    },
+    {
+      "login": "newrelic",
+      "name": "New Relic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31739?s=88&v=4",
+      "html_url": "https://github.com/newrelic",
+      "followers": 961,
+      "following": 0,
+      "public_repos": 493,
+      "location": "San Francisco, CA",
+      "bio": null,
+      "company": null,
+      "created_at": "2008-10-29T23:59:01Z",
+      "total_stars": 9064
     },
     {
       "login": "openrewrite",
