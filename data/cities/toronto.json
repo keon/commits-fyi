@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-05-27T08:49:34.168Z",
+  "generated_at": "2026-05-28T08:54:14.723Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 148081,
+    "user_followers": 147912,
     "org_followers": 23857,
-    "user_stars": 690046,
+    "user_stars": 688807,
     "org_stars": 195584
   },
   "queries": [
@@ -1041,20 +1041,6 @@
       "total_stars": 1846
     },
     {
-      "login": "xinshuoweng",
-      "name": "Xinshuo Weng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16176968?s=88&u=36aee7312f1ba2019d3455c5c5b38bd19b52884c&v=4",
-      "html_url": "https://github.com/xinshuoweng",
-      "followers": 763,
-      "following": 3,
-      "public_repos": 12,
-      "location": "Toronto, Canada",
-      "bio": "Research Scientist at NVIDIA Research, Robotics PhD Alumni at CMU, Qualcomm Fellowship Winner",
-      "company": "NVIDIA",
-      "created_at": "2015-12-06T14:19:24Z",
-      "total_stars": 2274
-    },
-    {
       "login": "jsoref",
       "name": "Josh Soref",
       "avatar_url": "https://avatars.githubusercontent.com/u/2119212?s=88&u=104dafbbcf9a6b26da789e6513f15d5ca5ba41c9&v=4",
@@ -1431,6 +1417,20 @@
       "company": "@freshlineapp ",
       "created_at": "2008-07-25T14:51:44Z",
       "total_stars": 2965
+    },
+    {
+      "login": "CuriousLearner",
+      "name": "Sanyam Khurana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8039608?s=88&u=267df80c395a6fcd232569ca2ea35edaa0ad5b6c&v=4",
+      "html_url": "https://github.com/CuriousLearner",
+      "followers": 594,
+      "following": 203,
+      "public_repos": 65,
+      "location": "Toronto, Canada",
+      "bio": "Maintainer @ DjangoProject.com | CPython Bug Triager | AWS Certified Solutions Architect | Open Source Advocate | MSCS @ Georgia Tech",
+      "company": "@TheGeekyWay",
+      "created_at": "2014-07-01T17:22:46Z",
+      "total_stars": 1035
     }
   ],
   "orgs": [
