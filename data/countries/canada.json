@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-05-29T09:05:08.543Z",
+  "generated_at": "2026-05-30T08:00:16.558Z",
   "counts": {
     "users": 100,
-    "orgs": 79,
+    "orgs": 80,
     "repos": 50
   },
   "totals": {
     "user_followers": 355688,
-    "org_followers": 61061,
+    "org_followers": 62391,
     "user_stars": 1032035,
-    "org_stars": 1030446
+    "org_stars": 1037000
   },
   "queries": [
     {
@@ -1533,6 +1533,20 @@
       "total_stars": 199598
     },
     {
+      "login": "cohere-ai",
+      "name": "Cohere",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54850923?s=88&v=4",
+      "html_url": "https://github.com/cohere-ai",
+      "followers": 1330,
+      "following": 0,
+      "public_repos": 34,
+      "location": "Canada",
+      "bio": "Empowering enterprises with private, powerful AI.",
+      "company": null,
+      "created_at": "2019-09-03T13:52:16Z",
+      "total_stars": 6554
+    },
+    {
       "login": "openhwgroup",
       "name": "OpenHW Group",
       "avatar_url": "https://avatars.githubusercontent.com/u/51096416?s=88&v=4",
@@ -2163,20 +2177,6 @@
       "total_stars": 488
     },
     {
-      "login": "scalar",
-      "name": "Scalar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
-      "html_url": "https://github.com/scalar",
-      "followers": 369,
-      "following": 0,
-      "public_repos": 10,
-      "location": "Canada",
-      "bio": "Document, Discover & Test APIs with Scalar",
-      "company": null,
-      "created_at": "2010-06-10T13:56:51Z",
-      "total_stars": 15276
-    },
-    {
       "login": "SEApplicationsOrg",
       "name": "SE Applications Org",
       "avatar_url": "https://avatars.githubusercontent.com/u/65776439?s=88&v=4",
@@ -2189,6 +2189,20 @@
       "company": null,
       "created_at": "2020-05-22T15:02:38Z",
       "total_stars": 0
+    },
+    {
+      "login": "scalar",
+      "name": "Scalar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
+      "html_url": "https://github.com/scalar",
+      "followers": 369,
+      "following": 0,
+      "public_repos": 10,
+      "location": "Canada",
+      "bio": "Document, Discover & Test APIs with Scalar",
+      "company": null,
+      "created_at": "2010-06-10T13:56:51Z",
+      "total_stars": 15276
     },
     {
       "login": "AutodeskAILab",

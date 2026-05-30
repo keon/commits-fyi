@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-05-29T08:58:10.277Z",
+  "generated_at": "2026-05-30T07:59:11.359Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 338360,
-    "org_followers": 85646,
+    "org_followers": 85647,
     "user_stars": 1226619,
-    "org_stars": 1006811
+    "org_stars": 1010271
   },
   "queries": [
     {
@@ -1841,10 +1841,10 @@
       "total_stars": 14192
     },
     {
-      "login": "CodePhiliaX",
-      "name": "CodePhiliaX",
+      "login": "OtterMind",
+      "name": "OtterMind",
       "avatar_url": "https://avatars.githubusercontent.com/u/131834193?s=88&v=4",
-      "html_url": "https://github.com/CodePhiliaX",
+      "html_url": "https://github.com/OtterMind",
       "followers": 541,
       "following": 0,
       "public_repos": 14,
@@ -1852,7 +1852,7 @@
       "bio": "Passionate about code, passionate about open source.",
       "company": null,
       "created_at": "2023-04-26T01:40:35Z",
-      "total_stars": 26583
+      "total_stars": 26588
     },
     {
       "login": "opengovsg",
@@ -2541,18 +2541,18 @@
       "total_stars": 305
     },
     {
-      "login": "codexfield",
-      "name": "CodexField",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141721845?s=88&v=4",
-      "html_url": "https://github.com/codexfield",
-      "followers": 169,
+      "login": "holistics",
+      "name": "Holistics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12168382?s=88&v=4",
+      "html_url": "https://github.com/holistics",
+      "followers": 170,
       "following": 0,
-      "public_repos": 6,
+      "public_repos": 26,
       "location": "Singapore",
-      "bio": "CodexField: The Truly Decentralized Platform to Store, Share and Trade Code.",
+      "bio": null,
       "company": null,
-      "created_at": "2023-08-08T08:55:03Z",
-      "total_stars": 257
+      "created_at": "2015-04-29T10:19:58Z",
+      "total_stars": 3712
     }
   ],
   "repos": [
@@ -2808,11 +2808,11 @@
       "fork": false
     },
     {
-      "full_name": "CodePhiliaX/Chat2DB",
-      "html_url": "https://github.com/CodePhiliaX/Chat2DB",
+      "full_name": "OtterMind/Chat2DB",
+      "html_url": "https://github.com/OtterMind/Chat2DB",
       "description": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, Clic",
-      "stargazers_count": 25675,
-      "forks_count": 2816,
+      "stargazers_count": 25680,
+      "forks_count": 2818,
       "language": "Java",
       "topics": [
         "ai",
@@ -2821,7 +2821,7 @@
         "dbeaver",
         "gpt"
       ],
-      "owner_login": "CodePhiliaX",
+      "owner_login": "OtterMind",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/131834193?s=88&v=4",
       "owner_type": "Organization",
       "fork": false

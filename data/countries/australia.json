@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Australia",
   "slug": "australia",
-  "generated_at": "2026-05-29T09:08:15.942Z",
+  "generated_at": "2026-05-30T08:01:15.588Z",
   "counts": {
     "users": 100,
-    "orgs": 79,
+    "orgs": 80,
     "repos": 50
   },
   "totals": {
     "user_followers": 257859,
-    "org_followers": 35960,
+    "org_followers": 36193,
     "user_stars": 932903,
-    "org_stars": 449200
+    "org_stars": 449995
   },
   "queries": [
     {
@@ -551,20 +551,6 @@
       "total_stars": 461
     },
     {
-      "login": "jessarcher",
-      "name": "Jess Archer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4977161?s=88&u=a6c1a5a9ff0e8aca7d908e0d5fbf7a61cf1b3b70&v=4",
-      "html_url": "https://github.com/jessarcher",
-      "followers": 1974,
-      "following": 31,
-      "public_repos": 24,
-      "location": "Brisbane, Australia",
-      "bio": "Laravel core team",
-      "company": "@laravel",
-      "created_at": "2013-07-09T22:40:40Z",
-      "total_stars": 1907
-    },
-    {
       "login": "tonymorris",
       "name": "Tony Morris",
       "avatar_url": "https://avatars.githubusercontent.com/u/210558?s=88&u=f13c0c19cfde8b4cdb9ac5ebc2cd4e86ef95f2aa&v=4",
@@ -577,6 +563,20 @@
       "company": null,
       "created_at": "2010-02-25T10:13:57Z",
       "total_stars": 1412
+    },
+    {
+      "login": "jessarcher",
+      "name": "Jess Archer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4977161?s=88&u=a6c1a5a9ff0e8aca7d908e0d5fbf7a61cf1b3b70&v=4",
+      "html_url": "https://github.com/jessarcher",
+      "followers": 1974,
+      "following": 31,
+      "public_repos": 24,
+      "location": "Brisbane, Australia",
+      "bio": "Laravel core team",
+      "company": "@laravel",
+      "created_at": "2013-07-09T22:40:40Z",
+      "total_stars": 1907
     },
     {
       "login": "foyzulkarim",
@@ -1439,14 +1439,14 @@
       "name": "fast.ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/20547620?s=88&v=4",
       "html_url": "https://github.com/fastai",
-      "followers": 5264,
+      "followers": 5280,
       "following": 0,
       "public_repos": 110,
       "location": "Australia",
       "bio": null,
       "company": null,
       "created_at": "2016-07-20T00:25:03Z",
-      "total_stars": 95236
+      "total_stars": 95260
     },
     {
       "login": "Canva",
@@ -1467,42 +1467,42 @@
       "name": "Betaflight",
       "avatar_url": "https://avatars.githubusercontent.com/u/19597933?s=88&v=4",
       "html_url": "https://github.com/betaflight",
-      "followers": 2112,
+      "followers": 2117,
       "following": 0,
       "public_repos": 22,
       "location": "Australia",
       "bio": "Open Source Flight Controller Firmware Project",
       "company": null,
       "created_at": "2016-05-26T20:32:17Z",
-      "total_stars": 16323
+      "total_stars": 16347
     },
     {
       "login": "cdnjs",
       "name": "cdnjs",
       "avatar_url": "https://avatars.githubusercontent.com/u/637362?s=88&v=4",
       "html_url": "https://github.com/cdnjs",
-      "followers": 1732,
+      "followers": 1735,
       "following": 0,
       "public_repos": 45,
       "location": "Brisbane, Australia",
       "bio": "The #1 free and open source CDN built to make life easier for developers.",
       "company": null,
       "created_at": "2011-02-25T05:52:31Z",
-      "total_stars": 12301
+      "total_stars": 12302
     },
     {
       "login": "atlassian",
       "name": "Atlassian",
       "avatar_url": "https://avatars.githubusercontent.com/u/168166?s=88&v=4",
       "html_url": "https://github.com/atlassian",
-      "followers": 1555,
+      "followers": 1562,
       "following": 0,
       "public_repos": 114,
       "location": "Australia",
       "bio": null,
       "company": null,
       "created_at": "2009-12-16T00:16:42Z",
-      "total_stars": 55051
+      "total_stars": 55075
     },
     {
       "login": "Expensify",
@@ -1530,14 +1530,14 @@
       "bio": null,
       "company": null,
       "created_at": "2022-03-24T12:03:34Z",
-      "total_stars": 2997
+      "total_stars": 2996
     },
     {
       "login": "WiseTechGlobal",
       "name": "WiseTech Global",
       "avatar_url": "https://avatars.githubusercontent.com/u/18300026?s=88&v=4",
       "html_url": "https://github.com/WiseTechGlobal",
-      "followers": 848,
+      "followers": 853,
       "following": 0,
       "public_repos": 2,
       "location": "Australia",
@@ -1551,21 +1551,21 @@
       "name": "is-a.dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/72358814?s=88&v=4",
       "html_url": "https://github.com/is-a-dev",
-      "followers": 752,
+      "followers": 756,
       "following": 0,
       "public_repos": 18,
       "location": "Australia",
       "bio": "Grab your own sweet-looking '.is-a.dev' subdomain.",
       "company": null,
       "created_at": "2020-10-04T20:02:28Z",
-      "total_stars": 10465
+      "total_stars": 10500
     },
     {
       "login": "vercidium-patreon",
       "name": "Vercidium",
       "avatar_url": "https://avatars.githubusercontent.com/u/159610392?s=88&v=4",
       "html_url": "https://github.com/vercidium-patreon",
-      "followers": 643,
+      "followers": 644,
       "following": 0,
       "public_repos": 9,
       "location": "Australia",
@@ -1579,14 +1579,14 @@
       "name": "seL4 microkernel and related repositories",
       "avatar_url": "https://avatars.githubusercontent.com/u/6878957?s=88&v=4",
       "html_url": "https://github.com/seL4",
-      "followers": 630,
+      "followers": 631,
       "following": 0,
       "public_repos": 59,
       "location": "Australia",
       "bio": "Provided by the seL4 Foundation",
       "company": null,
       "created_at": "2014-03-07T01:38:44Z",
-      "total_stars": 7357
+      "total_stars": 7369
     },
     {
       "login": "recodehive",
@@ -1600,7 +1600,7 @@
       "bio": "Community inclusive for Data Science Enthusiast  👇",
       "company": null,
       "created_at": "2021-06-06T06:15:27Z",
-      "total_stars": 1114
+      "total_stars": 1115
     },
     {
       "login": "TomDoesTech",
@@ -1621,14 +1621,14 @@
       "name": "Cortical Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/57343400?s=88&v=4",
       "html_url": "https://github.com/Cortical-Labs",
-      "followers": 535,
+      "followers": 537,
       "following": 0,
       "public_repos": 3,
       "location": "Australia",
       "bio": "The OG pong playing brain cells company. ",
       "company": null,
       "created_at": "2019-11-04T07:04:52Z",
-      "total_stars": 456
+      "total_stars": 459
     },
     {
       "login": "45Drives",
@@ -1663,56 +1663,42 @@
       "name": "Geoscience Australia",
       "avatar_url": "https://avatars.githubusercontent.com/u/4704285?s=88&v=4",
       "html_url": "https://github.com/GeoscienceAustralia",
-      "followers": 414,
+      "followers": 417,
       "following": 0,
       "public_repos": 274,
       "location": "Canberra, Australia",
       "bio": null,
       "company": null,
       "created_at": "2013-06-15T10:29:42Z",
-      "total_stars": 2399
+      "total_stars": 2402
     },
     {
       "login": "wailsapp",
       "name": "Wails",
       "avatar_url": "https://avatars.githubusercontent.com/u/39746503?s=88&v=4",
       "html_url": "https://github.com/wailsapp",
-      "followers": 414,
+      "followers": 416,
       "following": 0,
       "public_repos": 13,
       "location": "Australia",
       "bio": "A Framework for building applications using Go and Web Technologies",
       "company": null,
       "created_at": "2018-05-29T20:52:23Z",
-      "total_stars": 35230
+      "total_stars": 35480
     },
     {
       "login": "buildkite",
       "name": "Buildkite",
       "avatar_url": "https://avatars.githubusercontent.com/u/5055988?s=88&v=4",
       "html_url": "https://github.com/buildkite",
-      "followers": 403,
+      "followers": 406,
       "following": 0,
-      "public_repos": 199,
+      "public_repos": 200,
       "location": "Australia",
       "bio": "Automate your team’s software development processes, from testing through to delivery, no matter the language, environment or toolchain.",
       "company": null,
       "created_at": "2013-07-20T23:39:27Z",
-      "total_stars": 5141
-    },
-    {
-      "login": "MustardOS",
-      "name": "MustardOS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165965689?s=88&v=4",
-      "html_url": "https://github.com/MustardOS",
-      "followers": 402,
-      "following": 0,
-      "public_repos": 11,
-      "location": "Australia",
-      "bio": "Custom Firmware for Handheld Devices",
-      "company": null,
-      "created_at": "2024-04-03T23:00:21Z",
-      "total_stars": 308
+      "total_stars": 5151
     },
     {
       "login": "sigp",
@@ -1727,6 +1713,20 @@
       "company": null,
       "created_at": "2016-10-07T02:03:14Z",
       "total_stars": 6555
+    },
+    {
+      "login": "MustardOS",
+      "name": "MustardOS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165965689?s=88&v=4",
+      "html_url": "https://github.com/MustardOS",
+      "followers": 402,
+      "following": 0,
+      "public_repos": 11,
+      "location": "Australia",
+      "bio": "Custom Firmware for Handheld Devices",
+      "company": null,
+      "created_at": "2024-04-03T23:00:21Z",
+      "total_stars": 308
     },
     {
       "login": "unsw-edu-au",
@@ -1749,12 +1749,12 @@
       "html_url": "https://github.com/Velocidex",
       "followers": 390,
       "following": 0,
-      "public_repos": 54,
+      "public_repos": 55,
       "location": "Gold Coast, Australia",
       "bio": "Velocidex is the company behind Velociraptor - Dig Deeper!",
       "company": null,
       "created_at": "2018-02-20T16:06:27Z",
-      "total_stars": 5953
+      "total_stars": 5964
     },
     {
       "login": "pact-foundation",
@@ -1768,7 +1768,7 @@
       "bio": "The cross-language distributed contract testing framework.",
       "company": null,
       "created_at": "2015-09-23T20:20:54Z",
-      "total_stars": 10664
+      "total_stars": 10667
     },
     {
       "login": "bigcommerce",
@@ -1796,14 +1796,14 @@
       "bio": "Online vulnerability scanners and network intelligence to help organizations with attack surface discovery and identification of security weakness.",
       "company": null,
       "created_at": "2013-07-17T12:16:44Z",
-      "total_stars": 1083
+      "total_stars": 1084
     },
     {
       "login": "rmit-computing-technologies",
       "name": "RMIT School of Computing Technologies",
       "avatar_url": "https://avatars.githubusercontent.com/u/82038963?s=88&v=4",
       "html_url": "https://github.com/rmit-computing-technologies",
-      "followers": 318,
+      "followers": 324,
       "following": 0,
       "public_repos": 5,
       "location": "Melbourne, Victoria",
@@ -1831,9 +1831,9 @@
       "name": "Kinde",
       "avatar_url": "https://avatars.githubusercontent.com/u/97858324?s=88&v=4",
       "html_url": "https://github.com/kinde-oss",
-      "followers": 305,
+      "followers": 306,
       "following": 0,
-      "public_repos": 56,
+      "public_repos": 57,
       "location": "Australia",
       "bio": " Simple, powerful authentication. Boost security, drive conversion and save money — in just a few minutes. ",
       "company": null,
@@ -1880,7 +1880,7 @@
       "bio": "Folium is a beautifully designed, high performing multi-system emulation app bringing retro gaming to Apple devices",
       "company": null,
       "created_at": "2024-05-18T07:51:28Z",
-      "total_stars": 265
+      "total_stars": 266
     },
     {
       "login": "reactiveui",
@@ -1894,28 +1894,28 @@
       "bio": "Use the Reactive Extensions for .NET to create elegant, testable user interfaces that run on any mobile or desktop platform.",
       "company": null,
       "created_at": "2012-09-11T21:54:25Z",
-      "total_stars": 24164
+      "total_stars": 24170
     },
     {
       "login": "bcgit",
       "name": "Legion of the Bouncy Castle Inc",
       "avatar_url": "https://avatars.githubusercontent.com/u/4566970?s=88&v=4",
       "html_url": "https://github.com/bcgit",
-      "followers": 281,
+      "followers": 282,
       "following": 0,
       "public_repos": 8,
       "location": "Melbourne, Australia",
       "bio": null,
       "company": null,
       "created_at": "2013-05-30T05:06:58Z",
-      "total_stars": 4985
+      "total_stars": 4992
     },
     {
       "login": "AsBuiltReport",
       "name": "AsBuiltReport",
       "avatar_url": "https://avatars.githubusercontent.com/u/42958564?s=88&v=4",
       "html_url": "https://github.com/AsBuiltReport",
-      "followers": 279,
+      "followers": 280,
       "following": 0,
       "public_repos": 38,
       "location": "Australia",
@@ -1929,7 +1929,7 @@
       "name": "Octopus Deploy",
       "avatar_url": "https://avatars.githubusercontent.com/u/1287123?s=88&v=4",
       "html_url": "https://github.com/OctopusDeploy",
-      "followers": 271,
+      "followers": 274,
       "following": 0,
       "public_repos": 187,
       "location": "Australia",
@@ -1971,14 +1971,14 @@
       "name": "Tina ",
       "avatar_url": "https://avatars.githubusercontent.com/u/54718400?s=88&v=4",
       "html_url": "https://github.com/tinacms",
-      "followers": 249,
+      "followers": 250,
       "following": 0,
       "public_repos": 61,
       "location": "Australia",
       "bio": "The world's leading open source, headless CMS that is powered by Markdown and GitHub",
       "company": null,
       "created_at": "2019-08-30T16:05:31Z",
-      "total_stars": 15105
+      "total_stars": 15121
     },
     {
       "login": "canva-public",
@@ -1995,11 +1995,25 @@
       "total_stars": 377
     },
     {
+      "login": "SixLabors",
+      "name": "Six Labors",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25224152?s=88&v=4",
+      "html_url": "https://github.com/SixLabors",
+      "followers": 242,
+      "following": 0,
+      "public_repos": 25,
+      "location": "Australia",
+      "bio": "Cross platform, open source, graphics processing libraries for .NET.",
+      "company": null,
+      "created_at": "2017-01-19T12:47:45Z",
+      "total_stars": 9482
+    },
+    {
       "login": "qantas-cloud",
       "name": "Qantas Cloud Platform",
       "avatar_url": "https://avatars.githubusercontent.com/u/57466381?s=88&v=4",
       "html_url": "https://github.com/qantas-cloud",
-      "followers": 241,
+      "followers": 242,
       "following": 0,
       "public_repos": 0,
       "location": "Australia",
@@ -2021,20 +2035,6 @@
       "company": null,
       "created_at": "2015-09-23T23:33:45Z",
       "total_stars": 1891
-    },
-    {
-      "login": "SixLabors",
-      "name": "Six Labors",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25224152?s=88&v=4",
-      "html_url": "https://github.com/SixLabors",
-      "followers": 240,
-      "following": 0,
-      "public_repos": 25,
-      "location": "Australia",
-      "bio": "Cross platform, open source, graphics processing libraries for .NET.",
-      "company": null,
-      "created_at": "2017-01-19T12:47:45Z",
-      "total_stars": 9479
     },
     {
       "login": "ACloudGuru",
@@ -2062,14 +2062,14 @@
       "bio": "Global creative platform for designers and clients",
       "company": null,
       "created_at": "2008-07-16T03:56:33Z",
-      "total_stars": 22009
+      "total_stars": 22014
     },
     {
       "login": "UAdelaide",
       "name": "The University of Adelaide",
       "avatar_url": "https://avatars.githubusercontent.com/u/122952256?s=88&v=4",
       "html_url": "https://github.com/UAdelaide",
-      "followers": 232,
+      "followers": 234,
       "following": 0,
       "public_repos": 20,
       "location": "Australia",
@@ -2104,7 +2104,7 @@
       "bio": null,
       "company": null,
       "created_at": "2018-08-10T01:23:32Z",
-      "total_stars": 336
+      "total_stars": 338
     },
     {
       "login": "nvaccess",
@@ -2118,7 +2118,7 @@
       "bio": "Empowering lives through non-visual access to technology",
       "company": null,
       "created_at": "2013-04-16T02:05:57Z",
-      "total_stars": 2768
+      "total_stars": 2773
     },
     {
       "login": "keystonejs",
@@ -2139,7 +2139,7 @@
       "name": "Relevance AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/85694618?s=88&v=4",
       "html_url": "https://github.com/RelevanceAI",
-      "followers": 218,
+      "followers": 219,
       "following": 0,
       "public_repos": 39,
       "location": "Australia",
@@ -2153,7 +2153,7 @@
       "name": "CSIRO Internal",
       "avatar_url": "https://avatars.githubusercontent.com/u/183776151?s=88&v=4",
       "html_url": "https://github.com/csiro-internal",
-      "followers": 204,
+      "followers": 207,
       "following": 0,
       "public_repos": 0,
       "location": "Australia",
@@ -2202,7 +2202,7 @@
       "bio": "MiniZinc is a free and open-source constraint modeling language",
       "company": null,
       "created_at": "2013-06-13T01:32:25Z",
-      "total_stars": 1524
+      "total_stars": 1525
     },
     {
       "login": "AlphaWallet",
@@ -2223,7 +2223,7 @@
       "name": "Woodside Energy",
       "avatar_url": "https://avatars.githubusercontent.com/u/71369271?s=88&v=4",
       "html_url": "https://github.com/Woodside",
-      "followers": 189,
+      "followers": 192,
       "following": 0,
       "public_repos": 0,
       "location": "Australia",
@@ -2258,7 +2258,7 @@
       "bio": null,
       "company": null,
       "created_at": "2021-02-25T11:28:36Z",
-      "total_stars": 2459
+      "total_stars": 2622
     },
     {
       "login": "qctrl",
@@ -2293,14 +2293,14 @@
       "name": "SuttaCentral",
       "avatar_url": "https://avatars.githubusercontent.com/u/4515841?s=88&v=4",
       "html_url": "https://github.com/suttacentral",
-      "followers": 177,
+      "followers": 178,
       "following": 0,
       "public_repos": 33,
       "location": "Australia",
       "bio": "Early Buddhist texts, translations, and parallels",
       "company": null,
       "created_at": "2013-05-24T04:15:14Z",
-      "total_stars": 403
+      "total_stars": 405
     },
     {
       "login": "collibra",
@@ -2317,6 +2317,20 @@
       "total_stars": 51
     },
     {
+      "login": "csiro",
+      "name": "CSIRO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74441954?s=88&v=4",
+      "html_url": "https://github.com/csiro",
+      "followers": 172,
+      "following": 0,
+      "public_repos": 51,
+      "location": "Australia",
+      "bio": "CSIRO public facing GitHub organisation.",
+      "company": null,
+      "created_at": "2020-11-14T03:41:29Z",
+      "total_stars": 68
+    },
+    {
       "login": "feit-comp30023-2024",
       "name": "comp30023-2024",
       "avatar_url": "https://avatars.githubusercontent.com/u/161275999?s=88&v=4",
@@ -2331,18 +2345,18 @@
       "total_stars": 0
     },
     {
-      "login": "csiro",
-      "name": "CSIRO",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74441954?s=88&v=4",
-      "html_url": "https://github.com/csiro",
-      "followers": 170,
+      "login": "Sportsbet-Internal",
+      "name": "Sportsbet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30424208?s=88&v=4",
+      "html_url": "https://github.com/Sportsbet-Internal",
+      "followers": 169,
       "following": 0,
-      "public_repos": 51,
-      "location": "Australia",
-      "bio": "CSIRO public facing GitHub organisation.",
+      "public_repos": 0,
+      "location": "Melbourne, Australia",
+      "bio": null,
       "company": null,
-      "created_at": "2020-11-14T03:41:29Z",
-      "total_stars": 65
+      "created_at": "2017-07-25T01:58:46Z",
+      "total_stars": 0
     },
     {
       "login": "x-team",
@@ -2359,25 +2373,11 @@
       "total_stars": 298
     },
     {
-      "login": "Sportsbet-Internal",
-      "name": "Sportsbet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30424208?s=88&v=4",
-      "html_url": "https://github.com/Sportsbet-Internal",
-      "followers": 167,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Melbourne, Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-07-25T01:58:46Z",
-      "total_stars": 0
-    },
-    {
       "login": "ibracorp",
       "name": "IBRACORP",
       "avatar_url": "https://avatars.githubusercontent.com/u/67491741?s=88&v=4",
       "html_url": "https://github.com/ibracorp",
-      "followers": 167,
+      "followers": 168,
       "following": 0,
       "public_repos": 9,
       "location": "Melbourne, Australia",
@@ -2405,14 +2405,28 @@
       "name": "Yarn Spinner",
       "avatar_url": "https://avatars.githubusercontent.com/u/55043536?s=88&v=4",
       "html_url": "https://github.com/YarnSpinnerTool",
-      "followers": 162,
+      "followers": 164,
       "following": 0,
       "public_repos": 26,
       "location": "Australia",
       "bio": "Narrative tools for game development.",
       "company": null,
       "created_at": "2019-09-08T06:07:42Z",
-      "total_stars": 4376
+      "total_stars": 4400
+    },
+    {
+      "login": "StakeEngine",
+      "name": "Stake",
+      "avatar_url": "https://avatars.githubusercontent.com/u/203577532?s=88&v=4",
+      "html_url": "https://github.com/StakeEngine",
+      "followers": 161,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Australia",
+      "bio": null,
+      "company": null,
+      "created_at": "2025-03-17T00:30:41Z",
+      "total_stars": 228
     },
     {
       "login": "fsa-streamotion",
@@ -2427,20 +2441,6 @@
       "company": null,
       "created_at": "2019-04-07T22:56:35Z",
       "total_stars": 2
-    },
-    {
-      "login": "StakeEngine",
-      "name": "Stake",
-      "avatar_url": "https://avatars.githubusercontent.com/u/203577532?s=88&v=4",
-      "html_url": "https://github.com/StakeEngine",
-      "followers": 157,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2025-03-17T00:30:41Z",
-      "total_stars": 225
     },
     {
       "login": "se-copilot-workshops",
@@ -2468,7 +2468,7 @@
       "bio": "内卷地狱 Involution Hell, A student-led, non-profit community. We're current students & recent grads building practical skills in algorithms & system design.",
       "company": null,
       "created_at": "2025-09-11T13:36:19Z",
-      "total_stars": 158
+      "total_stars": 160
     },
     {
       "login": "seek-oss",
@@ -2482,7 +2482,7 @@
       "bio": "Open sourcery from Australia's no. 1 jobs, employment, career and recruitment site.",
       "company": null,
       "created_at": "2016-10-19T03:38:48Z",
-      "total_stars": 11413
+      "total_stars": 11415
     },
     {
       "login": "SSWConsulting",
@@ -2496,14 +2496,14 @@
       "bio": "At SSW.com.au, ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​we work together to form an amazing collective brain​​",
       "company": null,
       "created_at": "2014-06-21T03:01:34Z",
-      "total_stars": 1007
+      "total_stars": 1010
     },
     {
       "login": "fastmail",
       "name": "Fastmail",
       "avatar_url": "https://avatars.githubusercontent.com/u/4554886?s=88&v=4",
       "html_url": "https://github.com/fastmail",
-      "followers": 149,
+      "followers": 150,
       "following": 0,
       "public_repos": 32,
       "location": "Melbourne, Australia",
@@ -2538,7 +2538,21 @@
       "bio": null,
       "company": null,
       "created_at": "2013-10-24T01:34:08Z",
-      "total_stars": 6237
+      "total_stars": 6243
+    },
+    {
+      "login": "CoreElectronics",
+      "name": "Core Electronics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76416633?s=88&v=4",
+      "html_url": "https://github.com/CoreElectronics",
+      "followers": 143,
+      "following": 0,
+      "public_repos": 95,
+      "location": "Newcastle, Australia",
+      "bio": null,
+      "company": null,
+      "created_at": "2020-12-21T03:03:59Z",
+      "total_stars": 140
     }
   ],
   "repos": [
@@ -2576,8 +2590,8 @@
       "full_name": "wailsapp/wails",
       "html_url": "https://github.com/wailsapp/wails",
       "description": "Create beautiful applications using Go",
-      "stargazers_count": 34277,
-      "forks_count": 1689,
+      "stargazers_count": 34523,
+      "forks_count": 1703,
       "language": "Go",
       "topics": [
         "go",
@@ -2595,8 +2609,8 @@
       "full_name": "atlassian/react-beautiful-dnd",
       "html_url": "https://github.com/atlassian/react-beautiful-dnd",
       "description": "Beautiful and accessible drag and drop for lists with React",
-      "stargazers_count": 33996,
-      "forks_count": 2715,
+      "stargazers_count": 33997,
+      "forks_count": 2716,
       "language": "JavaScript",
       "topics": [
         "react",
@@ -2627,7 +2641,7 @@
       "full_name": "fastai/fastai",
       "html_url": "https://github.com/fastai/fastai",
       "description": "The fastai deep learning library",
-      "stargazers_count": 28014,
+      "stargazers_count": 28016,
       "forks_count": 7662,
       "language": "Jupyter Notebook",
       "topics": [
@@ -2659,8 +2673,8 @@
       "full_name": "fastai/fastbook",
       "html_url": "https://github.com/fastai/fastbook",
       "description": "The fastai book, published as Jupyter Notebooks",
-      "stargazers_count": 24990,
-      "forks_count": 9466,
+      "stargazers_count": 24999,
+      "forks_count": 9470,
       "language": "Jupyter Notebook",
       "topics": [
         "notebooks",
@@ -2795,7 +2809,7 @@
       "full_name": "keystonejs/keystone-classic",
       "html_url": "https://github.com/keystonejs/keystone-classic",
       "description": "Node.js CMS and web app framework",
-      "stargazers_count": 14516,
+      "stargazers_count": 14514,
       "forks_count": 2172,
       "language": "JavaScript",
       "topics": [
@@ -2864,7 +2878,7 @@
       "full_name": "tinacms/tinacms",
       "html_url": "https://github.com/tinacms/tinacms",
       "description": "A fully open-source headless CMS that supports Markdown and Visual Editing",
-      "stargazers_count": 13361,
+      "stargazers_count": 13374,
       "forks_count": 711,
       "language": "TypeScript",
       "topics": [
@@ -2915,7 +2929,7 @@
       "full_name": "atlassian/pragmatic-drag-and-drop",
       "html_url": "https://github.com/atlassian/pragmatic-drag-and-drop",
       "description": "Fast drag and drop for any experience on any tech stack",
-      "stargazers_count": 12621,
+      "stargazers_count": 12630,
       "forks_count": 324,
       "language": "TypeScript",
       "topics": [
@@ -2965,8 +2979,8 @@
       "full_name": "betaflight/betaflight",
       "html_url": "https://github.com/betaflight/betaflight",
       "description": "Open Source Flight Controller Firmware",
-      "stargazers_count": 11000,
-      "forks_count": 3779,
+      "stargazers_count": 11017,
+      "forks_count": 3791,
       "language": "C",
       "topics": [
         "betaflight",
@@ -2983,8 +2997,8 @@
       "full_name": "fastai/numerical-linear-algebra",
       "html_url": "https://github.com/fastai/numerical-linear-algebra",
       "description": "Free online textbook of Jupyter notebooks for fast.ai Computational Linear Algebra course",
-      "stargazers_count": 10873,
-      "forks_count": 2674,
+      "stargazers_count": 10877,
+      "forks_count": 2673,
       "language": "Jupyter Notebook",
       "topics": [
         "numpy",
@@ -3002,8 +3016,8 @@
       "full_name": "99designs/gqlgen",
       "html_url": "https://github.com/99designs/gqlgen",
       "description": "go generate based graphql server library",
-      "stargazers_count": 10723,
-      "forks_count": 1252,
+      "stargazers_count": 10724,
+      "forks_count": 1255,
       "language": "Go",
       "topics": [
         "graphql",
@@ -3021,7 +3035,7 @@
       "full_name": "cdnjs/cdnjs",
       "html_url": "https://github.com/cdnjs/cdnjs",
       "description": "🤖 CDN assets - The #1 free and open source CDN built to make life easier for developers.",
-      "stargazers_count": 10707,
+      "stargazers_count": 10708,
       "forks_count": 4490,
       "language": null,
       "topics": [
@@ -3053,8 +3067,8 @@
       "full_name": "is-a-dev/register",
       "html_url": "https://github.com/is-a-dev/register",
       "description": "Grab your own sweet-looking '.is-a.dev' subdomain.",
-      "stargazers_count": 10348,
-      "forks_count": 21827,
+      "stargazers_count": 10382,
+      "forks_count": 22018,
       "language": "JavaScript",
       "topics": [
         "subdomain",
@@ -3091,8 +3105,8 @@
       "full_name": "keystonejs/keystone",
       "html_url": "https://github.com/keystonejs/keystone",
       "description": "The superpowered headless CMS for Node.js — built with GraphQL and React",
-      "stargazers_count": 9875,
-      "forks_count": 1259,
+      "stargazers_count": 9877,
+      "forks_count": 1261,
       "language": "TypeScript",
       "topics": [
         "cms",
@@ -3110,7 +3124,7 @@
       "full_name": "reactiveui/refit",
       "html_url": "https://github.com/reactiveui/refit",
       "description": "The automatic type-safe REST library for .NET Core, Xamarin and .NET. Heavily inspired by Square's Retrofit library, Refit turns your REST A",
-      "stargazers_count": 9497,
+      "stargazers_count": 9500,
       "forks_count": 783,
       "language": "C#",
       "topics": [
@@ -3129,7 +3143,7 @@
       "full_name": "99designs/aws-vault",
       "html_url": "https://github.com/99designs/aws-vault",
       "description": "A vault for securely storing and accessing AWS credentials in development environments",
-      "stargazers_count": 8976,
+      "stargazers_count": 8978,
       "forks_count": 834,
       "language": "Go",
       "topics": [
@@ -3224,7 +3238,7 @@
       "full_name": "SixLabors/ImageSharp",
       "html_url": "https://github.com/SixLabors/ImageSharp",
       "description": ":camera: A modern, cross-platform, 2D Graphics library for .NET",
-      "stargazers_count": 7984,
+      "stargazers_count": 7985,
       "forks_count": 893,
       "language": "C#",
       "topics": [
@@ -3284,8 +3298,8 @@
       "full_name": "sammchardy/python-binance",
       "html_url": "https://github.com/sammchardy/python-binance",
       "description": "Binance Exchange API python implementation for automated trading",
-      "stargazers_count": 7159,
-      "forks_count": 2280,
+      "stargazers_count": 7160,
+      "forks_count": 2281,
       "language": "Python",
       "topics": [
         "binance",
