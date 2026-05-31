@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-05-30T08:00:11.512Z",
+  "generated_at": "2026-05-31T08:25:06.796Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 574263,
-    "org_followers": 148703,
+    "org_followers": 148704,
     "user_stars": 1164261,
-    "org_stars": 1027618
+    "org_stars": 1028148
   },
   "queries": [
     {
@@ -1827,20 +1827,6 @@
       "total_stars": 1678
     },
     {
-      "login": "AndroidIDEOfficial",
-      "name": "AndroidIDE",
-      "avatar_url": "https://avatars.githubusercontent.com/u/113872686?s=88&v=4",
-      "html_url": "https://github.com/AndroidIDEOfficial",
-      "followers": 659,
-      "following": 0,
-      "public_repos": 14,
-      "location": "India",
-      "bio": "An IDE for Android devices to develop Android apps. Provides support for Gradle, OpenJDK 17, GIT and much more.",
-      "company": null,
-      "created_at": "2022-09-19T03:06:42Z",
-      "total_stars": 3460
-    },
-    {
       "login": "Devtown-India",
       "name": "DevTown",
       "avatar_url": "https://avatars.githubusercontent.com/u/69104283?s=88&v=4",
@@ -1853,6 +1839,20 @@
       "company": null,
       "created_at": "2020-08-02T08:09:48Z",
       "total_stars": 1330
+    },
+    {
+      "login": "AndroidIDEOfficial",
+      "name": "AndroidIDE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113872686?s=88&v=4",
+      "html_url": "https://github.com/AndroidIDEOfficial",
+      "followers": 659,
+      "following": 0,
+      "public_repos": 14,
+      "location": "India",
+      "bio": "An IDE for Android devices to develop Android apps. Provides support for Gradle, OpenJDK 17, GIT and much more.",
+      "company": null,
+      "created_at": "2022-09-19T03:06:42Z",
+      "total_stars": 3460
     },
     {
       "login": "SigNoz",
@@ -2457,20 +2457,6 @@
       "total_stars": 990
     },
     {
-      "login": "gtech-mulearn",
-      "name": "μLearn Foundation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98015594?s=88&v=4",
-      "html_url": "https://github.com/gtech-mulearn",
-      "followers": 303,
-      "following": 0,
-      "public_repos": 71,
-      "location": "India",
-      "bio": "µLearn is a synergic philosophy of education, with a culture of mutual learning through micro peer groups.",
-      "company": null,
-      "created_at": "2022-01-19T08:22:38Z",
-      "total_stars": 516
-    },
-    {
       "login": "upsidedownlabs",
       "name": "Upside Down Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/73641028?s=88&v=4",
@@ -2483,6 +2469,20 @@
       "company": null,
       "created_at": "2020-10-29T09:52:06Z",
       "total_stars": 908
+    },
+    {
+      "login": "gtech-mulearn",
+      "name": "μLearn Foundation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98015594?s=88&v=4",
+      "html_url": "https://github.com/gtech-mulearn",
+      "followers": 303,
+      "following": 0,
+      "public_repos": 71,
+      "location": "India",
+      "bio": "µLearn is a synergic philosophy of education, with a culture of mutual learning through micro peer groups.",
+      "company": null,
+      "created_at": "2022-01-19T08:22:38Z",
+      "total_stars": 516
     },
     {
       "login": "isro",
@@ -2545,14 +2545,14 @@
       "name": "Fincept Corporation",
       "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
       "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 276,
+      "followers": 277,
       "following": 0,
       "public_repos": 2,
       "location": "India",
       "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
       "company": null,
       "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 24218
+      "total_stars": 24748
     }
   ],
   "repos": [
@@ -2896,6 +2896,25 @@
       "fork": false
     },
     {
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
+      "stargazers_count": 24746,
+      "forks_count": 3426,
+      "language": "C++",
+      "topics": [
+        "bloomberg-terminal",
+        "finance",
+        "financial-markets",
+        "investment",
+        "investment-research"
+      ],
+      "owner_login": "Fincept-Corporation",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "rahuldkjain/github-profile-readme-generator",
       "html_url": "https://github.com/rahuldkjain/github-profile-readme-generator",
       "description": "🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.",
@@ -2912,25 +2931,6 @@
       "owner_login": "rahuldkjain",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/26406279?s=88&u=08729fe37cddd01234a661d511028d698879e257&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Fincept-Corporation/FinceptTerminal",
-      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 24217,
-      "forks_count": 3345,
-      "language": "Python",
-      "topics": [
-        "bloomberg-terminal",
-        "finance",
-        "financial-markets",
-        "investment",
-        "investment-research"
-      ],
-      "owner_login": "Fincept-Corporation",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {

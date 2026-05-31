@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-05-30T08:00:14.757Z",
+  "generated_at": "2026-05-31T08:25:11.792Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 704855,
-    "org_followers": 84517,
+    "org_followers": 84559,
     "user_stars": 643947,
-    "org_stars": 269171
+    "org_stars": 269191
   },
   "queries": [
     {
@@ -2132,7 +2132,7 @@
       "bio": "Nós somos a re-evolução na forma de aprender sobre TI! ",
       "company": null,
       "created_at": "2015-11-03T17:25:54Z",
-      "total_stars": 1837
+      "total_stars": 1835
     },
     {
       "login": "ZupIT",
@@ -2149,11 +2149,25 @@
       "total_stars": 1348
     },
     {
+      "login": "sepinf-inc",
+      "name": "Serviço de Perícias em Informática",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66639503?s=88&v=4",
+      "html_url": "https://github.com/sepinf-inc",
+      "followers": 433,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Brasília",
+      "bio": "Brazilian Federal Police Digital Forensics Unit at National Institute of Criminalistics",
+      "company": null,
+      "created_at": "2020-06-08T17:45:53Z",
+      "total_stars": 2603
+    },
+    {
       "login": "qa-brasil",
       "name": "QA Brasil",
       "avatar_url": "https://avatars.githubusercontent.com/u/59667653?s=88&v=4",
       "html_url": "https://github.com/qa-brasil",
-      "followers": 428,
+      "followers": 430,
       "following": 0,
       "public_repos": 2,
       "location": "Brazil",
@@ -2163,25 +2177,11 @@
       "total_stars": 953
     },
     {
-      "login": "sepinf-inc",
-      "name": "Serviço de Perícias em Informática",
-      "avatar_url": "https://avatars.githubusercontent.com/u/66639503?s=88&v=4",
-      "html_url": "https://github.com/sepinf-inc",
-      "followers": 427,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Brasília",
-      "bio": "Brazilian Federal Police Digital Forensics Unit at National Institute of Criminalistics",
-      "company": null,
-      "created_at": "2020-06-08T17:45:53Z",
-      "total_stars": 2589
-    },
-    {
       "login": "olxbr",
       "name": "OLX Brasil",
       "avatar_url": "https://avatars.githubusercontent.com/u/1659216?s=88&v=4",
       "html_url": "https://github.com/olxbr",
-      "followers": 426,
+      "followers": 427,
       "following": 0,
       "public_repos": 25,
       "location": "Brasil",
@@ -2209,7 +2209,7 @@
       "name": "NFePHP",
       "avatar_url": "https://avatars.githubusercontent.com/u/1618675?s=88&v=4",
       "html_url": "https://github.com/nfephp-org",
-      "followers": 404,
+      "followers": 407,
       "following": 0,
       "public_repos": 32,
       "location": "Brasil",
@@ -2230,7 +2230,7 @@
       "bio": "Somos uma plataforma online de cursos de programação e tecnologias.",
       "company": null,
       "created_at": "2019-08-27T12:32:10Z",
-      "total_stars": 1190
+      "total_stars": 1189
     },
     {
       "login": "DevMedia",
@@ -2247,6 +2247,20 @@
       "total_stars": 26
     },
     {
+      "login": "neon",
+      "name": "Neon ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98425122?s=88&v=4",
+      "html_url": "https://github.com/neon",
+      "followers": 396,
+      "following": 0,
+      "public_repos": 2,
+      "location": "Brazil",
+      "bio": null,
+      "company": null,
+      "created_at": "2022-01-25T20:02:31Z",
+      "total_stars": 0
+    },
+    {
       "login": "Cursos-TI",
       "name": "Introdução à Programação de Computadores",
       "avatar_url": "https://avatars.githubusercontent.com/u/177578587?s=88&v=4",
@@ -2261,46 +2275,32 @@
       "total_stars": 82
     },
     {
-      "login": "neon",
-      "name": "Neon ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98425122?s=88&v=4",
-      "html_url": "https://github.com/neon",
-      "followers": 393,
-      "following": 0,
-      "public_repos": 2,
-      "location": "Brazil",
-      "bio": null,
-      "company": null,
-      "created_at": "2022-01-25T20:02:31Z",
-      "total_stars": 0
-    },
-    {
       "login": "globocom",
       "name": "Globo.com",
       "avatar_url": "https://avatars.githubusercontent.com/u/83798?s=88&v=4",
       "html_url": "https://github.com/globocom",
-      "followers": 390,
+      "followers": 392,
       "following": 0,
       "public_repos": 268,
       "location": "Rio de Janeiro/Brazil",
       "bio": null,
       "company": null,
       "created_at": "2009-05-12T19:03:13Z",
-      "total_stars": 7908
+      "total_stars": 7909
     },
     {
       "login": "hakaioffsec",
       "name": "Hakai Security",
       "avatar_url": "https://avatars.githubusercontent.com/u/99059183?s=88&v=4",
       "html_url": "https://github.com/hakaioffsec",
-      "followers": 385,
+      "followers": 387,
       "following": 0,
       "public_repos": 22,
       "location": "Brazil",
       "bio": "We discover security flaws that your team would never have thought of.",
       "company": null,
       "created_at": "2022-02-05T02:18:05Z",
-      "total_stars": 1905
+      "total_stars": 1908
     },
     {
       "login": "Abacatinhos",
@@ -2317,6 +2317,20 @@
       "total_stars": 53
     },
     {
+      "login": "gran-ti",
+      "name": "Gran Faculdade",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178952090?s=88&v=4",
+      "html_url": "https://github.com/gran-ti",
+      "followers": 382,
+      "following": 0,
+      "public_repos": 6,
+      "location": "Brazil",
+      "bio": "Gran Faculdade",
+      "company": null,
+      "created_at": "2024-08-20T21:58:53Z",
+      "total_stars": 16
+    },
+    {
       "login": "deco-cx",
       "name": "deco.cx",
       "avatar_url": "https://avatars.githubusercontent.com/u/104853950?s=88&v=4",
@@ -2328,35 +2342,21 @@
       "bio": "AI-native platform to build and evolve high-performing sites and storefronts.",
       "company": null,
       "created_at": "2022-05-03T16:16:02Z",
-      "total_stars": 1069
-    },
-    {
-      "login": "gran-ti",
-      "name": "Gran Faculdade",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178952090?s=88&v=4",
-      "html_url": "https://github.com/gran-ti",
-      "followers": 377,
-      "following": 0,
-      "public_repos": 6,
-      "location": "Brazil",
-      "bio": "Gran Faculdade",
-      "company": null,
-      "created_at": "2024-08-20T21:58:53Z",
-      "total_stars": 16
+      "total_stars": 1071
     },
     {
       "login": "fazer-ai",
       "name": "fazer.ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/197436073?s=88&v=4",
       "html_url": "https://github.com/fazer-ai",
-      "followers": 373,
+      "followers": 374,
       "following": 0,
-      "public_repos": 14,
+      "public_repos": 15,
       "location": "Brazil",
       "bio": null,
       "company": null,
       "created_at": "2025-02-01T23:13:46Z",
-      "total_stars": 172
+      "total_stars": 174
     },
     {
       "login": "ICEI-PUC-Minas-PMV-SI",
@@ -2401,6 +2401,20 @@
       "total_stars": 513
     },
     {
+      "login": "AvanadeBrazil",
+      "name": "Avanade Brazil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130595205?s=88&v=4",
+      "html_url": "https://github.com/AvanadeBrazil",
+      "followers": 346,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Brazil",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-04-12T17:49:48Z",
+      "total_stars": 0
+    },
+    {
       "login": "suporteb7web",
       "name": "B7Web",
       "avatar_url": "https://avatars.githubusercontent.com/u/35702649?s=88&v=4",
@@ -2415,25 +2429,11 @@
       "total_stars": 552
     },
     {
-      "login": "AvanadeBrazil",
-      "name": "Avanade Brazil",
-      "avatar_url": "https://avatars.githubusercontent.com/u/130595205?s=88&v=4",
-      "html_url": "https://github.com/AvanadeBrazil",
-      "followers": 343,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Brazil",
-      "bio": null,
-      "company": null,
-      "created_at": "2023-04-12T17:49:48Z",
-      "total_stars": 0
-    },
-    {
       "login": "Codeminer42",
       "name": "Codeminer42",
       "avatar_url": "https://avatars.githubusercontent.com/u/1602924?s=88&v=4",
       "html_url": "https://github.com/Codeminer42",
-      "followers": 337,
+      "followers": 339,
       "following": 0,
       "public_repos": 12,
       "location": "São Paulo, Brazil",
@@ -2461,14 +2461,14 @@
       "name": "HunCoding",
       "avatar_url": "https://avatars.githubusercontent.com/u/95578678?s=88&v=4",
       "html_url": "https://github.com/HunCoding",
-      "followers": 330,
+      "followers": 332,
       "following": 0,
       "public_repos": 12,
       "location": "Brazil",
       "bio": "Organização criada para guardar e separar todos os projetos e repositorios criados durante os videos do canal HunCoding!",
       "company": null,
       "created_at": "2021-12-05T14:55:10Z",
-      "total_stars": 209
+      "total_stars": 210
     },
     {
       "login": "syngenta-digital",
@@ -2503,7 +2503,7 @@
       "name": "High Code",
       "avatar_url": "https://avatars.githubusercontent.com/u/148154420?s=88&v=4",
       "html_url": "https://github.com/HighCodeh",
-      "followers": 314,
+      "followers": 320,
       "following": 0,
       "public_repos": 3,
       "location": "Brazil",
@@ -2517,7 +2517,7 @@
       "name": "TreinaWeb",
       "avatar_url": "https://avatars.githubusercontent.com/u/3636796?s=88&v=4",
       "html_url": "https://github.com/treinaweb",
-      "followers": 314,
+      "followers": 316,
       "following": 0,
       "public_repos": 560,
       "location": "São Paulo",
@@ -2531,7 +2531,7 @@
       "name": "QuintoAndar",
       "avatar_url": "https://avatars.githubusercontent.com/u/2729053?s=88&v=4",
       "html_url": "https://github.com/quintoandar",
-      "followers": 306,
+      "followers": 308,
       "following": 0,
       "public_repos": 14,
       "location": "São Paulo, Brazil",

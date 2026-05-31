@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-05-30T08:00:13.805Z",
+  "generated_at": "2026-05-31T08:25:09.002Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1391,20 +1391,6 @@
       "total_stars": 347
     },
     {
-      "login": "seominjoon",
-      "name": "Minjoon Seo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1738325?s=88&u=34778399cd285ab36acc3feda5e0a6c550808464&v=4",
-      "html_url": "https://github.com/seominjoon",
-      "followers": 619,
-      "following": 13,
-      "public_repos": 14,
-      "location": "Seoul, Republic of Korea",
-      "bio": "AI",
-      "company": "@configint, KAIST",
-      "created_at": "2012-05-14T17:45:55Z",
-      "total_stars": 693
-    },
-    {
       "login": "jbj338033",
       "name": "Jeon Min O",
       "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
@@ -1417,6 +1403,20 @@
       "company": null,
       "created_at": "2021-04-18T09:22:03Z",
       "total_stars": 32
+    },
+    {
+      "login": "seominjoon",
+      "name": "Minjoon Seo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1738325?s=88&u=34778399cd285ab36acc3feda5e0a6c550808464&v=4",
+      "html_url": "https://github.com/seominjoon",
+      "followers": 619,
+      "following": 13,
+      "public_repos": 14,
+      "location": "Seoul, Republic of Korea",
+      "bio": "AI",
+      "company": "@configint, KAIST",
+      "created_at": "2012-05-14T17:45:55Z",
+      "total_stars": 693
     },
     {
       "login": "tail-s",
@@ -1967,20 +1967,6 @@
       "total_stars": 1522
     },
     {
-      "login": "Korean-FE-Article",
-      "name": "Korean FE Article",
-      "avatar_url": "https://avatars.githubusercontent.com/u/161395495?s=88&v=4",
-      "html_url": "https://github.com/Korean-FE-Article",
-      "followers": 191,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Korea, South",
-      "bio": null,
-      "company": null,
-      "created_at": "2024-02-27T00:16:16Z",
-      "total_stars": 21
-    },
-    {
       "login": "PyTorchKorea",
       "name": "파이토치 한국 사용자 모임",
       "avatar_url": "https://avatars.githubusercontent.com/u/64678348?s=88&v=4",
@@ -1993,6 +1979,20 @@
       "company": null,
       "created_at": "2020-05-02T06:01:45Z",
       "total_stars": 498
+    },
+    {
+      "login": "Korean-FE-Article",
+      "name": "Korean FE Article",
+      "avatar_url": "https://avatars.githubusercontent.com/u/161395495?s=88&v=4",
+      "html_url": "https://github.com/Korean-FE-Article",
+      "followers": 191,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Korea, South",
+      "bio": null,
+      "company": null,
+      "created_at": "2024-02-27T00:16:16Z",
+      "total_stars": 21
     },
     {
       "login": "KAIST-Visual-AI-Group",
@@ -3316,6 +3316,24 @@
       "fork": false
     },
     {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "stargazers_count": 4368,
+      "forks_count": 630,
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "owner_login": "revfactory",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "PurpleAILAB/Decepticon",
       "html_url": "https://github.com/PurpleAILAB/Decepticon",
       "description": "Autonomous Hacking Agent for Red Team",
@@ -3394,24 +3412,6 @@
       "owner_login": "ncsoft",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/15726364?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "revfactory/harness",
-      "html_url": "https://github.com/revfactory/harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "stargazers_count": 3624,
-      "forks_count": 550,
-      "language": "HTML",
-      "topics": [
-        "claude-code",
-        "claude-code-plugin",
-        "harness",
-        "harness-engineering"
-      ],
-      "owner_login": "revfactory",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]
