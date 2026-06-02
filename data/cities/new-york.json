@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-06-01T10:32:53.632Z",
+  "generated_at": "2026-06-02T09:18:40.014Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2457,20 +2457,6 @@
       "total_stars": 1901
     },
     {
-      "login": "flatiron-school",
-      "name": "Flatiron School",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2180076?s=88&v=4",
-      "html_url": "https://github.com/flatiron-school",
-      "followers": 204,
-      "following": 0,
-      "public_repos": 791,
-      "location": "NYC",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-08-19T21:46:14Z",
-      "total_stars": 270
-    },
-    {
       "login": "MaterializeInc",
       "name": "Materialize, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/47674186?s=88&v=4",
@@ -2483,6 +2469,20 @@
       "company": null,
       "created_at": "2019-02-15T18:59:04Z",
       "total_stars": 6891
+    },
+    {
+      "login": "flatiron-school",
+      "name": "Flatiron School",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2180076?s=88&v=4",
+      "html_url": "https://github.com/flatiron-school",
+      "followers": 204,
+      "following": 0,
+      "public_repos": 791,
+      "location": "NYC",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-08-19T21:46:14Z",
+      "total_stars": 270
     },
     {
       "login": "cvlab-columbia",
@@ -3171,8 +3171,8 @@
       "full_name": "yhirose/cpp-httplib",
       "html_url": "https://github.com/yhirose/cpp-httplib",
       "description": "A C++ header-only HTTP/HTTPS server and client library",
-      "stargazers_count": 16533,
-      "forks_count": 2682,
+      "stargazers_count": 16539,
+      "forks_count": 2685,
       "language": "C++",
       "topics": [
         "cpp",

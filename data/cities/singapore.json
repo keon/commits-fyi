@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-06-01T10:37:15.432Z",
+  "generated_at": "2026-06-02T09:19:37.088Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 342295,
     "org_followers": 85892,
     "user_stars": 1227725,
-    "org_stars": 1012963
+    "org_stars": 1012991
   },
   "queries": [
     {
@@ -1083,20 +1083,6 @@
       "total_stars": 1728
     },
     {
-      "login": "notlhw",
-      "name": "Lim How Wei",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149965018?s=88&u=0251f2fa92c4da94a202488668be20efc2069a8c&v=4",
-      "html_url": "https://github.com/notlhw",
-      "followers": 941,
-      "following": 62,
-      "public_repos": 8,
-      "location": "Singapore",
-      "bio": "building tools for markets and content. 65m+ blog visitors. singapore.",
-      "company": null,
-      "created_at": "2023-11-05T18:15:23Z",
-      "total_stars": 100
-    },
-    {
       "login": "chen3feng",
       "name": "CHEN Feng",
       "avatar_url": "https://avatars.githubusercontent.com/u/1998410?s=88&u=f26ef01b966517192ae4fe88bd00b8e1a6d02c00&v=4",
@@ -1109,6 +1095,20 @@
       "company": "@Tencent",
       "created_at": "2012-07-18T12:49:36Z",
       "total_stars": 903
+    },
+    {
+      "login": "notlhw",
+      "name": "Lim How Wei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149965018?s=88&u=0251f2fa92c4da94a202488668be20efc2069a8c&v=4",
+      "html_url": "https://github.com/notlhw",
+      "followers": 941,
+      "following": 62,
+      "public_repos": 8,
+      "location": "Singapore",
+      "bio": "building tools for markets and content. 65m+ blog visitors. singapore.",
+      "company": null,
+      "created_at": "2023-11-05T18:15:23Z",
+      "total_stars": 100
     },
     {
       "login": "gobysec",
@@ -1799,20 +1799,6 @@
       "total_stars": 233
     },
     {
-      "login": "Ecrox-Chain",
-      "name": "Ecrox Chain Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/144228886?s=88&v=4",
-      "html_url": "https://github.com/Ecrox-Chain",
-      "followers": 574,
-      "following": 0,
-      "public_repos": 1,
-      "location": "Singapore",
-      "bio": "Ecrox Chain: A Revolutionary Blockchain Ecosystem Set to Redefine Secure and High-Speed Transactions.",
-      "company": null,
-      "created_at": "2023-09-06T10:18:55Z",
-      "total_stars": 0
-    },
-    {
       "login": "EvolvingLMMs-Lab",
       "name": "LMMs-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/154951679?s=88&v=4",
@@ -1825,6 +1811,20 @@
       "company": null,
       "created_at": "2023-12-27T04:31:39Z",
       "total_stars": 15410
+    },
+    {
+      "login": "Ecrox-Chain",
+      "name": "Ecrox Chain Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144228886?s=88&v=4",
+      "html_url": "https://github.com/Ecrox-Chain",
+      "followers": 574,
+      "following": 0,
+      "public_repos": 1,
+      "location": "Singapore",
+      "bio": "Ecrox Chain: A Revolutionary Blockchain Ecosystem Set to Redefine Secure and High-Speed Transactions.",
+      "company": null,
+      "created_at": "2023-09-06T10:18:55Z",
+      "total_stars": 0
     },
     {
       "login": "longbridge",
@@ -1852,7 +1852,7 @@
       "bio": "Passionate about code, passionate about open source.",
       "company": null,
       "created_at": "2023-04-26T01:40:35Z",
-      "total_stars": 26588
+      "total_stars": 26616
     },
     {
       "login": "opengovsg",
@@ -2811,8 +2811,8 @@
       "full_name": "OtterMind/Chat2DB",
       "html_url": "https://github.com/OtterMind/Chat2DB",
       "description": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, Clic",
-      "stargazers_count": 25680,
-      "forks_count": 2818,
+      "stargazers_count": 25708,
+      "forks_count": 2823,
       "language": "Java",
       "topics": [
         "ai",
