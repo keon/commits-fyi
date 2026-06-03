@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "China",
   "slug": "china",
-  "generated_at": "2026-06-02T09:20:34.883Z",
+  "generated_at": "2026-06-03T10:09:11.787Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2275,20 +2275,6 @@
       "total_stars": 1995
     },
     {
-      "login": "parallel101",
-      "name": "高性能并行编程与优化",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95953051?s=88&v=4",
-      "html_url": "https://github.com/parallel101",
-      "followers": 1100,
-      "following": 0,
-      "public_repos": 21,
-      "location": "China",
-      "bio": "现代C++中的高性能计算公开课",
-      "company": null,
-      "created_at": "2021-12-11T05:17:25Z",
-      "total_stars": 6422
-    },
-    {
       "login": "gkd-kit",
       "name": "gkd-kit",
       "avatar_url": "https://avatars.githubusercontent.com/u/138121201?s=88&v=4",
@@ -2301,6 +2287,20 @@
       "company": null,
       "created_at": "2023-06-29T11:37:30Z",
       "total_stars": 42791
+    },
+    {
+      "login": "parallel101",
+      "name": "高性能并行编程与优化",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95953051?s=88&v=4",
+      "html_url": "https://github.com/parallel101",
+      "followers": 1100,
+      "following": 0,
+      "public_repos": 21,
+      "location": "China",
+      "bio": "现代C++中的高性能计算公开课",
+      "company": null,
+      "created_at": "2021-12-11T05:17:25Z",
+      "total_stars": 6422
     },
     {
       "login": "RT-Thread",
@@ -3045,25 +3045,6 @@
       "fork": false
     },
     {
-      "full_name": "vnpy/vnpy",
-      "html_url": "https://github.com/vnpy/vnpy",
-      "description": "基于Python的开源量化交易平台开发框架",
-      "stargazers_count": 41190,
-      "forks_count": 11818,
-      "language": "Python",
-      "topics": [
-        "trading",
-        "investment",
-        "quant",
-        "python",
-        "algotrading"
-      ],
-      "owner_login": "vnpy",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11263900?s=88&u=7c76ce5e04cb90f40d1001834a171e5a0b6ada11&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "666ghj/BettaFish",
       "html_url": "https://github.com/666ghj/BettaFish",
       "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
@@ -3464,6 +3445,23 @@
       ],
       "owner_login": "mqyqingfeng",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11458263?s=88&u=8abd594f236f381da9cbe70bade832663ecb4bd0&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "ascoders/weekly",
+      "html_url": "https://github.com/ascoders/weekly",
+      "description": "前端精读周刊。帮你理解最前沿、实用的技术。",
+      "stargazers_count": 30986,
+      "forks_count": 3262,
+      "language": "JavaScript",
+      "topics": [
+        "weekly",
+        "frontend",
+        "awesome"
+      ],
+      "owner_login": "ascoders",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7970947?s=88&u=730a8387e8cd0725e005f4bedb868efdd627c06d&v=4",
       "owner_type": "User",
       "fork": false
     }

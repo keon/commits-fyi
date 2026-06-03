@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-06-02T09:20:35.917Z",
+  "generated_at": "2026-06-03T10:09:14.027Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 577903,
-    "org_followers": 148852,
+    "org_followers": 148857,
     "user_stars": 1166701,
-    "org_stars": 1028929
+    "org_stars": 1029340
   },
   "queries": [
     {
@@ -1321,20 +1321,6 @@
       "total_stars": 839
     },
     {
-      "login": "shekhargulati",
-      "name": "Shekhar Gulati",
-      "avatar_url": "https://avatars.githubusercontent.com/u/184091?s=88&u=e249f92b87a6ccaccf919efd0cf2969822641074&v=4",
-      "html_url": "https://github.com/shekhargulati",
-      "followers": 2125,
-      "following": 0,
-      "public_repos": 258,
-      "location": "India",
-      "bio": "Building Videocrawl, LLM-powered assistant for better learning from videos.",
-      "company": null,
-      "created_at": "2010-01-17T17:05:42Z",
-      "total_stars": 17048
-    },
-    {
       "login": "ijagjeet",
       "name": "JAGJEET SINGH",
       "avatar_url": "https://avatars.githubusercontent.com/u/46004289?s=88&u=e9d087d395886902d58c32db9fad07c1b2d209d8&v=4",
@@ -1347,6 +1333,20 @@
       "company": null,
       "created_at": "2018-12-19T17:13:58Z",
       "total_stars": 80
+    },
+    {
+      "login": "shekhargulati",
+      "name": "Shekhar Gulati",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184091?s=88&u=e249f92b87a6ccaccf919efd0cf2969822641074&v=4",
+      "html_url": "https://github.com/shekhargulati",
+      "followers": 2125,
+      "following": 0,
+      "public_repos": 258,
+      "location": "India",
+      "bio": "Building Videocrawl, LLM-powered assistant for better learning from videos.",
+      "company": null,
+      "created_at": "2010-01-17T17:05:42Z",
+      "total_stars": 17048
     },
     {
       "login": "rahuloraj",
@@ -2545,14 +2545,14 @@
       "name": "Fincept Corporation",
       "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
       "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 277,
+      "followers": 282,
       "following": 0,
-      "public_repos": 2,
+      "public_repos": 3,
       "location": "India",
       "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
       "company": null,
       "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 24748
+      "total_stars": 25159
     }
   ],
   "repos": [
@@ -2877,6 +2877,25 @@
       "fork": false
     },
     {
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
+      "stargazers_count": 25155,
+      "forks_count": 3496,
+      "language": "C++",
+      "topics": [
+        "bloomberg-terminal",
+        "finance",
+        "financial-markets",
+        "investment",
+        "investment-research"
+      ],
+      "owner_login": "Fincept-Corporation",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "kovidgoyal/calibre",
       "html_url": "https://github.com/kovidgoyal/calibre",
       "description": "The official source code repository for the calibre ebook manager",
@@ -2893,25 +2912,6 @@
       "owner_login": "kovidgoyal",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1308621?s=88&u=b3fb9d6c1fe72bbc3d3b3b1192e8e421cad810c9&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Fincept-Corporation/FinceptTerminal",
-      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 24746,
-      "forks_count": 3426,
-      "language": "C++",
-      "topics": [
-        "bloomberg-terminal",
-        "finance",
-        "financial-markets",
-        "investment",
-        "investment-research"
-      ],
-      "owner_login": "Fincept-Corporation",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     },
     {

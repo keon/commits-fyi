@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-06-02T09:20:37.795Z",
+  "generated_at": "2026-06-03T10:09:17.388Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1391,20 +1391,6 @@
       "total_stars": 352
     },
     {
-      "login": "jbj338033",
-      "name": "Jeon Min O",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
-      "html_url": "https://github.com/jbj338033",
-      "followers": 619,
-      "following": 2496,
-      "public_repos": 130,
-      "location": "Daegu Software Meister High School",
-      "bio": null,
-      "company": null,
-      "created_at": "2021-04-18T09:22:03Z",
-      "total_stars": 32
-    },
-    {
       "login": "seominjoon",
       "name": "Minjoon Seo",
       "avatar_url": "https://avatars.githubusercontent.com/u/1738325?s=88&u=34778399cd285ab36acc3feda5e0a6c550808464&v=4",
@@ -1417,6 +1403,20 @@
       "company": "@configint, KAIST",
       "created_at": "2012-05-14T17:45:55Z",
       "total_stars": 693
+    },
+    {
+      "login": "jbj338033",
+      "name": "Jeon Min O",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
+      "html_url": "https://github.com/jbj338033",
+      "followers": 619,
+      "following": 2496,
+      "public_repos": 130,
+      "location": "Daegu Software Meister High School",
+      "bio": null,
+      "company": null,
+      "created_at": "2021-04-18T09:22:03Z",
+      "total_stars": 32
     },
     {
       "login": "tail-s",
@@ -2415,20 +2415,6 @@
       "total_stars": 1435
     },
     {
-      "login": "loxilb-io",
-      "name": "loxilb",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108244891?s=88&v=4",
-      "html_url": "https://github.com/loxilb-io",
-      "followers": 118,
-      "following": 0,
-      "public_repos": 20,
-      "location": "Korea, South",
-      "bio": "eBPF based cloud-native load-balancer for K8s|Edge|Telco|IoT|XaaS.",
-      "company": null,
-      "created_at": "2022-06-27T00:52:45Z",
-      "total_stars": 2094
-    },
-    {
       "login": "yorkie-team",
       "name": "Yorkie Team",
       "avatar_url": "https://avatars.githubusercontent.com/u/58236847?s=88&v=4",
@@ -2441,6 +2427,20 @@
       "company": null,
       "created_at": "2019-11-26T22:54:08Z",
       "total_stars": 1223
+    },
+    {
+      "login": "loxilb-io",
+      "name": "loxilb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108244891?s=88&v=4",
+      "html_url": "https://github.com/loxilb-io",
+      "followers": 118,
+      "following": 0,
+      "public_repos": 20,
+      "location": "Korea, South",
+      "bio": "eBPF based cloud-native load-balancer for K8s|Edge|Telco|IoT|XaaS.",
+      "company": null,
+      "created_at": "2022-06-27T00:52:45Z",
+      "total_stars": 2094
     },
     {
       "login": "hanwhavision",
@@ -3142,6 +3142,24 @@
       "fork": false
     },
     {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "stargazers_count": 5604,
+      "forks_count": 744,
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "owner_login": "revfactory",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "nhn/tui.chart",
       "html_url": "https://github.com/nhn/tui.chart",
       "description": "🍞📊  Beautiful chart for data visualization.",
@@ -3312,24 +3330,6 @@
       ],
       "owner_login": "devxoul",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/931655?s=88&u=171dfcfb08fa97c627edfdb3a10be372fda5af37&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "revfactory/harness",
-      "html_url": "https://github.com/revfactory/harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "stargazers_count": 4368,
-      "forks_count": 630,
-      "language": "HTML",
-      "topics": [
-        "claude-code",
-        "claude-code-plugin",
-        "harness",
-        "harness-engineering"
-      ],
-      "owner_login": "revfactory",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
       "owner_type": "User",
       "fork": false
     },
