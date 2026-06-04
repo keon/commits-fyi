@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Amsterdam",
   "slug": "amsterdam",
-  "generated_at": "2026-06-03T10:08:07.829Z",
+  "generated_at": "2026-06-04T09:03:14.949Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1335,20 +1335,6 @@
       "total_stars": 2611
     },
     {
-      "login": "claudiodekker",
-      "name": "Claudio Dekker",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1752195?s=88&u=55abc0fc1eee2dae57b36581daf337adf6d70407&v=4",
-      "html_url": "https://github.com/claudiodekker",
-      "followers": 548,
-      "following": 15,
-      "public_repos": 18,
-      "location": "Amsterdam, The Netherlands",
-      "bio": "Artisan @laravel ❯ Open-source enthusiast ❯ VILT is my stack",
-      "company": "@laravel ",
-      "created_at": "2012-05-18T12:06:13Z",
-      "total_stars": 372
-    },
-    {
       "login": "rdohms",
       "name": "Rafael Dohms",
       "avatar_url": "https://avatars.githubusercontent.com/u/94331?s=88&u=73310b1cb617ed0347d15be8a026416da312d645&v=4",
@@ -1361,6 +1347,20 @@
       "company": "@Usabilla, @GetFeedback, @SurveyMonkey ",
       "created_at": "2009-06-11T12:38:44Z",
       "total_stars": 629
+    },
+    {
+      "login": "claudiodekker",
+      "name": "Claudio Dekker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1752195?s=88&u=55abc0fc1eee2dae57b36581daf337adf6d70407&v=4",
+      "html_url": "https://github.com/claudiodekker",
+      "followers": 548,
+      "following": 15,
+      "public_repos": 18,
+      "location": "Amsterdam, The Netherlands",
+      "bio": "Artisan @laravel ❯ Open-source enthusiast ❯ VILT is my stack",
+      "company": "@laravel ",
+      "created_at": "2012-05-18T12:06:13Z",
+      "total_stars": 372
     },
     {
       "login": "iamakulov",
@@ -3100,22 +3100,6 @@
       "fork": false
     },
     {
-      "full_name": "erikdubbelboer/phpRedisAdmin",
-      "html_url": "https://github.com/erikdubbelboer/phpRedisAdmin",
-      "description": "Simple web interface to manage Redis databases.",
-      "stargazers_count": 3183,
-      "forks_count": 663,
-      "language": "PHP",
-      "topics": [
-        "redis",
-        "php"
-      ],
-      "owner_login": "erikdubbelboer",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/522870?s=88&u=7793ce83b9504f478ad48651b2182da1a9f5a9c1&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "phlippe/uvadlc_notebooks",
       "html_url": "https://github.com/phlippe/uvadlc_notebooks",
       "description": "Repository of Jupyter notebook tutorials for teaching the Deep Learning Course at the University of Amsterdam (MSc AI), Fall 2023",
@@ -3384,6 +3368,19 @@
       "owner_login": "outflanknl",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/22417563?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "kvz/bash3boilerplate",
+      "html_url": "https://github.com/kvz/bash3boilerplate",
+      "description": "Templates to write better Bash scripts",
+      "stargazers_count": 2199,
+      "forks_count": 200,
+      "language": "Shell",
+      "topics": [],
+      "owner_login": "kvz",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/26752?s=88&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]

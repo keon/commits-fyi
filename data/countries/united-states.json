@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-06-03T10:08:19.395Z",
+  "generated_at": "2026-06-04T09:03:23.904Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1355031,
-    "org_followers": 918692,
+    "org_followers": 918694,
     "user_stars": 3250041,
-    "org_stars": 9531314
+    "org_stars": 9647680
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 41259
     },
     {
-      "login": "nomic-ai",
-      "name": "Nomic AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102670180?s=88&v=4",
-      "html_url": "https://github.com/nomic-ai",
-      "followers": 3187,
+      "login": "VoltAgent",
+      "name": "VoltAgent",
+      "avatar_url": "https://avatars.githubusercontent.com/u/201282378?s=88&v=4",
+      "html_url": "https://github.com/VoltAgent",
+      "followers": 3189,
       "following": 0,
-      "public_repos": 29,
+      "public_repos": 16,
       "location": "United States of America",
-      "bio": "democratizing access to powerful artificial intelligence",
+      "bio": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
       "company": null,
-      "created_at": "2022-03-30T12:31:05Z",
-      "total_stars": 84551
+      "created_at": "2025-02-28T20:14:47Z",
+      "total_stars": 200917
     }
   ],
   "repos": [
@@ -2973,6 +2973,25 @@
       "fork": false
     },
     {
+      "full_name": "VoltAgent/awesome-design-md",
+      "html_url": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matchi",
+      "stargazers_count": 87283,
+      "forks_count": 10435,
+      "language": null,
+      "topics": [
+        "awesome-list",
+        "design-md",
+        "design-system",
+        "google-stitch",
+        "landing-page"
+      ],
+      "owner_login": "VoltAgent",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/201282378?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "astral-sh/uv",
       "html_url": "https://github.com/astral-sh/uv",
       "description": "An extremely fast Python package and project manager, written in Rust.",
@@ -3005,22 +3024,6 @@
       ],
       "owner_login": "spring-projects",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/317776?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "nomic-ai/gpt4all",
-      "html_url": "https://github.com/nomic-ai/gpt4all",
-      "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.",
-      "stargazers_count": 77352,
-      "forks_count": 8324,
-      "language": "C++",
-      "topics": [
-        "llm-inference",
-        "ai-chat"
-      ],
-      "owner_login": "nomic-ai",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/102670180?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3380,6 +3383,25 @@
       "fork": false
     },
     {
+      "full_name": "VoltAgent/awesome-openclaw-skills",
+      "html_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+      "stargazers_count": 49783,
+      "forks_count": 4854,
+      "language": null,
+      "topics": [
+        "agent-skills",
+        "awesome-list",
+        "clawdbot",
+        "clawdbot-skill",
+        "clawd"
+      ],
+      "owner_login": "VoltAgent",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/201282378?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "hashicorp/terraform",
       "html_url": "https://github.com/hashicorp/terraform",
       "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs",
@@ -3415,19 +3437,6 @@
       "owner_login": "astral-sh",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/115962839?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "minimaxir/big-list-of-naughty-strings",
-      "html_url": "https://github.com/minimaxir/big-list-of-naughty-strings",
-      "description": "The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.",
-      "stargazers_count": 47642,
-      "forks_count": 2159,
-      "language": "Python",
-      "topics": [],
-      "owner_login": "minimaxir",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2179708?s=88&u=fa33a847bd260bee190d2994538a1ca32d467445&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]
