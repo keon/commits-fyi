@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-06-05T08:59:14.500Z",
+  "generated_at": "2026-06-06T08:04:14.549Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 581954,
-    "org_followers": 147781,
+    "org_followers": 147783,
     "user_stars": 1826816,
-    "org_stars": 1258688
+    "org_stars": 1257515
   },
   "queries": [
     {
@@ -2513,6 +2513,20 @@
       "total_stars": 716
     },
     {
+      "login": "hmcts",
+      "name": "HM Courts & Tribunals Service",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22817111?s=88&v=4",
+      "html_url": "https://github.com/hmcts",
+      "followers": 440,
+      "following": 0,
+      "public_repos": 1713,
+      "location": "United Kingdom",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-10-13T13:28:09Z",
+      "total_stars": 573
+    },
+    {
       "login": "nettitude",
       "name": "LRQA Cyber",
       "avatar_url": "https://avatars.githubusercontent.com/u/11998401?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2015-05-26T15:41:07Z",
       "total_stars": 1689
-    },
-    {
-      "login": "vtex",
-      "name": "VTEX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1288938?s=88&v=4",
-      "html_url": "https://github.com/vtex",
-      "followers": 438,
-      "following": 0,
-      "public_repos": 200,
-      "location": "United Kingdom",
-      "bio": "The Enterprise Digital Commerce Platform  ⚠️ To invite someone to this Github Org. Follow: https://vai.vtex.com/access-request ",
-      "company": null,
-      "created_at": "2011-12-27T19:51:33Z",
-      "total_stars": 1746
     }
   ],
   "repos": [

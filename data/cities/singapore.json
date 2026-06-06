@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-06-05T08:58:13.502Z",
+  "generated_at": "2026-06-06T08:04:10.279Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 342726,
     "org_followers": 86199,
     "user_stars": 1229102,
-    "org_stars": 1016266
+    "org_stars": 1018378
   },
   "queries": [
     {
@@ -1852,7 +1852,7 @@
       "bio": "Passionate about code, passionate about open source.",
       "company": null,
       "created_at": "2023-04-26T01:40:35Z",
-      "total_stars": 26616
+      "total_stars": 26638
     },
     {
       "login": "opengovsg",
@@ -2499,20 +2499,6 @@
       "total_stars": 1939
     },
     {
-      "login": "atlas-research-io",
-      "name": "Atlas Research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125331677?s=88&v=4",
-      "html_url": "https://github.com/atlas-research-io",
-      "followers": 187,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Singapore",
-      "bio": "workspace for research",
-      "company": null,
-      "created_at": "2023-02-14T03:03:43Z",
-      "total_stars": 73
-    },
-    {
       "login": "oraichain",
       "name": "Oraichain",
       "avatar_url": "https://avatars.githubusercontent.com/u/69910226?s=88&v=4",
@@ -2525,6 +2511,20 @@
       "company": null,
       "created_at": "2020-08-19T14:32:01Z",
       "total_stars": 272
+    },
+    {
+      "login": "atlas-research-io",
+      "name": "Atlas Research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125331677?s=88&v=4",
+      "html_url": "https://github.com/atlas-research-io",
+      "followers": 187,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Singapore",
+      "bio": "workspace for research",
+      "company": null,
+      "created_at": "2023-02-14T03:03:43Z",
+      "total_stars": 73
     },
     {
       "login": "torusresearch",
@@ -2541,18 +2541,18 @@
       "total_stars": 305
     },
     {
-      "login": "holistics",
-      "name": "Holistics",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12168382?s=88&v=4",
-      "html_url": "https://github.com/holistics",
+      "login": "pgsty",
+      "name": "Pigsty",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157279331?s=88&v=4",
+      "html_url": "https://github.com/pgsty",
       "followers": 170,
       "following": 0,
-      "public_repos": 26,
+      "public_repos": 21,
       "location": "Singapore",
-      "bio": null,
+      "bio": "Battery-Included PostgreSQL Distribution as a Free & OSS Local-First RDS",
       "company": null,
-      "created_at": "2015-04-29T10:19:58Z",
-      "total_stars": 3712
+      "created_at": "2024-01-21T09:39:29Z",
+      "total_stars": 5802
     }
   ],
   "repos": [
@@ -2811,7 +2811,7 @@
       "full_name": "OtterMind/Chat2DB",
       "html_url": "https://github.com/OtterMind/Chat2DB",
       "description": "AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, Clic",
-      "stargazers_count": 25708,
+      "stargazers_count": 25729,
       "forks_count": 2823,
       "language": "Java",
       "topics": [
