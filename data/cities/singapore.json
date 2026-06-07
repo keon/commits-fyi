@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-06-06T08:04:10.279Z",
+  "generated_at": "2026-06-07T08:32:04.513Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 342726,
+    "user_followers": 343944,
     "org_followers": 86199,
-    "user_stars": 1229102,
+    "user_stars": 1255889,
     "org_stars": 1018378
   },
   "queries": [
@@ -465,6 +465,20 @@
       "company": "@fmzquant",
       "created_at": "2013-03-15T07:09:02Z",
       "total_stars": 5973
+    },
+    {
+      "login": "eooce",
+      "name": "老王",
+      "avatar_url": "https://avatars.githubusercontent.com/u/142894633?s=88&u=38400bf8cfc2a6552e2a126b8c8eeb6af50cd7bb&v=4",
+      "html_url": "https://github.com/eooce",
+      "followers": 1924,
+      "following": 2,
+      "public_repos": 43,
+      "location": "Singapore",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-08-22T10:44:47Z",
+      "total_stars": 28088
     },
     {
       "login": "mithi",
@@ -1417,20 +1431,6 @@
       "company": "Bytedance (Tiktok)",
       "created_at": "2016-02-12T16:43:36Z",
       "total_stars": 5062
-    },
-    {
-      "login": "Spritetm",
-      "name": "Jeroen Domburg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8977247?s=88&u=16c33c908ecc6d081298f8f30219e39c44c5c81a&v=4",
-      "html_url": "https://github.com/Spritetm",
-      "followers": 706,
-      "following": 0,
-      "public_repos": 30,
-      "location": "Singapore",
-      "bio": null,
-      "company": "Espressif",
-      "created_at": "2014-09-30T21:19:12Z",
-      "total_stars": 1301
     }
   ],
   "orgs": [

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-06-06T08:05:09.559Z",
+  "generated_at": "2026-06-07T08:33:04.989Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 578873,
-    "org_followers": 149010,
+    "org_followers": 149029,
     "user_stars": 1168591,
-    "org_stars": 1030662
+    "org_stars": 1031282
   },
   "queries": [
     {
@@ -2331,20 +2331,6 @@
       "total_stars": 95
     },
     {
-      "login": "Acode-Foundation",
-      "name": "Acode Foundation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190915915?s=88&v=4",
-      "html_url": "https://github.com/Acode-Foundation",
-      "followers": 372,
-      "following": 0,
-      "public_repos": 20,
-      "location": "India",
-      "bio": "Acode - Powerful code editor for android.",
-      "company": null,
-      "created_at": "2024-12-07T06:05:26Z",
-      "total_stars": 6274
-    },
-    {
       "login": "GATEOverflow",
       "name": "GATE Overflow",
       "avatar_url": "https://avatars.githubusercontent.com/u/47265850?s=88&v=4",
@@ -2357,6 +2343,20 @@
       "company": null,
       "created_at": "2019-02-02T04:46:31Z",
       "total_stars": 1190
+    },
+    {
+      "login": "Acode-Foundation",
+      "name": "Acode Foundation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190915915?s=88&v=4",
+      "html_url": "https://github.com/Acode-Foundation",
+      "followers": 372,
+      "following": 0,
+      "public_repos": 20,
+      "location": "India",
+      "bio": "Acode - Powerful code editor for android.",
+      "company": null,
+      "created_at": "2024-12-07T06:05:26Z",
+      "total_stars": 6274
     },
     {
       "login": "Hashnode",
@@ -2499,6 +2499,20 @@
       "total_stars": 483
     },
     {
+      "login": "Fincept-Corporation",
+      "name": "Fincept Corporation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "html_url": "https://github.com/Fincept-Corporation",
+      "followers": 301,
+      "following": 0,
+      "public_repos": 3,
+      "location": "India",
+      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
+      "company": null,
+      "created_at": "2024-08-19T03:09:02Z",
+      "total_stars": 25779
+    },
+    {
       "login": "isro",
       "name": "ISRO",
       "avatar_url": "https://avatars.githubusercontent.com/u/65687350?s=88&v=4",
@@ -2525,20 +2539,6 @@
       "company": null,
       "created_at": "2020-07-14T21:01:37Z",
       "total_stars": 2740
-    },
-    {
-      "login": "Fincept-Corporation",
-      "name": "Fincept Corporation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
-      "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 282,
-      "following": 0,
-      "public_repos": 3,
-      "location": "India",
-      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
-      "company": null,
-      "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 25159
     },
     {
       "login": "DhiWise",
@@ -2880,8 +2880,8 @@
       "full_name": "Fincept-Corporation/FinceptTerminal",
       "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 25155,
-      "forks_count": 3496,
+      "stargazers_count": 25758,
+      "forks_count": 3608,
       "language": "C++",
       "topics": [
         "bloomberg-terminal",
