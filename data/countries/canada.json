@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-06-08T10:06:12.401Z",
+  "generated_at": "2026-06-09T08:44:49.133Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 356523,
-    "org_followers": 62820,
+    "org_followers": 62825,
     "user_stars": 1047355,
-    "org_stars": 1021567
+    "org_stars": 1021570
   },
   "queries": [
     {
@@ -397,20 +397,6 @@
       "total_stars": 485
     },
     {
-      "login": "stemmlerjs",
-      "name": "Khalil Stemmler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6892666?s=88&u=873a0bd3b94a7a7b4fe90ebc38d13ca7bae3ce5a&v=4",
-      "html_url": "https://github.com/stemmlerjs",
-      "followers": 3647,
-      "following": 45,
-      "public_repos": 78,
-      "location": "Toronto, ON",
-      "bio": "🌀 Software Essentialist. Skills before tools. Teaching the 80-20 of software design, testing, architecture & strategy. Scalable TypeScript - frontend AND back.",
-      "company": "khalilstemmler.com",
-      "created_at": "2014-03-08T16:23:35Z",
-      "total_stars": 8605
-    },
-    {
       "login": "ashfurrow",
       "name": "Ash Furrow",
       "avatar_url": "https://avatars.githubusercontent.com/u/498212?s=88&v=4",
@@ -423,6 +409,20 @@
       "company": null,
       "created_at": "2010-11-26T18:46:10Z",
       "total_stars": 7661
+    },
+    {
+      "login": "stemmlerjs",
+      "name": "Khalil Stemmler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6892666?s=88&u=873a0bd3b94a7a7b4fe90ebc38d13ca7bae3ce5a&v=4",
+      "html_url": "https://github.com/stemmlerjs",
+      "followers": 3647,
+      "following": 45,
+      "public_repos": 78,
+      "location": "Toronto, ON",
+      "bio": "🌀 Software Essentialist. Skills before tools. Teaching the 80-20 of software design, testing, architecture & strategy. Scalable TypeScript - frontend AND back.",
+      "company": "khalilstemmler.com",
+      "created_at": "2014-03-08T16:23:35Z",
+      "total_stars": 8605
     },
     {
       "login": "rafaelfranca",
@@ -1537,14 +1537,14 @@
       "name": "Cohere",
       "avatar_url": "https://avatars.githubusercontent.com/u/54850923?s=88&v=4",
       "html_url": "https://github.com/cohere-ai",
-      "followers": 1334,
+      "followers": 1339,
       "following": 0,
       "public_repos": 34,
       "location": "Canada",
       "bio": "Empowering enterprises with private, powerful AI.",
       "company": null,
       "created_at": "2019-09-03T13:52:16Z",
-      "total_stars": 6555
+      "total_stars": 6558
     },
     {
       "login": "openhwgroup",
@@ -2205,20 +2205,6 @@
       "total_stars": 15361
     },
     {
-      "login": "AutodeskAILab",
-      "name": "Autodesk AI Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67651511?s=88&v=4",
-      "html_url": "https://github.com/AutodeskAILab",
-      "followers": 368,
-      "following": 0,
-      "public_repos": 20,
-      "location": "SF/Toronto/London",
-      "bio": null,
-      "company": null,
-      "created_at": "2020-06-30T16:55:24Z",
-      "total_stars": 2229
-    },
-    {
       "login": "TouchDesigner",
       "name": "TouchDesigner",
       "avatar_url": "https://avatars.githubusercontent.com/u/1458252?s=88&v=4",
@@ -2231,6 +2217,20 @@
       "company": null,
       "created_at": "2012-02-21T17:36:51Z",
       "total_stars": 839
+    },
+    {
+      "login": "AutodeskAILab",
+      "name": "Autodesk AI Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67651511?s=88&v=4",
+      "html_url": "https://github.com/AutodeskAILab",
+      "followers": 368,
+      "following": 0,
+      "public_repos": 20,
+      "location": "SF/Toronto/London",
+      "bio": null,
+      "company": null,
+      "created_at": "2020-06-30T16:55:24Z",
+      "total_stars": 2229
     },
     {
       "login": "MagicStack",
@@ -2303,20 +2303,6 @@
       "total_stars": 198
     },
     {
-      "login": "codewithchris",
-      "name": "CodeWithChris",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46576056?s=88&v=4",
-      "html_url": "https://github.com/codewithchris",
-      "followers": 339,
-      "following": 0,
-      "public_repos": 23,
-      "location": "Toronto, ON",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-01-10T19:29:00Z",
-      "total_stars": 82
-    },
-    {
       "login": "JOMACS-IT",
       "name": "JOMACS-IT",
       "avatar_url": "https://avatars.githubusercontent.com/u/128205306?s=88&v=4",
@@ -2329,6 +2315,20 @@
       "company": null,
       "created_at": "2023-03-18T04:29:12Z",
       "total_stars": 1
+    },
+    {
+      "login": "codewithchris",
+      "name": "CodeWithChris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46576056?s=88&v=4",
+      "html_url": "https://github.com/codewithchris",
+      "followers": 339,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Toronto, ON",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-01-10T19:29:00Z",
+      "total_stars": 82
     },
     {
       "login": "requarks",

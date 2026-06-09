@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-06-08T09:57:59.998Z",
+  "generated_at": "2026-06-09T08:41:51.456Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -831,20 +831,6 @@
       "total_stars": 3201
     },
     {
-      "login": "benjamn",
-      "name": "Ben Newman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5750?s=88&u=95c71e43d35f4b2f7ea95474f5058bb51986f556&v=4",
-      "html_url": "https://github.com/benjamn",
-      "followers": 2917,
-      "following": 235,
-      "public_repos": 53,
-      "location": "New York City",
-      "bio": null,
-      "company": "Apollo Graph, Inc (formerly: Meteor, Facebook/Instagram, Quora, Mozilla)",
-      "created_at": "2008-04-08T03:26:35Z",
-      "total_stars": 8208
-    },
-    {
       "login": "balloob",
       "name": "Paulus Schoutsen",
       "avatar_url": "https://avatars.githubusercontent.com/u/1444314?s=88&v=4",
@@ -857,6 +843,20 @@
       "company": "@home-assistant, @openhomefoundation, @nabucasa",
       "created_at": "2012-02-16T19:21:30Z",
       "total_stars": 1977
+    },
+    {
+      "login": "benjamn",
+      "name": "Ben Newman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5750?s=88&u=95c71e43d35f4b2f7ea95474f5058bb51986f556&v=4",
+      "html_url": "https://github.com/benjamn",
+      "followers": 2917,
+      "following": 235,
+      "public_repos": 53,
+      "location": "New York City",
+      "bio": null,
+      "company": "Apollo Graph, Inc (formerly: Meteor, Facebook/Instagram, Quora, Mozilla)",
+      "created_at": "2008-04-08T03:26:35Z",
+      "total_stars": 8208
     },
     {
       "login": "thesephist",
@@ -2527,20 +2527,6 @@
       "total_stars": 1241
     },
     {
-      "login": "UrbanCompass",
-      "name": "Compass",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
-      "html_url": "https://github.com/UrbanCompass",
-      "followers": 194,
-      "following": 0,
-      "public_repos": 21,
-      "location": "NYC",
-      "bio": "Compass Real Estate",
-      "company": null,
-      "created_at": "2012-10-02T18:21:11Z",
-      "total_stars": 418
-    },
-    {
       "login": "fern-api",
       "name": "fern",
       "avatar_url": "https://avatars.githubusercontent.com/u/102944815?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2022-04-04T06:11:00Z",
       "total_stars": 3765
+    },
+    {
+      "login": "UrbanCompass",
+      "name": "Compass",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
+      "html_url": "https://github.com/UrbanCompass",
+      "followers": 194,
+      "following": 0,
+      "public_repos": 21,
+      "location": "NYC",
+      "bio": "Compass Real Estate",
+      "company": null,
+      "created_at": "2012-10-02T18:21:11Z",
+      "total_stars": 418
     }
   ],
   "repos": [
@@ -3171,8 +3171,8 @@
       "full_name": "yhirose/cpp-httplib",
       "html_url": "https://github.com/yhirose/cpp-httplib",
       "description": "A C++ header-only HTTP/HTTPS server and client library",
-      "stargazers_count": 16556,
-      "forks_count": 2691,
+      "stargazers_count": 16567,
+      "forks_count": 2693,
       "language": "C++",
       "topics": [
         "cpp",

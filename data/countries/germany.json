@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-06-08T10:04:03.402Z",
+  "generated_at": "2026-06-09T08:43:49.837Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 456252,
-    "org_followers": 112869,
+    "org_followers": 112998,
     "user_stars": 1450189,
-    "org_stars": 1672515
+    "org_stars": 1720486
   },
   "queries": [
     {
@@ -1083,20 +1083,6 @@
       "total_stars": 16437
     },
     {
-      "login": "phanan",
-      "name": "Phan An",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8056274?s=88&u=16baa02f164d426ddca7c4a8c659aef25cd9c2f4&v=4",
-      "html_url": "https://github.com/phanan",
-      "followers": 2440,
-      "following": 76,
-      "public_repos": 33,
-      "location": "Munich",
-      "bio": "Author, developer, sleepwalker.",
-      "company": null,
-      "created_at": "2014-07-03T08:36:28Z",
-      "total_stars": 14616
-    },
-    {
       "login": "rauschma",
       "name": "Axel Rauschmayer",
       "avatar_url": "https://avatars.githubusercontent.com/u/526114?s=88&u=104c605c5658167aa874ce8b8716dbb34dfbc751&v=4",
@@ -1109,6 +1095,20 @@
       "company": null,
       "created_at": "2010-12-16T17:30:54Z",
       "total_stars": 2610
+    },
+    {
+      "login": "phanan",
+      "name": "Phan An",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8056274?s=88&u=16baa02f164d426ddca7c4a8c659aef25cd9c2f4&v=4",
+      "html_url": "https://github.com/phanan",
+      "followers": 2440,
+      "following": 76,
+      "public_repos": 33,
+      "location": "Munich",
+      "bio": "Author, developer, sleepwalker.",
+      "company": null,
+      "created_at": "2014-07-03T08:36:28Z",
+      "total_stars": 14616
     },
     {
       "login": "Gargron",
@@ -2219,20 +2219,6 @@
       "total_stars": 39943
     },
     {
-      "login": "beyondcode",
-      "name": "Beyond Code",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38242993?s=88&v=4",
-      "html_url": "https://github.com/beyondcode",
-      "followers": 595,
-      "following": 0,
-      "public_repos": 75,
-      "location": "Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-04-10T08:11:54Z",
-      "total_stars": 22591
-    },
-    {
       "login": "fritzing",
       "name": "Fritzing",
       "avatar_url": "https://avatars.githubusercontent.com/u/8562144?s=88&v=4",
@@ -2245,6 +2231,20 @@
       "company": null,
       "created_at": "2014-08-26T22:13:42Z",
       "total_stars": 5538
+    },
+    {
+      "login": "beyondcode",
+      "name": "Beyond Code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38242993?s=88&v=4",
+      "html_url": "https://github.com/beyondcode",
+      "followers": 595,
+      "following": 0,
+      "public_repos": 75,
+      "location": "Germany",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-04-10T08:11:54Z",
+      "total_stars": 22591
     },
     {
       "login": "slint-ui",
@@ -2261,6 +2261,20 @@
       "total_stars": 23995
     },
     {
+      "login": "composer",
+      "name": "Composer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/837015?s=88&v=4",
+      "html_url": "https://github.com/composer",
+      "followers": 574,
+      "following": 0,
+      "public_repos": 20,
+      "location": "Germany",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-06-08T08:38:20Z",
+      "total_stars": 48344
+    },
+    {
       "login": "soundcloud",
       "name": "SoundCloud",
       "avatar_url": "https://avatars.githubusercontent.com/u/21021?s=88&v=4",
@@ -2275,20 +2289,6 @@
       "total_stars": 9155
     },
     {
-      "login": "deta",
-      "name": "Deta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47275976?s=88&v=4",
-      "html_url": "https://github.com/deta",
-      "followers": 565,
-      "following": 0,
-      "public_repos": 23,
-      "location": "Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-02-02T14:33:07Z",
-      "total_stars": 4496
-    },
-    {
       "login": "golang-design",
       "name": "The golang.design Initiative",
       "avatar_url": "https://avatars.githubusercontent.com/u/71124567?s=88&v=4",
@@ -2301,6 +2301,20 @@
       "company": null,
       "created_at": "2020-09-11T08:45:06Z",
       "total_stars": 13633
+    },
+    {
+      "login": "deta",
+      "name": "Deta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47275976?s=88&v=4",
+      "html_url": "https://github.com/deta",
+      "followers": 565,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Germany",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-02-02T14:33:07Z",
+      "total_stars": 4496
     },
     {
       "login": "prefix-dev",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-11-29T12:38:45Z",
       "total_stars": 3097
-    },
-    {
-      "login": "Bootstrap-Academy",
-      "name": "Bootstrap Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108352981?s=88&v=4",
-      "html_url": "https://github.com/Bootstrap-Academy",
-      "followers": 445,
-      "following": 0,
-      "public_repos": 13,
-      "location": "Germany",
-      "bio": "Learn Computer Science Online",
-      "company": null,
-      "created_at": "2022-06-28T14:59:14Z",
-      "total_stars": 373
     }
   ],
   "repos": [
@@ -2885,6 +2885,25 @@
       ],
       "owner_login": "qdrant",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/73504361?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "composer/composer",
+      "html_url": "https://github.com/composer/composer",
+      "description": "Dependency Manager for PHP",
+      "stargazers_count": 29450,
+      "forks_count": 4796,
+      "language": "PHP",
+      "topics": [
+        "php",
+        "composer",
+        "dependency-manager",
+        "package-manager",
+        "packages"
+      ],
+      "owner_login": "composer",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/837015?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3442,25 +3461,6 @@
       "owner_login": "phanan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8056274?s=88&u=16baa02f164d426ddca7c4a8c659aef25cd9c2f4&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "seemoo-lab/openhaystack",
-      "html_url": "https://github.com/seemoo-lab/openhaystack",
-      "description": "Build your own 'AirTags' 🏷 today! Framework for tracking personal Bluetooth devices via Apple's massive Find My network.",
-      "stargazers_count": 13031,
-      "forks_count": 649,
-      "language": "Swift",
-      "topics": [
-        "apple",
-        "offline-finding",
-        "bluetooth",
-        "microbit",
-        "location-tracker"
-      ],
-      "owner_login": "seemoo-lab",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7370084?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]

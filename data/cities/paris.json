@@ -2,14 +2,14 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-06-08T10:00:41.099Z",
+  "generated_at": "2026-06-09T08:42:45.631Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 196328,
+    "user_followers": 196338,
     "org_followers": 95019,
     "user_stars": 831527,
     "org_stars": 1087791
@@ -215,20 +215,6 @@
       "total_stars": 18008
     },
     {
-      "login": "BartoszMilewski",
-      "name": "Bartosz Milewski",
-      "avatar_url": "https://avatars.githubusercontent.com/u/799370?s=88&v=4",
-      "html_url": "https://github.com/BartoszMilewski",
-      "followers": 2567,
-      "following": 0,
-      "public_repos": 33,
-      "location": "Paris, France",
-      "bio": "Author of Category Theory for Programmers",
-      "company": "Programming Cafe",
-      "created_at": "2011-05-20T00:14:02Z",
-      "total_stars": 2938
-    },
-    {
       "login": "mblondel",
       "name": "Mathieu Blondel",
       "avatar_url": "https://avatars.githubusercontent.com/u/233706?s=88&u=b0c4ee18864557421690d659662fdc8e8f6a55f7&v=4",
@@ -241,6 +227,20 @@
       "company": "Google DeepMind",
       "created_at": "2010-03-30T21:54:10Z",
       "total_stars": 1203
+    },
+    {
+      "login": "BartoszMilewski",
+      "name": "Bartosz Milewski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/799370?s=88&v=4",
+      "html_url": "https://github.com/BartoszMilewski",
+      "followers": 2567,
+      "following": 0,
+      "public_repos": 33,
+      "location": "Paris, France",
+      "bio": "Author of Category Theory for Programmers",
+      "company": "Programming Cafe",
+      "created_at": "2011-05-20T00:14:02Z",
+      "total_stars": 2938
     },
     {
       "login": "4ian",
@@ -523,20 +523,6 @@
       "total_stars": 6229
     },
     {
-      "login": "JosePaumard",
-      "name": "José Paumard",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1757066?s=88&v=4",
-      "html_url": "https://github.com/JosePaumard",
-      "followers": 1464,
-      "following": 3,
-      "public_repos": 47,
-      "location": "Paris",
-      "bio": "Java DevRel Advocate @Oracle",
-      "company": "Oracle",
-      "created_at": "2012-05-20T16:35:23Z",
-      "total_stars": 775
-    },
-    {
       "login": "agramfort",
       "name": "Alexandre Gramfort",
       "avatar_url": "https://avatars.githubusercontent.com/u/161052?s=88&u=28620e0e14597ad721a7505cf486aaf5687aea66&v=4",
@@ -549,6 +535,20 @@
       "company": "Meta",
       "created_at": "2009-12-02T20:23:59Z",
       "total_stars": 154
+    },
+    {
+      "login": "JosePaumard",
+      "name": "José Paumard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1757066?s=88&v=4",
+      "html_url": "https://github.com/JosePaumard",
+      "followers": 1464,
+      "following": 3,
+      "public_repos": 47,
+      "location": "Paris",
+      "bio": "Java DevRel Advocate @Oracle",
+      "company": "Oracle",
+      "created_at": "2012-05-20T16:35:23Z",
+      "total_stars": 775
     },
     {
       "login": "gpeyre",
@@ -775,6 +775,20 @@
       "total_stars": 2572
     },
     {
+      "login": "jolliesol",
+      "name": "Jollie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85102925?s=88&u=db831f30a03f7c3b13c99ae5930ad4b887a5dea6&v=4",
+      "html_url": "https://github.com/jolliesol",
+      "followers": 1077,
+      "following": 984,
+      "public_repos": 61,
+      "location": "Paris",
+      "bio": "Open Source Architect & Blockchain Developer | Distributed Ledger Technology | High Performance Implementation",
+      "company": "Theodo",
+      "created_at": "2021-05-31T08:35:08Z",
+      "total_stars": 106
+    },
+    {
       "login": "simoninithomas",
       "name": "Thomas Simonini",
       "avatar_url": "https://avatars.githubusercontent.com/u/13088472?s=88&u=885be330255279cb777ba942c99c16952619b028&v=4",
@@ -787,20 +801,6 @@
       "company": "@huggingface",
       "created_at": "2015-06-28T16:28:49Z",
       "total_stars": 5325
-    },
-    {
-      "login": "jolliesol",
-      "name": "Jollie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85102925?s=88&u=db831f30a03f7c3b13c99ae5930ad4b887a5dea6&v=4",
-      "html_url": "https://github.com/jolliesol",
-      "followers": 1067,
-      "following": 984,
-      "public_repos": 61,
-      "location": "Paris",
-      "bio": "Open Source Architect & Blockchain Developer | Distributed Ledger Technology | High Performance Implementation",
-      "company": "Theodo",
-      "created_at": "2021-05-31T08:35:08Z",
-      "total_stars": 106
     },
     {
       "login": "r4j0x00",
@@ -2233,20 +2233,6 @@
       "total_stars": 2257
     },
     {
-      "login": "ContentSquare",
-      "name": "Contentsquare ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1754602?s=88&v=4",
-      "html_url": "https://github.com/ContentSquare",
-      "followers": 109,
-      "following": 0,
-      "public_repos": 44,
-      "location": "Paris, London, Tel Aviv, New-York, San Francisco",
-      "bio": "Web optimization, testing & UX solutions",
-      "company": null,
-      "created_at": "2012-05-19T10:44:35Z",
-      "total_stars": 1604
-    },
-    {
       "login": "coopcycle",
       "name": "CoopCycle",
       "avatar_url": "https://avatars.githubusercontent.com/u/24247863?s=88&v=4",
@@ -2259,6 +2245,20 @@
       "company": null,
       "created_at": "2016-11-29T12:07:16Z",
       "total_stars": 846
+    },
+    {
+      "login": "ContentSquare",
+      "name": "Contentsquare ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1754602?s=88&v=4",
+      "html_url": "https://github.com/ContentSquare",
+      "followers": 109,
+      "following": 0,
+      "public_repos": 44,
+      "location": "Paris, London, Tel Aviv, New-York, San Francisco",
+      "bio": "Web optimization, testing & UX solutions",
+      "company": null,
+      "created_at": "2012-05-19T10:44:35Z",
+      "total_stars": 1604
     },
     {
       "login": "Abc-Arbitrage",
@@ -2317,20 +2317,6 @@
       "total_stars": 2175
     },
     {
-      "login": "illuin-tech",
-      "name": "ILLUIN Technology",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26204301?s=88&v=4",
-      "html_url": "https://github.com/illuin-tech",
-      "followers": 98,
-      "following": 0,
-      "public_repos": 25,
-      "location": "Paris, France",
-      "bio": "Illuin Technology est une équipe de makers motivé·e·s par les challenges de l'IA et les nouveaux modes utilisateurs que cette intelligence permet.",
-      "company": null,
-      "created_at": "2017-03-05T17:07:46Z",
-      "total_stars": 3144
-    },
-    {
       "login": "Kpler",
       "name": "Kpler",
       "avatar_url": "https://avatars.githubusercontent.com/u/7582155?s=88&v=4",
@@ -2343,6 +2329,20 @@
       "company": null,
       "created_at": "2014-05-14T14:24:45Z",
       "total_stars": 29
+    },
+    {
+      "login": "illuin-tech",
+      "name": "ILLUIN Technology",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26204301?s=88&v=4",
+      "html_url": "https://github.com/illuin-tech",
+      "followers": 98,
+      "following": 0,
+      "public_repos": 25,
+      "location": "Paris, France",
+      "bio": "Illuin Technology est une équipe de makers motivé·e·s par les challenges de l'IA et les nouveaux modes utilisateurs que cette intelligence permet.",
+      "company": null,
+      "created_at": "2017-03-05T17:07:46Z",
+      "total_stars": 3144
     },
     {
       "login": "BackMarket",
@@ -2401,6 +2401,20 @@
       "total_stars": 0
     },
     {
+      "login": "aphp",
+      "name": "Greater Paris University Hospitals (AP-HP)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26802401?s=88&v=4",
+      "html_url": "https://github.com/aphp",
+      "followers": 92,
+      "following": 0,
+      "public_repos": 46,
+      "location": "Paris",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-03-30T20:27:50Z",
+      "total_stars": 589
+    },
+    {
       "login": "DFIR-ORC",
       "name": "DFIR-ORC",
       "avatar_url": "https://avatars.githubusercontent.com/u/55146666?s=88&v=4",
@@ -2429,20 +2443,6 @@
       "total_stars": 185
     },
     {
-      "login": "aphp",
-      "name": "Greater Paris University Hospitals (AP-HP)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26802401?s=88&v=4",
-      "html_url": "https://github.com/aphp",
-      "followers": 92,
-      "following": 0,
-      "public_repos": 46,
-      "location": "Paris",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-03-30T20:27:50Z",
-      "total_stars": 589
-    },
-    {
       "login": "pyronear",
       "name": "PyroNear",
       "avatar_url": "https://avatars.githubusercontent.com/u/61667887?s=88&v=4",
@@ -2457,20 +2457,6 @@
       "total_stars": 181
     },
     {
-      "login": "vivadata",
-      "name": "Artefact School of Data",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40315825?s=88&v=4",
-      "html_url": "https://github.com/vivadata",
-      "followers": 91,
-      "following": 0,
-      "public_repos": 19,
-      "location": "Paris",
-      "bio": "Data Bootcamp",
-      "company": null,
-      "created_at": "2018-06-16T09:46:55Z",
-      "total_stars": 1
-    },
-    {
       "login": "gridsound",
       "name": "GridSound",
       "avatar_url": "https://avatars.githubusercontent.com/u/18252268?s=88&v=4",
@@ -2483,6 +2469,20 @@
       "company": null,
       "created_at": "2016-04-04T00:09:25Z",
       "total_stars": 2012
+    },
+    {
+      "login": "vivadata",
+      "name": "Artefact School of Data",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40315825?s=88&v=4",
+      "html_url": "https://github.com/vivadata",
+      "followers": 91,
+      "following": 0,
+      "public_repos": 19,
+      "location": "Paris",
+      "bio": "Data Bootcamp",
+      "company": null,
+      "created_at": "2018-06-16T09:46:55Z",
+      "total_stars": 1
     },
     {
       "login": "sfeir-open-source",
