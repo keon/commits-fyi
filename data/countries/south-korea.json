@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-06-09T08:43:57.309Z",
+  "generated_at": "2026-06-10T09:03:36.850Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2079,20 +2079,6 @@
       "total_stars": 197
     },
     {
-      "login": "CausalInferenceLab",
-      "name": "가짜연구소 Causal Inference Team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/114298781?s=88&v=4",
-      "html_url": "https://github.com/CausalInferenceLab",
-      "followers": 175,
-      "following": 0,
-      "public_repos": 20,
-      "location": "Korea, South",
-      "bio": "안녕하세요. 가짜연구소 Causal Inference 팀입니다!",
-      "company": null,
-      "created_at": "2022-09-24T14:22:35Z",
-      "total_stars": 959
-    },
-    {
       "login": "ridi",
       "name": "RIDI",
       "avatar_url": "https://avatars.githubusercontent.com/u/24955411?s=88&v=4",
@@ -2105,6 +2091,20 @@
       "company": null,
       "created_at": "2017-01-06T09:00:02Z",
       "total_stars": 735
+    },
+    {
+      "login": "CausalInferenceLab",
+      "name": "가짜연구소 Causal Inference Team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114298781?s=88&v=4",
+      "html_url": "https://github.com/CausalInferenceLab",
+      "followers": 175,
+      "following": 0,
+      "public_repos": 20,
+      "location": "Korea, South",
+      "bio": "안녕하세요. 가짜연구소 Causal Inference 팀입니다!",
+      "company": null,
+      "created_at": "2022-09-24T14:22:35Z",
+      "total_stars": 959
     },
     {
       "login": "PurpleAILAB",
@@ -3040,6 +3040,24 @@
       "fork": false
     },
     {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "stargazers_count": 6706,
+      "forks_count": 917,
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "owner_login": "revfactory",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "codertimo/BERT-pytorch",
       "html_url": "https://github.com/codertimo/BERT-pytorch",
       "description": "Google AI 2018 BERT pytorch implementation",
@@ -3055,24 +3073,6 @@
       ],
       "owner_login": "codertimo",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/9063575?s=88&u=25b1f35af433b23839b7c04bb30c47ca73f2184b&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "revfactory/harness",
-      "html_url": "https://github.com/revfactory/harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "stargazers_count": 6325,
-      "forks_count": 851,
-      "language": "HTML",
-      "topics": [
-        "claude-code",
-        "claude-code-plugin",
-        "harness",
-        "harness-engineering"
-      ],
-      "owner_login": "revfactory",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
       "owner_type": "User",
       "fork": false
     },

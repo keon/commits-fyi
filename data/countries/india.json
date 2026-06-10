@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-06-09T08:43:55.224Z",
+  "generated_at": "2026-06-10T09:03:34.042Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 579548,
-    "org_followers": 149165,
+    "org_followers": 149173,
     "user_stars": 1170163,
-    "org_stars": 1032139
+    "org_stars": 1032564
   },
   "queries": [
     {
@@ -1911,11 +1911,11 @@
       "total_stars": 423
     },
     {
-      "login": "Code4GovTech",
+      "login": "CodeForGoodTech",
       "name": "Code for Good Tech (C4GT)",
       "avatar_url": "https://avatars.githubusercontent.com/u/104516289?s=88&v=4",
-      "html_url": "https://github.com/Code4GovTech",
-      "followers": 593,
+      "html_url": "https://github.com/CodeForGoodTech",
+      "followers": 594,
       "following": 0,
       "public_repos": 17,
       "location": "India",
@@ -2457,6 +2457,20 @@
       "total_stars": 923
     },
     {
+      "login": "Fincept-Corporation",
+      "name": "Fincept Corporation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "html_url": "https://github.com/Fincept-Corporation",
+      "followers": 308,
+      "following": 0,
+      "public_repos": 3,
+      "location": "India",
+      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
+      "company": null,
+      "created_at": "2024-08-19T03:09:02Z",
+      "total_stars": 26204
+    },
+    {
       "login": "InfoSecWarrior",
       "name": "Infosec Warrior",
       "avatar_url": "https://avatars.githubusercontent.com/u/90319331?s=88&v=4",
@@ -2497,20 +2511,6 @@
       "company": null,
       "created_at": "2022-10-03T05:00:38Z",
       "total_stars": 483
-    },
-    {
-      "login": "Fincept-Corporation",
-      "name": "Fincept Corporation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
-      "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 301,
-      "following": 0,
-      "public_repos": 3,
-      "location": "India",
-      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
-      "company": null,
-      "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 25779
     },
     {
       "login": "isro",
@@ -2858,6 +2858,25 @@
       "fork": false
     },
     {
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
+      "stargazers_count": 26182,
+      "forks_count": 3669,
+      "language": "C++",
+      "topics": [
+        "bloomberg-terminal",
+        "finance",
+        "financial-markets",
+        "investment",
+        "investment-research"
+      ],
+      "owner_login": "Fincept-Corporation",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "TheAlgorithms/Rust",
       "html_url": "https://github.com/TheAlgorithms/Rust",
       "description": " All Algorithms implemented in Rust ",
@@ -2873,25 +2892,6 @@
       ],
       "owner_login": "TheAlgorithms",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20487725?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "Fincept-Corporation/FinceptTerminal",
-      "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 25758,
-      "forks_count": 3608,
-      "language": "C++",
-      "topics": [
-        "bloomberg-terminal",
-        "finance",
-        "financial-markets",
-        "investment",
-        "investment-research"
-      ],
-      "owner_login": "Fincept-Corporation",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },

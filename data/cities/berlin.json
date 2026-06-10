@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-06-09T08:41:58.051Z",
+  "generated_at": "2026-06-10T09:01:43.223Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 293002,
+    "user_followers": 293012,
     "org_followers": 31617,
-    "user_stars": 944817,
+    "user_stars": 944879,
     "org_stars": 734610
   },
   "queries": [
@@ -233,14 +233,14 @@
       "name": "Orhun Parmaksız",
       "avatar_url": "https://avatars.githubusercontent.com/u/24392180?s=88&u=3ef7dfd550368f0f65b21ab811d48c1fda0eee63&v=4",
       "html_url": "https://github.com/orhun",
-      "followers": 5067,
+      "followers": 5077,
       "following": 539,
       "public_repos": 81,
       "location": "Berlin, Germany",
       "bio": "Terminal Chef @ratatui | Rust Developer Advocate @JetBrains |\r\nMaintainer @archlinux btw  ",
       "company": "@ratatui | @jetbrains | @archlinux",
       "created_at": "2016-12-05T15:47:47Z",
-      "total_stars": 33372
+      "total_stars": 33434
     },
     {
       "login": "vietnh1009",
@@ -1869,20 +1869,6 @@
       "total_stars": 527
     },
     {
-      "login": "papermerge",
-      "name": "Papermerge DMS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62459211?s=88&v=4",
-      "html_url": "https://github.com/papermerge",
-      "followers": 206,
-      "following": 0,
-      "public_repos": 43,
-      "location": "Berlin, Germany",
-      "bio": "Open Source Document Management System designed for scanned documents.",
-      "company": null,
-      "created_at": "2020-03-21T06:15:52Z",
-      "total_stars": 613
-    },
-    {
       "login": "aytitech",
       "name": "Ayti.Tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/73311705?s=88&v=4",
@@ -1895,6 +1881,20 @@
       "company": null,
       "created_at": "2020-10-22T19:25:08Z",
       "total_stars": 473
+    },
+    {
+      "login": "papermerge",
+      "name": "Papermerge DMS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62459211?s=88&v=4",
+      "html_url": "https://github.com/papermerge",
+      "followers": 206,
+      "following": 0,
+      "public_repos": 43,
+      "location": "Berlin, Germany",
+      "bio": "Open Source Document Management System designed for scanned documents.",
+      "company": null,
+      "created_at": "2020-03-21T06:15:52Z",
+      "total_stars": 613
     },
     {
       "login": "ContainerSolutions",
@@ -3137,7 +3137,7 @@
       "full_name": "orhun/git-cliff",
       "html_url": "https://github.com/orhun/git-cliff",
       "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️ ",
-      "stargazers_count": 11926,
+      "stargazers_count": 11931,
       "forks_count": 300,
       "language": "Rust",
       "topics": [

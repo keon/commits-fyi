@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-06-09T08:41:56.044Z",
+  "generated_at": "2026-06-10T09:01:38.196Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -3344,6 +3344,23 @@
       "fork": false
     },
     {
+      "full_name": "cviebrock/eloquent-sluggable",
+      "html_url": "https://github.com/cviebrock/eloquent-sluggable",
+      "description": "Easy creation of slugs for your Eloquent models in Laravel",
+      "stargazers_count": 3993,
+      "forks_count": 449,
+      "language": "PHP",
+      "topics": [
+        "laravel",
+        "eloquent-models",
+        "slug"
+      ],
+      "owner_login": "cviebrock",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/166810?s=88&u=062a8715c7bae434a083163fd17f4d7e7a26ddb9&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "steveseguin/vdo.ninja",
       "html_url": "https://github.com/steveseguin/vdo.ninja",
       "description": "VDO.Ninja is a powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.",
@@ -3416,23 +3433,6 @@
       ],
       "owner_login": "kamiyaa",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8345320?s=88&u=aa029eb263974f032b92668c19c6ad50ba7d22b2&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "stemmlerjs/software-design-and-architecture-roadmap",
-      "html_url": "https://github.com/stemmlerjs/software-design-and-architecture-roadmap",
-      "description": "🧱 The software design and architecture roadmap for any developer",
-      "stargazers_count": 3401,
-      "forks_count": 417,
-      "language": null,
-      "topics": [
-        "software-design",
-        "architecture",
-        "roadmap"
-      ],
-      "owner_login": "stemmlerjs",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6892666?s=88&u=873a0bd3b94a7a7b4fe90ebc38d13ca7bae3ce5a&v=4",
       "owner_type": "User",
       "fork": false
     }
