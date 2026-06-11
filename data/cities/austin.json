@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-06-10T09:01:36.295Z",
+  "generated_at": "2026-06-11T09:45:39.056Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 160794,
+    "user_followers": 161142,
     "org_followers": 33659,
-    "user_stars": 505548,
+    "user_stars": 519301,
     "org_stars": 374189
   },
   "queries": [
@@ -831,6 +831,20 @@
       "total_stars": 3008
     },
     {
+      "login": "robfig",
+      "name": "Rob Figueiredo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/536325?s=88&v=4",
+      "html_url": "https://github.com/robfig",
+      "followers": 739,
+      "following": 8,
+      "public_repos": 52,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": "Roam",
+      "created_at": "2010-12-25T16:00:52Z",
+      "total_stars": 14669
+    },
+    {
       "login": "pedramamini",
       "name": "Pedram Amini",
       "avatar_url": "https://avatars.githubusercontent.com/u/1253573?s=88&v=4",
@@ -1417,20 +1431,6 @@
       "company": "The University of Texas at Austin",
       "created_at": "2011-01-31T04:05:28Z",
       "total_stars": 197
-    },
-    {
-      "login": "zsylvester",
-      "name": "Zoltán Sylvester",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5200560?s=88&u=735f3d4876dee969a4ef4ad0ae3b10c6c32d137b&v=4",
-      "html_url": "https://github.com/zsylvester",
-      "followers": 391,
-      "following": 51,
-      "public_repos": 17,
-      "location": "Austin, TX",
-      "bio": "Research Professor at UT Austin, interested in sedimentary geology, geomorphology, sedimentology, rivers, deep-marine sedimentation, and machine learning\r\n",
-      "company": "Jackson School of Geosciences, UT Austin",
-      "created_at": "2013-08-09T23:33:20Z",
-      "total_stars": 916
     }
   ],
   "orgs": [
@@ -2261,20 +2261,6 @@
       "total_stars": 1031
     },
     {
-      "login": "transmute-industries",
-      "name": "Transmute",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19918523?s=88&v=4",
-      "html_url": "https://github.com/transmute-industries",
-      "followers": 49,
-      "following": 0,
-      "public_repos": 145,
-      "location": "Austin TX",
-      "bio": "The Verifiable Data Platform",
-      "company": null,
-      "created_at": "2016-06-13T23:50:17Z",
-      "total_stars": 526
-    },
-    {
       "login": "ShipEngine",
       "name": "ShipEngine",
       "avatar_url": "https://avatars.githubusercontent.com/u/42709242?s=88&v=4",
@@ -2287,6 +2273,20 @@
       "company": null,
       "created_at": "2018-08-26T05:34:53Z",
       "total_stars": 124
+    },
+    {
+      "login": "transmute-industries",
+      "name": "Transmute",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19918523?s=88&v=4",
+      "html_url": "https://github.com/transmute-industries",
+      "followers": 49,
+      "following": 0,
+      "public_repos": 145,
+      "location": "Austin TX",
+      "bio": "The Verifiable Data Platform",
+      "company": null,
+      "created_at": "2016-06-13T23:50:17Z",
+      "total_stars": 526
     },
     {
       "login": "zenbusiness",
@@ -2499,20 +2499,6 @@
       "total_stars": 0
     },
     {
-      "login": "INTERA-Inc",
-      "name": "INTERA Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15694433?s=88&v=4",
-      "html_url": "https://github.com/INTERA-Inc",
-      "followers": 39,
-      "following": 0,
-      "public_repos": 17,
-      "location": "Austin, TX",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-11-06T18:47:27Z",
-      "total_stars": 55
-    },
-    {
       "login": "peddleon",
       "name": "Peddle",
       "avatar_url": "https://avatars.githubusercontent.com/u/13109354?s=88&v=4",
@@ -2525,6 +2511,20 @@
       "company": null,
       "created_at": "2015-06-29T22:15:33Z",
       "total_stars": 0
+    },
+    {
+      "login": "INTERA-Inc",
+      "name": "INTERA Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15694433?s=88&v=4",
+      "html_url": "https://github.com/INTERA-Inc",
+      "followers": 39,
+      "following": 0,
+      "public_repos": 17,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-11-06T18:47:27Z",
+      "total_stars": 55
     },
     {
       "login": "synthetik-technologies",
@@ -2673,6 +2673,19 @@
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "robfig/cron",
+      "html_url": "https://github.com/robfig/cron",
+      "description": "a cron library for go",
+      "stargazers_count": 14132,
+      "forks_count": 1695,
+      "language": "Go",
+      "topics": [],
+      "owner_login": "robfig",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/536325?s=88&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3363,19 +3376,6 @@
       "topics": [],
       "owner_login": "landley",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1414921?s=88&u=fbab12418d51a50501fb8a659a249526479fc590&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "rFlex/SCRecorder",
-      "html_url": "https://github.com/rFlex/SCRecorder",
-      "description": "iOS camera engine with Vine-like tap to record, animatable filters, slow motion, segments editing",
-      "stargazers_count": 3048,
-      "forks_count": 569,
-      "language": "Objective-C",
-      "topics": [],
-      "owner_login": "rFlex",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1932102?s=88&u=bf96070291c47a3fd90a99ff3b0dfcdf19e7015f&v=4",
       "owner_type": "User",
       "fork": false
     }
