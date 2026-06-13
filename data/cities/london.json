@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-06-12T09:16:23.071Z",
+  "generated_at": "2026-06-13T08:32:24.697Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 429879,
+    "user_followers": 426279,
     "org_followers": 70891,
-    "user_stars": 1264365,
+    "user_stars": 1235565,
     "org_stars": 702268
   },
   "queries": [
@@ -283,20 +283,6 @@
       "company": "@facebook",
       "created_at": "2012-01-13T07:41:40Z",
       "total_stars": 5485
-    },
-    {
-      "login": "nikivdev",
-      "name": "Nikita",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6391776?s=88&u=9c4fff402bc3862bda963fca6b62e9c37df3b7c6&v=4",
-      "html_url": "https://github.com/nikivdev",
-      "followers": 5020,
-      "following": 16908,
-      "public_repos": 190,
-      "location": "London",
-      "bio": null,
-      "company": "Prometheus",
-      "created_at": "2014-01-13T17:30:13Z",
-      "total_stars": 32405
     },
     {
       "login": "trueadm",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2009-02-06T11:00:57Z",
       "total_stars": 406
+    },
+    {
+      "login": "albinotonnina",
+      "name": "Albino Tonnina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37283?s=88&u=fef9b5ad2aae3a48920c990a99a014a5aeb1d716&v=4",
+      "html_url": "https://github.com/albinotonnina",
+      "followers": 1420,
+      "following": 1,
+      "public_repos": 67,
+      "location": "London",
+      "bio": "\r\n",
+      "company": "@asos ",
+      "created_at": "2008-11-29T21:47:06Z",
+      "total_stars": 3605
     }
   ],
   "orgs": [
@@ -2903,21 +2903,6 @@
       "fork": false
     },
     {
-      "full_name": "nikivdev/flow",
-      "html_url": "https://github.com/nikivdev/flow",
-      "description": "Everything you need to move your project faster",
-      "stargazers_count": 21134,
-      "forks_count": 832,
-      "language": "Rust",
-      "topics": [
-        "rust"
-      ],
-      "owner_login": "nikivdev",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6391776?s=88&u=9c4fff402bc3862bda963fca6b62e9c37df3b7c6&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "lewagon/setup",
       "html_url": "https://github.com/lewagon/setup",
       "description": "Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp",
@@ -3429,6 +3414,19 @@
       "owner_login": "HariSekhon",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2211051?s=88&u=7747a673d98078d50467ba6e4d4f3a2f17b6db17&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "cloudflare/vinext",
+      "html_url": "https://github.com/cloudflare/vinext",
+      "description": "Vite plugin that reimplements the Next.js API surface — deploy anywhere",
+      "stargazers_count": 8194,
+      "forks_count": 335,
+      "language": "TypeScript",
+      "topics": [],
+      "owner_login": "cloudflare",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]

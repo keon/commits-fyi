@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-06-12T09:14:53.170Z",
+  "generated_at": "2026-06-13T08:32:19.276Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1060256,
-    "org_followers": 323703,
+    "org_followers": 323704,
     "user_stars": 3392057,
-    "org_stars": 4507838
+    "org_stars": 4495603
   },
   "queries": [
     {
@@ -2485,20 +2485,6 @@
       "total_stars": 3698
     },
     {
-      "login": "newrelic",
-      "name": "New Relic",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31739?s=88&v=4",
-      "html_url": "https://github.com/newrelic",
-      "followers": 967,
-      "following": 0,
-      "public_repos": 494,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2008-10-29T23:59:01Z",
-      "total_stars": 9071
-    },
-    {
       "login": "openrewrite",
       "name": "OpenRewrite",
       "avatar_url": "https://avatars.githubusercontent.com/u/61478321?s=88&v=4",
@@ -2511,6 +2497,20 @@
       "company": null,
       "created_at": "2020-02-25T21:27:36Z",
       "total_stars": 4887
+    },
+    {
+      "login": "newrelic",
+      "name": "New Relic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31739?s=88&v=4",
+      "html_url": "https://github.com/newrelic",
+      "followers": 967,
+      "following": 0,
+      "public_repos": 494,
+      "location": "San Francisco, CA",
+      "bio": null,
+      "company": null,
+      "created_at": "2008-10-29T23:59:01Z",
+      "total_stars": 9071
     },
     {
       "login": "hasura",
@@ -2541,18 +2541,18 @@
       "total_stars": 27982
     },
     {
-      "login": "twilio",
-      "name": "Twilio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109142?s=88&v=4",
-      "html_url": "https://github.com/twilio",
-      "followers": 938,
+      "login": "plaid",
+      "name": "Plaid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
+      "html_url": "https://github.com/plaid",
+      "followers": 939,
       "following": 0,
-      "public_repos": 217,
-      "location": "San Francisco",
+      "public_repos": 47,
+      "location": "San Francisco, CA",
       "bio": null,
       "company": null,
-      "created_at": "2009-07-27T17:04:49Z",
-      "total_stars": 17783
+      "created_at": "2013-02-13T00:25:05Z",
+      "total_stars": 5548
     }
   ],
   "repos": [

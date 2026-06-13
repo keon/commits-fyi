@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-06-12T09:20:05.440Z",
+  "generated_at": "2026-06-13T08:33:22.715Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 582862,
+    "user_followers": 579699,
     "org_followers": 148273,
-    "user_stars": 1834047,
+    "user_stars": 1818849,
     "org_stars": 1295999
   },
   "queries": [
@@ -423,20 +423,6 @@
       "company": "@facebook",
       "created_at": "2012-01-13T07:41:40Z",
       "total_stars": 5485
-    },
-    {
-      "login": "nikivdev",
-      "name": "Nikita",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6391776?s=88&u=9c4fff402bc3862bda963fca6b62e9c37df3b7c6&v=4",
-      "html_url": "https://github.com/nikivdev",
-      "followers": 5020,
-      "following": 16908,
-      "public_repos": 190,
-      "location": "London",
-      "bio": null,
-      "company": "Prometheus",
-      "created_at": "2014-01-13T17:30:13Z",
-      "total_stars": 32405
     },
     {
       "login": "trueadm",
@@ -1431,6 +1417,20 @@
       "company": "@hashicorp",
       "created_at": "2011-05-07T07:47:13Z",
       "total_stars": 2760
+    },
+    {
+      "login": "weavejester",
+      "name": "James Reeves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8780?s=88&v=4",
+      "html_url": "https://github.com/weavejester",
+      "followers": 1857,
+      "following": 7,
+      "public_repos": 123,
+      "location": "London, UK",
+      "bio": "Freelance Clojure programmer",
+      "company": "Boolean Knot Ltd",
+      "created_at": "2008-04-28T23:33:51Z",
+      "total_stars": 17207
     }
   ],
   "orgs": [
@@ -2471,20 +2471,6 @@
       "total_stars": 1
     },
     {
-      "login": "SeaQL",
-      "name": "SeaQL",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73226408?s=88&v=4",
-      "html_url": "https://github.com/SeaQL",
-      "followers": 460,
-      "following": 0,
-      "public_repos": 18,
-      "location": "United Kingdom",
-      "bio": "Building data intensive applications in Rust",
-      "company": null,
-      "created_at": "2020-10-21T09:56:11Z",
-      "total_stars": 14568
-    },
-    {
       "login": "AVEVA-Copilot-Access",
       "name": "AVEVA Copilot Access ",
       "avatar_url": "https://avatars.githubusercontent.com/u/125553665?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2023-02-16T09:42:24Z",
       "total_stars": 0
+    },
+    {
+      "login": "SeaQL",
+      "name": "SeaQL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73226408?s=88&v=4",
+      "html_url": "https://github.com/SeaQL",
+      "followers": 460,
+      "following": 0,
+      "public_repos": 18,
+      "location": "United Kingdom",
+      "bio": "Building data intensive applications in Rust",
+      "company": null,
+      "created_at": "2020-10-21T09:56:11Z",
+      "total_stars": 14568
     },
     {
       "login": "nettitude",
@@ -3032,21 +3032,6 @@
       "fork": false
     },
     {
-      "full_name": "nikivdev/flow",
-      "html_url": "https://github.com/nikivdev/flow",
-      "description": "Everything you need to move your project faster",
-      "stargazers_count": 21134,
-      "forks_count": 832,
-      "language": "Rust",
-      "topics": [
-        "rust"
-      ],
-      "owner_login": "nikivdev",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6391776?s=88&u=9c4fff402bc3862bda963fca6b62e9c37df3b7c6&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "EthicalML/awesome-production-machine-learning",
       "html_url": "https://github.com/EthicalML/awesome-production-machine-learning",
       "description": "A curated list of awesome open source libraries to deploy, monitor, version and scale your machine learning",
@@ -3436,6 +3421,25 @@
       ],
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "SeaQL/sea-orm",
+      "html_url": "https://github.com/SeaQL/sea-orm",
+      "description": "🐚 A powerful relational ORM for Rust",
+      "stargazers_count": 9708,
+      "forks_count": 706,
+      "language": "Rust",
+      "topics": [
+        "mysql",
+        "rust",
+        "sqlite",
+        "orm",
+        "postgres"
+      ],
+      "owner_login": "SeaQL",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/73226408?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

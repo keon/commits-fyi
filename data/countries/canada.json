@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-06-12T09:22:23.562Z",
+  "generated_at": "2026-06-13T08:34:22.585Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 356849,
-    "org_followers": 62990,
+    "org_followers": 63315,
     "user_stars": 1048198,
-    "org_stars": 1022434
+    "org_stars": 1032918
   },
   "queries": [
     {
@@ -1841,6 +1841,20 @@
       "total_stars": 5712
     },
     {
+      "login": "tracel-ai",
+      "name": "Tracel AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111992358?s=88&v=4",
+      "html_url": "https://github.com/tracel-ai",
+      "followers": 619,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Canada",
+      "bio": "High-performance computing to bring intelligence everywhere",
+      "company": null,
+      "created_at": "2022-08-24T13:54:31Z",
+      "total_stars": 18596
+    },
+    {
       "login": "lighthouse-labs",
       "name": "Lighthouse Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/5753105?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2011-10-07T11:59:55Z",
       "total_stars": 0
-    },
-    {
-      "login": "introlab",
-      "name": "IntRoLab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1263458?s=88&v=4",
-      "html_url": "https://github.com/introlab",
-      "followers": 294,
-      "following": 0,
-      "public_repos": 52,
-      "location": "Sherbrooke, Québec, Canada",
-      "bio": "IntRoLab - Intelligent / Interactive / Integrated / Interdisciplinary Robot Lab  @ Université de Sherbrooke",
-      "company": null,
-      "created_at": "2011-12-14T16:32:42Z",
-      "total_stars": 8112
     }
   ],
   "repos": [
@@ -3092,6 +3092,25 @@
       "fork": false
     },
     {
+      "full_name": "tracel-ai/burn",
+      "html_url": "https://github.com/tracel-ai/burn",
+      "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+      "stargazers_count": 15412,
+      "forks_count": 939,
+      "language": "Rust",
+      "topics": [
+        "autodiff",
+        "deep-learning",
+        "machine-learning",
+        "rust",
+        "scientific-computing"
+      ],
+      "owner_login": "tracel-ai",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/111992358?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "benfred/py-spy",
       "html_url": "https://github.com/benfred/py-spy",
       "description": "Sampling profiler for Python programs",
@@ -3439,22 +3458,6 @@
       "owner_login": "pycaret",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/58118658?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "ange-yaghi/engine-sim",
-      "html_url": "https://github.com/ange-yaghi/engine-sim",
-      "description": "Combustion engine simulator that generates realistic audio.",
-      "stargazers_count": 9413,
-      "forks_count": 891,
-      "language": "C++",
-      "topics": [
-        "engine",
-        "simulation"
-      ],
-      "owner_login": "ange-yaghi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20446997?s=88&u=35078d45b863771c872b3e488464a5c8343037ba&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]
