@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-06-13T08:34:17.460Z",
+  "generated_at": "2026-06-14T08:53:09.074Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 580659,
-    "org_followers": 149386,
+    "org_followers": 149392,
     "user_stars": 1172003,
-    "org_stars": 1034278
+    "org_stars": 1034704
   },
   "queries": [
     {
@@ -2065,20 +2065,6 @@
       "total_stars": 807
     },
     {
-      "login": "CSEdgeOfficial",
-      "name": "CSEdge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156413317?s=88&v=4",
-      "html_url": "https://github.com/CSEdgeOfficial",
-      "followers": 501,
-      "following": 0,
-      "public_repos": 15,
-      "location": "India",
-      "bio": null,
-      "company": null,
-      "created_at": "2024-01-12T08:22:09Z",
-      "total_stars": 139
-    },
-    {
       "login": "swiggy-private",
       "name": "Swiggy",
       "avatar_url": "https://avatars.githubusercontent.com/u/54395268?s=88&v=4",
@@ -2091,6 +2077,20 @@
       "company": null,
       "created_at": "2019-08-22T08:36:10Z",
       "total_stars": 0
+    },
+    {
+      "login": "CSEdgeOfficial",
+      "name": "CSEdge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156413317?s=88&v=4",
+      "html_url": "https://github.com/CSEdgeOfficial",
+      "followers": 501,
+      "following": 0,
+      "public_repos": 15,
+      "location": "India",
+      "bio": null,
+      "company": null,
+      "created_at": "2024-01-12T08:22:09Z",
+      "total_stars": 139
     },
     {
       "login": "datameet",
@@ -2443,6 +2443,20 @@
       "total_stars": 24
     },
     {
+      "login": "Fincept-Corporation",
+      "name": "Fincept Corporation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
+      "html_url": "https://github.com/Fincept-Corporation",
+      "followers": 314,
+      "following": 0,
+      "public_repos": 3,
+      "location": "India",
+      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
+      "company": null,
+      "created_at": "2024-08-19T03:09:02Z",
+      "total_stars": 26630
+    },
+    {
       "login": "upsidedownlabs",
       "name": "Upside Down Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/73641028?s=88&v=4",
@@ -2455,20 +2469,6 @@
       "company": null,
       "created_at": "2020-10-29T09:52:06Z",
       "total_stars": 923
-    },
-    {
-      "login": "Fincept-Corporation",
-      "name": "Fincept Corporation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
-      "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 308,
-      "following": 0,
-      "public_repos": 3,
-      "location": "India",
-      "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
-      "company": null,
-      "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 26204
     },
     {
       "login": "InfoSecWarrior",
@@ -2861,8 +2861,8 @@
       "full_name": "Fincept-Corporation/FinceptTerminal",
       "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 26182,
-      "forks_count": 3669,
+      "stargazers_count": 26600,
+      "forks_count": 3715,
       "language": "C++",
       "topics": [
         "bloomberg-terminal",

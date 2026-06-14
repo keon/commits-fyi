@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-06-13T08:34:19.697Z",
+  "generated_at": "2026-06-14T08:53:11.705Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 142963,
+    "user_followers": 142982,
     "org_followers": 28762,
-    "user_stars": 682087,
+    "user_stars": 682348,
     "org_stars": 310216
   },
   "queries": [
@@ -1405,6 +1405,20 @@
       "total_stars": 32
     },
     {
+      "login": "revfactory",
+      "name": "Minho Hwang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
+      "html_url": "https://github.com/revfactory",
+      "followers": 617,
+      "following": 8,
+      "public_repos": 186,
+      "location": "South Korea",
+      "bio": "Improving the world better",
+      "company": "@kakao",
+      "created_at": "2012-11-26T06:41:18Z",
+      "total_stars": 9472
+    },
+    {
       "login": "tail-s",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/98503573?s=88&u=c432ade83bc31446bc9112b1905608c49b21d6ff&v=4",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2022-01-27T02:40:24Z",
       "total_stars": 2
-    },
-    {
-      "login": "revfactory",
-      "name": "Minho Hwang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
-      "html_url": "https://github.com/revfactory",
-      "followers": 598,
-      "following": 8,
-      "public_repos": 183,
-      "location": "South Korea",
-      "bio": "Improving the world better",
-      "company": "@kakao",
-      "created_at": "2012-11-26T06:41:18Z",
-      "total_stars": 9211
     }
   ],
   "orgs": [
@@ -3024,6 +3024,24 @@
       "fork": false
     },
     {
+      "full_name": "revfactory/harness",
+      "html_url": "https://github.com/revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "stargazers_count": 6945,
+      "forks_count": 947,
+      "language": "HTML",
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "owner_login": "revfactory",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "sinclairzx81/typebox",
       "html_url": "https://github.com/sinclairzx81/typebox",
       "description": "JSON Schema Type Builder with Static Type Resolution for TypeScript",
@@ -3036,24 +3054,6 @@
       ],
       "owner_login": "sinclairzx81",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3048342?s=88&u=2e987237de56d3f01155ecb0aced637f1dab04dd&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "revfactory/harness",
-      "html_url": "https://github.com/revfactory/harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "stargazers_count": 6706,
-      "forks_count": 917,
-      "language": "HTML",
-      "topics": [
-        "claude-code",
-        "claude-code-plugin",
-        "harness",
-        "harness-engineering"
-      ],
-      "owner_login": "revfactory",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2889542?s=88&u=33b051f028dbe6fd0cd62f25fbb28e8de475cfe3&v=4",
       "owner_type": "User",
       "fork": false
     },
