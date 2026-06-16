@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-06-15T11:24:26.603Z",
+  "generated_at": "2026-06-16T10:21:07.208Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 544761,
-    "org_followers": 135441,
+    "org_followers": 135442,
     "user_stars": 1458936,
-    "org_stars": 1590694
+    "org_stars": 1583726
   },
   "queries": [
     {
@@ -2149,20 +2149,6 @@
       "total_stars": 384
     },
     {
-      "login": "owkin",
-      "name": "Owkin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28560459?s=88&v=4",
-      "html_url": "https://github.com/owkin",
-      "followers": 307,
-      "following": 0,
-      "public_repos": 41,
-      "location": "New York",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-05-09T09:18:25Z",
-      "total_stars": 949
-    },
-    {
       "login": "wix-private",
       "name": "Wix Private",
       "avatar_url": "https://avatars.githubusercontent.com/u/16781854?s=88&v=4",
@@ -2175,6 +2161,20 @@
       "company": null,
       "created_at": "2016-01-19T16:56:41Z",
       "total_stars": 0
+    },
+    {
+      "login": "owkin",
+      "name": "Owkin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28560459?s=88&v=4",
+      "html_url": "https://github.com/owkin",
+      "followers": 307,
+      "following": 0,
+      "public_repos": 41,
+      "location": "New York",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-05-09T09:18:25Z",
+      "total_stars": 949
     },
     {
       "login": "kadena-io",
@@ -2541,18 +2541,18 @@
       "total_stars": 1242
     },
     {
-      "login": "infinum",
-      "name": "Infinum",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97652?s=88&v=4",
-      "html_url": "https://github.com/infinum",
-      "followers": 193,
+      "login": "CityOfNewYork",
+      "name": "City of New York",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1107978?s=88&v=4",
+      "html_url": "https://github.com/CityOfNewYork",
+      "followers": 194,
       "following": 0,
-      "public_repos": 184,
-      "location": "New York, NY",
-      "bio": "20 years of collective knowledge reflected in clean code and open source. We use emerging technologies to solve problems and shape the behaviors of tomorrow.",
+      "public_repos": 98,
+      "location": "New York City",
+      "bio": null,
       "company": null,
-      "created_at": "2009-06-21T23:57:40Z",
-      "total_stars": 7761
+      "created_at": "2011-10-06T16:15:45Z",
+      "total_stars": 793
     }
   ],
   "repos": [

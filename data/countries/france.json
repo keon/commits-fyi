@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-06-15T11:30:35.692Z",
+  "generated_at": "2026-06-16T10:23:01.492Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 303257,
-    "org_followers": 121030,
+    "org_followers": 121014,
     "user_stars": 1177272,
-    "org_stars": 1426665
+    "org_stars": 1426653
   },
   "queries": [
     {
@@ -1757,20 +1757,6 @@
       "total_stars": 1979
     },
     {
-      "login": "LedgityLabs",
-      "name": "Ledgity / Yield",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78215360?s=88&v=4",
-      "html_url": "https://github.com/LedgityLabs",
-      "followers": 704,
-      "following": 0,
-      "public_repos": 4,
-      "location": "France",
-      "bio": "This organization holds all the Ledgity team's contributions to the OSS community.",
-      "company": null,
-      "created_at": "2021-01-29T13:22:37Z",
-      "total_stars": 664
-    },
-    {
       "login": "massalabs",
       "name": "Massa",
       "avatar_url": "https://avatars.githubusercontent.com/u/92152619?s=88&v=4",
@@ -1783,6 +1769,20 @@
       "company": null,
       "created_at": "2021-10-08T08:54:31Z",
       "total_stars": 5857
+    },
+    {
+      "login": "LedgityLabs",
+      "name": "Ledgity / Yield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78215360?s=88&v=4",
+      "html_url": "https://github.com/LedgityLabs",
+      "followers": 704,
+      "following": 0,
+      "public_repos": 4,
+      "location": "France",
+      "bio": "This organization holds all the Ledgity team's contributions to the OSS community.",
+      "company": null,
+      "created_at": "2021-01-29T13:22:37Z",
+      "total_stars": 664
     },
     {
       "login": "quarkslab",
@@ -2415,20 +2415,6 @@
       "total_stars": 1032
     },
     {
-      "login": "ARMSX2",
-      "name": "ARMSX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/225954912?s=88&v=4",
-      "html_url": "https://github.com/ARMSX2",
-      "followers": 281,
-      "following": 0,
-      "public_repos": 6,
-      "location": "France",
-      "bio": null,
-      "company": null,
-      "created_at": "2025-08-11T19:24:51Z",
-      "total_stars": 60
-    },
-    {
       "login": "ThePorgs",
       "name": "Exegol",
       "avatar_url": "https://avatars.githubusercontent.com/u/119009827?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2020-10-15T09:01:41Z",
       "total_stars": 2272
+    },
+    {
+      "login": "MyProfile",
+      "name": "MyProfile Project",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1371236?s=88&v=4",
+      "html_url": "https://github.com/MyProfile",
+      "followers": 265,
+      "following": 0,
+      "public_repos": 4,
+      "location": "France",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-01-23T15:46:06Z",
+      "total_stars": 48
     }
   ],
   "repos": [
