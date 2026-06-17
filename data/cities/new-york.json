@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-06-16T10:21:07.208Z",
+  "generated_at": "2026-06-17T10:04:19.805Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -3168,25 +3168,6 @@
       "fork": false
     },
     {
-      "full_name": "yhirose/cpp-httplib",
-      "html_url": "https://github.com/yhirose/cpp-httplib",
-      "description": "A C++ header-only HTTP/HTTPS server and client library",
-      "stargazers_count": 16588,
-      "forks_count": 2698,
-      "language": "C++",
-      "topics": [
-        "cpp",
-        "cpp11",
-        "http",
-        "https",
-        "header-only"
-      ],
-      "owner_login": "yhirose",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/357397?s=88&u=c537858a711fa4a23ac0d59903a97c6bfdc6b67c&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "ddbourgin/numpy-ml",
       "html_url": "https://github.com/ddbourgin/numpy-ml",
       "description": "Machine learning, in numpy",
@@ -3406,6 +3387,19 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "acdlite/react-fiber-architecture",
+      "html_url": "https://github.com/acdlite/react-fiber-architecture",
+      "description": "A description of React's new core algorithm, React Fiber",
+      "stargazers_count": 12957,
+      "forks_count": 750,
+      "language": null,
+      "topics": [],
+      "owner_login": "acdlite",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3624098?s=88&u=94d8ba563cef4d8fd24c4b666272a71af46a2fa1&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]

@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-06-16T10:22:01.349Z",
+  "generated_at": "2026-06-17T10:05:17.860Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 212909,
+    "user_followers": 212467,
     "org_followers": 21598,
-    "user_stars": 945137,
+    "user_stars": 945493,
     "org_stars": 307880
   },
   "queries": [
@@ -789,20 +789,6 @@
       "total_stars": 2087
     },
     {
-      "login": "glassesfactory",
-      "name": "YAMAGUCHI EIKICHI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/246054?s=88&v=4",
-      "html_url": "https://github.com/glassesfactory",
-      "followers": 1268,
-      "following": 344,
-      "public_repos": 38,
-      "location": "tokyo,setagaya",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-04-17T11:37:13Z",
-      "total_stars": 383
-    },
-    {
       "login": "mcgoon",
       "name": "van",
       "avatar_url": "https://avatars.githubusercontent.com/u/124514952?s=88&u=a453079a8c0efb217294468c1c9a488db8532ac4&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2008-06-11T07:46:37Z",
       "total_stars": 5139
+    },
+    {
+      "login": "agektmr",
+      "name": "Eiji Kitamura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218144?s=88&v=4",
+      "html_url": "https://github.com/agektmr",
+      "followers": 826,
+      "following": 125,
+      "public_repos": 33,
+      "location": "Tokyo, Japan",
+      "bio": null,
+      "company": "Google",
+      "created_at": "2010-03-08T06:11:10Z",
+      "total_stars": 739
     }
   ],
   "orgs": [
@@ -1729,20 +1729,6 @@
       "total_stars": 5056
     },
     {
-      "login": "shinonome-inc",
-      "name": "Shinonome, inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23450500?s=88&v=4",
-      "html_url": "https://github.com/shinonome-inc",
-      "followers": 159,
-      "following": 0,
-      "public_repos": 271,
-      "location": "Tokyo, Japan",
-      "bio": "Providing a educational plugin for the university.",
-      "company": null,
-      "created_at": "2016-11-14T10:06:56Z",
-      "total_stars": 43
-    },
-    {
       "login": "kufu",
       "name": "SmartHR, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/6356728?s=88&v=4",
@@ -1755,6 +1741,20 @@
       "company": null,
       "created_at": "2014-01-09T06:50:34Z",
       "total_stars": 2023
+    },
+    {
+      "login": "shinonome-inc",
+      "name": "Shinonome, inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23450500?s=88&v=4",
+      "html_url": "https://github.com/shinonome-inc",
+      "followers": 159,
+      "following": 0,
+      "public_repos": 271,
+      "location": "Tokyo, Japan",
+      "bio": "Providing a educational plugin for the university.",
+      "company": null,
+      "created_at": "2016-11-14T10:06:56Z",
+      "total_stars": 43
     },
     {
       "login": "bc-game-project",
