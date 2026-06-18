@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-06-17T10:05:21.653Z",
+  "generated_at": "2026-06-18T09:47:47.888Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 345549,
-    "org_followers": 86925,
-    "user_stars": 1259479,
-    "org_stars": 1022649
+    "user_followers": 346195,
+    "org_followers": 87060,
+    "user_stars": 1265454,
+    "org_stars": 1032507
   },
   "queries": [
     {
@@ -747,6 +747,20 @@
       "total_stars": 34859
     },
     {
+      "login": "ayaka14732",
+      "name": "Ayaka Mikazuki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68557794?s=88&u=86258ad13ba927f4ea71a9bd5c50ae8398a0c24a&v=4",
+      "html_url": "https://github.com/ayaka14732",
+      "followers": 1355,
+      "following": 272,
+      "public_repos": 72,
+      "location": "London",
+      "bio": "I am a passionate developer who has made significant contributions to the open-source community.",
+      "company": null,
+      "created_at": "2020-07-20T16:30:14Z",
+      "total_stars": 6678
+    },
+    {
       "login": "rob0pup",
       "name": "R²",
       "avatar_url": "https://avatars.githubusercontent.com/u/38285616?s=88&u=29bf59de76a31b4d8dc60ff973a97ba0746344ae&v=4",
@@ -1417,20 +1431,6 @@
       "company": "Bytedance (Tiktok)",
       "created_at": "2016-02-12T16:43:36Z",
       "total_stars": 5061
-    },
-    {
-      "login": "momika233",
-      "name": "momika233",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56291820?s=88&u=0e0aa33057f10e55f6ec399b11e4998522411444&v=4",
-      "html_url": "https://github.com/momika233",
-      "followers": 709,
-      "following": 1,
-      "public_repos": 37,
-      "location": "Singapore",
-      "bio": "<script>alert('momika233')</script>",
-      "company": null,
-      "created_at": "2019-10-08T06:41:51Z",
-      "total_stars": 703
     }
   ],
   "orgs": [
@@ -2205,6 +2205,20 @@
       "total_stars": 18129
     },
     {
+      "login": "xorbitsai",
+      "name": "Xorbits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109655068?s=88&v=4",
+      "html_url": "https://github.com/xorbitsai",
+      "followers": 304,
+      "following": 0,
+      "public_repos": 17,
+      "location": "Singapore",
+      "bio": "Xorbits builds production-ready infrastructure for Model Inference and AI Agents.",
+      "company": null,
+      "created_at": "2022-07-20T07:54:18Z",
+      "total_stars": 11050
+    },
+    {
       "login": "GovTechSG",
       "name": "Government Technology Agency of Singapore (GovTech Singapore)",
       "avatar_url": "https://avatars.githubusercontent.com/u/12439141?s=88&v=4",
@@ -2527,32 +2541,18 @@
       "total_stars": 272
     },
     {
-      "login": "pgsty",
-      "name": "Pigsty",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157279331?s=88&v=4",
-      "html_url": "https://github.com/pgsty",
-      "followers": 174,
+      "login": "beclab",
+      "name": "BEC Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166520503?s=88&v=4",
+      "html_url": "https://github.com/beclab",
+      "followers": 178,
       "following": 0,
-      "public_repos": 21,
-      "location": "Singapore",
-      "bio": "Battery-Included PostgreSQL Distribution as a Free & OSS Local-First RDS",
-      "company": null,
-      "created_at": "2024-01-21T09:39:29Z",
-      "total_stars": 5813
-    },
-    {
-      "login": "torusresearch",
-      "name": "Torus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/44049579?s=88&v=4",
-      "html_url": "https://github.com/torusresearch",
-      "followers": 173,
-      "following": 0,
-      "public_repos": 15,
+      "public_repos": 51,
       "location": "Singapore",
       "bio": null,
       "company": null,
-      "created_at": "2018-10-11T06:11:57Z",
-      "total_stars": 305
+      "created_at": "2024-04-09T13:25:26Z",
+      "total_stars": 4926
     }
   ],
   "repos": [
@@ -3416,15 +3416,21 @@
       "fork": false
     },
     {
-      "full_name": "bytedance/monolith",
-      "html_url": "https://github.com/bytedance/monolith",
-      "description": "A Lightweight Recommendation System",
-      "stargazers_count": 9309,
-      "forks_count": 717,
+      "full_name": "xorbitsai/inference",
+      "html_url": "https://github.com/xorbitsai/inference",
+      "description": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem",
+      "stargazers_count": 9362,
+      "forks_count": 836,
       "language": "Python",
-      "topics": [],
-      "owner_login": "bytedance",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
+      "topics": [
+        "ggml",
+        "pytorch",
+        "chatglm",
+        "deployment",
+        "flan-t5"
+      ],
+      "owner_login": "xorbitsai",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/109655068?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
