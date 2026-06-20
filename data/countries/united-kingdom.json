@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-06-19T09:59:27.565Z",
+  "generated_at": "2026-06-20T08:29:36.397Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 583003,
-    "org_followers": 148869,
+    "org_followers": 152863,
     "user_stars": 1813875,
-    "org_stars": 1298812
+    "org_stars": 1481338
   },
   "queries": [
     {
@@ -621,20 +621,6 @@
       "total_stars": 2333
     },
     {
-      "login": "matryer",
-      "name": "Mat Ryer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101659?s=88&u=03382a41e9f7a37ccf8a4f8ce3ca62f524ff25ed&v=4",
-      "html_url": "https://github.com/matryer",
-      "followers": 4127,
-      "following": 186,
-      "public_repos": 53,
-      "location": "London",
-      "bio": "Running AI at @Grafana Gopher, developer, speaker, podcaster, author.",
-      "company": "@grafana  ",
-      "created_at": "2009-07-04T14:49:10Z",
-      "total_stars": 31162
-    },
-    {
       "login": "philsturgeon",
       "name": "Phil Sturgeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/67381?s=88&u=075d857f338d867f1137e33d3d52ffd0284b5499&v=4",
@@ -647,6 +633,20 @@
       "company": "@protect-earth",
       "created_at": "2009-03-26T10:58:12Z",
       "total_stars": 4608
+    },
+    {
+      "login": "matryer",
+      "name": "Mat Ryer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101659?s=88&u=03382a41e9f7a37ccf8a4f8ce3ca62f524ff25ed&v=4",
+      "html_url": "https://github.com/matryer",
+      "followers": 4127,
+      "following": 186,
+      "public_repos": 53,
+      "location": "London",
+      "bio": "Running AI at @Grafana Gopher, developer, speaker, podcaster, author.",
+      "company": "@grafana  ",
+      "created_at": "2009-07-04T14:49:10Z",
+      "total_stars": 31162
     },
     {
       "login": "latentflip",
@@ -1503,6 +1503,20 @@
       "company": null,
       "created_at": "2012-05-23T09:51:35Z",
       "total_stars": 83574
+    },
+    {
+      "login": "Significant-Gravitas",
+      "name": "AutoGPT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130738209?s=88&v=4",
+      "html_url": "https://github.com/Significant-Gravitas",
+      "followers": 4435,
+      "following": 0,
+      "public_repos": 24,
+      "location": "United Kingdom",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-04-14T07:01:09Z",
+      "total_stars": 190559
     },
     {
       "login": "lewagon",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2015-07-21T15:04:09Z",
       "total_stars": 715
-    },
-    {
-      "login": "nettitude",
-      "name": "LRQA Cyber",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11998401?s=88&v=4",
-      "html_url": "https://github.com/nettitude",
-      "followers": 441,
-      "following": 0,
-      "public_repos": 46,
-      "location": "United Kingdom",
-      "bio": "Making the world more secure - one line of code at a time!",
-      "company": null,
-      "created_at": "2015-04-17T18:24:27Z",
-      "total_stars": 8033
     }
   ],
   "repos": [
@@ -2573,6 +2573,25 @@
       "owner_login": "nilbuild",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/4921183?s=88&u=7a39fcc139f569b40407b1d31b03526f3e141c36&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "html_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on w",
+      "stargazers_count": 185044,
+      "forks_count": 46126,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "openai",
+        "python",
+        "artificial-intelligence",
+        "autonomous-agents"
+      ],
+      "owner_login": "Significant-Gravitas",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/130738209?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -3424,22 +3443,6 @@
       ],
       "owner_login": "satellite-image-deep-learning",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/119039922?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "cloudflare/moltworker",
-      "html_url": "https://github.com/cloudflare/moltworker",
-      "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
-      "stargazers_count": 9903,
-      "forks_count": 1761,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "cloudflare-workers"
-      ],
-      "owner_login": "cloudflare",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

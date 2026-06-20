@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-06-19T10:01:45.410Z",
+  "generated_at": "2026-06-20T08:30:36.713Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 357654,
-    "org_followers": 63652,
+    "org_followers": 63651,
     "user_stars": 1050116,
-    "org_stars": 1034690
+    "org_stars": 1034740
   },
   "queries": [
     {
@@ -1845,14 +1845,14 @@
       "name": "Tracel AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/111992358?s=88&v=4",
       "html_url": "https://github.com/tracel-ai",
-      "followers": 623,
+      "followers": 622,
       "following": 0,
       "public_repos": 21,
       "location": "Canada",
       "bio": "High-performance computing to bring intelligence everywhere",
       "company": null,
       "created_at": "2022-08-24T13:54:31Z",
-      "total_stars": 18621
+      "total_stars": 18671
     },
     {
       "login": "lighthouse-labs",
@@ -2023,20 +2023,6 @@
       "total_stars": 16493
     },
     {
-      "login": "DeepGraphLearning",
-      "name": "MilaGraph",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38018154?s=88&v=4",
-      "html_url": "https://github.com/DeepGraphLearning",
-      "followers": 442,
-      "following": 0,
-      "public_repos": 47,
-      "location": "Montreal",
-      "bio": "Research group led by Prof. Jian Tang at Mila-Quebec AI Institute (https://mila.quebec/) focusing on graph representation learning and graph neural networks.",
-      "company": null,
-      "created_at": "2018-04-02T20:59:31Z",
-      "total_stars": 11861
-    },
-    {
       "login": "TIGER-AI-Lab",
       "name": "TIGER Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/144196744?s=88&v=4",
@@ -2049,6 +2035,20 @@
       "company": null,
       "created_at": "2023-09-06T03:20:58Z",
       "total_stars": 9567
+    },
+    {
+      "login": "DeepGraphLearning",
+      "name": "MilaGraph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38018154?s=88&v=4",
+      "html_url": "https://github.com/DeepGraphLearning",
+      "followers": 442,
+      "following": 0,
+      "public_repos": 47,
+      "location": "Montreal",
+      "bio": "Research group led by Prof. Jian Tang at Mila-Quebec AI Institute (https://mila.quebec/) focusing on graph representation learning and graph neural networks.",
+      "company": null,
+      "created_at": "2018-04-02T20:59:31Z",
+      "total_stars": 11861
     },
     {
       "login": "ethers-io",
@@ -2079,20 +2079,6 @@
       "total_stars": 1123
     },
     {
-      "login": "citizenlab",
-      "name": "Citizen Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5658700?s=88&v=4",
-      "html_url": "https://github.com/citizenlab",
-      "followers": 433,
-      "following": 0,
-      "public_repos": 29,
-      "location": "Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-10-10T19:12:51Z",
-      "total_stars": 2123
-    },
-    {
       "login": "Picovoice",
       "name": "Picovoice",
       "avatar_url": "https://avatars.githubusercontent.com/u/37164515?s=88&v=4",
@@ -2105,6 +2091,20 @@
       "company": null,
       "created_at": "2018-03-08T01:53:42Z",
       "total_stars": 10000
+    },
+    {
+      "login": "citizenlab",
+      "name": "Citizen Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5658700?s=88&v=4",
+      "html_url": "https://github.com/citizenlab",
+      "followers": 433,
+      "following": 0,
+      "public_repos": 29,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2013-10-10T19:12:51Z",
+      "total_stars": 2123
     },
     {
       "login": "grammarly",
@@ -2247,20 +2247,6 @@
       "total_stars": 844
     },
     {
-      "login": "WildKernels",
-      "name": "Wild Kernels",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
-      "html_url": "https://github.com/WildKernels",
-      "followers": 366,
-      "following": 0,
-      "public_repos": 18,
-      "location": "Canada",
-      "bio": "Custom kernels for android and more!",
-      "company": null,
-      "created_at": "2025-01-31T01:32:51Z",
-      "total_stars": 2804
-    },
-    {
       "login": "MagicStack",
       "name": "magicstack",
       "avatar_url": "https://avatars.githubusercontent.com/u/14324950?s=88&v=4",
@@ -2273,6 +2259,20 @@
       "company": null,
       "created_at": "2015-09-17T05:01:26Z",
       "total_stars": 24462
+    },
+    {
+      "login": "WildKernels",
+      "name": "Wild Kernels",
+      "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
+      "html_url": "https://github.com/WildKernels",
+      "followers": 366,
+      "following": 0,
+      "public_repos": 18,
+      "location": "Canada",
+      "bio": "Custom kernels for android and more!",
+      "company": null,
+      "created_at": "2025-01-31T01:32:51Z",
+      "total_stars": 2804
     },
     {
       "login": "FaceOnLive",
@@ -3095,8 +3095,8 @@
       "full_name": "tracel-ai/burn",
       "html_url": "https://github.com/tracel-ai/burn",
       "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
-      "stargazers_count": 15425,
-      "forks_count": 945,
+      "stargazers_count": 15455,
+      "forks_count": 946,
       "language": "Rust",
       "topics": [
         "autodiff",

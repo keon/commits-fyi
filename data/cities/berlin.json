@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-06-19T09:56:23.169Z",
+  "generated_at": "2026-06-20T08:28:39.034Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 294662,
     "org_followers": 31767,
-    "user_stars": 951171,
+    "user_stars": 954563,
     "org_stars": 736250
   },
   "queries": [
@@ -1195,20 +1195,6 @@
       "total_stars": 130
     },
     {
-      "login": "omz",
-      "name": "Ole Zorn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82469?s=88&u=374ad23a91a7259075f4d0bdde025cd1dc7c01b2&v=4",
-      "html_url": "https://github.com/omz",
-      "followers": 1151,
-      "following": 8,
-      "public_repos": 6,
-      "location": "Berlin, Germany",
-      "bio": null,
-      "company": "omz:software",
-      "created_at": "2009-05-08T16:14:34Z",
-      "total_stars": 6860
-    },
-    {
       "login": "jamesmunns",
       "name": "James Munns",
       "avatar_url": "https://avatars.githubusercontent.com/u/2097964?s=88&u=021cc61cd472a67603e91e4b4a3dff492a3a611c&v=4",
@@ -1221,6 +1207,20 @@
       "company": "@oxidecomputer",
       "created_at": "2012-08-05T10:39:01Z",
       "total_stars": 4188
+    },
+    {
+      "login": "omz",
+      "name": "Ole Zorn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82469?s=88&u=374ad23a91a7259075f4d0bdde025cd1dc7c01b2&v=4",
+      "html_url": "https://github.com/omz",
+      "followers": 1151,
+      "following": 8,
+      "public_repos": 6,
+      "location": "Berlin, Germany",
+      "bio": null,
+      "company": "omz:software",
+      "created_at": "2009-05-08T16:14:34Z",
+      "total_stars": 6860
     },
     {
       "login": "naderman",
@@ -1419,18 +1419,18 @@
       "total_stars": 3097
     },
     {
-      "login": "travisbrown",
-      "name": "Travis Brown",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316049?s=88&v=4",
-      "html_url": "https://github.com/travisbrown",
+      "login": "pudo",
+      "name": "Friedrich Lindenberg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41628?s=88&v=4",
+      "html_url": "https://github.com/pudo",
       "followers": 988,
-      "following": 36,
-      "public_repos": 111,
+      "following": 204,
+      "public_repos": 45,
       "location": "Berlin",
-      "bio": "Software developer living in Berlin.",
-      "company": null,
-      "created_at": "2010-06-28T02:09:48Z",
-      "total_stars": 2235
+      "bio": "Data and software engineer, investigative support. ",
+      "company": "@opensanctions",
+      "created_at": "2008-12-19T17:04:00Z",
+      "total_stars": 5627
     }
   ],
   "orgs": [

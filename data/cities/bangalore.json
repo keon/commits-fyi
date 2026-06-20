@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-06-19T09:58:49.453Z",
+  "generated_at": "2026-06-20T08:29:33.250Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 178535,
+    "user_followers": 178658,
     "org_followers": 23147,
-    "user_stars": 438800,
+    "user_stars": 445665,
     "org_stars": 348972
   },
   "queries": [
@@ -1083,6 +1083,20 @@
       "total_stars": 59
     },
     {
+      "login": "Kuberwastaken",
+      "name": "Kuber Mehta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97027230?s=88&u=42eb2a2f12f3b06730b27573e06271cbd23737e8&v=4",
+      "html_url": "https://github.com/Kuberwastaken",
+      "followers": 719,
+      "following": 38,
+      "public_repos": 90,
+      "location": "Bengaluru, India",
+      "bio": "I build (& break) stuff",
+      "company": "PolyThink",
+      "created_at": "2022-01-03T10:56:52Z",
+      "total_stars": 11239
+    },
+    {
       "login": "s-yadav",
       "name": "Sudhanshu Yadav",
       "avatar_url": "https://avatars.githubusercontent.com/u/3096766?s=88&u=c310e2658c633ddf7a24ba5620d75559b64b7e20&v=4",
@@ -1403,20 +1417,6 @@
       "company": "Craftsman Systems",
       "created_at": "2009-10-07T12:08:28Z",
       "total_stars": 84
-    },
-    {
-      "login": "ragunathjawahar",
-      "name": "Ragunath Jawahar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1141970?s=88&u=c6207c2a3073e2c61ce0cb0ea2c854b02a315fa3&v=4",
-      "html_url": "https://github.com/ragunathjawahar",
-      "followers": 596,
-      "following": 56,
-      "public_repos": 34,
-      "location": "Bengaluru, India",
-      "bio": "Building infrastructure for AI-native codebases.",
-      "company": "@LegacyCodeHQ",
-      "created_at": "2011-10-20T22:46:46Z",
-      "total_stars": 4374
     },
     {
       "login": "sayanchowdhury",
@@ -2779,6 +2779,25 @@
       "fork": false
     },
     {
+      "full_name": "Kuberwastaken/claurst",
+      "html_url": "https://github.com/Kuberwastaken/claurst",
+      "description": "Agentic Coding for Builders who Ship",
+      "stargazers_count": 9831,
+      "forks_count": 7780,
+      "language": "Rust",
+      "topics": [
+        "claude",
+        "claude-code",
+        "cli",
+        "codex",
+        "gemini"
+      ],
+      "owner_login": "Kuberwastaken",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/97027230?s=88&u=42eb2a2f12f3b06730b27573e06271cbd23737e8&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "pastelsky/bundlephobia",
       "html_url": "https://github.com/pastelsky/bundlephobia",
       "description": "🏋️ Find out the cost of adding a new frontend dependency to your project",
@@ -3422,25 +3441,6 @@
       "topics": [],
       "owner_login": "krishnaik06",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20041231?s=88&u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG",
-      "html_url": "https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG",
-      "description": "Free Images for EVE-NG and GNS3 containing routers, switches,Firewalls and other appliances, including Cisco, Fortigate, Palo Alto, Sophos a",
-      "stargazers_count": 2558,
-      "forks_count": 545,
-      "language": "HTML",
-      "topics": [
-        "network-simulator",
-        "cisco-images",
-        "eveng",
-        "evengimages",
-        "checkpoint-firewall"
-      ],
-      "owner_login": "hegdepavankumar",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/85627085?s=88&u=743d38d26fb2101cd2b3b92322056f848d4213cb&v=4",
       "owner_type": "User",
       "fork": false
     }

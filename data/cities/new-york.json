@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-06-19T09:54:18.408Z",
+  "generated_at": "2026-06-20T08:28:31.714Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 550847,
-    "org_followers": 135702,
+    "org_followers": 135703,
     "user_stars": 1658384,
     "org_stars": 1585135
   },
@@ -2457,20 +2457,6 @@
       "total_stars": 1903
     },
     {
-      "login": "MaterializeInc",
-      "name": "Materialize, Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47674186?s=88&v=4",
-      "html_url": "https://github.com/MaterializeInc",
-      "followers": 205,
-      "following": 0,
-      "public_repos": 69,
-      "location": "New York, NY",
-      "bio": "Materialize helps engineering teams use SQL to transform siloed operational data into a live semantic representation of their business to power apps and agents.",
-      "company": null,
-      "created_at": "2019-02-15T18:59:04Z",
-      "total_stars": 6897
-    },
-    {
       "login": "cvlab-columbia",
       "name": "Computer Vision Lab at Columbia University",
       "avatar_url": "https://avatars.githubusercontent.com/u/55261404?s=88&v=4",
@@ -2483,6 +2469,20 @@
       "company": null,
       "created_at": "2019-09-12T22:39:21Z",
       "total_stars": 5870
+    },
+    {
+      "login": "MaterializeInc",
+      "name": "Materialize, Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47674186?s=88&v=4",
+      "html_url": "https://github.com/MaterializeInc",
+      "followers": 205,
+      "following": 0,
+      "public_repos": 69,
+      "location": "New York, NY",
+      "bio": "Materialize helps engineering teams use SQL to transform siloed operational data into a live semantic representation of their business to power apps and agents.",
+      "company": null,
+      "created_at": "2019-02-15T18:59:04Z",
+      "total_stars": 6897
     },
     {
       "login": "flatiron-school",
@@ -2513,20 +2513,6 @@
       "total_stars": 2268
     },
     {
-      "login": "UrbanCompass",
-      "name": "Compass",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
-      "html_url": "https://github.com/UrbanCompass",
-      "followers": 196,
-      "following": 0,
-      "public_repos": 21,
-      "location": "NYC",
-      "bio": "Compass Real Estate",
-      "company": null,
-      "created_at": "2012-10-02T18:21:11Z",
-      "total_stars": 418
-    },
-    {
       "login": "tradingeconomics",
       "name": "TRADING ECONOMICS",
       "avatar_url": "https://avatars.githubusercontent.com/u/752615?s=88&v=4",
@@ -2541,11 +2527,25 @@
       "total_stars": 1245
     },
     {
+      "login": "UrbanCompass",
+      "name": "Compass",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
+      "html_url": "https://github.com/UrbanCompass",
+      "followers": 196,
+      "following": 0,
+      "public_repos": 21,
+      "location": "NYC",
+      "bio": "Compass Real Estate",
+      "company": null,
+      "created_at": "2012-10-02T18:21:11Z",
+      "total_stars": 418
+    },
+    {
       "login": "CityOfNewYork",
       "name": "City of New York",
       "avatar_url": "https://avatars.githubusercontent.com/u/1107978?s=88&v=4",
       "html_url": "https://github.com/CityOfNewYork",
-      "followers": 194,
+      "followers": 195,
       "following": 0,
       "public_repos": 98,
       "location": "New York City",

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-06-19T09:57:45.085Z",
+  "generated_at": "2026-06-20T08:29:28.839Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 212587,
     "org_followers": 21646,
     "user_stars": 946166,
-    "org_stars": 308154
+    "org_stars": 307518
   },
   "queries": [
     {
@@ -971,20 +971,6 @@
       "total_stars": 440
     },
     {
-      "login": "jrjohansson",
-      "name": "Robert Johansson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1198183?s=88&v=4",
-      "html_url": "https://github.com/jrjohansson",
-      "followers": 1077,
-      "following": 3,
-      "public_repos": 13,
-      "location": "Tokyo",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-11-16T01:02:30Z",
-      "total_stars": 4494
-    },
-    {
       "login": "kallydev",
       "name": "KallyDev",
       "avatar_url": "https://avatars.githubusercontent.com/u/36319157?s=88&u=5be882aa4dbe7eea97b1a80a6473857369146df6&v=4",
@@ -997,6 +983,20 @@
       "company": "@Linktivity",
       "created_at": "2018-02-10T02:48:22Z",
       "total_stars": 1461
+    },
+    {
+      "login": "jrjohansson",
+      "name": "Robert Johansson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1198183?s=88&v=4",
+      "html_url": "https://github.com/jrjohansson",
+      "followers": 1077,
+      "following": 3,
+      "public_repos": 13,
+      "location": "Tokyo",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-11-16T01:02:30Z",
+      "total_stars": 4494
     },
     {
       "login": "muukii",
@@ -1041,20 +1041,6 @@
       "total_stars": 6065
     },
     {
-      "login": "plouc",
-      "name": "Raphaël Benitte",
-      "avatar_url": "https://avatars.githubusercontent.com/u/501642?s=88&u=7ba82244f27da6ff91d21af078bf5c4be5f89780&v=4",
-      "html_url": "https://github.com/plouc",
-      "followers": 1036,
-      "following": 3,
-      "public_repos": 74,
-      "location": "Tokyo",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-11-29T10:53:04Z",
-      "total_stars": 18671
-    },
-    {
       "login": "tokuhirom",
       "name": "Tokuhiro Matsuno",
       "avatar_url": "https://avatars.githubusercontent.com/u/21084?s=88&v=4",
@@ -1067,6 +1053,20 @@
       "company": "Sakura Internet",
       "created_at": "2008-08-18T23:19:04Z",
       "total_stars": 2499
+    },
+    {
+      "login": "plouc",
+      "name": "Raphaël Benitte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/501642?s=88&u=7ba82244f27da6ff91d21af078bf5c4be5f89780&v=4",
+      "html_url": "https://github.com/plouc",
+      "followers": 1036,
+      "following": 3,
+      "public_repos": 74,
+      "location": "Tokyo",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-11-29T10:53:04Z",
+      "total_stars": 18671
     },
     {
       "login": "gfx",
@@ -1251,20 +1251,6 @@
       "total_stars": 215
     },
     {
-      "login": "Phineas",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/6209808?s=88&u=cda3815fc58fbdeb867720aec9ad6b17acaeacf9&v=4",
-      "html_url": "https://github.com/Phineas",
-      "followers": 898,
-      "following": 20,
-      "public_repos": 20,
-      "location": "Tokyo 東京",
-      "bio": "infra @railwayapp • scalable real-time systems & networking",
-      "company": "@railwayapp",
-      "created_at": "2013-12-17T22:31:03Z",
-      "total_stars": 1763
-    },
-    {
       "login": "making",
       "name": "Toshiaki Maki",
       "avatar_url": "https://avatars.githubusercontent.com/u/106908?s=88&u=8d3f89b7b618dc628e90fc04b96e55cf47b965f0&v=4",
@@ -1277,6 +1263,20 @@
       "company": "VMware",
       "created_at": "2009-07-20T15:33:04Z",
       "total_stars": 2708
+    },
+    {
+      "login": "Phineas",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6209808?s=88&u=cda3815fc58fbdeb867720aec9ad6b17acaeacf9&v=4",
+      "html_url": "https://github.com/Phineas",
+      "followers": 898,
+      "following": 20,
+      "public_repos": 20,
+      "location": "Tokyo 東京",
+      "bio": "infra @railwayapp • scalable real-time systems & networking",
+      "company": "@railwayapp",
+      "created_at": "2013-12-17T22:31:03Z",
+      "total_stars": 1763
     },
     {
       "login": "vvakame",
@@ -2541,18 +2541,18 @@
       "total_stars": 149
     },
     {
-      "login": "pepabo",
-      "name": "GMO Pepabo, Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1708980?s=88&v=4",
-      "html_url": "https://github.com/pepabo",
+      "login": "synspective",
+      "name": "Synspective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43743643?s=88&v=4",
+      "html_url": "https://github.com/synspective",
       "followers": 43,
       "following": 0,
-      "public_repos": 123,
+      "public_repos": 0,
       "location": "Tokyo, Japan",
-      "bio": null,
+      "bio": "Small SAR satellite constellation and One-stop Geo-solutions",
       "company": null,
-      "created_at": "2012-05-05T16:51:00Z",
-      "total_stars": 636
+      "created_at": "2018-10-01T09:01:54Z",
+      "total_stars": 0
     }
   ],
   "repos": [

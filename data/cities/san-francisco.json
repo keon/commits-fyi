@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-06-19T09:54:38.100Z",
+  "generated_at": "2026-06-20T08:28:33.201Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1059642,
-    "org_followers": 325268,
+    "org_followers": 325270,
     "user_stars": 3202395,
-    "org_stars": 4515996
+    "org_stars": 4516009
   },
   "queries": [
     {
@@ -2471,20 +2471,6 @@
       "total_stars": 22001
     },
     {
-      "login": "dataquestio",
-      "name": "Dataquest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11148054?s=88&v=4",
-      "html_url": "https://github.com/dataquestio",
-      "followers": 978,
-      "following": 0,
-      "public_repos": 24,
-      "location": "San Francisco, CA",
-      "bio": "Learn data science online",
-      "company": null,
-      "created_at": "2015-02-22T16:34:43Z",
-      "total_stars": 3002
-    },
-    {
       "login": "reddit",
       "name": "reddit",
       "avatar_url": "https://avatars.githubusercontent.com/u/14248?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2008-06-18T23:30:15Z",
       "total_stars": 3707
+    },
+    {
+      "login": "dataquestio",
+      "name": "Dataquest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11148054?s=88&v=4",
+      "html_url": "https://github.com/dataquestio",
+      "followers": 978,
+      "following": 0,
+      "public_repos": 24,
+      "location": "San Francisco, CA",
+      "bio": "Learn data science online",
+      "company": null,
+      "created_at": "2015-02-22T16:34:43Z",
+      "total_stars": 3002
     },
     {
       "login": "openrewrite",
@@ -2545,14 +2545,14 @@
       "name": "Plaid",
       "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
       "html_url": "https://github.com/plaid",
-      "followers": 942,
+      "followers": 944,
       "following": 0,
       "public_repos": 47,
       "location": "San Francisco, CA",
       "bio": null,
       "company": null,
       "created_at": "2013-02-13T00:25:05Z",
-      "total_stars": 5547
+      "total_stars": 5560
     }
   ],
   "repos": [

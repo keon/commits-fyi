@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-06-19T09:54:59.154Z",
+  "generated_at": "2026-06-20T08:28:34.551Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 340486,
     "org_followers": 239556,
-    "user_stars": 897484,
+    "user_stars": 895759,
     "org_stars": 2615606
   },
   "queries": [
@@ -1405,20 +1405,6 @@
       "total_stars": 55
     },
     {
-      "login": "snakajima",
-      "name": "Satoshi Nakajima",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139827?s=88&u=b72b05584a295eb44e0d0c5bf83b90d68321a81c&v=4",
-      "html_url": "https://github.com/snakajima",
-      "followers": 1133,
-      "following": 0,
-      "public_repos": 71,
-      "location": "Seattle WA, USA",
-      "bio": "Software Engineer &\r\nEntrepreneur",
-      "company": "graphAI, mulmocast",
-      "created_at": "2009-10-14T18:06:53Z",
-      "total_stars": 1791
-    },
-    {
       "login": "jelbourn",
       "name": "Jeremy Elbourn",
       "avatar_url": "https://avatars.githubusercontent.com/u/838736?s=88&u=c23e7b7eb52d9881155e3a03076ab9435506d004&v=4",
@@ -1431,6 +1417,20 @@
       "company": "Google",
       "created_at": "2011-06-08T22:51:30Z",
       "total_stars": 707
+    },
+    {
+      "login": "jheer",
+      "name": "Jeffrey Heer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202799?s=88&u=3918087b0bbb9e30d292c01f0ab5bf216cf4b36f&v=4",
+      "html_url": "https://github.com/jheer",
+      "followers": 1133,
+      "following": 25,
+      "public_repos": 3,
+      "location": "Seattle, WA",
+      "bio": "UW Professor. Data, visualization & interaction. @uwdata @ridge-ai @d3 @vega ",
+      "company": "University of Washington @uwdata, Trifacta Inc.",
+      "created_at": "2010-02-13T00:04:37Z",
+      "total_stars": 66
     }
   ],
   "orgs": [
@@ -1925,20 +1925,6 @@
       "total_stars": 3169
     },
     {
-      "login": "CodeStitchOfficial",
-      "name": "CodeStitch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133629722?s=88&v=4",
-      "html_url": "https://github.com/CodeStitchOfficial",
-      "followers": 258,
-      "following": 0,
-      "public_repos": 9,
-      "location": "Seattle, WA",
-      "bio": null,
-      "company": null,
-      "created_at": "2023-05-15T05:58:21Z",
-      "total_stars": 1674
-    },
-    {
       "login": "pritunl",
       "name": "Pritunl",
       "avatar_url": "https://avatars.githubusercontent.com/u/5488494?s=88&v=4",
@@ -1951,6 +1937,20 @@
       "company": null,
       "created_at": "2013-09-18T17:16:05Z",
       "total_stars": 7620
+    },
+    {
+      "login": "CodeStitchOfficial",
+      "name": "CodeStitch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133629722?s=88&v=4",
+      "html_url": "https://github.com/CodeStitchOfficial",
+      "followers": 258,
+      "following": 0,
+      "public_repos": 9,
+      "location": "Seattle, WA",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-05-15T05:58:21Z",
+      "total_stars": 1674
     },
     {
       "login": "OneDrive",
