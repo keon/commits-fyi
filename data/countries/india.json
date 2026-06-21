@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-06-20T08:30:31.901Z",
+  "generated_at": "2026-06-21T09:04:47.224Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 582289,
-    "org_followers": 149824,
+    "org_followers": 149828,
     "user_stars": 1175122,
-    "org_stars": 1035587
+    "org_stars": 1035830
   },
   "queries": [
     {
@@ -1153,20 +1153,6 @@
       "total_stars": 215
     },
     {
-      "login": "ravi8x",
-      "name": "Ravi Tamada",
-      "avatar_url": "https://avatars.githubusercontent.com/u/497670?s=88&u=e52239729a5d2371a776916b629733c7fc68eb66&v=4",
-      "html_url": "https://github.com/ravi8x",
-      "followers": 2272,
-      "following": 3,
-      "public_repos": 32,
-      "location": "India",
-      "bio": "Founder of androidhive.info",
-      "company": "AndroidHive",
-      "created_at": "2010-11-26T09:56:45Z",
-      "total_stars": 1505
-    },
-    {
       "login": "hemansnation",
       "name": "Himanshu Ramchandani",
       "avatar_url": "https://avatars.githubusercontent.com/u/37770869?s=88&u=d01ec9ddaf1d25e8ff1319f6caea3021633be201&v=4",
@@ -1179,6 +1165,20 @@
       "company": "@HemansAI ",
       "created_at": "2018-03-25T10:26:53Z",
       "total_stars": 5077
+    },
+    {
+      "login": "ravi8x",
+      "name": "Ravi Tamada",
+      "avatar_url": "https://avatars.githubusercontent.com/u/497670?s=88&u=e52239729a5d2371a776916b629733c7fc68eb66&v=4",
+      "html_url": "https://github.com/ravi8x",
+      "followers": 2272,
+      "following": 3,
+      "public_repos": 32,
+      "location": "India",
+      "bio": "Founder of androidhive.info",
+      "company": "AndroidHive",
+      "created_at": "2010-11-26T09:56:45Z",
+      "total_stars": 1505
     },
     {
       "login": "janishar",
@@ -1915,7 +1915,7 @@
       "name": "Code for Good Tech (C4GT)",
       "avatar_url": "https://avatars.githubusercontent.com/u/104516289?s=88&v=4",
       "html_url": "https://github.com/CodeForGoodTech",
-      "followers": 594,
+      "followers": 593,
       "following": 0,
       "public_repos": 17,
       "location": "India",
@@ -2447,14 +2447,14 @@
       "name": "Fincept Corporation",
       "avatar_url": "https://avatars.githubusercontent.com/u/178755995?s=88&v=4",
       "html_url": "https://github.com/Fincept-Corporation",
-      "followers": 320,
+      "followers": 325,
       "following": 0,
       "public_repos": 3,
       "location": "India",
       "bio": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.",
       "company": null,
       "created_at": "2024-08-19T03:09:02Z",
-      "total_stars": 26966
+      "total_stars": 27209
     },
     {
       "login": "upsidedownlabs",
@@ -2499,20 +2499,6 @@
       "total_stars": 518
     },
     {
-      "login": "isro",
-      "name": "ISRO",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65687350?s=88&v=4",
-      "html_url": "https://github.com/isro",
-      "followers": 302,
-      "following": 0,
-      "public_repos": 1,
-      "location": "India",
-      "bio": "Indian Space Research Organization🚀",
-      "company": null,
-      "created_at": "2020-05-20T22:24:51Z",
-      "total_stars": 160
-    },
-    {
       "login": "IHA089",
       "name": "IHA089",
       "avatar_url": "https://avatars.githubusercontent.com/u/114898066?s=88&v=4",
@@ -2525,6 +2511,20 @@
       "company": null,
       "created_at": "2022-10-03T05:00:38Z",
       "total_stars": 491
+    },
+    {
+      "login": "isro",
+      "name": "ISRO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65687350?s=88&v=4",
+      "html_url": "https://github.com/isro",
+      "followers": 302,
+      "following": 0,
+      "public_repos": 1,
+      "location": "India",
+      "bio": "Indian Space Research Organization🚀",
+      "company": null,
+      "created_at": "2020-05-20T22:24:51Z",
+      "total_stars": 160
     },
     {
       "login": "qxresearch",
@@ -2861,8 +2861,8 @@
       "full_name": "Fincept-Corporation/FinceptTerminal",
       "html_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
-      "stargazers_count": 26965,
-      "forks_count": 3763,
+      "stargazers_count": 27208,
+      "forks_count": 3813,
       "language": "C++",
       "topics": [
         "bloomberg-terminal",

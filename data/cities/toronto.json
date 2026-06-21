@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-06-20T08:28:36.295Z",
+  "generated_at": "2026-06-21T09:02:49.597Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1195,20 +1195,6 @@
       "total_stars": 1652
     },
     {
-      "login": "rokon12",
-      "name": "A N M Bazlur Rahman ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/429073?s=88&u=432512383a7c0b0bb2fe228eb021c00491988de4&v=4",
-      "html_url": "https://github.com/rokon12",
-      "followers": 648,
-      "following": 23,
-      "public_repos": 149,
-      "location": "Toronto, Canada",
-      "bio": "Java Champion 🏆 Empowering Developers through Speaking 🗣️ Writing ✍️ Mentoring 🤝 & Community Building 🌍 Published Author 📖 Contributing Editor at InfoQ and",
-      "company": "Hammerspace",
-      "created_at": "2010-10-06T04:55:44Z",
-      "total_stars": 136
-    },
-    {
       "login": "Alex-Unnippillil",
       "name": "Alex Unnippillil",
       "avatar_url": "https://avatars.githubusercontent.com/u/24538548?s=88&u=5bb395c29dc969ad78d0cc71af508feac499f2be&v=4",
@@ -1221,6 +1207,20 @@
       "company": null,
       "created_at": "2016-12-13T05:32:55Z",
       "total_stars": 42
+    },
+    {
+      "login": "rokon12",
+      "name": "A N M Bazlur Rahman ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/429073?s=88&u=432512383a7c0b0bb2fe228eb021c00491988de4&v=4",
+      "html_url": "https://github.com/rokon12",
+      "followers": 648,
+      "following": 23,
+      "public_repos": 149,
+      "location": "Toronto, Canada",
+      "bio": "Java Champion 🏆 Empowering Developers through Speaking 🗣️ Writing ✍️ Mentoring 🤝 & Community Building 🌍 Published Author 📖 Contributing Editor at InfoQ and",
+      "company": "Hammerspace",
+      "created_at": "2010-10-06T04:55:44Z",
+      "total_stars": 136
     },
     {
       "login": "fwang",
@@ -3348,7 +3348,7 @@
       "html_url": "https://github.com/cviebrock/eloquent-sluggable",
       "description": "Easy creation of slugs for your Eloquent models in Laravel",
       "stargazers_count": 3993,
-      "forks_count": 449,
+      "forks_count": 448,
       "language": "PHP",
       "topics": [
         "laravel",
