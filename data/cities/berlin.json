@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-06-22T10:50:38.829Z",
+  "generated_at": "2026-06-23T08:38:38.270Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 294840,
     "org_followers": 31795,
-    "user_stars": 952051,
+    "user_stars": 955440,
     "org_stars": 736688
   },
   "queries": [
@@ -1391,20 +1391,6 @@
       "total_stars": 740
     },
     {
-      "login": "falkTX",
-      "name": "Filipe Coelho",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
-      "html_url": "https://github.com/falkTX",
-      "followers": 994,
-      "following": 3,
-      "public_repos": 48,
-      "location": "Berlin, Germany",
-      "bio": "I'm a self-taught software developer, with personal interest in C++ and Python.\r\nEasily motivated by a good challenge. Open-Source enthusiast.",
-      "company": null,
-      "created_at": "2012-01-16T20:28:18Z",
-      "total_stars": 3100
-    },
-    {
       "login": "visenger",
       "name": "Dr. Larysa Visengeriyeva",
       "avatar_url": "https://avatars.githubusercontent.com/u/2014749?s=88&v=4",
@@ -1419,18 +1405,32 @@
       "total_stars": 14135
     },
     {
-      "login": "travisbrown",
-      "name": "Travis Brown",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316049?s=88&v=4",
-      "html_url": "https://github.com/travisbrown",
-      "followers": 988,
-      "following": 36,
-      "public_repos": 111,
-      "location": "Berlin",
-      "bio": "Software developer living in Berlin.",
+      "login": "falkTX",
+      "name": "Filipe Coelho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
+      "html_url": "https://github.com/falkTX",
+      "followers": 994,
+      "following": 3,
+      "public_repos": 48,
+      "location": "Berlin, Germany",
+      "bio": "I'm a self-taught software developer, with personal interest in C++ and Python.\r\nEasily motivated by a good challenge. Open-Source enthusiast.",
       "company": null,
-      "created_at": "2010-06-28T02:09:48Z",
-      "total_stars": 2235
+      "created_at": "2012-01-16T20:28:18Z",
+      "total_stars": 3100
+    },
+    {
+      "login": "pudo",
+      "name": "Friedrich Lindenberg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41628?s=88&v=4",
+      "html_url": "https://github.com/pudo",
+      "followers": 988,
+      "following": 204,
+      "public_repos": 45,
+      "location": "Berlin",
+      "bio": "Data and software engineer, investigative support. ",
+      "company": "@opensanctions",
+      "created_at": "2008-12-19T17:04:00Z",
+      "total_stars": 5624
     }
   ],
   "orgs": [
@@ -2387,20 +2387,6 @@
       "total_stars": 4975
     },
     {
-      "login": "kinvolk",
-      "name": "Kinvolk",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14073052?s=88&v=4",
-      "html_url": "https://github.com/kinvolk",
-      "followers": 103,
-      "following": 0,
-      "public_repos": 47,
-      "location": "Berlin, Germany",
-      "bio": "We build technologies for modern cloud-native infrastructure",
-      "company": null,
-      "created_at": "2015-09-01T11:50:37Z",
-      "total_stars": 1435
-    },
-    {
       "login": "prototypefund",
       "name": "Prototype Fund",
       "avatar_url": "https://avatars.githubusercontent.com/u/18613278?s=88&v=4",
@@ -2413,6 +2399,20 @@
       "company": null,
       "created_at": "2016-04-22T10:34:43Z",
       "total_stars": 64
+    },
+    {
+      "login": "kinvolk",
+      "name": "Kinvolk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14073052?s=88&v=4",
+      "html_url": "https://github.com/kinvolk",
+      "followers": 103,
+      "following": 0,
+      "public_repos": 47,
+      "location": "Berlin, Germany",
+      "bio": "We build technologies for modern cloud-native infrastructure",
+      "company": null,
+      "created_at": "2015-09-01T11:50:37Z",
+      "total_stars": 1435
     },
     {
       "login": "tinloof",

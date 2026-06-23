@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-06-22T10:48:50.846Z",
+  "generated_at": "2026-06-23T08:38:31.293Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1060629,
-    "org_followers": 325693,
+    "org_followers": 325697,
     "user_stars": 3210868,
-    "org_stars": 4519335
+    "org_stars": 4519342
   },
   "queries": [
     {
@@ -2429,20 +2429,6 @@
       "total_stars": 17405
     },
     {
-      "login": "skiff-org",
-      "name": "Skiff World",
-      "avatar_url": "https://avatars.githubusercontent.com/u/80722586?s=88&v=4",
-      "html_url": "https://github.com/skiff-org",
-      "followers": 997,
-      "following": 0,
-      "public_repos": 10,
-      "location": "San Francisco, CA",
-      "bio": "Skiff Engineering",
-      "company": null,
-      "created_at": "2021-03-15T22:08:52Z",
-      "total_stars": 1652
-    },
-    {
       "login": "hasura",
       "name": "Hasura",
       "avatar_url": "https://avatars.githubusercontent.com/u/13966722?s=88&v=4",
@@ -2455,6 +2441,20 @@
       "company": null,
       "created_at": "2015-08-25T16:31:42Z",
       "total_stars": 49041
+    },
+    {
+      "login": "skiff-org",
+      "name": "Skiff World",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80722586?s=88&v=4",
+      "html_url": "https://github.com/skiff-org",
+      "followers": 997,
+      "following": 0,
+      "public_repos": 10,
+      "location": "San Francisco, CA",
+      "bio": "Skiff Engineering",
+      "company": null,
+      "created_at": "2021-03-15T22:08:52Z",
+      "total_stars": 1652
     },
     {
       "login": "Instagram",
@@ -2545,14 +2545,14 @@
       "name": "Plaid",
       "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
       "html_url": "https://github.com/plaid",
-      "followers": 944,
+      "followers": 948,
       "following": 0,
       "public_repos": 47,
       "location": "San Francisco, CA",
       "bio": null,
       "company": null,
       "created_at": "2013-02-13T00:25:05Z",
-      "total_stars": 5560
+      "total_stars": 5567
     }
   ],
   "repos": [

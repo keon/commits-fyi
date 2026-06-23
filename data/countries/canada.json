@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-06-22T10:55:44.797Z",
+  "generated_at": "2026-06-23T08:40:33.835Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 358041,
-    "org_followers": 63791,
+    "org_followers": 63793,
     "user_stars": 1051929,
-    "org_stars": 1035458
+    "org_stars": 1035487
   },
   "queries": [
     {
@@ -1845,14 +1845,14 @@
       "name": "Tracel AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/111992358?s=88&v=4",
       "html_url": "https://github.com/tracel-ai",
-      "followers": 622,
+      "followers": 624,
       "following": 0,
       "public_repos": 21,
       "location": "Canada",
       "bio": "High-performance computing to bring intelligence everywhere",
       "company": null,
       "created_at": "2022-08-24T13:54:31Z",
-      "total_stars": 18671
+      "total_stars": 18700
     },
     {
       "login": "lighthouse-labs",
@@ -2023,20 +2023,6 @@
       "total_stars": 16588
     },
     {
-      "login": "TIGER-AI-Lab",
-      "name": "TIGER Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/144196744?s=88&v=4",
-      "html_url": "https://github.com/TIGER-AI-Lab",
-      "followers": 442,
-      "following": 0,
-      "public_repos": 61,
-      "location": "Canada",
-      "bio": "Our lab is currently based in UWaterloo, focusing on Text and Image Generative Research",
-      "company": null,
-      "created_at": "2023-09-06T03:20:58Z",
-      "total_stars": 9572
-    },
-    {
       "login": "DeepGraphLearning",
       "name": "MilaGraph",
       "avatar_url": "https://avatars.githubusercontent.com/u/38018154?s=88&v=4",
@@ -2049,6 +2035,20 @@
       "company": null,
       "created_at": "2018-04-02T20:59:31Z",
       "total_stars": 11871
+    },
+    {
+      "login": "TIGER-AI-Lab",
+      "name": "TIGER Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144196744?s=88&v=4",
+      "html_url": "https://github.com/TIGER-AI-Lab",
+      "followers": 442,
+      "following": 0,
+      "public_repos": 61,
+      "location": "Canada",
+      "bio": "Our lab is currently based in UWaterloo, focusing on Text and Image Generative Research",
+      "company": null,
+      "created_at": "2023-09-06T03:20:58Z",
+      "total_stars": 9572
     },
     {
       "login": "ethers-io",
@@ -2135,20 +2135,6 @@
       "total_stars": 10316
     },
     {
-      "login": "WiiLink24",
-      "name": "WiiLink",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72463677?s=88&v=4",
-      "html_url": "https://github.com/WiiLink24",
-      "followers": 398,
-      "following": 0,
-      "public_repos": 86,
-      "location": "Canada",
-      "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
-      "company": null,
-      "created_at": "2020-10-06T17:15:01Z",
-      "total_stars": 711
-    },
-    {
       "login": "TecharoHQ",
       "name": "Techaro",
       "avatar_url": "https://avatars.githubusercontent.com/u/195942235?s=88&v=4",
@@ -2161,6 +2147,20 @@
       "company": null,
       "created_at": "2025-01-21T16:58:33Z",
       "total_stars": 20285
+    },
+    {
+      "login": "WiiLink24",
+      "name": "WiiLink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72463677?s=88&v=4",
+      "html_url": "https://github.com/WiiLink24",
+      "followers": 398,
+      "following": 0,
+      "public_repos": 86,
+      "location": "Canada",
+      "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
+      "company": null,
+      "created_at": "2020-10-06T17:15:01Z",
+      "total_stars": 711
     },
     {
       "login": "sp-tarkov",
@@ -3095,8 +3095,8 @@
       "full_name": "tracel-ai/burn",
       "html_url": "https://github.com/tracel-ai/burn",
       "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
-      "stargazers_count": 15455,
-      "forks_count": 946,
+      "stargazers_count": 15474,
+      "forks_count": 948,
       "language": "Rust",
       "topics": [
         "autodiff",

@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-06-22T10:49:13.028Z",
+  "generated_at": "2026-06-23T08:38:33.072Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 340625,
+    "user_followers": 340883,
     "org_followers": 240068,
-    "user_stars": 897792,
+    "user_stars": 899507,
     "org_stars": 2619285
   },
   "queries": [
@@ -1013,6 +1013,20 @@
       "total_stars": 678
     },
     {
+      "login": "mjbvz",
+      "name": "Matt Bierner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12821956?s=88&u=a3fbee3660f44f68c36889429bf76645fa2cfc65&v=4",
+      "html_url": "https://github.com/mjbvz",
+      "followers": 1391,
+      "following": 2,
+      "public_repos": 73,
+      "location": "Seattle WA",
+      "bio": "I built VS Code for 10 years, focusing on JS/TS tooling, Markdown support, Webviews, Copilot workspace knowledge, and various APIs",
+      "company": "@anysphere ",
+      "created_at": "2015-06-10T00:23:25Z",
+      "total_stars": 2422
+    },
+    {
       "login": "deltakosh",
       "name": "David Catuhe",
       "avatar_url": "https://avatars.githubusercontent.com/u/1306056?s=88&v=4",
@@ -1417,20 +1431,6 @@
       "company": "graphAI, mulmocast",
       "created_at": "2009-10-14T18:06:53Z",
       "total_stars": 1791
-    },
-    {
-      "login": "jelbourn",
-      "name": "Jeremy Elbourn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/838736?s=88&u=c23e7b7eb52d9881155e3a03076ab9435506d004&v=4",
-      "html_url": "https://github.com/jelbourn",
-      "followers": 1133,
-      "following": 0,
-      "public_repos": 16,
-      "location": "Seattle",
-      "bio": "Member of the @angular team at @google",
-      "company": "Google",
-      "created_at": "2011-06-08T22:51:30Z",
-      "total_stars": 707
     }
   ],
   "orgs": [

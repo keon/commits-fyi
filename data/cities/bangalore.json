@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-06-22T10:53:02.368Z",
+  "generated_at": "2026-06-23T08:39:29.103Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 178908,
     "org_followers": 23169,
-    "user_stars": 446146,
+    "user_stars": 446159,
     "org_stars": 349220
   },
   "queries": [
@@ -789,20 +789,6 @@
       "total_stars": 15455
     },
     {
-      "login": "aryan-0077",
-      "name": "ARYAN MITTAL",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53142034?s=88&u=599e7631b65f915898d1c2c2a75f1d21fe86ba45&v=4",
-      "html_url": "https://github.com/aryan-0077",
-      "followers": 870,
-      "following": 17,
-      "public_repos": 28,
-      "location": "Bengaluru",
-      "bio": "Goldman Sachs || CSE NIT Allahabad || Youtuber || 4 times Institute Gold Medalist",
-      "company": "Goldman Sachs",
-      "created_at": "2019-07-21T11:02:45Z",
-      "total_stars": 287
-    },
-    {
       "login": "jassics",
       "name": "Sanjeev Jaiswal",
       "avatar_url": "https://avatars.githubusercontent.com/u/312391?s=88&u=614c11fd20632842718e5bb5e76b5964896ddc8b&v=4",
@@ -815,6 +801,20 @@
       "company": "Cybercloud Guru",
       "created_at": "2010-06-23T04:28:55Z",
       "total_stars": 8034
+    },
+    {
+      "login": "aryan-0077",
+      "name": "ARYAN MITTAL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53142034?s=88&u=599e7631b65f915898d1c2c2a75f1d21fe86ba45&v=4",
+      "html_url": "https://github.com/aryan-0077",
+      "followers": 870,
+      "following": 17,
+      "public_repos": 28,
+      "location": "Bengaluru",
+      "bio": "Goldman Sachs || CSE NIT Allahabad || Youtuber || 4 times Institute Gold Medalist",
+      "company": "Goldman Sachs",
+      "created_at": "2019-07-21T11:02:45Z",
+      "total_stars": 287
     },
     {
       "login": "akmadan",
@@ -1094,7 +1094,7 @@
       "bio": "I build (& break) stuff",
       "company": "PolyThink",
       "created_at": "2022-01-03T10:56:52Z",
-      "total_stars": 11239
+      "total_stars": 11252
     },
     {
       "login": "s-yadav",
@@ -2782,8 +2782,8 @@
       "full_name": "Kuberwastaken/claurst",
       "html_url": "https://github.com/Kuberwastaken/claurst",
       "description": "Agentic Coding for Builders who Ship",
-      "stargazers_count": 9831,
-      "forks_count": 7780,
+      "stargazers_count": 9844,
+      "forks_count": 7779,
       "language": "Rust",
       "topics": [
         "claude",
