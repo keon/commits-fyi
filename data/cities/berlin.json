@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-06-24T08:33:56.107Z",
+  "generated_at": "2026-06-25T08:31:49.099Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 294840,
+    "user_followers": 294846,
     "org_followers": 31795,
-    "user_stars": 955440,
+    "user_stars": 955463,
     "org_stars": 736688
   },
   "queries": [
@@ -233,14 +233,14 @@
       "name": "Orhun Parmaksız",
       "avatar_url": "https://avatars.githubusercontent.com/u/24392180?s=88&u=3ef7dfd550368f0f65b21ab811d48c1fda0eee63&v=4",
       "html_url": "https://github.com/orhun",
-      "followers": 5106,
-      "following": 540,
+      "followers": 5112,
+      "following": 541,
       "public_repos": 81,
       "location": "Berlin, Germany",
       "bio": "Terminal Chef @ratatui | Rust Developer Advocate @JetBrains |\r\nMaintainer @archlinux btw  ",
       "company": "@ratatui | @jetbrains | @archlinux",
       "created_at": "2016-12-05T15:47:47Z",
-      "total_stars": 33665
+      "total_stars": 33688
     },
     {
       "login": "vietnh1009",
@@ -1391,20 +1391,6 @@
       "total_stars": 740
     },
     {
-      "login": "falkTX",
-      "name": "Filipe Coelho",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
-      "html_url": "https://github.com/falkTX",
-      "followers": 994,
-      "following": 3,
-      "public_repos": 48,
-      "location": "Berlin, Germany",
-      "bio": "I'm a self-taught software developer, with personal interest in C++ and Python.\r\nEasily motivated by a good challenge. Open-Source enthusiast.",
-      "company": null,
-      "created_at": "2012-01-16T20:28:18Z",
-      "total_stars": 3100
-    },
-    {
       "login": "visenger",
       "name": "Dr. Larysa Visengeriyeva",
       "avatar_url": "https://avatars.githubusercontent.com/u/2014749?s=88&v=4",
@@ -1417,6 +1403,20 @@
       "company": null,
       "created_at": "2012-07-20T22:37:19Z",
       "total_stars": 14135
+    },
+    {
+      "login": "falkTX",
+      "name": "Filipe Coelho",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
+      "html_url": "https://github.com/falkTX",
+      "followers": 994,
+      "following": 3,
+      "public_repos": 48,
+      "location": "Berlin, Germany",
+      "bio": "I'm a self-taught software developer, with personal interest in C++ and Python.\r\nEasily motivated by a good challenge. Open-Source enthusiast.",
+      "company": null,
+      "created_at": "2012-01-16T20:28:18Z",
+      "total_stars": 3100
     },
     {
       "login": "pudo",
@@ -3118,8 +3118,8 @@
       "full_name": "orhun/git-cliff",
       "html_url": "https://github.com/orhun/git-cliff",
       "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️ ",
-      "stargazers_count": 11960,
-      "forks_count": 301,
+      "stargazers_count": 11974,
+      "forks_count": 302,
       "language": "Rust",
       "topics": [
         "changelog",

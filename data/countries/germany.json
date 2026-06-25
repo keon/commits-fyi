@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-06-24T08:35:45.011Z",
+  "generated_at": "2026-06-25T08:33:31.357Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 456985,
+    "user_followers": 456991,
     "org_followers": 113908,
-    "user_stars": 1479655,
+    "user_stars": 1479678,
     "org_stars": 1727053
   },
   "queries": [
@@ -443,14 +443,14 @@
       "name": "Orhun Parmaksız",
       "avatar_url": "https://avatars.githubusercontent.com/u/24392180?s=88&u=3ef7dfd550368f0f65b21ab811d48c1fda0eee63&v=4",
       "html_url": "https://github.com/orhun",
-      "followers": 5106,
-      "following": 540,
+      "followers": 5112,
+      "following": 541,
       "public_repos": 81,
       "location": "Berlin, Germany",
       "bio": "Terminal Chef @ratatui | Rust Developer Advocate @JetBrains |\r\nMaintainer @archlinux btw  ",
       "company": "@ratatui | @jetbrains | @archlinux",
       "created_at": "2016-12-05T15:47:47Z",
-      "total_stars": 33665
+      "total_stars": 33688
     },
     {
       "login": "AlexeyAB",
@@ -1799,20 +1799,6 @@
       "total_stars": 12336
     },
     {
-      "login": "bundesAPI",
-      "name": "Bundesstelle für Open Data",
-      "avatar_url": "https://avatars.githubusercontent.com/u/87917051?s=88&v=4",
-      "html_url": "https://github.com/bundesAPI",
-      "followers": 1065,
-      "following": 0,
-      "public_repos": 46,
-      "location": "Germany",
-      "bio": "Bundesstelle für Open Data - Abteilung 1, Referat 312, Entwicklungsportal.",
-      "company": null,
-      "created_at": "2021-07-24T22:55:00Z",
-      "total_stars": 3056
-    },
-    {
       "login": "libimobiledevice",
       "name": "libimobiledevice",
       "avatar_url": "https://avatars.githubusercontent.com/u/3584568?s=88&v=4",
@@ -1825,6 +1811,20 @@
       "company": null,
       "created_at": "2013-02-13T13:39:33Z",
       "total_stars": 16582
+    },
+    {
+      "login": "bundesAPI",
+      "name": "Bundesstelle für Open Data",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87917051?s=88&v=4",
+      "html_url": "https://github.com/bundesAPI",
+      "followers": 1065,
+      "following": 0,
+      "public_repos": 46,
+      "location": "Germany",
+      "bio": "Bundesstelle für Open Data - Abteilung 1, Referat 312, Entwicklungsportal.",
+      "company": null,
+      "created_at": "2021-07-24T22:55:00Z",
+      "total_stars": 3056
     },
     {
       "login": "seemoo-lab",
@@ -1967,20 +1967,6 @@
       "total_stars": 6785
     },
     {
-      "login": "FilenCloudDienste",
-      "name": "Filen Cloud Dienste",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88734086?s=88&v=4",
-      "html_url": "https://github.com/FilenCloudDienste",
-      "followers": 808,
-      "following": 0,
-      "public_repos": 24,
-      "location": "Germany",
-      "bio": "Zero knowledge end-to-end encrypted cloud storage, redefined.",
-      "company": null,
-      "created_at": "2021-08-10T16:45:38Z",
-      "total_stars": 1447
-    },
-    {
       "login": "mtdvio",
       "name": "MTDV",
       "avatar_url": "https://avatars.githubusercontent.com/u/33053074?s=88&v=4",
@@ -1993,6 +1979,20 @@
       "company": null,
       "created_at": "2017-10-24T07:58:34Z",
       "total_stars": 102733
+    },
+    {
+      "login": "FilenCloudDienste",
+      "name": "Filen Cloud Dienste",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88734086?s=88&v=4",
+      "html_url": "https://github.com/FilenCloudDienste",
+      "followers": 808,
+      "following": 0,
+      "public_repos": 24,
+      "location": "Germany",
+      "bio": "Zero knowledge end-to-end encrypted cloud storage, redefined.",
+      "company": null,
+      "created_at": "2021-08-10T16:45:38Z",
+      "total_stars": 1447
     },
     {
       "login": "iotaledger",
@@ -2219,20 +2219,6 @@
       "total_stars": 40056
     },
     {
-      "login": "fritzing",
-      "name": "Fritzing",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8562144?s=88&v=4",
-      "html_url": "https://github.com/fritzing",
-      "followers": 597,
-      "following": 0,
-      "public_repos": 12,
-      "location": "Berlin, Germany",
-      "bio": "electronics made easy",
-      "company": null,
-      "created_at": "2014-08-26T22:13:42Z",
-      "total_stars": 5557
-    },
-    {
       "login": "beyondcode",
       "name": "Beyond Code",
       "avatar_url": "https://avatars.githubusercontent.com/u/38242993?s=88&v=4",
@@ -2245,6 +2231,20 @@
       "company": null,
       "created_at": "2018-04-10T08:11:54Z",
       "total_stars": 22598
+    },
+    {
+      "login": "fritzing",
+      "name": "Fritzing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8562144?s=88&v=4",
+      "html_url": "https://github.com/fritzing",
+      "followers": 597,
+      "following": 0,
+      "public_repos": 12,
+      "location": "Berlin, Germany",
+      "bio": "electronics made easy",
+      "company": null,
+      "created_at": "2014-08-26T22:13:42Z",
+      "total_stars": 5557
     },
     {
       "login": "slint-ui",
@@ -2429,20 +2429,6 @@
       "total_stars": 789
     },
     {
-      "login": "telekom-security",
-      "name": "Deutsche Telekom Security GmbH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30164233?s=88&v=4",
-      "html_url": "https://github.com/telekom-security",
-      "followers": 502,
-      "following": 0,
-      "public_repos": 21,
-      "location": "Bonn, Germany",
-      "bio": "Telekom Security on GitHub, home of T-Pot, T-Pot Mobile and more.",
-      "company": null,
-      "created_at": "2017-07-14T01:10:57Z",
-      "total_stars": 9945
-    },
-    {
       "login": "yjs",
       "name": "Yjs",
       "avatar_url": "https://avatars.githubusercontent.com/u/45042178?s=88&v=4",
@@ -2455,6 +2441,20 @@
       "company": null,
       "created_at": "2018-11-14T15:33:35Z",
       "total_stars": 26943
+    },
+    {
+      "login": "telekom-security",
+      "name": "Deutsche Telekom Security GmbH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30164233?s=88&v=4",
+      "html_url": "https://github.com/telekom-security",
+      "followers": 502,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Bonn, Germany",
+      "bio": "Telekom Security on GitHub, home of T-Pot, T-Pot Mobile and more.",
+      "company": null,
+      "created_at": "2017-07-14T01:10:57Z",
+      "total_stars": 9945
     },
     {
       "login": "tum-vision",

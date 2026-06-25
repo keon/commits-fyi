@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-06-24T08:33:55.221Z",
+  "generated_at": "2026-06-25T08:31:46.140Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 427536,
-    "org_followers": 71373,
+    "org_followers": 71374,
     "user_stars": 1311848,
-    "org_stars": 704517
+    "org_stars": 704681
   },
   "queries": [
     {
@@ -2513,6 +2513,20 @@
       "total_stars": 0
     },
     {
+      "login": "SamsungInternet",
+      "name": "Samsung Internet Dev Rel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21077792?s=88&v=4",
+      "html_url": "https://github.com/SamsungInternet",
+      "followers": 140,
+      "following": 0,
+      "public_repos": 102,
+      "location": "London",
+      "bio": "Code Examples and Stuff From the Samsung Internet Dev Rel Team",
+      "company": null,
+      "created_at": "2016-08-17T08:56:53Z",
+      "total_stars": 860
+    },
+    {
       "login": "esl",
       "name": "Erlang Solutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/283412?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2014-06-26T12:58:34Z",
       "total_stars": 363
-    },
-    {
-      "login": "cog-imperial",
-      "name": "C⚙G - Imperial College London",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30658188?s=88&v=4",
-      "html_url": "https://github.com/cog-imperial",
-      "followers": 139,
-      "following": 0,
-      "public_repos": 26,
-      "location": "London",
-      "bio": "Computational Optimisation Group @ Imperial College London",
-      "company": null,
-      "created_at": "2017-08-02T12:41:04Z",
-      "total_stars": 696
     }
   ],
   "repos": [
