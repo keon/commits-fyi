@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-06-26T08:36:35.106Z",
+  "generated_at": "2026-06-27T08:07:00.895Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1062047,
-    "org_followers": 326494,
+    "org_followers": 326496,
     "user_stars": 3222546,
-    "org_stars": 4526426
+    "org_stars": 4526435
   },
   "queries": [
     {
@@ -1013,20 +1013,6 @@
       "total_stars": 49891
     },
     {
-      "login": "gitster",
-      "name": "Junio C Hamano",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54884?s=88&u=df04369e894b22a25b4bb7bb85121ffa481047e4&v=4",
-      "html_url": "https://github.com/gitster",
-      "followers": 5294,
-      "following": 0,
-      "public_repos": 2,
-      "location": "Mountain View, CA",
-      "bio": null,
-      "company": "Google",
-      "created_at": "2009-02-16T08:20:51Z",
-      "total_stars": 94
-    },
-    {
       "login": "leebyron",
       "name": "Lee Byron",
       "avatar_url": "https://avatars.githubusercontent.com/u/50130?s=88&u=d3c7c18ff34107c3a4312217171ccb722d6552d7&v=4",
@@ -1039,6 +1025,20 @@
       "company": "@watershed-climate",
       "created_at": "2009-01-29T06:29:37Z",
       "total_stars": 5256
+    },
+    {
+      "login": "gitster",
+      "name": "Junio C Hamano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54884?s=88&u=df04369e894b22a25b4bb7bb85121ffa481047e4&v=4",
+      "html_url": "https://github.com/gitster",
+      "followers": 5294,
+      "following": 0,
+      "public_repos": 2,
+      "location": "Mountain View, CA",
+      "bio": null,
+      "company": "Google",
+      "created_at": "2009-02-16T08:20:51Z",
+      "total_stars": 94
     },
     {
       "login": "freddier",
@@ -2545,14 +2545,14 @@
       "name": "Plaid",
       "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
       "html_url": "https://github.com/plaid",
-      "followers": 948,
+      "followers": 950,
       "following": 0,
       "public_repos": 47,
       "location": "San Francisco, CA",
       "bio": null,
       "company": null,
       "created_at": "2013-02-13T00:25:05Z",
-      "total_stars": 5567
+      "total_stars": 5576
     }
   ],
   "repos": [

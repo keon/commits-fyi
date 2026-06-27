@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-06-26T08:41:23.352Z",
+  "generated_at": "2026-06-27T08:08:55.632Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 457144,
+    "user_followers": 457505,
     "org_followers": 114216,
-    "user_stars": 1480889,
+    "user_stars": 1480564,
     "org_stars": 1729570
   },
   "queries": [
@@ -1139,6 +1139,20 @@
       "total_stars": 26412
     },
     {
+      "login": "bylickilabs",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=2d13983df655ce0530909c0b0759d067bbdba889&v=4",
+      "html_url": "https://github.com/bylickilabs",
+      "followers": 2364,
+      "following": 123,
+      "public_repos": 132,
+      "location": "Germany",
+      "bio": "I'm a Full-Stack Software Developer specializing in building secure, scalable software, browser-extensionss and modern high-quality websites for business.",
+      "company": null,
+      "created_at": "2022-07-14T18:18:12Z",
+      "total_stars": 112
+    },
+    {
       "login": "robb",
       "name": "Robb Böhnke",
       "avatar_url": "https://avatars.githubusercontent.com/u/212465?s=88&u=dee18920acd9d983519e245253bd289edb390f27&v=4",
@@ -1417,20 +1431,6 @@
       "company": "@8mylez ",
       "created_at": "2015-12-07T09:47:44Z",
       "total_stars": 193
-    },
-    {
-      "login": "honnibal",
-      "name": "Matthew Honnibal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8059750?s=88&u=4e5174a05523986c65fe62ee514a35499d94c084&v=4",
-      "html_url": "https://github.com/honnibal",
-      "followers": 2003,
-      "following": 6,
-      "public_repos": 19,
-      "location": "Berlin",
-      "bio": "Computational linguist from Sydney and Berlin. Author of the spaCy NLP library.",
-      "company": "Founder @explosion ",
-      "created_at": "2014-07-03T15:12:05Z",
-      "total_stars": 437
     }
   ],
   "orgs": [
@@ -1953,20 +1953,6 @@
       "total_stars": 501
     },
     {
-      "login": "mtdvio",
-      "name": "MTDV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33053074?s=88&v=4",
-      "html_url": "https://github.com/mtdvio",
-      "followers": 810,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Berlin",
-      "bio": "We help Software Engineers learn and grow!",
-      "company": null,
-      "created_at": "2017-10-24T07:58:34Z",
-      "total_stars": 102793
-    },
-    {
       "login": "hetznercloud",
       "name": "Hetzner Cloud",
       "avatar_url": "https://avatars.githubusercontent.com/u/22154697?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2016-09-12T17:07:15Z",
       "total_stars": 6793
+    },
+    {
+      "login": "mtdvio",
+      "name": "MTDV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33053074?s=88&v=4",
+      "html_url": "https://github.com/mtdvio",
+      "followers": 810,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Berlin",
+      "bio": "We help Software Engineers learn and grow!",
+      "company": null,
+      "created_at": "2017-10-24T07:58:34Z",
+      "total_stars": 102793
     },
     {
       "login": "FilenCloudDienste",
@@ -2429,20 +2429,6 @@
       "total_stars": 790
     },
     {
-      "login": "yjs",
-      "name": "Yjs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45042178?s=88&v=4",
-      "html_url": "https://github.com/yjs",
-      "followers": 505,
-      "following": 0,
-      "public_repos": 33,
-      "location": "Germany, Berlin",
-      "bio": "Shared Editing",
-      "company": null,
-      "created_at": "2018-11-14T15:33:35Z",
-      "total_stars": 26961
-    },
-    {
       "login": "telekom-security",
       "name": "Deutsche Telekom Security GmbH",
       "avatar_url": "https://avatars.githubusercontent.com/u/30164233?s=88&v=4",
@@ -2455,6 +2441,20 @@
       "company": null,
       "created_at": "2017-07-14T01:10:57Z",
       "total_stars": 9957
+    },
+    {
+      "login": "yjs",
+      "name": "Yjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45042178?s=88&v=4",
+      "html_url": "https://github.com/yjs",
+      "followers": 505,
+      "following": 0,
+      "public_repos": 33,
+      "location": "Germany, Berlin",
+      "bio": "Shared Editing",
+      "company": null,
+      "created_at": "2018-11-14T15:33:35Z",
+      "total_stars": 26961
     },
     {
       "login": "tum-vision",

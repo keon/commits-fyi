@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-06-26T08:38:12.540Z",
+  "generated_at": "2026-06-27T08:07:07.435Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1911,20 +1911,6 @@
       "total_stars": 7642
     },
     {
-      "login": "CanCLID",
-      "name": "粵語計算語言學基礎建設組 (CanCLID)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68556084?s=88&v=4",
-      "html_url": "https://github.com/CanCLID",
-      "followers": 195,
-      "following": 0,
-      "public_repos": 31,
-      "location": "Canton, Hong Kong, Naamning, San Francisco, Berlin",
-      "bio": "Cantonese Computational Linguistics Infrastructure Development Workgroup",
-      "company": null,
-      "created_at": "2020-07-20T15:49:07Z",
-      "total_stars": 651
-    },
-    {
       "login": "ecosia",
       "name": "Ecosia",
       "avatar_url": "https://avatars.githubusercontent.com/u/7389564?s=88&v=4",
@@ -1937,6 +1923,20 @@
       "company": null,
       "created_at": "2014-04-23T23:09:58Z",
       "total_stars": 147
+    },
+    {
+      "login": "CanCLID",
+      "name": "粵語計算語言學基礎建設組 (CanCLID)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68556084?s=88&v=4",
+      "html_url": "https://github.com/CanCLID",
+      "followers": 195,
+      "following": 0,
+      "public_repos": 31,
+      "location": "Canton, Hong Kong, Naamning, San Francisco, Berlin",
+      "bio": "Cantonese Computational Linguistics Infrastructure Development Workgroup",
+      "company": null,
+      "created_at": "2020-07-20T15:49:07Z",
+      "total_stars": 651
     },
     {
       "login": "pupil-labs",
@@ -2093,20 +2093,6 @@
       "total_stars": 314
     },
     {
-      "login": "TandoorRecipes",
-      "name": "Tandoor Recipes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86065214?s=88&v=4",
-      "html_url": "https://github.com/TandoorRecipes",
-      "followers": 164,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Berlin, Germany",
-      "bio": "Django application for managing recipes",
-      "company": null,
-      "created_at": "2021-06-17T14:43:23Z",
-      "total_stars": 8503
-    },
-    {
       "login": "technologiestiftung",
       "name": "Technologiestiftung Berlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/16606790?s=88&v=4",
@@ -2119,6 +2105,20 @@
       "company": null,
       "created_at": "2016-01-08T08:24:07Z",
       "total_stars": 430
+    },
+    {
+      "login": "TandoorRecipes",
+      "name": "Tandoor Recipes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86065214?s=88&v=4",
+      "html_url": "https://github.com/TandoorRecipes",
+      "followers": 164,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Berlin, Germany",
+      "bio": "Django application for managing recipes",
+      "company": null,
+      "created_at": "2021-06-17T14:43:23Z",
+      "total_stars": 8503
     },
     {
       "login": "theatre-js",
@@ -2795,6 +2795,25 @@
       "fork": false
     },
     {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & M",
+      "stargazers_count": 21896,
+      "forks_count": 2506,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "cybersecurity",
+        "incident-response",
+        "mitre-attack"
+      ],
+      "owner_login": "mukul975",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "lewagon/dotfiles",
       "html_url": "https://github.com/lewagon/dotfiles",
       "description": "Default configuration for Le Wagon's students",
@@ -3420,24 +3439,6 @@
       "owner_login": "jamwithai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/186450365?s=88&u=b997a5ab5180a919c0e8f2f544434d95a61117a5&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "weaveworks/weave",
-      "html_url": "https://github.com/weaveworks/weave",
-      "description": "Simple, resilient multi-host containers networking and more.",
-      "stargazers_count": 6614,
-      "forks_count": 676,
-      "language": "Go",
-      "topics": [
-        "kubernetes",
-        "container-networking",
-        "docker",
-        "go"
-      ],
-      "owner_login": "weaveworks",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9976052?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]

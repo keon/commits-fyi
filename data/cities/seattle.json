@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-06-26T08:36:55.730Z",
+  "generated_at": "2026-06-27T08:07:02.382Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 341104,
+    "user_followers": 341223,
     "org_followers": 240737,
-    "user_stars": 900058,
+    "user_stars": 908488,
     "org_stars": 2623807
   },
   "queries": [
@@ -957,20 +957,6 @@
       "total_stars": 5642
     },
     {
-      "login": "TimDettmers",
-      "name": "Tim Dettmers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5260050?s=88&v=4",
-      "html_url": "https://github.com/TimDettmers",
-      "followers": 1477,
-      "following": 0,
-      "public_repos": 34,
-      "location": "Seattle, USA",
-      "bio": null,
-      "company": "University of Washington",
-      "created_at": "2013-08-19T08:55:59Z",
-      "total_stars": 1239
-    },
-    {
       "login": "antiagainst",
       "name": "Lei Zhang",
       "avatar_url": "https://avatars.githubusercontent.com/u/487928?s=88&v=4",
@@ -983,6 +969,20 @@
       "company": "AMD AI Group",
       "created_at": "2010-11-19T03:04:10Z",
       "total_stars": 82
+    },
+    {
+      "login": "TimDettmers",
+      "name": "Tim Dettmers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5260050?s=88&v=4",
+      "html_url": "https://github.com/TimDettmers",
+      "followers": 1477,
+      "following": 0,
+      "public_repos": 34,
+      "location": "Seattle, USA",
+      "bio": null,
+      "company": "University of Washington",
+      "created_at": "2013-08-19T08:55:59Z",
+      "total_stars": 1239
     },
     {
       "login": "natemcmaster",
@@ -1024,7 +1024,7 @@
       "bio": "I built VS Code for 10 years, focusing on JS/TS tooling, Markdown support, Webviews, Copilot workspace knowledge, and various APIs",
       "company": "@anysphere ",
       "created_at": "2015-06-10T00:23:25Z",
-      "total_stars": 2422
+      "total_stars": 2423
     },
     {
       "login": "deltakosh",
@@ -1223,6 +1223,20 @@
       "total_stars": 430
     },
     {
+      "login": "kunchenguid",
+      "name": "Kun Chen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3233006?s=88&u=e75449df599483f43d86c0f499a6220ea0191c60&v=4",
+      "html_url": "https://github.com/kunchenguid",
+      "followers": 1262,
+      "following": 0,
+      "public_repos": 34,
+      "location": "Bellevue, WA",
+      "bio": "Member of the Technical Community. Former L8 engineer at Meta, Microsoft, Atlassian.",
+      "company": null,
+      "created_at": "2013-01-10T07:45:09Z",
+      "total_stars": 10220
+    },
+    {
       "login": "yasoob",
       "name": "M.Yasoob Ullah Khalid ☺",
       "avatar_url": "https://avatars.githubusercontent.com/u/3696393?s=88&u=91ddee8830e865087c169b239733593b96f54cee&v=4",
@@ -1417,20 +1431,6 @@
       "company": "Tencent AI Lab Seattle",
       "created_at": "2017-05-14T01:43:24Z",
       "total_stars": 2899
-    },
-    {
-      "login": "snakajima",
-      "name": "Satoshi Nakajima",
-      "avatar_url": "https://avatars.githubusercontent.com/u/139827?s=88&u=b72b05584a295eb44e0d0c5bf83b90d68321a81c&v=4",
-      "html_url": "https://github.com/snakajima",
-      "followers": 1143,
-      "following": 0,
-      "public_repos": 71,
-      "location": "Seattle WA, USA",
-      "bio": "Software Engineer &\r\nEntrepreneur",
-      "company": "graphAI, mulmocast",
-      "created_at": "2009-10-14T18:06:53Z",
-      "total_stars": 1791
     }
   ],
   "orgs": [
