@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-06-29T10:06:39.391Z",
+  "generated_at": "2026-06-30T08:39:06.419Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 132446,
+    "user_followers": 132541,
     "org_followers": 9038,
-    "user_stars": 540283,
+    "user_stars": 539685,
     "org_stars": 60782
   },
   "queries": [
@@ -1125,6 +1125,20 @@
       "total_stars": 2251
     },
     {
+      "login": "CooperSullivan-Dev",
+      "name": "Cooper Sullivan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219026430?s=88&u=7528b6fe4b2724f821d6bf06541b1b515b1aba2e&v=4",
+      "html_url": "https://github.com/CooperSullivan-Dev",
+      "followers": 480,
+      "following": 559,
+      "public_repos": 21,
+      "location": "Sydney, Australia 🇦🇺",
+      "bio": "Software Engineer | Python • JavaScript • HTML Building scalable web apps, automation tools, and clean user experiences.",
+      "company": "Vertex Digital Solutions",
+      "created_at": "2025-07-02T18:35:28Z",
+      "total_stars": 64
+    },
+    {
       "login": "datanerd",
       "name": "Andre Kolodochka",
       "avatar_url": "https://avatars.githubusercontent.com/u/59625655?s=88&u=f51af4469baa8b4dde3e28eb124299d89da1756b&v=4",
@@ -1417,20 +1431,6 @@
       "company": "@Rocket-Alumni-Solutions ",
       "created_at": "2013-09-02T23:29:31Z",
       "total_stars": 1212
-    },
-    {
-      "login": "gloveboxes",
-      "name": "Dave Glover",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9853509?s=88&u=f66b7e8e54a5a829b23a63910776351063cb64b2&v=4",
-      "html_url": "https://github.com/gloveboxes",
-      "followers": 385,
-      "following": 7,
-      "public_repos": 183,
-      "location": "Sydney Australia",
-      "bio": null,
-      "company": "Microsoft",
-      "created_at": "2014-11-19T23:31:41Z",
-      "total_stars": 662
     }
   ],
   "orgs": [
@@ -1897,20 +1897,6 @@
       "total_stars": 723
     },
     {
-      "login": "nearmap",
-      "name": "Nearmap",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6844767?s=88&v=4",
-      "html_url": "https://github.com/nearmap",
-      "followers": 53,
-      "following": 0,
-      "public_repos": 7,
-      "location": "Sydney, Australia",
-      "bio": "Nearmap brings the real world to you",
-      "company": null,
-      "created_at": "2014-03-03T22:51:34Z",
-      "total_stars": 19
-    },
-    {
       "login": "SlateScience",
       "name": "Matific",
       "avatar_url": "https://avatars.githubusercontent.com/u/2952506?s=88&v=4",
@@ -1923,6 +1909,20 @@
       "company": null,
       "created_at": "2012-12-03T14:32:52Z",
       "total_stars": 2
+    },
+    {
+      "login": "nearmap",
+      "name": "Nearmap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6844767?s=88&v=4",
+      "html_url": "https://github.com/nearmap",
+      "followers": 53,
+      "following": 0,
+      "public_repos": 7,
+      "location": "Sydney, Australia",
+      "bio": "Nearmap brings the real world to you",
+      "company": null,
+      "created_at": "2014-03-03T22:51:34Z",
+      "total_stars": 19
     },
     {
       "login": "Learnosity",
@@ -2401,20 +2401,6 @@
       "total_stars": 0
     },
     {
-      "login": "PawsForLife",
-      "name": "Pet Circle",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5011331?s=88&v=4",
-      "html_url": "https://github.com/PawsForLife",
-      "followers": 22,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Sydney, Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-07-15T07:52:55Z",
-      "total_stars": 0
-    },
-    {
       "login": "UNSW-codeRs",
       "name": "UNSW codeRs",
       "avatar_url": "https://avatars.githubusercontent.com/u/85528967?s=88&v=4",
@@ -2427,6 +2413,20 @@
       "company": null,
       "created_at": "2021-06-07T23:03:59Z",
       "total_stars": 25
+    },
+    {
+      "login": "PawsForLife",
+      "name": "Pet Circle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5011331?s=88&v=4",
+      "html_url": "https://github.com/PawsForLife",
+      "followers": 22,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Sydney, Australia",
+      "bio": null,
+      "company": null,
+      "created_at": "2013-07-15T07:52:55Z",
+      "total_stars": 0
     },
     {
       "login": "4dsystems",
@@ -2471,20 +2471,6 @@
       "total_stars": 13
     },
     {
-      "login": "InDebted",
-      "name": "InDebted",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17794454?s=88&v=4",
-      "html_url": "https://github.com/InDebted",
-      "followers": 21,
-      "following": 0,
-      "public_repos": 4,
-      "location": "Sydney",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-03-12T06:20:15Z",
-      "total_stars": 3
-    },
-    {
       "login": "PropicSignifi",
       "name": "Propic Pty Ltd",
       "avatar_url": "https://avatars.githubusercontent.com/u/38771225?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2018-04-26T23:44:47Z",
       "total_stars": 532
+    },
+    {
+      "login": "InDebted",
+      "name": "InDebted",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17794454?s=88&v=4",
+      "html_url": "https://github.com/InDebted",
+      "followers": 21,
+      "following": 0,
+      "public_repos": 4,
+      "location": "Sydney",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-03-12T06:20:15Z",
+      "total_stars": 3
     },
     {
       "login": "cdginteractive",

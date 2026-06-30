@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-06-29T10:02:42.246Z",
+  "generated_at": "2026-06-30T08:38:15.133Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 428262,
     "org_followers": 69788,
     "user_stars": 1320128,
-    "org_stars": 678801
+    "org_stars": 679757
   },
   "queries": [
     {
@@ -999,20 +999,6 @@
       "total_stars": 17215
     },
     {
-      "login": "valeman",
-      "name": "valeman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26203246?s=88&u=76fc841b27850920ead8fb592347f826533c2cd9&v=4",
-      "html_url": "https://github.com/valeman",
-      "followers": 1840,
-      "following": 256,
-      "public_repos": 59,
-      "location": "London, UK",
-      "bio": "Machine Learning | Probabilistic Prediction | Time-series | Systematic Trading | Forecasting Innovation  | Creator of Awesome Conformal Prediction",
-      "company": "Big Business",
-      "created_at": "2017-03-05T15:55:12Z",
-      "total_stars": 9409
-    },
-    {
       "login": "kitten",
       "name": "Phil Pluckthun",
       "avatar_url": "https://avatars.githubusercontent.com/u/2041385?s=88&u=3de3fa3d7713ac7b914dc7cd3dbcd7453a0cf18e&v=4",
@@ -1025,6 +1011,20 @@
       "company": "@expo",
       "created_at": "2012-07-25T16:05:16Z",
       "total_stars": 2742
+    },
+    {
+      "login": "valeman",
+      "name": "valeman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26203246?s=88&u=76fc841b27850920ead8fb592347f826533c2cd9&v=4",
+      "html_url": "https://github.com/valeman",
+      "followers": 1840,
+      "following": 256,
+      "public_repos": 59,
+      "location": "London, UK",
+      "bio": "Machine Learning | Probabilistic Prediction | Time-series | Systematic Trading | Forecasting Innovation  | Creator of Awesome Conformal Prediction",
+      "company": "Big Business",
+      "created_at": "2017-03-05T15:55:12Z",
+      "total_stars": 9409
     },
     {
       "login": "derickr",
@@ -2527,20 +2527,6 @@
       "total_stars": 3912
     },
     {
-      "login": "codecourse",
-      "name": "codecourse",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7996198?s=88&v=4",
-      "html_url": "https://github.com/codecourse",
-      "followers": 139,
-      "following": 0,
-      "public_repos": 204,
-      "location": "London, UK",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-06-26T12:58:34Z",
-      "total_stars": 364
-    },
-    {
       "login": "cog-imperial",
       "name": "C⚙G - Imperial College London",
       "avatar_url": "https://avatars.githubusercontent.com/u/30658188?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2017-08-02T12:41:04Z",
       "total_stars": 699
+    },
+    {
+      "login": "XTXMarkets",
+      "name": "XTX Markets",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12765897?s=88&v=4",
+      "html_url": "https://github.com/XTXMarkets",
+      "followers": 139,
+      "following": 0,
+      "public_repos": 1,
+      "location": "London, UK",
+      "bio": "We are a leading algorithmic trading company partnering with clients, exchanges and e-trading venues globally to provide liquidity across asset classes.",
+      "company": null,
+      "created_at": "2015-06-05T17:16:52Z",
+      "total_stars": 1320
     }
   ],
   "repos": [

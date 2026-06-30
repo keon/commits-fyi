@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "China",
   "slug": "china",
-  "generated_at": "2026-06-29T10:08:27.241Z",
+  "generated_at": "2026-06-30T08:40:05.574Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1233098,
-    "org_followers": 218791,
+    "org_followers": 218793,
     "user_stars": 4335695,
-    "org_stars": 4097519
+    "org_stars": 4063509
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 9095
     },
     {
-      "login": "halo-dev",
-      "name": "Halo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48195280?s=88&v=4",
-      "html_url": "https://github.com/halo-dev",
-      "followers": 794,
+      "login": "tsinghua-fib-lab",
+      "name": "FIB LAB, Tsinghua University",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79122455?s=88&v=4",
+      "html_url": "https://github.com/tsinghua-fib-lab",
+      "followers": 796,
       "following": 0,
-      "public_repos": 56,
-      "location": "China",
-      "bio": "强大易用的开源建站工具。",
+      "public_repos": 271,
+      "location": "Tsinghua University, Beijing, China",
+      "bio": null,
       "company": null,
-      "created_at": "2019-03-04T03:46:59Z",
-      "total_stars": 41316
+      "created_at": "2021-02-16T01:20:10Z",
+      "total_stars": 7306
     }
   ],
   "repos": [
@@ -3121,25 +3121,6 @@
       "fork": false
     },
     {
-      "full_name": "halo-dev/halo",
-      "html_url": "https://github.com/halo-dev/halo",
-      "description": "Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。",
-      "stargazers_count": 39166,
-      "forks_count": 10312,
-      "language": "Java",
-      "topics": [
-        "halo",
-        "cms",
-        "halocms",
-        "content-management-system",
-        "blog"
-      ],
-      "owner_login": "halo-dev",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/48195280?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "ant-design/ant-design-pro",
       "html_url": "https://github.com/ant-design/ant-design-pro",
       "description": "👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!",
@@ -3464,6 +3445,23 @@
       ],
       "owner_login": "mqyqingfeng",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/11458263?s=88&u=8abd594f236f381da9cbe70bade832663ecb4bd0&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "ascoders/weekly",
+      "html_url": "https://github.com/ascoders/weekly",
+      "description": "前端精读周刊。帮你理解最前沿、实用的技术。",
+      "stargazers_count": 31004,
+      "forks_count": 3258,
+      "language": "JavaScript",
+      "topics": [
+        "weekly",
+        "frontend",
+        "awesome"
+      ],
+      "owner_login": "ascoders",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7970947?s=88&u=730a8387e8cd0725e005f4bedb868efdd627c06d&v=4",
       "owner_type": "User",
       "fork": false
     }
