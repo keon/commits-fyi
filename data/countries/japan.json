@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Japan",
   "slug": "japan",
-  "generated_at": "2026-06-30T08:40:08.863Z",
+  "generated_at": "2026-07-01T08:58:31.882Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 376929,
+    "user_followers": 377560,
     "org_followers": 38193,
-    "user_stars": 1195592,
+    "user_stars": 1203680,
     "org_stars": 470501
   },
   "queries": [
@@ -747,6 +747,20 @@
       "total_stars": 1327
     },
     {
+      "login": "5ec1cff",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/56485584?s=88&u=54df6833c4e71f73c7f86a785eedd387758a789b&v=4",
+      "html_url": "https://github.com/5ec1cff",
+      "followers": 2004,
+      "following": 38,
+      "public_repos": 42,
+      "location": "ANON TOKYO",
+      "bio": null,
+      "company": "NJUPT",
+      "created_at": "2019-10-12T17:29:42Z",
+      "total_stars": 9485
+    },
+    {
       "login": "brettwooldridge",
       "name": "Brett Wooldridge",
       "avatar_url": "https://avatars.githubusercontent.com/u/1538661?s=88&u=283f28d238d11dbbb471c07c76a29543acbd77a1&v=4",
@@ -1207,20 +1221,6 @@
       "company": "Towersquest Inc.",
       "created_at": "2008-08-07T12:12:06Z",
       "total_stars": 805
-    },
-    {
-      "login": "planetchili",
-      "name": "chili",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7800662?s=88&u=9e81f2cbc795e5278e3598f59a5c99c728e60b45&v=4",
-      "html_url": "https://github.com/planetchili",
-      "followers": 1373,
-      "following": 2,
-      "public_repos": 41,
-      "location": "Japan",
-      "bio": null,
-      "company": "Planet Chili",
-      "created_at": "2014-06-05T02:23:46Z",
-      "total_stars": 1397
     },
     {
       "login": "hecomi",
@@ -2373,20 +2373,6 @@
       "total_stars": 6824
     },
     {
-      "login": "shinonome-inc",
-      "name": "Shinonome, inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23450500?s=88&v=4",
-      "html_url": "https://github.com/shinonome-inc",
-      "followers": 159,
-      "following": 0,
-      "public_repos": 271,
-      "location": "Tokyo, Japan",
-      "bio": "Providing a educational plugin for the university.",
-      "company": null,
-      "created_at": "2016-11-14T10:06:56Z",
-      "total_stars": 43
-    },
-    {
       "login": "kufu",
       "name": "SmartHR, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/6356728?s=88&v=4",
@@ -2399,6 +2385,20 @@
       "company": null,
       "created_at": "2014-01-09T06:50:34Z",
       "total_stars": 2028
+    },
+    {
+      "login": "shinonome-inc",
+      "name": "Shinonome, inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23450500?s=88&v=4",
+      "html_url": "https://github.com/shinonome-inc",
+      "followers": 159,
+      "following": 0,
+      "public_repos": 271,
+      "location": "Tokyo, Japan",
+      "bio": "Providing a educational plugin for the university.",
+      "company": null,
+      "created_at": "2016-11-14T10:06:56Z",
+      "total_stars": 43
     },
     {
       "login": "aotenjo-xyz",

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-06-30T08:40:02.816Z",
+  "generated_at": "2026-07-01T08:58:26.490Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 303741,
-    "org_followers": 121926,
+    "org_followers": 121928,
     "user_stars": 1222499,
-    "org_stars": 1436654
+    "org_stars": 1437771
   },
   "queries": [
     {
@@ -2527,6 +2527,20 @@
       "total_stars": 1594
     },
     {
+      "login": "IGNF",
+      "name": "Institut National de l'Information Géographique et Forestière",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7152524?s=88&v=4",
+      "html_url": "https://github.com/IGNF",
+      "followers": 267,
+      "following": 0,
+      "public_repos": 180,
+      "location": "Saint Mandé, France",
+      "bio": "Accompagne les politiques publiques en produisant des bases de données d’information géographique et des outils numériques. @iTowns, @rok4, @micmacign ...",
+      "company": null,
+      "created_at": "2014-04-03T16:36:07Z",
+      "total_stars": 1165
+    },
+    {
       "login": "stimulus-components",
       "name": "Stimulus components",
       "avatar_url": "https://avatars.githubusercontent.com/u/72915408?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2020-10-15T09:01:41Z",
       "total_stars": 2271
-    },
-    {
-      "login": "MyProfile",
-      "name": "MyProfile Project",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1371236?s=88&v=4",
-      "html_url": "https://github.com/MyProfile",
-      "followers": 265,
-      "following": 0,
-      "public_repos": 4,
-      "location": "France",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-01-23T15:46:06Z",
-      "total_stars": 48
     }
   ],
   "repos": [
