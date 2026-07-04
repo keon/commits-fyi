@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-07-03T08:34:04.407Z",
+  "generated_at": "2026-07-04T08:06:29.100Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 132629,
-    "org_followers": 9067,
-    "user_stars": 538991,
-    "org_stars": 60812
+    "org_followers": 9068,
+    "user_stars": 538998,
+    "org_stars": 60654
   },
   "queries": [
     {
@@ -1111,20 +1111,6 @@
       "total_stars": 270
     },
     {
-      "login": "CooperSullivan-Dev",
-      "name": "Cooper Sullivan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/219026430?s=88&u=7528b6fe4b2724f821d6bf06541b1b515b1aba2e&v=4",
-      "html_url": "https://github.com/CooperSullivan-Dev",
-      "followers": 480,
-      "following": 559,
-      "public_repos": 21,
-      "location": "Sydney, Australia 🇦🇺",
-      "bio": "Software Engineer | Python • JavaScript • HTML Building scalable web apps, automation tools, and clean user experiences.",
-      "company": "Vertex Digital Solutions",
-      "created_at": "2025-07-02T18:35:28Z",
-      "total_stars": 64
-    },
-    {
       "login": "pentestfunctions",
       "name": "Opabinia",
       "avatar_url": "https://avatars.githubusercontent.com/u/144001335?s=88&u=0a4453a9a9cef38ca92dfc9b0de4f11853c81853&v=4",
@@ -1137,6 +1123,20 @@
       "company": "COO @ Hacknexus",
       "created_at": "2023-09-04T07:48:43Z",
       "total_stars": 2251
+    },
+    {
+      "login": "CooperSullivan-Dev",
+      "name": "Cooper Sullivan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219026430?s=88&u=7528b6fe4b2724f821d6bf06541b1b515b1aba2e&v=4",
+      "html_url": "https://github.com/CooperSullivan-Dev",
+      "followers": 480,
+      "following": 559,
+      "public_repos": 21,
+      "location": "Sydney, Australia 🇦🇺",
+      "bio": "Software Engineer | Python • JavaScript • HTML Building scalable web apps, automation tools, and clean user experiences.",
+      "company": "Vertex Digital Solutions",
+      "created_at": "2025-07-02T18:35:28Z",
+      "total_stars": 71
     },
     {
       "login": "datanerd",
@@ -2499,6 +2499,20 @@
       "total_stars": 3
     },
     {
+      "login": "dual-grp",
+      "name": "Distributed compUting, optimizAtion, and Learning (DUAL) group at USyd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76888864?s=88&v=4",
+      "html_url": "https://github.com/dual-grp",
+      "followers": 21,
+      "following": 0,
+      "public_repos": 16,
+      "location": "The University of Sydney",
+      "bio": null,
+      "company": null,
+      "created_at": "2021-01-03T00:07:23Z",
+      "total_stars": 57
+    },
+    {
       "login": "cdginteractive",
       "name": "CoverMore",
       "avatar_url": "https://avatars.githubusercontent.com/u/6184906?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2020-08-12T06:01:45Z",
       "total_stars": 71
-    },
-    {
-      "login": "qpv-research-group",
-      "name": "Quantum Photovoltaics Research Group",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48552948?s=88&v=4",
-      "html_url": "https://github.com/qpv-research-group",
-      "followers": 20,
-      "following": 0,
-      "public_repos": 9,
-      "location": "UNSW (Sydney, Australia) and Imperial College London (UK) until 2017",
-      "bio": "We are a research group led by Dr. Nicholas Ekins-Daukes and specialized in the application of nanotechnology to achieve high efficiency solar cells",
-      "company": null,
-      "created_at": "2019-03-14T10:48:28Z",
-      "total_stars": 215
     }
   ],
   "repos": [

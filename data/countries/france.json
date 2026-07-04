@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-07-03T08:34:47.628Z",
+  "generated_at": "2026-07-04T08:07:24.628Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 303924,
     "org_followers": 122203,
     "user_stars": 1223664,
-    "org_stars": 1440704
+    "org_stars": 1441154
   },
   "queries": [
     {
@@ -2513,20 +2513,6 @@
       "total_stars": 2106
     },
     {
-      "login": "kkrt-labs",
-      "name": "Kakarot Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115784313?s=88&v=4",
-      "html_url": "https://github.com/kkrt-labs",
-      "followers": 267,
-      "following": 0,
-      "public_repos": 30,
-      "location": "France",
-      "bio": "Building a real-time Ethereum Proving Engine",
-      "company": null,
-      "created_at": "2022-10-14T08:56:03Z",
-      "total_stars": 1593
-    },
-    {
       "login": "IGNF",
       "name": "Institut National de l'Information Géographique et Forestière",
       "avatar_url": "https://avatars.githubusercontent.com/u/7152524?s=88&v=4",
@@ -2541,18 +2527,32 @@
       "total_stars": 1165
     },
     {
-      "login": "stimulus-components",
-      "name": "Stimulus components",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72915408?s=88&v=4",
-      "html_url": "https://github.com/stimulus-components",
+      "login": "kkrt-labs",
+      "name": "Kakarot Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115784313?s=88&v=4",
+      "html_url": "https://github.com/kkrt-labs",
       "followers": 267,
       "following": 0,
-      "public_repos": 31,
+      "public_repos": 30,
       "location": "France",
-      "bio": "Stimulus controllers library. Configurable and customizable components for common JavaScript behavior. ",
+      "bio": "Building a real-time Ethereum Proving Engine",
       "company": null,
-      "created_at": "2020-10-15T09:01:41Z",
-      "total_stars": 2272
+      "created_at": "2022-10-14T08:56:03Z",
+      "total_stars": 1593
+    },
+    {
+      "login": "FuzzingLabs",
+      "name": "FuzzingLabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68244945?s=88&v=4",
+      "html_url": "https://github.com/FuzzingLabs",
+      "followers": 267,
+      "following": 0,
+      "public_repos": 17,
+      "location": "France",
+      "bio": "Research-oriented cybersecurity company specializing in AppSec, Vulnerability Research, Fuzzing and Offensive security.​",
+      "company": null,
+      "created_at": "2020-07-13T17:40:04Z",
+      "total_stars": 2722
     }
   ],
   "repos": [

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-07-03T08:31:31.357Z",
+  "generated_at": "2026-07-04T08:05:39.178Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -719,20 +719,6 @@
       "total_stars": 40307
     },
     {
-      "login": "frozeman",
-      "name": "Fabian Vogelsteller",
-      "avatar_url": "https://avatars.githubusercontent.com/u/232662?s=88&u=d4221251fe93c55da1fbf4761a91bffd8467f137&v=4",
-      "html_url": "https://github.com/frozeman",
-      "followers": 1917,
-      "following": 8,
-      "public_repos": 63,
-      "location": "Berlin, Germany",
-      "bio": "LUKSO Founder,\r\nEthereum developer, creator of the Mist browser, web3.js and ERC20. Author of a Meteor.js book and creator of the feindura - flat file CMS",
-      "company": "LUKSO",
-      "created_at": "2010-03-29T15:09:24Z",
-      "total_stars": 697
-    },
-    {
       "login": "TejasQ",
       "name": "Tejas Kumar",
       "avatar_url": "https://avatars.githubusercontent.com/u/9947422?s=88&u=69b364df33fc08fd6d1610b8a10987e8690d5804&v=4",
@@ -745,6 +731,20 @@
       "company": null,
       "created_at": "2014-11-25T13:12:53Z",
       "total_stars": 1927
+    },
+    {
+      "login": "frozeman",
+      "name": "Fabian Vogelsteller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/232662?s=88&u=d4221251fe93c55da1fbf4761a91bffd8467f137&v=4",
+      "html_url": "https://github.com/frozeman",
+      "followers": 1917,
+      "following": 8,
+      "public_repos": 63,
+      "location": "Berlin, Germany",
+      "bio": "LUKSO Founder,\r\nEthereum developer, creator of the Mist browser, web3.js and ERC20. Author of a Meteor.js book and creator of the feindura - flat file CMS",
+      "company": "LUKSO",
+      "created_at": "2010-03-29T15:09:24Z",
+      "total_stars": 697
     },
     {
       "login": "hynek",
@@ -1799,20 +1799,6 @@
       "total_stars": 1340
     },
     {
-      "login": "cables-gl",
-      "name": "cables",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22891012?s=88&v=4",
-      "html_url": "https://github.com/cables-gl",
-      "followers": 230,
-      "following": 0,
-      "public_repos": 21,
-      "location": "Berlin, Germany",
-      "bio": "cables is visual programming in your browser",
-      "company": null,
-      "created_at": "2016-10-17T15:01:28Z",
-      "total_stars": 1076
-    },
-    {
       "login": "robert-koch-institut",
       "name": "Robert Koch-Institut",
       "avatar_url": "https://avatars.githubusercontent.com/u/12845192?s=88&v=4",
@@ -1825,6 +1811,20 @@
       "company": null,
       "created_at": "2015-06-11T12:19:24Z",
       "total_stars": 659
+    },
+    {
+      "login": "cables-gl",
+      "name": "cables",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22891012?s=88&v=4",
+      "html_url": "https://github.com/cables-gl",
+      "followers": 230,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Berlin, Germany",
+      "bio": "cables is visual programming in your browser",
+      "company": null,
+      "created_at": "2016-10-17T15:01:28Z",
+      "total_stars": 1076
     },
     {
       "login": "traderepublic",
@@ -2738,6 +2738,25 @@
       "fork": false
     },
     {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & M",
+      "stargazers_count": 24232,
+      "forks_count": 2753,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "cybersecurity",
+        "incident-response",
+        "mitre-attack"
+      ],
+      "owner_login": "mukul975",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "lukasmasuch/best-of-ml-python",
       "html_url": "https://github.com/lukasmasuch/best-of-ml-python",
       "description": "🏆 A ranked list of awesome machine learning Python libraries. Updated weekly.",
@@ -2753,25 +2772,6 @@
       ],
       "owner_login": "lukasmasuch",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2852129?s=88&u=632d8fd8bdbfa336a8fee857d97e4d6890e2c340&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & M",
-      "stargazers_count": 23236,
-      "forks_count": 2637,
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "cybersecurity",
-        "incident-response",
-        "mitre-attack"
-      ],
-      "owner_login": "mukul975",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
       "owner_type": "User",
       "fork": false
     },

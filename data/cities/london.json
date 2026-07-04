@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-07-03T08:31:11.011Z",
+  "generated_at": "2026-07-04T08:05:37.185Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 428672,
-    "org_followers": 69959,
+    "org_followers": 69960,
     "user_stars": 1324765,
-    "org_stars": 680784
+    "org_stars": 680786
   },
   "queries": [
     {
@@ -2499,20 +2499,6 @@
       "total_stars": 91
     },
     {
-      "login": "SamsungInternet",
-      "name": "Samsung Internet Dev Rel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21077792?s=88&v=4",
-      "html_url": "https://github.com/SamsungInternet",
-      "followers": 140,
-      "following": 0,
-      "public_repos": 102,
-      "location": "London",
-      "bio": "Code Examples and Stuff From the Samsung Internet Dev Rel Team",
-      "company": null,
-      "created_at": "2016-08-17T08:56:53Z",
-      "total_stars": 861
-    },
-    {
       "login": "esl",
       "name": "Erlang Solutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/283412?s=88&v=4",
@@ -2527,6 +2513,34 @@
       "total_stars": 3913
     },
     {
+      "login": "XTXMarkets",
+      "name": "XTX Markets",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12765897?s=88&v=4",
+      "html_url": "https://github.com/XTXMarkets",
+      "followers": 140,
+      "following": 0,
+      "public_repos": 1,
+      "location": "London, UK",
+      "bio": "We are a leading algorithmic trading company partnering with clients, exchanges and e-trading venues globally to provide liquidity across asset classes.",
+      "company": null,
+      "created_at": "2015-06-05T17:16:52Z",
+      "total_stars": 1322
+    },
+    {
+      "login": "SamsungInternet",
+      "name": "Samsung Internet Dev Rel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21077792?s=88&v=4",
+      "html_url": "https://github.com/SamsungInternet",
+      "followers": 140,
+      "following": 0,
+      "public_repos": 102,
+      "location": "London",
+      "bio": "Code Examples and Stuff From the Samsung Internet Dev Rel Team",
+      "company": null,
+      "created_at": "2016-08-17T08:56:53Z",
+      "total_stars": 861
+    },
+    {
       "login": "cog-imperial",
       "name": "C⚙G - Imperial College London",
       "avatar_url": "https://avatars.githubusercontent.com/u/30658188?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-08-02T12:41:04Z",
       "total_stars": 699
-    },
-    {
-      "login": "XTXMarkets",
-      "name": "XTX Markets",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12765897?s=88&v=4",
-      "html_url": "https://github.com/XTXMarkets",
-      "followers": 139,
-      "following": 0,
-      "public_repos": 1,
-      "location": "London, UK",
-      "bio": "We are a leading algorithmic trading company partnering with clients, exchanges and e-trading venues globally to provide liquidity across asset classes.",
-      "company": null,
-      "created_at": "2015-06-05T17:16:52Z",
-      "total_stars": 1320
     }
   ],
   "repos": [

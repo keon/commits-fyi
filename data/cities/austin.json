@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-07-03T08:30:30.987Z",
+  "generated_at": "2026-07-04T08:05:33.816Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 161687,
-    "org_followers": 34991,
+    "org_followers": 34992,
     "user_stars": 519953,
-    "org_stars": 379882
+    "org_stars": 379886
   },
   "queries": [
     {
@@ -1523,14 +1523,14 @@
       "name": "Digilent",
       "avatar_url": "https://avatars.githubusercontent.com/u/977222?s=88&v=4",
       "html_url": "https://github.com/Digilent",
-      "followers": 701,
+      "followers": 702,
       "following": 0,
       "public_repos": 296,
       "location": "Austin, TX",
       "bio": "The Official Digilent Github Account!",
       "company": null,
       "created_at": "2011-08-13T02:34:43Z",
-      "total_stars": 2442
+      "total_stars": 2446
     },
     {
       "login": "opencomputeproject",
@@ -2443,20 +2443,6 @@
       "total_stars": 57
     },
     {
-      "login": "UTNuclearRoboticsPublic",
-      "name": "UTexas Nuclear and Applied Robotics Group (Public)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17728422?s=88&v=4",
-      "html_url": "https://github.com/UTNuclearRoboticsPublic",
-      "followers": 43,
-      "following": 0,
-      "public_repos": 75,
-      "location": "Austin, TX",
-      "bio": "University of Texas Nuclear and Applied Robotics Group, Public Repos",
-      "company": null,
-      "created_at": "2016-03-08T17:14:40Z",
-      "total_stars": 298
-    },
-    {
       "login": "auctane",
       "name": "Auctane",
       "avatar_url": "https://avatars.githubusercontent.com/u/75508638?s=88&v=4",
@@ -2469,6 +2455,20 @@
       "company": null,
       "created_at": "2020-12-05T00:06:46Z",
       "total_stars": 0
+    },
+    {
+      "login": "UTNuclearRoboticsPublic",
+      "name": "UTexas Nuclear and Applied Robotics Group (Public)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17728422?s=88&v=4",
+      "html_url": "https://github.com/UTNuclearRoboticsPublic",
+      "followers": 43,
+      "following": 0,
+      "public_repos": 75,
+      "location": "Austin, TX",
+      "bio": "University of Texas Nuclear and Applied Robotics Group, Public Repos",
+      "company": null,
+      "created_at": "2016-03-08T17:14:40Z",
+      "total_stars": 298
     },
     {
       "login": "INTERA-Inc",

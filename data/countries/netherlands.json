@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-07-03T08:35:00.288Z",
+  "generated_at": "2026-07-04T08:07:26.303Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2628,6 +2628,24 @@
       "fork": false
     },
     {
+      "full_name": "juanfont/headscale",
+      "html_url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "stargazers_count": 40952,
+      "forks_count": 2255,
+      "language": "Go",
+      "topics": [
+        "tailscale",
+        "tailscale-control-server",
+        "wireguard",
+        "tailscale-server"
+      ],
+      "owner_login": "juanfont",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/181059?s=88&u=56e87e3bf1145a99035e3ef576bc8c099214ac70&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "duckdb/duckdb",
       "html_url": "https://github.com/duckdb/duckdb",
       "description": "DuckDB is an analytical in-process SQL database management system",
@@ -3413,25 +3431,6 @@
       ],
       "owner_login": "terrakok",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3532155?s=88&u=3ad655396658fe24e972802416cb431212a6c437&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "lauragift21/awesome-learning-resources",
-      "html_url": "https://github.com/lauragift21/awesome-learning-resources",
-      "description": "🔥 Awesome list of resources on Web Development.",
-      "stargazers_count": 5747,
-      "forks_count": 838,
-      "language": null,
-      "topics": [
-        "open-source",
-        "css",
-        "vue",
-        "javascript",
-        "awesome-list"
-      ],
-      "owner_login": "lauragift21",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17781315?s=88&u=135a419d7a02c75230ccd5d18f12c01d79031f3c&v=4",
       "owner_type": "User",
       "fork": false
     }
