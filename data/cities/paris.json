@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-07-04T08:06:20.733Z",
+  "generated_at": "2026-07-05T08:19:49.288Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 197628,
     "org_followers": 96303,
     "user_stars": 842965,
-    "org_stars": 1095628
+    "org_stars": 1096007
   },
   "queries": [
     {
@@ -2527,6 +2527,20 @@
       "total_stars": 2252
     },
     {
+      "login": "CEA-LIST",
+      "name": "CEA-List",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24958773?s=88&v=4",
+      "html_url": "https://github.com/CEA-LIST",
+      "followers": 83,
+      "following": 0,
+      "public_repos": 70,
+      "location": "CEA Paris-Saclay - Nano-Innov",
+      "bio": "Smart digital systems for Artificial intelligence, Factory of the Future and Digital Trust",
+      "company": null,
+      "created_at": "2017-01-06T12:50:46Z",
+      "total_stars": 971
+    },
+    {
       "login": "1024pix",
       "name": "Pix",
       "avatar_url": "https://avatars.githubusercontent.com/u/24589578?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2016-12-15T14:16:16Z",
       "total_stars": 400
-    },
-    {
-      "login": "swan-io",
-      "name": "Swan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47886602?s=88&v=4",
-      "html_url": "https://github.com/swan-io",
-      "followers": 83,
-      "following": 0,
-      "public_repos": 17,
-      "location": "Paris",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-02-22T10:08:25Z",
-      "total_stars": 592
     }
   ],
   "repos": [
