@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-07-06T09:19:56.476Z",
+  "generated_at": "2026-07-07T08:46:13.740Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 573148,
-    "org_followers": 150699,
+    "org_followers": 150727,
     "user_stars": 1181657,
-    "org_stars": 1044276
+    "org_stars": 1041531
   },
   "queries": [
     {
@@ -1911,20 +1911,6 @@
       "total_stars": 350
     },
     {
-      "login": "mosip",
-      "name": "Modular Open Source Identity Platform",
-      "avatar_url": "https://avatars.githubusercontent.com/u/39733477?s=88&v=4",
-      "html_url": "https://github.com/mosip",
-      "followers": 592,
-      "following": 0,
-      "public_repos": 103,
-      "location": "IIITB, Bangalore",
-      "bio": "An open source platform on which national foundational IDs are built",
-      "company": null,
-      "created_at": "2018-05-29T12:29:22Z",
-      "total_stars": 356
-    },
-    {
       "login": "sarvamai",
       "name": "sarvam.ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/139587482?s=88&v=4",
@@ -1937,6 +1923,20 @@
       "company": null,
       "created_at": "2023-07-14T19:38:41Z",
       "total_stars": 340
+    },
+    {
+      "login": "mosip",
+      "name": "Modular Open Source Identity Platform",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39733477?s=88&v=4",
+      "html_url": "https://github.com/mosip",
+      "followers": 592,
+      "following": 0,
+      "public_repos": 103,
+      "location": "IIITB, Bangalore",
+      "bio": "An open source platform on which national foundational IDs are built",
+      "company": null,
+      "created_at": "2018-05-29T12:29:22Z",
+      "total_stars": 356
     },
     {
       "login": "CodeForGoodTech",
@@ -2457,6 +2457,20 @@
       "total_stars": 24
     },
     {
+      "login": "enginow-in",
+      "name": "Enginow",
+      "avatar_url": "https://avatars.githubusercontent.com/u/244127473?s=88&v=4",
+      "html_url": "https://github.com/enginow-in",
+      "followers": 326,
+      "following": 0,
+      "public_repos": 1,
+      "location": "India",
+      "bio": "Learn Fast, Understand Better ! ",
+      "company": null,
+      "created_at": "2025-11-15T05:03:11Z",
+      "total_stars": 27
+    },
+    {
       "login": "EchoMusicApp",
       "name": "Echo Music",
       "avatar_url": "https://avatars.githubusercontent.com/u/258176326?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2022-10-03T05:00:38Z",
       "total_stars": 499
-    },
-    {
-      "login": "qxresearch",
-      "name": "qxresearch",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68302830?s=88&v=4",
-      "html_url": "https://github.com/qxresearch",
-      "followers": 298,
-      "following": 0,
-      "public_repos": 9,
-      "location": "India",
-      "bio": "Independent AI research and open-source platform focused on dissecting neural architectures, advanced Python algorithms and ML mathematics. Maintainer @xiaowuc2",
-      "company": null,
-      "created_at": "2020-07-14T21:01:37Z",
-      "total_stars": 2772
     }
   ],
   "repos": [
