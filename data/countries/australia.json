@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Australia",
   "slug": "australia",
-  "generated_at": "2026-07-07T08:47:22.568Z",
+  "generated_at": "2026-07-08T07:44:33.868Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 259026,
-    "org_followers": 37746,
+    "org_followers": 37747,
     "user_stars": 943918,
-    "org_stars": 450756
+    "org_stars": 454725
   },
   "queries": [
     {
@@ -747,20 +747,6 @@
       "total_stars": 1765
     },
     {
-      "login": "haskellcamargo",
-      "name": "Marcelo Camargo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7553006?s=88&u=aac63dcb5cb7391bea184aab57af8cf3731f6069&v=4",
-      "html_url": "https://github.com/haskellcamargo",
-      "followers": 1613,
-      "following": 204,
-      "public_repos": 64,
-      "location": "Sydney, Australia",
-      "bio": "Porch goose",
-      "company": "@Canva",
-      "created_at": "2014-05-12T02:22:06Z",
-      "total_stars": 6183
-    },
-    {
       "login": "kimman8",
       "name": "Kim",
       "avatar_url": "https://avatars.githubusercontent.com/u/40331446?s=88&u=1d77de79d2e1833224860013500d5b43675adb33&v=4",
@@ -773,6 +759,20 @@
       "company": "Frontend Developer",
       "created_at": "2018-06-17T06:42:39Z",
       "total_stars": 123
+    },
+    {
+      "login": "haskellcamargo",
+      "name": "Marcelo Camargo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7553006?s=88&u=aac63dcb5cb7391bea184aab57af8cf3731f6069&v=4",
+      "html_url": "https://github.com/haskellcamargo",
+      "followers": 1613,
+      "following": 204,
+      "public_repos": 64,
+      "location": "Sydney, Australia",
+      "bio": "Porch goose",
+      "company": "@Canva",
+      "created_at": "2014-05-12T02:22:06Z",
+      "total_stars": 6183
     },
     {
       "login": "geelen",
@@ -2373,6 +2373,20 @@
       "total_stars": 0
     },
     {
+      "login": "YarnSpinnerTool",
+      "name": "Yarn Spinner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55043536?s=88&v=4",
+      "html_url": "https://github.com/YarnSpinnerTool",
+      "followers": 168,
+      "following": 0,
+      "public_repos": 26,
+      "location": "Australia",
+      "bio": "Narrative tools for game development.",
+      "company": null,
+      "created_at": "2019-09-08T06:07:42Z",
+      "total_stars": 4452
+    },
+    {
       "login": "ibracorp",
       "name": "IBRACORP",
       "avatar_url": "https://avatars.githubusercontent.com/u/67491741?s=88&v=4",
@@ -2399,20 +2413,6 @@
       "company": null,
       "created_at": "2009-11-05T20:59:55Z",
       "total_stars": 298
-    },
-    {
-      "login": "YarnSpinnerTool",
-      "name": "Yarn Spinner",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55043536?s=88&v=4",
-      "html_url": "https://github.com/YarnSpinnerTool",
-      "followers": 168,
-      "following": 0,
-      "public_repos": 26,
-      "location": "Australia",
-      "bio": "Narrative tools for game development.",
-      "company": null,
-      "created_at": "2019-09-08T06:07:42Z",
-      "total_stars": 4452
     },
     {
       "login": "bjango",
@@ -2541,18 +2541,18 @@
       "total_stars": 143
     },
     {
-      "login": "envato",
-      "name": "Envato",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14786?s=88&v=4",
-      "html_url": "https://github.com/envato",
-      "followers": 145,
+      "login": "Thinkmill",
+      "name": "Thinkmill",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5761457?s=88&v=4",
+      "html_url": "https://github.com/Thinkmill",
+      "followers": 146,
       "following": 0,
-      "public_repos": 56,
-      "location": "Melbourne, Australia",
+      "public_repos": 69,
+      "location": "Australia",
       "bio": null,
       "company": null,
-      "created_at": "2008-06-24T01:38:15Z",
-      "total_stars": 2385
+      "created_at": "2013-10-24T01:34:08Z",
+      "total_stars": 6354
     }
   ],
   "repos": [
