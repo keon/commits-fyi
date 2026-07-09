@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-07-08T07:43:40.082Z",
+  "generated_at": "2026-07-09T08:47:42.760Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 360109,
     "org_followers": 64375,
     "user_stars": 1062978,
-    "org_stars": 1038784
+    "org_stars": 1053067
   },
   "queries": [
     {
@@ -1027,20 +1027,6 @@
       "total_stars": 11097
     },
     {
-      "login": "vladikoff",
-      "name": "Vlad Filippov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/128755?s=88&u=d40756e89362a65c018c89ab24ea4b6cd5b7afbe&v=4",
-      "html_url": "https://github.com/vladikoff",
-      "followers": 1965,
-      "following": 168,
-      "public_repos": 124,
-      "location": "Toronto",
-      "bio": "☢️ <script>alert('hello!');</script>",
-      "company": null,
-      "created_at": "2009-09-18T20:49:42Z",
-      "total_stars": 10108
-    },
-    {
       "login": "tandasat",
       "name": "Satoshi Tanda",
       "avatar_url": "https://avatars.githubusercontent.com/u/1620923?s=88&u=515f6d3996440a42b7caaa34e6d9214616d0cbd6&v=4",
@@ -1053,6 +1039,20 @@
       "company": null,
       "created_at": "2012-04-07T10:53:40Z",
       "total_stars": 10065
+    },
+    {
+      "login": "vladikoff",
+      "name": "Vlad Filippov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128755?s=88&u=d40756e89362a65c018c89ab24ea4b6cd5b7afbe&v=4",
+      "html_url": "https://github.com/vladikoff",
+      "followers": 1965,
+      "following": 168,
+      "public_repos": 124,
+      "location": "Toronto",
+      "bio": "☢️ <script>alert('hello!');</script>",
+      "company": null,
+      "created_at": "2009-09-18T20:49:42Z",
+      "total_stars": 10108
     },
     {
       "login": "guybedford",
@@ -1827,20 +1827,6 @@
       "total_stars": 12448
     },
     {
-      "login": "sideeffects",
-      "name": "SideFX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1576570?s=88&v=4",
-      "html_url": "https://github.com/sideeffects",
-      "followers": 629,
-      "following": 0,
-      "public_repos": 23,
-      "location": "Toronto, ON, Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-03-26T14:53:44Z",
-      "total_stars": 5727
-    },
-    {
       "login": "tracel-ai",
       "name": "Tracel AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/111992358?s=88&v=4",
@@ -1853,6 +1839,20 @@
       "company": null,
       "created_at": "2022-08-24T13:54:31Z",
       "total_stars": 18787
+    },
+    {
+      "login": "sideeffects",
+      "name": "SideFX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1576570?s=88&v=4",
+      "html_url": "https://github.com/sideeffects",
+      "followers": 629,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Toronto, ON, Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-03-26T14:53:44Z",
+      "total_stars": 5727
     },
     {
       "login": "lighthouse-labs",
@@ -2513,20 +2513,6 @@
       "total_stars": 504
     },
     {
-      "login": "PSAppDeployToolkit",
-      "name": "PowerShell App Deployment Toolkit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11872541?s=88&v=4",
-      "html_url": "https://github.com/PSAppDeployToolkit",
-      "followers": 299,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-04-09T14:26:40Z",
-      "total_stars": 2373
-    },
-    {
       "login": "OSFDigital",
       "name": "OSF Digital",
       "avatar_url": "https://avatars.githubusercontent.com/u/1109989?s=88&v=4",
@@ -2541,18 +2527,32 @@
       "total_stars": 0
     },
     {
-      "login": "zzzprojects",
-      "name": "ZZZ Projects",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11062426?s=88&v=4",
-      "html_url": "https://github.com/zzzprojects",
+      "login": "PSAppDeployToolkit",
+      "name": "PowerShell App Deployment Toolkit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11872541?s=88&v=4",
+      "html_url": "https://github.com/PSAppDeployToolkit",
+      "followers": 299,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-04-09T14:26:40Z",
+      "total_stars": 2373
+    },
+    {
+      "login": "Devolutions",
+      "name": "Devolutions",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6097418?s=88&v=4",
+      "html_url": "https://github.com/Devolutions",
       "followers": 296,
       "following": 0,
-      "public_repos": 42,
-      "location": "Canada",
-      "bio": "ZZZ Projects, founded by Jonathan Magnan, specializes in developer tools like Entity Framework Extensions for EF Core, Dapper Plus, and C# Eval Expression.",
+      "public_repos": 65,
+      "location": "Lavaltrie, Quebec, Canada",
+      "bio": null,
       "company": null,
-      "created_at": "2015-02-18T16:10:48Z",
-      "total_stars": 15376
+      "created_at": "2013-12-03T17:04:37Z",
+      "total_stars": 29659
     }
   ],
   "repos": [
@@ -2817,6 +2817,25 @@
       "owner_login": "sirupsen",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/97400?s=88&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "Devolutions/UniGetUI",
+      "html_url": "https://github.com/Devolutions/UniGetUI",
+      "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package",
+      "stargazers_count": 24960,
+      "forks_count": 853,
+      "language": "C#",
+      "topics": [
+        "winget",
+        "scoop",
+        "cli",
+        "windows-10",
+        "package"
+      ],
+      "owner_login": "Devolutions",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6097418?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -3439,22 +3458,6 @@
       "owner_login": "pycaret",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/58118658?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "ange-yaghi/engine-sim",
-      "html_url": "https://github.com/ange-yaghi/engine-sim",
-      "description": "Combustion engine simulator that generates realistic audio.",
-      "stargazers_count": 9437,
-      "forks_count": 896,
-      "language": "C++",
-      "topics": [
-        "engine",
-        "simulation"
-      ],
-      "owner_login": "ange-yaghi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20446997?s=88&u=35078d45b863771c872b3e488464a5c8343037ba&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]

@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-07-08T07:42:34.192Z",
+  "generated_at": "2026-07-09T08:46:35.896Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 214290,
-    "org_followers": 22248,
-    "user_stars": 957493,
-    "org_stars": 309399
+    "user_followers": 214298,
+    "org_followers": 22249,
+    "user_stars": 957515,
+    "org_stars": 310036
   },
   "queries": [
     {
@@ -443,14 +443,14 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/56485584?s=88&u=54df6833c4e71f73c7f86a785eedd387758a789b&v=4",
       "html_url": "https://github.com/5ec1cff",
-      "followers": 2016,
+      "followers": 2024,
       "following": 38,
       "public_repos": 42,
       "location": "ANON TOKYO",
       "bio": null,
       "company": "NJUPT",
       "created_at": "2019-10-12T17:29:42Z",
-      "total_stars": 9513
+      "total_stars": 9535
     },
     {
       "login": "brettwooldridge",
@@ -1223,20 +1223,6 @@
       "total_stars": 55
     },
     {
-      "login": "smorimoto",
-      "name": "Sora Morimoto",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38746192?s=88&u=887b1a5dcfc5078c41c7e63c855416ff15569cbe&v=4",
-      "html_url": "https://github.com/smorimoto",
-      "followers": 962,
-      "following": 244,
-      "public_repos": 22,
-      "location": "Tokyo, Japan",
-      "bio": "Occasional Programmer @ocaml @tarides @ocsigen @mirage @Solo5 @tc39",
-      "company": "@ocaml @tc39",
-      "created_at": "2018-04-26T05:22:42Z",
-      "total_stars": 132
-    },
-    {
       "login": "ryo-ma",
       "name": "ryo-ma",
       "avatar_url": "https://avatars.githubusercontent.com/u/6661165?s=88&u=dae26e50e14bfafe264f08aace7a1aec186802eb&v=4",
@@ -1249,6 +1235,20 @@
       "company": "TIS inc.",
       "created_at": "2014-02-12T12:29:29Z",
       "total_stars": 7389
+    },
+    {
+      "login": "smorimoto",
+      "name": "Sora Morimoto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38746192?s=88&u=887b1a5dcfc5078c41c7e63c855416ff15569cbe&v=4",
+      "html_url": "https://github.com/smorimoto",
+      "followers": 962,
+      "following": 244,
+      "public_repos": 22,
+      "location": "Tokyo, Japan",
+      "bio": "Occasional Programmer @ocaml @tarides @ocsigen @mirage @Solo5 @tc39",
+      "company": "@ocaml @tc39",
+      "created_at": "2018-04-26T05:22:42Z",
+      "total_stars": 132
     },
     {
       "login": "lestrrat",
@@ -2541,18 +2541,18 @@
       "total_stars": 71
     },
     {
-      "login": "synspective",
-      "name": "Synspective",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43743643?s=88&v=4",
-      "html_url": "https://github.com/synspective",
-      "followers": 43,
+      "login": "pepabo",
+      "name": "GMO Pepabo, Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1708980?s=88&v=4",
+      "html_url": "https://github.com/pepabo",
+      "followers": 44,
       "following": 0,
-      "public_repos": 0,
+      "public_repos": 123,
       "location": "Tokyo, Japan",
-      "bio": "Small SAR satellite constellation and One-stop Geo-solutions",
+      "bio": null,
       "company": null,
-      "created_at": "2018-10-01T09:01:54Z",
-      "total_stars": 0
+      "created_at": "2012-05-05T16:51:00Z",
+      "total_stars": 637
     }
   ],
   "repos": [
@@ -3263,8 +3263,8 @@
       "full_name": "5ec1cff/TrickyStore",
       "html_url": "https://github.com/5ec1cff/TrickyStore",
       "description": null,
-      "stargazers_count": 6117,
-      "forks_count": 386,
+      "stargazers_count": 6132,
+      "forks_count": 401,
       "language": null,
       "topics": [],
       "owner_login": "5ec1cff",
