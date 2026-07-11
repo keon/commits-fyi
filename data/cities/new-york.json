@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-07-10T08:43:29.142Z",
+  "generated_at": "2026-07-11T07:19:47.083Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 553611,
+    "user_followers": 553636,
     "org_followers": 137113,
-    "user_stars": 1684173,
-    "org_stars": 1593114
+    "user_stars": 1681100,
+    "org_stars": 1593116
   },
   "queries": [
     {
@@ -1391,6 +1391,20 @@
       "total_stars": 401
     },
     {
+      "login": "CharGrnmn",
+      "name": "Charlie Greenman ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8540141?s=88&u=9c2c34962b1d0dbbdf2002edb14899288693b071&v=4",
+      "html_url": "https://github.com/CharGrnmn",
+      "followers": 1894,
+      "following": 4348,
+      "public_repos": 9,
+      "location": "Queens / New York",
+      "bio": "Professional Businessman: Distribution distributed with discipline. I turn opportunities into operations and operations into business.\r\n",
+      "company": null,
+      "created_at": "2014-08-24T23:27:02Z",
+      "total_stars": 34
+    },
+    {
       "login": "colesbury",
       "name": "Sam Gross",
       "avatar_url": "https://avatars.githubusercontent.com/u/655866?s=88&u=b622ef6e3c8ace6e7ffe49e1cf8ca164d94c0867&v=4",
@@ -1417,20 +1431,6 @@
       "company": "IRS",
       "created_at": "2009-04-16T10:43:25Z",
       "total_stars": 10369
-    },
-    {
-      "login": "frankmcsherry",
-      "name": "Frank McSherry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5741500?s=88&u=33e69eeeaae260b94c6fae4a2e15d36784b6dffe&v=4",
-      "html_url": "https://github.com/frankmcsherry",
-      "followers": 1869,
-      "following": 5,
-      "public_repos": 22,
-      "location": "New York, NY",
-      "bio": null,
-      "company": "@MaterializeInc",
-      "created_at": "2013-10-21T21:39:28Z",
-      "total_stars": 3107
     }
   ],
   "orgs": [
@@ -1729,20 +1729,6 @@
       "total_stars": 2644
     },
     {
-      "login": "nytimes",
-      "name": "The New York Times",
-      "avatar_url": "https://avatars.githubusercontent.com/u/221409?s=88&v=4",
-      "html_url": "https://github.com/nytimes",
-      "followers": 1032,
-      "following": 0,
-      "public_repos": 95,
-      "location": "New York, NY",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-03-12T16:14:34Z",
-      "total_stars": 42356
-    },
-    {
       "login": "runwayml",
       "name": "Runway",
       "avatar_url": "https://avatars.githubusercontent.com/u/37351293?s=88&v=4",
@@ -1755,6 +1741,20 @@
       "company": null,
       "created_at": "2018-03-13T22:14:34Z",
       "total_stars": 2361
+    },
+    {
+      "login": "nytimes",
+      "name": "The New York Times",
+      "avatar_url": "https://avatars.githubusercontent.com/u/221409?s=88&v=4",
+      "html_url": "https://github.com/nytimes",
+      "followers": 1032,
+      "following": 0,
+      "public_repos": 95,
+      "location": "New York, NY",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-03-12T16:14:34Z",
+      "total_stars": 42356
     },
     {
       "login": "zabbix",
@@ -2552,7 +2552,7 @@
       "bio": null,
       "company": null,
       "created_at": "2011-10-06T16:15:45Z",
-      "total_stars": 793
+      "total_stars": 795
     }
   ],
   "repos": [
@@ -3187,25 +3187,6 @@
       "fork": false
     },
     {
-      "full_name": "yhirose/cpp-httplib",
-      "html_url": "https://github.com/yhirose/cpp-httplib",
-      "description": "A C++ header-only HTTP/HTTPS server and client library",
-      "stargazers_count": 16654,
-      "forks_count": 2714,
-      "language": "C++",
-      "topics": [
-        "cpp",
-        "cpp11",
-        "http",
-        "https",
-        "header-only"
-      ],
-      "owner_login": "yhirose",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/357397?s=88&u=c537858a711fa4a23ac0d59903a97c6bfdc6b67c&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "ddbourgin/numpy-ml",
       "html_url": "https://github.com/ddbourgin/numpy-ml",
       "description": "Machine learning, in numpy",
@@ -3405,6 +3386,25 @@
       ],
       "owner_login": "Semantic-Org",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "wix/react-native-navigation",
+      "html_url": "https://github.com/wix/react-native-navigation",
+      "description": "A complete native navigation solution for React Native",
+      "stargazers_count": 13183,
+      "forks_count": 2639,
+      "language": "MDX",
+      "topics": [
+        "react-native",
+        "navigation",
+        "navigator",
+        "react-native-navigation",
+        "hacktoberfest"
+      ],
+      "owner_login": "wix",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-07-10T08:43:52.050Z",
+  "generated_at": "2026-07-11T07:19:48.647Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1067152,
-    "org_followers": 329066,
+    "org_followers": 329072,
     "user_stars": 3255715,
-    "org_stars": 4543726
+    "org_stars": 4543741
   },
   "queries": [
     {
@@ -1349,20 +1349,6 @@
       "total_stars": 552
     },
     {
-      "login": "zedshaw",
-      "name": "Zed A. Shaw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/358171?s=88&u=8140270c89ef0d74d72ca56dcf788bec5811069c&v=4",
-      "html_url": "https://github.com/zedshaw",
-      "followers": 3988,
-      "following": 0,
-      "public_repos": 27,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-08-09T03:31:52Z",
-      "total_stars": 5059
-    },
-    {
       "login": "ariya",
       "name": "Ariya Hidayat",
       "avatar_url": "https://avatars.githubusercontent.com/u/7288?s=88&u=d84135ccc1b777c4813c7f377ea8219279ba24ff&v=4",
@@ -1375,6 +1361,20 @@
       "company": null,
       "created_at": "2008-04-14T17:43:20Z",
       "total_stars": 32007
+    },
+    {
+      "login": "zedshaw",
+      "name": "Zed A. Shaw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/358171?s=88&u=8140270c89ef0d74d72ca56dcf788bec5811069c&v=4",
+      "html_url": "https://github.com/zedshaw",
+      "followers": 3988,
+      "following": 0,
+      "public_repos": 27,
+      "location": "San Francisco, CA",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-08-09T03:31:52Z",
+      "total_stars": 5059
     },
     {
       "login": "griesemer",
@@ -2443,20 +2443,6 @@
       "total_stars": 1660
     },
     {
-      "login": "Khan",
-      "name": "Khan Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15455?s=88&v=4",
-      "html_url": "https://github.com/Khan",
-      "followers": 1001,
-      "following": 0,
-      "public_repos": 206,
-      "location": "Mountain View, CA",
-      "bio": "Working to make a free, world-class education available for anyone, anywhere.",
-      "company": null,
-      "created_at": "2008-06-29T13:50:51Z",
-      "total_stars": 17414
-    },
-    {
       "login": "Expensify",
       "name": "Expensify, Inc",
       "avatar_url": "https://avatars.githubusercontent.com/u/476779?s=88&v=4",
@@ -2469,6 +2455,20 @@
       "company": null,
       "created_at": "2010-11-11T03:59:16Z",
       "total_stars": 9925
+    },
+    {
+      "login": "Khan",
+      "name": "Khan Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15455?s=88&v=4",
+      "html_url": "https://github.com/Khan",
+      "followers": 1001,
+      "following": 0,
+      "public_repos": 206,
+      "location": "Mountain View, CA",
+      "bio": "Working to make a free, world-class education available for anyone, anywhere.",
+      "company": null,
+      "created_at": "2008-06-29T13:50:51Z",
+      "total_stars": 17414
     },
     {
       "login": "reddit",
@@ -2527,6 +2527,20 @@
       "total_stars": 4950
     },
     {
+      "login": "plaid",
+      "name": "Plaid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
+      "html_url": "https://github.com/plaid",
+      "followers": 970,
+      "following": 0,
+      "public_repos": 47,
+      "location": "San Francisco, CA",
+      "bio": null,
+      "company": null,
+      "created_at": "2013-02-13T00:25:05Z",
+      "total_stars": 5607
+    },
+    {
       "login": "facebookexperimental",
       "name": "Meta Experimental",
       "avatar_url": "https://avatars.githubusercontent.com/u/12853545?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2015-06-12T01:20:49Z",
       "total_stars": 28011
-    },
-    {
-      "login": "plaid",
-      "name": "Plaid",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
-      "html_url": "https://github.com/plaid",
-      "followers": 964,
-      "following": 0,
-      "public_repos": 47,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-02-13T00:25:05Z",
-      "total_stars": 5592
     }
   ],
   "repos": [
