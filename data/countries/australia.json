@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Australia",
   "slug": "australia",
-  "generated_at": "2026-07-11T07:22:03.222Z",
+  "generated_at": "2026-07-12T07:39:38.169Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 259132,
     "org_followers": 37811,
     "user_stars": 944513,
-    "org_stars": 454932
+    "org_stars": 454939
   },
   "queries": [
     {
@@ -299,20 +299,6 @@
       "total_stars": 1994
     },
     {
-      "login": "dragen1860",
-      "name": "Jackie Loong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4252555?s=88&u=a1772aaf2c43a11da0ee111d44efa67c24f9a9cd&v=4",
-      "html_url": "https://github.com/dragen1860",
-      "followers": 3105,
-      "following": 22,
-      "public_repos": 58,
-      "location": "Sydney",
-      "bio": "Make machines behave like me.\r\n\r\nliangqu.long@gmail.com",
-      "company": null,
-      "created_at": "2013-04-25T06:18:41Z",
-      "total_stars": 27467
-    },
-    {
       "login": "robjhyndman",
       "name": "Rob J Hyndman",
       "avatar_url": "https://avatars.githubusercontent.com/u/127518?s=88&u=ee9a9470735a100002069a6a32be2fd85b332d0e&v=4",
@@ -325,6 +311,20 @@
       "company": "Monash University",
       "created_at": "2009-09-16T02:18:55Z",
       "total_stars": 3156
+    },
+    {
+      "login": "dragen1860",
+      "name": "Jackie Loong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4252555?s=88&u=a1772aaf2c43a11da0ee111d44efa67c24f9a9cd&v=4",
+      "html_url": "https://github.com/dragen1860",
+      "followers": 3105,
+      "following": 22,
+      "public_repos": 58,
+      "location": "Sydney",
+      "bio": "Make machines behave like me.\r\n\r\nliangqu.long@gmail.com",
+      "company": null,
+      "created_at": "2013-04-25T06:18:41Z",
+      "total_stars": 27467
     },
     {
       "login": "sahandghavidel",
@@ -1363,20 +1363,6 @@
       "total_stars": 2778
     },
     {
-      "login": "stevemao",
-      "name": "Steve Mao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6316590?s=88&v=4",
-      "html_url": "https://github.com/stevemao",
-      "followers": 1036,
-      "following": 1086,
-      "public_repos": 127,
-      "location": "Sydney",
-      "bio": "Maker, builder, technologist \r\n",
-      "company": null,
-      "created_at": "2014-01-04T07:47:27Z",
-      "total_stars": 7184
-    },
-    {
       "login": "durgeshsamariya",
       "name": "Durgesh Samariya",
       "avatar_url": "https://avatars.githubusercontent.com/u/16861529?s=88&u=f462621c9fff59fa448be4469608d40f2b3ac0f6&v=4",
@@ -1389,6 +1375,20 @@
       "company": null,
       "created_at": "2016-01-24T07:39:47Z",
       "total_stars": 6868
+    },
+    {
+      "login": "stevemao",
+      "name": "Steve Mao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6316590?s=88&v=4",
+      "html_url": "https://github.com/stevemao",
+      "followers": 1036,
+      "following": 1086,
+      "public_repos": 127,
+      "location": "Sydney",
+      "bio": "Maker, builder, technologist \r\n",
+      "company": null,
+      "created_at": "2014-01-04T07:47:27Z",
+      "total_stars": 7184
     },
     {
       "login": "nnethercote",
@@ -2552,7 +2552,7 @@
       "bio": null,
       "company": null,
       "created_at": "2013-10-24T01:34:08Z",
-      "total_stars": 6354
+      "total_stars": 6361
     }
   ],
   "repos": [

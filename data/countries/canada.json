@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-07-11T07:22:02.217Z",
+  "generated_at": "2026-07-12T07:39:36.966Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2051,20 +2051,6 @@
       "total_stars": 9445
     },
     {
-      "login": "DeepGraphLearning",
-      "name": "MilaGraph",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38018154?s=88&v=4",
-      "html_url": "https://github.com/DeepGraphLearning",
-      "followers": 446,
-      "following": 0,
-      "public_repos": 47,
-      "location": "Montreal",
-      "bio": "Research group led by Prof. Jian Tang at Mila-Quebec AI Institute (https://mila.quebec/) focusing on graph representation learning and graph neural networks.",
-      "company": null,
-      "created_at": "2018-04-02T20:59:31Z",
-      "total_stars": 11903
-    },
-    {
       "login": "TIGER-AI-Lab",
       "name": "TIGER Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/144196744?s=88&v=4",
@@ -2077,6 +2063,20 @@
       "company": null,
       "created_at": "2023-09-06T03:20:58Z",
       "total_stars": 9666
+    },
+    {
+      "login": "DeepGraphLearning",
+      "name": "MilaGraph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38018154?s=88&v=4",
+      "html_url": "https://github.com/DeepGraphLearning",
+      "followers": 446,
+      "following": 0,
+      "public_repos": 47,
+      "location": "Montreal",
+      "bio": "Research group led by Prof. Jian Tang at Mila-Quebec AI Institute (https://mila.quebec/) focusing on graph representation learning and graph neural networks.",
+      "company": null,
+      "created_at": "2018-04-02T20:59:31Z",
+      "total_stars": 11903
     },
     {
       "login": "citizenlab",
@@ -2893,6 +2893,25 @@
       "fork": false
     },
     {
+      "full_name": "k4yt3x/video2x",
+      "html_url": "https://github.com/k4yt3x/video2x",
+      "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
+      "stargazers_count": 20496,
+      "forks_count": 1771,
+      "language": "C++",
+      "topics": [
+        "machine-learning",
+        "anime4k",
+        "vulkan",
+        "realesrgan",
+        "neural-networks"
+      ],
+      "owner_login": "k4yt3x",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/21986859?s=88&u=38e154b2ef964b06f97d5a66652a7587e392aaeb&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "mybatis/mybatis-3",
       "html_url": "https://github.com/mybatis/mybatis-3",
       "description": "MyBatis SQL mapper framework for Java",
@@ -3439,22 +3458,6 @@
       "owner_login": "pycaret",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/58118658?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "ange-yaghi/engine-sim",
-      "html_url": "https://github.com/ange-yaghi/engine-sim",
-      "description": "Combustion engine simulator that generates realistic audio.",
-      "stargazers_count": 9444,
-      "forks_count": 897,
-      "language": "C++",
-      "topics": [
-        "engine",
-        "simulation"
-      ],
-      "owner_login": "ange-yaghi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20446997?s=88&u=35078d45b863771c872b3e488464a5c8343037ba&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]
