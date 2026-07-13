@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-07-12T07:38:32.194Z",
+  "generated_at": "2026-07-13T08:29:02.397Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 360503,
+    "user_followers": 347862,
     "org_followers": 88855,
-    "user_stars": 1315004,
+    "user_stars": 1125039,
     "org_stars": 1055933
   },
   "queries": [
@@ -73,20 +73,6 @@
       "company": "Natural Selection Labs",
       "created_at": "2014-07-25T09:27:56Z",
       "total_stars": 81258
-    },
-    {
-      "login": "yangshun",
-      "name": "Yangshun Tay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1315101?s=88&u=0072fd0322e6b282bba91092eb379f985377a1f0&v=4",
-      "html_url": "https://github.com/yangshun",
-      "followers": 13352,
-      "following": 288,
-      "public_repos": 101,
-      "location": "Singapore",
-      "bio": "Building @greatfrontend. Ex-@facebook, @docusaurus, Flux. Authored Blind 75 and Grind 75",
-      "company": "@greatfrontend",
-      "created_at": "2012-01-09T12:30:00Z",
-      "total_stars": 190666
     },
     {
       "login": "egoist",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2008-04-13T18:12:39Z",
       "total_stars": 61
+    },
+    {
+      "login": "momika233",
+      "name": "momika233",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56291820?s=88&u=0e0aa33057f10e55f6ec399b11e4998522411444&v=4",
+      "html_url": "https://github.com/momika233",
+      "followers": 711,
+      "following": 1,
+      "public_repos": 37,
+      "location": "Singapore",
+      "bio": "<script>alert('momika233')</script>",
+      "company": null,
+      "created_at": "2019-10-08T06:41:51Z",
+      "total_stars": 701
     }
   ],
   "orgs": [
@@ -1729,20 +1729,6 @@
       "total_stars": 3195
     },
     {
-      "login": "makerkit",
-      "name": "MakerKit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73432059?s=88&v=4",
-      "html_url": "https://github.com/makerkit",
-      "followers": 735,
-      "following": 0,
-      "public_repos": 13,
-      "location": "Singapore",
-      "bio": "MakerKit builds the best Next.js SaaS Starter Kit in the world. Built on top of a Supabase, Prisma or Drizzle backend, ship your SaaS in days instead of month",
-      "company": null,
-      "created_at": "2020-10-25T14:10:34Z",
-      "total_stars": 935
-    },
-    {
       "login": "oceanbase",
       "name": "OceanBase",
       "avatar_url": "https://avatars.githubusercontent.com/u/82347605?s=88&v=4",
@@ -1755,6 +1741,20 @@
       "company": null,
       "created_at": "2021-04-12T00:14:26Z",
       "total_stars": 20305
+    },
+    {
+      "login": "makerkit",
+      "name": "MakerKit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73432059?s=88&v=4",
+      "html_url": "https://github.com/makerkit",
+      "followers": 735,
+      "following": 0,
+      "public_repos": 13,
+      "location": "Singapore",
+      "bio": "MakerKit builds the best Next.js SaaS Starter Kit in the world. Built on top of a Supabase, Prisma or Drizzle backend, ship your SaaS in days instead of month",
+      "company": null,
+      "created_at": "2020-10-25T14:10:34Z",
+      "total_stars": 935
     },
     {
       "login": "AElfProject",
@@ -2557,25 +2557,6 @@
   ],
   "repos": [
     {
-      "full_name": "yangshun/tech-interview-handbook",
-      "html_url": "https://github.com/yangshun/tech-interview-handbook",
-      "description": "Curated coding interview preparation materials for busy software engineers",
-      "stargazers_count": 140759,
-      "forks_count": 16678,
-      "language": "TypeScript",
-      "topics": [
-        "interview-questions",
-        "coding-interviews",
-        "interview-practice",
-        "interview-preparation",
-        "algorithm"
-      ],
-      "owner_login": "yangshun",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1315101?s=88&u=0072fd0322e6b282bba91092eb379f985377a1f0&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "rustdesk/rustdesk",
       "html_url": "https://github.com/rustdesk/rustdesk",
       "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
@@ -2699,25 +2680,6 @@
       ],
       "owner_login": "DIYgod",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8266075?s=88&u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "yangshun/front-end-interview-handbook",
-      "html_url": "https://github.com/yangshun/front-end-interview-handbook",
-      "description": "Front End interview preparation materials for busy engineers (updated for 2026)",
-      "stargazers_count": 43972,
-      "forks_count": 5936,
-      "language": "MDX",
-      "topics": [
-        "front-end",
-        "interview-questions",
-        "html",
-        "javascript",
-        "css"
-      ],
-      "owner_login": "yangshun",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1315101?s=88&u=0072fd0322e6b282bba91092eb379f985377a1f0&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3425,6 +3387,38 @@
       "topics": [],
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "xorbitsai/inference",
+      "html_url": "https://github.com/xorbitsai/inference",
+      "description": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem",
+      "stargazers_count": 9418,
+      "forks_count": 845,
+      "language": "Python",
+      "topics": [
+        "ggml",
+        "pytorch",
+        "chatglm",
+        "deployment",
+        "flan-t5"
+      ],
+      "owner_login": "xorbitsai",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/109655068?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "bytedance/monolith",
+      "html_url": "https://github.com/bytedance/monolith",
+      "description": "A Lightweight Recommendation System",
+      "stargazers_count": 9317,
+      "forks_count": 714,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "bytedance",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4158466?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

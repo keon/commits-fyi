@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-07-12T07:38:30.676Z",
+  "generated_at": "2026-07-13T08:28:59.086Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 214428,
+    "user_followers": 214429,
     "org_followers": 22313,
-    "user_stars": 958122,
+    "user_stars": 958142,
     "org_stars": 310308
   },
   "queries": [
@@ -443,14 +443,14 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/56485584?s=88&u=54df6833c4e71f73c7f86a785eedd387758a789b&v=4",
       "html_url": "https://github.com/5ec1cff",
-      "followers": 2024,
+      "followers": 2025,
       "following": 38,
       "public_repos": 42,
       "location": "ANON TOKYO",
       "bio": null,
       "company": "NJUPT",
       "created_at": "2019-10-12T17:29:42Z",
-      "total_stars": 9535
+      "total_stars": 9555
     },
     {
       "login": "brettwooldridge",
@@ -2387,6 +2387,20 @@
       "total_stars": 22
     },
     {
+      "login": "freee",
+      "name": "freee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13896447?s=88&v=4",
+      "html_url": "https://github.com/freee",
+      "followers": 51,
+      "following": 0,
+      "public_repos": 27,
+      "location": "Tokyo, Japan",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-08-21T02:11:52Z",
+      "total_stars": 859
+    },
+    {
       "login": "dwango",
       "name": "dwango",
       "avatar_url": "https://avatars.githubusercontent.com/u/710011?s=88&v=4",
@@ -2413,20 +2427,6 @@
       "company": null,
       "created_at": "2015-10-06T02:28:50Z",
       "total_stars": 98
-    },
-    {
-      "login": "freee",
-      "name": "freee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13896447?s=88&v=4",
-      "html_url": "https://github.com/freee",
-      "followers": 51,
-      "following": 0,
-      "public_repos": 27,
-      "location": "Tokyo, Japan",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-08-21T02:11:52Z",
-      "total_stars": 859
     },
     {
       "login": "serverworks-annex",
@@ -3263,8 +3263,8 @@
       "full_name": "5ec1cff/TrickyStore",
       "html_url": "https://github.com/5ec1cff/TrickyStore",
       "description": null,
-      "stargazers_count": 6132,
-      "forks_count": 401,
+      "stargazers_count": 6146,
+      "forks_count": 402,
       "language": null,
       "topics": [],
       "owner_login": "5ec1cff",
