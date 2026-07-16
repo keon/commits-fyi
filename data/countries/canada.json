@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-07-15T07:26:12.994Z",
+  "generated_at": "2026-07-16T07:33:56.062Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2912,25 +2912,6 @@
       "fork": false
     },
     {
-      "full_name": "k4yt3x/video2x",
-      "html_url": "https://github.com/k4yt3x/video2x",
-      "description": "A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.",
-      "stargazers_count": 20496,
-      "forks_count": 1771,
-      "language": "C++",
-      "topics": [
-        "machine-learning",
-        "anime4k",
-        "vulkan",
-        "realesrgan",
-        "neural-networks"
-      ],
-      "owner_login": "k4yt3x",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/21986859?s=88&u=38e154b2ef964b06f97d5a66652a7587e392aaeb&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "mybatis/mybatis-3",
       "html_url": "https://github.com/mybatis/mybatis-3",
       "description": "MyBatis SQL mapper framework for Java",
@@ -3457,6 +3438,25 @@
       ],
       "owner_login": "unoplatform",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/52228309?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "pycaret/pycaret",
+      "html_url": "https://github.com/pycaret/pycaret",
+      "description": "Open-source, low-code AutoML platform for Python. PyCaret 4.0: sklearn-native engine + React control plane.",
+      "stargazers_count": 9826,
+      "forks_count": 1853,
+      "language": "Python",
+      "topics": [
+        "data-science",
+        "python",
+        "machine-learning",
+        "pycaret",
+        "ml"
+      ],
+      "owner_login": "pycaret",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/58118658?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
