@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Amsterdam",
   "slug": "amsterdam",
-  "generated_at": "2026-07-18T07:10:46.268Z",
+  "generated_at": "2026-07-19T07:36:40.971Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 134491,
     "org_followers": 13079,
     "user_stars": 499317,
-    "org_stars": 238730
+    "org_stars": 238965
   },
   "queries": [
     {
@@ -1673,20 +1673,6 @@
       "total_stars": 7647
     },
     {
-      "login": "adyen-examples",
-      "name": "Adyen Examples",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55514737?s=88&v=4",
-      "html_url": "https://github.com/adyen-examples",
-      "followers": 202,
-      "following": 0,
-      "public_repos": 33,
-      "location": "Amsterdam, Netherlands",
-      "bio": "Official examples for Adyen products and services",
-      "company": null,
-      "created_at": "2019-09-18T21:56:39Z",
-      "total_stars": 666
-    },
-    {
       "login": "digitalmethodsinitiative",
       "name": "Digital Methods Initiative",
       "avatar_url": "https://avatars.githubusercontent.com/u/3939707?s=88&v=4",
@@ -1699,6 +1685,20 @@
       "company": null,
       "created_at": "2013-03-22T09:20:41Z",
       "total_stars": 1364
+    },
+    {
+      "login": "adyen-examples",
+      "name": "Adyen Examples",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55514737?s=88&v=4",
+      "html_url": "https://github.com/adyen-examples",
+      "followers": 202,
+      "following": 0,
+      "public_repos": 33,
+      "location": "Amsterdam, Netherlands",
+      "bio": "Official examples for Adyen products and services",
+      "company": null,
+      "created_at": "2019-09-18T21:56:39Z",
+      "total_stars": 666
     },
     {
       "login": "Backbase",
@@ -2541,18 +2541,18 @@
       "total_stars": 15
     },
     {
-      "login": "20treeAI",
-      "name": "Overstory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35656901?s=88&v=4",
-      "html_url": "https://github.com/20treeAI",
+      "login": "TheThingsIndustries",
+      "name": "The Things Industries",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16132765?s=88&v=4",
+      "html_url": "https://github.com/TheThingsIndustries",
       "followers": 35,
       "following": 0,
-      "public_repos": 1,
-      "location": "Amsterdam, Netherlands",
-      "bio": "Real-time vegetation intelligence, at scale",
+      "public_repos": 15,
+      "location": "Amsterdam",
+      "bio": "Providing the secure last mile of the internet of things",
       "company": null,
-      "created_at": "2018-01-21T12:20:50Z",
-      "total_stars": 1
+      "created_at": "2015-12-03T10:06:36Z",
+      "total_stars": 236
     }
   ],
   "repos": [

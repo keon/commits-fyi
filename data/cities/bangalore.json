@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-07-18T07:10:49.371Z",
+  "generated_at": "2026-07-19T07:36:47.032Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 179992,
+    "user_followers": 179522,
     "org_followers": 23384,
-    "user_stars": 449742,
+    "user_stars": 449813,
     "org_stars": 354130
   },
   "queries": [
@@ -619,20 +619,6 @@
       "company": "@h2oai ",
       "created_at": "2014-09-29T06:04:37Z",
       "total_stars": 1173
-    },
-    {
-      "login": "karma9874",
-      "name": "Neeraj Singh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
-      "html_url": "https://github.com/karma9874",
-      "followers": 1067,
-      "following": 5,
-      "public_repos": 16,
-      "location": "Bangalore, India",
-      "bio": "Hey there! I am using Github.",
-      "company": null,
-      "created_at": "2017-11-07T06:38:43Z",
-      "total_stars": 5329
     },
     {
       "login": "genieincodebottle",
@@ -1431,6 +1417,20 @@
       "company": "Microsoft",
       "created_at": "2010-11-28T19:39:45Z",
       "total_stars": 44
+    },
+    {
+      "login": "athityakumar",
+      "name": "Athitya Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17109060?s=88&u=c409afbc4f827342196862191fabb6cd69625305&v=4",
+      "html_url": "https://github.com/athityakumar",
+      "followers": 597,
+      "following": 260,
+      "public_repos": 77,
+      "location": "Bangalore",
+      "bio": "IITKGP-ian. Chess player. Software Developer. Open source enthusiast. GSoC'er. Staff Engg & Open-Source Community Leader @intuit India",
+      "company": "Intuit India, @intuit ",
+      "created_at": "2016-02-07T13:26:06Z",
+      "total_stars": 5400
     }
   ],
   "orgs": [
@@ -3063,25 +3063,6 @@
       "fork": false
     },
     {
-      "full_name": "karma9874/AndroRAT",
-      "html_url": "https://github.com/karma9874/AndroRAT",
-      "description": "A Simple android remote administration tool using sockets. It uses java on the client side and python on the server side",
-      "stargazers_count": 4917,
-      "forks_count": 1595,
-      "language": "Java",
-      "topics": [
-        "android",
-        "backdoor",
-        "python",
-        "reverse-shell",
-        "sockets"
-      ],
-      "owner_login": "karma9874",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "sadanandpai/frontend-learning-kit",
       "html_url": "https://github.com/sadanandpai/frontend-learning-kit",
       "description": "Frontend tech guide and curated collection of frontend materials",
@@ -3441,6 +3422,25 @@
       "topics": [],
       "owner_login": "krishnaik06",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20041231?s=88&u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG",
+      "html_url": "https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG",
+      "description": "Free Images for EVE-NG and GNS3 containing routers, switches,Firewalls and other appliances, including Cisco, Fortigate, Palo Alto, Sophos a",
+      "stargazers_count": 2622,
+      "forks_count": 558,
+      "language": "HTML",
+      "topics": [
+        "network-simulator",
+        "cisco-images",
+        "eveng",
+        "evengimages",
+        "checkpoint-firewall"
+      ],
+      "owner_login": "hegdepavankumar",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/85627085?s=88&u=743d38d26fb2101cd2b3b92322056f848d4213cb&v=4",
       "owner_type": "User",
       "fork": false
     }
