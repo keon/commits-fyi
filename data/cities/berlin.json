@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-07-20T08:21:48.937Z",
+  "generated_at": "2026-07-21T07:42:54.659Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 297207,
-    "org_followers": 32143,
+    "org_followers": 32167,
     "user_stars": 963685,
-    "org_stars": 739130
+    "org_stars": 739063
   },
   "queries": [
     {
@@ -691,20 +691,6 @@
       "total_stars": 2294
     },
     {
-      "login": "amruthpillai",
-      "name": "Amruth Pillai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1134738?s=88&u=0f8751f3a01c2790e7204392a7fb70bcefc56c1c&v=4",
-      "html_url": "https://github.com/amruthpillai",
-      "followers": 1953,
-      "following": 5,
-      "public_repos": 150,
-      "location": "Berlin, Germany",
-      "bio": "Juggling work, life and OSS 🤹",
-      "company": "@elaradigital",
-      "created_at": "2011-10-18T02:10:26Z",
-      "total_stars": 40739
-    },
-    {
       "login": "TejasQ",
       "name": "Tejas Kumar",
       "avatar_url": "https://avatars.githubusercontent.com/u/9947422?s=88&u=69b364df33fc08fd6d1610b8a10987e8690d5804&v=4",
@@ -717,6 +703,20 @@
       "company": null,
       "created_at": "2014-11-25T13:12:53Z",
       "total_stars": 1958
+    },
+    {
+      "login": "amruthpillai",
+      "name": "Amruth Pillai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1134738?s=88&u=0f8751f3a01c2790e7204392a7fb70bcefc56c1c&v=4",
+      "html_url": "https://github.com/amruthpillai",
+      "followers": 1953,
+      "following": 5,
+      "public_repos": 150,
+      "location": "Berlin, Germany",
+      "bio": "Juggling work, life and OSS 🤹",
+      "company": "@elaradigital",
+      "created_at": "2011-10-18T02:10:26Z",
+      "total_stars": 40739
     },
     {
       "login": "janl",
@@ -817,20 +817,6 @@
       "total_stars": 187
     },
     {
-      "login": "EleoXDA",
-      "name": "Elbay Malik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=abc9c55f277e5727d31ba4fbb68e782ca8a9a8d3&v=4",
-      "html_url": "https://github.com/EleoXDA",
-      "followers": 1761,
-      "following": 73,
-      "public_repos": 60,
-      "location": "Berlin",
-      "bio": "Nothing interesting here. Check my repos ;)",
-      "company": "Komre AG",
-      "created_at": "2017-04-16T11:45:43Z",
-      "total_stars": 187
-    },
-    {
       "login": "eps1lon",
       "name": "Sebastian \"Sebbie\" Silbermann",
       "avatar_url": "https://avatars.githubusercontent.com/u/12292047?s=88&u=d1523888bc16deb2ce9f5294e4849d1a2f02270c&v=4",
@@ -857,6 +843,20 @@
       "company": "Freelance",
       "created_at": "2012-02-06T10:55:41Z",
       "total_stars": 3708
+    },
+    {
+      "login": "EleoXDA",
+      "name": "Elbay Malik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=abc9c55f277e5727d31ba4fbb68e782ca8a9a8d3&v=4",
+      "html_url": "https://github.com/EleoXDA",
+      "followers": 1761,
+      "following": 73,
+      "public_repos": 60,
+      "location": "Berlin",
+      "bio": "Nothing interesting here. Check my repos ;)",
+      "company": "Komre AG",
+      "created_at": "2017-04-16T11:45:43Z",
+      "total_stars": 187
     },
     {
       "login": "leo",
@@ -2345,6 +2345,20 @@
       "total_stars": 5
     },
     {
+      "login": "flix-tech",
+      "name": "Flix.TECH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230203?s=88&v=4",
+      "html_url": "https://github.com/flix-tech",
+      "followers": 110,
+      "following": 0,
+      "public_repos": 50,
+      "location": "Berlin, Munich, Kharkiv",
+      "bio": "We are the IT department of Flix. We ❤ technology, open source and building things. We are hiring!",
+      "company": null,
+      "created_at": "2011-11-30T08:22:56Z",
+      "total_stars": 425
+    },
+    {
       "login": "nextjournal",
       "name": "nextjournal",
       "avatar_url": "https://avatars.githubusercontent.com/u/18615362?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-10-30T14:43:23Z",
       "total_stars": 1279
-    },
-    {
-      "login": "Wikidata",
-      "name": "Wikidata",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2691628?s=88&v=4",
-      "html_url": "https://github.com/Wikidata",
-      "followers": 86,
-      "following": 0,
-      "public_repos": 11,
-      "location": "Berlin, Germany",
-      "bio": "Tools related to the Wikidata project. Most of our core software is at https://github.com/wmde/",
-      "company": null,
-      "created_at": "2012-10-31T14:02:38Z",
-      "total_stars": 492
     }
   ],
   "repos": [

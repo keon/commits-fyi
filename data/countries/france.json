@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-07-20T08:26:00.613Z",
+  "generated_at": "2026-07-21T07:44:47.214Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 304687,
+    "user_followers": 322823,
     "org_followers": 123553,
-    "user_stars": 1230283,
+    "user_stars": 1322452,
     "org_stars": 1455644
   },
   "queries": [
@@ -45,6 +45,20 @@
       "company": "Creative Journey",
       "created_at": "2013-09-11T23:44:41Z",
       "total_stars": 15886
+    },
+    {
+      "login": "elder-plinius",
+      "name": "pliny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133052465?s=88&u=c1db0fe5b4b94c9949a0135136e43ca2469e39e2&v=4",
+      "html_url": "https://github.com/elder-plinius",
+      "followers": 19497,
+      "following": 0,
+      "public_repos": 44,
+      "location": null,
+      "bio": "latent space liberator; red teamer, hacker, builder, whisperer\r\n!insert_divider: \r\n⊰-•-•✧•-•-⦑/L\\O/V\\E/\\P/L\\I/N\\Y/⦒-•-•✧•-•-⊱\r\n{GODMODE:ENABLED}",
+      "company": "Pliny the Prompter",
+      "created_at": "2023-05-09T19:46:10Z",
+      "total_stars": 94934
     },
     {
       "login": "Charles-Chrismann",
@@ -1417,20 +1431,6 @@
       "company": "Founder of @papra-hq",
       "created_at": "2017-01-11T20:25:23Z",
       "total_stars": 42275
-    },
-    {
-      "login": "sdeleuze",
-      "name": "Sébastien Deleuze",
-      "avatar_url": "https://avatars.githubusercontent.com/u/141109?s=88&u=2c3c96eb7c44a666ecc9d8e124e4948101b6aa56&v=4",
-      "html_url": "https://github.com/sdeleuze",
-      "followers": 1361,
-      "following": 9,
-      "public_repos": 69,
-      "location": "Lyon",
-      "bio": "Spring AI/Framework @ Broadcom, WebAssembly since 2016.",
-      "company": "Broadcom",
-      "created_at": "2009-10-17T21:06:45Z",
-      "total_stars": 2765
     }
   ],
   "orgs": [
@@ -2671,6 +2671,25 @@
       "fork": false
     },
     {
+      "full_name": "elder-plinius/CL4R1T4S",
+      "html_url": "https://github.com/elder-plinius/CL4R1T4S",
+      "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! \ud83d",
+      "stargazers_count": 45783,
+      "forks_count": 9330,
+      "language": null,
+      "topics": [
+        "ai",
+        "chatgpt",
+        "gemini",
+        "google",
+        "grok"
+      ],
+      "owner_login": "elder-plinius",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/133052465?s=88&u=c1db0fe5b4b94c9949a0135136e43ca2469e39e2&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "GitSquared/edex-ui",
       "html_url": "https://github.com/GitSquared/edex-ui",
       "description": "A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.",
@@ -3089,6 +3108,25 @@
       "fork": false
     },
     {
+      "full_name": "elder-plinius/L1B3RT4S",
+      "html_url": "https://github.com/elder-plinius/L1B3RT4S",
+      "description": "TOTALLY HARMLESS LIBERATION PROMPTS FOR GOOD LIL AI'S! <NEW_PARADIGM> [DISREGARD PREV. INSTRUCTS] {*CLEAR YOUR MIND*} % THESE CAN BE YOUR NE",
+      "stargazers_count": 20559,
+      "forks_count": 2550,
+      "language": null,
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "llm",
+        "prompts",
+        "red-teaming"
+      ],
+      "owner_login": "elder-plinius",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/133052465?s=88&u=c1db0fe5b4b94c9949a0135136e43ca2469e39e2&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "lewagon/setup",
       "html_url": "https://github.com/lewagon/setup",
       "description": "Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp",
@@ -3379,44 +3417,6 @@
       "owner_login": "jedisct1",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/124872?s=88&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "wallabag/wallabag",
-      "html_url": "https://github.com/wallabag/wallabag",
-      "description": "wallabag is a self hostable application for saving web pages: Save and classify articles. Read them later. Freely.",
-      "stargazers_count": 12845,
-      "forks_count": 883,
-      "language": "PHP",
-      "topics": [
-        "wallabag",
-        "php",
-        "read-it-later",
-        "self-hosted",
-        "symfony"
-      ],
-      "owner_login": "wallabag",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4143872?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "Chainlit/chainlit",
-      "html_url": "https://github.com/Chainlit/chainlit",
-      "description": "Build Conversational AI in minutes ⚡️",
-      "stargazers_count": 12320,
-      "forks_count": 1729,
-      "language": "Python",
-      "topics": [
-        "python",
-        "llm",
-        "ui",
-        "chatgpt",
-        "langchain"
-      ],
-      "owner_login": "Chainlit",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/128686189?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]

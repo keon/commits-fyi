@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-07-20T08:22:14.588Z",
+  "generated_at": "2026-07-21T07:43:44.737Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 198220,
-    "org_followers": 97188,
+    "org_followers": 97224,
     "user_stars": 849405,
-    "org_stars": 1102372
+    "org_stars": 1102044
   },
   "queries": [
     {
@@ -901,20 +901,6 @@
       "total_stars": 86
     },
     {
-      "login": "antonioribeiro",
-      "name": "Antonio Ribeiro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3182864?s=88&u=801b6ab616da34a5e443aa6268ceb43a17a65cd6&v=4",
-      "html_url": "https://github.com/antonioribeiro",
-      "followers": 954,
-      "following": 3,
-      "public_repos": 100,
-      "location": "Paris, France",
-      "bio": null,
-      "company": "@area17 ",
-      "created_at": "2013-01-04T05:11:01Z",
-      "total_stars": 14417
-    },
-    {
       "login": "guillaumekln",
       "name": "Guillaume Klein",
       "avatar_url": "https://avatars.githubusercontent.com/u/4805513?s=88&u=b3724b79885d1d21d7dc699e07b757682c1302f9&v=4",
@@ -927,6 +913,20 @@
       "company": "@apple",
       "created_at": "2013-06-24T18:17:12Z",
       "total_stars": 7
+    },
+    {
+      "login": "antonioribeiro",
+      "name": "Antonio Ribeiro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3182864?s=88&u=801b6ab616da34a5e443aa6268ceb43a17a65cd6&v=4",
+      "html_url": "https://github.com/antonioribeiro",
+      "followers": 954,
+      "following": 3,
+      "public_repos": 100,
+      "location": "Paris, France",
+      "bio": null,
+      "company": "@area17 ",
+      "created_at": "2013-01-04T05:11:01Z",
+      "total_stars": 14417
     },
     {
       "login": "ahmedbesbes",
@@ -1237,20 +1237,6 @@
       "total_stars": 196
     },
     {
-      "login": "lyrixx",
-      "name": "Grégoire Pineau",
-      "avatar_url": "https://avatars.githubusercontent.com/u/408368?s=88&u=d4c07886d44eb26a4a7eb2a41d33cf019f0c0160&v=4",
-      "html_url": "https://github.com/lyrixx",
-      "followers": 806,
-      "following": 32,
-      "public_repos": 57,
-      "location": "Paris, France",
-      "bio": "DevOps @jolicode @redirectionio ; \r\n@symfony Core Team\r\n",
-      "company": "@jolicode",
-      "created_at": "2010-09-20T14:04:48Z",
-      "total_stars": 1238
-    },
-    {
       "login": "Kehrlann",
       "name": "Daniel Garnier-Moiroux",
       "avatar_url": "https://avatars.githubusercontent.com/u/5676779?s=88&u=98595e18b5106e4526c48d984983ea525890f588&v=4",
@@ -1263,6 +1249,20 @@
       "company": "@broadcom ",
       "created_at": "2013-10-13T15:36:01Z",
       "total_stars": 606
+    },
+    {
+      "login": "lyrixx",
+      "name": "Grégoire Pineau",
+      "avatar_url": "https://avatars.githubusercontent.com/u/408368?s=88&u=d4c07886d44eb26a4a7eb2a41d33cf019f0c0160&v=4",
+      "html_url": "https://github.com/lyrixx",
+      "followers": 806,
+      "following": 32,
+      "public_repos": 57,
+      "location": "Paris, France",
+      "bio": "DevOps @jolicode @redirectionio ; \r\n@symfony Core Team\r\n",
+      "company": "@jolicode",
+      "created_at": "2010-09-20T14:04:48Z",
+      "total_stars": 1238
     },
     {
       "login": "MysteriousSonOfGod",
@@ -2219,6 +2219,20 @@
       "total_stars": 1662
     },
     {
+      "login": "Alice-Bob-SW",
+      "name": "Alice & Bob",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72556371?s=88&v=4",
+      "html_url": "https://github.com/Alice-Bob-SW",
+      "followers": 119,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Paris",
+      "bio": ":black_cat: Test our cat qubits on the cloud — We are hiring!",
+      "company": null,
+      "created_at": "2020-10-08T12:09:26Z",
+      "total_stars": 72
+    },
+    {
       "login": "silexlabs",
       "name": "Silex Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/803706?s=88&v=4",
@@ -2345,6 +2359,20 @@
       "total_stars": 30
     },
     {
+      "login": "pyronear",
+      "name": "PyroNear",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61667887?s=88&v=4",
+      "html_url": "https://github.com/pyronear",
+      "followers": 97,
+      "following": 0,
+      "public_repos": 35,
+      "location": "Paris",
+      "bio": "Preserving forests from wildfires one commit at a time",
+      "company": null,
+      "created_at": "2020-03-01T22:01:04Z",
+      "total_stars": 187
+    },
+    {
       "login": "BackMarket",
       "name": "Back Market",
       "avatar_url": "https://avatars.githubusercontent.com/u/29949611?s=88&v=4",
@@ -2385,20 +2413,6 @@
       "company": null,
       "created_at": "2012-07-04T14:26:43Z",
       "total_stars": 1326
-    },
-    {
-      "login": "pyronear",
-      "name": "PyroNear",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61667887?s=88&v=4",
-      "html_url": "https://github.com/pyronear",
-      "followers": 97,
-      "following": 0,
-      "public_repos": 35,
-      "location": "Paris",
-      "bio": "Preserving forests from wildfires one commit at a time",
-      "company": null,
-      "created_at": "2020-03-01T22:01:04Z",
-      "total_stars": 187
     },
     {
       "login": "brian-team",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-01-06T12:50:46Z",
       "total_stars": 972
-    },
-    {
-      "login": "1024pix",
-      "name": "Pix",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24589578?s=88&v=4",
-      "html_url": "https://github.com/1024pix",
-      "followers": 83,
-      "following": 0,
-      "public_repos": 108,
-      "location": "Paris",
-      "bio": "Le service public en ligne pour mesurer, développer et valoriser ses compétences numériques.",
-      "company": null,
-      "created_at": "2016-12-15T14:16:16Z",
-      "total_stars": 400
     }
   ],
   "repos": [
