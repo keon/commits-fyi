@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-07-21T07:44:52.190Z",
+  "generated_at": "2026-07-22T07:45:03.957Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 711134,
-    "org_followers": 86027,
+    "org_followers": 86037,
     "user_stars": 682209,
-    "org_stars": 272379
+    "org_stars": 272390
   },
   "queries": [
     {
@@ -1195,20 +1195,6 @@
       "total_stars": 280
     },
     {
-      "login": "leandromoreira",
-      "name": "Leandro Moreira",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55913?s=88&u=b3b7d650afae54e08e4a361553a263ee508e4ba2&v=4",
-      "html_url": "https://github.com/leandromoreira",
-      "followers": 2359,
-      "following": 0,
-      "public_repos": 66,
-      "location": "Brazil",
-      "bio": null,
-      "company": "@Uber",
-      "created_at": "2009-02-19T14:45:34Z",
-      "total_stars": 38363
-    },
-    {
       "login": "turicas",
       "name": "Álvaro Justen",
       "avatar_url": "https://avatars.githubusercontent.com/u/186126?s=88&u=2291e4ee31746dc525e680811b7ea77f3b784edb&v=4",
@@ -1221,6 +1207,20 @@
       "company": "Pythonic Café",
       "created_at": "2010-01-20T11:23:43Z",
       "total_stars": 4289
+    },
+    {
+      "login": "leandromoreira",
+      "name": "Leandro Moreira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55913?s=88&u=b3b7d650afae54e08e4a361553a263ee508e4ba2&v=4",
+      "html_url": "https://github.com/leandromoreira",
+      "followers": 2359,
+      "following": 0,
+      "public_repos": 66,
+      "location": "Brazil",
+      "bio": null,
+      "company": "@Uber",
+      "created_at": "2009-02-19T14:45:34Z",
+      "total_stars": 38363
     },
     {
       "login": "sandeco",
@@ -2281,12 +2281,12 @@
       "html_url": "https://github.com/hakaioffsec",
       "followers": 398,
       "following": 0,
-      "public_repos": 24,
+      "public_repos": 25,
       "location": "Brazil",
       "bio": "We discover security flaws that your team would never have thought of.",
       "company": null,
       "created_at": "2022-02-05T02:18:05Z",
-      "total_stars": 1955
+      "total_stars": 1959
     },
     {
       "login": "gran-ti",
@@ -2314,7 +2314,21 @@
       "bio": null,
       "company": null,
       "created_at": "2009-05-12T19:03:13Z",
-      "total_stars": 7911
+      "total_stars": 7912
+    },
+    {
+      "login": "HighCodeh",
+      "name": "High Code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148154420?s=88&v=4",
+      "html_url": "https://github.com/HighCodeh",
+      "followers": 385,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Brazil",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-10-16T20:59:48Z",
+      "total_stars": 455
     },
     {
       "login": "Abacatinhos",
@@ -2335,14 +2349,14 @@
       "name": "fazer.ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/197436073?s=88&v=4",
       "html_url": "https://github.com/fazer-ai",
-      "followers": 382,
+      "followers": 383,
       "following": 0,
       "public_repos": 17,
       "location": "Brazil",
       "bio": null,
       "company": null,
       "created_at": "2025-02-01T23:13:46Z",
-      "total_stars": 191
+      "total_stars": 194
     },
     {
       "login": "deco-cx",
@@ -2357,20 +2371,6 @@
       "company": null,
       "created_at": "2022-05-03T16:16:02Z",
       "total_stars": 1074
-    },
-    {
-      "login": "HighCodeh",
-      "name": "High Code",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148154420?s=88&v=4",
-      "html_url": "https://github.com/HighCodeh",
-      "followers": 380,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Brazil",
-      "bio": null,
-      "company": null,
-      "created_at": "2023-10-16T20:59:48Z",
-      "total_stars": 452
     },
     {
       "login": "ICEI-PUC-Minas-PMV-SI",
@@ -2405,7 +2405,7 @@
       "name": "Avanade Brazil",
       "avatar_url": "https://avatars.githubusercontent.com/u/130595205?s=88&v=4",
       "html_url": "https://github.com/AvanadeBrazil",
-      "followers": 357,
+      "followers": 359,
       "following": 0,
       "public_repos": 0,
       "location": "Brazil",
@@ -2419,7 +2419,7 @@
       "name": "Codeminer42",
       "avatar_url": "https://avatars.githubusercontent.com/u/1602924?s=88&v=4",
       "html_url": "https://github.com/Codeminer42",
-      "followers": 352,
+      "followers": 353,
       "following": 0,
       "public_repos": 12,
       "location": "São Paulo, Brazil",
@@ -2433,7 +2433,7 @@
       "name": "B7Web",
       "avatar_url": "https://avatars.githubusercontent.com/u/35702649?s=88&v=4",
       "html_url": "https://github.com/suporteb7web",
-      "followers": 351,
+      "followers": 352,
       "following": 0,
       "public_repos": 47,
       "location": "Brazil",
@@ -2468,7 +2468,7 @@
       "bio": null,
       "company": null,
       "created_at": "2021-10-18T22:02:14Z",
-      "total_stars": 219
+      "total_stars": 220
     },
     {
       "login": "removedgroup",
@@ -2496,7 +2496,7 @@
       "bio": "Organização criada para guardar e separar todos os projetos e repositorios criados durante os videos do canal HunCoding!",
       "company": null,
       "created_at": "2021-12-05T14:55:10Z",
-      "total_stars": 215
+      "total_stars": 214
     },
     {
       "login": "owshq-plumbers",

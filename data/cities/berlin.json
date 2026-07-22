@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-07-21T07:42:54.659Z",
+  "generated_at": "2026-07-22T07:43:03.146Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 297207,
-    "org_followers": 32167,
+    "org_followers": 32174,
     "user_stars": 963685,
-    "org_stars": 739063
+    "org_stars": 738417
   },
   "queries": [
     {
@@ -985,20 +985,6 @@
       "total_stars": 8687
     },
     {
-      "login": "solegalli",
-      "name": "Soledad Galli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11805379?s=88&u=1c89d8cc26497c7055e635882e5d4ea4b4c6ac47&v=4",
-      "html_url": "https://github.com/solegalli",
-      "followers": 1404,
-      "following": 8,
-      "public_repos": 15,
-      "location": "Berlin, Germany",
-      "bio": "👨‍💻 Data scientist, Python developer, best-selling machine learning instructor, and book author. 📚 Developer of Feature-engine. 🚀",
-      "company": "Train in Data",
-      "created_at": "2015-04-05T10:25:19Z",
-      "total_stars": 1258
-    },
-    {
       "login": "lukasmasuch",
       "name": "Lukas Masuch",
       "avatar_url": "https://avatars.githubusercontent.com/u/2852129?s=88&u=632d8fd8bdbfa336a8fee857d97e4d6890e2c340&v=4",
@@ -1011,6 +997,20 @@
       "company": "@streamlit",
       "created_at": "2012-11-21T09:03:10Z",
       "total_stars": 30468
+    },
+    {
+      "login": "solegalli",
+      "name": "Soledad Galli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11805379?s=88&u=1c89d8cc26497c7055e635882e5d4ea4b4c6ac47&v=4",
+      "html_url": "https://github.com/solegalli",
+      "followers": 1404,
+      "following": 8,
+      "public_repos": 15,
+      "location": "Berlin, Germany",
+      "bio": "👨‍💻 Data scientist, Python developer, best-selling machine learning instructor, and book author. 📚 Developer of Feature-engine. 🚀",
+      "company": "Train in Data",
+      "created_at": "2015-04-05T10:25:19Z",
+      "total_stars": 1258
     },
     {
       "login": "datitran",
@@ -2177,20 +2177,6 @@
       "total_stars": 2164
     },
     {
-      "login": "nextapps-de",
-      "name": "Nextapps GmbH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28928681?s=88&v=4",
-      "html_url": "https://github.com/nextapps-de",
-      "followers": 145,
-      "following": 0,
-      "public_repos": 14,
-      "location": "Berlin",
-      "bio": "Software made in Germany",
-      "company": null,
-      "created_at": "2017-05-24T15:46:17Z",
-      "total_stars": 23427
-    },
-    {
       "login": "c-base",
       "name": "c-base",
       "avatar_url": "https://avatars.githubusercontent.com/u/1377625?s=88&v=4",
@@ -2203,6 +2189,20 @@
       "company": null,
       "created_at": "2012-01-25T01:32:20Z",
       "total_stars": 409
+    },
+    {
+      "login": "nextapps-de",
+      "name": "Nextapps GmbH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28928681?s=88&v=4",
+      "html_url": "https://github.com/nextapps-de",
+      "followers": 145,
+      "following": 0,
+      "public_repos": 14,
+      "location": "Berlin",
+      "bio": "Software made in Germany",
+      "company": null,
+      "created_at": "2017-05-24T15:46:17Z",
+      "total_stars": 23427
     },
     {
       "login": "ScaCap",
@@ -2457,6 +2457,20 @@
       "total_stars": 1435
     },
     {
+      "login": "bakdata",
+      "name": "bakdata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
+      "html_url": "https://github.com/bakdata",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 58,
+      "location": "Berlin, Germany",
+      "bio": "🚀 data non-stop 🚀 We are a leader in the open source development of modern data streaming platforms. We are hiring!",
+      "company": null,
+      "created_at": "2013-10-17T11:17:58Z",
+      "total_stars": 633
+    },
+    {
       "login": "liqd",
       "name": "Liquid Democracy",
       "avatar_url": "https://avatars.githubusercontent.com/u/2312088?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2015-12-02T01:35:20Z",
       "total_stars": 297
-    },
-    {
-      "login": "vanilophp",
-      "name": "Vanilo E-commerce",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33227344?s=88&v=4",
-      "html_url": "https://github.com/vanilophp",
-      "followers": 88,
-      "following": 0,
-      "public_repos": 39,
-      "location": "Berlin",
-      "bio": "Truly Laravel E-commerce Framework",
-      "company": null,
-      "created_at": "2017-10-30T14:43:23Z",
-      "total_stars": 1279
     }
   ],
   "repos": [

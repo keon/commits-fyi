@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-07-21T07:43:49.999Z",
+  "generated_at": "2026-07-22T07:44:04.478Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1370731,
-    "org_followers": 959604,
+    "org_followers": 959606,
     "user_stars": 3323683,
-    "org_stars": 10031404
+    "org_stars": 10029710
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 1261
     },
     {
-      "login": "atom",
-      "name": "Atom",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1089146?s=88&v=4",
-      "html_url": "https://github.com/atom",
-      "followers": 3279,
+      "login": "unslothai",
+      "name": "Unsloth AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
+      "html_url": "https://github.com/unslothai",
+      "followers": 3281,
       "following": 0,
-      "public_repos": 221,
-      "location": "San Francisco, CA",
-      "bio": "Free and open source text editor, brought to you by GitHub",
+      "public_repos": 4,
+      "location": "United States of America",
+      "bio": "Run and train AI models locally. 🦥",
       "company": null,
-      "created_at": "2011-09-29T07:56:58Z",
-      "total_stars": 78695
+      "created_at": "2023-11-15T12:23:54Z",
+      "total_stars": 77001
     }
   ],
   "repos": [
@@ -3111,6 +3111,25 @@
       "fork": false
     },
     {
+      "full_name": "unslothai/unsloth",
+      "html_url": "https://github.com/unslothai/unsloth",
+      "description": "Unsloth is a local UI for training and running Gemma 4, Qwen3.6, DeepSeek, Kimi, GLM and other models.",
+      "stargazers_count": 68700,
+      "forks_count": 6175,
+      "language": "Python",
+      "topics": [
+        "fine-tuning",
+        "llama",
+        "llms",
+        "mistral",
+        "gemma"
+      ],
+      "owner_login": "unslothai",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "lydiahallie/javascript-questions",
       "html_url": "https://github.com/lydiahallie/javascript-questions",
       "description": "A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ",
@@ -3176,25 +3195,6 @@
       ],
       "owner_login": "withastro",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/44914786?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "atom/atom",
-      "html_url": "https://github.com/atom/atom",
-      "description": ":atom: The hackable text editor",
-      "stargazers_count": 60805,
-      "forks_count": 17179,
-      "language": "JavaScript",
-      "topics": [
-        "atom",
-        "editor",
-        "javascript",
-        "electron",
-        "windows"
-      ],
-      "owner_login": "atom",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1089146?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
