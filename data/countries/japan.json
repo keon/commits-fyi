@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Japan",
   "slug": "japan",
-  "generated_at": "2026-07-22T07:44:58.320Z",
+  "generated_at": "2026-07-23T07:46:25.189Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 378831,
+    "user_followers": 378577,
     "org_followers": 39572,
-    "user_stars": 1207197,
+    "user_stars": 1197112,
     "org_stars": 474216
   },
   "queries": [
@@ -1181,20 +1181,6 @@
       "total_stars": 2998
     },
     {
-      "login": "hoochanlon",
-      "name": "123456",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35732922?s=88&u=df2348b6932fc75f844f0a10dfaeb8df995ca889&v=4",
-      "html_url": "https://github.com/hoochanlon",
-      "followers": 1435,
-      "following": 9,
-      "public_repos": 18,
-      "location": "Taiwan, Japan",
-      "bio": "22/7, Nogizaka46 fans",
-      "company": "@HMUniversity",
-      "created_at": "2018-01-23T13:50:12Z",
-      "total_stars": 16743
-    },
-    {
       "login": "mattatz",
       "name": "Masatatsu Nakamura",
       "avatar_url": "https://avatars.githubusercontent.com/u/1085910?s=88&u=227a71b91542b7113616f99fc277832d787963a1&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2013-05-15T15:14:10Z",
       "total_stars": 799
+    },
+    {
+      "login": "Kaixhin",
+      "name": "Kai Arulkumaran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/991891?s=88&v=4",
+      "html_url": "https://github.com/Kaixhin",
+      "followers": 1181,
+      "following": 352,
+      "public_repos": 37,
+      "location": "Tokyo",
+      "bio": "Researcher, programmer, DJ, transhumanist.",
+      "company": "@SakanaAI",
+      "created_at": "2011-08-19T21:14:37Z",
+      "total_stars": 6658
     }
   ],
   "orgs": [
@@ -3086,25 +3086,6 @@
       "fork": false
     },
     {
-      "full_name": "hoochanlon/hamuleite",
-      "html_url": "https://github.com/hoochanlon/hamuleite",
-      "description": "🏔️国立台湾大学、新加坡国立大学、早稻田大学、东京大学，中央研究院（台湾）以及中国重点高校及科研机构，社科、经济、数学、博弈论、哲学、系统工程类学术论文等知识库。",
-      "stargazers_count": 9512,
-      "forks_count": 1882,
-      "language": "Python",
-      "topics": [
-        "mirrors",
-        "social",
-        "chatgpt",
-        "cnki",
-        "it"
-      ],
-      "owner_login": "hoochanlon",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/35732922?s=88&u=df2348b6932fc75f844f0a10dfaeb8df995ca889&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "hrsh7th/nvim-cmp",
       "html_url": "https://github.com/hrsh7th/nvim-cmp",
       "description": "A completion plugin for neovim coded in Lua.",
@@ -3409,6 +3390,19 @@
       ],
       "owner_login": "ryo-ma",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6661165?s=88&u=dae26e50e14bfafe264f08aace7a1aec186802eb&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "cambecc/earth",
+      "html_url": "https://github.com/cambecc/earth",
+      "description": "a project to visualize global weather conditions",
+      "stargazers_count": 6564,
+      "forks_count": 1243,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "cambecc",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3368530?s=88&u=80cff1b049d8d66a51e25a7a5070fc1c6eb79aaf&v=4",
       "owner_type": "User",
       "fork": false
     }

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-07-22T07:43:50.527Z",
+  "generated_at": "2026-07-23T07:45:19.403Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 198220,
-    "org_followers": 97224,
+    "org_followers": 97230,
     "user_stars": 849405,
-    "org_stars": 1102044
+    "org_stars": 1101138
   },
   "queries": [
     {
@@ -2457,20 +2457,6 @@
       "total_stars": 496
     },
     {
-      "login": "Jailbreaks",
-      "name": "Jailbreaks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25392316?s=88&v=4",
-      "html_url": "https://github.com/Jailbreaks",
-      "followers": 93,
-      "following": 0,
-      "public_repos": 21,
-      "location": "Paris",
-      "bio": "A set of open source iOS exploits and jailbreaks ~matteyeux",
-      "company": null,
-      "created_at": "2017-01-27T18:49:15Z",
-      "total_stars": 186
-    },
-    {
       "login": "cgwire",
       "name": "CGWire",
       "avatar_url": "https://avatars.githubusercontent.com/u/26680615?s=88&v=4",
@@ -2483,6 +2469,20 @@
       "company": null,
       "created_at": "2017-03-25T23:36:54Z",
       "total_stars": 2575
+    },
+    {
+      "login": "Jailbreaks",
+      "name": "Jailbreaks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25392316?s=88&v=4",
+      "html_url": "https://github.com/Jailbreaks",
+      "followers": 93,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Paris",
+      "bio": "A set of open source iOS exploits and jailbreaks ~matteyeux",
+      "company": null,
+      "created_at": "2017-01-27T18:49:15Z",
+      "total_stars": 186
     },
     {
       "login": "sfeir-open-source",
@@ -2527,6 +2527,20 @@
       "total_stars": 1
     },
     {
+      "login": "Dessia-tech",
+      "name": "DessIA Technologies",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36970700?s=88&v=4",
+      "html_url": "https://github.com/Dessia-tech",
+      "followers": 89,
+      "following": 0,
+      "public_repos": 20,
+      "location": "Paris, France",
+      "bio": "French Startup in engineering. We are hiring in Paris!",
+      "company": null,
+      "created_at": "2018-03-01T20:48:32Z",
+      "total_stars": 66
+    },
+    {
       "login": "riatelab",
       "name": "riatelab",
       "avatar_url": "https://avatars.githubusercontent.com/u/17590565?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2016-03-02T10:09:41Z",
       "total_stars": 2259
-    },
-    {
-      "login": "CEA-LIST",
-      "name": "CEA-List",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24958773?s=88&v=4",
-      "html_url": "https://github.com/CEA-LIST",
-      "followers": 83,
-      "following": 0,
-      "public_repos": 70,
-      "location": "CEA Paris-Saclay - Nano-Innov",
-      "bio": "Smart digital systems for Artificial intelligence, Factory of the Future and Digital Trust",
-      "company": null,
-      "created_at": "2017-01-06T12:50:46Z",
-      "total_stars": 972
     }
   ],
   "repos": [
