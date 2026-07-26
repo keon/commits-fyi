@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-07-25T07:28:26.669Z",
+  "generated_at": "2026-07-26T07:46:27.530Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 297419,
-    "org_followers": 32242,
+    "org_followers": 32251,
     "user_stars": 953429,
     "org_stars": 738889
   },
@@ -985,20 +985,6 @@
       "total_stars": 8701
     },
     {
-      "login": "solegalli",
-      "name": "Soledad Galli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11805379?s=88&u=1c89d8cc26497c7055e635882e5d4ea4b4c6ac47&v=4",
-      "html_url": "https://github.com/solegalli",
-      "followers": 1405,
-      "following": 8,
-      "public_repos": 15,
-      "location": "Berlin, Germany",
-      "bio": "👨‍💻 Data scientist, Python developer, best-selling machine learning instructor, and book author. 📚 Developer of Feature-engine. 🚀",
-      "company": "Train in Data",
-      "created_at": "2015-04-05T10:25:19Z",
-      "total_stars": 1261
-    },
-    {
       "login": "lukasmasuch",
       "name": "Lukas Masuch",
       "avatar_url": "https://avatars.githubusercontent.com/u/2852129?s=88&u=632d8fd8bdbfa336a8fee857d97e4d6890e2c340&v=4",
@@ -1011,6 +997,20 @@
       "company": "@streamlit",
       "created_at": "2012-11-21T09:03:10Z",
       "total_stars": 30475
+    },
+    {
+      "login": "solegalli",
+      "name": "Soledad Galli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11805379?s=88&u=1c89d8cc26497c7055e635882e5d4ea4b4c6ac47&v=4",
+      "html_url": "https://github.com/solegalli",
+      "followers": 1405,
+      "following": 8,
+      "public_repos": 15,
+      "location": "Berlin, Germany",
+      "bio": "👨‍💻 Data scientist, Python developer, best-selling machine learning instructor, and book author. 📚 Developer of Feature-engine. 🚀",
+      "company": "Train in Data",
+      "created_at": "2015-04-05T10:25:19Z",
+      "total_stars": 1261
     },
     {
       "login": "datitran",
@@ -2149,20 +2149,6 @@
       "total_stars": 740
     },
     {
-      "login": "bundestag",
-      "name": "Bundestag",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1994383?s=88&v=4",
-      "html_url": "https://github.com/bundestag",
-      "followers": 150,
-      "following": 0,
-      "public_repos": 15,
-      "location": "Germany, Berlin",
-      "bio": "Code rund um den Bundestag",
-      "company": null,
-      "created_at": "2012-07-17T21:57:18Z",
-      "total_stars": 2166
-    },
-    {
       "login": "psychonautwiki",
       "name": "PsychonautWiki",
       "avatar_url": "https://avatars.githubusercontent.com/u/19479626?s=88&v=4",
@@ -2175,6 +2161,20 @@
       "company": null,
       "created_at": "2016-05-19T21:47:54Z",
       "total_stars": 293
+    },
+    {
+      "login": "bundestag",
+      "name": "Bundestag",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1994383?s=88&v=4",
+      "html_url": "https://github.com/bundestag",
+      "followers": 150,
+      "following": 0,
+      "public_repos": 15,
+      "location": "Germany, Berlin",
+      "bio": "Code rund um den Bundestag",
+      "company": null,
+      "created_at": "2012-07-17T21:57:18Z",
+      "total_stars": 2166
     },
     {
       "login": "c-base",
@@ -2415,6 +2415,20 @@
       "total_stars": 298
     },
     {
+      "login": "bakdata",
+      "name": "bakdata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
+      "html_url": "https://github.com/bakdata",
+      "followers": 104,
+      "following": 0,
+      "public_repos": 58,
+      "location": "Berlin, Germany",
+      "bio": "🚀 data non-stop 🚀 We are a leader in the open source development of modern data streaming platforms. We are hiring!",
+      "company": null,
+      "created_at": "2013-10-17T11:17:58Z",
+      "total_stars": 633
+    },
+    {
       "login": "bigchaindb",
       "name": "BigchainDB",
       "avatar_url": "https://avatars.githubusercontent.com/u/17097586?s=88&v=4",
@@ -2455,20 +2469,6 @@
       "company": null,
       "created_at": "2015-09-01T11:50:37Z",
       "total_stars": 1435
-    },
-    {
-      "login": "bakdata",
-      "name": "bakdata",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
-      "html_url": "https://github.com/bakdata",
-      "followers": 95,
-      "following": 0,
-      "public_repos": 58,
-      "location": "Berlin, Germany",
-      "bio": "🚀 data non-stop 🚀 We are a leader in the open source development of modern data streaming platforms. We are hiring!",
-      "company": null,
-      "created_at": "2013-10-17T11:17:58Z",
-      "total_stars": 633
     },
     {
       "login": "liqd",
