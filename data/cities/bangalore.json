@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-07-27T08:53:35.624Z",
+  "generated_at": "2026-07-28T07:48:36.234Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 180178,
+    "user_followers": 188229,
     "org_followers": 23512,
-    "user_stars": 451115,
+    "user_stars": 514807,
     "org_stars": 356705
   },
   "queries": [
@@ -59,6 +59,20 @@
       "company": "Zerodha",
       "created_at": "2011-01-04T15:32:55Z",
       "total_stars": 42816
+    },
+    {
+      "login": "amitshekhariitbhu",
+      "name": "AMIT SHEKHAR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "html_url": "https://github.com/amitshekhariitbhu",
+      "followers": 8648,
+      "following": 1,
+      "public_repos": 46,
+      "location": "New Delhi, India",
+      "bio": "Founder @OutcomeSchool | Teaching AI, ML & Software Engineering | Open Source | IIT 2010-14",
+      "company": "@OutcomeSchool",
+      "created_at": "2014-11-21T03:40:51Z",
+      "total_stars": 69093
     },
     {
       "login": "arpitbbhayani",
@@ -1417,20 +1431,6 @@
       "company": "Microsoft",
       "created_at": "2010-11-28T19:39:45Z",
       "total_stars": 44
-    },
-    {
-      "login": "athityakumar",
-      "name": "Athitya Kumar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17109060?s=88&u=c409afbc4f827342196862191fabb6cd69625305&v=4",
-      "html_url": "https://github.com/athityakumar",
-      "followers": 597,
-      "following": 260,
-      "public_repos": 77,
-      "location": "Bangalore",
-      "bio": "IITKGP-ian. Chess player. Software Developer. Open source enthusiast. GSoC'er. Staff Engg & Open-Source Community Leader @intuit India",
-      "company": "Intuit India, @intuit ",
-      "created_at": "2016-02-07T13:26:06Z",
-      "total_stars": 5401
     }
   ],
   "orgs": [
@@ -1463,20 +1463,6 @@
       "total_stars": 5233
     },
     {
-      "login": "razorpay",
-      "name": "Razorpay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7713209?s=88&v=4",
-      "html_url": "https://github.com/razorpay",
-      "followers": 1228,
-      "following": 0,
-      "public_repos": 102,
-      "location": "Bangalore, India",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-05-27T12:06:39Z",
-      "total_stars": 3592
-    },
-    {
       "login": "juspay",
       "name": "Juspay Technologies",
       "avatar_url": "https://avatars.githubusercontent.com/u/11497632?s=88&v=4",
@@ -1489,6 +1475,20 @@
       "company": null,
       "created_at": "2015-03-16T07:03:20Z",
       "total_stars": 48170
+    },
+    {
+      "login": "razorpay",
+      "name": "Razorpay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7713209?s=88&v=4",
+      "html_url": "https://github.com/razorpay",
+      "followers": 1228,
+      "following": 0,
+      "public_repos": 102,
+      "location": "Bangalore, India",
+      "bio": null,
+      "company": null,
+      "created_at": "2014-05-27T12:06:39Z",
+      "total_stars": 3592
     },
     {
       "login": "hasura",
@@ -2779,6 +2779,25 @@
       "fork": false
     },
     {
+      "full_name": "amitshekhariitbhu/android-interview-questions",
+      "html_url": "https://github.com/amitshekhariitbhu/android-interview-questions",
+      "description": "Your Cheat Sheet For Android Interview - Android Interview Questions and Answers",
+      "stargazers_count": 12348,
+      "forks_count": 2385,
+      "language": "Java",
+      "topics": [
+        "cheatsheet",
+        "cheat-sheets",
+        "android",
+        "android-interview-practice",
+        "android-interview-questions"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "Kuberwastaken/claurst",
       "html_url": "https://github.com/Kuberwastaken/claurst",
       "description": "Agentic Coding for Builders who Ship",
@@ -2839,6 +2858,25 @@
       "topics": [],
       "owner_login": "graviraja",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7556119?s=88&u=09ddb0729a5d39b0c75b85af76471f9065d7837c&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "amitshekhariitbhu/Android-Debug-Database",
+      "html_url": "https://github.com/amitshekhariitbhu/Android-Debug-Database",
+      "description": "A library for debugging android databases and shared preferences - Make Debugging Great Again",
+      "stargazers_count": 8673,
+      "forks_count": 885,
+      "language": "Java",
+      "topics": [
+        "android-debug-database",
+        "sharedpreferences",
+        "database",
+        "android",
+        "database-values"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -2915,6 +2953,63 @@
       ],
       "owner_login": "sachinchoolur",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/6586706?s=88&u=93c7e2e7271ec018e5e029c30c9e1857602894b3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "amitshekhariitbhu/from-java-to-kotlin",
+      "html_url": "https://github.com/amitshekhariitbhu/from-java-to-kotlin",
+      "description": "From Java To Kotlin - Your Cheat Sheet For Java To Kotlin",
+      "stargazers_count": 6323,
+      "forks_count": 780,
+      "language": "Java",
+      "topics": [
+        "kotlin",
+        "kotlin-android",
+        "kotlin-language",
+        "android",
+        "java-to-kotiln"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "amitshekhariitbhu/go-backend-clean-architecture",
+      "html_url": "https://github.com/amitshekhariitbhu/go-backend-clean-architecture",
+      "description": "A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.",
+      "stargazers_count": 6126,
+      "forks_count": 670,
+      "language": "Go",
+      "topics": [
+        "architecture",
+        "backend",
+        "clean-architecture",
+        "gin",
+        "go"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "amitshekhariitbhu/Fast-Android-Networking",
+      "html_url": "https://github.com/amitshekhariitbhu/Fast-Android-Networking",
+      "description": "🚀 A Complete Fast Android Networking Library that also supports HTTP/2 🚀",
+      "stargazers_count": 5907,
+      "forks_count": 978,
+      "language": "Java",
+      "topics": [
+        "http",
+        "network",
+        "libraries",
+        "android",
+        "fast"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3060,6 +3155,25 @@
       "owner_login": "Hack-with-Github",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/18143746?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "amitshekhariitbhu/RxJava2-Android-Samples",
+      "html_url": "https://github.com/amitshekhariitbhu/RxJava2-Android-Samples",
+      "description": "RxJava 2 Android Examples - How to use RxJava 2 in Android",
+      "stargazers_count": 4911,
+      "forks_count": 1044,
+      "language": "Java",
+      "topics": [
+        "rxjava",
+        "android",
+        "rxjava2",
+        "rxandroid",
+        "example"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3289,6 +3403,25 @@
       "fork": false
     },
     {
+      "full_name": "amitshekhariitbhu/PRDownloader",
+      "html_url": "https://github.com/amitshekhariitbhu/PRDownloader",
+      "description": "PRDownloader - A file downloader library for Android with pause and resume support",
+      "stargazers_count": 3387,
+      "forks_count": 543,
+      "language": "Java",
+      "topics": [
+        "filedownloader",
+        "downloader",
+        "android",
+        "library",
+        "breakpoint"
+      ],
+      "owner_login": "amitshekhariitbhu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "hasura/graphqurl",
       "html_url": "https://github.com/hasura/graphqurl",
       "description": "curl for GraphQL with autocomplete, subscriptions and GraphiQL. Also a dead-simple universal javascript GraphQL client.",
@@ -3323,124 +3456,6 @@
       ],
       "owner_login": "Shubham0812",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/19903539?s=88&u=4cc7927e033a5d39e6ea12c7711a7051a0ea31e0&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ragunathjawahar/android-saripaar",
-      "html_url": "https://github.com/ragunathjawahar/android-saripaar",
-      "description": "UI form validation library for Android",
-      "stargazers_count": 3190,
-      "forks_count": 456,
-      "language": "Java",
-      "topics": [
-        "android",
-        "java"
-      ],
-      "owner_login": "ragunathjawahar",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1141970?s=88&u=c6207c2a3073e2c61ce0cb0ea2c854b02a315fa3&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "collabnix/kubelabs",
-      "html_url": "https://github.com/collabnix/kubelabs",
-      "description": "Get Started with Kubernetes",
-      "stargazers_count": 3113,
-      "forks_count": 1124,
-      "language": "Ruby",
-      "topics": [
-        "kubernetes",
-        "kubetools",
-        "helm",
-        "beginners",
-        "hacktoberfest"
-      ],
-      "owner_login": "collabnix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34368930?s=88&u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "arpitbbhayani/system-design-questions",
-      "html_url": "https://github.com/arpitbbhayani/system-design-questions",
-      "description": "A no-fluff and highly practical masterclass that reignites engineering curiosity and helps SDE-2, SDE-3, and above become great at designing",
-      "stargazers_count": 3105,
-      "forks_count": 640,
-      "language": "Python",
-      "topics": [
-        "system-design-project",
-        "system-design",
-        "system-design-interview",
-        "system-design-questions",
-        "coursework"
-      ],
-      "owner_login": "arpitbbhayani",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4745789?s=88&u=65a64cc2be6ef4fba70bb90acfb45743cf0494e9&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "krishnaik06/Complete-Python-Bootcamp",
-      "html_url": "https://github.com/krishnaik06/Complete-Python-Bootcamp",
-      "description": null,
-      "stargazers_count": 2915,
-      "forks_count": 3597,
-      "language": "Jupyter Notebook",
-      "topics": [],
-      "owner_login": "krishnaik06",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20041231?s=88&u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "knadh/dns.toys",
-      "html_url": "https://github.com/knadh/dns.toys",
-      "description": "A DNS server that offers useful utilities and services over the DNS protocol. Weather, world time, unit conversion etc.",
-      "stargazers_count": 2817,
-      "forks_count": 184,
-      "language": "Go",
-      "topics": [
-        "dns",
-        "dns-server",
-        "fun",
-        "unit-conversion",
-        "weather"
-      ],
-      "owner_login": "knadh",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/547147?s=88&u=d0d65c421bb54c3714c473259ea33259bf3ccd06&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "krishnaik06/Complete-Data-Science-With-Machine-Learning-And-NLP-2024",
-      "html_url": "https://github.com/krishnaik06/Complete-Data-Science-With-Machine-Learning-And-NLP-2024",
-      "description": null,
-      "stargazers_count": 2767,
-      "forks_count": 3256,
-      "language": "Jupyter Notebook",
-      "topics": [],
-      "owner_login": "krishnaik06",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20041231?s=88&u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG",
-      "html_url": "https://github.com/hegdepavankumar/Cisco-Images-for-GNS3-and-EVE-NG",
-      "description": "Free Images for EVE-NG and GNS3 containing routers, switches,Firewalls and other appliances, including Cisco, Fortigate, Palo Alto, Sophos a",
-      "stargazers_count": 2648,
-      "forks_count": 563,
-      "language": "HTML",
-      "topics": [
-        "network-simulator",
-        "cisco-images",
-        "eveng",
-        "evengimages",
-        "checkpoint-firewall"
-      ],
-      "owner_login": "hegdepavankumar",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/85627085?s=88&u=743d38d26fb2101cd2b3b92322056f848d4213cb&v=4",
       "owner_type": "User",
       "fork": false
     }
