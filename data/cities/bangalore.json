@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-07-29T08:00:48.661Z",
+  "generated_at": "2026-07-30T07:43:37.803Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 188696,
     "org_followers": 23512,
     "user_stars": 520093,
-    "org_stars": 356705
+    "org_stars": 362010
   },
   "queries": [
     {
@@ -1463,20 +1463,6 @@
       "total_stars": 5233
     },
     {
-      "login": "juspay",
-      "name": "Juspay Technologies",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11497632?s=88&v=4",
-      "html_url": "https://github.com/juspay",
-      "followers": 1228,
-      "following": 0,
-      "public_repos": 244,
-      "location": "Bangalore, India",
-      "bio": " Design to simplify. Revolutionizing digital payments.",
-      "company": null,
-      "created_at": "2015-03-16T07:03:20Z",
-      "total_stars": 48170
-    },
-    {
       "login": "razorpay",
       "name": "Razorpay",
       "avatar_url": "https://avatars.githubusercontent.com/u/7713209?s=88&v=4",
@@ -1489,6 +1475,20 @@
       "company": null,
       "created_at": "2014-05-27T12:06:39Z",
       "total_stars": 3592
+    },
+    {
+      "login": "juspay",
+      "name": "Juspay Technologies",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11497632?s=88&v=4",
+      "html_url": "https://github.com/juspay",
+      "followers": 1228,
+      "following": 0,
+      "public_repos": 244,
+      "location": "Bangalore, India",
+      "bio": " Design to simplify. Revolutionizing digital payments.",
+      "company": null,
+      "created_at": "2015-03-16T07:03:20Z",
+      "total_stars": 48170
     },
     {
       "login": "hasura",
@@ -2065,20 +2065,6 @@
       "total_stars": 20
     },
     {
-      "login": "cashfree",
-      "name": "Cashfree Payments",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25682196?s=88&v=4",
-      "html_url": "https://github.com/cashfree",
-      "followers": 87,
-      "following": 0,
-      "public_repos": 67,
-      "location": "Bangalore, India",
-      "bio": "Payments platform for businesses",
-      "company": null,
-      "created_at": "2017-02-10T08:09:18Z",
-      "total_stars": 229
-    },
-    {
       "login": "practo",
       "name": "Practo",
       "avatar_url": "https://avatars.githubusercontent.com/u/153392?s=88&v=4",
@@ -2091,6 +2077,20 @@
       "company": null,
       "created_at": "2009-11-14T22:49:01Z",
       "total_stars": 244
+    },
+    {
+      "login": "cashfree",
+      "name": "Cashfree Payments",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25682196?s=88&v=4",
+      "html_url": "https://github.com/cashfree",
+      "followers": 87,
+      "following": 0,
+      "public_repos": 67,
+      "location": "Bangalore, India",
+      "bio": "Payments platform for businesses",
+      "company": null,
+      "created_at": "2017-02-10T08:09:18Z",
+      "total_stars": 229
     },
     {
       "login": "GetSimpl",
@@ -2541,18 +2541,18 @@
       "total_stars": 0
     },
     {
-      "login": "quintype",
-      "name": "Quintype Technologies India Ltd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8854520?s=88&v=4",
-      "html_url": "https://github.com/quintype",
+      "login": "ionicfirebaseapp",
+      "name": "Ionicfirebaseapp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33476427?s=88&v=4",
+      "html_url": "https://github.com/ionicfirebaseapp",
       "followers": 42,
       "following": 0,
-      "public_repos": 72,
+      "public_repos": 21,
       "location": "Bangalore",
-      "bio": null,
+      "bio": "We are here to build your next-generation cloud based web and mobile applications.",
       "company": null,
-      "created_at": "2014-09-21T23:10:28Z",
-      "total_stars": 38
+      "created_at": "2017-11-08T06:07:10Z",
+      "total_stars": 5343
     }
   ],
   "repos": [
@@ -2957,6 +2957,25 @@
       "fork": false
     },
     {
+      "full_name": "snehasishroy/leetcode-companywise-interview-questions",
+      "html_url": "https://github.com/snehasishroy/leetcode-companywise-interview-questions",
+      "description": "Contains latest company wise questions of LeetCode as of May 2026.",
+      "stargazers_count": 6693,
+      "forks_count": 1384,
+      "language": "Java",
+      "topics": [
+        "leetcode",
+        "leetcode-companies",
+        "leetcode-company-questions",
+        "leetcode-company-wise-questions",
+        "leetcode-java"
+      ],
+      "owner_login": "snehasishroy",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4747384?s=88&u=d69ab93263499db696451a281fbdc72166a4d1c3&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "amitshekhariitbhu/from-java-to-kotlin",
       "html_url": "https://github.com/amitshekhariitbhu/from-java-to-kotlin",
       "description": "From Java To Kotlin - Your Cheat Sheet For Java To Kotlin",
@@ -3196,6 +3215,25 @@
       "fork": false
     },
     {
+      "full_name": "ionicfirebaseapp/getwidget",
+      "html_url": "https://github.com/ionicfirebaseapp/getwidget",
+      "description": "Most popular and easy to use open source UI library with 1000+ Widgets to build flutter app. ",
+      "stargazers_count": 4824,
+      "forks_count": 647,
+      "language": "Dart",
+      "topics": [
+        "flutter",
+        "dart",
+        "flutter-ui",
+        "flutter-widget",
+        "widgetkit"
+      ],
+      "owner_login": "ionicfirebaseapp",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/33476427?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "sadanandpai/frontend-learning-kit",
       "html_url": "https://github.com/sadanandpai/frontend-learning-kit",
       "description": "Frontend tech guide and curated collection of frontend materials",
@@ -3419,44 +3457,6 @@
       "owner_login": "collabnix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/34368930?s=88&u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "amitshekhariitbhu/PRDownloader",
-      "html_url": "https://github.com/amitshekhariitbhu/PRDownloader",
-      "description": "PRDownloader - A file downloader library for Android with pause and resume support",
-      "stargazers_count": 3387,
-      "forks_count": 543,
-      "language": "Java",
-      "topics": [
-        "filedownloader",
-        "downloader",
-        "android",
-        "library",
-        "breakpoint"
-      ],
-      "owner_login": "amitshekhariitbhu",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9877145?s=88&u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "hasura/graphqurl",
-      "html_url": "https://github.com/hasura/graphqurl",
-      "description": "curl for GraphQL with autocomplete, subscriptions and GraphiQL. Also a dead-simple universal javascript GraphQL client.",
-      "stargazers_count": 3380,
-      "forks_count": 101,
-      "language": "JavaScript",
-      "topics": [
-        "graphql",
-        "cli",
-        "curl",
-        "query",
-        "subscription"
-      ],
-      "owner_login": "hasura",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/13966722?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]

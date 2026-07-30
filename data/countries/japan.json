@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Japan",
   "slug": "japan",
-  "generated_at": "2026-07-29T08:01:46.514Z",
+  "generated_at": "2026-07-30T07:44:36.310Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 379080,
+    "user_followers": 381096,
     "org_followers": 39888,
-    "user_stars": 1198813,
+    "user_stars": 1196259,
     "org_stars": 475690
   },
   "queries": [
@@ -507,6 +507,20 @@
       "company": "@OpenGenus ",
       "created_at": "2015-01-21T16:09:21Z",
       "total_stars": 526
+    },
+    {
+      "login": "4ra1n",
+      "name": "4ra1n",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34726933?s=88&u=8c53ba2506a6b118d27858716067a42c6ae0de42&v=4",
+      "html_url": "https://github.com/4ra1n",
+      "followers": 3199,
+      "following": 225,
+      "public_repos": 15,
+      "location": "Tokyo",
+      "bio": "Java Security Researcher, Discovered many CVEs in important products.",
+      "company": "Independent Security Researcher",
+      "created_at": "2017-12-21T00:20:36Z",
+      "total_stars": 4104
     },
     {
       "login": "pilcrowonpaper",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2013-05-15T15:14:10Z",
       "total_stars": 801
-    },
-    {
-      "login": "Kaixhin",
-      "name": "Kai Arulkumaran",
-      "avatar_url": "https://avatars.githubusercontent.com/u/991891?s=88&v=4",
-      "html_url": "https://github.com/Kaixhin",
-      "followers": 1183,
-      "following": 352,
-      "public_repos": 37,
-      "location": "Tokyo",
-      "bio": "Researcher, programmer, DJ, transhumanist.",
-      "company": "@SakanaAI",
-      "created_at": "2011-08-19T21:14:37Z",
-      "total_stars": 6658
     }
   ],
   "orgs": [
@@ -2121,20 +2121,6 @@
       "total_stars": 2159
     },
     {
-      "login": "team-lab",
-      "name": "teamLab Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2704981?s=88&v=4",
-      "html_url": "https://github.com/team-lab",
-      "followers": 238,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Japan, Tokyo",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-11-02T07:11:20Z",
-      "total_stars": 71
-    },
-    {
       "login": "Project-PLATEAU",
       "name": "Project PLATEAU by MLIT,Japan",
       "avatar_url": "https://avatars.githubusercontent.com/u/79693475?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2021-02-26T09:29:27Z",
       "total_stars": 619
+    },
+    {
+      "login": "team-lab",
+      "name": "teamLab Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2704981?s=88&v=4",
+      "html_url": "https://github.com/team-lab",
+      "followers": 238,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Japan, Tokyo",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-11-02T07:11:20Z",
+      "total_stars": 71
     },
     {
       "login": "nkzw-tech",

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-07-29T07:59:43.575Z",
+  "generated_at": "2026-07-30T07:42:36.454Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 554634,
-    "org_followers": 138248,
+    "org_followers": 138252,
     "user_stars": 1711113,
-    "org_stars": 1598767
+    "org_stars": 1598058
   },
   "queries": [
     {
@@ -901,20 +901,6 @@
       "total_stars": 20575
     },
     {
-      "login": "ZacSweers",
-      "name": "Zac Sweers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1361086?s=88&u=f718c2d2774c7e8b85b5cf1c12df4b6aac6c13f4&v=4",
-      "html_url": "https://github.com/ZacSweers",
-      "followers": 2615,
-      "following": 110,
-      "public_repos": 57,
-      "location": "New York",
-      "bio": null,
-      "company": "@OpenAI",
-      "created_at": "2012-01-20T23:29:49Z",
-      "total_stars": 6394
-    },
-    {
       "login": "ladyada",
       "name": "Limor \"Ladyada\" Fried",
       "avatar_url": "https://avatars.githubusercontent.com/u/1214161?s=88&v=4",
@@ -927,6 +913,20 @@
       "company": "Adafruit Industries",
       "created_at": "2011-11-22T22:21:56Z",
       "total_stars": 51
+    },
+    {
+      "login": "ZacSweers",
+      "name": "Zac Sweers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1361086?s=88&u=f718c2d2774c7e8b85b5cf1c12df4b6aac6c13f4&v=4",
+      "html_url": "https://github.com/ZacSweers",
+      "followers": 2615,
+      "following": 110,
+      "public_repos": 57,
+      "location": "New York",
+      "bio": null,
+      "company": "@OpenAI",
+      "created_at": "2012-01-20T23:29:49Z",
+      "total_stars": 6394
     },
     {
       "login": "bamos",
@@ -2247,20 +2247,6 @@
       "total_stars": 134
     },
     {
-      "login": "datakind",
-      "name": "DataKind",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1133243?s=88&v=4",
-      "html_url": "https://github.com/datakind",
-      "followers": 288,
-      "following": 0,
-      "public_repos": 87,
-      "location": "New York, NY",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-10-17T13:32:15Z",
-      "total_stars": 396
-    },
-    {
       "login": "propublica",
       "name": "ProPublica",
       "avatar_url": "https://avatars.githubusercontent.com/u/80263?s=88&v=4",
@@ -2273,6 +2259,20 @@
       "company": null,
       "created_at": "2009-05-02T18:27:09Z",
       "total_stars": 7351
+    },
+    {
+      "login": "datakind",
+      "name": "DataKind",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1133243?s=88&v=4",
+      "html_url": "https://github.com/datakind",
+      "followers": 288,
+      "following": 0,
+      "public_repos": 87,
+      "location": "New York, NY",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-10-17T13:32:15Z",
+      "total_stars": 396
     },
     {
       "login": "ai4ce",
@@ -2527,6 +2527,20 @@
       "total_stars": 1254
     },
     {
+      "login": "api-evangelist",
+      "name": "API Evangelist",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3026872?s=88&v=4",
+      "html_url": "https://github.com/api-evangelist",
+      "followers": 202,
+      "following": 0,
+      "public_repos": 18261,
+      "location": "New York, NY",
+      "bio": "Studying the technology, business, policies, and people of APIs since 2010. All of these repositories are the inputs and outputs of the API Evangelist research.",
+      "company": null,
+      "created_at": "2012-12-12T16:40:08Z",
+      "total_stars": 94
+    },
+    {
       "login": "UrbanCompass",
       "name": "Compass",
       "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2012-10-02T18:21:11Z",
       "total_stars": 418
-    },
-    {
-      "login": "CityOfNewYork",
-      "name": "City of New York",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1107978?s=88&v=4",
-      "html_url": "https://github.com/CityOfNewYork",
-      "followers": 198,
-      "following": 0,
-      "public_repos": 98,
-      "location": "New York City",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-10-06T16:15:45Z",
-      "total_stars": 803
     }
   ],
   "repos": [
