@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Amsterdam",
   "slug": "amsterdam",
-  "generated_at": "2026-07-31T08:14:08.356Z",
+  "generated_at": "2026-08-01T07:38:48.675Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 135030,
+    "user_followers": 134949,
     "org_followers": 13172,
-    "user_stars": 501717,
+    "user_stars": 501798,
     "org_stars": 239829
   },
   "queries": [
@@ -1167,20 +1167,6 @@
       "total_stars": 536
     },
     {
-      "login": "pascalbaljet",
-      "name": "Pascal Baljet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8403149?s=88&u=37a25cf40738ca4fd3c1065567da9290647645b1&v=4",
-      "html_url": "https://github.com/pascalbaljet",
-      "followers": 599,
-      "following": 4,
-      "public_repos": 20,
-      "location": "Amsterdam",
-      "bio": "Working at @laravel. Maker of Inertia UI, Laravel FFmpeg, and other Laravel packages. Packages at @inertiaui and @protonemedia",
-      "company": "@protonemedia ",
-      "created_at": "2014-08-09T15:41:09Z",
-      "total_stars": 45
-    },
-    {
       "login": "jbremer",
       "name": "Jurriaan Bremer",
       "avatar_url": "https://avatars.githubusercontent.com/u/1148773?s=88&u=6392c30a92be2b6ecc288fe23d16bae54223d43a&v=4",
@@ -1431,6 +1417,20 @@
       "company": "Google",
       "created_at": "2008-12-01T18:37:05Z",
       "total_stars": 51
+    },
+    {
+      "login": "BobbyBabazadeh",
+      "name": "Bobby Babazadeh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11838978?s=88&u=1ab0efb840f37ccec6ba01c9c7b8d1d20b48a9c4&v=4",
+      "html_url": "https://github.com/BobbyBabazadeh",
+      "followers": 518,
+      "following": 17,
+      "public_repos": 9,
+      "location": "Amsterdam, the Netherlands",
+      "bio": "Python and DevOps, *nix Enthusiast!",
+      "company": null,
+      "created_at": "2015-04-07T16:24:46Z",
+      "total_stars": 126
     }
   ],
   "orgs": [
@@ -1715,20 +1715,6 @@
       "total_stars": 441
     },
     {
-      "login": "cwida",
-      "name": "CWI Database Architectures Group",
-      "avatar_url": "https://avatars.githubusercontent.com/u/40605326?s=88&v=4",
-      "html_url": "https://github.com/cwida",
-      "followers": 193,
-      "following": 0,
-      "public_repos": 31,
-      "location": "Amsterdam, The Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-06-26T15:03:32Z",
-      "total_stars": 2414
-    },
-    {
       "login": "mollie",
       "name": "Mollie",
       "avatar_url": "https://avatars.githubusercontent.com/u/1327170?s=88&v=4",
@@ -1741,6 +1727,20 @@
       "company": null,
       "created_at": "2012-01-13T08:40:24Z",
       "total_stars": 2480
+    },
+    {
+      "login": "cwida",
+      "name": "CWI Database Architectures Group",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40605326?s=88&v=4",
+      "html_url": "https://github.com/cwida",
+      "followers": 193,
+      "following": 0,
+      "public_repos": 31,
+      "location": "Amsterdam, The Netherlands",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-06-26T15:03:32Z",
+      "total_stars": 2414
     },
     {
       "login": "nutsfinance",
