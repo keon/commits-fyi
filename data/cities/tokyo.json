@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-08-01T07:38:50.322Z",
+  "generated_at": "2026-08-02T07:42:09.010Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 217003,
+    "user_followers": 217255,
     "org_followers": 22565,
-    "user_stars": 962803,
+    "user_stars": 957815,
     "org_stars": 312012
   },
   "queries": [
@@ -971,6 +971,20 @@
       "total_stars": 8497
     },
     {
+      "login": "eafirsov",
+      "name": "Eugene Firsov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85108775?s=88&u=6c5fecfa3018e4762de273f141d50c87cdc7d13f&v=4",
+      "html_url": "https://github.com/eafirsov",
+      "followers": 1099,
+      "following": 0,
+      "public_repos": 64,
+      "location": "Tokyo",
+      "bio": "Web3",
+      "company": "Kast",
+      "created_at": "2021-05-31T10:41:19Z",
+      "total_stars": 152
+    },
+    {
       "login": "nateberkopec",
       "name": "Nate Berkopec",
       "avatar_url": "https://avatars.githubusercontent.com/u/845662?s=88&v=4",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2008-06-05T02:03:20Z",
       "total_stars": 420
-    },
-    {
-      "login": "pmq20",
-      "name": "Minqi Pan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13315?s=88&u=c95880f99058add5161005df084a16c8741e3028&v=4",
-      "html_url": "https://github.com/pmq20",
-      "followers": 847,
-      "following": 655,
-      "public_repos": 62,
-      "location": "Tokyo",
-      "bio": "Head of Anti-Fraud @ KOMOJU — rules + ML for payments trust. Node.js core collaborator (emeritus). Ex-CTO & Ant Group P7. RailsConf/RubyConf speaker",
-      "company": "KOMOJU",
-      "created_at": "2008-06-11T07:46:37Z",
-      "total_stars": 5140
     }
   ],
   "orgs": [

@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-08-01T07:38:51.711Z",
+  "generated_at": "2026-08-02T07:42:12.585Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 349034,
+    "user_followers": 349045,
     "org_followers": 90051,
-    "user_stars": 1061444,
-    "org_stars": 1072136
+    "user_stars": 1061447,
+    "org_stars": 1071403
   },
   "queries": [
     {
@@ -873,6 +873,20 @@
       "total_stars": 5973
     },
     {
+      "login": "hyfdev",
+      "name": "Yunfei He",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49502170?s=88&u=5e77a887e2bda1d4395abb06d8ea8c9f423e2cc6&v=4",
+      "html_url": "https://github.com/hyfdev",
+      "followers": 1161,
+      "following": 34,
+      "public_repos": 95,
+      "location": "Singapore",
+      "bio": "Programmer by interest",
+      "company": "@voidzero-dev",
+      "created_at": "2019-04-11T00:38:51Z",
+      "total_stars": 408
+    },
+    {
       "login": "kennethleungty",
       "name": "Kenneth Leung",
       "avatar_url": "https://avatars.githubusercontent.com/u/16691614?s=88&u=79bee1ac6e74702838f71386c675f0ed6202b0b3&v=4",
@@ -885,20 +899,6 @@
       "company": "Boston Consulting Group (BCG)",
       "created_at": "2016-01-13T19:59:00Z",
       "total_stars": 5397
-    },
-    {
-      "login": "hyfdev",
-      "name": "Yunfei He",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49502170?s=88&u=5e77a887e2bda1d4395abb06d8ea8c9f423e2cc6&v=4",
-      "html_url": "https://github.com/hyfdev",
-      "followers": 1150,
-      "following": 28,
-      "public_repos": 95,
-      "location": "Singapore",
-      "bio": "Programmer by interest",
-      "company": "@voidzero-dev",
-      "created_at": "2019-04-11T00:38:51Z",
-      "total_stars": 405
     },
     {
       "login": "xbresson",
@@ -2541,18 +2541,18 @@
       "total_stars": 272
     },
     {
-      "login": "pgsty",
-      "name": "Pigsty",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157279331?s=88&v=4",
-      "html_url": "https://github.com/pgsty",
+      "login": "beclab",
+      "name": "BEC Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166520503?s=88&v=4",
+      "html_url": "https://github.com/beclab",
       "followers": 185,
       "following": 0,
-      "public_repos": 22,
+      "public_repos": 52,
       "location": "Singapore",
-      "bio": "Battery-Included PostgreSQL Distribution as a Free & OSS Local-First RDS",
+      "bio": null,
       "company": null,
-      "created_at": "2024-01-21T09:39:29Z",
-      "total_stars": 5907
+      "created_at": "2024-04-09T13:25:26Z",
+      "total_stars": 5174
     }
   ],
   "repos": [
