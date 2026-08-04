@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-08-03T08:48:19.411Z",
+  "generated_at": "2026-08-04T07:48:56.071Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 29768,
+    "user_followers": 29893,
     "org_followers": 3138,
-    "user_stars": 211623,
+    "user_stars": 210993,
     "org_stars": 90895
   },
   "queries": [
@@ -537,6 +537,20 @@
       "total_stars": 2057
     },
     {
+      "login": "cyberkrap",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/139158862?s=88&u=47ea62606a9cdf690333d1ed84adc0242d7fdd43&v=4",
+      "html_url": "https://github.com/cyberkrap",
+      "followers": 185,
+      "following": 165,
+      "public_repos": 1,
+      "location": "Tel Aviv, Israel",
+      "bio": "Chief Technology Officer @ Metacode",
+      "company": "Metacode",
+      "created_at": "2023-07-10T16:56:28Z",
+      "total_stars": 18
+    },
+    {
       "login": "guyca",
       "name": "Guy Carmeli",
       "avatar_url": "https://avatars.githubusercontent.com/u/12352397?s=88&u=5677d7a49889a8854e585fb7da107f69136410ff&v=4",
@@ -1055,20 +1069,6 @@
       "total_stars": 27
     },
     {
-      "login": "guyltech",
-      "name": "Guy Levy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/175968924?s=88&u=547380e7572d997d9462011ff0c9af06f7429370&v=4",
-      "html_url": "https://github.com/guyltech",
-      "followers": 104,
-      "following": 81,
-      "public_repos": 4,
-      "location": "Tel Aviv",
-      "bio": "Hi, I’m Guy – a Junior QA Engineer. In my free time, I enjoy listening to podcasts about psychology & science, learning new technologies online, and working out",
-      "company": null,
-      "created_at": "2024-07-18T16:52:03Z",
-      "total_stars": 2
-    },
-    {
       "login": "adamkleingit",
       "name": "Adam Klein",
       "avatar_url": "https://avatars.githubusercontent.com/u/889418?s=88&v=4",
@@ -1081,6 +1081,20 @@
       "company": "Snappy",
       "created_at": "2011-07-01T20:02:30Z",
       "total_stars": 19
+    },
+    {
+      "login": "guyltech",
+      "name": "Guy Levy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175968924?s=88&u=547380e7572d997d9462011ff0c9af06f7429370&v=4",
+      "html_url": "https://github.com/guyltech",
+      "followers": 104,
+      "following": 81,
+      "public_repos": 4,
+      "location": "Tel Aviv",
+      "bio": "Hi, I’m Guy – a Junior QA Engineer. In my free time, I enjoy listening to podcasts about psychology & science, learning new technologies online, and working out",
+      "company": null,
+      "created_at": "2024-07-18T16:52:03Z",
+      "total_stars": 2
     },
     {
       "login": "cjmustard",
@@ -1123,6 +1137,20 @@
       "company": null,
       "created_at": "2013-02-28T12:06:32Z",
       "total_stars": 168
+    },
+    {
+      "login": "grnd",
+      "name": "Danny Grander",
+      "avatar_url": "https://avatars.githubusercontent.com/u/231295?s=88&u=68b0ea9ecf238263d3055ca9433bb72de7dc50c7&v=4",
+      "html_url": "https://github.com/grnd",
+      "followers": 100,
+      "following": 26,
+      "public_repos": 1,
+      "location": "Tel Aviv, Israel",
+      "bio": "co-founder @snyk ",
+      "company": "snyk.io",
+      "created_at": "2010-03-26T23:52:35Z",
+      "total_stars": 0
     },
     {
       "login": "Jongy",
@@ -1403,34 +1431,6 @@
       "company": "monday.com",
       "created_at": "2009-08-14T16:18:54Z",
       "total_stars": 87
-    },
-    {
-      "login": "yonilevy",
-      "name": "Yoni Levy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31284?s=88&u=1c01697bfda99cd197662e46e6326a1434549174&v=4",
-      "html_url": "https://github.com/yonilevy",
-      "followers": 81,
-      "following": 18,
-      "public_repos": 16,
-      "location": "Tel Aviv, Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2008-10-27T17:11:56Z",
-      "total_stars": 551
-    },
-    {
-      "login": "dorsha",
-      "name": "Doron Sharon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5429033?s=88&u=f4e286dead2c1616f9dc5081a31109b34439162d&v=4",
-      "html_url": "https://github.com/dorsha",
-      "followers": 79,
-      "following": 31,
-      "public_repos": 10,
-      "location": "Tel Aviv, Israel",
-      "bio": null,
-      "company": "Descope",
-      "created_at": "2013-09-10T16:46:00Z",
-      "total_stars": 97
     }
   ],
   "orgs": [
@@ -1729,20 +1729,6 @@
       "total_stars": 4
     },
     {
-      "login": "contentsquare-ps",
-      "name": "Contentsquare Global Services",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18698145?s=88&v=4",
-      "html_url": "https://github.com/contentsquare-ps",
-      "followers": 20,
-      "following": 0,
-      "public_repos": 10,
-      "location": "Paris, London, Tel Aviv, New-York, San Francisco",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-04-27T10:00:08Z",
-      "total_stars": 10
-    },
-    {
       "login": "OnlpLab",
       "name": "The ONLP Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/44805854?s=88&v=4",
@@ -1755,6 +1741,20 @@
       "company": null,
       "created_at": "2018-11-06T12:21:00Z",
       "total_stars": 143
+    },
+    {
+      "login": "contentsquare-ps",
+      "name": "Contentsquare Global Services",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18698145?s=88&v=4",
+      "html_url": "https://github.com/contentsquare-ps",
+      "followers": 20,
+      "following": 0,
+      "public_repos": 10,
+      "location": "Paris, London, Tel Aviv, New-York, San Francisco",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-04-27T10:00:08Z",
+      "total_stars": 10
     },
     {
       "login": "kryonsystems",
@@ -1911,20 +1911,6 @@
       "total_stars": 13
     },
     {
-      "login": "rgsInteractive",
-      "name": "AGSi Studio 1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25077174?s=88&v=4",
-      "html_url": "https://github.com/rgsInteractive",
-      "followers": 9,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tel Aviv",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-01-12T10:05:50Z",
-      "total_stars": 0
-    },
-    {
       "login": "SnappyGifts",
       "name": "Snappy",
       "avatar_url": "https://avatars.githubusercontent.com/u/30259572?s=88&v=4",
@@ -1937,6 +1923,20 @@
       "company": null,
       "created_at": "2017-07-18T10:02:54Z",
       "total_stars": 1
+    },
+    {
+      "login": "rgsInteractive",
+      "name": "AGSi Studio 1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25077174?s=88&v=4",
+      "html_url": "https://github.com/rgsInteractive",
+      "followers": 9,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tel Aviv",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-01-12T10:05:50Z",
+      "total_stars": 0
     },
     {
       "login": "e-square-io",
@@ -1953,20 +1953,6 @@
       "total_stars": 58
     },
     {
-      "login": "AlefAlefAlef",
-      "name": "אאא",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43643198?s=88&v=4",
-      "html_url": "https://github.com/AlefAlefAlef",
-      "followers": 8,
-      "following": 0,
-      "public_repos": 10,
-      "location": "Tel Aviv, Israel",
-      "bio": "חברת פונטים וקבוצה של מעצבי פונטים עצמאיים. מפרסמים כאן בקוד פתוח חלק מהסודות שלנו :)",
-      "company": null,
-      "created_at": "2018-09-27T12:49:30Z",
-      "total_stars": 73
-    },
-    {
       "login": "smore-inc",
       "name": "Smore",
       "avatar_url": "https://avatars.githubusercontent.com/u/1774248?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2012-05-24T13:40:59Z",
       "total_stars": 280
+    },
+    {
+      "login": "AlefAlefAlef",
+      "name": "אאא",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43643198?s=88&v=4",
+      "html_url": "https://github.com/AlefAlefAlef",
+      "followers": 8,
+      "following": 0,
+      "public_repos": 10,
+      "location": "Tel Aviv, Israel",
+      "bio": "חברת פונטים וקבוצה של מעצבי פונטים עצמאיים. מפרסמים כאן בקוד פתוח חלק מהסודות שלנו :)",
+      "company": null,
+      "created_at": "2018-09-27T12:49:30Z",
+      "total_stars": 73
     },
     {
       "login": "Mariners8223",
@@ -2107,20 +2107,6 @@
       "total_stars": 6
     },
     {
-      "login": "team3316",
-      "name": "D-Bug 3316",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6017437?s=88&v=4",
-      "html_url": "https://github.com/team3316",
-      "followers": 5,
-      "following": 0,
-      "public_repos": 22,
-      "location": "Tel Aviv, Israel",
-      "bio": "FRC team D-Bug 3316's GitHub organization",
-      "company": null,
-      "created_at": "2013-11-23T12:37:14Z",
-      "total_stars": 14
-    },
-    {
       "login": "streamrail",
       "name": "Rise Programmatic",
       "avatar_url": "https://avatars.githubusercontent.com/u/8501254?s=88&v=4",
@@ -2133,6 +2119,20 @@
       "company": null,
       "created_at": "2014-08-20T09:31:42Z",
       "total_stars": 1
+    },
+    {
+      "login": "team3316",
+      "name": "D-Bug 3316",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6017437?s=88&v=4",
+      "html_url": "https://github.com/team3316",
+      "followers": 5,
+      "following": 0,
+      "public_repos": 22,
+      "location": "Tel Aviv, Israel",
+      "bio": "FRC team D-Bug 3316's GitHub organization",
+      "company": null,
+      "created_at": "2013-11-23T12:37:14Z",
+      "total_stars": 14
     },
     {
       "login": "phishai",
@@ -2247,20 +2247,6 @@
       "total_stars": 36
     },
     {
-      "login": "tensorleap",
-      "name": "TensorLeap",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62375455?s=88&v=4",
-      "html_url": "https://github.com/tensorleap",
-      "followers": 4,
-      "following": 0,
-      "public_repos": 15,
-      "location": "Tel Aviv, Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2020-03-19T08:10:30Z",
-      "total_stars": 8
-    },
-    {
       "login": "bshuster-repo",
       "name": "Boaz Shuster's tools and projects",
       "avatar_url": "https://avatars.githubusercontent.com/u/17549682?s=88&v=4",
@@ -2273,6 +2259,20 @@
       "company": null,
       "created_at": "2016-02-29T15:28:13Z",
       "total_stars": 210
+    },
+    {
+      "login": "tensorleap",
+      "name": "TensorLeap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62375455?s=88&v=4",
+      "html_url": "https://github.com/tensorleap",
+      "followers": 4,
+      "following": 0,
+      "public_repos": 15,
+      "location": "Tel Aviv, Israel",
+      "bio": null,
+      "company": null,
+      "created_at": "2020-03-19T08:10:30Z",
+      "total_stars": 8
     },
     {
       "login": "datalead-ai",
@@ -2429,20 +2429,6 @@
       "total_stars": 0
     },
     {
-      "login": "GefenOnline",
-      "name": "Gefen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16552958?s=88&v=4",
-      "html_url": "https://github.com/GefenOnline",
-      "followers": 3,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Kalisher 30, Tel Aviv-Yafo, Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-01-05T06:02:59Z",
-      "total_stars": 0
-    },
-    {
       "login": "finkfinance",
       "name": "FINQ AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/76472729?s=88&v=4",
@@ -2454,6 +2440,20 @@
       "bio": null,
       "company": null,
       "created_at": "2020-12-22T08:59:26Z",
+      "total_stars": 0
+    },
+    {
+      "login": "GefenOnline",
+      "name": "Gefen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16552958?s=88&v=4",
+      "html_url": "https://github.com/GefenOnline",
+      "followers": 3,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Kalisher 30, Tel Aviv-Yafo, Israel",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-01-05T06:02:59Z",
       "total_stars": 0
     },
     {
@@ -2527,20 +2527,6 @@
       "total_stars": 0
     },
     {
-      "login": "Solvits-Solutions",
-      "name": "Solvits",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83660615?s=88&v=4",
-      "html_url": "https://github.com/Solvits-Solutions",
-      "followers": 2,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tel Aviv",
-      "bio": "Full cycle software solutions",
-      "company": null,
-      "created_at": "2021-05-04T15:51:29Z",
-      "total_stars": 0
-    },
-    {
       "login": "alephventures",
       "name": "Aleph",
       "avatar_url": "https://avatars.githubusercontent.com/u/7923342?s=88&v=4",
@@ -2552,6 +2538,20 @@
       "bio": null,
       "company": null,
       "created_at": "2014-06-18T13:00:54Z",
+      "total_stars": 0
+    },
+    {
+      "login": "Solvits-Solutions",
+      "name": "Solvits",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83660615?s=88&v=4",
+      "html_url": "https://github.com/Solvits-Solutions",
+      "followers": 2,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tel Aviv",
+      "bio": "Full cycle software solutions",
+      "company": null,
+      "created_at": "2021-05-04T15:51:29Z",
       "total_stars": 0
     }
   ],

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-08-03T08:52:38.436Z",
+  "generated_at": "2026-08-04T07:49:59.087Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 145098,
-    "org_followers": 29428,
+    "org_followers": 29410,
     "user_stars": 704135,
-    "org_stars": 319826
+    "org_stars": 319766
   },
   "queries": [
     {
@@ -1391,20 +1391,6 @@
       "total_stars": 56
     },
     {
-      "login": "rohjs",
-      "name": "Woohyeon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19285811?s=88&u=3066554d613da9bea84332b44f0be8ed9aa4aa06&v=4",
-      "html_url": "https://github.com/rohjs",
-      "followers": 625,
-      "following": 46,
-      "public_repos": 38,
-      "location": "Seoul, Korea",
-      "bio": "In strong typing we trust 👍",
-      "company": null,
-      "created_at": "2016-05-10T12:08:50Z",
-      "total_stars": 243
-    },
-    {
       "login": "BasixKOR",
       "name": "Sung Jeon",
       "avatar_url": "https://avatars.githubusercontent.com/u/7413880?s=88&u=583745ada28edcf3181b0646abe94a904a6739a9&v=4",
@@ -1417,6 +1403,20 @@
       "company": null,
       "created_at": "2014-04-26T13:29:56Z",
       "total_stars": 1286
+    },
+    {
+      "login": "rohjs",
+      "name": "Woohyeon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19285811?s=88&u=3066554d613da9bea84332b44f0be8ed9aa4aa06&v=4",
+      "html_url": "https://github.com/rohjs",
+      "followers": 625,
+      "following": 46,
+      "public_repos": 38,
+      "location": "Seoul, Korea",
+      "bio": "In strong typing we trust 👍",
+      "company": null,
+      "created_at": "2016-05-10T12:08:50Z",
+      "total_stars": 243
     },
     {
       "login": "seominjoon",
@@ -1953,20 +1953,6 @@
       "total_stars": 603
     },
     {
-      "login": "kaist-cp",
-      "name": "KAIST Concurrency and Parallelism Laboratory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22784240?s=88&v=4",
-      "html_url": "https://github.com/kaist-cp",
-      "followers": 211,
-      "following": 0,
-      "public_repos": 27,
-      "location": "Korea, South",
-      "bio": "Where theory meets practice",
-      "company": null,
-      "created_at": "2016-10-12T03:57:45Z",
-      "total_stars": 3102
-    },
-    {
       "login": "wrtnlabs",
       "name": "Wrtn Technologies",
       "avatar_url": "https://avatars.githubusercontent.com/u/142796018?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2023-08-21T10:39:54Z",
       "total_stars": 2914
+    },
+    {
+      "login": "kaist-cp",
+      "name": "KAIST Concurrency and Parallelism Laboratory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22784240?s=88&v=4",
+      "html_url": "https://github.com/kaist-cp",
+      "followers": 211,
+      "following": 0,
+      "public_repos": 27,
+      "location": "Korea, South",
+      "bio": "Where theory meets practice",
+      "company": null,
+      "created_at": "2016-10-12T03:57:45Z",
+      "total_stars": 3102
     },
     {
       "login": "claude-code-expert",
@@ -2541,18 +2541,18 @@
       "total_stars": 1053
     },
     {
-      "login": "fedgkr",
-      "name": "FEConf Official",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20984208?s=88&v=4",
-      "html_url": "https://github.com/fedgkr",
-      "followers": 114,
+      "login": "bbarit",
+      "name": "BBARIT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/276278028?s=88&v=4",
+      "html_url": "https://github.com/bbarit",
+      "followers": 96,
       "following": 0,
-      "public_repos": 14,
-      "location": "Republic of Korea",
-      "bio": "FEConf Official 계정입니다.",
+      "public_repos": 5,
+      "location": "Seoul, South Korea",
+      "bio": "BBARIT — AI vibe-coding tools. Maker of BBARIT Terminal: every AI agent + every dev tool in one native terminal.",
       "company": null,
-      "created_at": "2016-08-12T05:39:32Z",
-      "total_stars": 229
+      "created_at": "2026-04-15T11:37:46Z",
+      "total_stars": 169
     }
   ],
   "repos": [
