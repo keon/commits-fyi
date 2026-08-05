@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-08-04T07:49:02.269Z",
+  "generated_at": "2026-08-05T07:50:19.277Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1346043,
-    "org_followers": 970189,
-    "user_stars": 3341086,
-    "org_stars": 10103178
+    "user_followers": 1346227,
+    "org_followers": 970211,
+    "user_stars": 3341088,
+    "org_stars": 10103402
   },
   "queries": [
     {
@@ -1195,6 +1195,20 @@
       "total_stars": 12
     },
     {
+      "login": "pwnedroot",
+      "name": "pwnedroot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
+      "html_url": "https://github.com/pwnedroot",
+      "followers": 6082,
+      "following": 176650,
+      "public_repos": 7,
+      "location": "United States",
+      "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
+      "company": null,
+      "created_at": "2024-07-21T01:37:50Z",
+      "total_stars": 158
+    },
+    {
       "login": "JordanSchuetz",
       "name": "Jordan Schuetz",
       "avatar_url": "https://avatars.githubusercontent.com/u/1023379?s=88&u=38c5e5c5ff9931120970a8885698aa7230154928&v=4",
@@ -1249,20 +1263,6 @@
       "company": "Anthropic",
       "created_at": "2012-02-10T16:04:35Z",
       "total_stars": 45423
-    },
-    {
-      "login": "pwnedroot",
-      "name": "pwnedroot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
-      "html_url": "https://github.com/pwnedroot",
-      "followers": 5898,
-      "following": 176668,
-      "public_repos": 7,
-      "location": "United States",
-      "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
-      "company": null,
-      "created_at": "2024-07-21T01:37:50Z",
-      "total_stars": 156
     },
     {
       "login": "hussien89aa",
@@ -2531,14 +2531,14 @@
       "name": "Unsloth AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
       "html_url": "https://github.com/unslothai",
-      "followers": 3339,
+      "followers": 3361,
       "following": 0,
       "public_repos": 4,
       "location": "United States of America",
       "bio": "Run and train AI models locally. 🦥",
       "company": null,
       "created_at": "2023-11-15T12:23:54Z",
-      "total_stars": 77699
+      "total_stars": 77923
     },
     {
       "login": "SalesforceCommerceCloud",
@@ -3114,8 +3114,8 @@
       "full_name": "unslothai/unsloth",
       "html_url": "https://github.com/unslothai/unsloth",
       "description": "Unsloth is a local UI for training and running Kimi K3, Gemma 4, Qwen3.6, DeepSeek-V4, GLM and other models.",
-      "stargazers_count": 69370,
-      "forks_count": 6262,
+      "stargazers_count": 69591,
+      "forks_count": 6279,
       "language": "Python",
       "topics": [
         "fine-tuning",

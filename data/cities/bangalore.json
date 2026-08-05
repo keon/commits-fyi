@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-08-04T07:49:00.263Z",
+  "generated_at": "2026-08-05T07:50:16.280Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 189118,
+    "user_followers": 189192,
     "org_followers": 23605,
-    "user_stars": 517193,
+    "user_stars": 517213,
     "org_stars": 362460
   },
   "queries": [
@@ -653,14 +653,14 @@
       "name": "Neeraj Singh",
       "avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
       "html_url": "https://github.com/karma9874",
-      "followers": 1070,
+      "followers": 1072,
       "following": 5,
       "public_repos": 16,
       "location": "Bangalore, India",
       "bio": "Hey there! I am using Github.",
       "company": null,
       "created_at": "2017-11-07T06:38:43Z",
-      "total_stars": 5344
+      "total_stars": 5349
     },
     {
       "login": "genieincodebottle",
@@ -1223,6 +1223,20 @@
       "total_stars": 390
     },
     {
+      "login": "hadishah123",
+      "name": "Hadi Shah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176830124?s=88&u=857da7ff03c3127f464909d8d2398afc424b8944&v=4",
+      "html_url": "https://github.com/hadishah123",
+      "followers": 676,
+      "following": 632,
+      "public_repos": 26,
+      "location": "Bangalore, Karnataka ",
+      "bio": "🧠 Coding creatively | 💻 Solving problems with Web & AI | 🌱 Forever learning & collaborating",
+      "company": null,
+      "created_at": "2024-07-28T17:40:03Z",
+      "total_stars": 110
+    },
+    {
       "login": "ristri",
       "name": "Rishabh Tripathi",
       "avatar_url": "https://avatars.githubusercontent.com/u/24216783?s=88&u=44054e73f90cea4a673e209870a96e6f7bf123eb&v=4",
@@ -1417,20 +1431,6 @@
       "company": "Sony India",
       "created_at": "2016-04-22T10:30:54Z",
       "total_stars": 289
-    },
-    {
-      "login": "hadishah123",
-      "name": "Hadi Shah",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176830124?s=88&u=857da7ff03c3127f464909d8d2398afc424b8944&v=4",
-      "html_url": "https://github.com/hadishah123",
-      "followers": 604,
-      "following": 550,
-      "public_repos": 26,
-      "location": "Bangalore, Karnataka ",
-      "bio": "🧠 Coding creatively | 💻 Solving problems with Web & AI | 🌱 Forever learning & collaborating",
-      "company": null,
-      "created_at": "2024-07-28T17:40:03Z",
-      "total_stars": 95
     }
   ],
   "orgs": [
@@ -3180,8 +3180,8 @@
       "full_name": "karma9874/AndroRAT",
       "html_url": "https://github.com/karma9874/AndroRAT",
       "description": "A Simple android remote administration tool using sockets. It uses java on the client side and python on the server side",
-      "stargazers_count": 4932,
-      "forks_count": 1603,
+      "stargazers_count": 4937,
+      "forks_count": 1606,
       "language": "Java",
       "topics": [
         "android",

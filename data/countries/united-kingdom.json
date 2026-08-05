@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-08-04T07:49:04.257Z",
+  "generated_at": "2026-08-05T07:50:22.442Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 582302,
-    "org_followers": 156273,
+    "org_followers": 156275,
     "user_stars": 1757736,
-    "org_stars": 1512744
+    "org_stars": 1511578
   },
   "queries": [
     {
@@ -2527,6 +2527,20 @@
       "total_stars": 14747
     },
     {
+      "login": "hmcts",
+      "name": "HM Courts & Tribunals Service",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22817111?s=88&v=4",
+      "html_url": "https://github.com/hmcts",
+      "followers": 453,
+      "following": 0,
+      "public_repos": 1757,
+      "location": "United Kingdom",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-10-13T13:28:09Z",
+      "total_stars": 593
+    },
+    {
       "login": "nhsengland",
       "name": "NHS England",
       "avatar_url": "https://avatars.githubusercontent.com/u/8696830?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2014-09-08T14:16:36Z",
       "total_stars": 371
-    },
-    {
-      "login": "vtex",
-      "name": "VTEX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1288938?s=88&v=4",
-      "html_url": "https://github.com/vtex",
-      "followers": 451,
-      "following": 0,
-      "public_repos": 198,
-      "location": "United Kingdom",
-      "bio": "The Enterprise Digital Commerce Platform  ⚠️ To invite someone to this Github Org. Follow: https://vai.vtex.com/access-request ",
-      "company": null,
-      "created_at": "2011-12-27T19:51:33Z",
-      "total_stars": 1759
     }
   ],
   "repos": [
@@ -3187,6 +3187,25 @@
       "fork": false
     },
     {
+      "full_name": "owainlewis/awesome-artificial-intelligence",
+      "html_url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "stargazers_count": 15664,
+      "forks_count": 2463,
+      "language": "Python",
+      "topics": [
+        "machine-learning",
+        "machine-intelligence",
+        "artificial-intelligence",
+        "reinforcement-learning",
+        "intelligent-systems"
+      ],
+      "owner_login": "owainlewis",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/733944?s=88&u=032125d5346c4e84a96c4626d70b9434f441bf36&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "Effect-TS/effect",
       "html_url": "https://github.com/Effect-TS/effect",
       "description": "Build production-ready applications in TypeScript",
@@ -3421,25 +3440,6 @@
       ],
       "owner_login": "SeaQL",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/73226408?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "playcanvas/supersplat",
-      "html_url": "https://github.com/playcanvas/supersplat",
-      "description": "3D Gaussian Splat Editor",
-      "stargazers_count": 9770,
-      "forks_count": 1092,
-      "language": "TypeScript",
-      "topics": [
-        "3d-gaussian-splatting",
-        "playcanvas",
-        "webgl",
-        "webgpu",
-        "pcui"
-      ],
-      "owner_login": "playcanvas",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1030579?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
