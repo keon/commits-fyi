@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-08-07T06:20:23.972Z",
+  "generated_at": "2026-08-08T05:56:54.865Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 525015,
     "org_followers": 139126,
     "user_stars": 1754187,
-    "org_stars": 1607433
+    "org_stars": 1607434
   },
   "queries": [
     {
@@ -1321,20 +1321,6 @@
       "total_stars": 54093
     },
     {
-      "login": "xingyizhou",
-      "name": "Xingyi Zhou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
-      "html_url": "https://github.com/xingyizhou",
-      "followers": 1946,
-      "following": 128,
-      "public_repos": 16,
-      "location": "New York",
-      "bio": "Scientist at AMI Labs",
-      "company": "AMI Labs",
-      "created_at": "2014-09-22T12:22:05Z",
-      "total_stars": 14344
-    },
-    {
       "login": "natemoo-re",
       "name": "Nate Moore",
       "avatar_url": "https://avatars.githubusercontent.com/u/7118177?s=88&u=bb2518ed3d5b34846e6e778845e42b9564c15f5a&v=4",
@@ -1347,6 +1333,20 @@
       "company": "@getsentry",
       "created_at": "2014-03-31T17:15:24Z",
       "total_stars": 5322
+    },
+    {
+      "login": "xingyizhou",
+      "name": "Xingyi Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
+      "html_url": "https://github.com/xingyizhou",
+      "followers": 1946,
+      "following": 128,
+      "public_repos": 16,
+      "location": "New York",
+      "bio": "Scientist at AMI Labs",
+      "company": "AMI Labs",
+      "created_at": "2014-09-22T12:22:05Z",
+      "total_stars": 14344
     },
     {
       "login": "tomdale",
@@ -2552,7 +2552,7 @@
       "bio": null,
       "company": null,
       "created_at": "2011-10-06T16:15:45Z",
-      "total_stars": 805
+      "total_stars": 806
     }
   ],
   "repos": [

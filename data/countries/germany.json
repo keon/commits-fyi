@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-08-07T06:25:25.500Z",
+  "generated_at": "2026-08-08T05:58:50.629Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 460339,
+    "user_followers": 460681,
     "org_followers": 116592,
-    "user_stars": 1497350,
+    "user_stars": 1496775,
     "org_stars": 1754601
   },
   "queries": [
@@ -1167,6 +1167,20 @@
       "total_stars": 16425
     },
     {
+      "login": "bylickilabs",
+      "name": "Thorsten Bylicki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=b1eca4247d12b8cf853822a9df1d349e2491f25f&v=4",
+      "html_url": "https://github.com/bylickilabs",
+      "followers": 2361,
+      "following": 138,
+      "public_repos": 136,
+      "location": "Germany",
+      "bio": "I'm a Full-Stack Software Developer specializing in building secure, scalable software, browser-extensionss and modern high-quality websites for business.",
+      "company": "Chaos Computer Club",
+      "created_at": "2022-07-14T18:18:12Z",
+      "total_stars": 115
+    },
+    {
       "login": "foosel",
       "name": "Gina Häußge",
       "avatar_url": "https://avatars.githubusercontent.com/u/83657?s=88&u=f4f4bf757d4733719f0d4898428ef89a6dd13922&v=4",
@@ -1417,20 +1431,6 @@
       "company": "good beans",
       "created_at": "2008-10-22T18:56:03Z",
       "total_stars": 2031
-    },
-    {
-      "login": "addaleax",
-      "name": "Anna Henningsen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/899444?s=88&u=9129efce93ac27bfb0218eb5e0783d3ddfe32d73&v=4",
-      "html_url": "https://github.com/addaleax",
-      "followers": 2019,
-      "following": 23,
-      "public_repos": 58,
-      "location": "Germany",
-      "bio": null,
-      "company": "@mongodb ",
-      "created_at": "2011-07-07T00:24:34Z",
-      "total_stars": 690
     }
   ],
   "orgs": [

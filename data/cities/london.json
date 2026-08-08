@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-08-07T06:21:59.868Z",
+  "generated_at": "2026-08-08T05:57:00.857Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 428207,
     "org_followers": 71890,
     "user_stars": 1193617,
-    "org_stars": 696279
+    "org_stars": 696280
   },
   "queries": [
     {
@@ -859,20 +859,6 @@
       "total_stars": 27644
     },
     {
-      "login": "praveenscience",
-      "name": "Praveen Kumar Purushothaman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1830380?s=88&u=23ab8a7dce9a437c9c763bf3fa5deb7aba1e64c5&v=4",
-      "html_url": "https://github.com/praveenscience",
-      "followers": 2087,
-      "following": 8,
-      "public_repos": 230,
-      "location": "London, England, United Kingdom",
-      "bio": "Microsoft MVP, Web Developer and Computer Software & UX Architect.",
-      "company": "@CloudroitHQ ",
-      "created_at": "2012-06-08T11:35:38Z",
-      "total_stars": 1511
-    },
-    {
       "login": "PaulKinlan",
       "name": "Paul Kinlan",
       "avatar_url": "https://avatars.githubusercontent.com/u/45510?s=88&u=1586b8745b16bf2fe812c02fbde04f9af70dbc7e&v=4",
@@ -885,6 +871,20 @@
       "company": "Google",
       "created_at": "2009-01-10T08:09:44Z",
       "total_stars": 2388
+    },
+    {
+      "login": "praveenscience",
+      "name": "Praveen Kumar Purushothaman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1830380?s=88&u=23ab8a7dce9a437c9c763bf3fa5deb7aba1e64c5&v=4",
+      "html_url": "https://github.com/praveenscience",
+      "followers": 2087,
+      "following": 8,
+      "public_repos": 230,
+      "location": "London, England, United Kingdom",
+      "bio": "Microsoft MVP, Web Developer and Computer Software & UX Architect.",
+      "company": "@CloudroitHQ ",
+      "created_at": "2012-06-08T11:35:38Z",
+      "total_stars": 1511
     },
     {
       "login": "robmarkcole",
@@ -1223,20 +1223,6 @@
       "total_stars": 6428
     },
     {
-      "login": "Patalin",
-      "name": "Patalin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42389395?s=88&u=8241385f72509df40429efc4222674e1afb79a9a&v=4",
-      "html_url": "https://github.com/Patalin",
-      "followers": 1627,
-      "following": 4,
-      "public_repos": 115,
-      "location": "London",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-08-14T19:09:44Z",
-      "total_stars": 700
-    },
-    {
       "login": "petebacondarwin",
       "name": "Pete Bacon Darwin",
       "avatar_url": "https://avatars.githubusercontent.com/u/15655?s=88&u=fcf7903b7722b5ee0291783749ebdfd5fd9e756b&v=4",
@@ -1249,6 +1235,20 @@
       "company": "@cloudflare",
       "created_at": "2008-07-01T11:54:19Z",
       "total_stars": 720
+    },
+    {
+      "login": "Patalin",
+      "name": "Patalin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42389395?s=88&u=8241385f72509df40429efc4222674e1afb79a9a&v=4",
+      "html_url": "https://github.com/Patalin",
+      "followers": 1627,
+      "following": 4,
+      "public_repos": 115,
+      "location": "London",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-08-14T19:09:44Z",
+      "total_stars": 700
     },
     {
       "login": "ihciah",
@@ -1883,20 +1883,6 @@
       "total_stars": 214
     },
     {
-      "login": "thi-ng",
-      "name": "thi.ng",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6693837?s=88&v=4",
-      "html_url": "https://github.com/thi-ng",
-      "followers": 396,
-      "following": 0,
-      "public_repos": 91,
-      "location": "London",
-      "bio": "Polyglot computational design tools (TypeScript, Zig, Clojure, ClojureScript, C)",
-      "company": null,
-      "created_at": "2014-02-16T02:00:32Z",
-      "total_stars": 7918
-    },
-    {
       "login": "intercom",
       "name": "Intercom",
       "avatar_url": "https://avatars.githubusercontent.com/u/6585?s=88&v=4",
@@ -1909,6 +1895,20 @@
       "company": null,
       "created_at": "2008-04-11T11:42:18Z",
       "total_stars": 3841
+    },
+    {
+      "login": "thi-ng",
+      "name": "thi.ng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6693837?s=88&v=4",
+      "html_url": "https://github.com/thi-ng",
+      "followers": 396,
+      "following": 0,
+      "public_repos": 91,
+      "location": "London",
+      "bio": "Polyglot computational design tools (TypeScript, Zig, Clojure, ClojureScript, C)",
+      "company": null,
+      "created_at": "2014-02-16T02:00:32Z",
+      "total_stars": 7918
     },
     {
       "login": "AutodeskAILab",
@@ -2552,7 +2552,7 @@
       "bio": "Computational Optimisation Group @ Imperial College London",
       "company": null,
       "created_at": "2017-08-02T12:41:04Z",
-      "total_stars": 701
+      "total_stars": 702
     }
   ],
   "repos": [

@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-08-07T06:21:19.913Z",
+  "generated_at": "2026-08-08T05:56:58.659Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 162764,
+    "user_followers": 162771,
     "org_followers": 36250,
-    "user_stars": 540718,
+    "user_stars": 540877,
     "org_stars": 393171
   },
   "queries": [
@@ -397,20 +397,6 @@
       "total_stars": 24
     },
     {
-      "login": "brianc",
-      "name": "Brian C",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50081?s=88&v=4",
-      "html_url": "https://github.com/brianc",
-      "followers": 1243,
-      "following": 35,
-      "public_repos": 114,
-      "location": "Austin, TX",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-01-29T00:04:40Z",
-      "total_stars": 16947
-    },
-    {
       "login": "zaradarz",
       "name": "Zara Dar",
       "avatar_url": "https://avatars.githubusercontent.com/u/114357237?s=88&u=e6f93cbd5d3e3c414069511a87a35fd370f9c6bc&v=4",
@@ -423,6 +409,20 @@
       "company": null,
       "created_at": "2022-09-25T17:51:34Z",
       "total_stars": 209
+    },
+    {
+      "login": "brianc",
+      "name": "Brian C",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50081?s=88&v=4",
+      "html_url": "https://github.com/brianc",
+      "followers": 1243,
+      "following": 35,
+      "public_repos": 114,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": null,
+      "created_at": "2009-01-29T00:04:40Z",
+      "total_stars": 16947
     },
     {
       "login": "PaulRashidi",
@@ -873,6 +873,20 @@
       "total_stars": 197
     },
     {
+      "login": "daijro",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/72637910?s=88&u=c27bacf931bf944d0ac996cda5d74465e0e388fb&v=4",
+      "html_url": "https://github.com/daijro",
+      "followers": 703,
+      "following": 7,
+      "public_repos": 19,
+      "location": "UT Austin",
+      "bio": "Browser & network traffic engineer",
+      "company": null,
+      "created_at": "2020-10-10T02:26:44Z",
+      "total_stars": 13615
+    },
+    {
       "login": "jeremydmiller",
       "name": "Jeremy D. Miller",
       "avatar_url": "https://avatars.githubusercontent.com/u/179211?s=88&u=1f6f84e1254964a5bf003e2349536c619d2ea3d2&v=4",
@@ -885,20 +899,6 @@
       "company": "@JasperFx ",
       "created_at": "2010-01-09T20:44:55Z",
       "total_stars": 79
-    },
-    {
-      "login": "daijro",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/72637910?s=88&u=c27bacf931bf944d0ac996cda5d74465e0e388fb&v=4",
-      "html_url": "https://github.com/daijro",
-      "followers": 696,
-      "following": 7,
-      "public_repos": 19,
-      "location": "UT Austin",
-      "bio": "Browser & network traffic engineer",
-      "company": null,
-      "created_at": "2020-10-10T02:26:44Z",
-      "total_stars": 13456
     },
     {
       "login": "juntao",
@@ -2107,20 +2107,6 @@
       "total_stars": 154
     },
     {
-      "login": "datadotworld",
-      "name": "data.world",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14143948?s=88&v=4",
-      "html_url": "https://github.com/datadotworld",
-      "followers": 67,
-      "following": 0,
-      "public_repos": 36,
-      "location": "Austin, TX",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-09-06T01:14:53Z",
-      "total_stars": 482
-    },
-    {
       "login": "Longhorn-Developers",
       "name": "Longhorn Developers",
       "avatar_url": "https://avatars.githubusercontent.com/u/71949018?s=88&v=4",
@@ -2133,6 +2119,20 @@
       "company": null,
       "created_at": "2020-09-26T22:32:35Z",
       "total_stars": 218
+    },
+    {
+      "login": "datadotworld",
+      "name": "data.world",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14143948?s=88&v=4",
+      "html_url": "https://github.com/datadotworld",
+      "followers": 67,
+      "following": 0,
+      "public_repos": 36,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-09-06T01:14:53Z",
+      "total_stars": 482
     },
     {
       "login": "dev-launchers",
@@ -2768,8 +2768,8 @@
       "full_name": "daijro/camoufox",
       "html_url": "https://github.com/daijro/camoufox",
       "description": "🦊 Anti-detect browser",
-      "stargazers_count": 10769,
-      "forks_count": 912,
+      "stargazers_count": 10916,
+      "forks_count": 928,
       "language": "C++",
       "topics": [
         "antidetect",
