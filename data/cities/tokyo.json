@@ -2,14 +2,14 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-08-08T05:57:52.154Z",
+  "generated_at": "2026-08-09T05:59:16.490Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 217533,
+    "user_followers": 217519,
     "org_followers": 22631,
     "user_stars": 959453,
     "org_stars": 311764
@@ -1041,20 +1041,6 @@
       "total_stars": 271
     },
     {
-      "login": "eafirsov",
-      "name": "Eugene Firsov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/85108775?s=88&u=bd499d3a0af3093760f09bc10fc7e74abc289318&v=4",
-      "html_url": "https://github.com/eafirsov",
-      "followers": 1056,
-      "following": 0,
-      "public_repos": 65,
-      "location": "Tokyo",
-      "bio": "Web3",
-      "company": "Kast",
-      "created_at": "2021-05-31T10:41:19Z",
-      "total_stars": 152
-    },
-    {
       "login": "onyx766",
       "name": "Onyx",
       "avatar_url": "https://avatars.githubusercontent.com/u/97839749?s=88&u=03d00b83a67df617c1923cdf65e232a7d2c14c9a&v=4",
@@ -1095,6 +1081,20 @@
       "company": null,
       "created_at": "2015-01-30T04:53:55Z",
       "total_stars": 6060
+    },
+    {
+      "login": "eafirsov",
+      "name": "Eugene Firsov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85108775?s=88&u=bd499d3a0af3093760f09bc10fc7e74abc289318&v=4",
+      "html_url": "https://github.com/eafirsov",
+      "followers": 1042,
+      "following": 0,
+      "public_repos": 65,
+      "location": "Tokyo",
+      "bio": "Web3",
+      "company": "Kast",
+      "created_at": "2021-05-31T10:41:19Z",
+      "total_stars": 152
     },
     {
       "login": "tokuhirom",

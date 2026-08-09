@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-08-08T05:57:52.988Z",
+  "generated_at": "2026-08-09T05:59:17.623Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 106706,
     "org_followers": 10983,
     "user_stars": 517754,
-    "org_stars": 84248
+    "org_stars": 84375
   },
   "queries": [
     {
@@ -1740,7 +1740,7 @@
       "bio": "BBARIT — AI vibe-coding tools. Maker of BBARIT Terminal: every AI agent + every dev tool in one native terminal.",
       "company": null,
       "created_at": "2026-04-15T11:37:46Z",
-      "total_stars": 192
+      "total_stars": 195
     },
     {
       "login": "banksalad",
@@ -1925,20 +1925,6 @@
       "total_stars": 312
     },
     {
-      "login": "croquiscom",
-      "name": "Kakaostyle corp.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1468296?s=88&v=4",
-      "html_url": "https://github.com/croquiscom",
-      "followers": 67,
-      "following": 0,
-      "public_repos": 21,
-      "location": "Seoul",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-02-24T05:07:22Z",
-      "total_stars": 124
-    },
-    {
       "login": "CEOS-Developers",
       "name": "CEOS",
       "avatar_url": "https://avatars.githubusercontent.com/u/55128453?s=88&v=4",
@@ -1951,6 +1937,20 @@
       "company": null,
       "created_at": "2019-09-10T06:52:32Z",
       "total_stars": 74
+    },
+    {
+      "login": "croquiscom",
+      "name": "Kakaostyle corp.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1468296?s=88&v=4",
+      "html_url": "https://github.com/croquiscom",
+      "followers": 67,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Seoul",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-02-24T05:07:22Z",
+      "total_stars": 124
     },
     {
       "login": "CodeSoom",
@@ -2541,18 +2541,18 @@
       "total_stars": 681
     },
     {
-      "login": "devrel-kr",
-      "name": "한국 DevRel 커뮤니티",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64395843?s=88&v=4",
-      "html_url": "https://github.com/devrel-kr",
+      "login": "sejong-rcv",
+      "name": "Robotics & Computer Vision Lab. (RCV)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48170512?s=88&v=4",
+      "html_url": "https://github.com/sejong-rcv",
       "followers": 29,
       "following": 0,
-      "public_repos": 22,
+      "public_repos": 38,
       "location": "Seoul, Korea",
-      "bio": null,
+      "bio": "Sejong-RCV Lab. (Members Only)",
       "company": null,
-      "created_at": "2020-04-27T05:29:57Z",
-      "total_stars": 142
+      "created_at": "2019-03-03T05:03:37Z",
+      "total_stars": 266
     }
   ],
   "repos": [
