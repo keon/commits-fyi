@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-08-10T06:43:16.535Z",
+  "generated_at": "2026-08-11T06:04:26.527Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 525377,
-    "org_followers": 139300,
-    "user_stars": 1756761,
-    "org_stars": 1608743
+    "user_followers": 526130,
+    "org_followers": 139299,
+    "user_stars": 1786036,
+    "org_stars": 1608744
   },
   "queries": [
     {
@@ -887,6 +887,20 @@
       "total_stars": 20829
     },
     {
+      "login": "gajus",
+      "name": "Gajus Kuizinas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/973543?s=88&u=00847b4ebb892b1c5c6e424ec741bd9bf2786cb1&v=4",
+      "html_url": "https://github.com/gajus",
+      "followers": 2625,
+      "following": 536,
+      "public_repos": 235,
+      "location": "London",
+      "bio": "Software architect. Passionate about Node.js, React, GraphQL, PostgreSQL. Active open-source contributor.",
+      "company": null,
+      "created_at": "2011-08-11T10:00:41Z",
+      "total_stars": 32394
+    },
+    {
       "login": "hexsecteam",
       "name": "HexSec",
       "avatar_url": "https://avatars.githubusercontent.com/u/206475088?s=88&u=5b3553ef03ece1e35b458e9c2a5b5b1e9dcdbae7&v=4",
@@ -1307,20 +1321,6 @@
       "total_stars": 10717
     },
     {
-      "login": "xingyizhou",
-      "name": "Xingyi Zhou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
-      "html_url": "https://github.com/xingyizhou",
-      "followers": 1948,
-      "following": 128,
-      "public_repos": 16,
-      "location": "New York",
-      "bio": "Scientist at AMI Labs",
-      "company": "AMI Labs",
-      "created_at": "2014-09-22T12:22:05Z",
-      "total_stars": 14343
-    },
-    {
       "login": "natemoo-re",
       "name": "Nate Moore",
       "avatar_url": "https://avatars.githubusercontent.com/u/7118177?s=88&u=bb2518ed3d5b34846e6e778845e42b9564c15f5a&v=4",
@@ -1333,6 +1333,20 @@
       "company": "@getsentry",
       "created_at": "2014-03-31T17:15:24Z",
       "total_stars": 5325
+    },
+    {
+      "login": "xingyizhou",
+      "name": "Xingyi Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
+      "html_url": "https://github.com/xingyizhou",
+      "followers": 1948,
+      "following": 128,
+      "public_repos": 16,
+      "location": "New York",
+      "bio": "Scientist at AMI Labs",
+      "company": "AMI Labs",
+      "created_at": "2014-09-22T12:22:05Z",
+      "total_stars": 14343
     },
     {
       "login": "zhaoolee",
@@ -1417,20 +1431,6 @@
       "company": "Meta",
       "created_at": "2011-03-07T16:12:20Z",
       "total_stars": 3109
-    },
-    {
-      "login": "frankmcsherry",
-      "name": "Frank McSherry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5741500?s=88&u=33e69eeeaae260b94c6fae4a2e15d36784b6dffe&v=4",
-      "html_url": "https://github.com/frankmcsherry",
-      "followers": 1872,
-      "following": 5,
-      "public_repos": 22,
-      "location": "New York, NY",
-      "bio": null,
-      "company": "@MaterializeInc",
-      "created_at": "2013-10-21T21:39:28Z",
-      "total_stars": 3119
     }
   ],
   "orgs": [
@@ -2121,20 +2121,6 @@
       "total_stars": 388
     },
     {
-      "login": "CalyxOS",
-      "name": "CalyxOS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64103205?s=88&v=4",
-      "html_url": "https://github.com/CalyxOS",
-      "followers": 324,
-      "following": 0,
-      "public_repos": 533,
-      "location": "Brooklyn, NY, USA",
-      "bio": "A mobile phone operating system built with \"Privacy by Design\".  A project of The Calyx Institute https://calyxinstitute.org",
-      "company": null,
-      "created_at": "2020-04-21T19:54:25Z",
-      "total_stars": 282
-    },
-    {
       "login": "wix-private",
       "name": "Wix Private",
       "avatar_url": "https://avatars.githubusercontent.com/u/16781854?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2016-01-19T16:56:41Z",
       "total_stars": 0
+    },
+    {
+      "login": "CalyxOS",
+      "name": "CalyxOS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64103205?s=88&v=4",
+      "html_url": "https://github.com/CalyxOS",
+      "followers": 324,
+      "following": 0,
+      "public_repos": 533,
+      "location": "Brooklyn, NY, USA",
+      "bio": "A mobile phone operating system built with \"Privacy by Design\".  A project of The Calyx Institute https://calyxinstitute.org",
+      "company": null,
+      "created_at": "2020-04-21T19:54:25Z",
+      "total_stars": 282
     },
     {
       "login": "andela",
@@ -2545,14 +2545,14 @@
       "name": "City of New York",
       "avatar_url": "https://avatars.githubusercontent.com/u/1107978?s=88&v=4",
       "html_url": "https://github.com/CityOfNewYork",
-      "followers": 204,
+      "followers": 203,
       "following": 0,
       "public_repos": 98,
       "location": "New York City",
       "bio": null,
       "company": null,
       "created_at": "2011-10-06T16:15:45Z",
-      "total_stars": 806
+      "total_stars": 807
     }
   ],
   "repos": [

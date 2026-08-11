@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-08-10T06:45:13.758Z",
+  "generated_at": "2026-08-11T06:04:33.823Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1195,20 +1195,6 @@
       "total_stars": 9146
     },
     {
-      "login": "beorn7",
-      "name": "Björn Rabenstein",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5609886?s=88&u=664f9a1fc9f7ae3874adaa0253d48c7510ddd5ea&v=4",
-      "html_url": "https://github.com/beorn7",
-      "followers": 1163,
-      "following": 420,
-      "public_repos": 12,
-      "location": "Berlin",
-      "bio": "Hope is not a strategy – but it springs eternal.\r\n\r\nAlumnus of @prometheus, @grafana, @soundcloud, @google.",
-      "company": null,
-      "created_at": "2013-10-04T08:42:18Z",
-      "total_stars": 130
-    },
-    {
       "login": "jamesmunns",
       "name": "James Munns",
       "avatar_url": "https://avatars.githubusercontent.com/u/2097964?s=88&u=021cc61cd472a67603e91e4b4a3dff492a3a611c&v=4",
@@ -1221,6 +1207,20 @@
       "company": "@oxidecomputer",
       "created_at": "2012-08-05T10:39:01Z",
       "total_stars": 4242
+    },
+    {
+      "login": "beorn7",
+      "name": "Björn Rabenstein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5609886?s=88&u=664f9a1fc9f7ae3874adaa0253d48c7510ddd5ea&v=4",
+      "html_url": "https://github.com/beorn7",
+      "followers": 1163,
+      "following": 420,
+      "public_repos": 12,
+      "location": "Berlin",
+      "bio": "Hope is not a strategy – but it springs eternal.\r\n\r\nAlumnus of @prometheus, @grafana, @soundcloud, @google.",
+      "company": null,
+      "created_at": "2013-10-04T08:42:18Z",
+      "total_stars": 130
     },
     {
       "login": "ledgerhubteam",
@@ -1405,20 +1405,6 @@
       "total_stars": 227
     },
     {
-      "login": "mukul975",
-      "name": "Mahipal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
-      "html_url": "https://github.com/mukul975",
-      "followers": 1009,
-      "following": 1,
-      "public_repos": 29,
-      "location": "Berlin ",
-      "bio": "🔐 Cybersecurity | 💻 Dev | 📷 Street Photographer\r\n🎓 MSc | 📚 Research & AI Security",
-      "company": null,
-      "created_at": "2018-08-31T06:58:20Z",
-      "total_stars": 29121
-    },
-    {
       "login": "falkTX",
       "name": "Filipe Coelho",
       "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2012-01-16T20:28:18Z",
       "total_stars": 3142
+    },
+    {
+      "login": "mukul975",
+      "name": "Mahipal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
+      "html_url": "https://github.com/mukul975",
+      "followers": 1009,
+      "following": 1,
+      "public_repos": 29,
+      "location": "Berlin ",
+      "bio": "🔐 Cybersecurity | 💻 Dev | 📷 Street Photographer\r\n🎓 MSc | 📚 Research & AI Security",
+      "company": null,
+      "created_at": "2018-08-31T06:58:20Z",
+      "total_stars": 29121
     }
   ],
   "orgs": [
@@ -2744,25 +2744,6 @@
       "fork": false
     },
     {
-      "full_name": "OthmanAdi/planning-with-files",
-      "html_url": "https://github.com/OthmanAdi/planning-with-files",
-      "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and co",
-      "stargazers_count": 26073,
-      "forks_count": 2180,
-      "language": "Shell",
-      "topics": [
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "manus",
-        "agent-skills"
-      ],
-      "owner_login": "OthmanAdi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/78882424?s=88&u=546b0a7e0805c6eaa1001ce5b70751af5c18a084&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "greenrobot/EventBus",
       "html_url": "https://github.com/greenrobot/EventBus",
       "description": "Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better qualit",
@@ -3439,6 +3420,25 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "nisrulz/flutter-examples",
+      "html_url": "https://github.com/nisrulz/flutter-examples",
+      "description": "[Examples] Simple basic isolated apps, for budding flutter devs.",
+      "stargazers_count": 7146,
+      "forks_count": 1641,
+      "language": "Dart",
+      "topics": [
+        "dartlang",
+        "dart",
+        "android",
+        "ios",
+        "flutter"
+      ],
+      "owner_login": "nisrulz",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]

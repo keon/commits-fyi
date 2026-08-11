@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-08-10T06:44:52.698Z",
+  "generated_at": "2026-08-11T06:04:32.205Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 428352,
-    "org_followers": 72136,
-    "user_stars": 1194458,
+    "user_followers": 427146,
+    "org_followers": 72135,
+    "user_stars": 1162471,
     "org_stars": 700767
   },
   "queries": [
@@ -661,20 +661,6 @@
       "company": null,
       "created_at": "2010-07-27T22:42:55Z",
       "total_stars": 11570
-    },
-    {
-      "login": "gajus",
-      "name": "Gajus Kuizinas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/973543?s=88&u=00847b4ebb892b1c5c6e424ec741bd9bf2786cb1&v=4",
-      "html_url": "https://github.com/gajus",
-      "followers": 2625,
-      "following": 536,
-      "public_repos": 235,
-      "location": "London",
-      "bio": "Software architect. Passionate about Node.js, React, GraphQL, PostgreSQL. Active open-source contributor.",
-      "company": null,
-      "created_at": "2011-08-11T10:00:41Z",
-      "total_stars": 32394
     },
     {
       "login": "ayyucekizrak",
@@ -1431,6 +1417,20 @@
       "company": "Mastercard",
       "created_at": "2009-11-05T10:14:53Z",
       "total_stars": 1785
+    },
+    {
+      "login": "postspectacular",
+      "name": "Karsten Schmidt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52302?s=88&u=45db094f2b84874e19628d1d7d880fed42af1319&v=4",
+      "html_url": "https://github.com/postspectacular",
+      "followers": 1419,
+      "following": 37,
+      "public_repos": 16,
+      "location": "Allgäu, formerly London",
+      "bio": "Maker of @thi-ng, toxiclibs and others. Opensource computational art/design tools & education since 1999, geom, data, viz, algos, fabrication, ex-@Nike-inc",
+      "company": null,
+      "created_at": "2009-02-06T11:00:57Z",
+      "total_stars": 407
     }
   ],
   "orgs": [
@@ -2121,20 +2121,6 @@
       "total_stars": 12252
     },
     {
-      "login": "FSecureLABS",
-      "name": "F-Secure LABS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1469843?s=88&v=4",
-      "html_url": "https://github.com/FSecureLABS",
-      "followers": 224,
-      "following": 0,
-      "public_repos": 29,
-      "location": "Basingstoke, Johannesburg, London, Manchester, Singapore, New York",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-02-24T14:57:16Z",
-      "total_stars": 1495
-    },
-    {
       "login": "OasisLMF",
       "name": "Oasis Loss Modelling Framework",
       "avatar_url": "https://avatars.githubusercontent.com/u/8616323?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2014-09-01T14:52:13Z",
       "total_stars": 428
+    },
+    {
+      "login": "FSecureLABS",
+      "name": "F-Secure LABS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1469843?s=88&v=4",
+      "html_url": "https://github.com/FSecureLABS",
+      "followers": 224,
+      "following": 0,
+      "public_repos": 29,
+      "location": "Basingstoke, Johannesburg, London, Manchester, Singapore, New York",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-02-24T14:57:16Z",
+      "total_stars": 1495
     },
     {
       "login": "deep-learning-indaba",
@@ -2545,7 +2545,7 @@
       "name": "C⚙G - Imperial College London",
       "avatar_url": "https://avatars.githubusercontent.com/u/30658188?s=88&v=4",
       "html_url": "https://github.com/cog-imperial",
-      "followers": 141,
+      "followers": 140,
       "following": 0,
       "public_repos": 26,
       "location": "London",
