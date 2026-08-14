@@ -2,14 +2,14 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-08-13T06:52:17.189Z",
+  "generated_at": "2026-08-14T06:45:03.180Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 461184,
+    "user_followers": 461185,
     "org_followers": 116936,
     "user_stars": 1498353,
     "org_stars": 1763694
@@ -1139,6 +1139,20 @@
       "total_stars": 1104
     },
     {
+      "login": "bylickilabs",
+      "name": "The Codefather",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=316a97550ecd9f43f61412f977f79f38b83eddab&v=4",
+      "html_url": "https://github.com/bylickilabs",
+      "followers": 2366,
+      "following": 147,
+      "public_repos": 136,
+      "location": "Germany",
+      "bio": "Ethical Hacker, Cybersecurity Specialist, Chaos Computer Club Member, Security Researcher, Offensive Security, Reverse Engineering",
+      "company": "Chaos Computer Club",
+      "created_at": "2022-07-14T18:18:12Z",
+      "total_stars": 115
+    },
+    {
       "login": "justadudewhohacks",
       "name": "Vincent Mühler",
       "avatar_url": "https://avatars.githubusercontent.com/u/31125521?s=88&u=680c04295f02652da4e5687017a7022d0c9adbae&v=4",
@@ -1151,20 +1165,6 @@
       "company": null,
       "created_at": "2017-08-18T07:47:03Z",
       "total_stars": 26472
-    },
-    {
-      "login": "bylickilabs",
-      "name": "The Codefather",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=fd2b0c7a6be5804c93d47958f2ab3df256332d90&v=4",
-      "html_url": "https://github.com/bylickilabs",
-      "followers": 2365,
-      "following": 145,
-      "public_repos": 136,
-      "location": "Germany",
-      "bio": "I'm a Full-Stack Software Developer specializing in building secure, scalable software, browser-extensionss and modern high-quality websites for business.",
-      "company": "Chaos Computer Club",
-      "created_at": "2022-07-14T18:18:12Z",
-      "total_stars": 115
     },
     {
       "login": "robb",
@@ -3022,6 +3022,25 @@
       "fork": false
     },
     {
+      "full_name": "hagezi/dns-blocklists",
+      "html_url": "https://github.com/hagezi/dns-blocklists",
+      "description": "DNS-Blocklists: For a better internet - keep the internet clean!",
+      "stargazers_count": 25183,
+      "forks_count": 772,
+      "language": "Text",
+      "topics": [
+        "dns",
+        "ads",
+        "blacklist",
+        "blocklist",
+        "coins"
+      ],
+      "owner_login": "hagezi",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/104343908?s=88&u=6f359ce3f632143073ab24b3bc26f5f7ed0f5256&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "greenrobot/EventBus",
       "html_url": "https://github.com/greenrobot/EventBus",
       "description": "Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better qualit",
@@ -3441,25 +3460,6 @@
       ],
       "owner_login": "mailcow",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/23747925?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "seemoo-lab/openhaystack",
-      "html_url": "https://github.com/seemoo-lab/openhaystack",
-      "description": "Build your own 'AirTags' 🏷 today! Framework for tracking personal Bluetooth devices via Apple's massive Find My network.",
-      "stargazers_count": 13243,
-      "forks_count": 665,
-      "language": "Swift",
-      "topics": [
-        "apple",
-        "offline-finding",
-        "bluetooth",
-        "microbit",
-        "location-tracker"
-      ],
-      "owner_login": "seemoo-lab",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7370084?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
