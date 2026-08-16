@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-08-15T05:42:11.256Z",
+  "generated_at": "2026-08-16T05:44:29.304Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1617,20 +1617,6 @@
       "total_stars": 2035
     },
     {
-      "login": "fritzing",
-      "name": "Fritzing",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8562144?s=88&v=4",
-      "html_url": "https://github.com/fritzing",
-      "followers": 607,
-      "following": 0,
-      "public_repos": 12,
-      "location": "Berlin, Germany",
-      "bio": "electronics made easy",
-      "company": null,
-      "created_at": "2014-08-26T22:13:42Z",
-      "total_stars": 5600
-    },
-    {
       "login": "photoprism",
       "name": "PhotoPrism",
       "avatar_url": "https://avatars.githubusercontent.com/u/32436079?s=88&v=4",
@@ -1643,6 +1629,20 @@
       "company": null,
       "created_at": "2017-10-01T16:01:01Z",
       "total_stars": 40238
+    },
+    {
+      "login": "fritzing",
+      "name": "Fritzing",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8562144?s=88&v=4",
+      "html_url": "https://github.com/fritzing",
+      "followers": 607,
+      "following": 0,
+      "public_repos": 12,
+      "location": "Berlin, Germany",
+      "bio": "electronics made easy",
+      "company": null,
+      "created_at": "2014-08-26T22:13:42Z",
+      "total_stars": 5600
     },
     {
       "login": "soundcloud",
@@ -2744,6 +2744,25 @@
       "fork": false
     },
     {
+      "full_name": "OthmanAdi/planning-with-files",
+      "html_url": "https://github.com/OthmanAdi/planning-with-files",
+      "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and co",
+      "stargazers_count": 26187,
+      "forks_count": 2191,
+      "language": "Shell",
+      "topics": [
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "manus",
+        "agent-skills"
+      ],
+      "owner_login": "OthmanAdi",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/78882424?s=88&u=546b0a7e0805c6eaa1001ce5b70751af5c18a084&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "greenrobot/EventBus",
       "html_url": "https://github.com/greenrobot/EventBus",
       "description": "Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better qualit",
@@ -3420,25 +3439,6 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "nisrulz/flutter-examples",
-      "html_url": "https://github.com/nisrulz/flutter-examples",
-      "description": "[Examples] Simple basic isolated apps, for budding flutter devs.",
-      "stargazers_count": 7145,
-      "forks_count": 1641,
-      "language": "Dart",
-      "topics": [
-        "dartlang",
-        "dart",
-        "android",
-        "ios",
-        "flutter"
-      ],
-      "owner_login": "nisrulz",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]

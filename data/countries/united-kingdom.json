@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-08-15T05:43:09.929Z",
+  "generated_at": "2026-08-16T05:45:29.352Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 582635,
-    "org_followers": 157449,
+    "org_followers": 157451,
     "user_stars": 1746323,
-    "org_stars": 1529576
+    "org_stars": 1541554
   },
   "queries": [
     {
@@ -1139,20 +1139,6 @@
       "total_stars": 8500
     },
     {
-      "login": "HariSekhon",
-      "name": "Hari Sekhon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2211051?s=88&u=7747a673d98078d50467ba6e4d4f3a2f17b6db17&v=4",
-      "html_url": "https://github.com/HariSekhon",
-      "followers": 2216,
-      "following": 30,
-      "public_repos": 39,
-      "location": "London, United Kingdom",
-      "bio": "Cloud Architect, DevOps, Data Engineer, Big Data (ex-Cloudera), 100% Remote Overseas Digital Nomad",
-      "company": "Private cos of a Crazy Exe",
-      "created_at": "2012-08-24T11:15:45Z",
-      "total_stars": 14568
-    },
-    {
       "login": "cortinico",
       "name": "Nicola Corti",
       "avatar_url": "https://avatars.githubusercontent.com/u/3001957?s=88&u=a7e68dd86c5521ca74b61d8f38fb199893010d7a&v=4",
@@ -1165,6 +1151,20 @@
       "company": "@facebook",
       "created_at": "2012-12-09T16:21:50Z",
       "total_stars": 4070
+    },
+    {
+      "login": "HariSekhon",
+      "name": "Hari Sekhon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2211051?s=88&u=7747a673d98078d50467ba6e4d4f3a2f17b6db17&v=4",
+      "html_url": "https://github.com/HariSekhon",
+      "followers": 2216,
+      "following": 30,
+      "public_repos": 39,
+      "location": "London, United Kingdom",
+      "bio": "Cloud Architect, DevOps, Data Engineer, Big Data (ex-Cloudera), 100% Remote Overseas Digital Nomad",
+      "company": "Private cos of a Crazy Exe",
+      "created_at": "2012-08-24T11:15:45Z",
+      "total_stars": 14568
     },
     {
       "login": "slightfoot",
@@ -2527,6 +2527,20 @@
       "total_stars": 14780
     },
     {
+      "login": "cactus-compute",
+      "name": "Cactus Compute, Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
+      "html_url": "https://github.com/cactus-compute",
+      "followers": 456,
+      "following": 0,
+      "public_repos": 15,
+      "location": "United Kingdom",
+      "bio": "Tiny AI For TIny Devices",
+      "company": null,
+      "created_at": "2025-01-27T11:58:35Z",
+      "total_stars": 12572
+    },
+    {
       "login": "nhsengland",
       "name": "NHS England",
       "avatar_url": "https://avatars.githubusercontent.com/u/8696830?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2014-09-08T14:16:36Z",
       "total_stars": 372
-    },
-    {
-      "login": "hmcts",
-      "name": "HM Courts & Tribunals Service",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22817111?s=88&v=4",
-      "html_url": "https://github.com/hmcts",
-      "followers": 454,
-      "following": 0,
-      "public_repos": 1764,
-      "location": "United Kingdom",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-10-13T13:28:09Z",
-      "total_stars": 594
     }
   ],
   "repos": [
@@ -3196,8 +3196,8 @@
       "full_name": "owainlewis/awesome-artificial-intelligence",
       "html_url": "https://github.com/owainlewis/awesome-artificial-intelligence",
       "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
-      "stargazers_count": 15739,
-      "forks_count": 2472,
+      "stargazers_count": 15804,
+      "forks_count": 2475,
       "language": "Python",
       "topics": [
         "machine-learning",

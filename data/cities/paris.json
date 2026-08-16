@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-08-15T05:43:00.513Z",
+  "generated_at": "2026-08-16T05:45:17.223Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 198183,
-    "org_followers": 99315,
+    "org_followers": 99167,
     "user_stars": 853703,
     "org_stars": 1112200
   },
@@ -999,20 +999,6 @@
       "total_stars": 425
     },
     {
-      "login": "Shipow",
-      "name": "Kevin Granger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/976175?s=88&u=159c3493dda0865aab7f00e8ab6f5fc53ea40b4d&v=4",
-      "html_url": "https://github.com/Shipow",
-      "followers": 902,
-      "following": 5397,
-      "public_repos": 17,
-      "location": "Paris – SF",
-      "bio": "I build tools that help developers move faster and teams think clearer.\r\nCo-founder at @altertable-ai , where we’re waking data up with always-on AI agents.",
-      "company": "Co-founder @altertable-ai",
-      "created_at": "2011-08-12T14:18:50Z",
-      "total_stars": 441
-    },
-    {
       "login": "GravenilvecTV",
       "name": "Graven | Developpement",
       "avatar_url": "https://avatars.githubusercontent.com/u/19838799?s=88&u=2690369652a9e5dcd555325119bcbc85b601ecb5&v=4",
@@ -1025,6 +1011,20 @@
       "company": null,
       "created_at": "2016-06-09T13:38:57Z",
       "total_stars": 109
+    },
+    {
+      "login": "Shipow",
+      "name": "Kevin Granger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/976175?s=88&u=159c3493dda0865aab7f00e8ab6f5fc53ea40b4d&v=4",
+      "html_url": "https://github.com/Shipow",
+      "followers": 902,
+      "following": 5397,
+      "public_repos": 17,
+      "location": "Paris – SF",
+      "bio": "I build tools that help developers move faster and teams think clearer.\r\nCo-founder at @altertable-ai , where we’re waking data up with always-on AI agents.",
+      "company": "Co-founder @altertable-ai",
+      "created_at": "2011-08-12T14:18:50Z",
+      "total_stars": 441
     },
     {
       "login": "Dev-next-gen",
@@ -1579,7 +1579,7 @@
       "name": "Drumee",
       "avatar_url": "https://avatars.githubusercontent.com/u/779580?s=88&v=4",
       "html_url": "https://github.com/drumee",
-      "followers": 849,
+      "followers": 701,
       "following": 0,
       "public_repos": 57,
       "location": "Paris",
