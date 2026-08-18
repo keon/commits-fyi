@@ -2,14 +2,14 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-08-17T05:57:25.078Z",
+  "generated_at": "2026-08-18T05:47:31.423Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 461365,
+    "user_followers": 461367,
     "org_followers": 117150,
     "user_stars": 1499025,
     "org_stars": 1765741
@@ -971,20 +971,6 @@
       "total_stars": 5435
     },
     {
-      "login": "nisrulz",
-      "name": "Nishant Srivastava",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
-      "html_url": "https://github.com/nisrulz",
-      "followers": 2546,
-      "following": 3,
-      "public_repos": 66,
-      "location": "Berlin, Germany",
-      "bio": "Sr. Android Engineer 👨🏻‍💻  ",
-      "company": "@scout24",
-      "created_at": "2012-08-04T21:46:01Z",
-      "total_stars": 25467
-    },
-    {
       "login": "Eugeny",
       "name": "Eugene",
       "avatar_url": "https://avatars.githubusercontent.com/u/161476?s=88&u=4604ee9193de2a5d7ec842bff0e1bce408d63a0a&v=4",
@@ -997,6 +983,20 @@
       "company": "@elements-storage ",
       "created_at": "2009-12-03T17:12:54Z",
       "total_stars": 78842
+    },
+    {
+      "login": "nisrulz",
+      "name": "Nishant Srivastava",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
+      "html_url": "https://github.com/nisrulz",
+      "followers": 2546,
+      "following": 3,
+      "public_repos": 66,
+      "location": "Berlin, Germany",
+      "bio": "Sr. Android Engineer 👨🏻‍💻  ",
+      "company": "@scout24",
+      "created_at": "2012-08-04T21:46:01Z",
+      "total_stars": 25467
     },
     {
       "login": "alirezarezvani",
@@ -1139,6 +1139,20 @@
       "total_stars": 1104
     },
     {
+      "login": "bylickilabs",
+      "name": "The Codefather - N3M3ZIZ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=52661efb4ca40a00b9c23e1e484383983f0e47b7&v=4",
+      "html_url": "https://github.com/bylickilabs",
+      "followers": 2368,
+      "following": 149,
+      "public_repos": 136,
+      "location": "Germany",
+      "bio": "Ethical Hacker, Cybersecurity Specialist, Chaos Computer Club Member, Security Researcher, Offensive Security, Reverse Engineering",
+      "company": "Chaos Computer Club",
+      "created_at": "2022-07-14T18:18:12Z",
+      "total_stars": 115
+    },
+    {
       "login": "justadudewhohacks",
       "name": "Vincent Mühler",
       "avatar_url": "https://avatars.githubusercontent.com/u/31125521?s=88&u=680c04295f02652da4e5687017a7022d0c9adbae&v=4",
@@ -1151,20 +1165,6 @@
       "company": null,
       "created_at": "2017-08-18T07:47:03Z",
       "total_stars": 26472
-    },
-    {
-      "login": "bylickilabs",
-      "name": "The Codefather",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=316a97550ecd9f43f61412f977f79f38b83eddab&v=4",
-      "html_url": "https://github.com/bylickilabs",
-      "followers": 2366,
-      "following": 147,
-      "public_repos": 136,
-      "location": "Germany",
-      "bio": "Ethical Hacker, Cybersecurity Specialist, Chaos Computer Club Member, Security Researcher, Offensive Security, Reverse Engineering",
-      "company": "Chaos Computer Club",
-      "created_at": "2022-07-14T18:18:12Z",
-      "total_stars": 115
     },
     {
       "login": "robb",
@@ -3025,8 +3025,8 @@
       "full_name": "hagezi/dns-blocklists",
       "html_url": "https://github.com/hagezi/dns-blocklists",
       "description": "DNS-Blocklists: For a better internet - keep the internet clean!",
-      "stargazers_count": 25183,
-      "forks_count": 772,
+      "stargazers_count": 25342,
+      "forks_count": 779,
       "language": "Text",
       "topics": [
         "dns",

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-08-17T05:59:07.987Z",
+  "generated_at": "2026-08-18T05:47:44.597Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 370694,
-    "org_followers": 67172,
+    "org_followers": 67187,
     "user_stars": 1038011,
-    "org_stars": 1072075
+    "org_stars": 1072301
   },
   "queries": [
     {
@@ -999,20 +999,6 @@
       "total_stars": 3635
     },
     {
-      "login": "danluu",
-      "name": "Dan Luu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157136?s=88&v=4",
-      "html_url": "https://github.com/danluu",
-      "followers": 1995,
-      "following": 64,
-      "public_repos": 41,
-      "location": "Vancouver, BC",
-      "bio": null,
-      "company": "https://danluu.com",
-      "created_at": "2009-11-23T17:32:05Z",
-      "total_stars": 17182
-    },
-    {
       "login": "jpsim",
       "name": "JP Simard",
       "avatar_url": "https://avatars.githubusercontent.com/u/474794?s=88&u=c9c27581b9b8e685636bba838fcae5bceb8f86d2&v=4",
@@ -1025,6 +1011,20 @@
       "company": "Mobile @ Ramp",
       "created_at": "2010-11-09T22:03:40Z",
       "total_stars": 8202
+    },
+    {
+      "login": "danluu",
+      "name": "Dan Luu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157136?s=88&v=4",
+      "html_url": "https://github.com/danluu",
+      "followers": 1995,
+      "following": 64,
+      "public_repos": 41,
+      "location": "Vancouver, BC",
+      "bio": null,
+      "company": "https://danluu.com",
+      "created_at": "2009-11-23T17:32:05Z",
+      "total_stars": 17182
     },
     {
       "login": "codereport",
@@ -1687,20 +1687,6 @@
       "total_stars": 15574
     },
     {
-      "login": "wix",
-      "name": "Wix.com",
-      "avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
-      "html_url": "https://github.com/wix",
-      "followers": 808,
-      "following": 0,
-      "public_repos": 17,
-      "location": "Tel Aviv, Be'er Sheva, Haifa, Vilnius, Kyiv, Dnipro, New York, San Francisco, Miami, Los Angeles, Phoenix, Denver, Berlin, Sao Paulo, Vancouver, Dublin, Tokyo",
-      "bio": "Open-sourcing useful pieces of code",
-      "company": null,
-      "created_at": "2011-03-23T16:40:49Z",
-      "total_stars": 49445
-    },
-    {
       "login": "bowang-lab",
       "name": "WangLab @ U of T",
       "avatar_url": "https://avatars.githubusercontent.com/u/50999261?s=88&v=4",
@@ -1713,6 +1699,20 @@
       "company": null,
       "created_at": "2019-05-24T17:10:00Z",
       "total_stars": 11706
+    },
+    {
+      "login": "wix",
+      "name": "Wix.com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
+      "html_url": "https://github.com/wix",
+      "followers": 808,
+      "following": 0,
+      "public_repos": 17,
+      "location": "Tel Aviv, Be'er Sheva, Haifa, Vilnius, Kyiv, Dnipro, New York, San Francisco, Miami, Los Angeles, Phoenix, Denver, Berlin, Sao Paulo, Vancouver, Dublin, Tokyo",
+      "bio": "Open-sourcing useful pieces of code",
+      "company": null,
+      "created_at": "2011-03-23T16:40:49Z",
+      "total_stars": 49445
     },
     {
       "login": "ExamProCo",
@@ -1859,14 +1859,14 @@
       "name": "Tracel AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/111992358?s=88&v=4",
       "html_url": "https://github.com/tracel-ai",
-      "followers": 637,
+      "followers": 639,
       "following": 0,
       "public_repos": 21,
       "location": "Canada",
       "bio": "High-performance computing to bring intelligence everywhere",
       "company": null,
       "created_at": "2022-08-24T13:54:31Z",
-      "total_stars": 19111
+      "total_stars": 19124
     },
     {
       "login": "lighthouse-labs",
@@ -1894,7 +1894,7 @@
       "bio": "multiple packages, libraries and programs to further the advancement of Go!",
       "company": null,
       "created_at": "2015-09-22T12:00:28Z",
-      "total_stars": 25509
+      "total_stars": 25515
     },
     {
       "login": "inference-labs-inc",
@@ -1908,21 +1908,21 @@
       "bio": "We pioneered Auditable Autonomy, Agentic verification and Security with Proof of Inference.",
       "company": null,
       "created_at": "2023-06-06T19:05:28Z",
-      "total_stars": 10179
+      "total_stars": 10178
     },
     {
       "login": "CybercentreCanada",
       "name": "Canadian Centre for Cyber Security",
       "avatar_url": "https://avatars.githubusercontent.com/u/56049619?s=88&v=4",
       "html_url": "https://github.com/CybercentreCanada",
-      "followers": 573,
+      "followers": 575,
       "following": 0,
       "public_repos": 111,
       "location": "Canada",
       "bio": "Canadian Centre for Cyber Security",
       "company": null,
       "created_at": "2019-10-01T20:54:54Z",
-      "total_stars": 1333
+      "total_stars": 1334
     },
     {
       "login": "koii-network",
@@ -1950,21 +1950,21 @@
       "bio": "Our lab is currently based in UWaterloo, focusing on Text and Image Generative Research",
       "company": null,
       "created_at": "2023-09-06T03:20:58Z",
-      "total_stars": 10244
+      "total_stars": 10258
     },
     {
       "login": "bigbluebutton",
       "name": "BigBlueButton",
       "avatar_url": "https://avatars.githubusercontent.com/u/230228?s=88&v=4",
       "html_url": "https://github.com/bigbluebutton",
-      "followers": 501,
+      "followers": 502,
       "following": 0,
       "public_repos": 78,
       "location": "Ottawa, Canada",
       "bio": "BigBlueButton is an open source web conferencing system for online learning.",
       "company": null,
       "created_at": "2010-03-25T14:24:09Z",
-      "total_stars": 11693
+      "total_stars": 11701
     },
     {
       "login": "XanaduAI",
@@ -1999,14 +1999,14 @@
       "name": "Sheafification of G",
       "avatar_url": "https://avatars.githubusercontent.com/u/180599210?s=88&v=4",
       "html_url": "https://github.com/SheafificationOfG",
-      "followers": 480,
+      "followers": 482,
       "following": 0,
       "public_repos": 5,
       "location": "Canada",
       "bio": "Organisation for YouTube content made by the Sheafification of G",
       "company": null,
       "created_at": "2024-09-05T23:02:55Z",
-      "total_stars": 765
+      "total_stars": 766
     },
     {
       "login": "Cohere-Labs-Community",
@@ -2048,28 +2048,28 @@
       "bio": "Open Source SRS Community",
       "company": null,
       "created_at": "2015-04-29T06:23:45Z",
-      "total_stars": 33635
+      "total_stars": 33648
     },
     {
       "login": "winsiderss",
       "name": "Winsider Seminars & Solutions, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/105516054?s=88&v=4",
       "html_url": "https://github.com/winsiderss",
-      "followers": 466,
+      "followers": 465,
       "following": 0,
       "public_repos": 4,
       "location": "Canada",
       "bio": "Windows Internals Tools from Winsider",
       "company": null,
       "created_at": "2022-05-13T18:23:12Z",
-      "total_stars": 17164
+      "total_stars": 17188
     },
     {
       "login": "sp-tarkov",
       "name": "SPT",
       "avatar_url": "https://avatars.githubusercontent.com/u/169623369?s=88&v=4",
       "html_url": "https://github.com/sp-tarkov",
-      "followers": 456,
+      "followers": 460,
       "following": 0,
       "public_repos": 21,
       "location": "Canada",
@@ -2083,7 +2083,7 @@
       "name": "Citizen Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/5658700?s=88&v=4",
       "html_url": "https://github.com/citizenlab",
-      "followers": 452,
+      "followers": 451,
       "following": 0,
       "public_repos": 29,
       "location": "Canada",
@@ -2111,14 +2111,14 @@
       "name": "Picovoice",
       "avatar_url": "https://avatars.githubusercontent.com/u/37164515?s=88&v=4",
       "html_url": "https://github.com/Picovoice",
-      "followers": 444,
+      "followers": 445,
       "following": 0,
       "public_repos": 84,
       "location": "Vancouver, Canada",
       "bio": "On-device AI for real‑time voice, language, and vision understanding",
       "company": null,
       "created_at": "2018-03-08T01:53:42Z",
-      "total_stars": 10119
+      "total_stars": 10128
     },
     {
       "login": "DeepGraphLearning",
@@ -2132,7 +2132,7 @@
       "bio": "Research group led by Prof. Jian Tang at Mila-Quebec AI Institute (https://mila.quebec/) focusing on graph representation learning and graph neural networks.",
       "company": null,
       "created_at": "2018-04-02T20:59:31Z",
-      "total_stars": 11965
+      "total_stars": 11963
     },
     {
       "login": "TecharoHQ",
@@ -2146,7 +2146,7 @@
       "bio": "The anti-AI AI company based in Canada",
       "company": null,
       "created_at": "2025-01-21T16:58:33Z",
-      "total_stars": 21595
+      "total_stars": 21692
     },
     {
       "login": "grammarly",
@@ -2160,35 +2160,35 @@
       "bio": "Millions of users rely on Grammarly's AI-powered products to make their messages, documents, and social media posts clear, mistake-free, and impactful.",
       "company": null,
       "created_at": "2010-08-03T12:56:01Z",
-      "total_stars": 4362
+      "total_stars": 4363
     },
     {
       "login": "WiiLink24",
       "name": "WiiLink",
       "avatar_url": "https://avatars.githubusercontent.com/u/72463677?s=88&v=4",
       "html_url": "https://github.com/WiiLink24",
-      "followers": 407,
+      "followers": 408,
       "following": 0,
       "public_repos": 86,
       "location": "Canada",
       "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
       "company": null,
       "created_at": "2020-10-06T17:15:01Z",
-      "total_stars": 730
+      "total_stars": 731
     },
     {
       "login": "scalar",
       "name": "Scalar",
       "avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
       "html_url": "https://github.com/scalar",
-      "followers": 405,
+      "followers": 406,
       "following": 0,
       "public_repos": 24,
       "location": "Canada",
       "bio": "Document, Discover & Test APIs with Scalar",
       "company": null,
       "created_at": "2010-06-10T13:56:51Z",
-      "total_stars": 16106
+      "total_stars": 16124
     },
     {
       "login": "pycaret",
@@ -2223,14 +2223,14 @@
       "name": "Wild Kernels",
       "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
       "html_url": "https://github.com/WildKernels",
-      "followers": 390,
+      "followers": 391,
       "following": 0,
       "public_repos": 15,
       "location": "Canada",
       "bio": "Custom kernels for android and more!",
       "company": null,
       "created_at": "2025-01-31T01:32:51Z",
-      "total_stars": 2997
+      "total_stars": 3004
     },
     {
       "login": "TouchDesigner",
@@ -2307,14 +2307,14 @@
       "name": "FaceOnLive",
       "avatar_url": "https://avatars.githubusercontent.com/u/91897558?s=88&v=4",
       "html_url": "https://github.com/FaceOnLive",
-      "followers": 367,
+      "followers": 368,
       "following": 0,
       "public_repos": 30,
       "location": "Canada",
       "bio": "We offer fully offline, on-premise SDKs for ID Verification, Biometrics and other AI Fields.",
       "company": null,
       "created_at": "2021-10-04T14:19:40Z",
-      "total_stars": 2163
+      "total_stars": 2164
     },
     {
       "login": "Globe-Engineer",
@@ -2342,21 +2342,21 @@
       "bio": null,
       "company": null,
       "created_at": "2023-03-07T04:02:26Z",
-      "total_stars": 6984
+      "total_stars": 6983
     },
     {
       "login": "requarks",
       "name": "requarks.io",
       "avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
       "html_url": "https://github.com/requarks",
-      "followers": 345,
+      "followers": 344,
       "following": 0,
       "public_repos": 24,
       "location": "Canada",
       "bio": "Open source applications for teams",
       "company": null,
       "created_at": "2016-01-16T04:21:39Z",
-      "total_stars": 29345
+      "total_stars": 29359
     },
     {
       "login": "JOMACS-IT",
@@ -2384,7 +2384,7 @@
       "bio": "Better transportation through data",
       "company": null,
       "created_at": "2018-07-09T17:48:49Z",
-      "total_stars": 4393
+      "total_stars": 4394
     },
     {
       "login": "codewithchris",
@@ -2419,14 +2419,14 @@
       "name": "Unsplash",
       "avatar_url": "https://avatars.githubusercontent.com/u/9951955?s=88&v=4",
       "html_url": "https://github.com/unsplash",
-      "followers": 331,
+      "followers": 332,
       "following": 0,
       "public_repos": 41,
       "location": "World/Montreal",
       "bio": "Building the internet's open library of freely usable visuals. Join us 👫",
       "company": null,
       "created_at": "2014-11-25T19:21:41Z",
-      "total_stars": 9918
+      "total_stars": 9922
     },
     {
       "login": "vltpkg",
@@ -2440,7 +2440,7 @@
       "bio": "We are building the future of JavaScript packages.",
       "company": null,
       "created_at": "2023-01-04T23:51:37Z",
-      "total_stars": 897
+      "total_stars": 898
     },
     {
       "login": "Data-Learn",
@@ -2468,7 +2468,7 @@
       "bio": "Database Management made easy",
       "company": null,
       "created_at": "2017-06-13T16:14:56Z",
-      "total_stars": 5907
+      "total_stars": 5909
     },
     {
       "login": "McGill-NLP",
@@ -2545,14 +2545,14 @@
       "name": "Master of Data Science at the University of British Columbia",
       "avatar_url": "https://avatars.githubusercontent.com/u/15257466?s=88&v=4",
       "html_url": "https://github.com/UBC-MDS",
-      "followers": 310,
+      "followers": 311,
       "following": 0,
-      "public_repos": 136,
+      "public_repos": 67,
       "location": "Vancouver, BC, Canada",
       "bio": "10-month, full-time, course-based Master’s program, first cohort starts September 2016",
       "company": null,
       "created_at": "2015-10-23T02:02:32Z",
-      "total_stars": 375
+      "total_stars": 369
     }
   ],
   "repos": [
@@ -2625,7 +2625,7 @@
       "html_url": "https://github.com/meteor/meteor",
       "description": "Meteor, the JavaScript App Platform",
       "stargazers_count": 44811,
-      "forks_count": 5241,
+      "forks_count": 5240,
       "language": "JavaScript",
       "topics": [
         "javascript",
@@ -2698,7 +2698,7 @@
       "full_name": "ossrs/srs",
       "html_url": "https://github.com/ossrs/srs",
       "description": "SRS is a simple, high-performance, AI-driven real-time media server supporting RTMP, WebRTC, HLS, HTTP-FLV, HTTP-TS, SRT, MPEG-DASH, and GB2",
-      "stargazers_count": 29134,
+      "stargazers_count": 29144,
       "forks_count": 5685,
       "language": "C++",
       "topics": [
@@ -2730,8 +2730,8 @@
       "full_name": "requarks/wiki",
       "html_url": "https://github.com/requarks/wiki",
       "description": "Wiki.js | A modern and powerful wiki app built on Node.js",
-      "stargazers_count": 28758,
-      "forks_count": 3283,
+      "stargazers_count": 28771,
+      "forks_count": 3288,
       "language": "Vue",
       "topics": [
         "wiki",
@@ -2880,8 +2880,8 @@
       "full_name": "TecharoHQ/anubis",
       "html_url": "https://github.com/TecharoHQ/anubis",
       "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
-      "stargazers_count": 21385,
-      "forks_count": 679,
+      "stargazers_count": 21482,
+      "forks_count": 680,
       "language": "Go",
       "topics": [
         "defense",
@@ -2932,7 +2932,7 @@
       "full_name": "go-playground/validator",
       "html_url": "https://github.com/go-playground/validator",
       "description": ":100:Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving",
-      "stargazers_count": 20109,
+      "stargazers_count": 20113,
       "forks_count": 1443,
       "language": "Go",
       "topics": [
@@ -3095,8 +3095,8 @@
       "full_name": "scalar/scalar",
       "html_url": "https://github.com/scalar/scalar",
       "description": "Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
-      "stargazers_count": 15910,
-      "forks_count": 917,
+      "stargazers_count": 15930,
+      "forks_count": 922,
       "language": "TypeScript",
       "topics": [
         "api",
@@ -3114,8 +3114,8 @@
       "full_name": "tracel-ai/burn",
       "html_url": "https://github.com/tracel-ai/burn",
       "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
-      "stargazers_count": 15755,
-      "forks_count": 1014,
+      "stargazers_count": 15762,
+      "forks_count": 1018,
       "language": "Rust",
       "topics": [
         "autodiff",
@@ -3133,8 +3133,8 @@
       "full_name": "winsiderss/systeminformer",
       "html_url": "https://github.com/winsiderss/systeminformer",
       "description": "A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware. Brought to you by Winsider ",
-      "stargazers_count": 15634,
-      "forks_count": 1764,
+      "stargazers_count": 15656,
+      "forks_count": 1767,
       "language": "C",
       "topics": [
         "administrator",

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-08-17T05:54:05.943Z",
+  "generated_at": "2026-08-18T05:45:43.622Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 299382,
-    "org_followers": 32470,
+    "org_followers": 32444,
     "user_stars": 987573,
-    "org_stars": 741170
+    "org_stars": 739483
   },
   "queries": [
     {
@@ -2345,20 +2345,6 @@
       "total_stars": 2766
     },
     {
-      "login": "oss-review-toolkit",
-      "name": "OSS Review Toolkit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48252958?s=88&v=4",
-      "html_url": "https://github.com/oss-review-toolkit",
-      "followers": 116,
-      "following": 0,
-      "public_repos": 19,
-      "location": "Berlin, Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-03-05T15:34:32Z",
-      "total_stars": 2184
-    },
-    {
       "login": "prototypefund",
       "name": "Prototype Fund",
       "avatar_url": "https://avatars.githubusercontent.com/u/18613278?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2015-12-02T01:35:20Z",
       "total_stars": 300
+    },
+    {
+      "login": "Wikidata",
+      "name": "Wikidata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2691628?s=88&v=4",
+      "html_url": "https://github.com/Wikidata",
+      "followers": 90,
+      "following": 0,
+      "public_repos": 11,
+      "location": "Berlin, Germany",
+      "bio": "Tools related to the Wikidata project. Most of our core software is at https://github.com/wmde/",
+      "company": null,
+      "created_at": "2012-10-31T14:02:38Z",
+      "total_stars": 497
     }
   ],
   "repos": [

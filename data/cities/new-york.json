@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-08-17T05:51:50.864Z",
+  "generated_at": "2026-08-18T05:45:35.824Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 526969,
     "org_followers": 139774,
     "user_stars": 1794837,
-    "org_stars": 1610134
+    "org_stars": 1610135
   },
   "queries": [
     {
@@ -1349,20 +1349,6 @@
       "total_stars": 5328
     },
     {
-      "login": "xingyizhou",
-      "name": "Xingyi Zhou",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
-      "html_url": "https://github.com/xingyizhou",
-      "followers": 1950,
-      "following": 128,
-      "public_repos": 16,
-      "location": "New York",
-      "bio": "Scientist at AMI Labs",
-      "company": "AMI Labs",
-      "created_at": "2014-09-22T12:22:05Z",
-      "total_stars": 14343
-    },
-    {
       "login": "zhaoolee",
       "name": "zhaoolee",
       "avatar_url": "https://avatars.githubusercontent.com/u/15868458?s=88&u=aa3a39fdb2c4a16abeb527f343ab7909d10e1b4e&v=4",
@@ -1375,6 +1361,20 @@
       "company": "kingsware",
       "created_at": "2015-11-16T09:32:17Z",
       "total_stars": 54190
+    },
+    {
+      "login": "xingyizhou",
+      "name": "Xingyi Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
+      "html_url": "https://github.com/xingyizhou",
+      "followers": 1950,
+      "following": 128,
+      "public_repos": 16,
+      "location": "New York",
+      "bio": "Scientist at AMI Labs",
+      "company": "AMI Labs",
+      "created_at": "2014-09-22T12:22:05Z",
+      "total_stars": 14343
     },
     {
       "login": "CharGrnmn",
@@ -2163,20 +2163,6 @@
       "total_stars": 654
     },
     {
-      "login": "owkin",
-      "name": "Owkin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28560459?s=88&v=4",
-      "html_url": "https://github.com/owkin",
-      "followers": 314,
-      "following": 0,
-      "public_repos": 42,
-      "location": "New York",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-05-09T09:18:25Z",
-      "total_stars": 965
-    },
-    {
       "login": "gristlabs",
       "name": "Grist Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/19978005?s=88&v=4",
@@ -2189,6 +2175,20 @@
       "company": null,
       "created_at": "2016-06-16T15:09:42Z",
       "total_stars": 13350
+    },
+    {
+      "login": "owkin",
+      "name": "Owkin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28560459?s=88&v=4",
+      "html_url": "https://github.com/owkin",
+      "followers": 314,
+      "following": 0,
+      "public_repos": 42,
+      "location": "New York",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-05-09T09:18:25Z",
+      "total_stars": 965
     },
     {
       "login": "osirislab",
@@ -2401,20 +2401,6 @@
       "total_stars": 897
     },
     {
-      "login": "Dashlane",
-      "name": "Dashlane",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2639205?s=88&v=4",
-      "html_url": "https://github.com/Dashlane",
-      "followers": 233,
-      "following": 0,
-      "public_repos": 28,
-      "location": "Paris | New York | Lisbon",
-      "bio": "Simple and secure access to all your online accounts. At work, home, and everywhere in between.",
-      "company": null,
-      "created_at": "2012-10-24T08:43:39Z",
-      "total_stars": 1213
-    },
-    {
       "login": "api-evangelist",
       "name": "API Evangelist",
       "avatar_url": "https://avatars.githubusercontent.com/u/3026872?s=88&v=4",
@@ -2427,6 +2413,20 @@
       "company": null,
       "created_at": "2012-12-12T16:40:08Z",
       "total_stars": 116
+    },
+    {
+      "login": "Dashlane",
+      "name": "Dashlane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2639205?s=88&v=4",
+      "html_url": "https://github.com/Dashlane",
+      "followers": 233,
+      "following": 0,
+      "public_repos": 28,
+      "location": "Paris | New York | Lisbon",
+      "bio": "Simple and secure access to all your online accounts. At work, home, and everywhere in between.",
+      "company": null,
+      "created_at": "2012-10-24T08:43:39Z",
+      "total_stars": 1213
     },
     {
       "login": "FSecureLABS",
@@ -2510,7 +2510,7 @@
       "bio": null,
       "company": null,
       "created_at": "2011-10-06T16:15:45Z",
-      "total_stars": 808
+      "total_stars": 809
     },
     {
       "login": "UrbanCompass",
