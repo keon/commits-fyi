@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-08-18T05:47:33.048Z",
+  "generated_at": "2026-08-19T05:49:00.325Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 324772,
-    "org_followers": 125998,
+    "org_followers": 125926,
     "user_stars": 1337044,
     "org_stars": 1475557
   },
@@ -1799,20 +1799,6 @@
       "total_stars": 665
     },
     {
-      "login": "drumee",
-      "name": "Drumee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/779580?s=88&v=4",
-      "html_url": "https://github.com/drumee",
-      "followers": 701,
-      "following": 0,
-      "public_repos": 57,
-      "location": "Paris",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-05-10T16:37:29Z",
-      "total_stars": 12
-    },
-    {
       "login": "quarkslab",
       "name": "Quarkslab",
       "avatar_url": "https://avatars.githubusercontent.com/u/3357711?s=88&v=4",
@@ -1839,6 +1825,20 @@
       "company": null,
       "created_at": "2020-04-03T15:31:22Z",
       "total_stars": 1160
+    },
+    {
+      "login": "drumee",
+      "name": "Drumee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/779580?s=88&v=4",
+      "html_url": "https://github.com/drumee",
+      "followers": 629,
+      "following": 0,
+      "public_repos": 57,
+      "location": "Paris",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-05-10T16:37:29Z",
+      "total_stars": 12
     },
     {
       "login": "PrestaShop",
