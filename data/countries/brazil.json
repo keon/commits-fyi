@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-08-21T05:57:43.483Z",
+  "generated_at": "2026-08-22T05:45:19.651Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2247,20 +2247,6 @@
       "total_stars": 337
     },
     {
-      "login": "DevMedia",
-      "name": "Devmedia ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5743002?s=88&v=4",
-      "html_url": "https://github.com/DevMedia",
-      "followers": 407,
-      "following": 0,
-      "public_repos": 4,
-      "location": "Rio de Janeiro",
-      "bio": "Plataforma para programadores",
-      "company": null,
-      "created_at": "2013-10-22T02:45:37Z",
-      "total_stars": 26
-    },
-    {
       "login": "HighCodeh",
       "name": "High Code",
       "avatar_url": "https://avatars.githubusercontent.com/u/148154420?s=88&v=4",
@@ -2273,6 +2259,20 @@
       "company": null,
       "created_at": "2023-10-16T20:59:48Z",
       "total_stars": 488
+    },
+    {
+      "login": "DevMedia",
+      "name": "Devmedia ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5743002?s=88&v=4",
+      "html_url": "https://github.com/DevMedia",
+      "followers": 407,
+      "following": 0,
+      "public_repos": 4,
+      "location": "Rio de Janeiro",
+      "bio": "Plataforma para programadores",
+      "company": null,
+      "created_at": "2013-10-22T02:45:37Z",
+      "total_stars": 26
     },
     {
       "login": "gran-ti",
@@ -2415,20 +2415,6 @@
       "total_stars": 0
     },
     {
-      "login": "icmc-data",
-      "name": "Data ICMC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48069781?s=88&v=4",
-      "html_url": "https://github.com/icmc-data",
-      "followers": 360,
-      "following": 0,
-      "public_repos": 32,
-      "location": "São Carlos, São Paulo, Brazil",
-      "bio": "Data Science and Machine Learning Extension Group from Universidade de São Paulo, Brazil",
-      "company": null,
-      "created_at": "2019-02-27T20:32:33Z",
-      "total_stars": 516
-    },
-    {
       "login": "Codeminer42",
       "name": "Codeminer42",
       "avatar_url": "https://avatars.githubusercontent.com/u/1602924?s=88&v=4",
@@ -2441,6 +2427,20 @@
       "company": null,
       "created_at": "2012-04-02T18:09:44Z",
       "total_stars": 393
+    },
+    {
+      "login": "icmc-data",
+      "name": "Data ICMC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48069781?s=88&v=4",
+      "html_url": "https://github.com/icmc-data",
+      "followers": 360,
+      "following": 0,
+      "public_repos": 32,
+      "location": "São Carlos, São Paulo, Brazil",
+      "bio": "Data Science and Machine Learning Extension Group from Universidade de São Paulo, Brazil",
+      "company": null,
+      "created_at": "2019-02-27T20:32:33Z",
+      "total_stars": 516
     },
     {
       "login": "prefeitura-rio",
@@ -2591,6 +2591,25 @@
       ],
       "owner_login": "vsouza",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/484656?s=88&u=9f71c7757f341dd0ba129f2d159857578b0aac52&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "html_url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, Min",
+      "stargazers_count": 52800,
+      "forks_count": 7195,
+      "language": "TypeScript",
+      "topics": [
+        "a2a",
+        "ai-agents",
+        "ai-gateway",
+        "anthropic",
+        "claude"
+      ],
+      "owner_login": "diegosouzapw",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8016841?s=88&u=ed2ff706399ff7157d41e9d2c03281d65a192dde&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3436,25 +3455,6 @@
       "topics": [],
       "owner_login": "akitaonrails",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2840?s=88&u=6923ae49ba086f2c94d29287bc998bacf5b32010&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "leandromoreira/cdn-up-and-running",
-      "html_url": "https://github.com/leandromoreira/cdn-up-and-running",
-      "description": "CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.",
-      "stargazers_count": 3687,
-      "forks_count": 240,
-      "language": "Lua",
-      "topics": [
-        "nginx",
-        "cdn",
-        "tutorial",
-        "lua",
-        "load-balancer"
-      ],
-      "owner_login": "leandromoreira",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/55913?s=88&u=b3b7d650afae54e08e4a361553a263ee508e4ba2&v=4",
       "owner_type": "User",
       "fork": false
     }

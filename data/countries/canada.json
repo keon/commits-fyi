@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-08-21T06:07:06.645Z",
+  "generated_at": "2026-08-22T05:45:22.065Z",
   "counts": {
     "users": 100,
-    "orgs": 60,
+    "orgs": 80,
     "repos": 50
   },
   "totals": {
     "user_followers": 371241,
-    "org_followers": 60200,
+    "org_followers": 67352,
     "user_stars": 1038722,
-    "org_stars": 907682
+    "org_stars": 1073076
   },
   "queries": [
     {
@@ -1335,20 +1335,6 @@
       "total_stars": 9851
     },
     {
-      "login": "adam-p",
-      "name": "Adam Pritchard",
-      "avatar_url": "https://avatars.githubusercontent.com/u/425687?s=88&v=4",
-      "html_url": "https://github.com/adam-p",
-      "followers": 1681,
-      "following": 1,
-      "public_repos": 23,
-      "location": "Toronto, Canada",
-      "bio": null,
-      "company": "Psiphon Inc., Proven Security Solutions Inc.",
-      "created_at": "2010-10-03T21:25:48Z",
-      "total_stars": 60508
-    },
-    {
       "login": "louisfb01",
       "name": "Louis-François Bouchard",
       "avatar_url": "https://avatars.githubusercontent.com/u/70274208?s=88&u=de9737a92b948c65c73a30c4cb6af678b1528109&v=4",
@@ -1361,6 +1347,20 @@
       "company": "Mila/Polytechnique Montréal & @towardsai",
       "created_at": "2020-08-26T13:36:43Z",
       "total_stars": 15972
+    },
+    {
+      "login": "adam-p",
+      "name": "Adam Pritchard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/425687?s=88&v=4",
+      "html_url": "https://github.com/adam-p",
+      "followers": 1681,
+      "following": 1,
+      "public_repos": 23,
+      "location": "Toronto, Canada",
+      "bio": null,
+      "company": "Psiphon Inc., Proven Security Solutions Inc.",
+      "created_at": "2010-10-03T21:25:48Z",
+      "total_stars": 60508
     },
     {
       "login": "DrWaleedAYousef",
@@ -2135,6 +2135,62 @@
       "total_stars": 11963
     },
     {
+      "login": "TecharoHQ",
+      "name": "Techaro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195942235?s=88&v=4",
+      "html_url": "https://github.com/TecharoHQ",
+      "followers": 438,
+      "following": 0,
+      "public_repos": 12,
+      "location": "Canada",
+      "bio": "The anti-AI AI company based in Canada",
+      "company": null,
+      "created_at": "2025-01-21T16:58:33Z",
+      "total_stars": 21822
+    },
+    {
+      "login": "grammarly",
+      "name": "Grammarly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/352781?s=88&v=4",
+      "html_url": "https://github.com/grammarly",
+      "followers": 431,
+      "following": 0,
+      "public_repos": 22,
+      "location": "San Francisco, Vancouver, and Kyiv",
+      "bio": "Millions of users rely on Grammarly's AI-powered products to make their messages, documents, and social media posts clear, mistake-free, and impactful.",
+      "company": null,
+      "created_at": "2010-08-03T12:56:01Z",
+      "total_stars": 4363
+    },
+    {
+      "login": "WiiLink24",
+      "name": "WiiLink",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72463677?s=88&v=4",
+      "html_url": "https://github.com/WiiLink24",
+      "followers": 409,
+      "following": 0,
+      "public_repos": 86,
+      "location": "Canada",
+      "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
+      "company": null,
+      "created_at": "2020-10-06T17:15:01Z",
+      "total_stars": 731
+    },
+    {
+      "login": "scalar",
+      "name": "Scalar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
+      "html_url": "https://github.com/scalar",
+      "followers": 408,
+      "following": 0,
+      "public_repos": 26,
+      "location": "Canada",
+      "bio": "Document, Discover & Test APIs with Scalar",
+      "company": null,
+      "created_at": "2010-06-10T13:56:51Z",
+      "total_stars": 16155
+    },
+    {
       "login": "pycaret",
       "name": "PyCaret",
       "avatar_url": "https://avatars.githubusercontent.com/u/58118658?s=88&v=4",
@@ -2161,6 +2217,34 @@
       "company": null,
       "created_at": "2020-06-30T16:55:24Z",
       "total_stars": 2364
+    },
+    {
+      "login": "WildKernels",
+      "name": "Wild Kernels",
+      "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
+      "html_url": "https://github.com/WildKernels",
+      "followers": 395,
+      "following": 0,
+      "public_repos": 15,
+      "location": "Canada",
+      "bio": "Custom kernels for android and more!",
+      "company": null,
+      "created_at": "2025-01-31T01:32:51Z",
+      "total_stars": 3023
+    },
+    {
+      "login": "SEApplicationsOrg",
+      "name": "SE Applications Org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65776439?s=88&v=4",
+      "html_url": "https://github.com/SEApplicationsOrg",
+      "followers": 392,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Calgary, Alberta, Canada",
+      "bio": "Official ORG for general source code of Suncor applications and digital utilities ",
+      "company": null,
+      "created_at": "2020-05-22T15:02:38Z",
+      "total_stars": 0
     },
     {
       "login": "TouchDesigner",
@@ -2219,6 +2303,90 @@
       "total_stars": 24548
     },
     {
+      "login": "FaceOnLive",
+      "name": "FaceOnLive",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91897558?s=88&v=4",
+      "html_url": "https://github.com/FaceOnLive",
+      "followers": 368,
+      "following": 0,
+      "public_repos": 30,
+      "location": "Canada",
+      "bio": "We offer fully offline, on-premise SDKs for ID Verification, Biometrics and other AI Fields.",
+      "company": null,
+      "created_at": "2021-10-04T14:19:40Z",
+      "total_stars": 2165
+    },
+    {
+      "login": "Globe-Engineer",
+      "name": "Globe Engineer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/146008552?s=88&v=4",
+      "html_url": "https://github.com/Globe-Engineer",
+      "followers": 347,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Canada",
+      "bio": "LLMs for engineering tasks, general agents, and everything useful.",
+      "company": null,
+      "created_at": "2023-09-25T15:18:55Z",
+      "total_stars": 198
+    },
+    {
+      "login": "SamsungSAILMontreal",
+      "name": "Samsung AI Lab (SAIL) Montreal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127172610?s=88&v=4",
+      "html_url": "https://github.com/SamsungSAILMontreal",
+      "followers": 345,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-03-07T04:02:26Z",
+      "total_stars": 6983
+    },
+    {
+      "login": "requarks",
+      "name": "requarks.io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
+      "html_url": "https://github.com/requarks",
+      "followers": 345,
+      "following": 0,
+      "public_repos": 24,
+      "location": "Canada",
+      "bio": "Open source applications for teams",
+      "company": null,
+      "created_at": "2016-01-16T04:21:39Z",
+      "total_stars": 29373
+    },
+    {
+      "login": "JOMACS-IT",
+      "name": "JOMACS-IT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128205306?s=88&v=4",
+      "html_url": "https://github.com/JOMACS-IT",
+      "followers": 342,
+      "following": 0,
+      "public_repos": 22,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-03-18T04:29:12Z",
+      "total_stars": 1
+    },
+    {
+      "login": "MobilityData",
+      "name": "MobilityData IO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41021710?s=88&v=4",
+      "html_url": "https://github.com/MobilityData",
+      "followers": 342,
+      "following": 0,
+      "public_repos": 42,
+      "location": "Canada",
+      "bio": "Better transportation through data",
+      "company": null,
+      "created_at": "2018-07-09T17:48:49Z",
+      "total_stars": 4396
+    },
+    {
       "login": "codewithchris",
       "name": "CodeWithChris",
       "avatar_url": "https://avatars.githubusercontent.com/u/46576056?s=88&v=4",
@@ -2231,6 +2399,90 @@
       "company": null,
       "created_at": "2019-01-10T19:29:00Z",
       "total_stars": 82
+    },
+    {
+      "login": "meteor",
+      "name": "Meteor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/789528?s=88&v=4",
+      "html_url": "https://github.com/meteor",
+      "followers": 333,
+      "following": 0,
+      "public_repos": 141,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-05-15T18:34:06Z",
+      "total_stars": 51125
+    },
+    {
+      "login": "unsplash",
+      "name": "Unsplash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9951955?s=88&v=4",
+      "html_url": "https://github.com/unsplash",
+      "followers": 331,
+      "following": 0,
+      "public_repos": 41,
+      "location": "World/Montreal",
+      "bio": "Building the internet's open library of freely usable visuals. Join us 👫",
+      "company": null,
+      "created_at": "2014-11-25T19:21:41Z",
+      "total_stars": 9925
+    },
+    {
+      "login": "vltpkg",
+      "name": "vlt /vōlt/",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121986630?s=88&v=4",
+      "html_url": "https://github.com/vltpkg",
+      "followers": 329,
+      "following": 0,
+      "public_repos": 17,
+      "location": "Canada",
+      "bio": "We are building the future of JavaScript packages.",
+      "company": null,
+      "created_at": "2023-01-04T23:51:37Z",
+      "total_stars": 903
+    },
+    {
+      "login": "TablePlus",
+      "name": "TablePlus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29408238?s=88&v=4",
+      "html_url": "https://github.com/TablePlus",
+      "followers": 326,
+      "following": 0,
+      "public_repos": 18,
+      "location": "Canada",
+      "bio": "Database Management made easy",
+      "company": null,
+      "created_at": "2017-06-13T16:14:56Z",
+      "total_stars": 5910
+    },
+    {
+      "login": "Data-Learn",
+      "name": "Data Learn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65322078?s=88&v=4",
+      "html_url": "https://github.com/Data-Learn",
+      "followers": 324,
+      "following": 0,
+      "public_repos": 4,
+      "location": "Canada",
+      "bio": "Learn Data Skills and Data Professions",
+      "company": null,
+      "created_at": "2020-05-14T01:46:09Z",
+      "total_stars": 1695
+    },
+    {
+      "login": "McGill-NLP",
+      "name": "McGill NLP",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73149310?s=88&v=4",
+      "html_url": "https://github.com/McGill-NLP",
+      "followers": 321,
+      "following": 0,
+      "public_repos": 68,
+      "location": "Canada",
+      "bio": "Research group within McGill University and Mila focusing on various topics in natural language processing. ",
+      "company": null,
+      "created_at": "2020-10-20T02:01:21Z",
+      "total_stars": 5751
     },
     {
       "login": "Devolutions",
@@ -2273,6 +2525,34 @@
       "company": null,
       "created_at": "2012-10-03T14:38:34Z",
       "total_stars": 301
+    },
+    {
+      "login": "clio",
+      "name": "Clio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30769?s=88&v=4",
+      "html_url": "https://github.com/clio",
+      "followers": 315,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2008-10-24T04:38:47Z",
+      "total_stars": 506
+    },
+    {
+      "login": "UBC-MDS",
+      "name": "Master of Data Science at the University of British Columbia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15257466?s=88&v=4",
+      "html_url": "https://github.com/UBC-MDS",
+      "followers": 311,
+      "following": 0,
+      "public_repos": 67,
+      "location": "Vancouver, BC, Canada",
+      "bio": "10-month, full-time, course-based Master’s program, first cohort starts September 2016",
+      "company": null,
+      "created_at": "2015-10-23T02:02:32Z",
+      "total_stars": 369
     }
   ],
   "repos": [
@@ -2338,6 +2618,25 @@
       "owner_login": "adam-p",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/425687?s=88&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "meteor/meteor",
+      "html_url": "https://github.com/meteor/meteor",
+      "description": "Meteor, the JavaScript App Platform",
+      "stargazers_count": 44809,
+      "forks_count": 5240,
+      "language": "JavaScript",
+      "topics": [
+        "javascript",
+        "meteor",
+        "mongodb",
+        "build-system",
+        "npm"
+      ],
+      "owner_login": "meteor",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/789528?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -2425,6 +2724,25 @@
       "owner_login": "tobi",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/347?s=88&u=7960534ac523f60d241bb7c7ef986d263ea96170&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "requarks/wiki",
+      "html_url": "https://github.com/requarks/wiki",
+      "description": "Wiki.js | A modern and powerful wiki app built on Node.js",
+      "stargazers_count": 28785,
+      "forks_count": 3292,
+      "language": "Vue",
+      "topics": [
+        "wiki",
+        "nodejs",
+        "git",
+        "documentation",
+        "cross-platform"
+      ],
+      "owner_login": "requarks",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -2556,6 +2874,22 @@
       "owner_login": "MustangYM",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/21478687?s=88&u=b04ab5e45dbea570ff0869f2ab230a10d886cf3c&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "TecharoHQ/anubis",
+      "html_url": "https://github.com/TecharoHQ/anubis",
+      "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
+      "stargazers_count": 21612,
+      "forks_count": 686,
+      "language": "Go",
+      "topics": [
+        "defense",
+        "security"
+      ],
+      "owner_login": "TecharoHQ",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/195942235?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     },
     {
@@ -2754,6 +3088,25 @@
       ],
       "owner_login": "flet-dev",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/102273996?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "scalar/scalar",
+      "html_url": "https://github.com/scalar/scalar",
+      "description": "Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+      "stargazers_count": 15958,
+      "forks_count": 925,
+      "language": "TypeScript",
+      "topics": [
+        "api",
+        "docs",
+        "openapi",
+        "reference",
+        "swagger"
+      ],
+      "owner_login": "scalar",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3098,73 +3451,6 @@
       "topics": [],
       "owner_login": "nicobailon",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2958133?s=88&u=a60c0e6e52c37fca59e218eb0c2e407da597e164&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ange-yaghi/engine-sim",
-      "html_url": "https://github.com/ange-yaghi/engine-sim",
-      "description": "Combustion engine simulator that generates realistic audio.",
-      "stargazers_count": 9511,
-      "forks_count": 919,
-      "language": "C++",
-      "topics": [
-        "engine",
-        "simulation"
-      ],
-      "owner_login": "ange-yaghi",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20446997?s=88&u=35078d45b863771c872b3e488464a5c8343037ba&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "bigbluebutton/bigbluebutton",
-      "html_url": "https://github.com/bigbluebutton/bigbluebutton",
-      "description": "A complete web conferencing system for virtual classes and more!",
-      "stargazers_count": 9195,
-      "forks_count": 5981,
-      "language": "JavaScript",
-      "topics": [
-        "conferencing",
-        "webrtc",
-        "video",
-        "collaboration",
-        "video-conferencing"
-      ],
-      "owner_login": "bigbluebutton",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/230228?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "developit/htm",
-      "html_url": "https://github.com/developit/htm",
-      "description": "Hyperscript Tagged Markup: JSX alternative using standard tagged templates, with compiler support.",
-      "stargazers_count": 9045,
-      "forks_count": 180,
-      "language": "JavaScript",
-      "topics": [
-        "jsx",
-        "babel",
-        "babel-plugin",
-        "tagged-template",
-        "virtual-dom"
-      ],
-      "owner_login": "developit",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/105127?s=88&u=9dbda1907e83e069f6f1ee68b77111f784fae663&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "apenwarr/sshuttle",
-      "html_url": "https://github.com/apenwarr/sshuttle",
-      "description": "Wrong project!  You should head over to http://github.com/sshuttle/sshuttle",
-      "stargazers_count": 8859,
-      "forks_count": 611,
-      "language": "Python",
-      "topics": [],
-      "owner_login": "apenwarr",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20592?s=88&u=a1e53a1c69272311909626b1fd6149ccd0807681&v=4",
       "owner_type": "User",
       "fork": false
     }

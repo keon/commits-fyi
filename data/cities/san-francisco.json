@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-08-21T05:50:01.056Z",
+  "generated_at": "2026-08-22T05:43:19.586Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1067761,
+    "user_followers": 1062240,
     "org_followers": 335872,
-    "user_stars": 3268783,
+    "user_stars": 3229859,
     "org_stars": 4581996
   },
   "queries": [
@@ -521,20 +521,6 @@
       "company": "Stanford",
       "created_at": "2013-05-07T23:26:09Z",
       "total_stars": 31905
-    },
-    {
-      "login": "carpedm20",
-      "name": "Taehoon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3346407?s=88&u=066fee5dfe83dd1a0cce9da40a184f9aa3ef284e&v=4",
-      "html_url": "https://github.com/carpedm20",
-      "followers": 9315,
-      "following": 2307,
-      "public_repos": 134,
-      "location": "San Francisco",
-      "bio": "ex @openai. a machine like human",
-      "company": null,
-      "created_at": "2013-01-23T02:36:33Z",
-      "total_stars": 40261
     },
     {
       "login": "fat",
@@ -1431,6 +1417,20 @@
       "company": "@open-navigation ",
       "created_at": "2015-10-02T17:06:11Z",
       "total_stars": 3926
+    },
+    {
+      "login": "EcZachly",
+      "name": "Zach Wilson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4583288?s=88&u=aac0c288c87bddef24671f230d2749b1e597d3df&v=4",
+      "html_url": "https://github.com/EcZachly",
+      "followers": 3794,
+      "following": 18,
+      "public_repos": 30,
+      "location": "San Francisco, CA",
+      "bio": null,
+      "company": "DataExpert.io",
+      "created_at": "2013-05-31T21:27:38Z",
+      "total_stars": 1337
     }
   ],
   "orgs": [
@@ -2345,20 +2345,6 @@
       "total_stars": 6478
     },
     {
-      "login": "alchemyplatform",
-      "name": "Alchemy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49798644?s=88&v=4",
-      "html_url": "https://github.com/alchemyplatform",
-      "followers": 1063,
-      "following": 0,
-      "public_repos": 142,
-      "location": "San Francisco, CA",
-      "bio": "The Web3 Developer Platform",
-      "company": null,
-      "created_at": "2019-04-19T23:22:23Z",
-      "total_stars": 4439
-    },
-    {
       "login": "Autodesk",
       "name": "Autodesk",
       "avatar_url": "https://avatars.githubusercontent.com/u/7914533?s=88&v=4",
@@ -2371,6 +2357,20 @@
       "company": null,
       "created_at": "2014-06-17T15:35:15Z",
       "total_stars": 7716
+    },
+    {
+      "login": "alchemyplatform",
+      "name": "Alchemy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49798644?s=88&v=4",
+      "html_url": "https://github.com/alchemyplatform",
+      "followers": 1063,
+      "following": 0,
+      "public_repos": 142,
+      "location": "San Francisco, CA",
+      "bio": "The Web3 Developer Platform",
+      "company": null,
+      "created_at": "2019-04-19T23:22:23Z",
+      "total_stars": 4439
     },
     {
       "login": "circleci",
@@ -2415,20 +2415,6 @@
       "total_stars": 22037
     },
     {
-      "login": "Khan",
-      "name": "Khan Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15455?s=88&v=4",
-      "html_url": "https://github.com/Khan",
-      "followers": 1014,
-      "following": 0,
-      "public_repos": 206,
-      "location": "Mountain View, CA",
-      "bio": "Working to make a free, world-class education available for anyone, anywhere.",
-      "company": null,
-      "created_at": "2008-06-29T13:50:51Z",
-      "total_stars": 17417
-    },
-    {
       "login": "plaid",
       "name": "Plaid",
       "avatar_url": "https://avatars.githubusercontent.com/u/3579888?s=88&v=4",
@@ -2441,6 +2427,20 @@
       "company": null,
       "created_at": "2013-02-13T00:25:05Z",
       "total_stars": 5650
+    },
+    {
+      "login": "Khan",
+      "name": "Khan Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15455?s=88&v=4",
+      "html_url": "https://github.com/Khan",
+      "followers": 1014,
+      "following": 0,
+      "public_repos": 206,
+      "location": "Mountain View, CA",
+      "bio": "Working to make a free, world-class education available for anyone, anywhere.",
+      "company": null,
+      "created_at": "2008-06-29T13:50:51Z",
+      "total_stars": 17417
     },
     {
       "login": "Expensify",

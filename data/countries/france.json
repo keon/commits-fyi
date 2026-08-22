@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-08-21T05:55:57.496Z",
+  "generated_at": "2026-08-22T05:45:14.863Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 325033,
-    "org_followers": 126198,
+    "org_followers": 125839,
     "user_stars": 1338571,
-    "org_stars": 1477628
+    "org_stars": 1479727
   },
   "queries": [
     {
@@ -859,20 +859,6 @@
       "total_stars": 24659
     },
     {
-      "login": "arcanis",
-      "name": "Maël Nison",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1037931?s=88&u=b7caf9bbaa35c1114918e82b0a6d436f761dbec3&v=4",
-      "html_url": "https://github.com/arcanis",
-      "followers": 1953,
-      "following": 0,
-      "public_repos": 112,
-      "location": "Nantes, France",
-      "bio": "Lead maintainer for @yarnpkg 📦🧶\r\nStaff DevX @MistralAI; ex @datadog, @facebook, @sketchfab, ...",
-      "company": "@mistralai",
-      "created_at": "2011-09-09T07:17:46Z",
-      "total_stars": 3442
-    },
-    {
       "login": "gre",
       "name": "@greweb",
       "avatar_url": "https://avatars.githubusercontent.com/u/211411?s=88&u=a563d50a4fc7ff192a6cb2fafd5abe715e21fa71&v=4",
@@ -885,6 +871,20 @@
       "company": null,
       "created_at": "2010-02-26T13:44:19Z",
       "total_stars": 14510
+    },
+    {
+      "login": "arcanis",
+      "name": "Maël Nison",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1037931?s=88&u=b7caf9bbaa35c1114918e82b0a6d436f761dbec3&v=4",
+      "html_url": "https://github.com/arcanis",
+      "followers": 1953,
+      "following": 0,
+      "public_repos": 112,
+      "location": "Nantes, France",
+      "bio": "Lead maintainer for @yarnpkg 📦🧶\r\nStaff DevX @MistralAI; ex @datadog, @facebook, @sketchfab, ...",
+      "company": "@mistralai",
+      "created_at": "2011-09-09T07:17:46Z",
+      "total_stars": 3442
     },
     {
       "login": "mxrch",
@@ -1827,20 +1827,6 @@
       "total_stars": 1161
     },
     {
-      "login": "drumee",
-      "name": "Drumee",
-      "avatar_url": "https://avatars.githubusercontent.com/u/779580?s=88&v=4",
-      "html_url": "https://github.com/drumee",
-      "followers": 629,
-      "following": 0,
-      "public_repos": 57,
-      "location": "Paris",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-05-10T16:37:29Z",
-      "total_stars": 12
-    },
-    {
       "login": "PrestaShop",
       "name": "The PrestaShop Project",
       "avatar_url": "https://avatars.githubusercontent.com/u/2815696?s=88&v=4",
@@ -2121,20 +2107,6 @@
       "total_stars": 1817
     },
     {
-      "login": "Open-Cascade-SAS",
-      "name": "Open Cascade SAS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61025812?s=88&v=4",
-      "html_url": "https://github.com/Open-Cascade-SAS",
-      "followers": 381,
-      "following": 0,
-      "public_repos": 18,
-      "location": "France",
-      "bio": "A Capgemini Group Company",
-      "company": null,
-      "created_at": "2020-02-13T18:53:19Z",
-      "total_stars": 2940
-    },
-    {
       "login": "deezer",
       "name": "Deezer",
       "avatar_url": "https://avatars.githubusercontent.com/u/4393583?s=88&v=4",
@@ -2147,6 +2119,20 @@
       "company": null,
       "created_at": "2013-05-10T05:42:19Z",
       "total_stars": 29691
+    },
+    {
+      "login": "Open-Cascade-SAS",
+      "name": "Open Cascade SAS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61025812?s=88&v=4",
+      "html_url": "https://github.com/Open-Cascade-SAS",
+      "followers": 381,
+      "following": 0,
+      "public_repos": 18,
+      "location": "France",
+      "bio": "A Capgemini Group Company",
+      "company": null,
+      "created_at": "2020-02-13T18:53:19Z",
+      "total_stars": 2940
     },
     {
       "login": "initml",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2020-07-13T17:40:04Z",
       "total_stars": 1982
+    },
+    {
+      "login": "divriots",
+      "name": "‹div›RIOTS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45049140?s=88&v=4",
+      "html_url": "https://github.com/divriots",
+      "followers": 270,
+      "following": 0,
+      "public_repos": 70,
+      "location": "France",
+      "bio": "Frontend is back!",
+      "company": null,
+      "created_at": "2018-11-14T20:26:52Z",
+      "total_stars": 2111
     }
   ],
   "repos": [
