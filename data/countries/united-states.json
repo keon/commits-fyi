@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-08-22T05:44:19.539Z",
+  "generated_at": "2026-08-23T05:47:04.407Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1357644,
-    "org_followers": 984992,
-    "user_stars": 3398804,
-    "org_stars": 10299936
+    "user_followers": 1357779,
+    "org_followers": 985032,
+    "user_stars": 3398805,
+    "org_stars": 10300751
   },
   "queries": [
     {
@@ -1013,6 +1013,20 @@
       "total_stars": 11109
     },
     {
+      "login": "pwnedroot",
+      "name": "pwnedroot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
+      "html_url": "https://github.com/pwnedroot",
+      "followers": 6849,
+      "following": 176566,
+      "public_repos": 7,
+      "location": "United States",
+      "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
+      "company": null,
+      "created_at": "2024-07-21T01:37:50Z",
+      "total_stars": 153
+    },
+    {
       "login": "charliermarsh",
       "name": "Charlie Marsh",
       "avatar_url": "https://avatars.githubusercontent.com/u/1309177?s=88&u=6328c998d93a48eba87c6b039783b8a7644c62c3&v=4",
@@ -1025,20 +1039,6 @@
       "company": "@openai",
       "created_at": "2012-01-06T11:14:16Z",
       "total_stars": 848
-    },
-    {
-      "login": "pwnedroot",
-      "name": "pwnedroot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
-      "html_url": "https://github.com/pwnedroot",
-      "followers": 6714,
-      "following": 176589,
-      "public_repos": 7,
-      "location": "United States",
-      "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
-      "company": null,
-      "created_at": "2024-07-21T01:37:50Z",
-      "total_stars": 152
     },
     {
       "login": "TooTallNate",
@@ -2489,14 +2489,14 @@
       "name": "Unsloth AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
       "html_url": "https://github.com/unslothai",
-      "followers": 3508,
+      "followers": 3548,
       "following": 0,
       "public_repos": 4,
       "location": "United States of America",
       "bio": "Run and train AI models locally. 🦥",
       "company": null,
       "created_at": "2023-11-15T12:23:54Z",
-      "total_stars": 82049
+      "total_stars": 82864
     },
     {
       "login": "salesforce",
@@ -3047,6 +3047,25 @@
       "fork": false
     },
     {
+      "full_name": "unslothai/unsloth",
+      "html_url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "stargazers_count": 74428,
+      "forks_count": 6735,
+      "language": "Python",
+      "topics": [
+        "fine-tuning",
+        "llama",
+        "llms",
+        "gemma",
+        "unsloth"
+      ],
+      "owner_login": "unslothai",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "unionlabs/union",
       "html_url": "https://github.com/unionlabs/union",
       "description": "The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentraliz",
@@ -3062,25 +3081,6 @@
       ],
       "owner_login": "unionlabs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/129756567?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "unslothai/unsloth",
-      "html_url": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "stargazers_count": 73652,
-      "forks_count": 6654,
-      "language": "Python",
-      "topics": [
-        "fine-tuning",
-        "llama",
-        "llms",
-        "gemma",
-        "unsloth"
-      ],
-      "owner_login": "unslothai",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },

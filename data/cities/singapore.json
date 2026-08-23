@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-08-22T05:44:17.633Z",
+  "generated_at": "2026-08-23T05:46:59.603Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 338739,
-    "org_followers": 91786,
-    "user_stars": 1017799,
-    "org_stars": 1101265
+    "user_followers": 338754,
+    "org_followers": 91787,
+    "user_stars": 1017800,
+    "org_stars": 1101667
   },
   "queries": [
     {
@@ -831,6 +831,20 @@
       "total_stars": 15
     },
     {
+      "login": "hyfdev",
+      "name": "Yunfei He",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49502170?s=88&u=5e77a887e2bda1d4395abb06d8ea8c9f423e2cc6&v=4",
+      "html_url": "https://github.com/hyfdev",
+      "followers": 1175,
+      "following": 35,
+      "public_repos": 96,
+      "location": "Singapore",
+      "bio": "Programmer by interest",
+      "company": "@voidzero-dev",
+      "created_at": "2019-04-11T00:38:51Z",
+      "total_stars": 409
+    },
+    {
       "login": "moonD4rk",
       "name": "Roger",
       "avatar_url": "https://avatars.githubusercontent.com/u/24284231?s=88&u=9f095f72efa33857739af052beb9c528ba8bba20&v=4",
@@ -857,20 +871,6 @@
       "company": null,
       "created_at": "2018-02-21T13:06:04Z",
       "total_stars": 5984
-    },
-    {
-      "login": "hyfdev",
-      "name": "Yunfei He",
-      "avatar_url": "https://avatars.githubusercontent.com/u/49502170?s=88&u=5e77a887e2bda1d4395abb06d8ea8c9f423e2cc6&v=4",
-      "html_url": "https://github.com/hyfdev",
-      "followers": 1160,
-      "following": 35,
-      "public_repos": 96,
-      "location": "Singapore",
-      "bio": "Programmer by interest",
-      "company": "@voidzero-dev",
-      "created_at": "2019-04-11T00:38:51Z",
-      "total_stars": 408
     },
     {
       "login": "kennethleungty",
@@ -2541,18 +2541,18 @@
       "total_stars": 272
     },
     {
-      "login": "atlas-research-io",
-      "name": "Atlas Research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125331677?s=88&v=4",
-      "html_url": "https://github.com/atlas-research-io",
-      "followers": 187,
+      "login": "modelstudioai",
+      "name": "Model Studio ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/283556804?s=88&v=4",
+      "html_url": "https://github.com/modelstudioai",
+      "followers": 188,
       "following": 0,
-      "public_repos": 3,
+      "public_repos": 9,
       "location": "Singapore",
-      "bio": "workspace for research",
+      "bio": null,
       "company": null,
-      "created_at": "2023-02-14T03:03:43Z",
-      "total_stars": 76
+      "created_at": "2026-05-11T05:54:29Z",
+      "total_stars": 478
     }
   ],
   "repos": [

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-08-22T05:43:25.048Z",
+  "generated_at": "2026-08-23T05:46:04.230Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 299574,
-    "org_followers": 32495,
+    "org_followers": 32493,
     "user_stars": 991267,
     "org_stars": 740138
   },
@@ -2415,20 +2415,6 @@
       "total_stars": 627
     },
     {
-      "login": "bakdata",
-      "name": "bakdata",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
-      "html_url": "https://github.com/bakdata",
-      "followers": 104,
-      "following": 0,
-      "public_repos": 58,
-      "location": "Berlin, Germany",
-      "bio": "🚀 data non-stop 🚀 We are a leader in the open source development of modern data streaming platforms. We are hiring!",
-      "company": null,
-      "created_at": "2013-10-17T11:17:58Z",
-      "total_stars": 633
-    },
-    {
       "login": "kinvolk",
       "name": "Kinvolk",
       "avatar_url": "https://avatars.githubusercontent.com/u/14073052?s=88&v=4",
@@ -2441,6 +2427,20 @@
       "company": null,
       "created_at": "2015-09-01T11:50:37Z",
       "total_stars": 1436
+    },
+    {
+      "login": "bakdata",
+      "name": "bakdata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
+      "html_url": "https://github.com/bakdata",
+      "followers": 102,
+      "following": 0,
+      "public_repos": 58,
+      "location": "Berlin, Germany",
+      "bio": "🚀 data non-stop 🚀 We are a leader in the open source development of modern data streaming platforms. We are hiring!",
+      "company": null,
+      "created_at": "2013-10-17T11:17:58Z",
+      "total_stars": 633
     },
     {
       "login": "bigchaindb",
