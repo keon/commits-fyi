@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-08-24T05:54:33.677Z",
+  "generated_at": "2026-08-25T05:48:34.536Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 527757,
     "org_followers": 140234,
     "user_stars": 1802539,
-    "org_stars": 1613646
+    "org_stars": 1614491
   },
   "queries": [
     {
@@ -1139,20 +1139,6 @@
       "total_stars": 8235
     },
     {
-      "login": "julien-c",
-      "name": "Julien Chaumond",
-      "avatar_url": "https://avatars.githubusercontent.com/u/326577?s=88&u=44cb5d1d9ccbc8db735a14a43931effe5ee390b3&v=4",
-      "html_url": "https://github.com/julien-c",
-      "followers": 2254,
-      "following": 39,
-      "public_repos": 71,
-      "location": "Brooklyn, NY",
-      "bio": "CTO @huggingface",
-      "company": "@huggingface ",
-      "created_at": "2010-07-08T16:14:10Z",
-      "total_stars": 1929
-    },
-    {
       "login": "davila7",
       "name": "Daniel Avila",
       "avatar_url": "https://avatars.githubusercontent.com/u/6216945?s=88&u=9cea1838e2bdb1dbfbdb657cf54d1166bd52fc0b&v=4",
@@ -1165,6 +1151,20 @@
       "company": null,
       "created_at": "2013-12-18T18:13:11Z",
       "total_stars": 31612
+    },
+    {
+      "login": "julien-c",
+      "name": "Julien Chaumond",
+      "avatar_url": "https://avatars.githubusercontent.com/u/326577?s=88&u=44cb5d1d9ccbc8db735a14a43931effe5ee390b3&v=4",
+      "html_url": "https://github.com/julien-c",
+      "followers": 2254,
+      "following": 39,
+      "public_repos": 71,
+      "location": "Brooklyn, NY",
+      "bio": "CTO @huggingface",
+      "company": "@huggingface ",
+      "created_at": "2010-07-08T16:14:10Z",
+      "total_stars": 1929
     },
     {
       "login": "mmistakes",
@@ -2317,20 +2317,6 @@
       "total_stars": 1140
     },
     {
-      "login": "directus-labs",
-      "name": "Directus Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79210894?s=88&v=4",
-      "html_url": "https://github.com/directus-labs",
-      "followers": 256,
-      "following": 0,
-      "public_repos": 28,
-      "location": "Brooklyn, NY",
-      "bio": "The official organization for Directus templates, settings, and additional projects. Unlike our main org, repos here may not be actively maintained.",
-      "company": null,
-      "created_at": "2021-02-17T14:56:04Z",
-      "total_stars": 2580
-    },
-    {
       "login": "api-evangelist",
       "name": "API Evangelist",
       "avatar_url": "https://avatars.githubusercontent.com/u/3026872?s=88&v=4",
@@ -2343,6 +2329,20 @@
       "company": null,
       "created_at": "2012-12-12T16:40:08Z",
       "total_stars": 130
+    },
+    {
+      "login": "directus-labs",
+      "name": "Directus Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79210894?s=88&v=4",
+      "html_url": "https://github.com/directus-labs",
+      "followers": 256,
+      "following": 0,
+      "public_repos": 28,
+      "location": "Brooklyn, NY",
+      "bio": "The official organization for Directus templates, settings, and additional projects. Unlike our main org, repos here may not be actively maintained.",
+      "company": null,
+      "created_at": "2021-02-17T14:56:04Z",
+      "total_stars": 2580
     },
     {
       "login": "RPISEC",
@@ -2373,20 +2373,6 @@
       "total_stars": 13710
     },
     {
-      "login": "Semantic-Org",
-      "name": "Semantic Org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5796209?s=88&v=4",
-      "html_url": "https://github.com/Semantic-Org",
-      "followers": 242,
-      "following": 0,
-      "public_repos": 75,
-      "location": "New York",
-      "bio": "Semantic Organization",
-      "company": null,
-      "created_at": "2013-10-28T17:02:43Z",
-      "total_stars": 66974
-    },
-    {
       "login": "pelotoncycle",
       "name": "Peloton",
       "avatar_url": "https://avatars.githubusercontent.com/u/1714991?s=88&v=4",
@@ -2401,18 +2387,18 @@
       "total_stars": 82
     },
     {
-      "login": "Opentrons",
-      "name": "Opentrons",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6139147?s=88&v=4",
-      "html_url": "https://github.com/Opentrons",
-      "followers": 236,
+      "login": "Semantic-Org",
+      "name": "Semantic Org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5796209?s=88&v=4",
+      "html_url": "https://github.com/Semantic-Org",
+      "followers": 242,
       "following": 0,
-      "public_repos": 74,
-      "location": "Brooklyn, NYC",
-      "bio": "Lab robots for Biologists",
+      "public_repos": 75,
+      "location": "New York",
+      "bio": "Semantic Organization",
       "company": null,
-      "created_at": "2013-12-09T03:23:46Z",
-      "total_stars": 898
+      "created_at": "2013-10-28T17:02:43Z",
+      "total_stars": 66974
     },
     {
       "login": "Dashlane",
@@ -2427,6 +2413,20 @@
       "company": null,
       "created_at": "2012-10-24T08:43:39Z",
       "total_stars": 1214
+    },
+    {
+      "login": "Opentrons",
+      "name": "Opentrons",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6139147?s=88&v=4",
+      "html_url": "https://github.com/Opentrons",
+      "followers": 236,
+      "following": 0,
+      "public_repos": 74,
+      "location": "Brooklyn, NYC",
+      "bio": "Lab robots for Biologists",
+      "company": null,
+      "created_at": "2013-12-09T03:23:46Z",
+      "total_stars": 898
     },
     {
       "login": "FSecureLABS",
@@ -2513,20 +2513,6 @@
       "total_stars": 5889
     },
     {
-      "login": "UrbanCompass",
-      "name": "Compass",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
-      "html_url": "https://github.com/UrbanCompass",
-      "followers": 205,
-      "following": 0,
-      "public_repos": 21,
-      "location": "NYC",
-      "bio": "Compass Real Estate",
-      "company": null,
-      "created_at": "2012-10-02T18:21:11Z",
-      "total_stars": 418
-    },
-    {
       "login": "flatiron-school",
       "name": "Flatiron School",
       "avatar_url": "https://avatars.githubusercontent.com/u/2180076?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2013-04-21T16:32:54Z",
       "total_stars": 2301
+    },
+    {
+      "login": "tradingeconomics",
+      "name": "TRADING ECONOMICS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/752615?s=88&v=4",
+      "html_url": "https://github.com/tradingeconomics",
+      "followers": 205,
+      "following": 0,
+      "public_repos": 4,
+      "location": "New York |  Lisbon",
+      "bio": "Your Research and AI Is Only As Good As Your Data. Millions of Users Trust Trading Economics.",
+      "company": null,
+      "created_at": "2011-04-26T14:47:00Z",
+      "total_stars": 1263
     }
   ],
   "repos": [

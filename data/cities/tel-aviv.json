@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-08-24T05:57:45.089Z",
+  "generated_at": "2026-08-25T05:49:30.708Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 30006,
+    "user_followers": 29985,
     "org_followers": 3136,
-    "user_stars": 212955,
+    "user_stars": 213096,
     "org_stars": 90762
   },
   "queries": [
@@ -1111,20 +1111,6 @@
       "total_stars": 0
     },
     {
-      "login": "cjmustard",
-      "name": "CJ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/80650734?s=88&u=0b24a11ef1f8b6d60662847149757c7b35350428&v=4",
-      "html_url": "https://github.com/cjmustard",
-      "followers": 103,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Tel Aviv",
-      "bio": "Computer Engineer :)\r\n",
-      "company": "Lumine Software LLC",
-      "created_at": "2021-03-14T21:50:23Z",
-      "total_stars": 11
-    },
-    {
       "login": "GabiGrin",
       "name": "Gabriel Grinberg",
       "avatar_url": "https://avatars.githubusercontent.com/u/3727015?s=88&u=aa73f4eb5031b075586c71817a1a914d2159acff&v=4",
@@ -1223,20 +1209,6 @@
       "total_stars": 215
     },
     {
-      "login": "Inbal-Tish",
-      "name": "Inbal Tish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33805983?s=88&u=15799ab0cff4472be59bf6117885da093c558540&v=4",
-      "html_url": "https://github.com/Inbal-Tish",
-      "followers": 94,
-      "following": 0,
-      "public_repos": 1,
-      "location": "Tel-Aviv, Israel",
-      "bio": null,
-      "company": "Wix.com",
-      "created_at": "2017-11-19T13:50:00Z",
-      "total_stars": 3
-    },
-    {
       "login": "SelfishGene",
       "name": "David Beniaguev",
       "avatar_url": "https://avatars.githubusercontent.com/u/11506338?s=88&u=c836aad840396cdb94c869b544effd77aef684fa&v=4",
@@ -1249,6 +1221,20 @@
       "company": null,
       "created_at": "2015-03-16T16:32:04Z",
       "total_stars": 519
+    },
+    {
+      "login": "Inbal-Tish",
+      "name": "Inbal Tish",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33805983?s=88&u=15799ab0cff4472be59bf6117885da093c558540&v=4",
+      "html_url": "https://github.com/Inbal-Tish",
+      "followers": 94,
+      "following": 0,
+      "public_repos": 1,
+      "location": "Tel-Aviv, Israel",
+      "bio": null,
+      "company": "Wix.com",
+      "created_at": "2017-11-19T13:50:00Z",
+      "total_stars": 3
     },
     {
       "login": "radiantspace",
@@ -1405,6 +1391,20 @@
       "total_stars": 12
     },
     {
+      "login": "maximveksler",
+      "name": "Maxim Veksler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/550550?s=88&u=b26e55dc77fdbbb0bf88ed04dd12be01d4a8282b&v=4",
+      "html_url": "https://github.com/maximveksler",
+      "followers": 83,
+      "following": 73,
+      "public_repos": 30,
+      "location": "Tel Aviv, Israel",
+      "bio": "building...",
+      "company": null,
+      "created_at": "2011-01-06T16:09:58Z",
+      "total_stars": 165
+    },
+    {
       "login": "oryband",
       "name": "Ory Band",
       "avatar_url": "https://avatars.githubusercontent.com/u/115387?s=88&u=df4838e296ff237cb25bb7710b57fe3d0df1a361&v=4",
@@ -1419,18 +1419,18 @@
       "total_stars": 86
     },
     {
-      "login": "maximveksler",
-      "name": "Maxim Veksler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/550550?s=88&u=b26e55dc77fdbbb0bf88ed04dd12be01d4a8282b&v=4",
-      "html_url": "https://github.com/maximveksler",
-      "followers": 83,
-      "following": 73,
-      "public_repos": 30,
+      "login": "chernistry",
+      "name": "Alex Chernysh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73943355?s=88&u=1f9db84a39ee1d57f320bd02a6c704d61118e078&v=4",
+      "html_url": "https://github.com/chernistry",
+      "followers": 82,
+      "following": 39,
+      "public_repos": 17,
       "location": "Tel Aviv, Israel",
-      "bio": "building...",
-      "company": null,
-      "created_at": "2011-01-06T16:09:58Z",
-      "total_stars": 165
+      "bio": "Applied AI Systems Engineer · multi-agent, RAG, MCP · evals. Bernstein maintainer.",
+      "company": "Sip Your Drink",
+      "created_at": "2020-11-04T12:10:31Z",
+      "total_stars": 152
     }
   ],
   "orgs": [
@@ -2471,20 +2471,6 @@
       "total_stars": 8
     },
     {
-      "login": "beameio",
-      "name": "beame.io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13220017?s=88&v=4",
-      "html_url": "https://github.com/beameio",
-      "followers": 3,
-      "following": 0,
-      "public_repos": 22,
-      "location": "Tel Aviv Israel ",
-      "bio": "Providing cryptographic identity as a service with beame-crypto-ID",
-      "company": null,
-      "created_at": "2015-07-07T12:57:36Z",
-      "total_stars": 702
-    },
-    {
       "login": "qmasters-ltd",
       "name": "QMasters LTD.",
       "avatar_url": "https://avatars.githubusercontent.com/u/47185525?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2019-01-30T15:46:34Z",
       "total_stars": 1
+    },
+    {
+      "login": "beameio",
+      "name": "beame.io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13220017?s=88&v=4",
+      "html_url": "https://github.com/beameio",
+      "followers": 3,
+      "following": 0,
+      "public_repos": 22,
+      "location": "Tel Aviv Israel ",
+      "bio": "Providing cryptographic identity as a service with beame-crypto-ID",
+      "company": null,
+      "created_at": "2015-07-07T12:57:36Z",
+      "total_stars": 702
     },
     {
       "login": "roeto",
@@ -2513,20 +2513,6 @@
       "total_stars": 0
     },
     {
-      "login": "alephventures",
-      "name": "Aleph",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7923342?s=88&v=4",
-      "html_url": "https://github.com/alephventures",
-      "followers": 2,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Tel Aviv, Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-06-18T13:00:54Z",
-      "total_stars": 0
-    },
-    {
       "login": "Solvits-Solutions",
       "name": "Solvits",
       "avatar_url": "https://avatars.githubusercontent.com/u/83660615?s=88&v=4",
@@ -2538,6 +2524,20 @@
       "bio": "Full cycle software solutions",
       "company": null,
       "created_at": "2021-05-04T15:51:29Z",
+      "total_stars": 0
+    },
+    {
+      "login": "alephventures",
+      "name": "Aleph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7923342?s=88&v=4",
+      "html_url": "https://github.com/alephventures",
+      "followers": 2,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Tel Aviv, Israel",
+      "bio": null,
+      "company": null,
+      "created_at": "2014-06-18T13:00:54Z",
       "total_stars": 0
     },
     {

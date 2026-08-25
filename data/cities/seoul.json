@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-08-24T05:58:30.697Z",
+  "generated_at": "2026-08-25T05:49:33.780Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 107147,
-    "org_followers": 11040,
+    "org_followers": 11023,
     "user_stars": 522533,
-    "org_stars": 84614
+    "org_stars": 83970
   },
   "queries": [
     {
@@ -1967,6 +1967,20 @@
       "total_stars": 337
     },
     {
+      "login": "ubuntu-kr",
+      "name": "Ubuntu Korea Community",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15513214?s=88&v=4",
+      "html_url": "https://github.com/ubuntu-kr",
+      "followers": 61,
+      "following": 0,
+      "public_repos": 33,
+      "location": "Seoul, South Korea",
+      "bio": "Ubuntu Korea Community GitHub Repositories",
+      "company": null,
+      "created_at": "2015-10-31T05:46:25Z",
+      "total_stars": 94
+    },
+    {
       "login": "hkmc-airlab",
       "name": "AIRS Company (Public)",
       "avatar_url": "https://avatars.githubusercontent.com/u/49009396?s=88&v=4",
@@ -1993,20 +2007,6 @@
       "company": null,
       "created_at": "2020-09-18T04:27:53Z",
       "total_stars": 14
-    },
-    {
-      "login": "ubuntu-kr",
-      "name": "Ubuntu Korea Community",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15513214?s=88&v=4",
-      "html_url": "https://github.com/ubuntu-kr",
-      "followers": 61,
-      "following": 0,
-      "public_repos": 33,
-      "location": "Seoul, South Korea",
-      "bio": "Ubuntu Korea Community GitHub Repositories",
-      "company": null,
-      "created_at": "2015-10-31T05:46:25Z",
-      "total_stars": 94
     },
     {
       "login": "sju-coml",
@@ -2133,20 +2133,6 @@
       "company": null,
       "created_at": "2018-10-15T14:39:33Z",
       "total_stars": 503
-    },
-    {
-      "login": "opgginc",
-      "name": "OP.GG",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29659061?s=88&v=4",
-      "html_url": "https://github.com/opgginc",
-      "followers": 46,
-      "following": 0,
-      "public_repos": 10,
-      "location": "Seoul, South Korea",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-06-23T13:08:24Z",
-      "total_stars": 786
     },
     {
       "login": "DevSecOpsSamples",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2019-03-03T05:03:37Z",
       "total_stars": 267
+    },
+    {
+      "login": "devrel-kr",
+      "name": "한국 DevRel 커뮤니티",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64395843?s=88&v=4",
+      "html_url": "https://github.com/devrel-kr",
+      "followers": 29,
+      "following": 0,
+      "public_repos": 22,
+      "location": "Seoul, Korea",
+      "bio": null,
+      "company": null,
+      "created_at": "2020-04-27T05:29:57Z",
+      "total_stars": 142
     }
   ],
   "repos": [

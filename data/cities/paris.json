@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-08-24T05:57:04.998Z",
+  "generated_at": "2026-08-25T05:49:28.448Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1953,20 +1953,6 @@
       "total_stars": 2249
     },
     {
-      "login": "pydio",
-      "name": "Pydio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6155357?s=88&v=4",
-      "html_url": "https://github.com/pydio",
-      "followers": 168,
-      "following": 0,
-      "public_repos": 47,
-      "location": "Paris",
-      "bio": "Open source file sharing platform. Contributors welcome, pydio/cells is the main server project.",
-      "company": null,
-      "created_at": "2013-12-10T20:35:42Z",
-      "total_stars": 3477
-    },
-    {
       "login": "lightonai",
       "name": "LightOn",
       "avatar_url": "https://avatars.githubusercontent.com/u/32305486?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2017-09-26T15:50:53Z",
       "total_stars": 2475
+    },
+    {
+      "login": "pydio",
+      "name": "Pydio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6155357?s=88&v=4",
+      "html_url": "https://github.com/pydio",
+      "followers": 168,
+      "following": 0,
+      "public_repos": 47,
+      "location": "Paris",
+      "bio": "Open source file sharing platform. Contributors welcome, pydio/cells is the main server project.",
+      "company": null,
+      "created_at": "2013-12-10T20:35:42Z",
+      "total_stars": 3477
     },
     {
       "login": "dreamRs",
@@ -2303,20 +2303,6 @@
       "total_stars": 850
     },
     {
-      "login": "DataScientest-Studio",
-      "name": "Studio @DataScientest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65349986?s=88&v=4",
-      "html_url": "https://github.com/DataScientest-Studio",
-      "followers": 106,
-      "following": 0,
-      "public_repos": 203,
-      "location": "Paris ",
-      "bio": null,
-      "company": null,
-      "created_at": "2020-05-14T13:21:53Z",
-      "total_stars": 81
-    },
-    {
       "login": "pyronear",
       "name": "PyroNear",
       "avatar_url": "https://avatars.githubusercontent.com/u/61667887?s=88&v=4",
@@ -2329,6 +2315,20 @@
       "company": null,
       "created_at": "2020-03-01T22:01:04Z",
       "total_stars": 192
+    },
+    {
+      "login": "DataScientest-Studio",
+      "name": "Studio @DataScientest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65349986?s=88&v=4",
+      "html_url": "https://github.com/DataScientest-Studio",
+      "followers": 106,
+      "following": 0,
+      "public_repos": 203,
+      "location": "Paris ",
+      "bio": null,
+      "company": null,
+      "created_at": "2020-05-14T13:21:53Z",
+      "total_stars": 81
     },
     {
       "login": "enix",
@@ -2415,20 +2415,6 @@
       "total_stars": 1563
     },
     {
-      "login": "cgwire",
-      "name": "CGWire",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26680615?s=88&v=4",
-      "html_url": "https://github.com/cgwire",
-      "followers": 97,
-      "following": 0,
-      "public_repos": 33,
-      "location": "France, Paris",
-      "bio": "We connect creative minds through software and events",
-      "company": null,
-      "created_at": "2017-03-25T23:36:54Z",
-      "total_stars": 2621
-    },
-    {
       "login": "PayFit",
       "name": "PayFit",
       "avatar_url": "https://avatars.githubusercontent.com/u/12036534?s=88&v=4",
@@ -2441,6 +2427,20 @@
       "company": null,
       "created_at": "2015-04-20T16:09:16Z",
       "total_stars": 0
+    },
+    {
+      "login": "cgwire",
+      "name": "CGWire",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26680615?s=88&v=4",
+      "html_url": "https://github.com/cgwire",
+      "followers": 97,
+      "following": 0,
+      "public_repos": 33,
+      "location": "France, Paris",
+      "bio": "We connect creative minds through software and events",
+      "company": null,
+      "created_at": "2017-03-25T23:36:54Z",
+      "total_stars": 2621
     },
     {
       "login": "aphp",
@@ -2993,6 +2993,25 @@
       "fork": false
     },
     {
+      "full_name": "guillaumemeyer/watermarks-remover",
+      "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/M",
+      "stargazers_count": 17997,
+      "forks_count": 2075,
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "ai",
+        "c2pa",
+        "claude",
+        "provenance"
+      ],
+      "owner_login": "guillaumemeyer",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1385518?s=88&u=81fd00e9a721dd41c42f87c04c6ed6c3a79b335e&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "huggingface/transformers.js",
       "html_url": "https://github.com/huggingface/transformers.js",
       "description": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
@@ -3398,25 +3417,6 @@
       "owner_login": "teh-cmc",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2910679?s=88&u=21549b9a01e9e644a422f9c2dc62cd3b37a83eaf&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Genymobile/gnirehtet",
-      "html_url": "https://github.com/Genymobile/gnirehtet",
-      "description": "Gnirehtet provides reverse tethering for Android",
-      "stargazers_count": 7851,
-      "forks_count": 727,
-      "language": "Java",
-      "topics": [
-        "android",
-        "reverse-tethering",
-        "vpn",
-        "java-8",
-        "rust"
-      ],
-      "owner_login": "Genymobile",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3427627?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]
