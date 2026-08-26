@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Australia",
   "slug": "australia",
-  "generated_at": "2026-08-25T05:50:56.615Z",
+  "generated_at": "2026-08-26T05:53:02.978Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 262416,
+    "user_followers": 262545,
     "org_followers": 38657,
-    "user_stars": 938810,
+    "user_stars": 938726,
     "org_stars": 453027
   },
   "queries": [
@@ -345,14 +345,14 @@
       "name": "Jarvi3.com",
       "avatar_url": "https://avatars.githubusercontent.com/u/277543146?s=88&u=012854014b999c4666396b42d7cd116cb80a758d&v=4",
       "html_url": "https://github.com/kyal102",
-      "followers": 2872,
-      "following": 9525,
-      "public_repos": 30,
+      "followers": 3001,
+      "following": 10736,
+      "public_repos": 32,
       "location": "Brisbane, Australia",
       "bio": "Founder of EcoKure PtyLtd Building JARVI3 / DTL verification systems: AI proposes, gates verify, evidence records, replay checks drift. MedGate + Packages Labs.",
       "company": "@EcoKure PtyLtd",
       "created_at": "2026-04-19T19:42:04Z",
-      "total_stars": 676
+      "total_stars": 592
     },
     {
       "login": "ghuntley",
@@ -2065,6 +2065,20 @@
       "total_stars": 1654
     },
     {
+      "login": "UAdelaide",
+      "name": "The University of Adelaide",
+      "avatar_url": "https://avatars.githubusercontent.com/u/122952256?s=88&v=4",
+      "html_url": "https://github.com/UAdelaide",
+      "followers": 238,
+      "following": 0,
+      "public_repos": 20,
+      "location": "Australia",
+      "bio": "University of Adelaide student & coursework repositories",
+      "company": null,
+      "created_at": "2023-01-18T02:59:51Z",
+      "total_stars": 9
+    },
+    {
       "login": "99designs",
       "name": "99designs",
       "avatar_url": "https://avatars.githubusercontent.com/u/17182?s=88&v=4",
@@ -2091,20 +2105,6 @@
       "company": null,
       "created_at": "2019-12-23T19:46:36Z",
       "total_stars": 4197
-    },
-    {
-      "login": "UAdelaide",
-      "name": "The University of Adelaide",
-      "avatar_url": "https://avatars.githubusercontent.com/u/122952256?s=88&v=4",
-      "html_url": "https://github.com/UAdelaide",
-      "followers": 238,
-      "following": 0,
-      "public_repos": 20,
-      "location": "Australia",
-      "bio": "University of Adelaide student & coursework repositories",
-      "company": null,
-      "created_at": "2023-01-18T02:59:51Z",
-      "total_stars": 9
     },
     {
       "login": "csiro-internal",

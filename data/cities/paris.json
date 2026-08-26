@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-08-25T05:49:28.448Z",
+  "generated_at": "2026-08-26T05:51:33.210Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 198414,
+    "user_followers": 198725,
     "org_followers": 99052,
-    "user_stars": 855864,
+    "user_stars": 853927,
     "org_stars": 1117601
   },
   "queries": [
@@ -845,6 +845,20 @@
       "total_stars": 9020
     },
     {
+      "login": "patil-suraj",
+      "name": "Suraj Patil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27137566?s=88&u=b1057c8f8fb5e36c7588d7c000e9e0e1f28b1019&v=4",
+      "html_url": "https://github.com/patil-suraj",
+      "followers": 1023,
+      "following": 3,
+      "public_repos": 23,
+      "location": "Paris",
+      "bio": "Researcher @black-forest-labs ",
+      "company": "@black-forest-labs",
+      "created_at": "2017-04-09T10:51:03Z",
+      "total_stars": 1833
+    },
+    {
       "login": "mratsim",
       "name": "Mamy Ratsimbazafy",
       "avatar_url": "https://avatars.githubusercontent.com/u/22738317?s=88&u=2a86b7777fb12d4153cc9a805595445e81f7b537&v=4",
@@ -1417,20 +1431,6 @@
       "company": "@meilisearch",
       "created_at": "2013-02-16T10:55:57Z",
       "total_stars": 278
-    },
-    {
-      "login": "Conchylicultor",
-      "name": "Conchylicultor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9047355?s=88&u=249ea9ca6ea000ba065b161d1df4e064e2723382&v=4",
-      "html_url": "https://github.com/Conchylicultor",
-      "followers": 712,
-      "following": 16,
-      "public_repos": 43,
-      "location": "Paris",
-      "bio": "Senior Research Engineer",
-      "company": "ex-Google Deepmind",
-      "created_at": "2014-10-07T06:51:59Z",
-      "total_stars": 3770
     }
   ],
   "orgs": [

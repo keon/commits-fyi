@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-08-25T05:48:36.893Z",
+  "generated_at": "2026-08-26T05:50:44.021Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 350423,
+    "user_followers": 350419,
     "org_followers": 250969,
-    "user_stars": 936234,
+    "user_stars": 936150,
     "org_stars": 2708688
   },
   "queries": [
@@ -1325,14 +1325,14 @@
       "name": "Camilla",
       "avatar_url": "https://avatars.githubusercontent.com/u/44303389?s=88&u=51db86070047af14b9619a8c0c68576cc7fbc6a9&v=4",
       "html_url": "https://github.com/laloloco89",
-      "followers": 1238,
-      "following": 1127,
+      "followers": 1234,
+      "following": 1112,
       "public_repos": 65,
       "location": "Seattle, United States",
       "bio": "Seattle-based dev | passionate about open-source & coding for good | contributor to several GitHub repos",
       "company": "Pacifictech",
       "created_at": "2018-10-19T19:11:27Z",
-      "total_stars": 508
+      "total_stars": 424
     },
     {
       "login": "borismus",
@@ -2317,6 +2317,20 @@
       "total_stars": 1095
     },
     {
+      "login": "Sage-Bionetworks",
+      "name": "Sage Bionetworks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1250897?s=88&v=4",
+      "html_url": "https://github.com/Sage-Bionetworks",
+      "followers": 135,
+      "following": 0,
+      "public_repos": 311,
+      "location": "Seattle, Washington",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-12-08T22:12:52Z",
+      "total_stars": 495
+    },
+    {
       "login": "Parallels",
       "name": "Parallels, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/6209674?s=88&v=4",
@@ -2343,20 +2357,6 @@
       "company": null,
       "created_at": "2018-07-13T22:17:51Z",
       "total_stars": 717
-    },
-    {
-      "login": "Sage-Bionetworks",
-      "name": "Sage Bionetworks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1250897?s=88&v=4",
-      "html_url": "https://github.com/Sage-Bionetworks",
-      "followers": 135,
-      "following": 0,
-      "public_repos": 311,
-      "location": "Seattle, Washington",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-12-08T22:12:52Z",
-      "total_stars": 495
     },
     {
       "login": "Tracktion",

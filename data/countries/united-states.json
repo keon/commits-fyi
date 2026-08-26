@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-08-25T05:49:38.766Z",
+  "generated_at": "2026-08-26T05:51:48.119Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1358973,
-    "org_followers": 987103,
-    "user_stars": 3402374,
-    "org_stars": 10312887
+    "user_followers": 1359083,
+    "org_followers": 987116,
+    "user_stars": 3402375,
+    "org_stars": 10313244
   },
   "queries": [
     {
@@ -999,6 +999,20 @@
       "total_stars": 555
     },
     {
+      "login": "pwnedroot",
+      "name": "pwnedroot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
+      "html_url": "https://github.com/pwnedroot",
+      "followers": 6959,
+      "following": 176555,
+      "public_repos": 7,
+      "location": "United States",
+      "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
+      "company": null,
+      "created_at": "2024-07-21T01:37:50Z",
+      "total_stars": 154
+    },
+    {
       "login": "ankane",
       "name": "Andrew Kane",
       "avatar_url": "https://avatars.githubusercontent.com/u/220358?s=88&u=ba13f3240d7992dc4124a33a4fc65bf4924e5375&v=4",
@@ -1039,20 +1053,6 @@
       "company": "@openai",
       "created_at": "2012-01-06T11:14:16Z",
       "total_stars": 848
-    },
-    {
-      "login": "pwnedroot",
-      "name": "pwnedroot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
-      "html_url": "https://github.com/pwnedroot",
-      "followers": 6849,
-      "following": 176566,
-      "public_repos": 7,
-      "location": "United States",
-      "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
-      "company": null,
-      "created_at": "2024-07-21T01:37:50Z",
-      "total_stars": 153
     },
     {
       "login": "TooTallNate",
@@ -2489,14 +2489,14 @@
       "name": "Unsloth AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
       "html_url": "https://github.com/unslothai",
-      "followers": 3548,
+      "followers": 3561,
       "following": 0,
       "public_repos": 4,
       "location": "United States of America",
       "bio": "Run and train AI models locally. 🦥",
       "company": null,
       "created_at": "2023-11-15T12:23:54Z",
-      "total_stars": 82864
+      "total_stars": 83221
     },
     {
       "login": "salesforce",
@@ -3050,8 +3050,8 @@
       "full_name": "unslothai/unsloth",
       "html_url": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "stargazers_count": 74428,
-      "forks_count": 6735,
+      "stargazers_count": 74775,
+      "forks_count": 6767,
       "language": "Python",
       "topics": [
         "fine-tuning",
