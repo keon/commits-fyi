@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-08-28T17:28:29.787Z",
+  "generated_at": "2026-08-29T11:41:18.029Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 584628,
-    "org_followers": 158371,
+    "org_followers": 158379,
     "user_stars": 1743688,
-    "org_stars": 1554570
+    "org_stars": 1555034
   },
   "queries": [
     {
@@ -2419,14 +2419,14 @@
       "name": "Cactus Compute, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
       "html_url": "https://github.com/cactus-compute",
-      "followers": 510,
+      "followers": 518,
       "following": 0,
       "public_repos": 16,
       "location": "United Kingdom",
       "bio": "Tiny AI For TIny Devices",
       "company": null,
       "created_at": "2025-01-27T11:58:35Z",
-      "total_stars": 15807
+      "total_stars": 16270
     },
     {
       "login": "AVEVA-Copilot-Access",
@@ -2443,20 +2443,6 @@
       "total_stars": 0
     },
     {
-      "login": "triggerdotdev",
-      "name": "Trigger.dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/95297378?s=88&v=4",
-      "html_url": "https://github.com/triggerdotdev",
-      "followers": 505,
-      "following": 0,
-      "public_repos": 74,
-      "location": "United Kingdom",
-      "bio": null,
-      "company": null,
-      "created_at": "2021-11-30T14:40:36Z",
-      "total_stars": 27691
-    },
-    {
       "login": "VectifyAI",
       "name": "Vectify AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/133959746?s=88&v=4",
@@ -2469,6 +2455,20 @@
       "company": null,
       "created_at": "2023-05-18T09:05:58Z",
       "total_stars": 39915
+    },
+    {
+      "login": "triggerdotdev",
+      "name": "Trigger.dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95297378?s=88&v=4",
+      "html_url": "https://github.com/triggerdotdev",
+      "followers": 505,
+      "following": 0,
+      "public_repos": 74,
+      "location": "United Kingdom",
+      "bio": null,
+      "company": null,
+      "created_at": "2021-11-30T14:40:36Z",
+      "total_stars": 27691
     },
     {
       "login": "HMUniversity",
@@ -2533,12 +2533,12 @@
       "html_url": "https://github.com/hmcts",
       "followers": 459,
       "following": 0,
-      "public_repos": 1774,
+      "public_repos": 1778,
       "location": "United Kingdom",
       "bio": null,
       "company": null,
       "created_at": "2016-10-13T13:28:09Z",
-      "total_stars": 593
+      "total_stars": 594
     },
     {
       "login": "nhsengland",
@@ -3164,8 +3164,8 @@
       "full_name": "owainlewis/awesome-artificial-intelligence",
       "html_url": "https://github.com/owainlewis/awesome-artificial-intelligence",
       "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
-      "stargazers_count": 16182,
-      "forks_count": 2523,
+      "stargazers_count": 16244,
+      "forks_count": 2539,
       "language": "Python",
       "topics": [
         "machine-learning",

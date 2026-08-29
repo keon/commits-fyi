@@ -2,14 +2,14 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-08-28T17:27:26.518Z",
+  "generated_at": "2026-08-29T11:40:11.174Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 350833,
+    "user_followers": 350839,
     "org_followers": 251570,
     "user_stars": 937419,
     "org_stars": 2712957
@@ -1325,8 +1325,8 @@
       "name": "Camilla",
       "avatar_url": "https://avatars.githubusercontent.com/u/44303389?s=88&u=51db86070047af14b9619a8c0c68576cc7fbc6a9&v=4",
       "html_url": "https://github.com/laloloco89",
-      "followers": 1234,
-      "following": 1112,
+      "followers": 1240,
+      "following": 1116,
       "public_repos": 65,
       "location": "Seattle, United States",
       "bio": "Seattle-based dev | passionate about open-source & coding for good | contributor to several GitHub repos",
@@ -2093,20 +2093,6 @@
       "total_stars": 2680
     },
     {
-      "login": "ExpediaGroup",
-      "name": "Expedia Group Open Source",
-      "avatar_url": "https://avatars.githubusercontent.com/u/38541875?s=88&v=4",
-      "html_url": "https://github.com/ExpediaGroup",
-      "followers": 204,
-      "following": 0,
-      "public_repos": 135,
-      "location": "Seattle, WA",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-04-19T20:41:09Z",
-      "total_stars": 5985
-    },
-    {
       "login": "octoml",
       "name": "OctoAI",
       "avatar_url": "https://avatars.githubusercontent.com/u/53242847?s=88&v=4",
@@ -2119,6 +2105,20 @@
       "company": null,
       "created_at": "2019-07-24T01:11:33Z",
       "total_stars": 570
+    },
+    {
+      "login": "ExpediaGroup",
+      "name": "Expedia Group Open Source",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38541875?s=88&v=4",
+      "html_url": "https://github.com/ExpediaGroup",
+      "followers": 204,
+      "following": 0,
+      "public_repos": 135,
+      "location": "Seattle, WA",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-04-19T20:41:09Z",
+      "total_stars": 5985
     },
     {
       "login": "Ada-Developers-Academy",
