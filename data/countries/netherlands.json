@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-08-29T11:42:04.744Z",
+  "generated_at": "2026-08-30T10:31:25.945Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 234913,
     "org_followers": 51880,
     "user_stars": 971854,
-    "org_stars": 577694
+    "org_stars": 560020
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 1310
     },
     {
-      "login": "dutchcoders",
-      "name": "Dutchcoders",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5444419?s=88&v=4",
-      "html_url": "https://github.com/dutchcoders",
+      "login": "Polytoria",
+      "name": "Polytoria",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68792497?s=88&v=4",
+      "html_url": "https://github.com/Polytoria",
       "followers": 160,
       "following": 0,
-      "public_repos": 127,
+      "public_repos": 8,
       "location": "Netherlands",
-      "bio": "Coding for fun. http://twitter.com/dutchcoders/",
+      "bio": "The official Polytoria GitHub organization.",
       "company": null,
-      "created_at": "2013-09-12T13:28:18Z",
-      "total_stars": 18029
+      "created_at": "2020-07-25T21:05:47Z",
+      "total_stars": 355
     }
   ],
   "repos": [
@@ -2909,25 +2909,6 @@
       ],
       "owner_login": "CISOfy",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8558546?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "dutchcoders/transfer.sh",
-      "html_url": "https://github.com/dutchcoders/transfer.sh",
-      "description": "Easy and fast file sharing from the command-line.",
-      "stargazers_count": 15884,
-      "forks_count": 1579,
-      "language": "Go",
-      "topics": [
-        "golang",
-        "transfer",
-        "docker",
-        "share",
-        "transfersh"
-      ],
-      "owner_login": "dutchcoders",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5444419?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3431,6 +3412,25 @@
       ],
       "owner_login": "hacdias",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5447088?s=88&u=433e906852c6953d9de3e6b0a69b00c1dbf5d390&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "lauragift21/awesome-learning-resources",
+      "html_url": "https://github.com/lauragift21/awesome-learning-resources",
+      "description": "🔥 Awesome list of resources on Web Development.",
+      "stargazers_count": 5765,
+      "forks_count": 839,
+      "language": null,
+      "topics": [
+        "open-source",
+        "css",
+        "vue",
+        "javascript",
+        "awesome-list"
+      ],
+      "owner_login": "lauragift21",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17781315?s=88&u=135a419d7a02c75230ccd5d18f12c01d79031f3c&v=4",
       "owner_type": "User",
       "fork": false
     }
