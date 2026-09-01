@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-08-31T11:46:27.434Z",
+  "generated_at": "2026-09-01T10:10:55.430Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 372455,
-    "org_followers": 67826,
+    "org_followers": 67846,
     "user_stars": 1052439,
-    "org_stars": 1078474
+    "org_stars": 1078749
   },
   "queries": [
     {
@@ -2107,6 +2107,20 @@
       "total_stars": 10150
     },
     {
+      "login": "TecharoHQ",
+      "name": "Techaro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195942235?s=88&v=4",
+      "html_url": "https://github.com/TecharoHQ",
+      "followers": 450,
+      "following": 0,
+      "public_repos": 13,
+      "location": "Canada",
+      "bio": "The anti-AI AI company based in Canada",
+      "company": null,
+      "created_at": "2025-01-21T16:58:33Z",
+      "total_stars": 22224
+    },
+    {
       "login": "ethers-io",
       "name": "ethers-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/18492273?s=88&v=4",
@@ -2119,20 +2133,6 @@
       "company": null,
       "created_at": "2016-04-15T23:22:08Z",
       "total_stars": 9464
-    },
-    {
-      "login": "TecharoHQ",
-      "name": "Techaro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195942235?s=88&v=4",
-      "html_url": "https://github.com/TecharoHQ",
-      "followers": 443,
-      "following": 0,
-      "public_repos": 12,
-      "location": "Canada",
-      "bio": "The anti-AI AI company based in Canada",
-      "company": null,
-      "created_at": "2025-01-21T16:58:33Z",
-      "total_stars": 22016
     },
     {
       "login": "DeepGraphLearning",
@@ -2167,14 +2167,14 @@
       "name": "WiiLink",
       "avatar_url": "https://avatars.githubusercontent.com/u/72463677?s=88&v=4",
       "html_url": "https://github.com/WiiLink24",
-      "followers": 411,
+      "followers": 413,
       "following": 0,
       "public_repos": 87,
       "location": "Canada",
       "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
       "company": null,
       "created_at": "2020-10-06T17:15:01Z",
-      "total_stars": 732
+      "total_stars": 733
     },
     {
       "login": "scalar",
@@ -2183,12 +2183,12 @@
       "html_url": "https://github.com/scalar",
       "followers": 411,
       "following": 0,
-      "public_repos": 26,
+      "public_repos": 30,
       "location": "Canada",
       "bio": "Document, Discover & Test APIs with Scalar",
       "company": null,
       "created_at": "2010-06-10T13:56:51Z",
-      "total_stars": 16205
+      "total_stars": 16222
     },
     {
       "login": "pycaret",
@@ -2209,14 +2209,14 @@
       "name": "Wild Kernels",
       "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
       "html_url": "https://github.com/WildKernels",
-      "followers": 397,
+      "followers": 400,
       "following": 0,
       "public_repos": 15,
       "location": "Canada",
       "bio": "Custom kernels for android and more!",
       "company": null,
       "created_at": "2025-01-31T01:32:51Z",
-      "total_stars": 3044
+      "total_stars": 3062
     },
     {
       "login": "AutodeskAILab",
@@ -2314,7 +2314,7 @@
       "bio": "We offer fully offline, on-premise SDKs for ID Verification, Biometrics and other AI Fields.",
       "company": null,
       "created_at": "2021-10-04T14:19:40Z",
-      "total_stars": 2167
+      "total_stars": 2168
     },
     {
       "login": "Globe-Engineer",
@@ -2331,46 +2331,46 @@
       "total_stars": 198
     },
     {
-      "login": "requarks",
-      "name": "requarks.io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
-      "html_url": "https://github.com/requarks",
-      "followers": 346,
-      "following": 0,
-      "public_repos": 24,
-      "location": "Canada",
-      "bio": "Open source applications for teams",
-      "company": null,
-      "created_at": "2016-01-16T04:21:39Z",
-      "total_stars": 29400
-    },
-    {
-      "login": "SamsungSAILMontreal",
-      "name": "Samsung AI Lab (SAIL) Montreal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127172610?s=88&v=4",
-      "html_url": "https://github.com/SamsungSAILMontreal",
-      "followers": 344,
-      "following": 0,
-      "public_repos": 23,
-      "location": "Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2023-03-07T04:02:26Z",
-      "total_stars": 6982
-    },
-    {
       "login": "MobilityData",
       "name": "MobilityData IO",
       "avatar_url": "https://avatars.githubusercontent.com/u/41021710?s=88&v=4",
       "html_url": "https://github.com/MobilityData",
-      "followers": 344,
+      "followers": 346,
       "following": 0,
       "public_repos": 42,
       "location": "Canada",
       "bio": "Better transportation through data",
       "company": null,
       "created_at": "2018-07-09T17:48:49Z",
-      "total_stars": 4402
+      "total_stars": 4404
+    },
+    {
+      "login": "requarks",
+      "name": "requarks.io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
+      "html_url": "https://github.com/requarks",
+      "followers": 346,
+      "following": 0,
+      "public_repos": 25,
+      "location": "Canada",
+      "bio": "Open source applications for teams",
+      "company": null,
+      "created_at": "2016-01-16T04:21:39Z",
+      "total_stars": 29412
+    },
+    {
+      "login": "SamsungSAILMontreal",
+      "name": "Samsung AI Lab (SAIL) Montreal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127172610?s=88&v=4",
+      "html_url": "https://github.com/SamsungSAILMontreal",
+      "followers": 345,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-03-07T04:02:26Z",
+      "total_stars": 6983
     },
     {
       "login": "JOMACS-IT",
@@ -2405,14 +2405,14 @@
       "name": "Meteor",
       "avatar_url": "https://avatars.githubusercontent.com/u/789528?s=88&v=4",
       "html_url": "https://github.com/meteor",
-      "followers": 333,
+      "followers": 334,
       "following": 0,
       "public_repos": 142,
       "location": "Canada",
       "bio": null,
       "company": null,
       "created_at": "2011-05-15T18:34:06Z",
-      "total_stars": 51129
+      "total_stars": 51128
     },
     {
       "login": "unsplash",
@@ -2426,7 +2426,7 @@
       "bio": "Building the internet's open library of freely usable visuals. Join us 👫",
       "company": null,
       "created_at": "2014-11-25T19:21:41Z",
-      "total_stars": 9925
+      "total_stars": 9933
     },
     {
       "login": "vltpkg",
@@ -2440,7 +2440,7 @@
       "bio": "We are building the future of JavaScript packages.",
       "company": null,
       "created_at": "2023-01-04T23:51:37Z",
-      "total_stars": 908
+      "total_stars": 912
     },
     {
       "login": "Devolutions",
@@ -2461,7 +2461,7 @@
       "name": "TablePlus",
       "avatar_url": "https://avatars.githubusercontent.com/u/29408238?s=88&v=4",
       "html_url": "https://github.com/TablePlus",
-      "followers": 328,
+      "followers": 327,
       "following": 0,
       "public_repos": 18,
       "location": "Canada",
@@ -2491,12 +2491,12 @@
       "html_url": "https://github.com/McGill-NLP",
       "followers": 322,
       "following": 0,
-      "public_repos": 70,
+      "public_repos": 72,
       "location": "Canada",
       "bio": "Research group within McGill University and Mila focusing on various topics in natural language processing. ",
       "company": null,
       "created_at": "2020-10-20T02:01:21Z",
-      "total_stars": 5752
+      "total_stars": 5756
     },
     {
       "login": "collabora",
@@ -2527,6 +2527,20 @@
       "total_stars": 507
     },
     {
+      "login": "UBC-MDS",
+      "name": "Master of Data Science at the University of British Columbia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15257466?s=88&v=4",
+      "html_url": "https://github.com/UBC-MDS",
+      "followers": 316,
+      "following": 0,
+      "public_repos": 68,
+      "location": "Vancouver, BC, Canada",
+      "bio": "10-month, full-time, course-based Master’s program, first cohort starts September 2016",
+      "company": null,
+      "created_at": "2015-10-23T02:02:32Z",
+      "total_stars": 371
+    },
+    {
       "login": "HackerYou",
       "name": "Juno College of Technology (formerly HackerYou)",
       "avatar_url": "https://avatars.githubusercontent.com/u/2479724?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2012-10-03T14:38:34Z",
       "total_stars": 301
-    },
-    {
-      "login": "UBC-MDS",
-      "name": "Master of Data Science at the University of British Columbia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15257466?s=88&v=4",
-      "html_url": "https://github.com/UBC-MDS",
-      "followers": 311,
-      "following": 0,
-      "public_repos": 68,
-      "location": "Vancouver, BC, Canada",
-      "bio": "10-month, full-time, course-based Master’s program, first cohort starts September 2016",
-      "company": null,
-      "created_at": "2015-10-23T02:02:32Z",
-      "total_stars": 371
     }
   ],
   "repos": [
@@ -2624,7 +2624,7 @@
       "full_name": "meteor/meteor",
       "html_url": "https://github.com/meteor/meteor",
       "description": "Meteor, the JavaScript App Platform",
-      "stargazers_count": 44813,
+      "stargazers_count": 44810,
       "forks_count": 5239,
       "language": "JavaScript",
       "topics": [
@@ -2730,8 +2730,8 @@
       "full_name": "requarks/wiki",
       "html_url": "https://github.com/requarks/wiki",
       "description": "Wiki.js | A modern and powerful wiki app built on Node.js",
-      "stargazers_count": 28813,
-      "forks_count": 3297,
+      "stargazers_count": 28825,
+      "forks_count": 3303,
       "language": "Vue",
       "topics": [
         "wiki",
@@ -2880,8 +2880,8 @@
       "full_name": "TecharoHQ/anubis",
       "html_url": "https://github.com/TecharoHQ/anubis",
       "description": "Weighs the soul of incoming HTTP requests to stop AI crawlers",
-      "stargazers_count": 21804,
-      "forks_count": 696,
+      "stargazers_count": 22008,
+      "forks_count": 699,
       "language": "Go",
       "topics": [
         "defense",
@@ -3095,8 +3095,8 @@
       "full_name": "scalar/scalar",
       "html_url": "https://github.com/scalar/scalar",
       "description": "Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
-      "stargazers_count": 16007,
-      "forks_count": 923,
+      "stargazers_count": 16025,
+      "forks_count": 926,
       "language": "TypeScript",
       "topics": [
         "api",

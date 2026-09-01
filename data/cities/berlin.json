@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-08-31T11:40:12.856Z",
+  "generated_at": "2026-09-01T10:08:56.266Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -957,20 +957,6 @@
       "total_stars": 186
     },
     {
-      "login": "maciejwalkowiak",
-      "name": "Maciej Walkowiak",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1357927?s=88&u=c18ed6cc6e5083d098c0339956f53ef0887d18a0&v=4",
-      "html_url": "https://github.com/maciejwalkowiak",
-      "followers": 1456,
-      "following": 60,
-      "public_repos": 75,
-      "location": "Berlin, Germany",
-      "bio": "Freelance Architect & Developer\r\n🍃Spring projects Contributor\r\nJava ∙ Spring ∙ AWS ∙",
-      "company": null,
-      "created_at": "2012-01-20T12:33:25Z",
-      "total_stars": 1689
-    },
-    {
       "login": "jamwithai",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/186450365?s=88&u=b997a5ab5180a919c0e8f2f544434d95a61117a5&v=4",
@@ -983,6 +969,20 @@
       "company": null,
       "created_at": "2024-10-27T05:47:42Z",
       "total_stars": 9522
+    },
+    {
+      "login": "maciejwalkowiak",
+      "name": "Maciej Walkowiak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1357927?s=88&u=c18ed6cc6e5083d098c0339956f53ef0887d18a0&v=4",
+      "html_url": "https://github.com/maciejwalkowiak",
+      "followers": 1456,
+      "following": 60,
+      "public_repos": 75,
+      "location": "Berlin, Germany",
+      "bio": "Freelance Architect & Developer\r\n🍃Spring projects Contributor\r\nJava ∙ Spring ∙ AWS ∙",
+      "company": null,
+      "created_at": "2012-01-20T12:33:25Z",
+      "total_stars": 1689
     },
     {
       "login": "Byron",
@@ -1981,20 +1981,6 @@
       "total_stars": 1234
     },
     {
-      "login": "gis-ops",
-      "name": "GIS • OPS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45774496?s=88&v=4",
-      "html_url": "https://github.com/gis-ops",
-      "followers": 187,
-      "following": 0,
-      "public_repos": 17,
-      "location": "Berlin",
-      "bio": "At GIS • OPS, we're passionate about open-source geospatial software development focusing on routing, web-maps & PostgreSQL",
-      "company": null,
-      "created_at": "2018-12-10T22:55:53Z",
-      "total_stars": 324
-    },
-    {
       "login": "volkamerlab",
       "name": "Volkamer Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/44878588?s=88&v=4",
@@ -2007,6 +1993,20 @@
       "company": null,
       "created_at": "2018-11-08T19:04:36Z",
       "total_stars": 1579
+    },
+    {
+      "login": "gis-ops",
+      "name": "GIS • OPS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45774496?s=88&v=4",
+      "html_url": "https://github.com/gis-ops",
+      "followers": 187,
+      "following": 0,
+      "public_repos": 17,
+      "location": "Berlin",
+      "bio": "At GIS • OPS, we're passionate about open-source geospatial software development focusing on routing, web-maps & PostgreSQL",
+      "company": null,
+      "created_at": "2018-12-10T22:55:53Z",
+      "total_stars": 324
     },
     {
       "login": "think-cell",
@@ -2261,20 +2261,6 @@
       "total_stars": 2130
     },
     {
-      "login": "flix-tech",
-      "name": "Flix.TECH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1230203?s=88&v=4",
-      "html_url": "https://github.com/flix-tech",
-      "followers": 125,
-      "following": 0,
-      "public_repos": 50,
-      "location": "Berlin, Munich, Kharkiv",
-      "bio": "We are the IT department of Flix. We ❤ technology, open source and building things. We are hiring!",
-      "company": null,
-      "created_at": "2011-11-30T08:22:56Z",
-      "total_stars": 425
-    },
-    {
       "login": "onrunning",
       "name": "On",
       "avatar_url": "https://avatars.githubusercontent.com/u/23661241?s=88&v=4",
@@ -2287,6 +2273,20 @@
       "company": null,
       "created_at": "2016-11-22T16:03:57Z",
       "total_stars": 5
+    },
+    {
+      "login": "flix-tech",
+      "name": "Flix.TECH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1230203?s=88&v=4",
+      "html_url": "https://github.com/flix-tech",
+      "followers": 125,
+      "following": 0,
+      "public_repos": 50,
+      "location": "Berlin, Munich, Kharkiv",
+      "bio": "We are the IT department of Flix. We ❤ technology, open source and building things. We are hiring!",
+      "company": null,
+      "created_at": "2011-11-30T08:22:56Z",
+      "total_stars": 425
     },
     {
       "login": "spring-media",
@@ -2747,8 +2747,8 @@
       "full_name": "OthmanAdi/planning-with-files",
       "html_url": "https://github.com/OthmanAdi/planning-with-files",
       "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and co",
-      "stargazers_count": 26404,
-      "forks_count": 2208,
+      "stargazers_count": 26536,
+      "forks_count": 2214,
       "language": "Shell",
       "topics": [
         "claude",
