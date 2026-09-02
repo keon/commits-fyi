@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-09-01T10:08:53.963Z",
+  "generated_at": "2026-09-02T09:39:25.416Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 428301,
     "org_followers": 73054,
-    "user_stars": 1204297,
+    "user_stars": 1206148,
     "org_stars": 708757
   },
   "queries": [
@@ -1419,18 +1419,18 @@
       "total_stars": 322
     },
     {
-      "login": "mikedewar",
-      "name": "Mike Dewar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149211?s=88&u=67a089e36e73c04fdceb4699cc1703849620fab1&v=4",
-      "html_url": "https://github.com/mikedewar",
+      "login": "albinotonnina",
+      "name": "Albino Tonnina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37283?s=88&u=fef9b5ad2aae3a48920c990a99a014a5aeb1d716&v=4",
+      "html_url": "https://github.com/albinotonnina",
       "followers": 1420,
-      "following": 16,
-      "public_repos": 63,
+      "following": 1,
+      "public_repos": 67,
       "location": "London",
-      "bio": "Vice President of Data Science at MasterCard\r\n",
-      "company": "Mastercard",
-      "created_at": "2009-11-05T10:14:53Z",
-      "total_stars": 1785
+      "bio": "\r\n",
+      "company": "@asos ",
+      "created_at": "2008-11-29T21:47:06Z",
+      "total_stars": 3636
     }
   ],
   "orgs": [
@@ -2331,20 +2331,6 @@
       "total_stars": 107
     },
     {
-      "login": "justeat",
-      "name": "Just Eat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1516790?s=88&v=4",
-      "html_url": "https://github.com/justeat",
-      "followers": 174,
-      "following": 0,
-      "public_repos": 64,
-      "location": "London, UK",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-03-08T16:02:31Z",
-      "total_stars": 2447
-    },
-    {
       "login": "PaddleHQ",
       "name": "Paddle",
       "avatar_url": "https://avatars.githubusercontent.com/u/6573820?s=88&v=4",
@@ -2357,6 +2343,20 @@
       "company": null,
       "created_at": "2014-02-03T10:53:53Z",
       "total_stars": 999
+    },
+    {
+      "login": "justeat",
+      "name": "Just Eat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1516790?s=88&v=4",
+      "html_url": "https://github.com/justeat",
+      "followers": 174,
+      "following": 0,
+      "public_repos": 64,
+      "location": "London, UK",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-03-08T16:02:31Z",
+      "total_stars": 2447
     },
     {
       "login": "reuters-graphics",

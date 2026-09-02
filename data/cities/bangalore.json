@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-09-01T10:09:50.749Z",
+  "generated_at": "2026-09-02T09:40:22.681Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 191258,
+    "user_followers": 191285,
     "org_followers": 23855,
-    "user_stars": 513774,
+    "user_stars": 513812,
     "org_stars": 359971
   },
   "queries": [
@@ -653,14 +653,14 @@
       "name": "Neeraj Singh",
       "avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
       "html_url": "https://github.com/karma9874",
-      "followers": 1084,
+      "followers": 1085,
       "following": 5,
       "public_repos": 16,
       "location": "Bangalore, India",
       "bio": "Hey there! I am using Github.",
       "company": null,
       "created_at": "2017-11-07T06:38:43Z",
-      "total_stars": 5458
+      "total_stars": 5475
     },
     {
       "login": "genieincodebottle",
@@ -737,8 +737,8 @@
       "name": "Hadi Shah",
       "avatar_url": "https://avatars.githubusercontent.com/u/176830124?s=88&u=857da7ff03c3127f464909d8d2398afc424b8944&v=4",
       "html_url": "https://github.com/hadishah123",
-      "followers": 1002,
-      "following": 909,
+      "followers": 1023,
+      "following": 908,
       "public_repos": 26,
       "location": "Bangalore, Karnataka ",
       "bio": "🧠 Coding creatively | 💻 Solving problems with Web & AI | 🌱 Forever learning & collaborating",
@@ -1181,6 +1181,20 @@
       "total_stars": 727
     },
     {
+      "login": "SAGAR-TAMANG",
+      "name": "Sagar Tamang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100279896?s=88&u=ebba1086899cb9eabd379cdf6c4dd41ef9f28e39&v=4",
+      "html_url": "https://github.com/SAGAR-TAMANG",
+      "followers": 702,
+      "following": 25,
+      "public_repos": 102,
+      "location": "Bangalore, Karnataka, India",
+      "bio": "Just a human being, living in the 21st century ✨ #cosmopolitan. ",
+      "company": "Indian Institute of Technology Patna",
+      "created_at": "2022-02-23T10:08:58Z",
+      "total_stars": 2558
+    },
+    {
       "login": "ravidsrk",
       "name": "Ravindra Kumar",
       "avatar_url": "https://avatars.githubusercontent.com/u/529352?s=88&u=b1572fc53c31fb7763f792c87e11032e9b598cc1&v=4",
@@ -1221,20 +1235,6 @@
       "company": "AI Developer",
       "created_at": "2017-12-07T08:35:50Z",
       "total_stars": 354
-    },
-    {
-      "login": "SAGAR-TAMANG",
-      "name": "Sagar Tamang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/100279896?s=88&u=ebba1086899cb9eabd379cdf6c4dd41ef9f28e39&v=4",
-      "html_url": "https://github.com/SAGAR-TAMANG",
-      "followers": 697,
-      "following": 25,
-      "public_repos": 102,
-      "location": "Bangalore, Karnataka, India",
-      "bio": "Just a human being, living in the 21st century ✨ #cosmopolitan. ",
-      "company": "Indian Institute of Technology Patna",
-      "created_at": "2022-02-23T10:08:58Z",
-      "total_stars": 2537
     },
     {
       "login": "geohacker",
@@ -3120,6 +3120,25 @@
       "fork": false
     },
     {
+      "full_name": "karma9874/AndroRAT",
+      "html_url": "https://github.com/karma9874/AndroRAT",
+      "description": "A Simple android remote administration tool using sockets. It uses java on the client side and python on the server side",
+      "stargazers_count": 5061,
+      "forks_count": 1633,
+      "language": "Java",
+      "topics": [
+        "android",
+        "backdoor",
+        "python",
+        "reverse-shell",
+        "sockets"
+      ],
+      "owner_login": "karma9874",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "jassics/security-study-plan",
       "html_url": "https://github.com/jassics/security-study-plan",
       "description": "Complete Practical Study Plan to become a successful cybersecurity engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps a",
@@ -3135,25 +3154,6 @@
       ],
       "owner_login": "jassics",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/312391?s=88&u=614c11fd20632842718e5bb5e76b5964896ddc8b&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "karma9874/AndroRAT",
-      "html_url": "https://github.com/karma9874/AndroRAT",
-      "description": "A Simple android remote administration tool using sockets. It uses java on the client side and python on the server side",
-      "stargazers_count": 5044,
-      "forks_count": 1628,
-      "language": "Java",
-      "topics": [
-        "android",
-        "backdoor",
-        "python",
-        "reverse-shell",
-        "sockets"
-      ],
-      "owner_login": "karma9874",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
       "owner_type": "User",
       "fork": false
     },

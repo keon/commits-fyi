@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "China",
   "slug": "china",
-  "generated_at": "2026-09-01T10:10:46.002Z",
+  "generated_at": "2026-09-02T09:41:15.300Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1240499,
-    "org_followers": 226507,
+    "org_followers": 226515,
     "user_stars": 4341972,
-    "org_stars": 4207972
+    "org_stars": 4208125
   },
   "queries": [
     {
@@ -2415,6 +2415,20 @@
       "total_stars": 2179
     },
     {
+      "login": "OpenMOSS",
+      "name": "OpenMOSS (SII)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156300419?s=88&v=4",
+      "html_url": "https://github.com/OpenMOSS",
+      "followers": 913,
+      "following": 0,
+      "public_repos": 60,
+      "location": "China",
+      "bio": "OpenMOSS Team is a research group under the Shanghai Innovation Institution (SII), working in close collaboration with Fudan University and MOSI Intelligence. ",
+      "company": null,
+      "created_at": "2024-01-11T08:55:09Z",
+      "total_stars": 31765
+    },
+    {
       "login": "d2forum",
       "name": "d2conference",
       "avatar_url": "https://avatars.githubusercontent.com/u/58558643?s=88&v=4",
@@ -2427,20 +2441,6 @@
       "company": null,
       "created_at": "2019-12-05T13:29:59Z",
       "total_stars": 3964
-    },
-    {
-      "login": "OpenMOSS",
-      "name": "OpenMOSS (SII)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/156300419?s=88&v=4",
-      "html_url": "https://github.com/OpenMOSS",
-      "followers": 905,
-      "following": 0,
-      "public_repos": 59,
-      "location": "China",
-      "bio": "OpenMOSS Team is a research group under the Shanghai Innovation Institution (SII), working in close collaboration with Fudan University and MOSI Intelligence. ",
-      "company": null,
-      "created_at": "2024-01-11T08:55:09Z",
-      "total_stars": 31612
     },
     {
       "login": "yudaocode",

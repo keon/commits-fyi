@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-09-01T10:09:54.127Z",
+  "generated_at": "2026-09-02T09:40:28.390Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 584851,
-    "org_followers": 158653,
+    "org_followers": 158659,
     "user_stars": 1745216,
-    "org_stars": 1558863
+    "org_stars": 1559294
   },
   "queries": [
     {
@@ -2419,14 +2419,14 @@
       "name": "Cactus Compute, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
       "html_url": "https://github.com/cactus-compute",
-      "followers": 518,
+      "followers": 524,
       "following": 0,
       "public_repos": 16,
       "location": "United Kingdom",
       "bio": "Tiny AI For TIny Devices",
       "company": null,
       "created_at": "2025-01-27T11:58:35Z",
-      "total_stars": 16270
+      "total_stars": 16701
     },
     {
       "login": "VectifyAI",
@@ -2533,7 +2533,7 @@
       "html_url": "https://github.com/hmcts",
       "followers": 459,
       "following": 0,
-      "public_repos": 1778,
+      "public_repos": 1779,
       "location": "United Kingdom",
       "bio": null,
       "company": null,
@@ -3164,8 +3164,8 @@
       "full_name": "owainlewis/awesome-artificial-intelligence",
       "html_url": "https://github.com/owainlewis/awesome-artificial-intelligence",
       "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
-      "stargazers_count": 16244,
-      "forks_count": 2539,
+      "stargazers_count": 16299,
+      "forks_count": 2544,
       "language": "Python",
       "topics": [
         "machine-learning",
@@ -3428,18 +3428,21 @@
       "fork": false
     },
     {
-      "full_name": "cloudflare/moltworker",
-      "html_url": "https://github.com/cloudflare/moltworker",
-      "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
-      "stargazers_count": 9958,
-      "forks_count": 1736,
-      "language": "TypeScript",
+      "full_name": "cactus-compute/needle",
+      "html_url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "stargazers_count": 10036,
+      "forks_count": 650,
+      "language": "Python",
       "topics": [
-        "ai-agents",
-        "cloudflare-workers"
+        "cactus",
+        "gemini",
+        "gemma",
+        "llm",
+        "on-device-ai"
       ],
-      "owner_login": "cloudflare",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_login": "cactus-compute",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
