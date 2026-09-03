@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-09-02T09:41:21.011Z",
+  "generated_at": "2026-09-03T09:54:33.598Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 146840,
+    "user_followers": 146930,
     "org_followers": 29796,
-    "user_stars": 728972,
+    "user_stars": 728929,
     "org_stars": 324587
   },
   "queries": [
@@ -1055,6 +1055,20 @@
       "total_stars": 170
     },
     {
+      "login": "minseochoj",
+      "name": "Minseo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79745760?s=88&u=febe58044c7898a2a4bbfda3fd1a2585ce132f29&v=4",
+      "html_url": "https://github.com/minseochoj",
+      "followers": 719,
+      "following": 7634,
+      "public_repos": 79,
+      "location": "Seoul, South Korea",
+      "bio": "Open-source enthusiast building web apps, love coffee and late-night debugging.",
+      "company": "Playkakaogames",
+      "created_at": "2021-02-27T09:49:45Z",
+      "total_stars": 13
+    },
+    {
       "login": "elliotwoods",
       "name": "Elliot Woods",
       "avatar_url": "https://avatars.githubusercontent.com/u/328294?s=88&u=bfc0e691f92dd550d08dde484bb250c5c7266d90&v=4",
@@ -1417,20 +1431,6 @@
       "company": "Korea Credit Bureau",
       "created_at": "2012-12-18T06:02:57Z",
       "total_stars": 96
-    },
-    {
-      "login": "manudeli",
-      "name": "Jonghyeon Ko",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61593290?s=88&u=bc1ff5075626ea79e10444be6323513a54a52e68&v=4",
-      "html_url": "https://github.com/manudeli",
-      "followers": 629,
-      "following": 293,
-      "public_repos": 64,
-      "location": "Seoul, South Korea",
-      "bio": "Maintainer of TanStack Query, Suspensive",
-      "company": "@toss @TanStack",
-      "created_at": "2020-02-28T15:30:07Z",
-      "total_stars": 56
     }
   ],
   "orgs": [

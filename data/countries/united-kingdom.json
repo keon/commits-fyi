@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-09-02T09:40:28.390Z",
+  "generated_at": "2026-09-03T09:53:40.403Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 584851,
-    "org_followers": 158659,
+    "org_followers": 158660,
     "user_stars": 1745216,
-    "org_stars": 1559294
+    "org_stars": 1557913
   },
   "queries": [
     {
@@ -285,20 +285,6 @@
       "total_stars": 6230
     },
     {
-      "login": "samuelcolvin",
-      "name": "Samuel Colvin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4039449?s=88&u=42eb3b833047c8c4b4f647a031eaef148c16d93f&v=4",
-      "html_url": "https://github.com/samuelcolvin",
-      "followers": 6626,
-      "following": 45,
-      "public_repos": 165,
-      "location": "London, United Kingdom",
-      "bio": "The Pydantic Stack: Pydantic Validation, Pydantic AI and Pydantic Logfire",
-      "company": "@pydantic",
-      "created_at": "2013-04-02T17:24:42Z",
-      "total_stars": 7534
-    },
-    {
       "login": "ept",
       "name": "Martin Kleppmann",
       "avatar_url": "https://avatars.githubusercontent.com/u/27544?s=88&u=b33b13b1e9fc319880ca8a78f758299c2ebb6df1&v=4",
@@ -311,6 +297,20 @@
       "company": "University of Cambridge",
       "created_at": "2008-10-04T12:47:20Z",
       "total_stars": 11985
+    },
+    {
+      "login": "samuelcolvin",
+      "name": "Samuel Colvin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4039449?s=88&u=42eb3b833047c8c4b4f647a031eaef148c16d93f&v=4",
+      "html_url": "https://github.com/samuelcolvin",
+      "followers": 6626,
+      "following": 45,
+      "public_repos": 165,
+      "location": "London, United Kingdom",
+      "bio": "The Pydantic Stack: Pydantic Validation, Pydantic AI and Pydantic Logfire",
+      "company": "@pydantic",
+      "created_at": "2013-04-02T17:24:42Z",
+      "total_stars": 7534
     },
     {
       "login": "nicklockwood",
@@ -1167,20 +1167,6 @@
       "total_stars": 4073
     },
     {
-      "login": "slightfoot",
-      "name": "Simon Lightfoot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/906564?s=88&u=04fbc0cb91f1e6f3a17a6161d0823d694fcd9da5&v=4",
-      "html_url": "https://github.com/slightfoot",
-      "followers": 2206,
-      "following": 93,
-      "public_repos": 51,
-      "location": "London, UK",
-      "bio": "Co-founder Flutter Study Group on Slack. Writing code for 20+ years, now at DevAngels, London. Mainly @flutter, and @android also @golang.. but ❤️ Flutter ",
-      "company": "@devangels",
-      "created_at": "2011-07-10T21:45:27Z",
-      "total_stars": 908
-    },
-    {
       "login": "utkusen",
       "name": "Utku Sen",
       "avatar_url": "https://avatars.githubusercontent.com/u/3511458?s=88&u=77bfaffba338873a9526b6b842feb98da23da7e7&v=4",
@@ -1193,6 +1179,20 @@
       "company": null,
       "created_at": "2013-02-08T13:31:40Z",
       "total_stars": 10986
+    },
+    {
+      "login": "slightfoot",
+      "name": "Simon Lightfoot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/906564?s=88&u=04fbc0cb91f1e6f3a17a6161d0823d694fcd9da5&v=4",
+      "html_url": "https://github.com/slightfoot",
+      "followers": 2206,
+      "following": 93,
+      "public_repos": 51,
+      "location": "London, UK",
+      "bio": "Co-founder Flutter Study Group on Slack. Writing code for 20+ years, now at DevAngels, London. Mainly @flutter, and @android also @golang.. but ❤️ Flutter ",
+      "company": "@devangels",
+      "created_at": "2011-07-10T21:45:27Z",
+      "total_stars": 908
     },
     {
       "login": "kornelski",
@@ -2541,18 +2541,18 @@
       "total_stars": 594
     },
     {
-      "login": "vtex",
-      "name": "VTEX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1288938?s=88&v=4",
-      "html_url": "https://github.com/vtex",
-      "followers": 458,
+      "login": "nhsengland",
+      "name": "NHS England",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8696830?s=88&v=4",
+      "html_url": "https://github.com/nhsengland",
+      "followers": 459,
       "following": 0,
-      "public_repos": 200,
-      "location": "United Kingdom",
-      "bio": "The Enterprise Digital Commerce Platform  ⚠️ To invite someone to this Github Org. Follow: https://vai.vtex.com/access-request ",
+      "public_repos": 197,
+      "location": "England",
+      "bio": "Open Source projects from NHS England and NHS Improvement",
       "company": null,
-      "created_at": "2011-12-27T19:51:33Z",
-      "total_stars": 1763
+      "created_at": "2014-09-08T14:16:36Z",
+      "total_stars": 382
     }
   ],
   "repos": [

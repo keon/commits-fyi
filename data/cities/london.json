@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-09-02T09:39:25.416Z",
+  "generated_at": "2026-09-03T09:52:37.433Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 428301,
     "org_followers": 73054,
-    "user_stars": 1206148,
+    "user_stars": 1204297,
     "org_stars": 708757
   },
   "queries": [
@@ -789,20 +789,6 @@
       "total_stars": 4073
     },
     {
-      "login": "slightfoot",
-      "name": "Simon Lightfoot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/906564?s=88&u=04fbc0cb91f1e6f3a17a6161d0823d694fcd9da5&v=4",
-      "html_url": "https://github.com/slightfoot",
-      "followers": 2206,
-      "following": 93,
-      "public_repos": 51,
-      "location": "London, UK",
-      "bio": "Co-founder Flutter Study Group on Slack. Writing code for 20+ years, now at DevAngels, London. Mainly @flutter, and @android also @golang.. but ❤️ Flutter ",
-      "company": "@devangels",
-      "created_at": "2011-07-10T21:45:27Z",
-      "total_stars": 908
-    },
-    {
       "login": "utkusen",
       "name": "Utku Sen",
       "avatar_url": "https://avatars.githubusercontent.com/u/3511458?s=88&u=77bfaffba338873a9526b6b842feb98da23da7e7&v=4",
@@ -815,6 +801,20 @@
       "company": null,
       "created_at": "2013-02-08T13:31:40Z",
       "total_stars": 10986
+    },
+    {
+      "login": "slightfoot",
+      "name": "Simon Lightfoot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/906564?s=88&u=04fbc0cb91f1e6f3a17a6161d0823d694fcd9da5&v=4",
+      "html_url": "https://github.com/slightfoot",
+      "followers": 2206,
+      "following": 93,
+      "public_repos": 51,
+      "location": "London, UK",
+      "bio": "Co-founder Flutter Study Group on Slack. Writing code for 20+ years, now at DevAngels, London. Mainly @flutter, and @android also @golang.. but ❤️ Flutter ",
+      "company": "@devangels",
+      "created_at": "2011-07-10T21:45:27Z",
+      "total_stars": 908
     },
     {
       "login": "MaggieAppleton",
@@ -1419,18 +1419,18 @@
       "total_stars": 322
     },
     {
-      "login": "albinotonnina",
-      "name": "Albino Tonnina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37283?s=88&u=fef9b5ad2aae3a48920c990a99a014a5aeb1d716&v=4",
-      "html_url": "https://github.com/albinotonnina",
+      "login": "mikedewar",
+      "name": "Mike Dewar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149211?s=88&u=67a089e36e73c04fdceb4699cc1703849620fab1&v=4",
+      "html_url": "https://github.com/mikedewar",
       "followers": 1420,
-      "following": 1,
-      "public_repos": 67,
+      "following": 16,
+      "public_repos": 63,
       "location": "London",
-      "bio": "\r\n",
-      "company": "@asos ",
-      "created_at": "2008-11-29T21:47:06Z",
-      "total_stars": 3636
+      "bio": "Vice President of Data Science at MasterCard\r\n",
+      "company": "Mastercard",
+      "created_at": "2009-11-05T10:14:53Z",
+      "total_stars": 1785
     }
   ],
   "orgs": [
