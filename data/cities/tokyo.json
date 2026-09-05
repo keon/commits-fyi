@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-09-04T09:46:07.592Z",
+  "generated_at": "2026-09-05T09:07:37.552Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 216056,
+    "user_followers": 216114,
     "org_followers": 22869,
-    "user_stars": 979690,
+    "user_stars": 979508,
     "org_stars": 313686
   },
   "queries": [
@@ -761,20 +761,6 @@
       "total_stars": 3494
     },
     {
-      "login": "ykob",
-      "name": "Yoichi Kobayashi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5755225?s=88&u=e4798d512bd6d153a516b5caa26c7a39133bf1e3&v=4",
-      "html_url": "https://github.com/ykob",
-      "followers": 1310,
-      "following": 0,
-      "public_repos": 112,
-      "location": "Tokyo, Japan",
-      "bio": "I work as a frontend developer in Tokyo.",
-      "company": null,
-      "created_at": "2013-10-23T10:22:43Z",
-      "total_stars": 3766
-    },
-    {
       "login": "Desgard",
       "name": "Gua",
       "avatar_url": "https://avatars.githubusercontent.com/u/7804535?s=88&u=f72443a69997a52868e52b5663b69e0dd7b5bddc&v=4",
@@ -787,6 +773,20 @@
       "company": null,
       "created_at": "2014-06-05T11:19:23Z",
       "total_stars": 2086
+    },
+    {
+      "login": "ykob",
+      "name": "Yoichi Kobayashi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5755225?s=88&u=e4798d512bd6d153a516b5caa26c7a39133bf1e3&v=4",
+      "html_url": "https://github.com/ykob",
+      "followers": 1310,
+      "following": 0,
+      "public_repos": 112,
+      "location": "Tokyo, Japan",
+      "bio": "I work as a frontend developer in Tokyo.",
+      "company": null,
+      "created_at": "2013-10-23T10:22:43Z",
+      "total_stars": 3766
     },
     {
       "login": "thagikura",
@@ -1293,6 +1293,20 @@
       "total_stars": 9318
     },
     {
+      "login": "mahirhir",
+      "name": "Mahiro Hirakawa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246701683?s=88&u=0537c64a4ca015853106bab4fc4190164cd6385c&v=4",
+      "html_url": "https://github.com/mahirhir",
+      "followers": 901,
+      "following": 4264,
+      "public_repos": 8,
+      "location": "Tokyo, Japan",
+      "bio": "Independent. Local-first developer tools, and a verification substrate for effects that have to be undoable. Rust. Limits written down before features.\r\n",
+      "company": "GLOVREX",
+      "created_at": "2025-11-28T13:55:38Z",
+      "total_stars": 13
+    },
+    {
       "login": "RobertTLange",
       "name": "Robert Tjarko Lange",
       "avatar_url": "https://avatars.githubusercontent.com/u/20374662?s=88&u=e0698b272bf419d88e4a32bae7d29cf22165e189&v=4",
@@ -1417,20 +1431,6 @@
       "company": "merpay, Inc.",
       "created_at": "2011-04-18T09:20:58Z",
       "total_stars": 8662
-    },
-    {
-      "login": "veryyoung",
-      "name": "veryyoung",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5799652?s=88&u=a43f189d9914e2a71ec1b5a3e3eac30cdd9e8703&v=4",
-      "html_url": "https://github.com/veryyoung",
-      "followers": 843,
-      "following": 43,
-      "public_repos": 14,
-      "location": " Tokyo",
-      "bio": "#Bitcoin & #ETH holder,  member of \r\n@theNextDAO,  #Web3 builder.",
-      "company": "Blockchain",
-      "created_at": "2013-10-29T01:50:41Z",
-      "total_stars": 195
     }
   ],
   "orgs": [
@@ -1771,20 +1771,6 @@
       "total_stars": 2205
     },
     {
-      "login": "bc-game-project",
-      "name": "bcgame",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34807143?s=88&v=4",
-      "html_url": "https://github.com/bc-game-project",
-      "followers": 149,
-      "following": 0,
-      "public_repos": 21,
-      "location": "tokyo",
-      "bio": "game studio",
-      "company": null,
-      "created_at": "2017-12-24T08:10:43Z",
-      "total_stars": 372
-    },
-    {
       "login": "cookpad",
       "name": "Cookpad",
       "avatar_url": "https://avatars.githubusercontent.com/u/119195?s=88&v=4",
@@ -1797,6 +1783,20 @@
       "company": null,
       "created_at": "2009-08-25T07:44:24Z",
       "total_stars": 7684
+    },
+    {
+      "login": "bc-game-project",
+      "name": "bcgame",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34807143?s=88&v=4",
+      "html_url": "https://github.com/bc-game-project",
+      "followers": 149,
+      "following": 0,
+      "public_repos": 21,
+      "location": "tokyo",
+      "bio": "game studio",
+      "company": null,
+      "created_at": "2017-12-24T08:10:43Z",
+      "total_stars": 372
     },
     {
       "login": "LayerXcom",
@@ -2219,20 +2219,6 @@
       "total_stars": 419
     },
     {
-      "login": "legalforce",
-      "name": "LegalOn Technologies, Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32317437?s=88&v=4",
-      "html_url": "https://github.com/legalforce",
-      "followers": 72,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tokyo / Japan",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-09-27T02:18:24Z",
-      "total_stars": 0
-    },
-    {
       "login": "bizreach-inc",
       "name": "BizReach,Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/61264651?s=88&v=4",
@@ -2245,6 +2231,20 @@
       "company": null,
       "created_at": "2020-02-20T05:49:02Z",
       "total_stars": 195
+    },
+    {
+      "login": "legalforce",
+      "name": "LegalOn Technologies, Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32317437?s=88&v=4",
+      "html_url": "https://github.com/legalforce",
+      "followers": 72,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tokyo / Japan",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-09-27T02:18:24Z",
+      "total_stars": 0
     },
     {
       "login": "ricosjp",
@@ -2527,20 +2527,6 @@
       "total_stars": 0
     },
     {
-      "login": "synspective",
-      "name": "Synspective",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43743643?s=88&v=4",
-      "html_url": "https://github.com/synspective",
-      "followers": 44,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tokyo, Japan",
-      "bio": "Small SAR satellite constellation and One-stop Geo-solutions",
-      "company": null,
-      "created_at": "2018-10-01T09:01:54Z",
-      "total_stars": 0
-    },
-    {
       "login": "connpass",
       "name": "Connpass",
       "avatar_url": "https://avatars.githubusercontent.com/u/4558352?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2013-05-29T09:30:31Z",
       "total_stars": 9
+    },
+    {
+      "login": "synspective",
+      "name": "Synspective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43743643?s=88&v=4",
+      "html_url": "https://github.com/synspective",
+      "followers": 44,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tokyo, Japan",
+      "bio": "Small SAR satellite constellation and One-stop Geo-solutions",
+      "company": null,
+      "created_at": "2018-10-01T09:01:54Z",
+      "total_stars": 0
     }
   ],
   "repos": [

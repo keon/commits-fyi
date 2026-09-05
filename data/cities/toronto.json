@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-09-04T09:43:41.935Z",
+  "generated_at": "2026-09-05T09:06:46.853Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 157871,
+    "user_followers": 160515,
     "org_followers": 25756,
-    "user_stars": 702104,
+    "user_stars": 700365,
     "org_stars": 199582
   },
   "queries": [
@@ -143,6 +143,20 @@
       "company": "khalilstemmler.com",
       "created_at": "2014-03-08T16:23:35Z",
       "total_stars": 8609
+    },
+    {
+      "login": "jrosebr1",
+      "name": "Adrian Rosebrock",
+      "avatar_url": "https://avatars.githubusercontent.com/u/759645?s=88&u=f7f57868c7ef2e7736640f4b187dba6baaa96b17&v=4",
+      "html_url": "https://github.com/jrosebr1",
+      "followers": 3249,
+      "following": 0,
+      "public_repos": 14,
+      "location": "Toronto, ON",
+      "bio": "PhD in CS (CV/ML) · ML Researcher & Systematic Quant · Bootstrapped & exited PyImageSearch.com · Founder WheelMetrics.io",
+      "company": null,
+      "created_at": "2011-04-29T20:02:16Z",
+      "total_stars": 1235
     },
     {
       "login": "MylesBorins",
@@ -1417,20 +1431,6 @@
       "company": "HAPI // Smile CDR // University Health Network",
       "created_at": "2013-02-03T18:31:30Z",
       "total_stars": 19
-    },
-    {
-      "login": "gf3",
-      "name": "Gianni Chiappetta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18397?s=88&u=1c39d0070ac67fab068a7381386d65da27f7a293&v=4",
-      "html_url": "https://github.com/gf3",
-      "followers": 605,
-      "following": 188,
-      "public_repos": 42,
-      "location": "Toronto, Canada",
-      "bio": "i am very important & handsome",
-      "company": "@freshlineapp ",
-      "created_at": "2008-07-25T14:51:44Z",
-      "total_stars": 2974
     }
   ],
   "orgs": [

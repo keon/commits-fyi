@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-09-04T09:42:52.260Z",
+  "generated_at": "2026-09-05T09:06:43.495Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 352196,
+    "user_followers": 349100,
     "org_followers": 252739,
-    "user_stars": 940960,
+    "user_stars": 886032,
     "org_stars": 2721190
   },
   "queries": [
@@ -325,20 +325,6 @@
       "company": "Amazon.com",
       "created_at": "2014-07-20T20:19:17Z",
       "total_stars": 11486
-    },
-    {
-      "login": "karan",
-      "name": "Karan Goel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3261985?s=88&v=4",
-      "html_url": "https://github.com/karan",
-      "followers": 4255,
-      "following": 0,
-      "public_repos": 97,
-      "location": "Seattle",
-      "bio": "Doing things!",
-      "company": "@GoogleCloudPlatform ",
-      "created_at": "2013-01-14T04:36:13Z",
-      "total_stars": 55949
     },
     {
       "login": "madskristensen",
@@ -1431,6 +1417,20 @@
       "company": "graphAI, mulmocast",
       "created_at": "2009-10-14T18:06:53Z",
       "total_stars": 1789
+    },
+    {
+      "login": "keesun",
+      "name": "Keesun Baik (a.k.a, Whiteship)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/463657?s=88&v=4",
+      "html_url": "https://github.com/keesun",
+      "followers": 1159,
+      "following": 11,
+      "public_repos": 49,
+      "location": "Seattle, WA",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-11-02T04:19:45Z",
+      "total_stars": 1021
     }
   ],
   "orgs": [
@@ -2873,19 +2873,6 @@
       "fork": false
     },
     {
-      "full_name": "karan/Projects",
-      "html_url": "https://github.com/karan/Projects",
-      "description": ":page_with_curl: A list of practical projects that anyone can solve in any programming language.",
-      "stargazers_count": 47912,
-      "forks_count": 10607,
-      "language": null,
-      "topics": [],
-      "owner_login": "karan",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3261985?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "microsoft/monaco-editor",
       "html_url": "https://github.com/microsoft/monaco-editor",
       "description": "A browser based code editor",
@@ -3409,6 +3396,19 @@
       ],
       "owner_login": "calesthio",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/213189893?s=88&u=6d269d54059d5efaf0db1dba452f6029afedc01d&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "mission-peace/interview",
+      "html_url": "https://github.com/mission-peace/interview",
+      "description": "Interview questions",
+      "stargazers_count": 11356,
+      "forks_count": 5141,
+      "language": "Java",
+      "topics": [],
+      "owner_login": "mission-peace",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8218054?s=88&v=4",
       "owner_type": "User",
       "fork": false
     }

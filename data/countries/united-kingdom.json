@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-09-04T09:48:05.218Z",
+  "generated_at": "2026-09-05T09:07:47.039Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 585167,
-    "org_followers": 159017,
+    "org_followers": 159018,
     "user_stars": 1746540,
-    "org_stars": 1560350
+    "org_stars": 1561731
   },
   "queries": [
     {
@@ -2359,20 +2359,6 @@
       "total_stars": 622
     },
     {
-      "login": "moj-analytical-services",
-      "name": "MoJ Analytical Services",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25906034?s=88&v=4",
-      "html_url": "https://github.com/moj-analytical-services",
-      "followers": 541,
-      "following": 0,
-      "public_repos": 21,
-      "location": "United Kingdom",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-02-20T15:42:43Z",
-      "total_stars": 2545
-    },
-    {
       "login": "bloxstraplabs",
       "name": "Bloxstrap",
       "avatar_url": "https://avatars.githubusercontent.com/u/147950331?s=88&v=4",
@@ -2385,6 +2371,20 @@
       "company": null,
       "created_at": "2023-10-14T21:06:30Z",
       "total_stars": 3224
+    },
+    {
+      "login": "moj-analytical-services",
+      "name": "MoJ Analytical Services",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25906034?s=88&v=4",
+      "html_url": "https://github.com/moj-analytical-services",
+      "followers": 541,
+      "following": 0,
+      "public_repos": 21,
+      "location": "United Kingdom",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-02-20T15:42:43Z",
+      "total_stars": 2545
     },
     {
       "login": "SevenTV",
@@ -2527,6 +2527,20 @@
       "total_stars": 14820
     },
     {
+      "login": "vtex",
+      "name": "VTEX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1288938?s=88&v=4",
+      "html_url": "https://github.com/vtex",
+      "followers": 460,
+      "following": 0,
+      "public_repos": 200,
+      "location": "United Kingdom",
+      "bio": "The Enterprise Digital Commerce Platform  ⚠️ To invite someone to this Github Org. Follow: https://vai.vtex.com/access-request ",
+      "company": null,
+      "created_at": "2011-12-27T19:51:33Z",
+      "total_stars": 1763
+    },
+    {
       "login": "hmcts",
       "name": "HM Courts & Tribunals Service",
       "avatar_url": "https://avatars.githubusercontent.com/u/22817111?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2016-10-13T13:28:09Z",
       "total_stars": 594
-    },
-    {
-      "login": "nhsengland",
-      "name": "NHS England",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8696830?s=88&v=4",
-      "html_url": "https://github.com/nhsengland",
-      "followers": 459,
-      "following": 0,
-      "public_repos": 197,
-      "location": "England",
-      "bio": "Open Source projects from NHS England and NHS Improvement",
-      "company": null,
-      "created_at": "2014-09-08T14:16:36Z",
-      "total_stars": 382
     }
   ],
   "repos": [

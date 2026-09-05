@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-09-04T09:44:57.464Z",
+  "generated_at": "2026-09-05T09:07:33.567Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 198993,
     "org_followers": 99726,
     "user_stars": 856428,
-    "org_stars": 1121484
+    "org_stars": 1121486
   },
   "queries": [
     {
@@ -523,20 +523,6 @@
       "total_stars": 155
     },
     {
-      "login": "gpeyre",
-      "name": "Gabriel Peyré",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5560142?s=88&u=9f79459e385cc0235e09dea7253f0062fd04dc08&v=4",
-      "html_url": "https://github.com/gpeyre",
-      "followers": 1475,
-      "following": 1,
-      "public_repos": 61,
-      "location": "Paris",
-      "bio": "CNRS senior researcher in the DMA, Ecole Normale Supérieure",
-      "company": "CNRS",
-      "created_at": "2013-09-27T18:48:39Z",
-      "total_stars": 2243
-    },
-    {
       "login": "maziyarpanahi",
       "name": "Maziyar Panahi",
       "avatar_url": "https://avatars.githubusercontent.com/u/5762953?s=88&u=17070601b919833c70fc8cb61381822fdb987639&v=4",
@@ -549,6 +535,20 @@
       "company": "@ISCPIF",
       "created_at": "2013-10-24T06:40:45Z",
       "total_stars": 5262
+    },
+    {
+      "login": "gpeyre",
+      "name": "Gabriel Peyré",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5560142?s=88&u=9f79459e385cc0235e09dea7253f0062fd04dc08&v=4",
+      "html_url": "https://github.com/gpeyre",
+      "followers": 1475,
+      "following": 1,
+      "public_repos": 61,
+      "location": "Paris",
+      "bio": "CNRS senior researcher in the DMA, Ecole Normale Supérieure",
+      "company": "CNRS",
+      "created_at": "2013-09-27T18:48:39Z",
+      "total_stars": 2243
     },
     {
       "login": "JosePaumard",
@@ -1967,20 +1967,6 @@
       "total_stars": 2491
     },
     {
-      "login": "processone",
-      "name": "ProcessOne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86724?s=88&v=4",
-      "html_url": "https://github.com/processone",
-      "followers": 168,
-      "following": 0,
-      "public_repos": 88,
-      "location": "Paris, France",
-      "bio": "Build Awesome Realtime Software",
-      "company": null,
-      "created_at": "2009-05-20T14:04:57Z",
-      "total_stars": 12268
-    },
-    {
       "login": "dreamRs",
       "name": "dreamRs",
       "avatar_url": "https://avatars.githubusercontent.com/u/23062899?s=88&v=4",
@@ -1993,6 +1979,20 @@
       "company": null,
       "created_at": "2016-10-25T20:03:45Z",
       "total_stars": 4964
+    },
+    {
+      "login": "processone",
+      "name": "ProcessOne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86724?s=88&v=4",
+      "html_url": "https://github.com/processone",
+      "followers": 168,
+      "following": 0,
+      "public_repos": 88,
+      "location": "Paris, France",
+      "bio": "Build Awesome Realtime Software",
+      "company": null,
+      "created_at": "2009-05-20T14:04:57Z",
+      "total_stars": 12268
     },
     {
       "login": "Parrot-Developers",
@@ -2471,20 +2471,6 @@
       "total_stars": 1998
     },
     {
-      "login": "DFIR-ORC",
-      "name": "DFIR-ORC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55146666?s=88&v=4",
-      "html_url": "https://github.com/DFIR-ORC",
-      "followers": 95,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Paris, France",
-      "bio": "DFIR-ORC, published by @ANSSI-FR",
-      "company": null,
-      "created_at": "2019-09-10T14:06:04Z",
-      "total_stars": 500
-    },
-    {
       "login": "sfeir-open-source",
       "name": "SFEIR Open Source",
       "avatar_url": "https://avatars.githubusercontent.com/u/41960861?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2018-07-31T14:08:02Z",
       "total_stars": 349
+    },
+    {
+      "login": "DFIR-ORC",
+      "name": "DFIR-ORC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55146666?s=88&v=4",
+      "html_url": "https://github.com/DFIR-ORC",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Paris, France",
+      "bio": "DFIR-ORC, published by @ANSSI-FR",
+      "company": null,
+      "created_at": "2019-09-10T14:06:04Z",
+      "total_stars": 500
     },
     {
       "login": "Jailbreaks",
@@ -2552,7 +2552,7 @@
       "bio": "Spatial analysis and mapping software packages created by the Center for Spatial Analysis and Geovisualization - RIATE",
       "company": null,
       "created_at": "2016-03-02T10:09:41Z",
-      "total_stars": 2281
+      "total_stars": 2283
     }
   ],
   "repos": [
@@ -2935,8 +2935,8 @@
       "full_name": "guillaumemeyer/watermarks-remover",
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "stargazers_count": 19757,
-      "forks_count": 2296,
+      "stargazers_count": 20661,
+      "forks_count": 2388,
       "language": "Python",
       "topics": [
         "agent-skill",

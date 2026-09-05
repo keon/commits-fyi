@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-09-04T09:44:33.051Z",
+  "generated_at": "2026-09-05T09:06:49.661Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -1911,20 +1911,6 @@
       "total_stars": 639
     },
     {
-      "login": "CanCLID",
-      "name": "粵語計算語言學基礎建設組 (CanCLID)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68556084?s=88&v=4",
-      "html_url": "https://github.com/CanCLID",
-      "followers": 201,
-      "following": 0,
-      "public_repos": 32,
-      "location": "Canton, Hong Kong, Naamning, San Francisco, Berlin",
-      "bio": "Cantonese Computational Linguistics Infrastructure Development Workgroup",
-      "company": null,
-      "created_at": "2020-07-20T15:49:07Z",
-      "total_stars": 664
-    },
-    {
       "login": "ecosia",
       "name": "Ecosia",
       "avatar_url": "https://avatars.githubusercontent.com/u/7389564?s=88&v=4",
@@ -1937,6 +1923,20 @@
       "company": null,
       "created_at": "2014-04-23T23:09:58Z",
       "total_stars": 148
+    },
+    {
+      "login": "CanCLID",
+      "name": "粵語計算語言學基礎建設組 (CanCLID)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68556084?s=88&v=4",
+      "html_url": "https://github.com/CanCLID",
+      "followers": 201,
+      "following": 0,
+      "public_repos": 32,
+      "location": "Canton, Hong Kong, Naamning, San Francisco, Berlin",
+      "bio": "Cantonese Computational Linguistics Infrastructure Development Workgroup",
+      "company": null,
+      "created_at": "2020-07-20T15:49:07Z",
+      "total_stars": 664
     },
     {
       "login": "pupil-labs",
@@ -2747,8 +2747,8 @@
       "full_name": "OthmanAdi/planning-with-files",
       "html_url": "https://github.com/OthmanAdi/planning-with-files",
       "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and co",
-      "stargazers_count": 26536,
-      "forks_count": 2214,
+      "stargazers_count": 26635,
+      "forks_count": 2220,
       "language": "Shell",
       "topics": [
         "claude",
