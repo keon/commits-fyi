@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-09-05T09:06:49.661Z",
+  "generated_at": "2026-09-06T09:27:31.568Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 300584,
-    "org_followers": 32677,
+    "org_followers": 32678,
     "user_stars": 996515,
     "org_stars": 741643
   },
@@ -1953,20 +1953,6 @@
       "total_stars": 2543
     },
     {
-      "login": "rotki",
-      "name": "Rotki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37070630?s=88&v=4",
-      "html_url": "https://github.com/rotki",
-      "followers": 194,
-      "following": 0,
-      "public_repos": 29,
-      "location": "Berlin, Germany",
-      "bio": "An opensource asset management, tracking and analytics application",
-      "company": null,
-      "created_at": "2018-03-05T11:24:49Z",
-      "total_stars": 4099
-    },
-    {
       "login": "BIMSBbioinfo",
       "name": "BIMSB bioinformatics platform / Akalin Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/6482905?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2014-01-23T15:25:57Z",
       "total_stars": 1235
+    },
+    {
+      "login": "rotki",
+      "name": "Rotki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37070630?s=88&v=4",
+      "html_url": "https://github.com/rotki",
+      "followers": 194,
+      "following": 0,
+      "public_repos": 29,
+      "location": "Berlin, Germany",
+      "bio": "An opensource asset management, tracking and analytics application",
+      "company": null,
+      "created_at": "2018-03-05T11:24:49Z",
+      "total_stars": 4099
     },
     {
       "login": "volkamerlab",
@@ -2433,7 +2433,7 @@
       "name": "bakdata",
       "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
       "html_url": "https://github.com/bakdata",
-      "followers": 102,
+      "followers": 103,
       "following": 0,
       "public_repos": 58,
       "location": "Berlin, Germany",

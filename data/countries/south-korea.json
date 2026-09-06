@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-09-05T09:09:38.569Z",
+  "generated_at": "2026-09-06T09:29:29.529Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 147104,
-    "org_followers": 29837,
+    "user_followers": 147103,
+    "org_followers": 29838,
     "user_stars": 729894,
-    "org_stars": 325092
+    "org_stars": 325097
   },
   "queries": [
     {
@@ -1349,20 +1349,6 @@
       "total_stars": 6162
     },
     {
-      "login": "minodevss",
-      "name": "Jeon Min O",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
-      "html_url": "https://github.com/minodevss",
-      "followers": 654,
-      "following": 2540,
-      "public_repos": 132,
-      "location": "Daegu Software Meister High School",
-      "bio": null,
-      "company": null,
-      "created_at": "2021-04-18T09:22:03Z",
-      "total_stars": 31
-    },
-    {
       "login": "youknowone",
       "name": "Jeong, YunWon",
       "avatar_url": "https://avatars.githubusercontent.com/u/69878?s=88&v=4",
@@ -1375,6 +1361,20 @@
       "company": "youknowone.org",
       "created_at": "2009-04-02T18:31:24Z",
       "total_stars": 3396
+    },
+    {
+      "login": "minodevss",
+      "name": "Jeon Min O",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82754696?s=88&u=577073f866bc1348185fc6e852dce86cc424dc6d&v=4",
+      "html_url": "https://github.com/minodevss",
+      "followers": 653,
+      "following": 2537,
+      "public_repos": 133,
+      "location": "Daegu Software Meister High School",
+      "bio": null,
+      "company": null,
+      "created_at": "2021-04-18T09:22:03Z",
+      "total_stars": 31
     },
     {
       "login": "choiis",
@@ -2527,6 +2527,20 @@
       "total_stars": 684
     },
     {
+      "login": "legalize-kr",
+      "name": "Legalize KR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/272561095?s=88&v=4",
+      "html_url": "https://github.com/legalize-kr",
+      "followers": 117,
+      "following": 0,
+      "public_repos": 12,
+      "location": "Korea, South",
+      "bio": "법령을 코드처럼, 판례도 코드처럼. 자치법규와 행정규칙까지 - 모든 문서는 Markdown으로, 개정 내역 및 선고 일자는 Commit으로 관리합니다.",
+      "company": null,
+      "created_at": "2026-03-31T15:02:13Z",
+      "total_stars": 1800
+    },
+    {
       "login": "innovationacademy-kr",
       "name": "Innovation Academy",
       "avatar_url": "https://avatars.githubusercontent.com/u/53462987?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2019-07-30T05:46:54Z",
       "total_stars": 2072
-    },
-    {
-      "login": "legalize-kr",
-      "name": "Legalize KR",
-      "avatar_url": "https://avatars.githubusercontent.com/u/272561095?s=88&v=4",
-      "html_url": "https://github.com/legalize-kr",
-      "followers": 116,
-      "following": 0,
-      "public_repos": 12,
-      "location": "Korea, South",
-      "bio": "법령을 코드처럼, 판례도 코드처럼. 자치법규와 행정규칙까지 - 모든 문서는 Markdown으로, 개정 내역 및 선고 일자는 Commit으로 관리합니다.",
-      "company": null,
-      "created_at": "2026-03-31T15:02:13Z",
-      "total_stars": 1795
     }
   ],
   "repos": [

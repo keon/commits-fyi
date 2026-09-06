@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-09-05T09:06:40.031Z",
+  "generated_at": "2026-09-06T09:27:25.080Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 529185,
+    "user_followers": 529179,
     "org_followers": 141072,
     "user_stars": 1812863,
-    "org_stars": 1619411
+    "org_stars": 1619413
   },
   "queries": [
     {
@@ -1381,7 +1381,7 @@
       "name": "Charlie Greenman ",
       "avatar_url": "https://avatars.githubusercontent.com/u/8540141?s=88&u=cdd80b83169cb2443bdfb0061e01ee4a0f7eb237&v=4",
       "html_url": "https://github.com/CharGrnmn",
-      "followers": 1927,
+      "followers": 1921,
       "following": 4353,
       "public_repos": 1,
       "location": "New York",
@@ -2485,20 +2485,6 @@
       "total_stars": 6951
     },
     {
-      "login": "cvlab-columbia",
-      "name": "Computer Vision Lab at Columbia University",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55261404?s=88&v=4",
-      "html_url": "https://github.com/cvlab-columbia",
-      "followers": 207,
-      "following": 0,
-      "public_repos": 24,
-      "location": "New York, NY",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-09-12T22:39:21Z",
-      "total_stars": 5892
-    },
-    {
       "login": "CityOfNewYork",
       "name": "City of New York",
       "avatar_url": "https://avatars.githubusercontent.com/u/1107978?s=88&v=4",
@@ -2511,6 +2497,20 @@
       "company": null,
       "created_at": "2011-10-06T16:15:45Z",
       "total_stars": 809
+    },
+    {
+      "login": "cvlab-columbia",
+      "name": "Computer Vision Lab at Columbia University",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55261404?s=88&v=4",
+      "html_url": "https://github.com/cvlab-columbia",
+      "followers": 207,
+      "following": 0,
+      "public_repos": 24,
+      "location": "New York, NY",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-09-12T22:39:21Z",
+      "total_stars": 5892
     },
     {
       "login": "UrbanCompass",
@@ -2538,7 +2538,7 @@
       "bio": null,
       "company": null,
       "created_at": "2013-04-21T16:32:54Z",
-      "total_stars": 2307
+      "total_stars": 2309
     },
     {
       "login": "tradingeconomics",

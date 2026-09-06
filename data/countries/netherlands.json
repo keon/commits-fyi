@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-09-05T09:08:39.126Z",
+  "generated_at": "2026-09-06T09:29:23.177Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 235745,
     "org_followers": 52140,
-    "user_stars": 970966,
+    "user_stars": 933950,
     "org_stars": 562300
   },
   "queries": [
@@ -1335,20 +1335,6 @@
       "total_stars": 12181
     },
     {
-      "login": "MichMich",
-      "name": "Michael Teeuw",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210954?s=88&v=4",
-      "html_url": "https://github.com/MichMich",
-      "followers": 1208,
-      "following": 6,
-      "public_repos": 53,
-      "location": "Baarn ~ The Netherlands",
-      "bio": null,
-      "company": "Xonay Media",
-      "created_at": "2010-02-25T21:03:53Z",
-      "total_stars": 720
-    },
-    {
       "login": "Rob--W",
       "name": "Rob Wu",
       "avatar_url": "https://avatars.githubusercontent.com/u/1365071?s=88&u=a28e0813dc14227725639ff1d19a94f36319e285&v=4",
@@ -1361,6 +1347,20 @@
       "company": null,
       "created_at": "2012-01-21T21:34:18Z",
       "total_stars": 12928
+    },
+    {
+      "login": "MichMich",
+      "name": "Michael Teeuw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210954?s=88&v=4",
+      "html_url": "https://github.com/MichMich",
+      "followers": 1208,
+      "following": 6,
+      "public_repos": 53,
+      "location": "Baarn ~ The Netherlands",
+      "bio": null,
+      "company": "Xonay Media",
+      "created_at": "2010-02-25T21:03:53Z",
+      "total_stars": 720
     },
     {
       "login": "terrakok",
@@ -1419,18 +1419,18 @@
       "total_stars": 2748
     },
     {
-      "login": "faif",
-      "name": "Sakis K",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1304661?s=88&v=4",
-      "html_url": "https://github.com/faif",
+      "login": "koenbok",
+      "name": "Koen Bok",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206779?s=88&v=4",
+      "html_url": "https://github.com/koenbok",
       "followers": 1131,
-      "following": 0,
-      "public_repos": 20,
-      "location": "Netherlands",
-      "bio": "Software Architect interested in distributed systems and functional programming.",
-      "company": "Mentech",
-      "created_at": "2012-01-04T18:44:38Z",
-      "total_stars": 43137
+      "following": 26,
+      "public_repos": 32,
+      "location": "Amsterdam",
+      "bio": "Koen sounds like moon.",
+      "company": "Framer, Facebook, Sofa",
+      "created_at": "2010-02-19T14:43:09Z",
+      "total_stars": 6121
     }
   ],
   "orgs": [

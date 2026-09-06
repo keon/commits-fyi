@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-09-05T09:07:47.039Z",
+  "generated_at": "2026-09-06T09:28:35.166Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 585167,
-    "org_followers": 159018,
+    "org_followers": 159027,
     "user_stars": 1746540,
-    "org_stars": 1561731
+    "org_stars": 1562088
   },
   "queries": [
     {
@@ -2419,14 +2419,14 @@
       "name": "Cactus Compute, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
       "html_url": "https://github.com/cactus-compute",
-      "followers": 524,
+      "followers": 531,
       "following": 0,
       "public_repos": 16,
       "location": "United Kingdom",
       "bio": "Tiny AI For TIny Devices",
       "company": null,
       "created_at": "2025-01-27T11:58:35Z",
-      "total_stars": 16701
+      "total_stars": 17058
     },
     {
       "login": "AVEVA-Copilot-Access",
@@ -2527,6 +2527,20 @@
       "total_stars": 14820
     },
     {
+      "login": "hmcts",
+      "name": "HM Courts & Tribunals Service",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22817111?s=88&v=4",
+      "html_url": "https://github.com/hmcts",
+      "followers": 461,
+      "following": 0,
+      "public_repos": 1782,
+      "location": "United Kingdom",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-10-13T13:28:09Z",
+      "total_stars": 594
+    },
+    {
       "login": "vtex",
       "name": "VTEX",
       "avatar_url": "https://avatars.githubusercontent.com/u/1288938?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2011-12-27T19:51:33Z",
       "total_stars": 1763
-    },
-    {
-      "login": "hmcts",
-      "name": "HM Courts & Tribunals Service",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22817111?s=88&v=4",
-      "html_url": "https://github.com/hmcts",
-      "followers": 459,
-      "following": 0,
-      "public_repos": 1779,
-      "location": "United Kingdom",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-10-13T13:28:09Z",
-      "total_stars": 594
     }
   ],
   "repos": [
@@ -3164,8 +3164,8 @@
       "full_name": "owainlewis/awesome-artificial-intelligence",
       "html_url": "https://github.com/owainlewis/awesome-artificial-intelligence",
       "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
-      "stargazers_count": 16299,
-      "forks_count": 2544,
+      "stargazers_count": 16352,
+      "forks_count": 2548,
       "language": "Python",
       "topics": [
         "machine-learning",
@@ -3409,6 +3409,25 @@
       "fork": false
     },
     {
+      "full_name": "cactus-compute/needle",
+      "html_url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "stargazers_count": 10373,
+      "forks_count": 665,
+      "language": "Python",
+      "topics": [
+        "cactus",
+        "gemini",
+        "gemma",
+        "llm",
+        "on-device-ai"
+      ],
+      "owner_login": "cactus-compute",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "satellite-image-deep-learning/techniques",
       "html_url": "https://github.com/satellite-image-deep-learning/techniques",
       "description": "Techniques for deep learning with satellite & aerial imagery",
@@ -3424,25 +3443,6 @@
       ],
       "owner_login": "satellite-image-deep-learning",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/119039922?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "cactus-compute/needle",
-      "html_url": "https://github.com/cactus-compute/needle",
-      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-      "stargazers_count": 10036,
-      "forks_count": 650,
-      "language": "Python",
-      "topics": [
-        "cactus",
-        "gemini",
-        "gemma",
-        "llm",
-        "on-device-ai"
-      ],
-      "owner_login": "cactus-compute",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/196640840?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
