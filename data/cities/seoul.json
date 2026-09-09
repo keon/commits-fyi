@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-09-08T09:44:07.685Z",
+  "generated_at": "2026-09-09T09:49:02.946Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 108241,
     "org_followers": 11077,
     "user_stars": 540541,
-    "org_stars": 84197
+    "org_stars": 84198
   },
   "queries": [
     {
@@ -1740,7 +1740,7 @@
       "bio": "BBARIT — AI vibe-coding tools. Maker of BBARIT Terminal: every AI agent + every dev tool in one native terminal.",
       "company": null,
       "created_at": "2026-04-15T11:37:46Z",
-      "total_stars": 201
+      "total_stars": 202
     },
     {
       "login": "banksalad",
@@ -2359,6 +2359,20 @@
       "total_stars": 288
     },
     {
+      "login": "peoplefund-tech",
+      "name": "PFC Technologies Tech House",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41152749?s=88&v=4",
+      "html_url": "https://github.com/peoplefund-tech",
+      "followers": 34,
+      "following": 0,
+      "public_repos": 13,
+      "location": "Seoul, Republic of Korea",
+      "bio": "기존 금융의 한계를 넘어 고객의 삶을 바꿉니다",
+      "company": null,
+      "created_at": "2018-07-12T11:29:27Z",
+      "total_stars": 138
+    },
+    {
       "login": "DevKor-github",
       "name": "DevKor",
       "avatar_url": "https://avatars.githubusercontent.com/u/129969227?s=88&v=4",
@@ -2415,20 +2429,6 @@
       "total_stars": 3023
     },
     {
-      "login": "peoplefund-tech",
-      "name": "PFC Technologies Tech House",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41152749?s=88&v=4",
-      "html_url": "https://github.com/peoplefund-tech",
-      "followers": 34,
-      "following": 0,
-      "public_repos": 13,
-      "location": "Seoul, Republic of Korea",
-      "bio": "기존 금융의 한계를 넘어 고객의 삶을 바꿉니다",
-      "company": null,
-      "created_at": "2018-07-12T11:29:27Z",
-      "total_stars": 138
-    },
-    {
       "login": "Finfra",
       "name": "Finfra",
       "avatar_url": "https://avatars.githubusercontent.com/u/10758935?s=88&v=4",
@@ -2443,20 +2443,6 @@
       "total_stars": 115
     },
     {
-      "login": "snu-sf",
-      "name": "Software Foundations Laboratory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8771070?s=88&v=4",
-      "html_url": "https://github.com/snu-sf",
-      "followers": 33,
-      "following": 0,
-      "public_repos": 41,
-      "location": "Seoul, Korea",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-09-14T20:50:55Z",
-      "total_stars": 218
-    },
-    {
       "login": "meshkorea",
       "name": "Vroong",
       "avatar_url": "https://avatars.githubusercontent.com/u/7954732?s=88&v=4",
@@ -2469,6 +2455,20 @@
       "company": null,
       "created_at": "2014-06-22T06:23:05Z",
       "total_stars": 390
+    },
+    {
+      "login": "snu-sf",
+      "name": "Software Foundations Laboratory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8771070?s=88&v=4",
+      "html_url": "https://github.com/snu-sf",
+      "followers": 33,
+      "following": 0,
+      "public_repos": 41,
+      "location": "Seoul, Korea",
+      "bio": null,
+      "company": null,
+      "created_at": "2014-09-14T20:50:55Z",
+      "total_stars": 218
     },
     {
       "login": "ProtoPie",

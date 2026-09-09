@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-09-08T09:44:00.675Z",
+  "generated_at": "2026-09-09T09:48:56.425Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 199113,
-    "org_followers": 99882,
+    "org_followers": 99833,
     "user_stars": 857068,
-    "org_stars": 1122484
+    "org_stars": 1124604
   },
   "queries": [
     {
@@ -2149,20 +2149,6 @@
       "total_stars": 6100
     },
     {
-      "login": "Alice-Bob-SW",
-      "name": "Alice & Bob",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72556371?s=88&v=4",
-      "html_url": "https://github.com/Alice-Bob-SW",
-      "followers": 133,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Paris",
-      "bio": ":black_cat: Test our cat qubits on the cloud — We are hiring!",
-      "company": null,
-      "created_at": "2020-10-08T12:09:26Z",
-      "total_stars": 72
-    },
-    {
       "login": "Smile-SA",
       "name": "Smile - Open Source Solutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/572339?s=88&v=4",
@@ -2513,20 +2499,6 @@
       "total_stars": 186
     },
     {
-      "login": "Dessia-tech",
-      "name": "DessIA Technologies",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36970700?s=88&v=4",
-      "html_url": "https://github.com/Dessia-tech",
-      "followers": 93,
-      "following": 0,
-      "public_repos": 20,
-      "location": "Paris, France",
-      "bio": "French Startup in engineering. We are hiring in Paris!",
-      "company": null,
-      "created_at": "2018-03-01T20:48:32Z",
-      "total_stars": 67
-    },
-    {
       "login": "vivadata",
       "name": "Artefact School of Data",
       "avatar_url": "https://avatars.githubusercontent.com/u/40315825?s=88&v=4",
@@ -2553,6 +2525,34 @@
       "company": null,
       "created_at": "2016-03-02T10:09:41Z",
       "total_stars": 2283
+    },
+    {
+      "login": "dailymotion",
+      "name": "Dailymotion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115313?s=88&v=4",
+      "html_url": "https://github.com/dailymotion",
+      "followers": 89,
+      "following": 0,
+      "public_repos": 50,
+      "location": "Paris, France",
+      "bio": "Watch, publish and share videos. Visit our developer portal at https://developer.dailymotion.com",
+      "company": null,
+      "created_at": "2009-08-14T13:04:48Z",
+      "total_stars": 1274
+    },
+    {
+      "login": "CEA-LIST",
+      "name": "CEA-List",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24958773?s=88&v=4",
+      "html_url": "https://github.com/CEA-LIST",
+      "followers": 88,
+      "following": 0,
+      "public_repos": 75,
+      "location": "CEA Paris-Saclay - Nano-Innov",
+      "bio": "Smart digital systems for Artificial intelligence, Factory of the Future and Digital Trust",
+      "company": null,
+      "created_at": "2017-01-06T12:50:46Z",
+      "total_stars": 985
     }
   ],
   "repos": [

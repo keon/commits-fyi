@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-09-08T09:43:14.110Z",
+  "generated_at": "2026-09-09T09:48:07.386Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 160612,
-    "org_followers": 25812,
+    "org_followers": 25813,
     "user_stars": 700668,
-    "org_stars": 199673
+    "org_stars": 200197
   },
   "queries": [
     {
@@ -873,20 +873,6 @@
       "total_stars": 318
     },
     {
-      "login": "Te-k",
-      "name": "Tek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15989628?s=88&u=7e42e05b8b30d6706597aa6c9fd90f4b3c35d904&v=4",
-      "html_url": "https://github.com/Te-k",
-      "followers": 1029,
-      "following": 162,
-      "public_repos": 49,
-      "location": "Toronto, Canada",
-      "bio": "Hacking things here and there, mostly threat intel, osint, malware analysis and human rights",
-      "company": null,
-      "created_at": "2015-11-23T22:53:52Z",
-      "total_stars": 3118
-    },
-    {
       "login": "caitp",
       "name": "⭐caitp⭐",
       "avatar_url": "https://avatars.githubusercontent.com/u/2294695?s=88&u=531b9cd33db3397e2a5150c24033e9b548f4f20a&v=4",
@@ -899,6 +885,20 @@
       "company": "Igalia",
       "created_at": "2012-09-06T20:58:48Z",
       "total_stars": 1023
+    },
+    {
+      "login": "Te-k",
+      "name": "Tek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15989628?s=88&u=7e42e05b8b30d6706597aa6c9fd90f4b3c35d904&v=4",
+      "html_url": "https://github.com/Te-k",
+      "followers": 1029,
+      "following": 162,
+      "public_repos": 49,
+      "location": "Toronto, Canada",
+      "bio": "Hacking things here and there, mostly threat intel, osint, malware analysis and human rights",
+      "company": null,
+      "created_at": "2015-11-23T22:53:52Z",
+      "total_stars": 3118
     },
     {
       "login": "k88hudson",
@@ -1167,20 +1167,6 @@
       "total_stars": 489
     },
     {
-      "login": "josh0xA",
-      "name": "Josh Schiavone",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29878743?s=88&u=6f0583bc5086fbde339b5e0f44ba827ea89e8322&v=4",
-      "html_url": "https://github.com/josh0xA",
-      "followers": 721,
-      "following": 21,
-      "public_repos": 20,
-      "location": "Toronto, Canada",
-      "bio": "Programmer and Security Researcher",
-      "company": null,
-      "created_at": "2017-07-04T02:47:33Z",
-      "total_stars": 3060
-    },
-    {
       "login": "kulkarniankita",
       "name": "Ankita Kulkarni",
       "avatar_url": "https://avatars.githubusercontent.com/u/2559673?s=88&u=647b28d603d1feaa04c3d17a69fc4bdf6d2bae3a&v=4",
@@ -1193,6 +1179,20 @@
       "company": "https://frontendsnacks.dev/ ",
       "created_at": "2012-10-14T22:46:52Z",
       "total_stars": 893
+    },
+    {
+      "login": "josh0xA",
+      "name": "Josh Schiavone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29878743?s=88&u=6f0583bc5086fbde339b5e0f44ba827ea89e8322&v=4",
+      "html_url": "https://github.com/josh0xA",
+      "followers": 721,
+      "following": 21,
+      "public_repos": 20,
+      "location": "Toronto, Canada",
+      "bio": "Programmer and Security Researcher",
+      "company": null,
+      "created_at": "2017-07-04T02:47:33Z",
+      "total_stars": 3060
     },
     {
       "login": "fwang",
@@ -1547,20 +1547,6 @@
       "total_stars": 2980
     },
     {
-      "login": "Cohere-Labs-Community",
-      "name": "Cohere Labs Community",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32472059?s=88&v=4",
-      "html_url": "https://github.com/Cohere-Labs-Community",
-      "followers": 489,
-      "following": 0,
-      "public_repos": 40,
-      "location": "Toronto, Canada",
-      "bio": "Cohere Labs is Cohere's research lab that seeks to solve complex ML problems and are focused on creating more points of entry to the field.",
-      "company": null,
-      "created_at": "2017-10-03T01:08:19Z",
-      "total_stars": 1145
-    },
-    {
       "login": "VectorInstitute",
       "name": "Vector Institute",
       "avatar_url": "https://avatars.githubusercontent.com/u/40637123?s=88&v=4",
@@ -1573,6 +1559,20 @@
       "company": null,
       "created_at": "2018-06-27T14:56:53Z",
       "total_stars": 1342
+    },
+    {
+      "login": "Cohere-Labs-Community",
+      "name": "Cohere Labs Community",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32472059?s=88&v=4",
+      "html_url": "https://github.com/Cohere-Labs-Community",
+      "followers": 489,
+      "following": 0,
+      "public_repos": 40,
+      "location": "Toronto, Canada",
+      "bio": "Cohere Labs is Cohere's research lab that seeks to solve complex ML problems and are focused on creating more points of entry to the field.",
+      "company": null,
+      "created_at": "2017-10-03T01:08:19Z",
+      "total_stars": 1145
     },
     {
       "login": "ethers-io",
@@ -2527,6 +2527,20 @@
       "total_stars": 298
     },
     {
+      "login": "WatchDogSecurity",
+      "name": "WatchDog Security",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86281582?s=88&v=4",
+      "html_url": "https://github.com/WatchDogSecurity",
+      "followers": 40,
+      "following": 0,
+      "public_repos": 2,
+      "location": "Toronto, Canada",
+      "bio": "Most platforms help you check boxes. We help you protect your business – with audit readiness as a natural outcome.",
+      "company": null,
+      "created_at": "2021-06-22T05:08:47Z",
+      "total_stars": 559
+    },
+    {
       "login": "Roestlab",
       "name": "Röst Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/33079190?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-10-25T03:30:16Z",
       "total_stars": 222
-    },
-    {
-      "login": "badal-io",
-      "name": "Badal.io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56888686?s=88&v=4",
-      "html_url": "https://github.com/badal-io",
-      "followers": 39,
-      "following": 0,
-      "public_repos": 26,
-      "location": "Toronto, Ontario",
-      "bio": "Google Cloud, Systems, Big Data & Network Experts",
-      "company": null,
-      "created_at": "2019-10-22T17:09:24Z",
-      "total_stars": 35
     }
   ],
   "repos": [

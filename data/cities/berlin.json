@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-09-08T09:43:17.459Z",
+  "generated_at": "2026-09-09T09:48:10.888Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 300723,
-    "org_followers": 32703,
+    "org_followers": 32653,
     "user_stars": 997335,
-    "org_stars": 741972
+    "org_stars": 742294
   },
   "queries": [
     {
@@ -2275,20 +2275,6 @@
       "total_stars": 5
     },
     {
-      "login": "flix-tech",
-      "name": "Flix.TECH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1230203?s=88&v=4",
-      "html_url": "https://github.com/flix-tech",
-      "followers": 125,
-      "following": 0,
-      "public_repos": 50,
-      "location": "Berlin, Munich, Kharkiv",
-      "bio": "We are the IT department of Flix. We ❤ technology, open source and building things. We are hiring!",
-      "company": null,
-      "created_at": "2011-11-30T08:22:56Z",
-      "total_stars": 425
-    },
-    {
       "login": "spring-media",
       "name": "as_tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/2039487?s=88&v=4",
@@ -2317,20 +2303,6 @@
       "total_stars": 661
     },
     {
-      "login": "WorldBrain",
-      "name": "WorldBrain.io - Collective Web Intelligence",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9511853?s=88&v=4",
-      "html_url": "https://github.com/WorldBrain",
-      "followers": 117,
-      "following": 0,
-      "public_repos": 69,
-      "location": "Berlin",
-      "bio": "We develop open source software for people to effortlessly organise their web research and collaborate with others",
-      "company": null,
-      "created_at": "2014-11-02T10:18:19Z",
-      "total_stars": 5439
-    },
-    {
       "login": "researchgate",
       "name": "ResearchGate",
       "avatar_url": "https://avatars.githubusercontent.com/u/1073651?s=88&v=4",
@@ -2343,6 +2315,20 @@
       "company": null,
       "created_at": "2011-09-23T11:28:23Z",
       "total_stars": 2764
+    },
+    {
+      "login": "WorldBrain",
+      "name": "WorldBrain.io - Collective Web Intelligence",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9511853?s=88&v=4",
+      "html_url": "https://github.com/WorldBrain",
+      "followers": 117,
+      "following": 0,
+      "public_repos": 69,
+      "location": "Berlin",
+      "bio": "We develop open source software for people to effortlessly organise their web research and collaborate with others",
+      "company": null,
+      "created_at": "2014-11-02T10:18:19Z",
+      "total_stars": 5439
     },
     {
       "login": "prototypefund",
@@ -2427,20 +2413,6 @@
       "company": null,
       "created_at": "2015-09-01T11:50:37Z",
       "total_stars": 1436
-    },
-    {
-      "login": "bakdata",
-      "name": "bakdata",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5708890?s=88&v=4",
-      "html_url": "https://github.com/bakdata",
-      "followers": 103,
-      "following": 0,
-      "public_repos": 58,
-      "location": "Berlin, Germany",
-      "bio": "🚀 data non-stop 🚀 We are a leader in the open source development of modern data streaming platforms. We are hiring!",
-      "company": null,
-      "created_at": "2013-10-17T11:17:58Z",
-      "total_stars": 633
     },
     {
       "login": "bigchaindb",
@@ -2553,6 +2525,34 @@
       "company": null,
       "created_at": "2012-10-31T14:02:38Z",
       "total_stars": 497
+    },
+    {
+      "login": "vanilophp",
+      "name": "Vanilo E-commerce",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33227344?s=88&v=4",
+      "html_url": "https://github.com/vanilophp",
+      "followers": 89,
+      "following": 0,
+      "public_repos": 39,
+      "location": "Berlin",
+      "bio": "Truly Laravel E-commerce Framework",
+      "company": null,
+      "created_at": "2017-10-30T14:43:23Z",
+      "total_stars": 1281
+    },
+    {
+      "login": "codeuniversity",
+      "name": "CODE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29784497?s=88&v=4",
+      "html_url": "https://github.com/codeuniversity",
+      "followers": 89,
+      "following": 0,
+      "public_repos": 81,
+      "location": "Berlin, Germany",
+      "bio": "CODE is a newly founded private university of applied sciences that is embedded into the vibrant network of Berlin’s digital economy.",
+      "company": null,
+      "created_at": "2017-06-29T20:02:31Z",
+      "total_stars": 99
     }
   ],
   "repos": [
