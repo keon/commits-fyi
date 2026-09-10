@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-09-09T09:48:03.335Z",
+  "generated_at": "2026-09-10T09:46:24.446Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1067611,
-    "org_followers": 338634,
+    "org_followers": 338624,
     "user_stars": 3250728,
-    "org_stars": 4595759
+    "org_stars": 4564521
   },
   "queries": [
     {
@@ -2541,18 +2541,18 @@
       "total_stars": 3011
     },
     {
-      "login": "hasura",
-      "name": "Hasura",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13966722?s=88&v=4",
-      "html_url": "https://github.com/hasura",
-      "followers": 975,
+      "login": "twilio",
+      "name": "Twilio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109142?s=88&v=4",
+      "html_url": "https://github.com/twilio",
+      "followers": 965,
       "following": 0,
-      "public_repos": 388,
-      "location": "San Francisco, Bangalore",
-      "bio": "Hasura is the universal data access layer for next-gen apps and AI",
+      "public_repos": 222,
+      "location": "San Francisco",
+      "bio": null,
       "company": null,
-      "created_at": "2015-08-25T16:31:42Z",
-      "total_stars": 49064
+      "created_at": "2009-07-27T17:04:49Z",
+      "total_stars": 17826
     }
   ],
   "repos": [
@@ -3305,25 +3305,6 @@
       "fork": false
     },
     {
-      "full_name": "hasura/graphql-engine",
-      "html_url": "https://github.com/hasura/graphql-engine",
-      "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
-      "stargazers_count": 32113,
-      "forks_count": 3050,
-      "language": "TypeScript",
-      "topics": [
-        "graphql",
-        "graphql-server",
-        "postgres",
-        "hasura",
-        "access-control"
-      ],
-      "owner_login": "hasura",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/13966722?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "airbnb/lottie-web",
       "html_url": "https://github.com/airbnb/lottie-web",
       "description": "Render After Effects animations natively on Web, Android and iOS, and React Native. http://airbnb.io/lottie/",
@@ -3413,6 +3394,24 @@
       "topics": [],
       "owner_login": "garrytan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/19957?s=88&u=d95c4a92ff27aea2b16949b1a31b434c61b64453&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "ariya/phantomjs",
+      "html_url": "https://github.com/ariya/phantomjs",
+      "description": "Scriptable Headless Browser",
+      "stargazers_count": 29438,
+      "forks_count": 5657,
+      "language": "C++",
+      "topics": [
+        "phantomjs",
+        "headless",
+        "headless-browser",
+        "automation"
+      ],
+      "owner_login": "ariya",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7288?s=88&u=d84135ccc1b777c4813c7f377ea8219279ba24ff&v=4",
       "owner_type": "User",
       "fork": false
     }
