@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-09-12T09:24:04.530Z",
+  "generated_at": "2026-09-13T10:19:42.778Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 132434,
+    "user_followers": 132442,
     "org_followers": 9248,
-    "user_stars": 546002,
-    "org_stars": 61222
+    "user_stars": 546576,
+    "org_stars": 61223
   },
   "queries": [
     {
@@ -1223,6 +1223,20 @@
       "total_stars": 2113
     },
     {
+      "login": "JackWhitmore",
+      "name": "Jack Whitmore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28727499?s=88&u=e5f3f312e11812246abca0edeb9bd861c7b8c1f4&v=4",
+      "html_url": "https://github.com/JackWhitmore",
+      "followers": 436,
+      "following": 962,
+      "public_repos": 49,
+      "location": "Sydney, Australia",
+      "bio": "Full Stack Web Developer\r\nPython | JavaScript | HTML",
+      "company": "BrightPath Digital",
+      "created_at": "2017-05-16T09:10:26Z",
+      "total_stars": 84
+    },
+    {
       "login": "kevin-lee",
       "name": "Kevin Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/2307335?s=88&u=f28ab7c1bf7ac45005b08b8f097f8693bbdb2d4a&v=4",
@@ -1235,20 +1249,6 @@
       "company": null,
       "created_at": "2012-09-08T17:18:35Z",
       "total_stars": 455
-    },
-    {
-      "login": "alessandrod",
-      "name": "Alessandro Decina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/62002?s=88&u=37aa36bcc913992cd3b833d2e5b2ac151cffbb59&v=4",
-      "html_url": "https://github.com/alessandrod",
-      "followers": 432,
-      "following": 31,
-      "public_repos": 28,
-      "location": "Sydney, Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-03-10T14:48:19Z",
-      "total_stars": 413
     },
     {
       "login": "MajicDesigns",
@@ -1265,6 +1265,20 @@
       "total_stars": 1494
     },
     {
+      "login": "alessandrod",
+      "name": "Alessandro Decina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62002?s=88&u=37aa36bcc913992cd3b833d2e5b2ac151cffbb59&v=4",
+      "html_url": "https://github.com/alessandrod",
+      "followers": 432,
+      "following": 31,
+      "public_repos": 28,
+      "location": "Sydney, Australia",
+      "bio": null,
+      "company": null,
+      "created_at": "2009-03-10T14:48:19Z",
+      "total_stars": 413
+    },
+    {
       "login": "FedericoTartarini",
       "name": "Federico Tartarini",
       "avatar_url": "https://avatars.githubusercontent.com/u/40018640?s=88&u=d3977559e371cefa633ccec94300fb85c2903ba7&v=4",
@@ -1277,20 +1291,6 @@
       "company": "The University of Sydney",
       "created_at": "2018-06-07T06:46:53Z",
       "total_stars": 142
-    },
-    {
-      "login": "JackWhitmore",
-      "name": "Jack Whitmore",
-      "avatar_url": "https://avatars.githubusercontent.com/u/28727499?s=88&u=e5f3f312e11812246abca0edeb9bd861c7b8c1f4&v=4",
-      "html_url": "https://github.com/JackWhitmore",
-      "followers": 428,
-      "following": 963,
-      "public_repos": 49,
-      "location": "Sydney, Australia",
-      "bio": "Full Stack Web Developer\r\nPython | JavaScript | HTML",
-      "company": "BrightPath Digital",
-      "created_at": "2017-05-16T09:10:26Z",
-      "total_stars": 84
     },
     {
       "login": "Z-Shang",
@@ -1391,20 +1391,6 @@
       "total_stars": 2118
     },
     {
-      "login": "ray-x",
-      "name": "rayx",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1681295?s=88&u=401586e9547150a0f07c7c0892eb57231e5f0df4&v=4",
-      "html_url": "https://github.com/ray-x",
-      "followers": 390,
-      "following": 30,
-      "public_repos": 42,
-      "location": "Sydney",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-04-26T09:15:35Z",
-      "total_stars": 8657
-    },
-    {
       "login": "gloveboxes",
       "name": "Dave Glover",
       "avatar_url": "https://avatars.githubusercontent.com/u/9853509?s=88&u=f66b7e8e54a5a829b23a63910776351063cb64b2&v=4",
@@ -1419,18 +1405,32 @@
       "total_stars": 664
     },
     {
-      "login": "bartjellema",
-      "name": "Bart Jellema",
-      "avatar_url": "https://avatars.githubusercontent.com/u/993603?s=88&u=6efecac5a8cf479012b5f73e1b0aa70087dfd296&v=4",
-      "html_url": "https://github.com/bartjellema",
-      "followers": 386,
-      "following": 4,
-      "public_repos": 20,
-      "location": "Sydney, Australia",
+      "login": "ray-x",
+      "name": "rayx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1681295?s=88&u=401586e9547150a0f07c7c0892eb57231e5f0df4&v=4",
+      "html_url": "https://github.com/ray-x",
+      "followers": 390,
+      "following": 30,
+      "public_repos": 42,
+      "location": "Sydney",
       "bio": null,
       "company": null,
-      "created_at": "2011-08-21T00:26:39Z",
-      "total_stars": 637
+      "created_at": "2012-04-26T09:15:35Z",
+      "total_stars": 8657
+    },
+    {
+      "login": "anthonygore",
+      "name": "Anthony Gore",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5368448?s=88&u=0b55d61310166c1da5da8121825b3ab2cbe30580&v=4",
+      "html_url": "https://github.com/anthonygore",
+      "followers": 386,
+      "following": 1,
+      "public_repos": 56,
+      "location": "Sydney, Australia",
+      "bio": "Web developer with a crush on Vue.js",
+      "company": "@Rocket-Alumni-Solutions ",
+      "created_at": "2013-09-02T23:29:31Z",
+      "total_stars": 1211
     }
   ],
   "orgs": [
@@ -2552,7 +2552,7 @@
       "bio": "A collaborative team comprised of members of The Sydney Cytometry Core Research Facility, Discipline of Pathology, and School of IT at the University of Sydney",
       "company": null,
       "created_at": "2020-08-12T06:01:45Z",
-      "total_stars": 72
+      "total_stars": 73
     }
   ],
   "repos": [

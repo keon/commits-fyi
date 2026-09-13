@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-09-12T09:24:06.355Z",
+  "generated_at": "2026-09-13T10:19:44.373Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1366080,
-    "org_followers": 1000582,
+    "user_followers": 1366176,
+    "org_followers": 1000746,
     "user_stars": 3430336,
-    "org_stars": 10741435
+    "org_stars": 10699591
   },
   "queries": [
     {
@@ -961,8 +961,8 @@
       "name": "pwnedroot",
       "avatar_url": "https://avatars.githubusercontent.com/u/176189052?s=88&u=2fcfa239d0602900da94fa57032524af26be59e0&v=4",
       "html_url": "https://github.com/pwnedroot",
-      "followers": 7379,
-      "following": 176519,
+      "followers": 7475,
+      "following": 176506,
       "public_repos": 7,
       "location": "United States",
       "bio": "👋 Hi there! I'm pwnedroot, a cybersecurity student with a strong focus on bug bounties and penetration testing. Follow me if you like my work!🚀",
@@ -2471,18 +2471,32 @@
       "total_stars": 31648
     },
     {
+      "login": "TauricResearch",
+      "name": "Tauric Research",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192884433?s=88&v=4",
+      "html_url": "https://github.com/TauricResearch",
+      "followers": 3657,
+      "following": 0,
+      "public_repos": 3,
+      "location": "United States of America",
+      "bio": "Pioneering Trading Intelligence with AI Precision",
+      "company": null,
+      "created_at": "2024-12-26T12:55:22Z",
+      "total_stars": 105375
+    },
+    {
       "login": "unslothai",
       "name": "Unsloth AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/150920049?s=88&v=4",
       "html_url": "https://github.com/unslothai",
-      "followers": 3638,
+      "followers": 3656,
       "following": 0,
       "public_repos": 4,
       "location": "United States of America",
       "bio": "Run and train AI models locally. 🦥",
       "company": null,
       "created_at": "2023-11-15T12:23:54Z",
-      "total_stars": 84422
+      "total_stars": 84601
     },
     {
       "login": "StackExchange",
@@ -2527,32 +2541,18 @@
       "total_stars": 42265
     },
     {
-      "login": "salesforce",
-      "name": "Salesforce",
-      "avatar_url": "https://avatars.githubusercontent.com/u/453694?s=88&v=4",
-      "html_url": "https://github.com/salesforce",
-      "followers": 3514,
+      "login": "githubnext",
+      "name": "GitHub Next",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89615882?s=88&v=4",
+      "html_url": "https://github.com/githubnext",
+      "followers": 3512,
       "following": 0,
-      "public_repos": 420,
+      "public_repos": 76,
       "location": "United States of America",
-      "bio": "Noteworthy Open Source projects made available by Salesforce. Available under Open Source or Creative Commons licensing. No warranty or support implied",
+      "bio": "Exploring the future of software development",
       "company": null,
-      "created_at": "2010-10-25T21:15:24Z",
-      "total_stars": 68157
-    },
-    {
-      "login": "TauricResearch",
-      "name": "Tauric Research",
-      "avatar_url": "https://avatars.githubusercontent.com/u/192884433?s=88&v=4",
-      "html_url": "https://github.com/TauricResearch",
-      "followers": 3509,
-      "following": 0,
-      "public_repos": 3,
-      "location": "United States of America",
-      "bio": "Pioneering Trading Intelligence with AI Precision",
-      "company": null,
-      "created_at": "2024-12-26T12:55:22Z",
-      "total_stars": 103997
+      "created_at": "2021-08-26T23:49:35Z",
+      "total_stars": 24756
     }
   ],
   "repos": [
@@ -2957,8 +2957,8 @@
       "full_name": "TauricResearch/TradingAgents",
       "html_url": "https://github.com/TauricResearch/TradingAgents",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "stargazers_count": 103501,
-      "forks_count": 19920,
+      "stargazers_count": 104874,
+      "forks_count": 20131,
       "language": "Python",
       "topics": [
         "agent",
@@ -3088,8 +3088,8 @@
       "full_name": "unslothai/unsloth",
       "html_url": "https://github.com/unslothai/unsloth",
       "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
-      "stargazers_count": 75919,
-      "forks_count": 6904,
+      "stargazers_count": 76085,
+      "forks_count": 6932,
       "language": "Python",
       "topics": [
         "fine-tuning",
