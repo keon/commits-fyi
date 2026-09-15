@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-09-14T10:50:38.108Z",
+  "generated_at": "2026-09-15T10:08:14.086Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 375342,
-    "org_followers": 68201,
+    "org_followers": 68203,
     "user_stars": 1043686,
-    "org_stars": 1079638
+    "org_stars": 1079704
   },
   "queries": [
     {
@@ -1883,20 +1883,6 @@
       "total_stars": 364
     },
     {
-      "login": "go-playground",
-      "name": "Go Playgound",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14768796?s=88&v=4",
-      "html_url": "https://github.com/go-playground",
-      "followers": 585,
-      "following": 0,
-      "public_repos": 39,
-      "location": "Canada",
-      "bio": "multiple packages, libraries and programs to further the advancement of Go!",
-      "company": null,
-      "created_at": "2015-09-22T12:00:28Z",
-      "total_stars": 25568
-    },
-    {
       "login": "inference-labs-inc",
       "name": "Inference Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/135754413?s=88&v=4",
@@ -1909,6 +1895,20 @@
       "company": null,
       "created_at": "2023-06-06T19:05:28Z",
       "total_stars": 10598
+    },
+    {
+      "login": "go-playground",
+      "name": "Go Playgound",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14768796?s=88&v=4",
+      "html_url": "https://github.com/go-playground",
+      "followers": 585,
+      "following": 0,
+      "public_repos": 39,
+      "location": "Canada",
+      "bio": "multiple packages, libraries and programs to further the advancement of Go!",
+      "company": null,
+      "created_at": "2015-09-22T12:00:28Z",
+      "total_stars": 25568
     },
     {
       "login": "koii-network",
@@ -2153,14 +2153,14 @@
       "name": "Grammarly",
       "avatar_url": "https://avatars.githubusercontent.com/u/352781?s=88&v=4",
       "html_url": "https://github.com/grammarly",
-      "followers": 433,
+      "followers": 434,
       "following": 0,
       "public_repos": 22,
       "location": "San Francisco, Vancouver, and Kyiv",
       "bio": "Millions of users rely on Grammarly's AI-powered products to make their messages, documents, and social media posts clear, mistake-free, and impactful.",
       "company": null,
       "created_at": "2010-08-03T12:56:01Z",
-      "total_stars": 4365
+      "total_stars": 4367
     },
     {
       "login": "WiiLink24",
@@ -2174,21 +2174,21 @@
       "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
       "company": null,
       "created_at": "2020-10-06T17:15:01Z",
-      "total_stars": 747
+      "total_stars": 746
     },
     {
       "login": "scalar",
       "name": "Scalar",
       "avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
       "html_url": "https://github.com/scalar",
-      "followers": 411,
+      "followers": 412,
       "following": 0,
       "public_repos": 30,
       "location": "Canada",
       "bio": "Document, Discover & Test APIs with Scalar",
       "company": null,
       "created_at": "2010-06-10T13:56:51Z",
-      "total_stars": 16305
+      "total_stars": 16322
     },
     {
       "login": "pycaret",
@@ -2209,14 +2209,14 @@
       "name": "Wild Kernels",
       "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
       "html_url": "https://github.com/WildKernels",
-      "followers": 402,
+      "followers": 403,
       "following": 0,
       "public_repos": 15,
       "location": "Canada",
       "bio": "Custom kernels for android and more!",
       "company": null,
       "created_at": "2025-01-31T01:32:51Z",
-      "total_stars": 3115
+      "total_stars": 3125
     },
     {
       "login": "AutodeskAILab",
@@ -2321,14 +2321,28 @@
       "name": "requarks.io",
       "avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
       "html_url": "https://github.com/requarks",
-      "followers": 347,
+      "followers": 348,
       "following": 0,
       "public_repos": 25,
       "location": "Canada",
       "bio": "Open source applications for teams",
       "company": null,
       "created_at": "2016-01-16T04:21:39Z",
-      "total_stars": 29489
+      "total_stars": 29512
+    },
+    {
+      "login": "MobilityData",
+      "name": "MobilityData IO",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41021710?s=88&v=4",
+      "html_url": "https://github.com/MobilityData",
+      "followers": 347,
+      "following": 0,
+      "public_repos": 42,
+      "location": "Canada",
+      "bio": "Better transportation through data",
+      "company": null,
+      "created_at": "2018-07-09T17:48:49Z",
+      "total_stars": 4422
     },
     {
       "login": "Globe-Engineer",
@@ -2345,20 +2359,6 @@
       "total_stars": 198
     },
     {
-      "login": "MobilityData",
-      "name": "MobilityData IO",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41021710?s=88&v=4",
-      "html_url": "https://github.com/MobilityData",
-      "followers": 346,
-      "following": 0,
-      "public_repos": 42,
-      "location": "Canada",
-      "bio": "Better transportation through data",
-      "company": null,
-      "created_at": "2018-07-09T17:48:49Z",
-      "total_stars": 4412
-    },
-    {
       "login": "SamsungSAILMontreal",
       "name": "Samsung AI Lab (SAIL) Montreal",
       "avatar_url": "https://avatars.githubusercontent.com/u/127172610?s=88&v=4",
@@ -2370,7 +2370,7 @@
       "bio": null,
       "company": null,
       "created_at": "2023-03-07T04:02:26Z",
-      "total_stars": 6978
+      "total_stars": 6979
     },
     {
       "login": "JOMACS-IT",
@@ -2447,7 +2447,7 @@
       "name": "vlt /vōlt/",
       "avatar_url": "https://avatars.githubusercontent.com/u/121986630?s=88&v=4",
       "html_url": "https://github.com/vltpkg",
-      "followers": 331,
+      "followers": 329,
       "following": 0,
       "public_repos": 17,
       "location": "Canada",
@@ -2461,14 +2461,14 @@
       "name": "TablePlus",
       "avatar_url": "https://avatars.githubusercontent.com/u/29408238?s=88&v=4",
       "html_url": "https://github.com/TablePlus",
-      "followers": 329,
+      "followers": 328,
       "following": 0,
       "public_repos": 19,
       "location": "Canada",
       "bio": "Database Management made easy",
       "company": null,
       "created_at": "2017-06-13T16:14:56Z",
-      "total_stars": 5924
+      "total_stars": 5927
     },
     {
       "login": "McGill-NLP",
@@ -2482,7 +2482,7 @@
       "bio": "Research group within McGill University and Mila focusing on various topics in natural language processing. ",
       "company": null,
       "created_at": "2020-10-20T02:01:21Z",
-      "total_stars": 5760
+      "total_stars": 5761
     },
     {
       "login": "Data-Learn",
@@ -2519,7 +2519,7 @@
       "html_url": "https://github.com/UBC-MDS",
       "followers": 318,
       "following": 0,
-      "public_repos": 68,
+      "public_repos": 69,
       "location": "Vancouver, BC, Canada",
       "bio": "10-month, full-time, course-based Master’s program, first cohort starts September 2016",
       "company": null,
@@ -2625,7 +2625,7 @@
       "html_url": "https://github.com/meteor/meteor",
       "description": "Meteor, the JavaScript App Platform",
       "stargazers_count": 44802,
-      "forks_count": 5243,
+      "forks_count": 5242,
       "language": "JavaScript",
       "topics": [
         "javascript",
@@ -2730,8 +2730,8 @@
       "full_name": "requarks/wiki",
       "html_url": "https://github.com/requarks/wiki",
       "description": "Wiki.js | Next Generation Open Source Wiki",
-      "stargazers_count": 28902,
-      "forks_count": 3317,
+      "stargazers_count": 28925,
+      "forks_count": 3315,
       "language": "Vue",
       "topics": [
         "wiki",
@@ -3095,7 +3095,7 @@
       "full_name": "scalar/scalar",
       "html_url": "https://github.com/scalar/scalar",
       "description": "Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
-      "stargazers_count": 16091,
+      "stargazers_count": 16108,
       "forks_count": 937,
       "language": "TypeScript",
       "topics": [

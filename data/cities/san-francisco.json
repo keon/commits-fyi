@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-09-14T10:43:14.558Z",
+  "generated_at": "2026-09-15T10:06:08.562Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2373,20 +2373,6 @@
       "total_stars": 7764
     },
     {
-      "login": "slackhq",
-      "name": "Slack",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6911160?s=88&v=4",
-      "html_url": "https://github.com/slackhq",
-      "followers": 1070,
-      "following": 0,
-      "public_repos": 52,
-      "location": "San Francisco & Vancouver",
-      "bio": "On a mission to make your working life simpler, more pleasant and more productive.",
-      "company": null,
-      "created_at": "2014-03-10T19:23:15Z",
-      "total_stars": 38630
-    },
-    {
       "login": "circleci",
       "name": "CircleCI",
       "avatar_url": "https://avatars.githubusercontent.com/u/1231870?s=88&v=4",
@@ -2399,6 +2385,20 @@
       "company": null,
       "created_at": "2011-11-30T21:12:25Z",
       "total_stars": 1549
+    },
+    {
+      "login": "slackhq",
+      "name": "Slack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6911160?s=88&v=4",
+      "html_url": "https://github.com/slackhq",
+      "followers": 1070,
+      "following": 0,
+      "public_repos": 52,
+      "location": "San Francisco & Vancouver",
+      "bio": "On a mission to make your working life simpler, more pleasant and more productive.",
+      "company": null,
+      "created_at": "2014-03-10T19:23:15Z",
+      "total_stars": 38630
     },
     {
       "login": "alchemyplatform",
@@ -2768,6 +2768,19 @@
       ],
       "owner_login": "prakhar1989",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/649249?s=88&u=96f77f0b3a0fb0d50682c7a31bf295e38ff64074&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "stargazers_count": 68160,
+      "forks_count": 4175,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "pbakaus",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/43004?s=88&u=a2129579fad3fa98301c2d64da926bbb5fb6b129&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3394,24 +3407,6 @@
       "topics": [],
       "owner_login": "garrytan",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/19957?s=88&u=d95c4a92ff27aea2b16949b1a31b434c61b64453&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ariya/phantomjs",
-      "html_url": "https://github.com/ariya/phantomjs",
-      "description": "Scriptable Headless Browser",
-      "stargazers_count": 29436,
-      "forks_count": 5657,
-      "language": "C++",
-      "topics": [
-        "phantomjs",
-        "headless",
-        "headless-browser",
-        "automation"
-      ],
-      "owner_login": "ariya",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7288?s=88&u=d84135ccc1b777c4813c7f377ea8219279ba24ff&v=4",
       "owner_type": "User",
       "fork": false
     }

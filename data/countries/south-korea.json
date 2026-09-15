@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-09-14T10:50:13.357Z",
+  "generated_at": "2026-09-15T10:08:10.468Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 148281,
-    "org_followers": 29915,
+    "org_followers": 29916,
     "user_stars": 753279,
-    "org_stars": 312111
+    "org_stars": 312119
   },
   "queries": [
     {
@@ -1167,20 +1167,6 @@
       "total_stars": 198
     },
     {
-      "login": "godrm",
-      "name": "Jung Kim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/278988?s=88&u=5f4ed84a1516b9d9586d36edd285cfac4d0ec51f&v=4",
-      "html_url": "https://github.com/godrm",
-      "followers": 691,
-      "following": 3,
-      "public_repos": 25,
-      "location": "Seoul, KOREA",
-      "bio": "늘 다음 스텝을 고민하는 개발자입니다.",
-      "company": "Codesquad",
-      "created_at": "2010-05-17T08:50:08Z",
-      "total_stars": 1414
-    },
-    {
       "login": "ratsgo",
       "name": "gichang.lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/26211652?s=88&u=31d0badf4ae010402c0c9edce09b0df7257825da&v=4",
@@ -1193,6 +1179,20 @@
       "company": "NAVER Clova",
       "created_at": "2017-03-06T02:32:56Z",
       "total_stars": 699
+    },
+    {
+      "login": "godrm",
+      "name": "Jung Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/278988?s=88&u=5f4ed84a1516b9d9586d36edd285cfac4d0ec51f&v=4",
+      "html_url": "https://github.com/godrm",
+      "followers": 691,
+      "following": 3,
+      "public_repos": 25,
+      "location": "Seoul, KOREA",
+      "bio": "늘 다음 스텝을 고민하는 개발자입니다.",
+      "company": "Codesquad",
+      "created_at": "2010-05-17T08:50:08Z",
+      "total_stars": 1414
     },
     {
       "login": "Jamkris",
@@ -1953,6 +1953,20 @@
       "total_stars": 2916
     },
     {
+      "login": "BitterSecurity",
+      "name": "Bitter Security",
+      "avatar_url": "https://avatars.githubusercontent.com/u/211282590?s=88&v=4",
+      "html_url": "https://github.com/BitterSecurity",
+      "followers": 213,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Korea, South",
+      "bio": "Autonomous Red Teaming Multi-Agent",
+      "company": null,
+      "created_at": "2025-05-12T03:58:14Z",
+      "total_stars": 5587
+    },
+    {
       "login": "mash-up-kr",
       "name": "Mash-Up",
       "avatar_url": "https://avatars.githubusercontent.com/u/17095685?s=88&v=4",
@@ -1979,20 +1993,6 @@
       "company": null,
       "created_at": "2019-07-01T04:31:58Z",
       "total_stars": 122
-    },
-    {
-      "login": "PurpleAILAB",
-      "name": "Bitter Security",
-      "avatar_url": "https://avatars.githubusercontent.com/u/211282590?s=88&v=4",
-      "html_url": "https://github.com/PurpleAILAB",
-      "followers": 212,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Korea, South",
-      "bio": "Autonomous Red Teaming Multi-Agent",
-      "company": null,
-      "created_at": "2025-05-12T03:58:14Z",
-      "total_stars": 5579
     },
     {
       "login": "kaist-cp",
@@ -2289,20 +2289,6 @@
       "total_stars": 997
     },
     {
-      "login": "YAPP-Github",
-      "name": "YAPP - 작은 아이디어로 세상을 크게 변화시키다.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/101037471?s=88&v=4",
-      "html_url": "https://github.com/YAPP-Github",
-      "followers": 145,
-      "following": 0,
-      "public_repos": 185,
-      "location": "Korea, South",
-      "bio": "Your own idea can change the Actual world at anytime with Passion and Potential.",
-      "company": null,
-      "created_at": "2022-03-06T07:35:34Z",
-      "total_stars": 499
-    },
-    {
       "login": "pythonkr",
       "name": "Python Korea",
       "avatar_url": "https://avatars.githubusercontent.com/u/3192767?s=88&v=4",
@@ -2315,6 +2301,20 @@
       "company": null,
       "created_at": "2013-01-05T12:47:57Z",
       "total_stars": 343
+    },
+    {
+      "login": "YAPP-Github",
+      "name": "YAPP - 작은 아이디어로 세상을 크게 변화시키다.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101037471?s=88&v=4",
+      "html_url": "https://github.com/YAPP-Github",
+      "followers": 145,
+      "following": 0,
+      "public_repos": 185,
+      "location": "Korea, South",
+      "bio": "Your own idea can change the Actual world at anytime with Passion and Potential.",
+      "company": null,
+      "created_at": "2022-03-06T07:35:34Z",
+      "total_stars": 499
     },
     {
       "login": "dmis-lab",
@@ -3179,11 +3179,11 @@
       "fork": false
     },
     {
-      "full_name": "PurpleAILAB/Decepticon",
-      "html_url": "https://github.com/PurpleAILAB/Decepticon",
+      "full_name": "BitterSecurity/Decepticon",
+      "html_url": "https://github.com/BitterSecurity/Decepticon",
       "description": "Autonomous Hacking Agent for Red Team",
-      "stargazers_count": 5507,
-      "forks_count": 1045,
+      "stargazers_count": 5514,
+      "forks_count": 1048,
       "language": "Python",
       "topics": [
         "agent",
@@ -3192,7 +3192,7 @@
         "hacking",
         "langchain"
       ],
-      "owner_login": "PurpleAILAB",
+      "owner_login": "BitterSecurity",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/211282590?s=88&v=4",
       "owner_type": "Organization",
       "fork": false

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-09-14T10:48:16.336Z",
+  "generated_at": "2026-09-15T10:07:11.410Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 1367213,
-    "org_followers": 1002989,
+    "org_followers": 1002993,
     "user_stars": 3434104,
     "org_stars": 10756868
   },
@@ -453,20 +453,6 @@
       "total_stars": 63435
     },
     {
-      "login": "CoreyMSchafer",
-      "name": "Corey Schafer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4048251?s=88&u=5c9643e2cfef8ca228f9446d04c99b67c1ee9f7d&v=4",
-      "html_url": "https://github.com/CoreyMSchafer",
-      "followers": 13861,
-      "following": 5,
-      "public_repos": 30,
-      "location": "United States",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-04-03T12:58:54Z",
-      "total_stars": 12387
-    },
-    {
       "login": "bot50",
       "name": "CS50 Bot",
       "avatar_url": "https://avatars.githubusercontent.com/u/20504399?s=88&u=d6678aec2187f7af36040604b8e08d8c694eda55&v=4",
@@ -479,6 +465,20 @@
       "company": "@cs50",
       "created_at": "2016-07-17T17:52:30Z",
       "total_stars": 0
+    },
+    {
+      "login": "CoreyMSchafer",
+      "name": "Corey Schafer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4048251?s=88&u=5c9643e2cfef8ca228f9446d04c99b67c1ee9f7d&v=4",
+      "html_url": "https://github.com/CoreyMSchafer",
+      "followers": 13861,
+      "following": 5,
+      "public_repos": 30,
+      "location": "United States",
+      "bio": null,
+      "company": null,
+      "created_at": "2013-04-03T12:58:54Z",
+      "total_stars": 12387
     },
     {
       "login": "soumith",
@@ -2205,20 +2205,6 @@
       "total_stars": 32044
     },
     {
-      "login": "hak5",
-      "name": "Hak5",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9473275?s=88&v=4",
-      "html_url": "https://github.com/hak5",
-      "followers": 4214,
-      "following": 0,
-      "public_repos": 27,
-      "location": "United States of America",
-      "bio": "Welcome to the Hak5 Repositories!",
-      "company": null,
-      "created_at": "2014-10-31T01:55:18Z",
-      "total_stars": 15013
-    },
-    {
       "login": "jina-ai",
       "name": "Jina AI",
       "avatar_url": "https://avatars.githubusercontent.com/u/60539444?s=88&v=4",
@@ -2231,6 +2217,20 @@
       "company": null,
       "created_at": "2020-02-01T09:30:55Z",
       "total_stars": 71877
+    },
+    {
+      "login": "hak5",
+      "name": "Hak5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9473275?s=88&v=4",
+      "html_url": "https://github.com/hak5",
+      "followers": 4214,
+      "following": 0,
+      "public_repos": 27,
+      "location": "United States of America",
+      "bio": "Welcome to the Hak5 Repositories!",
+      "company": null,
+      "created_at": "2014-10-31T01:55:18Z",
+      "total_stars": 15013
     },
     {
       "login": "run-llama",
@@ -2545,9 +2545,9 @@
       "name": "Salesforce",
       "avatar_url": "https://avatars.githubusercontent.com/u/453694?s=88&v=4",
       "html_url": "https://github.com/salesforce",
-      "followers": 3514,
+      "followers": 3518,
       "following": 0,
-      "public_repos": 420,
+      "public_repos": 421,
       "location": "United States of America",
       "bio": "Noteworthy Open Source projects made available by Salesforce. Available under Open Source or Creative Commons licensing. No warranty or support implied",
       "company": null,
