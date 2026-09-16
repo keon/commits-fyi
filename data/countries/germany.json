@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-09-15T10:08:02.627Z",
+  "generated_at": "2026-09-16T10:00:05.884Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 459258,
-    "org_followers": 118704,
-    "user_stars": 1504124,
-    "org_stars": 1780740
+    "user_followers": 458916,
+    "org_followers": 118705,
+    "user_stars": 1597756,
+    "org_stars": 1780396
   },
   "queries": [
     {
@@ -1153,20 +1153,6 @@
       "total_stars": 16416
     },
     {
-      "login": "bylickilabs",
-      "name": "Thorsten Bylicki",
-      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=4a499383b27c66132d1de7a1e50cd3f782d01d9e&v=4",
-      "html_url": "https://github.com/bylickilabs",
-      "followers": 2357,
-      "following": 151,
-      "public_repos": 142,
-      "location": "Germany",
-      "bio": "Ethical Hacker, Cybersecurity Specialist, Chaos Computer Club Member, Security Researcher, Offensive Security, Reverse Engineering",
-      "company": "Chaos Computer Club",
-      "created_at": "2022-07-14T18:18:12Z",
-      "total_stars": 116
-    },
-    {
       "login": "foosel",
       "name": "Gina Häußge",
       "avatar_url": "https://avatars.githubusercontent.com/u/83657?s=88&u=f4f4bf757d4733719f0d4898428ef89a6dd13922&v=4",
@@ -1431,6 +1417,20 @@
       "company": "@mongodb ",
       "created_at": "2011-07-07T00:24:34Z",
       "total_stars": 688
+    },
+    {
+      "login": "Leonxlnx",
+      "name": "Leon Lin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/219127460?s=88&u=bbc1e8eb0abd903cb50f88b3418b64b34343c936&v=4",
+      "html_url": "https://github.com/Leonxlnx",
+      "followers": 2015,
+      "following": 31,
+      "public_repos": 42,
+      "location": "Munich",
+      "bio": "I build cool stuff",
+      "company": null,
+      "created_at": "2025-07-03T11:15:01Z",
+      "total_stars": 93748
     }
   ],
   "orgs": [
@@ -1673,20 +1673,6 @@
       "total_stars": 2867
     },
     {
-      "login": "explosion",
-      "name": "Explosion",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20011530?s=88&v=4",
-      "html_url": "https://github.com/explosion",
-      "followers": 1510,
-      "following": 0,
-      "public_repos": 76,
-      "location": "Berlin, Germany",
-      "bio": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
-      "company": null,
-      "created_at": "2016-06-18T09:18:01Z",
-      "total_stars": 55574
-    },
-    {
       "login": "deliveryhero",
       "name": "Delivery Hero SE",
       "avatar_url": "https://avatars.githubusercontent.com/u/7225556?s=88&v=4",
@@ -1699,6 +1685,20 @@
       "company": null,
       "created_at": "2014-04-08T13:09:24Z",
       "total_stars": 1497
+    },
+    {
+      "login": "explosion",
+      "name": "Explosion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20011530?s=88&v=4",
+      "html_url": "https://github.com/explosion",
+      "followers": 1510,
+      "following": 0,
+      "public_repos": 76,
+      "location": "Berlin, Germany",
+      "bio": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
+      "company": null,
+      "created_at": "2016-06-18T09:18:01Z",
+      "total_stars": 55574
     },
     {
       "login": "deepset-ai",
@@ -2541,18 +2541,18 @@
       "total_stars": 22318
     },
     {
-      "login": "tum-pbs",
-      "name": "TUM Physics-based Simulation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57992617?s=88&v=4",
-      "html_url": "https://github.com/tum-pbs",
-      "followers": 467,
+      "login": "GIScience",
+      "name": "GIScience Research Group and HeiGIT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4661504?s=88&v=4",
+      "html_url": "https://github.com/GIScience",
+      "followers": 468,
       "following": 0,
-      "public_repos": 55,
-      "location": "Munich!",
-      "bio": null,
+      "public_repos": 143,
+      "location": "Heidelberg, Germany",
+      "bio": "🌍 HeiGIT and GIScience at Heidelberg University are engaged in research and opensource development at the interface between geography and computational science",
       "company": null,
-      "created_at": "2019-11-20T12:24:45Z",
-      "total_stars": 5040
+      "created_at": "2013-06-10T13:45:12Z",
+      "total_stars": 4696
     }
   ],
   "repos": [

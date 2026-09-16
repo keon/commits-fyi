@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Brazil",
   "slug": "brazil",
-  "generated_at": "2026-09-15T10:08:11.435Z",
+  "generated_at": "2026-09-16T10:00:14.784Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 714137,
+    "user_followers": 717523,
     "org_followers": 87903,
-    "user_stars": 765470,
+    "user_stars": 765955,
     "org_stars": 277353
   },
   "queries": [
@@ -437,6 +437,20 @@
       "company": "Decoder",
       "created_at": "2016-11-10T19:18:47Z",
       "total_stars": 1592
+    },
+    {
+      "login": "JoasASantos",
+      "name": "Joas A Santos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34966120?s=88&u=04e7f5ad1944b8b42fe2037be089253b89822be0&v=4",
+      "html_url": "https://github.com/JoasASantos",
+      "followers": 5402,
+      "following": 30,
+      "public_repos": 263,
+      "location": "Brasil",
+      "bio": "Academic and Professional experience in Cyber Security / Red Team Lead / Information Security Researcher.",
+      "company": null,
+      "created_at": "2017-12-30T17:57:51Z",
+      "total_stars": 18978
     },
     {
       "login": "jeffersongoncalves",
@@ -1417,20 +1431,6 @@
       "company": "Arctouch",
       "created_at": "2015-07-11T19:24:00Z",
       "total_stars": 2729
-    },
-    {
-      "login": "Diolinux",
-      "name": "Diolinux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13944967?s=88&u=b17d364cd671128dc0c1abe01f060120c8830802&v=4",
-      "html_url": "https://github.com/Diolinux",
-      "followers": 2016,
-      "following": 2,
-      "public_repos": 21,
-      "location": "Brasil",
-      "bio": "Repositório oficial do blog Diolinux.\r\n- youtube.com/Diolinux\r\n- www.diolinux.com.br\r\n- plus.diolinux.com.br\r\n",
-      "company": "Diolinux",
-      "created_at": "2015-08-24T12:52:12Z",
-      "total_stars": 18493
     }
   ],
   "orgs": [
@@ -3421,6 +3421,25 @@
       "fork": false
     },
     {
+      "full_name": "JoasASantos/OSCE3-Complete-Guide",
+      "html_url": "https://github.com/JoasASantos/OSCE3-Complete-Guide",
+      "description": "OSWE, OSEP, OSED, OSEE",
+      "stargazers_count": 3891,
+      "forks_count": 777,
+      "language": null,
+      "topics": [
+        "osce",
+        "osce3",
+        "oscp",
+        "osed",
+        "osee"
+      ],
+      "owner_login": "JoasASantos",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34966120?s=88&u=04e7f5ad1944b8b42fe2037be089253b89822be0&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "daltonmenezes/aura-theme",
       "html_url": "https://github.com/daltonmenezes/aura-theme",
       "description": "✨ A beautiful dark theme for your favorite apps.",
@@ -3436,25 +3455,6 @@
       ],
       "owner_login": "daltonmenezes",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1149845?s=88&u=a3baa2808d3a9898d95521b8df086ed745098107&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "leandromoreira/cdn-up-and-running",
-      "html_url": "https://github.com/leandromoreira/cdn-up-and-running",
-      "description": "CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.",
-      "stargazers_count": 3697,
-      "forks_count": 241,
-      "language": "Lua",
-      "topics": [
-        "nginx",
-        "cdn",
-        "tutorial",
-        "lua",
-        "load-balancer"
-      ],
-      "owner_login": "leandromoreira",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/55913?s=88&u=b3b7d650afae54e08e4a361553a263ee508e4ba2&v=4",
       "owner_type": "User",
       "fork": false
     }
