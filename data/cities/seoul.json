@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-09-16T09:59:08.538Z",
+  "generated_at": "2026-09-17T10:01:15.160Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 108664,
     "org_followers": 11093,
     "user_stars": 542713,
-    "org_stars": 84282
+    "org_stars": 84281
   },
   "queries": [
     {
@@ -887,20 +887,6 @@
       "total_stars": 1730
     },
     {
-      "login": "easylogic",
-      "name": "jinho park",
-      "avatar_url": "https://avatars.githubusercontent.com/u/591983?s=88&v=4",
-      "html_url": "https://github.com/easylogic",
-      "followers": 667,
-      "following": 2313,
-      "public_repos": 89,
-      "location": "korea/seoul",
-      "bio": "js programmer who like css, color, gradient, svg ",
-      "company": "@summernote @easylogic @elf-framework",
-      "created_at": "2011-01-31T01:44:10Z",
-      "total_stars": 321
-    },
-    {
       "login": "techhtml",
       "name": "John Cho",
       "avatar_url": "https://avatars.githubusercontent.com/u/6267393?s=88&u=340f1e8ec6952f1e230d5b785e2287a323930f55&v=4",
@@ -913,6 +899,20 @@
       "company": null,
       "created_at": "2013-12-26T23:19:40Z",
       "total_stars": 148
+    },
+    {
+      "login": "easylogic",
+      "name": "jinho park",
+      "avatar_url": "https://avatars.githubusercontent.com/u/591983?s=88&v=4",
+      "html_url": "https://github.com/easylogic",
+      "followers": 667,
+      "following": 2313,
+      "public_repos": 89,
+      "location": "korea/seoul",
+      "bio": "js programmer who like css, color, gradient, svg ",
+      "company": "@summernote @easylogic @elf-framework",
+      "created_at": "2011-01-31T01:44:10Z",
+      "total_stars": 321
     },
     {
       "login": "Q00",
@@ -1754,7 +1754,7 @@
       "bio": "BBARIT — AI vibe-coding tools. Maker of BBARIT Terminal: every AI agent + every dev tool in one native terminal.",
       "company": null,
       "created_at": "2026-04-15T11:37:46Z",
-      "total_stars": 190
+      "total_stars": 189
     },
     {
       "login": "nutonomy",

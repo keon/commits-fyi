@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-09-16T09:58:14.004Z",
+  "generated_at": "2026-09-17T10:00:24.217Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 300919,
-    "org_followers": 32732,
+    "org_followers": 32733,
     "user_stars": 956765,
     "org_stars": 743032
   },
@@ -1405,20 +1405,6 @@
       "total_stars": 1522
     },
     {
-      "login": "vitormalencar",
-      "name": "Vitor Alencar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7741167?s=88&u=9306f0326ce2d1901952997fa6f90e375c8846b2&v=4",
-      "html_url": "https://github.com/vitormalencar",
-      "followers": 1024,
-      "following": 235,
-      "public_repos": 33,
-      "location": "Berlin Germany ",
-      "bio": "⚡️ Web developer & speaker\r\n🔥 focused on new and scalable technologies\r\n🦄 who loves sharing knowledge",
-      "company": "@chilipiper ",
-      "created_at": "2014-05-30T00:00:07Z",
-      "total_stars": 227
-    },
-    {
       "login": "falkTX",
       "name": "Filipe Coelho",
       "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2012-01-16T20:28:18Z",
       "total_stars": 3167
+    },
+    {
+      "login": "vitormalencar",
+      "name": "Vitor Alencar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7741167?s=88&u=9306f0326ce2d1901952997fa6f90e375c8846b2&v=4",
+      "html_url": "https://github.com/vitormalencar",
+      "followers": 1024,
+      "following": 235,
+      "public_repos": 33,
+      "location": "Berlin Germany ",
+      "bio": "⚡️ Web developer & speaker\r\n🔥 focused on new and scalable technologies\r\n🦄 who loves sharing knowledge",
+      "company": "@chilipiper ",
+      "created_at": "2014-05-30T00:00:07Z",
+      "total_stars": 227
     }
   ],
   "orgs": [
@@ -2247,20 +2247,6 @@
       "total_stars": 178
     },
     {
-      "login": "GerritCodeReview",
-      "name": "Gerrit Code Review",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7028910?s=88&v=4",
-      "html_url": "https://github.com/GerritCodeReview",
-      "followers": 129,
-      "following": 0,
-      "public_repos": 232,
-      "location": "Mountain View, Boulder, Tokio, Berlin, Munich, London and many others",
-      "bio": "GitHub mirror of Gerrit Code Review projects",
-      "company": null,
-      "created_at": "2014-03-22T05:28:03Z",
-      "total_stars": 2136
-    },
-    {
       "login": "onrunning",
       "name": "On",
       "avatar_url": "https://avatars.githubusercontent.com/u/23661241?s=88&v=4",
@@ -2273,6 +2259,20 @@
       "company": null,
       "created_at": "2016-11-22T16:03:57Z",
       "total_stars": 5
+    },
+    {
+      "login": "GerritCodeReview",
+      "name": "Gerrit Code Review",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7028910?s=88&v=4",
+      "html_url": "https://github.com/GerritCodeReview",
+      "followers": 129,
+      "following": 0,
+      "public_repos": 232,
+      "location": "Mountain View, Boulder, Tokio, Berlin, Munich, London and many others",
+      "bio": "GitHub mirror of Gerrit Code Review projects",
+      "company": null,
+      "created_at": "2014-03-22T05:28:03Z",
+      "total_stars": 2136
     },
     {
       "login": "spring-media",
@@ -2429,20 +2429,6 @@
       "total_stars": 4968
     },
     {
-      "login": "litentry",
-      "name": "Litentry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51339301?s=88&v=4",
-      "html_url": "https://github.com/litentry",
-      "followers": 95,
-      "following": 0,
-      "public_repos": 51,
-      "location": "Berlin",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-06-03T19:27:29Z",
-      "total_stars": 291
-    },
-    {
       "login": "42Berlin",
       "name": "42 Berlin",
       "avatar_url": "https://avatars.githubusercontent.com/u/115468040?s=88&v=4",
@@ -2455,6 +2441,20 @@
       "company": null,
       "created_at": "2022-10-10T11:10:41Z",
       "total_stars": 25
+    },
+    {
+      "login": "litentry",
+      "name": "Litentry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51339301?s=88&v=4",
+      "html_url": "https://github.com/litentry",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 51,
+      "location": "Berlin",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-06-03T19:27:29Z",
+      "total_stars": 291
     },
     {
       "login": "liqd",
@@ -2545,7 +2545,7 @@
       "name": "CODE",
       "avatar_url": "https://avatars.githubusercontent.com/u/29784497?s=88&v=4",
       "html_url": "https://github.com/codeuniversity",
-      "followers": 89,
+      "followers": 90,
       "following": 0,
       "public_repos": 81,
       "location": "Berlin, Germany",

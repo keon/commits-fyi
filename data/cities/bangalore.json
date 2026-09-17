@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-09-16T09:59:10.344Z",
+  "generated_at": "2026-09-17T10:01:20.069Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 192125,
+    "user_followers": 192134,
     "org_followers": 23996,
-    "user_stars": 516081,
+    "user_stars": 516091,
     "org_stars": 361219
   },
   "queries": [
@@ -635,6 +635,20 @@
       "total_stars": 22855
     },
     {
+      "login": "karma9874",
+      "name": "Neeraj Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
+      "html_url": "https://github.com/karma9874",
+      "followers": 1097,
+      "following": 5,
+      "public_repos": 16,
+      "location": "Bangalore, India",
+      "bio": "Hey there! I am using Github.",
+      "company": null,
+      "created_at": "2017-11-07T06:38:43Z",
+      "total_stars": 5535
+    },
+    {
       "login": "marketcalls",
       "name": "Marketcalls",
       "avatar_url": "https://avatars.githubusercontent.com/u/8728989?s=88&u=1fd3ade538e61fab50745fd8a65e2b1dd04a0281&v=4",
@@ -661,20 +675,6 @@
       "company": "@h2oai ",
       "created_at": "2014-09-29T06:04:37Z",
       "total_stars": 1177
-    },
-    {
-      "login": "karma9874",
-      "name": "Neeraj Singh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33444666?s=88&u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
-      "html_url": "https://github.com/karma9874",
-      "followers": 1092,
-      "following": 5,
-      "public_repos": 16,
-      "location": "Bangalore, India",
-      "bio": "Hey there! I am using Github.",
-      "company": null,
-      "created_at": "2017-11-07T06:38:43Z",
-      "total_stars": 5528
     },
     {
       "login": "genieincodebottle",
@@ -723,14 +723,14 @@
       "name": "Hadi Shah",
       "avatar_url": "https://avatars.githubusercontent.com/u/176830124?s=88&u=6c5fa14eb31e781e3c66e1435846c84415a5ac32&v=4",
       "html_url": "https://github.com/hadishah123",
-      "followers": 1040,
-      "following": 810,
+      "followers": 1038,
+      "following": 807,
       "public_repos": 26,
       "location": "Bangalore, Karnataka ",
       "bio": "🧠 Coding creatively | 💻 Solving problems with Web & AI | 🌱 Forever learning & collaborating",
       "company": null,
       "created_at": "2024-07-28T17:40:03Z",
-      "total_stars": 177
+      "total_stars": 159
     },
     {
       "login": "pastelsky",
@@ -1143,14 +1143,14 @@
       "name": "Sagar Tamang",
       "avatar_url": "https://avatars.githubusercontent.com/u/100279896?s=88&u=ebba1086899cb9eabd379cdf6c4dd41ef9f28e39&v=4",
       "html_url": "https://github.com/SAGAR-TAMANG",
-      "followers": 722,
+      "followers": 728,
       "following": 25,
       "public_repos": 103,
       "location": "Bangalore, Karnataka, India",
       "bio": "Just a human being, living in the 21st century ✨ #cosmopolitan. ",
       "company": "Indian Institute of Technology Patna",
       "created_at": "2022-02-23T10:08:58Z",
-      "total_stars": 2626
+      "total_stars": 2647
     },
     {
       "login": "Vanshikagarg17",
@@ -2499,20 +2499,6 @@
       "total_stars": 1626
     },
     {
-      "login": "zense",
-      "name": "Zense",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9000094?s=88&v=4",
-      "html_url": "https://github.com/zense",
-      "followers": 43,
-      "following": 0,
-      "public_repos": 48,
-      "location": "IIIT Bangalore",
-      "bio": "Software Developers group of IIIT Bangalore",
-      "company": null,
-      "created_at": "2014-10-02T18:18:07Z",
-      "total_stars": 137
-    },
-    {
       "login": "techhub-community",
       "name": "TechHub",
       "avatar_url": "https://avatars.githubusercontent.com/u/43721025?s=88&v=4",
@@ -2525,6 +2511,20 @@
       "company": null,
       "created_at": "2018-09-30T10:08:57Z",
       "total_stars": 98
+    },
+    {
+      "login": "zense",
+      "name": "Zense",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9000094?s=88&v=4",
+      "html_url": "https://github.com/zense",
+      "followers": 43,
+      "following": 0,
+      "public_repos": 48,
+      "location": "IIIT Bangalore",
+      "bio": "Software Developers group of IIIT Bangalore",
+      "company": null,
+      "created_at": "2014-10-02T18:18:07Z",
+      "total_stars": 137
     },
     {
       "login": "crowdflux",
@@ -3110,8 +3110,8 @@
       "full_name": "karma9874/AndroRAT",
       "html_url": "https://github.com/karma9874/AndroRAT",
       "description": "A Simple android remote administration tool using sockets. It uses java on the client side and python on the server side",
-      "stargazers_count": 5111,
-      "forks_count": 1646,
+      "stargazers_count": 5118,
+      "forks_count": 1651,
       "language": "Java",
       "topics": [
         "android",

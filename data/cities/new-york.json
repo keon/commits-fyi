@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-09-16T09:58:08.854Z",
+  "generated_at": "2026-09-17T10:00:13.923Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 500627,
-    "org_followers": 141792,
-    "user_stars": 1789145,
-    "org_stars": 1623351
+    "user_followers": 531148,
+    "org_followers": 141793,
+    "user_stars": 1831005,
+    "org_stars": 1623355
   },
   "queries": [
     {
@@ -32,6 +32,20 @@
     }
   ],
   "users": [
+    {
+      "login": "buckyroberts",
+      "name": "Bucky Roberts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8547538?s=88&u=8a4be84ff4870a332fe94c11fca02b432fb9f83e&v=4",
+      "html_url": "https://github.com/buckyroberts",
+      "followers": 26985,
+      "following": 22,
+      "public_repos": 45,
+      "location": "New York, NY",
+      "bio": null,
+      "company": "thenewboston",
+      "created_at": "2014-08-25T16:33:40Z",
+      "total_stars": 8246
+    },
     {
       "login": "tpope",
       "name": "Tim Pope",
@@ -425,6 +439,20 @@
       "total_stars": 899
     },
     {
+      "login": "martinshkreli",
+      "name": "Martin Shkreli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13859183?s=88&u=80d7d9e3fd88a9f3198d18977d0016b331a3b3e8&v=4",
+      "html_url": "https://github.com/martinshkreli",
+      "followers": 4658,
+      "following": 270,
+      "public_repos": 20,
+      "location": "NYC",
+      "bio": "that guy!",
+      "company": "DL Software",
+      "created_at": "2015-08-18T22:05:03Z",
+      "total_stars": 2096
+    },
+    {
       "login": "Marak",
       "name": "marak.eth",
       "avatar_url": "https://avatars.githubusercontent.com/u/70011?s=88&v=4",
@@ -719,6 +747,20 @@
       "total_stars": 5787
     },
     {
+      "login": "johnmyleswhite",
+      "name": "John Myles White",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22064?s=88&u=0c7f9febc281838232daf5684fef6ed97b3c15f8&v=4",
+      "html_url": "https://github.com/johnmyleswhite",
+      "followers": 3092,
+      "following": 30,
+      "public_repos": 152,
+      "location": "New York, NY",
+      "bio": null,
+      "company": "Meta",
+      "created_at": "2008-08-26T16:24:56Z",
+      "total_stars": 6348
+    },
+    {
       "login": "keon",
       "name": "Keon",
       "avatar_url": "https://avatars.githubusercontent.com/u/10793962?s=88&u=07e9af49961d7e303eb5e8ad9cee11a1f20500ce&v=4",
@@ -859,6 +901,20 @@
       "total_stars": 21374
     },
     {
+      "login": "gajus",
+      "name": "Gajus Kuizinas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/973543?s=88&u=00847b4ebb892b1c5c6e424ec741bd9bf2786cb1&v=4",
+      "html_url": "https://github.com/gajus",
+      "followers": 2631,
+      "following": 536,
+      "public_repos": 237,
+      "location": "SF / NY",
+      "bio": "Software architect. Passionate about Node.js, React, GraphQL, PostgreSQL. Active open-source contributor.",
+      "company": "Contra",
+      "created_at": "2011-08-11T10:00:41Z",
+      "total_stars": 32469
+    },
+    {
       "login": "ZacSweers",
       "name": "Zac Sweers",
       "avatar_url": "https://avatars.githubusercontent.com/u/1361086?s=88&u=f718c2d2774c7e8b85b5cf1c12df4b6aac6c13f4&v=4",
@@ -971,20 +1027,6 @@
       "total_stars": 5182
     },
     {
-      "login": "scottjehl",
-      "name": "Scott Jehl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214783?s=88&u=4ab38b0e4bceadbf48606eb30f1e862c4f2ddec7&v=4",
-      "html_url": "https://github.com/scottjehl",
-      "followers": 2449,
-      "following": 37,
-      "public_repos": 18,
-      "location": "NYC",
-      "bio": "Website Perf @squarespace. \r\n\r\nCreator of Lightning-Fast Web Performance, Web Components Demystified, Responsible Responsive Design. Alum: @filamentgroup WebPag",
-      "company": "@Squarespace",
-      "created_at": "2010-03-03T16:56:33Z",
-      "total_stars": 23666
-    },
-    {
       "login": "adonovan",
       "name": "Alan Donovan",
       "avatar_url": "https://avatars.githubusercontent.com/u/5658175?s=88&u=e2e6d7c846464e100534b4a084af665bde7ca9d3&v=4",
@@ -997,6 +1039,20 @@
       "company": "Google",
       "created_at": "2013-10-10T17:59:14Z",
       "total_stars": 8946
+    },
+    {
+      "login": "scottjehl",
+      "name": "Scott Jehl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214783?s=88&u=4ab38b0e4bceadbf48606eb30f1e862c4f2ddec7&v=4",
+      "html_url": "https://github.com/scottjehl",
+      "followers": 2449,
+      "following": 37,
+      "public_repos": 18,
+      "location": "NYC",
+      "bio": "Website Perf @squarespace. \r\n\r\nCreator of Lightning-Fast Web Performance, Web Components Demystified, Responsible Responsive Design. Alum: @filamentgroup WebPag",
+      "company": "@Squarespace",
+      "created_at": "2010-03-03T16:56:33Z",
+      "total_stars": 23666
     },
     {
       "login": "blynkkk",
@@ -1181,6 +1237,20 @@
       "total_stars": 549
     },
     {
+      "login": "benhalpern",
+      "name": "Ben Halpern",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3102842?s=88&u=9dfdf168b1efd5a1ea509a6f733a4a65f2f69908&v=4",
+      "html_url": "https://github.com/benhalpern",
+      "followers": 2122,
+      "following": 98,
+      "public_repos": 21,
+      "location": "New York",
+      "bio": "\r\n    Founder of dev.to 👩‍💻👨‍💻-> Now open source! Come checkout our main repo at forem/forem 🌱",
+      "company": "Forem",
+      "created_at": "2012-12-22T04:09:22Z",
+      "total_stars": 139
+    },
+    {
       "login": "EnggQasim",
       "name": "Sir Qasim",
       "avatar_url": "https://avatars.githubusercontent.com/u/10209765?s=88&u=71dbc579238d41bb493ab213bb9f71e36a4cda25&v=4",
@@ -1193,6 +1263,34 @@
       "company": "CancerClarity LLC, NYC, USA",
       "created_at": "2014-12-16T15:04:01Z",
       "total_stars": 412
+    },
+    {
+      "login": "terkelg",
+      "name": "Terkel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2302254?s=88&u=0d7af66672de220c83d6e4d6d94a88aeaa1bc8f7&v=4",
+      "html_url": "https://github.com/terkelg",
+      "followers": 2048,
+      "following": 1115,
+      "public_repos": 53,
+      "location": "Brooklyn, NY",
+      "bio": "Brooklyn's favorite tech cuckoo ",
+      "company": null,
+      "created_at": "2012-09-07T20:12:02Z",
+      "total_stars": 31538
+    },
+    {
+      "login": "modocache",
+      "name": "Brian Gesiak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/552921?s=88&u=469a0337ef1e244285e6b65af1567cb792fff359&v=4",
+      "html_url": "https://github.com/modocache",
+      "followers": 2019,
+      "following": 1,
+      "public_repos": 58,
+      "location": "New York, USA",
+      "bio": "Programming language and compiler engineer. Contributor to LLVM, Clang, Swift, and the Mojo and Move programming languages.",
+      "company": null,
+      "created_at": "2011-01-08T05:49:10Z",
+      "total_stars": 4482
     },
     {
       "login": "slavingia",
@@ -1283,7 +1381,7 @@
       "name": "Charlie Greenman ",
       "avatar_url": "https://avatars.githubusercontent.com/u/8540141?s=88&u=cdd80b83169cb2443bdfb0061e01ee4a0f7eb237&v=4",
       "html_url": "https://github.com/CharGrnmn",
-      "followers": 1922,
+      "followers": 1923,
       "following": 4352,
       "public_repos": 1,
       "location": "New York",
@@ -1333,104 +1431,6 @@
       "company": "brooklyn",
       "created_at": "2020-09-20T15:28:28Z",
       "total_stars": 401
-    },
-    {
-      "login": "ylecun",
-      "name": "Yann LeCun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1435513?s=88&v=4",
-      "html_url": "https://github.com/ylecun",
-      "followers": 1879,
-      "following": 6,
-      "public_repos": 5,
-      "location": "New York, NY, USA",
-      "bio": null,
-      "company": "New York University",
-      "created_at": "2012-02-14T03:55:33Z",
-      "total_stars": 56
-    },
-    {
-      "login": "frankmcsherry",
-      "name": "Frank McSherry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5741500?s=88&u=33e69eeeaae260b94c6fae4a2e15d36784b6dffe&v=4",
-      "html_url": "https://github.com/frankmcsherry",
-      "followers": 1870,
-      "following": 5,
-      "public_repos": 22,
-      "location": "New York, NY",
-      "bio": null,
-      "company": "@MaterializeInc",
-      "created_at": "2013-10-21T21:39:28Z",
-      "total_stars": 3128
-    },
-    {
-      "login": "bnb",
-      "name": "Tierney Cyren",
-      "avatar_url": "https://avatars.githubusercontent.com/u/502396?s=88&u=d96d5e249b6af6e7a6d411a8c820e627a4af10fe&v=4",
-      "html_url": "https://github.com/bnb",
-      "followers": 1868,
-      "following": 12,
-      "public_repos": 89,
-      "location": "nyc",
-      "bio": "prev: @recursecenter, @twilio, @microsoft. works on: @nodejs. @electronjs. @npmx-dev.\r\n\r\nweb2 boomer. adhd. demiboy.",
-      "company": null,
-      "created_at": "2010-11-29T20:27:28Z",
-      "total_stars": 21343
-    },
-    {
-      "login": "ALucek",
-      "name": "Adam Łucek",
-      "avatar_url": "https://avatars.githubusercontent.com/u/149807294?s=88&u=6afa16eb8b9a37f5b8299c3ce3a5210449dc798b&v=4",
-      "html_url": "https://github.com/ALucek",
-      "followers": 1861,
-      "following": 3,
-      "public_repos": 51,
-      "location": "NYC",
-      "bio": "Building with AI Models",
-      "company": null,
-      "created_at": "2023-11-03T14:55:30Z",
-      "total_stars": 2104
-    },
-    {
-      "login": "StefanKarpinski",
-      "name": "Stefan Karpinski",
-      "avatar_url": "https://avatars.githubusercontent.com/u/153596?s=88&v=4",
-      "html_url": "https://github.com/StefanKarpinski",
-      "followers": 1854,
-      "following": 48,
-      "public_repos": 48,
-      "location": "New York, NY",
-      "bio": "https://JuliaLang.org co-creator\r\nhttps://JuliaHub.com co-founder",
-      "company": "@JuliaComputing",
-      "created_at": "2009-11-15T17:41:39Z",
-      "total_stars": 253
-    },
-    {
-      "login": "mikedemarais",
-      "name": "Michael Demarais",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1325144?s=88&u=7b32dcd04811261405f2ed35d933b1484558758d&v=4",
-      "html_url": "https://github.com/mikedemarais",
-      "followers": 1853,
-      "following": 9411,
-      "public_repos": 11,
-      "location": "New York, NY",
-      "bio": "cofounder @rainbow-me",
-      "company": "@rainbow-me",
-      "created_at": "2012-01-12T16:05:15Z",
-      "total_stars": 112
-    },
-    {
-      "login": "sloria",
-      "name": "Steve Loria",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2379650?s=88&u=23c31d00581a9a82aba3862ab6b564522937d087&v=4",
-      "html_url": "https://github.com/sloria",
-      "followers": 1850,
-      "following": 8,
-      "public_repos": 65,
-      "location": "Brooklyn, NY",
-      "bio": "Always a student, forever a junior developer",
-      "company": null,
-      "created_at": "2012-09-19T16:53:14Z",
-      "total_stars": 16462
     }
   ],
   "orgs": [
@@ -2517,14 +2517,14 @@
       "name": "TRADING ECONOMICS",
       "avatar_url": "https://avatars.githubusercontent.com/u/752615?s=88&v=4",
       "html_url": "https://github.com/tradingeconomics",
-      "followers": 206,
+      "followers": 207,
       "following": 0,
       "public_repos": 4,
       "location": "New York |  Lisbon",
       "bio": "Your Research and AI Is Only As Good As Your Data. Millions of Users Trust Trading Economics.",
       "company": null,
       "created_at": "2011-04-26T14:47:00Z",
-      "total_stars": 1265
+      "total_stars": 1269
     },
     {
       "login": "UrbanCompass",
@@ -3314,6 +3314,25 @@
       "fork": false
     },
     {
+      "full_name": "terkelg/awesome-creative-coding",
+      "html_url": "https://github.com/terkelg/awesome-creative-coding",
+      "description": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
+      "stargazers_count": 15321,
+      "forks_count": 977,
+      "language": "HTML",
+      "topics": [
+        "awesome",
+        "creative-coding",
+        "interaction-design",
+        "information-visualization",
+        "list"
+      ],
+      "owner_login": "terkelg",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2302254?s=88&u=0d7af66672de220c83d6e4d6d94a88aeaa1bc8f7&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "pointfreeco/swift-composable-architecture",
       "html_url": "https://github.com/pointfreeco/swift-composable-architecture",
       "description": "A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.",
@@ -3374,25 +3393,6 @@
       ],
       "owner_login": "mwaskom",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/315810?s=88&u=940fea4957256c5443fed77f081db2fbdc91ac32&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "mmistakes/minimal-mistakes",
-      "html_url": "https://github.com/mmistakes/minimal-mistakes",
-      "description": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
-      "stargazers_count": 13565,
-      "forks_count": 27203,
-      "language": "HTML",
-      "topics": [
-        "jekyll",
-        "jekyll-theme",
-        "theme",
-        "github-pages",
-        "ruby-gem"
-      ],
-      "owner_login": "mmistakes",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1376749?s=88&u=57b84c6b694342dbc9aad20579ebc31de309126f&v=4",
       "owner_type": "User",
       "fork": false
     }
