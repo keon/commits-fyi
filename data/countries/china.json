@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "China",
   "slug": "china",
-  "generated_at": "2026-09-18T09:55:36.299Z",
+  "generated_at": "2026-09-19T09:34:48.534Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1243489,
-    "org_followers": 228766,
+    "org_followers": 228805,
     "user_stars": 4351472,
-    "org_stars": 4242493
+    "org_stars": 4226387
   },
   "queries": [
     {
@@ -1785,20 +1785,6 @@
       "total_stars": 33302
     },
     {
-      "login": "antvis",
-      "name": "AntV AI Visualization Team",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19199542?s=88&v=4",
-      "html_url": "https://github.com/antvis",
-      "followers": 2367,
-      "following": 0,
-      "public_repos": 122,
-      "location": "Hangzhou, China",
-      "bio": "Visualize Data with Vitality by AI  让数据栩栩如生",
-      "company": null,
-      "created_at": "2016-05-05T03:49:56Z",
-      "total_stars": 70646
-    },
-    {
       "login": "m5stack",
       "name": "M5Stack",
       "avatar_url": "https://avatars.githubusercontent.com/u/17420673?s=88&v=4",
@@ -1811,6 +1797,20 @@
       "company": null,
       "created_at": "2016-02-23T02:27:08Z",
       "total_stars": 8980
+    },
+    {
+      "login": "antvis",
+      "name": "AntV AI Visualization Team",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19199542?s=88&v=4",
+      "html_url": "https://github.com/antvis",
+      "followers": 2367,
+      "following": 0,
+      "public_repos": 122,
+      "location": "Hangzhou, China",
+      "bio": "Visualize Data with Vitality by AI  让数据栩栩如生",
+      "company": null,
+      "created_at": "2016-05-05T03:49:56Z",
+      "total_stars": 70646
     },
     {
       "login": "react-component",
@@ -2471,6 +2471,20 @@
       "total_stars": 6394
     },
     {
+      "login": "suyu-emu",
+      "name": "suyu Emulator",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162462595?s=88&v=4",
+      "html_url": "https://github.com/suyu-emu",
+      "followers": 879,
+      "following": 0,
+      "public_repos": 26,
+      "location": "China",
+      "bio": "The suyu Development Team.",
+      "company": null,
+      "created_at": "2024-03-06T14:00:05Z",
+      "total_stars": 288
+    },
+    {
       "login": "SJTU-IPADS",
       "name": "SJTU-IPADS",
       "avatar_url": "https://avatars.githubusercontent.com/u/10797537?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2022-06-01T01:02:52Z",
       "total_stars": 25066
-    },
-    {
-      "login": "antgroup",
-      "name": "Ant Group",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37703784?s=88&v=4",
-      "html_url": "https://github.com/antgroup",
-      "followers": 840,
-      "following": 0,
-      "public_repos": 68,
-      "location": "China",
-      "bio": "Make it easy to do business anywhere.",
-      "company": null,
-      "created_at": "2018-03-23T14:44:08Z",
-      "total_stars": 16394
     }
   ],
   "repos": [

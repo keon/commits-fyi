@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-09-18T09:56:49.225Z",
+  "generated_at": "2026-09-19T09:34:56.038Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 376002,
-    "org_followers": 68463,
+    "org_followers": 68484,
     "user_stars": 1035878,
-    "org_stars": 1072447
+    "org_stars": 1072552
   },
   "queries": [
     {
@@ -2153,42 +2153,56 @@
       "name": "Grammarly",
       "avatar_url": "https://avatars.githubusercontent.com/u/352781?s=88&v=4",
       "html_url": "https://github.com/grammarly",
-      "followers": 434,
+      "followers": 435,
       "following": 0,
       "public_repos": 22,
       "location": "San Francisco, Vancouver, and Kyiv",
       "bio": "Millions of users rely on Grammarly's AI-powered products to make their messages, documents, and social media posts clear, mistake-free, and impactful.",
       "company": null,
       "created_at": "2010-08-03T12:56:01Z",
-      "total_stars": 4367
+      "total_stars": 4369
     },
     {
       "login": "WiiLink24",
       "name": "WiiLink",
       "avatar_url": "https://avatars.githubusercontent.com/u/72463677?s=88&v=4",
       "html_url": "https://github.com/WiiLink24",
-      "followers": 419,
+      "followers": 421,
       "following": 0,
       "public_repos": 87,
       "location": "Canada",
       "bio": "We're reviving and improving upon different channels on the Nintendo Wii.",
       "company": null,
       "created_at": "2020-10-06T17:15:01Z",
-      "total_stars": 746
+      "total_stars": 747
     },
     {
       "login": "scalar",
       "name": "Scalar",
       "avatar_url": "https://avatars.githubusercontent.com/u/301879?s=88&v=4",
       "html_url": "https://github.com/scalar",
-      "followers": 412,
+      "followers": 414,
       "following": 0,
-      "public_repos": 30,
+      "public_repos": 32,
       "location": "Canada",
       "bio": "Document, Discover & Test APIs with Scalar",
       "company": null,
       "created_at": "2010-06-10T13:56:51Z",
-      "total_stars": 16322
+      "total_stars": 16364
+    },
+    {
+      "login": "WildKernels",
+      "name": "Wild Kernels",
+      "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
+      "html_url": "https://github.com/WildKernels",
+      "followers": 407,
+      "following": 0,
+      "public_repos": 15,
+      "location": "Canada",
+      "bio": "Custom kernels for android and more!",
+      "company": null,
+      "created_at": "2025-01-31T01:32:51Z",
+      "total_stars": 3134
     },
     {
       "login": "pycaret",
@@ -2205,20 +2219,6 @@
       "total_stars": 10346
     },
     {
-      "login": "WildKernels",
-      "name": "Wild Kernels",
-      "avatar_url": "https://avatars.githubusercontent.com/u/197178878?s=88&v=4",
-      "html_url": "https://github.com/WildKernels",
-      "followers": 403,
-      "following": 0,
-      "public_repos": 15,
-      "location": "Canada",
-      "bio": "Custom kernels for android and more!",
-      "company": null,
-      "created_at": "2025-01-31T01:32:51Z",
-      "total_stars": 3125
-    },
-    {
       "login": "AutodeskAILab",
       "name": "Autodesk AI Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/67651511?s=88&v=4",
@@ -2233,6 +2233,20 @@
       "total_stars": 2415
     },
     {
+      "login": "SEApplicationsOrg",
+      "name": "SE Applications Org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65776439?s=88&v=4",
+      "html_url": "https://github.com/SEApplicationsOrg",
+      "followers": 396,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Calgary, Alberta, Canada",
+      "bio": "Official ORG for general source code of Suncor applications and digital utilities ",
+      "company": null,
+      "created_at": "2020-05-22T15:02:38Z",
+      "total_stars": 0
+    },
+    {
       "login": "TouchDesigner",
       "name": "TouchDesigner",
       "avatar_url": "https://avatars.githubusercontent.com/u/1458252?s=88&v=4",
@@ -2245,20 +2259,6 @@
       "company": null,
       "created_at": "2012-02-21T17:36:51Z",
       "total_stars": 871
-    },
-    {
-      "login": "SEApplicationsOrg",
-      "name": "SE Applications Org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65776439?s=88&v=4",
-      "html_url": "https://github.com/SEApplicationsOrg",
-      "followers": 394,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Calgary, Alberta, Canada",
-      "bio": "Official ORG for general source code of Suncor applications and digital utilities ",
-      "company": null,
-      "created_at": "2020-05-22T15:02:38Z",
-      "total_stars": 0
     },
     {
       "login": "wealthsimple",
@@ -2314,35 +2314,35 @@
       "bio": "We offer fully offline, on-premise SDKs for ID Verification, Biometrics and other AI Fields.",
       "company": null,
       "created_at": "2021-10-04T14:19:40Z",
-      "total_stars": 2169
+      "total_stars": 2173
     },
     {
       "login": "requarks",
       "name": "requarks.io",
       "avatar_url": "https://avatars.githubusercontent.com/u/16729233?s=88&v=4",
       "html_url": "https://github.com/requarks",
-      "followers": 348,
+      "followers": 349,
       "following": 0,
       "public_repos": 25,
       "location": "Canada",
       "bio": "Open source applications for teams",
       "company": null,
       "created_at": "2016-01-16T04:21:39Z",
-      "total_stars": 29512
+      "total_stars": 29530
     },
     {
       "login": "MobilityData",
       "name": "MobilityData IO",
       "avatar_url": "https://avatars.githubusercontent.com/u/41021710?s=88&v=4",
       "html_url": "https://github.com/MobilityData",
-      "followers": 347,
+      "followers": 348,
       "following": 0,
-      "public_repos": 42,
+      "public_repos": 43,
       "location": "Canada",
       "bio": "Better transportation through data",
       "company": null,
       "created_at": "2018-07-09T17:48:49Z",
-      "total_stars": 4422
+      "total_stars": 4432
     },
     {
       "login": "Globe-Engineer",
@@ -2370,14 +2370,14 @@
       "bio": null,
       "company": null,
       "created_at": "2023-03-07T04:02:26Z",
-      "total_stars": 6979
+      "total_stars": 6980
     },
     {
       "login": "JOMACS-IT",
       "name": "JOMACS-IT",
       "avatar_url": "https://avatars.githubusercontent.com/u/128205306?s=88&v=4",
       "html_url": "https://github.com/JOMACS-IT",
-      "followers": 343,
+      "followers": 344,
       "following": 0,
       "public_repos": 22,
       "location": "Canada",
@@ -2426,28 +2426,28 @@
       "bio": "Building the internet's open library of freely usable visuals. Join us 👫",
       "company": null,
       "created_at": "2014-11-25T19:21:41Z",
-      "total_stars": 9929
+      "total_stars": 9933
     },
     {
       "login": "meteor",
       "name": "Meteor",
       "avatar_url": "https://avatars.githubusercontent.com/u/789528?s=88&v=4",
       "html_url": "https://github.com/meteor",
-      "followers": 334,
+      "followers": 335,
       "following": 0,
       "public_repos": 142,
       "location": "Canada",
       "bio": null,
       "company": null,
       "created_at": "2011-05-15T18:34:06Z",
-      "total_stars": 51119
+      "total_stars": 51124
     },
     {
       "login": "vltpkg",
       "name": "vlt /vōlt/",
       "avatar_url": "https://avatars.githubusercontent.com/u/121986630?s=88&v=4",
       "html_url": "https://github.com/vltpkg",
-      "followers": 329,
+      "followers": 330,
       "following": 0,
       "public_repos": 17,
       "location": "Canada",
@@ -2461,14 +2461,14 @@
       "name": "TablePlus",
       "avatar_url": "https://avatars.githubusercontent.com/u/29408238?s=88&v=4",
       "html_url": "https://github.com/TablePlus",
-      "followers": 328,
+      "followers": 329,
       "following": 0,
       "public_repos": 19,
       "location": "Canada",
       "bio": "Database Management made easy",
       "company": null,
       "created_at": "2017-06-13T16:14:56Z",
-      "total_stars": 5927
+      "total_stars": 5932
     },
     {
       "login": "McGill-NLP",
@@ -2482,7 +2482,7 @@
       "bio": "Research group within McGill University and Mila focusing on various topics in natural language processing. ",
       "company": null,
       "created_at": "2020-10-20T02:01:21Z",
-      "total_stars": 5761
+      "total_stars": 5763
     },
     {
       "login": "Data-Learn",
@@ -2496,14 +2496,14 @@
       "bio": "Learn Data Skills and Data Professions",
       "company": null,
       "created_at": "2020-05-14T01:46:09Z",
-      "total_stars": 1702
+      "total_stars": 1703
     },
     {
       "login": "clio",
       "name": "Clio",
       "avatar_url": "https://avatars.githubusercontent.com/u/30769?s=88&v=4",
       "html_url": "https://github.com/clio",
-      "followers": 318,
+      "followers": 322,
       "following": 0,
       "public_repos": 8,
       "location": "Canada",
@@ -2524,7 +2524,7 @@
       "bio": "10-month, full-time, course-based Master’s program, first cohort starts September 2016",
       "company": null,
       "created_at": "2015-10-23T02:02:32Z",
-      "total_stars": 372
+      "total_stars": 373
     },
     {
       "login": "HackerYou",
@@ -2624,7 +2624,7 @@
       "full_name": "meteor/meteor",
       "html_url": "https://github.com/meteor/meteor",
       "description": "Meteor, the JavaScript App Platform",
-      "stargazers_count": 44802,
+      "stargazers_count": 44808,
       "forks_count": 5242,
       "language": "JavaScript",
       "topics": [
@@ -2730,8 +2730,8 @@
       "full_name": "requarks/wiki",
       "html_url": "https://github.com/requarks/wiki",
       "description": "Wiki.js | Next Generation Open Source Wiki",
-      "stargazers_count": 28925,
-      "forks_count": 3315,
+      "stargazers_count": 28943,
+      "forks_count": 3314,
       "language": "Vue",
       "topics": [
         "wiki",
@@ -3095,8 +3095,8 @@
       "full_name": "scalar/scalar",
       "html_url": "https://github.com/scalar/scalar",
       "description": "Scalar is an open-source API platform:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　🌐 Modern REST API Client　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
-      "stargazers_count": 16108,
-      "forks_count": 937,
+      "stargazers_count": 16149,
+      "forks_count": 938,
       "language": "TypeScript",
       "topics": [
         "api",
