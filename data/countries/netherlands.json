@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-09-21T10:53:08.150Z",
+  "generated_at": "2026-09-22T10:01:59.780Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 237462,
+    "user_followers": 252165,
     "org_followers": 52743,
-    "user_stars": 937179,
+    "user_stars": 939669,
     "org_stars": 565076
   },
   "queries": [
@@ -32,6 +32,20 @@
     }
   ],
   "users": [
+    {
+      "login": "gopinav",
+      "name": "Vishwas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13146172?s=88&u=38754f4894c755bda75885d2a273d6c7e87b4e55&v=4",
+      "html_url": "https://github.com/gopinav",
+      "followers": 15850,
+      "following": 1,
+      "public_repos": 75,
+      "location": "India",
+      "bio": "Software engineer and educator",
+      "company": "Builder.io",
+      "created_at": "2015-07-02T06:20:46Z",
+      "total_stars": 5244
+    },
     {
       "login": "lucasmontano",
       "name": "Lucas Montano",
@@ -1167,20 +1181,6 @@
       "total_stars": 3344
     },
     {
-      "login": "nbremer",
-      "name": "Nadieh Bremer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5062746?s=88&u=daa3759c8fecc5c081cef8ca5d989d862a3a1ffa&v=4",
-      "html_url": "https://github.com/nbremer",
-      "followers": 1343,
-      "following": 1,
-      "public_repos": 52,
-      "location": "Amsterdam",
-      "bio": "Freelancing Data Visualization Designer & Artist",
-      "company": "Visual Cinnamon",
-      "created_at": "2013-07-22T07:06:53Z",
-      "total_stars": 696
-    },
-    {
       "login": "pfuhrmann",
       "name": "Patrik Fuhrmann",
       "avatar_url": "https://avatars.githubusercontent.com/u/1627445?s=88&u=01a9fc12933a3338024c3472bd6b27c57974c495&v=4",
@@ -1193,6 +1193,20 @@
       "company": "@dealroom ",
       "created_at": "2012-04-09T23:46:18Z",
       "total_stars": 58
+    },
+    {
+      "login": "nbremer",
+      "name": "Nadieh Bremer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5062746?s=88&u=daa3759c8fecc5c081cef8ca5d989d862a3a1ffa&v=4",
+      "html_url": "https://github.com/nbremer",
+      "followers": 1343,
+      "following": 1,
+      "public_repos": 52,
+      "location": "Amsterdam",
+      "bio": "Freelancing Data Visualization Designer & Artist",
+      "company": "Visual Cinnamon",
+      "created_at": "2013-07-22T07:06:53Z",
+      "total_stars": 696
     },
     {
       "login": "josdejong",
@@ -1417,20 +1431,6 @@
       "company": "Duna",
       "created_at": "2010-12-23T15:39:26Z",
       "total_stars": 493
-    },
-    {
-      "login": "eleanorlutz",
-      "name": "Eleanor Lutz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6994487?s=88&u=027eb74e50f1104268da08c85b7f3cd031965ea5&v=4",
-      "html_url": "https://github.com/eleanorlutz",
-      "followers": 1147,
-      "following": 7,
-      "public_repos": 16,
-      "location": "Netherlands",
-      "bio": "Information designer. Excited about maps, emoji, and indoor plants.",
-      "company": "De Volkskrant",
-      "created_at": "2014-03-19T03:48:37Z",
-      "total_stars": 2754
     }
   ],
   "orgs": [

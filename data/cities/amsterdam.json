@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Amsterdam",
   "slug": "amsterdam",
-  "generated_at": "2026-09-21T10:49:33.982Z",
+  "generated_at": "2026-09-22T09:59:56.795Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 135538,
+    "user_followers": 150871,
     "org_followers": 13522,
-    "user_stars": 496709,
+    "user_stars": 501827,
     "org_stars": 243295
   },
   "queries": [
@@ -32,6 +32,20 @@
     }
   ],
   "users": [
+    {
+      "login": "gopinav",
+      "name": "Vishwas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13146172?s=88&u=38754f4894c755bda75885d2a273d6c7e87b4e55&v=4",
+      "html_url": "https://github.com/gopinav",
+      "followers": 15850,
+      "following": 1,
+      "public_repos": 75,
+      "location": "India",
+      "bio": "Software engineer and educator",
+      "company": "Builder.io",
+      "created_at": "2015-07-02T06:20:46Z",
+      "total_stars": 5244
+    },
     {
       "login": "lucasmontano",
       "name": "Lucas Montano",
@@ -1417,20 +1431,6 @@
       "company": "arc finance",
       "created_at": "2025-10-31T13:43:32Z",
       "total_stars": 2
-    },
-    {
-      "login": "BobbyBabazadeh",
-      "name": "Bobby Babazadeh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11838978?s=88&u=1ab0efb840f37ccec6ba01c9c7b8d1d20b48a9c4&v=4",
-      "html_url": "https://github.com/BobbyBabazadeh",
-      "followers": 517,
-      "following": 17,
-      "public_repos": 9,
-      "location": "Amsterdam, the Netherlands",
-      "bio": "Python and DevOps, *nix Enthusiast!",
-      "company": null,
-      "created_at": "2015-04-07T16:24:46Z",
-      "total_stars": 126
     }
   ],
   "orgs": [
@@ -2079,20 +2079,6 @@
       "total_stars": 368
     },
     {
-      "login": "btccom",
-      "name": "BTC.com",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16893897?s=88&v=4",
-      "html_url": "https://github.com/btccom",
-      "followers": 76,
-      "following": 0,
-      "public_repos": 79,
-      "location": "Beijing / Amsterdam",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-01-26T06:57:03Z",
-      "total_stars": 1084
-    },
-    {
       "login": "Geodan",
       "name": "Geodan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2027709?s=88&v=4",
@@ -2105,6 +2091,20 @@
       "company": null,
       "created_at": "2012-07-23T14:41:51Z",
       "total_stars": 1173
+    },
+    {
+      "login": "btccom",
+      "name": "BTC.com",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16893897?s=88&v=4",
+      "html_url": "https://github.com/btccom",
+      "followers": 76,
+      "following": 0,
+      "public_repos": 79,
+      "location": "Beijing / Amsterdam",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-01-26T06:57:03Z",
+      "total_stars": 1084
     },
     {
       "login": "AMLab-Amsterdam",

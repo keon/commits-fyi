@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-09-21T10:52:35.227Z",
+  "generated_at": "2026-09-22T10:00:58.169Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 459319,
-    "org_followers": 119113,
+    "org_followers": 111017,
     "user_stars": 1601897,
-    "org_stars": 1785272
+    "org_stars": 1678375
   },
   "queries": [
     {
@@ -1505,20 +1505,6 @@
       "total_stars": 100457
     },
     {
-      "login": "LAION-AI",
-      "name": "LAION AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/92627801?s=88&v=4",
-      "html_url": "https://github.com/LAION-AI",
-      "followers": 4295,
-      "following": 0,
-      "public_repos": 157,
-      "location": "Germany",
-      "bio": "This is the repo of LAION, a non-profit organization to liberate machine learning research, models and datasets.",
-      "company": null,
-      "created_at": "2021-10-16T09:45:41Z",
-      "total_stars": 46599
-    },
-    {
       "login": "lewagon",
       "name": "Le Wagon",
       "avatar_url": "https://avatars.githubusercontent.com/u/5470001?s=88&v=4",
@@ -1559,20 +1545,6 @@
       "company": null,
       "created_at": "2017-01-07T18:49:42Z",
       "total_stars": 57989
-    },
-    {
-      "login": "typst",
-      "name": "Typst",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67595261?s=88&v=4",
-      "html_url": "https://github.com/typst",
-      "followers": 3545,
-      "following": 0,
-      "public_repos": 24,
-      "location": "Berlin",
-      "bio": "The new foundation for documents: Limitless power to write, create, and automate anything that you can fit on a page.",
-      "company": null,
-      "created_at": "2020-06-29T15:08:38Z",
-      "total_stars": 61135
     },
     {
       "login": "opencloud-eu",
@@ -1643,20 +1615,6 @@
       "company": null,
       "created_at": "2015-04-08T08:59:51Z",
       "total_stars": 19035
-    },
-    {
-      "login": "theislab",
-      "name": "Theis Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22319415?s=88&v=4",
-      "html_url": "https://github.com/theislab",
-      "followers": 1569,
-      "following": 0,
-      "public_repos": 262,
-      "location": "Munich",
-      "bio": "Theis Lab at Institute of Computational Biology, Helmholtz Munich",
-      "company": null,
-      "created_at": "2016-09-20T10:52:33Z",
-      "total_stars": 8792
     },
     {
       "login": "DeepL",
@@ -1855,20 +1813,6 @@
       "total_stars": 43106
     },
     {
-      "login": "aternosorg",
-      "name": "Aternos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10004025?s=88&v=4",
-      "html_url": "https://github.com/aternosorg",
-      "followers": 1015,
-      "following": 0,
-      "public_repos": 43,
-      "location": "Germany",
-      "bio": "Minecraft servers. Free. Forever.",
-      "company": null,
-      "created_at": "2014-11-29T22:18:24Z",
-      "total_stars": 1096
-    },
-    {
       "login": "Expensify",
       "name": "Expensify, Inc",
       "avatar_url": "https://avatars.githubusercontent.com/u/476779?s=88&v=4",
@@ -1881,6 +1825,20 @@
       "company": null,
       "created_at": "2010-11-11T03:59:16Z",
       "total_stars": 10050
+    },
+    {
+      "login": "aternosorg",
+      "name": "Aternos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10004025?s=88&v=4",
+      "html_url": "https://github.com/aternosorg",
+      "followers": 1015,
+      "following": 0,
+      "public_repos": 43,
+      "location": "Germany",
+      "bio": "Minecraft servers. Free. Forever.",
+      "company": null,
+      "created_at": "2014-11-29T22:18:24Z",
+      "total_stars": 1096
     },
     {
       "login": "zalando",
@@ -2373,20 +2331,6 @@
       "total_stars": 17905
     },
     {
-      "login": "BMW-InnovationLab",
-      "name": "BMW TechOffice MUNICH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58600135?s=88&v=4",
-      "html_url": "https://github.com/BMW-InnovationLab",
-      "followers": 544,
-      "following": 0,
-      "public_repos": 20,
-      "location": "Munich, Germany",
-      "bio": "This organization contains software for realtime computer vision published by the members, partners and friends of the BMW TechOffice MUNICH and InnovationLab.",
-      "company": null,
-      "created_at": "2019-12-06T14:52:29Z",
-      "total_stars": 2621
-    },
-    {
       "login": "mailcow",
       "name": "mailcow",
       "avatar_url": "https://avatars.githubusercontent.com/u/23747925?s=88&v=4",
@@ -2401,18 +2345,18 @@
       "total_stars": 13800
     },
     {
-      "login": "manjaro",
-      "name": "Manjaro Linux",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5167332?s=88&v=4",
-      "html_url": "https://github.com/manjaro",
-      "followers": 543,
+      "login": "BMW-InnovationLab",
+      "name": "BMW TechOffice MUNICH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58600135?s=88&v=4",
+      "html_url": "https://github.com/BMW-InnovationLab",
+      "followers": 544,
       "following": 0,
-      "public_repos": 31,
-      "location": "Germany",
-      "bio": "Enjoy the simplicity! ",
+      "public_repos": 20,
+      "location": "Munich, Germany",
+      "bio": "This organization contains software for realtime computer vision published by the members, partners and friends of the BMW TechOffice MUNICH and InnovationLab.",
       "company": null,
-      "created_at": "2013-08-05T16:12:06Z",
-      "total_stars": 818
+      "created_at": "2019-12-06T14:52:29Z",
+      "total_stars": 2621
     },
     {
       "login": "needle-tools",
@@ -2553,6 +2497,62 @@
       "company": null,
       "created_at": "2013-06-10T13:45:12Z",
       "total_stars": 4698
+    },
+    {
+      "login": "tum-pbs",
+      "name": "TUM Physics-based Simulation",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57992617?s=88&v=4",
+      "html_url": "https://github.com/tum-pbs",
+      "followers": 467,
+      "following": 0,
+      "public_repos": 56,
+      "location": "Munich!",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-11-20T12:24:45Z",
+      "total_stars": 5053
+    },
+    {
+      "login": "stackitcloud",
+      "name": "STACKIT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55577607?s=88&v=4",
+      "html_url": "https://github.com/stackitcloud",
+      "followers": 466,
+      "following": 0,
+      "public_repos": 60,
+      "location": "Neckarsulm, Germany",
+      "bio": "The sovereign cloud for Europe.",
+      "company": null,
+      "created_at": "2019-09-20T07:42:44Z",
+      "total_stars": 1131
+    },
+    {
+      "login": "needle-mirror",
+      "name": "Needle – Mirror of packages from the Unity Technologies Package Manager (UPM)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65860517?s=88&v=4",
+      "html_url": "https://github.com/needle-mirror",
+      "followers": 463,
+      "following": 0,
+      "public_repos": 272,
+      "location": "Germany",
+      "bio": "This repository group contains versions of packages available in UPM, without any changes. Not affiliated with Unity Technologies. Maintained by Needle.",
+      "company": null,
+      "created_at": "2020-05-24T14:52:57Z",
+      "total_stars": 1119
+    },
+    {
+      "login": "RedTeamPentesting",
+      "name": "RedTeam Pentesting GmbH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34096076?s=88&v=4",
+      "html_url": "https://github.com/RedTeamPentesting",
+      "followers": 460,
+      "following": 0,
+      "public_repos": 15,
+      "location": "Germany",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-11-29T12:38:45Z",
+      "total_stars": 3144
     }
   ],
   "repos": [
@@ -2700,24 +2700,6 @@
       "fork": false
     },
     {
-      "full_name": "typst/typst",
-      "html_url": "https://github.com/typst/typst",
-      "description": "A markup-based typesetting system that is powerful and easy to learn.",
-      "stargazers_count": 56156,
-      "forks_count": 1719,
-      "language": "Rust",
-      "topics": [
-        "typesetting",
-        "compiler",
-        "markup",
-        "typst"
-      ],
-      "owner_login": "typst",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/67595261?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "nlohmann/json",
       "html_url": "https://github.com/nlohmann/json",
       "description": "JSON for Modern C++",
@@ -2828,25 +2810,6 @@
       ],
       "owner_login": "xyflow",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7106853?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "LAION-AI/Open-Assistant",
-      "html_url": "https://github.com/LAION-AI/Open-Assistant",
-      "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically ",
-      "stargazers_count": 37394,
-      "forks_count": 3279,
-      "language": "Python",
-      "topics": [
-        "chatgpt",
-        "language-model",
-        "rlhf",
-        "ai",
-        "assistant"
-      ],
-      "owner_login": "LAION-AI",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/92627801?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3461,6 +3424,44 @@
       "owner_login": "mailcow",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/23747925?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "schickling/chromeless",
+      "html_url": "https://github.com/schickling/chromeless",
+      "description": "🖥  Chrome automation made simple. Runs locally or headless on AWS Lambda.",
+      "stargazers_count": 13215,
+      "forks_count": 568,
+      "language": "TypeScript",
+      "topics": [
+        "serverless",
+        "integration-testing",
+        "headless-chrome",
+        "headless",
+        "graphcool"
+      ],
+      "owner_login": "schickling",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1567498?s=88&u=2a3cb79c34ad4ac26470ece4b49731291b661b24&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "phanan/htaccess",
+      "html_url": "https://github.com/phanan/htaccess",
+      "description": "✂A collection of useful .htaccess snippets.",
+      "stargazers_count": 13185,
+      "forks_count": 1287,
+      "language": null,
+      "topics": [
+        "apache",
+        "dev-ops",
+        "awesome",
+        "awesome-list",
+        "list"
+      ],
+      "owner_login": "phanan",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8056274?s=88&u=16baa02f164d426ddca7c4a8c659aef25cd9c2f4&v=4",
+      "owner_type": "User",
       "fork": false
     }
   ]
