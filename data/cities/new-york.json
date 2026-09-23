@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-09-22T09:59:01.662Z",
+  "generated_at": "2026-09-23T10:02:33.000Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 462641,
+    "user_followers": 522588,
     "org_followers": 142344,
-    "user_stars": 1424439,
+    "user_stars": 1859826,
     "org_stars": 1626166
   },
   "queries": [
@@ -61,6 +61,20 @@
       "total_stars": 100915
     },
     {
+      "login": "Rich-Harris",
+      "name": "Rich Harris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1162160?s=88&v=4",
+      "html_url": "https://github.com/Rich-Harris",
+      "followers": 20710,
+      "following": 0,
+      "public_repos": 217,
+      "location": "NYC",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-10-31T10:36:05Z",
+      "total_stars": 26504
+    },
+    {
       "login": "shiffman",
       "name": "Daniel Shiffman",
       "avatar_url": "https://avatars.githubusercontent.com/u/191758?s=88&u=a6f4a24c363ab8271c20754e1bdcef6ce4020360&v=4",
@@ -87,6 +101,20 @@
       "company": "@Khan ",
       "created_at": "2008-02-28T16:48:23Z",
       "total_stars": 2062
+    },
+    {
+      "login": "cumsoft",
+      "name": "cumsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97250816?s=88&u=208afef4fb98cb0e28832a9ebba59247c5bacb95&v=4",
+      "html_url": "https://github.com/cumsoft",
+      "followers": 18535,
+      "following": 173197,
+      "public_repos": 8,
+      "location": "New York, NY",
+      "bio": "CLT, XR & Hybrid Kernel Dev",
+      "company": "cumsoft",
+      "created_at": "2022-01-06T18:27:26Z",
+      "total_stars": 314
     },
     {
       "login": "spf13",
@@ -159,6 +187,20 @@
       "total_stars": 73739
     },
     {
+      "login": "affaan-m",
+      "name": "Affaan Mustafa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124439313?s=88&u=9a9e442dbb6a4a4b9ce24c7548bf9071fef54651&v=4",
+      "html_url": "https://github.com/affaan-m",
+      "followers": 11143,
+      "following": 12,
+      "public_repos": 25,
+      "location": "NYC",
+      "bio": "The Agentic Exchange for Compute @Ito-Markets | B={(eᵢ,wᵢ)}; Vᴮ=Σᵢwᵢℙα(eᵢ=1) | OSS meta-harness for AI agents @ECC-Tools",
+      "company": "Itô",
+      "created_at": "2023-02-04T11:57:38Z",
+      "total_stars": 267033
+    },
+    {
       "login": "romannurik",
       "name": "Roman Nurik",
       "avatar_url": "https://avatars.githubusercontent.com/u/100155?s=88&v=4",
@@ -201,6 +243,20 @@
       "total_stars": 1367
     },
     {
+      "login": "Nutlope",
+      "name": "Hassan El Mghari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63742054?s=88&u=befe4ae74b906698be965bad482d0e02fc7707ab&v=4",
+      "html_url": "https://github.com/Nutlope",
+      "followers": 8621,
+      "following": 43,
+      "public_repos": 92,
+      "location": "New York City, NY",
+      "bio": "Building.",
+      "company": null,
+      "created_at": "2020-04-15T17:25:15Z",
+      "total_stars": 93342
+    },
+    {
       "login": "Huxpro",
       "name": "Xuan Huang (黄玄)",
       "avatar_url": "https://avatars.githubusercontent.com/u/5563315?s=88&u=e1bb49130ad8c41bedc0c239bbc325245ea6c38f&v=4",
@@ -213,20 +269,6 @@
       "company": "[ByteDance, Meta, ...China]",
       "created_at": "2013-09-28T09:18:44Z",
       "total_stars": 9760
-    },
-    {
-      "login": "charliermarsh",
-      "name": "Charlie Marsh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1309177?s=88&u=6328c998d93a48eba87c6b039783b8a7644c62c3&v=4",
-      "html_url": "https://github.com/charliermarsh",
-      "followers": 6934,
-      "following": 17,
-      "public_repos": 29,
-      "location": "Brooklyn, NY",
-      "bio": "@OpenAI. Building Ruff, uv, ty, and other high-performance Python tools with the \r\n@astral-sh team.",
-      "company": "@openai",
-      "created_at": "2012-01-06T11:14:16Z",
-      "total_stars": 848
     },
     {
       "login": "gazijarin",
@@ -299,6 +341,20 @@
       "total_stars": 10075
     },
     {
+      "login": "hosseinhezami",
+      "name": "Hossein Hezami",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8210576?s=88&u=ad545d48a807e7d8ab040bc3073ef501bc4f9162&v=4",
+      "html_url": "https://github.com/hosseinhezami",
+      "followers": 5667,
+      "following": 0,
+      "public_repos": 4,
+      "location": "New York",
+      "bio": "Laravel Developer",
+      "company": null,
+      "created_at": "2014-07-19T17:51:40Z",
+      "total_stars": 243
+    },
+    {
       "login": "calebporzio",
       "name": "Caleb Porzio",
       "avatar_url": "https://avatars.githubusercontent.com/u/3670578?s=88&u=b03293e8de4d6815ff792114f948609c0fa72d0d&v=4",
@@ -311,6 +367,20 @@
       "company": null,
       "created_at": "2013-02-22T14:58:02Z",
       "total_stars": 5187
+    },
+    {
+      "login": "thdxr",
+      "name": "Dax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/826656?s=88&u=579a8f3f85f3f921a266d90f01b17a1d4ff59b9e&v=4",
+      "html_url": "https://github.com/thdxr",
+      "followers": 5219,
+      "following": 20,
+      "public_repos": 9,
+      "location": "NYC",
+      "bio": "building SST and @withbumi ",
+      "company": null,
+      "created_at": "2011-06-03T02:56:47Z",
+      "total_stars": 163
     },
     {
       "login": "ed-donner",
@@ -341,6 +411,20 @@
       "total_stars": 65398
     },
     {
+      "login": "BjarneStroustrup",
+      "name": "Bjarne Stroustrup",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10933044?s=88&u=cd423e581461f7ebaa9fd017fff7848f59d85bc1&v=4",
+      "html_url": "https://github.com/BjarneStroustrup",
+      "followers": 4663,
+      "following": 0,
+      "public_repos": 2,
+      "location": "NY, NY, USA",
+      "bio": null,
+      "company": "Morgan Stanley",
+      "created_at": "2015-02-10T01:27:56Z",
+      "total_stars": 899
+    },
+    {
       "login": "martinshkreli",
       "name": "Martin Shkreli",
       "avatar_url": "https://avatars.githubusercontent.com/u/13859183?s=88&u=80d7d9e3fd88a9f3198d18977d0016b331a3b3e8&v=4",
@@ -367,6 +451,20 @@
       "company": "marak.eth",
       "created_at": "2009-04-03T03:34:57Z",
       "total_stars": 9990
+    },
+    {
+      "login": "hmason",
+      "name": "Hilary Mason",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17936?s=88&v=4",
+      "html_url": "https://github.com/hmason",
+      "followers": 4436,
+      "following": 54,
+      "public_repos": 17,
+      "location": "New York, NY",
+      "bio": null,
+      "company": "Hidden Door",
+      "created_at": "2008-07-22T17:55:09Z",
+      "total_stars": 1419
     },
     {
       "login": "swannodette",
@@ -409,6 +507,20 @@
       "company": null,
       "created_at": "2011-05-18T04:24:22Z",
       "total_stars": 28758
+    },
+    {
+      "login": "dgrtwo",
+      "name": "David Robinson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/994718?s=88&u=8abbf6079a2ac3b10d435c4fadbf291d8624a439&v=4",
+      "html_url": "https://github.com/dgrtwo",
+      "followers": 4188,
+      "following": 7,
+      "public_repos": 45,
+      "location": "New York",
+      "bio": "Member of Technical Staff at Anthropic",
+      "company": "@anthropics ",
+      "created_at": "2011-08-21T18:22:02Z",
+      "total_stars": 2678
     },
     {
       "login": "harthur",
@@ -537,20 +649,6 @@
       "total_stars": 13751
     },
     {
-      "login": "madebygps",
-      "name": "Gwyneth Peña-Siguenza",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6733686?s=88&u=c10a25de44c2bf14bcb3cb7e3a630b603c9a2c37&v=4",
-      "html_url": "https://github.com/madebygps",
-      "followers": 3490,
-      "following": 19,
-      "public_repos": 31,
-      "location": "NYC",
-      "bio": "@GitHub DevEx \r\n@learntocloud core maintainer",
-      "company": "Microsoft",
-      "created_at": "2014-02-20T03:53:14Z",
-      "total_stars": 1598
-    },
-    {
       "login": "mwaskom",
       "name": "Michael Waskom",
       "avatar_url": "https://avatars.githubusercontent.com/u/315810?s=88&u=940fea4957256c5443fed77f081db2fbdc91ac32&v=4",
@@ -621,20 +719,6 @@
       "total_stars": 5793
     },
     {
-      "login": "hexsecteam",
-      "name": "HexSec",
-      "avatar_url": "https://avatars.githubusercontent.com/u/206475088?s=88&u=5b3553ef03ece1e35b458e9c2a5b5b1e9dcdbae7&v=4",
-      "html_url": "https://github.com/hexsecteam",
-      "followers": 3136,
-      "following": 37,
-      "public_repos": 16,
-      "location": "United States (New York)",
-      "bio": "🔐 Security Researcher | Offensive Dev | C# | Reverse Engineering | Ethical Hacking | Educational Tools for Red Teaming & Malware Analysis",
-      "company": "HexSecTeam",
-      "created_at": "2025-04-06T22:50:08Z",
-      "total_stars": 1956
-    },
-    {
       "login": "keon",
       "name": "Keon",
       "avatar_url": "https://avatars.githubusercontent.com/u/10793962?s=88&u=07e9af49961d7e303eb5e8ad9cee11a1f20500ce&v=4",
@@ -677,18 +761,18 @@
       "total_stars": 10946
     },
     {
-      "login": "cloud-shannon",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/88684372?s=88&u=97ab2cd1482bfa1d7692fa30fca9bb1d3636404f&v=4",
-      "html_url": "https://github.com/cloud-shannon",
-      "followers": 2986,
-      "following": 0,
-      "public_repos": 2,
-      "location": "New York, United States",
-      "bio": "Open Source Developer at large",
+      "login": "SwiftfulThinking",
+      "name": "Nick Sarno",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44950578?s=88&u=1cac958eb4fe071f3b7ef7dd8d08a7bc1b854fae&v=4",
+      "html_url": "https://github.com/SwiftfulThinking",
+      "followers": 2982,
+      "following": 1,
+      "public_repos": 50,
+      "location": "New York, NY",
+      "bio": "iOS developer teaching SwiftUI on YouTube @SwiftfulThinking",
       "company": null,
-      "created_at": "2021-08-09T19:30:18Z",
-      "total_stars": 34
+      "created_at": "2018-11-11T18:51:20Z",
+      "total_stars": 3264
     },
     {
       "login": "balloob",
@@ -801,20 +885,6 @@
       "company": "Adafruit Industries",
       "created_at": "2011-11-22T22:21:56Z",
       "total_stars": 51
-    },
-    {
-      "login": "bamos",
-      "name": "Brandon Amos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/707462?s=88&u=702792f2cc71a76db3afbb8dc280c3e1b58bbb94&v=4",
-      "html_url": "https://github.com/bamos",
-      "followers": 2567,
-      "following": 0,
-      "public_repos": 24,
-      "location": "NYC",
-      "bio": null,
-      "company": "Reflection AI",
-      "created_at": "2011-04-04T01:35:52Z",
-      "total_stars": 5213
     },
     {
       "login": "charlax",
@@ -971,6 +1041,20 @@
       "total_stars": 1072
     },
     {
+      "login": "davila7",
+      "name": "Daniel Avila",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6216945?s=88&u=9cea1838e2bdb1dbfbdb657cf54d1166bd52fc0b&v=4",
+      "html_url": "https://github.com/davila7",
+      "followers": 2326,
+      "following": 35,
+      "public_repos": 136,
+      "location": "Grand Rapids, Michigan and New York",
+      "bio": "Building AI dev tools with LLMs",
+      "company": null,
+      "created_at": "2013-12-18T18:13:11Z",
+      "total_stars": 32156
+    },
+    {
       "login": "ircmaxell",
       "name": "Anthony Ferrara",
       "avatar_url": "https://avatars.githubusercontent.com/u/660654?s=88&v=4",
@@ -983,6 +1067,20 @@
       "company": null,
       "created_at": "2011-03-09T21:09:35Z",
       "total_stars": 8233
+    },
+    {
+      "login": "sxywu",
+      "name": "Shirley Wu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1448449?s=88&u=dda17ae48e7bfbbd22b1503a7b83504e53e57a1e&v=4",
+      "html_url": "https://github.com/sxywu",
+      "followers": 2306,
+      "following": 9,
+      "public_repos": 57,
+      "location": "New York",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-02-18T04:25:23Z",
+      "total_stars": 802
     },
     {
       "login": "liquidslr",
@@ -1053,6 +1151,20 @@
       "company": "https://www.surgehq.ai",
       "created_at": "2009-07-07T03:36:31Z",
       "total_stars": 2300
+    },
+    {
+      "login": "Iron-Ham",
+      "name": "Hesham Salman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3388381?s=88&u=767aeeb299a41613663a3408c68cb10cafca079d&v=4",
+      "html_url": "https://github.com/Iron-Ham",
+      "followers": 2137,
+      "following": 114,
+      "public_repos": 56,
+      "location": "New York",
+      "bio": "Currently: @makenotion. Previously: Mobile Engineer #1 @GitHub. iOS  @gamechanger, @viewthespace ",
+      "company": "@makenotion",
+      "created_at": "2013-01-26T06:47:41Z",
+      "total_stars": 552
     },
     {
       "login": "benhalpern",
@@ -1167,6 +1279,20 @@
       "total_stars": 5341
     },
     {
+      "login": "zhaoolee",
+      "name": "zhaoolee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15868458?s=88&u=aa3a39fdb2c4a16abeb527f343ab7909d10e1b4e&v=4",
+      "html_url": "https://github.com/zhaoolee",
+      "followers": 1958,
+      "following": 0,
+      "public_repos": 96,
+      "location": "New York",
+      "bio": "All for one, one for all ",
+      "company": "kingsware",
+      "created_at": "2015-11-16T09:32:17Z",
+      "total_stars": 54488
+    },
+    {
       "login": "xingyizhou",
       "name": "Xingyi Zhou",
       "avatar_url": "https://avatars.githubusercontent.com/u/8860935?s=88&u=9f25b466be7ad5400f63b47c91e59b2f84e2208d&v=4",
@@ -1179,6 +1305,20 @@
       "company": "AMI Labs",
       "created_at": "2014-09-22T12:22:05Z",
       "total_stars": 14341
+    },
+    {
+      "login": "CharGrnmn",
+      "name": "Charlie Greenman ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8540141?s=88&u=cdd80b83169cb2443bdfb0061e01ee4a0f7eb237&v=4",
+      "html_url": "https://github.com/CharGrnmn",
+      "followers": 1920,
+      "following": 4351,
+      "public_repos": 1,
+      "location": "New York",
+      "bio": "Founder | Materials Science | Full-Cycle GTM",
+      "company": null,
+      "created_at": "2014-08-24T23:27:02Z",
+      "total_stars": 0
     },
     {
       "login": "tomdale",
@@ -1291,146 +1431,6 @@
       "company": "@JuliaComputing",
       "created_at": "2009-11-15T17:41:39Z",
       "total_stars": 237
-    },
-    {
-      "login": "mikedemarais",
-      "name": "Michael Demarais",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1325144?s=88&u=7b32dcd04811261405f2ed35d933b1484558758d&v=4",
-      "html_url": "https://github.com/mikedemarais",
-      "followers": 1854,
-      "following": 9421,
-      "public_repos": 11,
-      "location": "New York, NY",
-      "bio": "cofounder @rainbow-me",
-      "company": "@rainbow-me",
-      "created_at": "2012-01-12T16:05:15Z",
-      "total_stars": 112
-    },
-    {
-      "login": "sloria",
-      "name": "Steve Loria",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2379650?s=88&u=23c31d00581a9a82aba3862ab6b564522937d087&v=4",
-      "html_url": "https://github.com/sloria",
-      "followers": 1851,
-      "following": 8,
-      "public_repos": 65,
-      "location": "Brooklyn, NY",
-      "bio": "Always a student, forever a junior developer",
-      "company": null,
-      "created_at": "2012-09-19T16:53:14Z",
-      "total_stars": 16462
-    },
-    {
-      "login": "mbrandonw",
-      "name": "Brandon Williams",
-      "avatar_url": "https://avatars.githubusercontent.com/u/135203?s=88&u=1dc9eeed832947fbad5a3c4da8b5169eae9a4f0b&v=4",
-      "html_url": "https://github.com/mbrandonw",
-      "followers": 1838,
-      "following": 0,
-      "public_repos": 47,
-      "location": "Brooklyn, NY",
-      "bio": "Subterranean Homesick Mathematician.",
-      "company": "@pointfreeco ",
-      "created_at": "2009-10-05T11:02:45Z",
-      "total_stars": 838
-    },
-    {
-      "login": "15Dkatz",
-      "name": "David Katz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11095053?s=88&u=e78b5237f224853dd93ac64faa82e1247baf51e8&v=4",
-      "html_url": "https://github.com/15Dkatz",
-      "followers": 1823,
-      "following": 37,
-      "public_repos": 149,
-      "location": "New York",
-      "bio": "Software Engineer. Coding Course Creator.",
-      "company": null,
-      "created_at": "2015-02-20T18:41:39Z",
-      "total_stars": 3373
-    },
-    {
-      "login": "mar-antaya",
-      "name": "Mariana Antaya",
-      "avatar_url": "https://avatars.githubusercontent.com/u/181134073?s=88&u=785d4ab9b3d73f8a2b0740b72d1ee725ff7f72bb&v=4",
-      "html_url": "https://github.com/mar-antaya",
-      "followers": 1811,
-      "following": 0,
-      "public_repos": 18,
-      "location": "New York, NY",
-      "bio": "I love to build things about the hobbies and topics I'm passionate about <3 AI/ML, Cars, Investing ",
-      "company": null,
-      "created_at": "2024-09-10T16:31:24Z",
-      "total_stars": 1263
-    },
-    {
-      "login": "nickjj",
-      "name": "Nick Janetakis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/813219?s=88&u=4071d58beb4b2fd0f75b47a1653ee5ea9b4a6261&v=4",
-      "html_url": "https://github.com/nickjj",
-      "followers": 1754,
-      "following": 1,
-      "public_repos": 71,
-      "location": "New York",
-      "bio": "Currently a self employed freelance developer & teacher. I mainly work with Flask, Rails, Bash, Docker, Kubernetes, Ansible & Terraform. Also a @docker captain.",
-      "company": null,
-      "created_at": "2011-05-26T23:12:46Z",
-      "total_stars": 9961
-    },
-    {
-      "login": "aparrish",
-      "name": "Allison Parrish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/125839?s=88&u=7f3916915aa88d0ccd61ad6d6e5d806a4a42b0fb&v=4",
-      "html_url": "https://github.com/aparrish",
-      "followers": 1733,
-      "following": 30,
-      "public_repos": 67,
-      "location": "Brooklyn, NY",
-      "bio": "Assistant Arts Professor at ITP NYU. Creative writing with computation.",
-      "company": null,
-      "created_at": "2009-09-11T18:32:10Z",
-      "total_stars": 2758
-    },
-    {
-      "login": "romanmichaelpaolucci",
-      "name": "Roman Paolucci",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17343675?s=88&u=c138a24db04688ab94c689e8136c36301ba0d590&v=4",
-      "html_url": "https://github.com/romanmichaelpaolucci",
-      "followers": 1714,
-      "following": 0,
-      "public_repos": 47,
-      "location": "New York, NY",
-      "bio": "🚀 Master Quantitative Skills with Quant Guild",
-      "company": "@Quant-Guild",
-      "created_at": "2016-02-19T19:19:23Z",
-      "total_stars": 2786
-    },
-    {
-      "login": "supercodestart",
-      "name": "Super Code Star",
-      "avatar_url": "https://avatars.githubusercontent.com/u/157581830?s=88&v=4",
-      "html_url": "https://github.com/supercodestart",
-      "followers": 1706,
-      "following": 1673,
-      "public_repos": 20,
-      "location": "3 Crane Mountain Rd Johnsburg NY 12843",
-      "bio": "As a seasoned Senior Full Stack Developer specializing in SEO and MERN Stack, I offer a proven track record of crafting resilient, intuitive web applications.",
-      "company": null,
-      "created_at": "2024-01-24T08:49:10Z",
-      "total_stars": 251
-    },
-    {
-      "login": "samselikoff",
-      "name": "Sam Selikoff",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2922250?s=88&v=4",
-      "html_url": "https://github.com/samselikoff",
-      "followers": 1667,
-      "following": 7,
-      "public_repos": 176,
-      "location": "New York, NY",
-      "bio": null,
-      "company": "Vercel",
-      "created_at": "2012-11-29T14:37:33Z",
-      "total_stars": 1017
     }
   ],
   "orgs": [
@@ -2527,20 +2527,6 @@
       "total_stars": 5901
     },
     {
-      "login": "UrbanCompass",
-      "name": "Compass",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
-      "html_url": "https://github.com/UrbanCompass",
-      "followers": 206,
-      "following": 0,
-      "public_repos": 21,
-      "location": "NYC",
-      "bio": "Compass Real Estate",
-      "company": null,
-      "created_at": "2012-10-02T18:21:11Z",
-      "total_stars": 418
-    },
-    {
       "login": "choderalab",
       "name": "Chodera lab // Memorial Sloan Kettering Cancer Center",
       "avatar_url": "https://avatars.githubusercontent.com/u/4217481?s=88&v=4",
@@ -2553,9 +2539,42 @@
       "company": null,
       "created_at": "2013-04-21T16:32:54Z",
       "total_stars": 2311
+    },
+    {
+      "login": "UrbanCompass",
+      "name": "Compass",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2473833?s=88&v=4",
+      "html_url": "https://github.com/UrbanCompass",
+      "followers": 206,
+      "following": 0,
+      "public_repos": 21,
+      "location": "NYC",
+      "bio": "Compass Real Estate",
+      "company": null,
+      "created_at": "2012-10-02T18:21:11Z",
+      "total_stars": 418
     }
   ],
   "repos": [
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Code",
+      "stargazers_count": 264278,
+      "forks_count": 39506,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "owner_login": "affaan-m",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/124439313?s=88&u=9a9e442dbb6a4a4b9ce24c7548bf9071fef54651&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
     {
       "full_name": "huggingface/transformers",
       "html_url": "https://github.com/huggingface/transformers",
@@ -2798,6 +2817,24 @@
       "fork": false
     },
     {
+      "full_name": "davila7/claude-code-templates",
+      "html_url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "stargazers_count": 30870,
+      "forks_count": 3514,
+      "language": "Python",
+      "topics": [
+        "anthropic",
+        "anthropic-claude",
+        "claude",
+        "claude-code"
+      ],
+      "owner_login": "davila7",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6216945?s=88&u=9cea1838e2bdb1dbfbdb657cf54d1166bd52fc0b&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "spf13/viper",
       "html_url": "https://github.com/spf13/viper",
       "description": "Go configuration with fangs",
@@ -2862,6 +2899,19 @@
       "fork": false
     },
     {
+      "full_name": "Nutlope/hallmark",
+      "html_url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "stargazers_count": 28971,
+      "forks_count": 1491,
+      "language": "CSS",
+      "topics": [],
+      "owner_login": "Nutlope",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/63742054?s=88&u=befe4ae74b906698be965bad482d0e02fc7707ab&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "huggingface/lerobot",
       "html_url": "https://github.com/huggingface/lerobot",
       "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
@@ -2917,6 +2967,19 @@
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "zhaoolee/ChromeAppHeroes",
+      "html_url": "https://github.com/zhaoolee/ChromeAppHeroes",
+      "description": "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~  ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let t",
+      "stargazers_count": 25826,
+      "forks_count": 2628,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "zhaoolee",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/15868458?s=88&u=aa3a39fdb2c4a16abeb527f343ab7909d10e1b4e&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3225,6 +3288,19 @@
       "fork": false
     },
     {
+      "full_name": "zhaoolee/ChineseBQB",
+      "html_url": "https://github.com/zhaoolee/ChineseBQB",
+      "description": "🇨🇳 Chinese sticker pack,More joy / 表情包的博物馆, Github最有毒的仓库, 中国表情包大集合, 聚欢乐~",
+      "stargazers_count": 16157,
+      "forks_count": 1335,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "zhaoolee",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/15868458?s=88&u=aa3a39fdb2c4a16abeb527f343ab7909d10e1b4e&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "spf13/spf13-vim",
       "html_url": "https://github.com/spf13/spf13-vim",
       "description": "The ultimate vim distribution",
@@ -3317,95 +3393,6 @@
       ],
       "owner_login": "mwaskom",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/315810?s=88&u=940fea4957256c5443fed77f081db2fbdc91ac32&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "mmistakes/minimal-mistakes",
-      "html_url": "https://github.com/mmistakes/minimal-mistakes",
-      "description": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
-      "stargazers_count": 13575,
-      "forks_count": 27179,
-      "language": "HTML",
-      "topics": [
-        "jekyll",
-        "jekyll-theme",
-        "theme",
-        "github-pages",
-        "ruby-gem"
-      ],
-      "owner_login": "mmistakes",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1376749?s=88&u=57b84c6b694342dbc9aad20579ebc31de309126f&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "huggingface/speech-to-speech",
-      "html_url": "https://github.com/huggingface/speech-to-speech",
-      "description": "Build voice agents with open-source models",
-      "stargazers_count": 13288,
-      "forks_count": 1684,
-      "language": "Python",
-      "topics": [
-        "ai",
-        "assistant",
-        "language-model",
-        "machine-learning",
-        "python"
-      ],
-      "owner_login": "huggingface",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "Semantic-Org/Semantic-UI-React",
-      "html_url": "https://github.com/Semantic-Org/Semantic-UI-React",
-      "description": "The official Semantic-UI-React integration",
-      "stargazers_count": 13206,
-      "forks_count": 4009,
-      "language": "JavaScript",
-      "topics": [
-        "react",
-        "semantic-ui",
-        "component-library",
-        "components",
-        "javascript-libraries"
-      ],
-      "owner_login": "Semantic-Org",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5796209?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "wix/react-native-navigation",
-      "html_url": "https://github.com/wix/react-native-navigation",
-      "description": "A complete native navigation solution for React Native",
-      "stargazers_count": 13176,
-      "forks_count": 2628,
-      "language": "MDX",
-      "topics": [
-        "react-native",
-        "navigation",
-        "navigator",
-        "react-native-navigation",
-        "hacktoberfest"
-      ],
-      "owner_login": "wix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "acdlite/react-fiber-architecture",
-      "html_url": "https://github.com/acdlite/react-fiber-architecture",
-      "description": "A description of React's new core algorithm, React Fiber",
-      "stargazers_count": 13018,
-      "forks_count": 762,
-      "language": null,
-      "topics": [],
-      "owner_login": "acdlite",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3624098?s=88&u=94d8ba563cef4d8fd24c4b666272a71af46a2fa1&v=4",
       "owner_type": "User",
       "fork": false
     }

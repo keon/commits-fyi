@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-09-22T10:00:58.169Z",
+  "generated_at": "2026-09-23T10:04:35.875Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 459319,
-    "org_followers": 111017,
-    "user_stars": 1601897,
-    "org_stars": 1678375
+    "user_followers": 459643,
+    "org_followers": 119113,
+    "user_stars": 1601313,
+    "org_stars": 1785277
   },
   "queries": [
     {
@@ -1153,6 +1153,20 @@
       "total_stars": 16410
     },
     {
+      "login": "bylickilabs",
+      "name": "Thorsten Bylicki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=4a499383b27c66132d1de7a1e50cd3f782d01d9e&v=4",
+      "html_url": "https://github.com/bylickilabs",
+      "followers": 2354,
+      "following": 152,
+      "public_repos": 141,
+      "location": "Germany",
+      "bio": "Ethical Hacker, Cybersecurity Specialist, Chaos Computer Club Member, Security Researcher, Offensive Security, Reverse Engineering",
+      "company": "Chaos Computer Club",
+      "created_at": "2022-07-14T18:18:12Z",
+      "total_stars": 105
+    },
+    {
       "login": "foosel",
       "name": "Gina Häußge",
       "avatar_url": "https://avatars.githubusercontent.com/u/83657?s=88&u=f4f4bf757d4733719f0d4898428ef89a6dd13922&v=4",
@@ -1417,20 +1431,6 @@
       "company": "good beans",
       "created_at": "2008-10-22T18:56:03Z",
       "total_stars": 2027
-    },
-    {
-      "login": "addaleax",
-      "name": "Anna Henningsen",
-      "avatar_url": "https://avatars.githubusercontent.com/u/899444?s=88&u=9129efce93ac27bfb0218eb5e0783d3ddfe32d73&v=4",
-      "html_url": "https://github.com/addaleax",
-      "followers": 2030,
-      "following": 23,
-      "public_repos": 58,
-      "location": "Germany",
-      "bio": null,
-      "company": "@mongodb ",
-      "created_at": "2011-07-07T00:24:34Z",
-      "total_stars": 689
     }
   ],
   "orgs": [
@@ -1505,6 +1505,20 @@
       "total_stars": 100457
     },
     {
+      "login": "LAION-AI",
+      "name": "LAION AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92627801?s=88&v=4",
+      "html_url": "https://github.com/LAION-AI",
+      "followers": 4295,
+      "following": 0,
+      "public_repos": 157,
+      "location": "Germany",
+      "bio": "This is the repo of LAION, a non-profit organization to liberate machine learning research, models and datasets.",
+      "company": null,
+      "created_at": "2021-10-16T09:45:41Z",
+      "total_stars": 46599
+    },
+    {
       "login": "lewagon",
       "name": "Le Wagon",
       "avatar_url": "https://avatars.githubusercontent.com/u/5470001?s=88&v=4",
@@ -1545,6 +1559,20 @@
       "company": null,
       "created_at": "2017-01-07T18:49:42Z",
       "total_stars": 57989
+    },
+    {
+      "login": "typst",
+      "name": "Typst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67595261?s=88&v=4",
+      "html_url": "https://github.com/typst",
+      "followers": 3545,
+      "following": 0,
+      "public_repos": 24,
+      "location": "Berlin",
+      "bio": "The new foundation for documents: Limitless power to write, create, and automate anything that you can fit on a page.",
+      "company": null,
+      "created_at": "2020-06-29T15:08:38Z",
+      "total_stars": 61135
     },
     {
       "login": "opencloud-eu",
@@ -1615,6 +1643,20 @@
       "company": null,
       "created_at": "2015-04-08T08:59:51Z",
       "total_stars": 19035
+    },
+    {
+      "login": "theislab",
+      "name": "Theis Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22319415?s=88&v=4",
+      "html_url": "https://github.com/theislab",
+      "followers": 1569,
+      "following": 0,
+      "public_repos": 262,
+      "location": "Munich",
+      "bio": "Theis Lab at Institute of Computational Biology, Helmholtz Munich",
+      "company": null,
+      "created_at": "2016-09-20T10:52:33Z",
+      "total_stars": 8792
     },
     {
       "login": "DeepL",
@@ -2359,6 +2401,20 @@
       "total_stars": 2621
     },
     {
+      "login": "manjaro",
+      "name": "Manjaro Linux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5167332?s=88&v=4",
+      "html_url": "https://github.com/manjaro",
+      "followers": 543,
+      "following": 0,
+      "public_repos": 31,
+      "location": "Germany",
+      "bio": "Enjoy the simplicity! ",
+      "company": null,
+      "created_at": "2013-08-05T16:12:06Z",
+      "total_stars": 818
+    },
+    {
       "login": "needle-tools",
       "name": "Needle",
       "avatar_url": "https://avatars.githubusercontent.com/u/64381776?s=88&v=4",
@@ -2496,63 +2552,7 @@
       "bio": "🌍 HeiGIT and GIScience at Heidelberg University are engaged in research and opensource development at the interface between geography and computational science",
       "company": null,
       "created_at": "2013-06-10T13:45:12Z",
-      "total_stars": 4698
-    },
-    {
-      "login": "tum-pbs",
-      "name": "TUM Physics-based Simulation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57992617?s=88&v=4",
-      "html_url": "https://github.com/tum-pbs",
-      "followers": 467,
-      "following": 0,
-      "public_repos": 56,
-      "location": "Munich!",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-11-20T12:24:45Z",
-      "total_stars": 5053
-    },
-    {
-      "login": "stackitcloud",
-      "name": "STACKIT",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55577607?s=88&v=4",
-      "html_url": "https://github.com/stackitcloud",
-      "followers": 466,
-      "following": 0,
-      "public_repos": 60,
-      "location": "Neckarsulm, Germany",
-      "bio": "The sovereign cloud for Europe.",
-      "company": null,
-      "created_at": "2019-09-20T07:42:44Z",
-      "total_stars": 1131
-    },
-    {
-      "login": "needle-mirror",
-      "name": "Needle – Mirror of packages from the Unity Technologies Package Manager (UPM)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65860517?s=88&v=4",
-      "html_url": "https://github.com/needle-mirror",
-      "followers": 463,
-      "following": 0,
-      "public_repos": 272,
-      "location": "Germany",
-      "bio": "This repository group contains versions of packages available in UPM, without any changes. Not affiliated with Unity Technologies. Maintained by Needle.",
-      "company": null,
-      "created_at": "2020-05-24T14:52:57Z",
-      "total_stars": 1119
-    },
-    {
-      "login": "RedTeamPentesting",
-      "name": "RedTeam Pentesting GmbH",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34096076?s=88&v=4",
-      "html_url": "https://github.com/RedTeamPentesting",
-      "followers": 460,
-      "following": 0,
-      "public_repos": 15,
-      "location": "Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-11-29T12:38:45Z",
-      "total_stars": 3144
+      "total_stars": 4703
     }
   ],
   "repos": [
@@ -2700,6 +2700,24 @@
       "fork": false
     },
     {
+      "full_name": "typst/typst",
+      "html_url": "https://github.com/typst/typst",
+      "description": "A markup-based typesetting system that is powerful and easy to learn.",
+      "stargazers_count": 56156,
+      "forks_count": 1719,
+      "language": "Rust",
+      "topics": [
+        "typesetting",
+        "compiler",
+        "markup",
+        "typst"
+      ],
+      "owner_login": "typst",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/67595261?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "nlohmann/json",
       "html_url": "https://github.com/nlohmann/json",
       "description": "JSON for Modern C++",
@@ -2810,6 +2828,25 @@
       ],
       "owner_login": "xyflow",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/7106853?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "LAION-AI/Open-Assistant",
+      "html_url": "https://github.com/LAION-AI/Open-Assistant",
+      "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically ",
+      "stargazers_count": 37394,
+      "forks_count": 3279,
+      "language": "Python",
+      "topics": [
+        "chatgpt",
+        "language-model",
+        "rlhf",
+        "ai",
+        "assistant"
+      ],
+      "owner_login": "LAION-AI",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/92627801?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3424,44 +3461,6 @@
       "owner_login": "mailcow",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/23747925?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "schickling/chromeless",
-      "html_url": "https://github.com/schickling/chromeless",
-      "description": "🖥  Chrome automation made simple. Runs locally or headless on AWS Lambda.",
-      "stargazers_count": 13215,
-      "forks_count": 568,
-      "language": "TypeScript",
-      "topics": [
-        "serverless",
-        "integration-testing",
-        "headless-chrome",
-        "headless",
-        "graphcool"
-      ],
-      "owner_login": "schickling",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1567498?s=88&u=2a3cb79c34ad4ac26470ece4b49731291b661b24&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "phanan/htaccess",
-      "html_url": "https://github.com/phanan/htaccess",
-      "description": "✂A collection of useful .htaccess snippets.",
-      "stargazers_count": 13185,
-      "forks_count": 1287,
-      "language": null,
-      "topics": [
-        "apache",
-        "dev-ops",
-        "awesome",
-        "awesome-list",
-        "list"
-      ],
-      "owner_login": "phanan",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8056274?s=88&u=16baa02f164d426ddca7c4a8c659aef25cd9c2f4&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]
