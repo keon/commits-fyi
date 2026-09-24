@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-09-23T10:04:38.571Z",
+  "generated_at": "2026-09-24T10:06:32.744Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 251769,
-    "org_followers": 52743,
+    "org_followers": 52725,
     "user_stars": 941965,
-    "org_stars": 565076
+    "org_stars": 565434
   },
   "queries": [
     {
@@ -2499,20 +2499,6 @@
       "total_stars": 618
     },
     {
-      "login": "FestingerVault",
-      "name": "Festinger Vault",
-      "avatar_url": "https://avatars.githubusercontent.com/u/167100950?s=88&v=4",
-      "html_url": "https://github.com/FestingerVault",
-      "followers": 181,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2024-04-15T13:43:50Z",
-      "total_stars": 0
-    },
-    {
       "login": "nutsfinance",
       "name": "NUTS Finance",
       "avatar_url": "https://avatars.githubusercontent.com/u/45686788?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2020-05-19T12:40:34Z",
       "total_stars": 1312
+    },
+    {
+      "login": "Polytoria",
+      "name": "Polytoria",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68792497?s=88&v=4",
+      "html_url": "https://github.com/Polytoria",
+      "followers": 163,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Netherlands",
+      "bio": "The official Polytoria GitHub organization.",
+      "company": null,
+      "created_at": "2020-07-25T21:05:47Z",
+      "total_stars": 358
     }
   ],
   "repos": [
