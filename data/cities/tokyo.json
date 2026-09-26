@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-09-25T10:17:27.852Z",
+  "generated_at": "2026-09-26T09:54:07.331Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 216384,
     "org_followers": 23092,
     "user_stars": 967381,
-    "org_stars": 315488
+    "org_stars": 315044
   },
   "queries": [
     {
@@ -2205,20 +2205,6 @@
       "total_stars": 10053
     },
     {
-      "login": "mixigroup",
-      "name": "MIXI GROUP",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63703082?s=88&v=4",
-      "html_url": "https://github.com/mixigroup",
-      "followers": 74,
-      "following": 0,
-      "public_repos": 37,
-      "location": "Shibuya, Tokyo, Japan",
-      "bio": "Developers at MIXI, Inc. See more about our company info → https://mixi.co.jp/",
-      "company": null,
-      "created_at": "2020-04-15T06:56:23Z",
-      "total_stars": 422
-    },
-    {
       "login": "legalforce",
       "name": "LegalOn Technologies, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/32317437?s=88&v=4",
@@ -2231,6 +2217,20 @@
       "company": null,
       "created_at": "2017-09-27T02:18:24Z",
       "total_stars": 0
+    },
+    {
+      "login": "mixigroup",
+      "name": "MIXI GROUP",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63703082?s=88&v=4",
+      "html_url": "https://github.com/mixigroup",
+      "followers": 74,
+      "following": 0,
+      "public_repos": 37,
+      "location": "Shibuya, Tokyo, Japan",
+      "bio": "Developers at MIXI, Inc. See more about our company info → https://mixi.co.jp/",
+      "company": null,
+      "created_at": "2020-04-15T06:56:23Z",
+      "total_stars": 422
     },
     {
       "login": "bizreach-inc",
@@ -2541,18 +2541,18 @@
       "total_stars": 0
     },
     {
-      "login": "chatwork",
-      "name": "kubell",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1772738?s=88&v=4",
-      "html_url": "https://github.com/chatwork",
+      "login": "Hitachi",
+      "name": "Hitachi, Ltd.                                   ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9561292?s=88&v=4",
+      "html_url": "https://github.com/Hitachi",
       "followers": 45,
       "following": 0,
-      "public_repos": 32,
-      "location": "Tokyo / Osaka",
+      "public_repos": 18,
+      "location": "Tokyo, Japan",
       "bio": null,
       "company": null,
-      "created_at": "2012-05-24T05:13:33Z",
-      "total_stars": 543
+      "created_at": "2014-11-04T23:42:02Z",
+      "total_stars": 99
     }
   ],
   "repos": [
