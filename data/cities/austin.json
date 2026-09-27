@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-09-26T09:53:11.915Z",
+  "generated_at": "2026-09-27T10:34:29.262Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 165491,
+    "user_followers": 165546,
     "org_followers": 38383,
-    "user_stars": 488849,
+    "user_stars": 488604,
     "org_stars": 427904
   },
   "queries": [
@@ -1307,6 +1307,20 @@
       "total_stars": 85
     },
     {
+      "login": "poormikey80-create",
+      "name": "Mikayla P.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/288836203?s=88&u=60b05bc95ffffa495a315bc9c8e2dfcc41e09fd8&v=4",
+      "html_url": "https://github.com/poormikey80-create",
+      "followers": 475,
+      "following": 146734,
+      "public_repos": 6,
+      "location": "Austin, TX",
+      "bio": "Indie game dev dabbling in Godot and pixel art. Mostly jam entries that never ship. Poor in time, rich in ideas.",
+      "company": null,
+      "created_at": "2026-05-29T05:15:57Z",
+      "total_stars": 9
+    },
+    {
       "login": "ethanbrooks-data",
       "name": "Ethan Brooks",
       "avatar_url": "https://avatars.githubusercontent.com/u/29166347?s=88&u=abc380913684553978bd1c51e501dfa8336ae8f8&v=4",
@@ -1417,20 +1431,6 @@
       "company": "Anticlassic Studios, LLC",
       "created_at": "2010-08-05T20:28:12Z",
       "total_stars": 416
-    },
-    {
-      "login": "joshblack",
-      "name": "Josh Black",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3901764?s=88&u=d26ec0ff3cbeecf0c59d2be7e72197ca063cb7f8&v=4",
-      "html_url": "https://github.com/joshblack",
-      "followers": 420,
-      "following": 104,
-      "public_repos": 149,
-      "location": "Austin, Texas",
-      "bio": "Building design systems @github. Prev @carbon-design-system",
-      "company": null,
-      "created_at": "2013-03-18T17:56:56Z",
-      "total_stars": 254
     }
   ],
   "orgs": [
@@ -1645,20 +1645,6 @@
       "total_stars": 0
     },
     {
-      "login": "atlassian-labs",
-      "name": "Atlassian Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/59180319?s=88&v=4",
-      "html_url": "https://github.com/atlassian-labs",
-      "followers": 244,
-      "following": 0,
-      "public_repos": 76,
-      "location": "Sydney, San Francisco, Austin, and more!",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-12-23T19:46:36Z",
-      "total_stars": 4220
-    },
-    {
       "login": "EttusResearch",
       "name": "Ettus Research",
       "avatar_url": "https://avatars.githubusercontent.com/u/125709?s=88&v=4",
@@ -1671,6 +1657,20 @@
       "company": null,
       "created_at": "2009-09-11T10:39:20Z",
       "total_stars": 1964
+    },
+    {
+      "login": "atlassian-labs",
+      "name": "Atlassian Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59180319?s=88&v=4",
+      "html_url": "https://github.com/atlassian-labs",
+      "followers": 244,
+      "following": 0,
+      "public_repos": 76,
+      "location": "Sydney, San Francisco, Austin, and more!",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-12-23T19:46:36Z",
+      "total_stars": 4220
     },
     {
       "login": "runZeroInc",

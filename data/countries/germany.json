@@ -2,15 +2,15 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-09-26T09:55:05.460Z",
+  "generated_at": "2026-09-27T10:36:23.125Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 459924,
-    "org_followers": 119349,
+    "user_followers": 459922,
+    "org_followers": 119350,
     "user_stars": 1603466,
     "org_stars": 1787347
   },
@@ -1157,9 +1157,9 @@
       "name": "Thorsten Bylicki",
       "avatar_url": "https://avatars.githubusercontent.com/u/109308073?s=88&u=4a499383b27c66132d1de7a1e50cd3f782d01d9e&v=4",
       "html_url": "https://github.com/bylickilabs",
-      "followers": 2354,
+      "followers": 2352,
       "following": 152,
-      "public_repos": 141,
+      "public_repos": 142,
       "location": "Germany",
       "bio": "Ethical Hacker, Cybersecurity Specialist, Chaos Computer Club Member, Security Researcher, Offensive Security, Reverse Engineering",
       "company": "Chaos Computer Club",
@@ -1265,20 +1265,6 @@
       "total_stars": 6773
     },
     {
-      "login": "sockeqwe",
-      "name": "Hannes Dorfmann",
-      "avatar_url": "https://avatars.githubusercontent.com/u/583598?s=88&u=97e58e4cd0169560b8117ab8a1205ae86ad25eb7&v=4",
-      "html_url": "https://github.com/sockeqwe",
-      "followers": 2186,
-      "following": 217,
-      "public_repos": 57,
-      "location": "Munich",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-01-25T22:23:25Z",
-      "total_stars": 11995
-    },
-    {
       "login": "mre",
       "name": "Matthias Endler",
       "avatar_url": "https://avatars.githubusercontent.com/u/175809?s=88&u=050de63bf703bd897a7269420f98312d7dc46874&v=4",
@@ -1291,6 +1277,20 @@
       "company": "@corrode",
       "created_at": "2010-01-03T21:35:31Z",
       "total_stars": 12600
+    },
+    {
+      "login": "sockeqwe",
+      "name": "Hannes Dorfmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/583598?s=88&u=97e58e4cd0169560b8117ab8a1205ae86ad25eb7&v=4",
+      "html_url": "https://github.com/sockeqwe",
+      "followers": 2186,
+      "following": 217,
+      "public_repos": 57,
+      "location": "Munich",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-01-25T22:23:25Z",
+      "total_stars": 11995
     },
     {
       "login": "timgrossmann",
@@ -2545,7 +2545,7 @@
       "name": "GIScience Research Group and HeiGIT",
       "avatar_url": "https://avatars.githubusercontent.com/u/4661504?s=88&v=4",
       "html_url": "https://github.com/GIScience",
-      "followers": 469,
+      "followers": 470,
       "following": 0,
       "public_repos": 145,
       "location": "Heidelberg, Germany",
