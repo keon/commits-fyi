@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-09-28T11:48:25.449Z",
+  "generated_at": "2026-09-29T11:23:13.539Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 160233,
+    "user_followers": 161175,
     "org_followers": 26217,
-    "user_stars": 712801,
+    "user_stars": 710301,
     "org_stars": 200980
   },
   "queries": [
@@ -423,6 +423,20 @@
       "company": "@dotnet ",
       "created_at": "2012-10-20T20:21:18Z",
       "total_stars": 575
+    },
+    {
+      "login": "sushiterminal",
+      "name": "sushi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/172486021?s=88&u=87b989c1a8fa4baf050624bdb7dab6851132e761&v=4",
+      "html_url": "https://github.com/sushiterminal",
+      "followers": 1548,
+      "following": 1372,
+      "public_repos": 60,
+      "location": "Toronto, Canada",
+      "bio": "Professional Tennis Player\r\nAI Engineer & Builder.\r\nStudent",
+      "company": null,
+      "created_at": "2024-06-12T08:52:28Z",
+      "total_stars": 472
     },
     {
       "login": "ricmoo",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2011-06-20T06:17:33Z",
       "total_stars": 8143
-    },
-    {
-      "login": "gf3",
-      "name": "Gianni Chiappetta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18397?s=88&u=1c39d0070ac67fab068a7381386d65da27f7a293&v=4",
-      "html_url": "https://github.com/gf3",
-      "followers": 606,
-      "following": 188,
-      "public_repos": 42,
-      "location": "Toronto, Canada",
-      "bio": "i am very important & handsome",
-      "company": "@freshlineapp ",
-      "created_at": "2008-07-25T14:51:44Z",
-      "total_stars": 2972
     }
   ],
   "orgs": [
@@ -1939,20 +1939,6 @@
       "total_stars": 450
     },
     {
-      "login": "AgnostiqHQ",
-      "name": "Agnostiq",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83542680?s=88&v=4",
-      "html_url": "https://github.com/AgnostiqHQ",
-      "followers": 95,
-      "following": 0,
-      "public_repos": 29,
-      "location": "Toronto",
-      "bio": "Developing Software for Advanced Computing",
-      "company": null,
-      "created_at": "2021-05-02T13:37:32Z",
-      "total_stars": 1187
-    },
-    {
       "login": "TRAILab",
       "name": "Toronto Robotics and AI Laboratory",
       "avatar_url": "https://avatars.githubusercontent.com/u/41268726?s=88&v=4",
@@ -1965,6 +1951,20 @@
       "company": null,
       "created_at": "2018-07-15T17:02:02Z",
       "total_stars": 804
+    },
+    {
+      "login": "AgnostiqHQ",
+      "name": "Agnostiq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83542680?s=88&v=4",
+      "html_url": "https://github.com/AgnostiqHQ",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 29,
+      "location": "Toronto",
+      "bio": "Developing Software for Advanced Computing",
+      "company": null,
+      "created_at": "2021-05-02T13:37:32Z",
+      "total_stars": 1187
     },
     {
       "login": "CSSLab",
@@ -2303,20 +2303,6 @@
       "total_stars": 126
     },
     {
-      "login": "torontojs",
-      "name": "Toronto JavaScript",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1886951?s=88&v=4",
-      "html_url": "https://github.com/torontojs",
-      "followers": 52,
-      "following": 0,
-      "public_repos": 23,
-      "location": "Toronto",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-06-24T15:58:29Z",
-      "total_stars": 155
-    },
-    {
       "login": "utra-robosoccer",
       "name": "University of Toronto Robosoccer Team",
       "avatar_url": "https://avatars.githubusercontent.com/u/24711568?s=88&v=4",
@@ -2329,6 +2315,20 @@
       "company": null,
       "created_at": "2016-12-22T06:46:55Z",
       "total_stars": 282
+    },
+    {
+      "login": "torontojs",
+      "name": "Toronto JavaScript",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1886951?s=88&v=4",
+      "html_url": "https://github.com/torontojs",
+      "followers": 52,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Toronto",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-06-24T15:58:29Z",
+      "total_stars": 155
     },
     {
       "login": "BioRender-Team",

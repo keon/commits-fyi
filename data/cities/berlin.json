@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-09-28T11:49:23.187Z",
+  "generated_at": "2026-09-29T11:23:15.980Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -635,20 +635,6 @@
       "total_stars": 2023
     },
     {
-      "login": "rkh",
-      "name": "Konstantin Haase",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30442?s=88&u=1386b85921a9b17c1bd6df8b70bec93dab5f497a&v=4",
-      "html_url": "https://github.com/rkh",
-      "followers": 2063,
-      "following": 547,
-      "public_repos": 99,
-      "location": "Berlin",
-      "bio": null,
-      "company": "good beans",
-      "created_at": "2008-10-22T18:56:03Z",
-      "total_stars": 2027
-    },
-    {
       "login": "withoutboats",
       "name": "srrrse",
       "avatar_url": "https://avatars.githubusercontent.com/u/9063376?s=88&u=309883e5f54628f5d5a8b4842f051e726c9ca2bd&v=4",
@@ -661,6 +647,20 @@
       "company": null,
       "created_at": "2014-10-08T00:46:37Z",
       "total_stars": 5473
+    },
+    {
+      "login": "rkh",
+      "name": "Konstantin Haase",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30442?s=88&u=1386b85921a9b17c1bd6df8b70bec93dab5f497a&v=4",
+      "html_url": "https://github.com/rkh",
+      "followers": 2063,
+      "following": 547,
+      "public_repos": 99,
+      "location": "Berlin",
+      "bio": null,
+      "company": "good beans",
+      "created_at": "2008-10-22T18:56:03Z",
+      "total_stars": 2027
     },
     {
       "login": "honnibal",
@@ -999,20 +999,6 @@
       "total_stars": 30685
     },
     {
-      "login": "Byron",
-      "name": "Sebastian Thiel",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63622?s=88&v=4",
-      "html_url": "https://github.com/Byron",
-      "followers": 1421,
-      "following": 101,
-      "public_repos": 85,
-      "location": "Berlin",
-      "bio": "\r\n    \r\n",
-      "company": null,
-      "created_at": "2009-03-15T13:15:06Z",
-      "total_stars": 8978
-    },
-    {
       "login": "solegalli",
       "name": "Soledad Galli",
       "avatar_url": "https://avatars.githubusercontent.com/u/11805379?s=88&u=1c89d8cc26497c7055e635882e5d4ea4b4c6ac47&v=4",
@@ -1025,6 +1011,20 @@
       "company": "Train in Data",
       "created_at": "2015-04-05T10:25:19Z",
       "total_stars": 1277
+    },
+    {
+      "login": "Byron",
+      "name": "Sebastian Thiel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63622?s=88&v=4",
+      "html_url": "https://github.com/Byron",
+      "followers": 1421,
+      "following": 101,
+      "public_repos": 85,
+      "location": "Berlin",
+      "bio": "\r\n    \r\n",
+      "company": null,
+      "created_at": "2009-03-15T13:15:06Z",
+      "total_stars": 8978
     },
     {
       "login": "datitran",
@@ -2630,6 +2630,25 @@
       "fork": false
     },
     {
+      "full_name": "DeusData/codebase-memory-mcp",
+      "html_url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 langu",
+      "stargazers_count": 45434,
+      "forks_count": 3723,
+      "language": "C",
+      "topics": [
+        "claude-code",
+        "code-analysis",
+        "code-intelligence",
+        "developer-tools",
+        "knowledge-graph"
+      ],
+      "owner_login": "DeusData",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/81762164?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "photoprism/photoprism",
       "html_url": "https://github.com/photoprism/photoprism",
       "description": "AI-Powered Photos App 🌈💎✨",
@@ -3420,25 +3439,6 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "nisrulz/flutter-examples",
-      "html_url": "https://github.com/nisrulz/flutter-examples",
-      "description": "[Examples] Simple basic isolated apps, for budding flutter devs.",
-      "stargazers_count": 7151,
-      "forks_count": 1637,
-      "language": "Dart",
-      "topics": [
-        "dartlang",
-        "dart",
-        "android",
-        "ios",
-        "flutter"
-      ],
-      "owner_login": "nisrulz",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]

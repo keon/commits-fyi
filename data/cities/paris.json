@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-09-28T11:49:51.923Z",
+  "generated_at": "2026-09-29T11:23:59.193Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 194399,
+    "user_followers": 199743,
     "org_followers": 100999,
-    "user_stars": 807701,
+    "user_stars": 859615,
     "org_stars": 1132032
   },
   "queries": [
@@ -145,6 +145,20 @@
       "total_stars": 41996
     },
     {
+      "login": "HoussemDellai",
+      "name": "Houssem Dellai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6548359?s=88&u=eaeaa7311ace2a0f32b92ed1f2137bb2459a809b&v=4",
+      "html_url": "https://github.com/HoussemDellai",
+      "followers": 3498,
+      "following": 20,
+      "public_repos": 175,
+      "location": "Paris",
+      "bio": "Engineer at Microsoft\r\n(Azure / Kubernetes / DevOps / Terraform)\r\nPreviously Microsoft MVP",
+      "company": "Microsoft",
+      "created_at": "2014-01-30T21:07:48Z",
+      "total_stars": 1816
+    },
+    {
       "login": "oliviertassinari",
       "name": "Olivier Tassinari",
       "avatar_url": "https://avatars.githubusercontent.com/u/3165635?s=88&u=15a7ca3a64c1839a55c83a987d6f906c817d9e85&v=4",
@@ -269,6 +283,20 @@
       "company": "@QuivrHQ @The-Vibe-Company",
       "created_at": "2016-05-27T19:20:37Z",
       "total_stars": 1277
+    },
+    {
+      "login": "angristan",
+      "name": "Stanislas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11699655?s=88&u=03a18584b40e4d9fd656b2120c3e75232960b9ac&v=4",
+      "html_url": "https://github.com/angristan",
+      "followers": 2261,
+      "following": 574,
+      "public_repos": 150,
+      "location": "Paris",
+      "bio": "making computers do things",
+      "company": "Software Engineer @mistralai",
+      "created_at": "2015-03-28T21:26:45Z",
+      "total_stars": 31216
     },
     {
       "login": "GitSquared",
@@ -451,6 +479,20 @@
       "company": "@ISCPIF",
       "created_at": "2013-10-24T06:40:45Z",
       "total_stars": 5492
+    },
+    {
+      "login": "VincentGarreau",
+      "name": "Vincent Garreau",
+      "avatar_url": "https://avatars.githubusercontent.com/u/961898?s=88&u=b362ae3232a2a5c0c5760983a8d70b3bbbfa84be&v=4",
+      "html_url": "https://github.com/VincentGarreau",
+      "followers": 1567,
+      "following": 8,
+      "public_repos": 4,
+      "location": "Paris, France",
+      "bio": "Co-founder & Principal Engineer\r\nlivestorm.co",
+      "company": "Livestorm",
+      "created_at": "2011-08-05T19:21:16Z",
+      "total_stars": 30219
     },
     {
       "login": "AEFaour",
@@ -1055,6 +1097,20 @@
       "total_stars": 1425
     },
     {
+      "login": "bzg",
+      "name": "Bastien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63500?s=88&u=5862e080559463f5a99f29683e8fe7766c212279&v=4",
+      "html_url": "https://github.com/bzg",
+      "followers": 871,
+      "following": 595,
+      "public_repos": 61,
+      "location": "Paris",
+      "bio": "Free software contributor, BlueHats 🧢 and now working at Software Heritage",
+      "company": "@SoftwareHeritage",
+      "created_at": "2009-03-14T21:37:56Z",
+      "total_stars": 918
+    },
+    {
       "login": "ask0ldd",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/117862447?s=88&u=26ccc7b22832feeb7a2dc7b8909f6cc90d239a82&v=4",
@@ -1349,20 +1405,6 @@
       "total_stars": 338
     },
     {
-      "login": "charlesBochet",
-      "name": "Charles Bochet",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12035771?s=88&u=d630d76a6340dbc94ecacfe80be2095b4548c376&v=4",
-      "html_url": "https://github.com/charlesBochet",
-      "followers": 728,
-      "following": 6,
-      "public_repos": 18,
-      "location": "Paris",
-      "bio": "CTO @twentyhq -\r\npreviously Engineering Lead @airbnb Paris",
-      "company": "Twenty",
-      "created_at": "2015-04-20T15:13:29Z",
-      "total_stars": 265
-    },
-    {
       "login": "nabla-c0d3",
       "name": "Alban Diquet",
       "avatar_url": "https://avatars.githubusercontent.com/u/1915165?s=88&u=e583ff7b079ed660d12b304503d0b0cfaf82856b&v=4",
@@ -1377,60 +1419,18 @@
       "total_stars": 7467
     },
     {
-      "login": "Kerollmops",
-      "name": "Clément Renault",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3610253?s=88&u=5997d202d7af48cde9b2c53a29000548886fa81e&v=4",
-      "html_url": "https://github.com/Kerollmops",
-      "followers": 726,
-      "following": 266,
-      "public_repos": 143,
-      "location": "France, Paris",
-      "bio": "I am the co-founder and CTO of @meilisearch. I learned coding at the Paris @42school. I live in Paris and love video games.",
-      "company": "@meilisearch",
-      "created_at": "2013-02-16T10:55:57Z",
-      "total_stars": 278
-    },
-    {
-      "login": "fraxken",
-      "name": "Thomas.G",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?s=88&u=5e2d0c11f001871b76e25dd3a96bd662d6a706ba&v=4",
-      "html_url": "https://github.com/fraxken",
-      "followers": 714,
-      "following": 172,
-      "public_repos": 61,
+      "login": "charlesBochet",
+      "name": "Charles Bochet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12035771?s=88&u=d630d76a6340dbc94ecacfe80be2095b4548c376&v=4",
+      "html_url": "https://github.com/charlesBochet",
+      "followers": 728,
+      "following": 6,
+      "public_repos": 18,
       "location": "Paris",
-      "bio": "French Node.js Expert freelancer with 10+ exp\r\n@nodejs Security Collaborator. @NodeSecure, @OpenAlly, @TopCli  and @JollyPixel core maintainer.",
-      "company": "@OpenAlly",
-      "created_at": "2013-05-15T13:56:14Z",
-      "total_stars": 930
-    },
-    {
-      "login": "Conchylicultor",
-      "name": "Conchylicultor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9047355?s=88&u=249ea9ca6ea000ba065b161d1df4e064e2723382&v=4",
-      "html_url": "https://github.com/Conchylicultor",
-      "followers": 711,
-      "following": 16,
-      "public_repos": 43,
-      "location": "Paris",
-      "bio": "Senior Research Engineer",
-      "company": "ex-Google Deepmind",
-      "created_at": "2014-10-07T06:51:59Z",
-      "total_stars": 3775
-    },
-    {
-      "login": "LasCC",
-      "name": "Ludovic COULON",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43119034?s=88&u=69fb6b82f08ecc949c255e415ee140584849895e&v=4",
-      "html_url": "https://github.com/LasCC",
-      "followers": 702,
-      "following": 41,
-      "public_repos": 15,
-      "location": "Paris, France",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-09-09T19:39:18Z",
-      "total_stars": 7272
+      "bio": "CTO @twentyhq -\r\npreviously Engineering Lead @airbnb Paris",
+      "company": "Twenty",
+      "created_at": "2015-04-20T15:13:29Z",
+      "total_stars": 265
     }
   ],
   "orgs": [
@@ -2745,6 +2745,19 @@
       "fork": false
     },
     {
+      "full_name": "VincentGarreau/particles.js",
+      "html_url": "https://github.com/VincentGarreau/particles.js",
+      "description": "A lightweight JavaScript library for creating particles",
+      "stargazers_count": 30211,
+      "forks_count": 4808,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "VincentGarreau",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/961898?s=88&u=b362ae3232a2a5c0c5760983a8d70b3bbbfa84be&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "huggingface/smolagents",
       "html_url": "https://github.com/huggingface/smolagents",
       "description": "🤗 smolagents: a barebones library for agents that think in code.",
@@ -3036,6 +3049,25 @@
       "fork": false
     },
     {
+      "full_name": "angristan/openvpn-install",
+      "html_url": "https://github.com/angristan/openvpn-install",
+      "description": "Set up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS, Arch Linux and more",
+      "stargazers_count": 16152,
+      "forks_count": 3340,
+      "language": "Shell",
+      "topics": [
+        "openvpn",
+        "vpn",
+        "encryption",
+        "bash",
+        "debian"
+      ],
+      "owner_login": "angristan",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11699655?s=88&u=03a18584b40e4d9fd656b2120c3e75232960b9ac&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "zama-ai/bounty-program",
       "html_url": "https://github.com/zama-ai/bounty-program",
       "description": "Zama Bounty Program: Contribute to the FHE space and Zama's open source libraries and get rewarded 💰",
@@ -3119,6 +3151,25 @@
       "owner_login": "huggingface",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/25720743?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "angristan/wireguard-install",
+      "html_url": "https://github.com/angristan/wireguard-install",
+      "description": "WireGuard VPN installer for Linux servers",
+      "stargazers_count": 11301,
+      "forks_count": 1659,
+      "language": "Shell",
+      "topics": [
+        "wireguard",
+        "vpn",
+        "linux",
+        "nat",
+        "privacy"
+      ],
+      "owner_login": "angristan",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11699655?s=88&u=03a18584b40e4d9fd656b2120c3e75232960b9ac&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3363,62 +3414,6 @@
       ],
       "owner_login": "florent37",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5754972?s=88&u=146792677acad27984a3ac7c16bf66e1c4af9269&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Genymobile/gnirehtet",
-      "html_url": "https://github.com/Genymobile/gnirehtet",
-      "description": "Gnirehtet provides reverse tethering for Android",
-      "stargazers_count": 7952,
-      "forks_count": 729,
-      "language": "Java",
-      "topics": [
-        "android",
-        "reverse-tethering",
-        "vpn",
-        "java-8",
-        "rust"
-      ],
-      "owner_login": "Genymobile",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3427627?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "teh-cmc/go-internals",
-      "html_url": "https://github.com/teh-cmc/go-internals",
-      "description": "A book about the internals of the Go programming language.",
-      "stargazers_count": 7932,
-      "forks_count": 350,
-      "language": "Go",
-      "topics": [
-        "golang",
-        "go",
-        "internals",
-        "book"
-      ],
-      "owner_login": "teh-cmc",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2910679?s=88&u=21549b9a01e9e644a422f9c2dc62cd3b37a83eaf&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "gregberge/loadable-components",
-      "html_url": "https://github.com/gregberge/loadable-components",
-      "description": "The recommended Code Splitting library for React ✂️✨",
-      "stargazers_count": 7799,
-      "forks_count": 386,
-      "language": "JavaScript",
-      "topics": [
-        "react",
-        "ssr",
-        "webpack",
-        "code-splitting",
-        "react-router"
-      ],
-      "owner_login": "gregberge",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/266302?s=88&u=7b1d8d84bfbaf6cf8b340896f3cea02da2669c46&v=4",
       "owner_type": "User",
       "fork": false
     }

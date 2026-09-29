@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-09-28T11:57:19.404Z",
+  "generated_at": "2026-09-29T11:26:07.110Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 572929,
-    "org_followers": 157224,
-    "user_stars": 1197699,
-    "org_stars": 1074963
+    "user_followers": 572942,
+    "org_followers": 157225,
+    "user_stars": 1197711,
+    "org_stars": 1094050
   },
   "queries": [
     {
@@ -79,14 +79,14 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/14139137?s=88&u=470646fa3e61c80cf555680d9290c1bb26b2e16a&v=4",
       "html_url": "https://github.com/in28minutes",
-      "followers": 15333,
+      "followers": 15337,
       "following": 0,
       "public_repos": 99,
       "location": "Hyderabad, India",
       "bio": "Helping 1 Million Learners learn Programming, Cloud and DevOps!",
       "company": "in28Minutes",
       "created_at": "2015-09-05T14:09:58Z",
-      "total_stars": 29885
+      "total_stars": 29893
     },
     {
       "login": "anuraghazra",
@@ -765,14 +765,14 @@
       "name": "Anubhav Chaturvedi",
       "avatar_url": "https://avatars.githubusercontent.com/u/129895858?s=88&u=c3ada0e9c72825f17fad045465bdaaabea6e6878&v=4",
       "html_url": "https://github.com/AnubhavChaturvedi-GitHub",
-      "followers": 2881,
+      "followers": 2889,
       "following": 0,
       "public_repos": 21,
       "location": "Banglore India",
       "bio": "Engineer by craft. Strategist by mindset.\r\nI build systems, automate clarity, and focus on work that compounds over time.\r\nLess noise. More intent.",
       "company": null,
       "created_at": "2023-04-04T19:00:10Z",
-      "total_stars": 545
+      "total_stars": 547
     },
     {
       "login": "AkshatRastogi-1nC0re",
@@ -1129,14 +1129,14 @@
       "name": "Himanshu Ramchandani",
       "avatar_url": "https://avatars.githubusercontent.com/u/37770869?s=88&u=5c57b08d268ea4ec5f4d26c4904ca5ca3fd670fb&v=4",
       "html_url": "https://github.com/hemansnation",
-      "followers": 2285,
+      "followers": 2286,
       "following": 0,
       "public_repos": 79,
       "location": "India",
       "bio": "The Last AI Builder you'll ever work with. Learning Daily and Documenting the Process.",
       "company": "@HemansAI ",
       "created_at": "2018-03-25T10:26:53Z",
-      "total_stars": 5126
+      "total_stars": 5128
     },
     {
       "login": "PeetlaMahesh123",
@@ -2051,20 +2051,6 @@
       "total_stars": 829
     },
     {
-      "login": "codedamn",
-      "name": "Codedamn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37881195?s=88&v=4",
-      "html_url": "https://github.com/codedamn",
-      "followers": 546,
-      "following": 0,
-      "public_repos": 15,
-      "location": "India",
-      "bio": "Learn to code anything using only your browser",
-      "company": null,
-      "created_at": "2018-03-28T18:56:15Z",
-      "total_stars": 649
-    },
-    {
       "login": "flutter-devs",
       "name": "FlutterDevs",
       "avatar_url": "https://avatars.githubusercontent.com/u/41328571?s=88&v=4",
@@ -2077,6 +2063,20 @@
       "company": null,
       "created_at": "2018-07-17T10:53:31Z",
       "total_stars": 2411
+    },
+    {
+      "login": "codedamn",
+      "name": "Codedamn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37881195?s=88&v=4",
+      "html_url": "https://github.com/codedamn",
+      "followers": 546,
+      "following": 0,
+      "public_repos": 15,
+      "location": "India",
+      "bio": "Learn to code anything using only your browser",
+      "company": null,
+      "created_at": "2018-03-28T18:56:15Z",
+      "total_stars": 649
     },
     {
       "login": "datameet",
@@ -2541,18 +2541,18 @@
       "total_stars": 1070
     },
     {
-      "login": "gtech-mulearn",
-      "name": "μLearn Foundation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98015594?s=88&v=4",
-      "html_url": "https://github.com/gtech-mulearn",
-      "followers": 313,
+      "login": "Open-Dev-Society",
+      "name": "Open Dev Society",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177231203?s=88&v=4",
+      "html_url": "https://github.com/Open-Dev-Society",
+      "followers": 314,
       "following": 0,
-      "public_repos": 82,
+      "public_repos": 12,
       "location": "India",
-      "bio": "µLearn is a synergic philosophy of education, with a culture of mutual learning through micro peer groups.",
+      "bio": "A vibrant community creating open-source projects, free education, and collaborative experiences—empowering everyone to learn, build, and grow together.",
       "company": null,
-      "created_at": "2022-01-19T08:22:38Z",
-      "total_stars": 536
+      "created_at": "2024-08-01T13:36:16Z",
+      "total_stars": 19623
     }
   ],
   "repos": [
@@ -3023,6 +3023,25 @@
       "fork": false
     },
     {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed",
+      "stargazers_count": 19471,
+      "forks_count": 2387,
+      "language": "TypeScript",
+      "topics": [
+        "coderabbit",
+        "inngest",
+        "nextjs",
+        "shadcn-ui",
+        "stock-market"
+      ],
+      "owner_login": "Open-Dev-Society",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/177231203?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "Python-World/python-mini-projects",
       "html_url": "https://github.com/Python-World/python-mini-projects",
       "description": "A collection of simple python mini projects to enhance your python skills",
@@ -3444,25 +3463,6 @@
       ],
       "owner_login": "sameersbn",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/410147?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "aritraroy/UltimateAndroidReference",
-      "html_url": "https://github.com/aritraroy/UltimateAndroidReference",
-      "description": ":rocket: Ultimate Android Reference - Your Road to Become a Better Android Developer",
-      "stargazers_count": 8068,
-      "forks_count": 1276,
-      "language": "Java",
-      "topics": [
-        "android",
-        "android-library",
-        "android-development",
-        "android-developers",
-        "android-book"
-      ],
-      "owner_login": "aritraroy",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8044760?s=88&u=b11759f9e36708c6bf1519633587bb3ad18bdc47&v=4",
       "owner_type": "User",
       "fork": false
     }
