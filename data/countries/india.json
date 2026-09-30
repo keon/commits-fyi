@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-09-29T11:26:07.110Z",
+  "generated_at": "2026-09-30T11:12:56.317Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 572942,
-    "org_followers": 157225,
+    "org_followers": 157239,
     "user_stars": 1197711,
-    "org_stars": 1094050
+    "org_stars": 1076057
   },
   "queries": [
     {
@@ -1534,12 +1534,12 @@
     },
     {
       "login": "RubinLabs26",
-      "name": "Rubin Labs",
+      "name": "Lumi Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/331578739?s=88&v=4",
       "html_url": "https://github.com/RubinLabs26",
-      "followers": 1896,
+      "followers": 1894,
       "following": 0,
-      "public_repos": 1,
+      "public_repos": 2,
       "location": "India",
       "bio": null,
       "company": null,
@@ -2499,6 +2499,20 @@
       "total_stars": 971
     },
     {
+      "login": "Clash-Projects",
+      "name": "Clash Projects",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320957147?s=88&v=4",
+      "html_url": "https://github.com/Clash-Projects",
+      "followers": 330,
+      "following": 0,
+      "public_repos": 2,
+      "location": "India",
+      "bio": "Building things that work (mostly).",
+      "company": null,
+      "created_at": "2026-08-25T10:19:01Z",
+      "total_stars": 1630
+    },
+    {
       "login": "isro",
       "name": "ISRO",
       "avatar_url": "https://avatars.githubusercontent.com/u/65687350?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2021-09-08T10:27:44Z",
       "total_stars": 1070
-    },
-    {
-      "login": "Open-Dev-Society",
-      "name": "Open Dev Society",
-      "avatar_url": "https://avatars.githubusercontent.com/u/177231203?s=88&v=4",
-      "html_url": "https://github.com/Open-Dev-Society",
-      "followers": 314,
-      "following": 0,
-      "public_repos": 12,
-      "location": "India",
-      "bio": "A vibrant community creating open-source projects, free education, and collaborative experiences—empowering everyone to learn, build, and grow together.",
-      "company": null,
-      "created_at": "2024-08-01T13:36:16Z",
-      "total_stars": 19623
     }
   ],
   "repos": [
@@ -3023,25 +3023,6 @@
       "fork": false
     },
     {
-      "full_name": "Open-Dev-Society/OpenStock",
-      "html_url": "https://github.com/Open-Dev-Society/OpenStock",
-      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed",
-      "stargazers_count": 19471,
-      "forks_count": 2387,
-      "language": "TypeScript",
-      "topics": [
-        "coderabbit",
-        "inngest",
-        "nextjs",
-        "shadcn-ui",
-        "stock-market"
-      ],
-      "owner_login": "Open-Dev-Society",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/177231203?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "Python-World/python-mini-projects",
       "html_url": "https://github.com/Python-World/python-mini-projects",
       "description": "A collection of simple python mini projects to enhance your python skills",
@@ -3463,6 +3444,25 @@
       ],
       "owner_login": "sameersbn",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/410147?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "aritraroy/UltimateAndroidReference",
+      "html_url": "https://github.com/aritraroy/UltimateAndroidReference",
+      "description": ":rocket: Ultimate Android Reference - Your Road to Become a Better Android Developer",
+      "stargazers_count": 8068,
+      "forks_count": 1276,
+      "language": "Java",
+      "topics": [
+        "android",
+        "android-library",
+        "android-development",
+        "android-developers",
+        "android-book"
+      ],
+      "owner_login": "aritraroy",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/8044760?s=88&u=b11759f9e36708c6bf1519633587bb3ad18bdc47&v=4",
       "owner_type": "User",
       "fork": false
     }
