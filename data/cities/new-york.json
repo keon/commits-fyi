@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-10-02T11:08:07.502Z",
+  "generated_at": "2026-10-03T10:25:38.279Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 534166,
     "org_followers": 143225,
-    "user_stars": 1862474,
+    "user_stars": 1862473,
     "org_stars": 1630467
   },
   "queries": [
@@ -803,20 +803,6 @@
       "total_stars": 10948
     },
     {
-      "login": "cloud-shannon",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/88684372?s=88&u=97ab2cd1482bfa1d7692fa30fca9bb1d3636404f&v=4",
-      "html_url": "https://github.com/cloud-shannon",
-      "followers": 2986,
-      "following": 0,
-      "public_repos": 2,
-      "location": "New York, United States",
-      "bio": "Open Source Developer at large",
-      "company": null,
-      "created_at": "2021-08-09T19:30:18Z",
-      "total_stars": 34
-    },
-    {
       "login": "SwiftfulThinking",
       "name": "Nick Sarno",
       "avatar_url": "https://avatars.githubusercontent.com/u/44950578?s=88&u=1cac958eb4fe071f3b7ef7dd8d08a7bc1b854fae&v=4",
@@ -829,6 +815,20 @@
       "company": null,
       "created_at": "2018-11-11T18:51:20Z",
       "total_stars": 3264
+    },
+    {
+      "login": "cloud-shannon",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/88684372?s=88&u=97ab2cd1482bfa1d7692fa30fca9bb1d3636404f&v=4",
+      "html_url": "https://github.com/cloud-shannon",
+      "followers": 2986,
+      "following": 0,
+      "public_repos": 2,
+      "location": "New York, United States",
+      "bio": "Open Source Developer at large",
+      "company": null,
+      "created_at": "2021-08-09T19:30:18Z",
+      "total_stars": 34
     },
     {
       "login": "balloob",
@@ -884,7 +884,7 @@
       "bio": "Languages and interfaces, interpreters and compilers. Building tools and interfaces to help us think and create.",
       "company": "@thoughtandcraft",
       "created_at": "2013-09-07T01:04:02Z",
-      "total_stars": 7010
+      "total_stars": 7009
     },
     {
       "login": "rnystrom",
@@ -1013,20 +1013,6 @@
       "total_stars": 7519
     },
     {
-      "login": "adonovan",
-      "name": "Alan Donovan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5658175?s=88&u=e2e6d7c846464e100534b4a084af665bde7ca9d3&v=4",
-      "html_url": "https://github.com/adonovan",
-      "followers": 2454,
-      "following": 0,
-      "public_repos": 7,
-      "location": "Brooklyn, NY",
-      "bio": "Software engineer on Go team at Google. Ex-GitHubber, ex-xoogler; co-author of https://gopl.io.",
-      "company": "Google",
-      "created_at": "2013-10-10T17:59:14Z",
-      "total_stars": 8951
-    },
-    {
       "login": "indexzero",
       "name": "Charlie Robbins",
       "avatar_url": "https://avatars.githubusercontent.com/u/4624?s=88&v=4",
@@ -1039,6 +1025,20 @@
       "company": null,
       "created_at": "2008-04-03T19:01:49Z",
       "total_stars": 5182
+    },
+    {
+      "login": "adonovan",
+      "name": "Alan Donovan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5658175?s=88&u=e2e6d7c846464e100534b4a084af665bde7ca9d3&v=4",
+      "html_url": "https://github.com/adonovan",
+      "followers": 2454,
+      "following": 0,
+      "public_repos": 7,
+      "location": "Brooklyn, NY",
+      "bio": "Software engineer on Go team at Google. Ex-GitHubber, ex-xoogler; co-author of https://gopl.io.",
+      "company": "Google",
+      "created_at": "2013-10-10T17:59:14Z",
+      "total_stars": 8951
     },
     {
       "login": "scottjehl",

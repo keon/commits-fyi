@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-10-02T11:13:55.936Z",
+  "generated_at": "2026-10-03T10:26:41.631Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 132401,
+    "user_followers": 132844,
     "org_followers": 9236,
-    "user_stars": 556440,
+    "user_stars": 550597,
     "org_stars": 61547
   },
   "queries": [
@@ -619,6 +619,20 @@
       "company": "Bok Consulting Pty Ltd",
       "created_at": "2016-02-08T11:20:54Z",
       "total_stars": 1446
+    },
+    {
+      "login": "leaanthony",
+      "name": "Lea Anthony",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1943904?s=88&v=4",
+      "html_url": "https://github.com/leaanthony",
+      "followers": 810,
+      "following": 106,
+      "public_repos": 49,
+      "location": "Sydney, Australia",
+      "bio": "Creator of Wails: https://wails.io. Co-creator of xbar: https://getxbar.com. Hardcore Gopher.",
+      "company": null,
+      "created_at": "2012-07-09T16:32:53Z",
+      "total_stars": 709
     },
     {
       "login": "geshan",
@@ -1349,6 +1363,20 @@
       "total_stars": 2020
     },
     {
+      "login": "michaelsproul",
+      "name": "Michael Sproul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4452260?s=88&u=cf7424ecabcab72d2d0a0cea0beebd50f1f72be0&v=4",
+      "html_url": "https://github.com/michaelsproul",
+      "followers": 399,
+      "following": 164,
+      "public_repos": 101,
+      "location": "Sydney, Australia",
+      "bio": "Building Ethereum at Sigma Prime. I like types, specs and proofs.",
+      "company": "@sigp ",
+      "created_at": "2013-05-17T00:03:06Z",
+      "total_stars": 432
+    },
+    {
       "login": "ray-x",
       "name": "rayx",
       "avatar_url": "https://avatars.githubusercontent.com/u/1681295?s=88&u=401586e9547150a0f07c7c0892eb57231e5f0df4&v=4",
@@ -1403,34 +1431,6 @@
       "company": "@Rocket-Alumni-Solutions ",
       "created_at": "2013-09-02T23:29:31Z",
       "total_stars": 1210
-    },
-    {
-      "login": "bartjellema",
-      "name": "Bart Jellema",
-      "avatar_url": "https://avatars.githubusercontent.com/u/993603?s=88&u=6efecac5a8cf479012b5f73e1b0aa70087dfd296&v=4",
-      "html_url": "https://github.com/bartjellema",
-      "followers": 384,
-      "following": 4,
-      "public_repos": 20,
-      "location": "Sydney, Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-08-21T00:26:39Z",
-      "total_stars": 640
-    },
-    {
-      "login": "olebedev",
-      "name": "Oleg Lebedev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/848535?s=88&u=5625aeaafeae30d243959a69860060a277a7574d&v=4",
-      "html_url": "https://github.com/olebedev",
-      "followers": 382,
-      "following": 117,
-      "public_repos": 33,
-      "location": "Sydney, Australia",
-      "bio": "He doesn't let Canva's bugs bite",
-      "company": "@Canva",
-      "created_at": "2011-06-14T03:50:22Z",
-      "total_stars": 6344
     }
   ],
   "orgs": [

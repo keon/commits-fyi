@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-10-02T11:14:53.432Z",
+  "generated_at": "2026-10-03T10:27:32.610Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 328698,
     "org_followers": 129664,
     "user_stars": 1364528,
-    "org_stars": 1472194
+    "org_stars": 1472197
   },
   "queries": [
     {
@@ -411,20 +411,6 @@
       "total_stars": 7348
     },
     {
-      "login": "AliSoftware",
-      "name": "Olivier Halligon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/216089?s=88&v=4",
-      "html_url": "https://github.com/AliSoftware",
-      "followers": 3095,
-      "following": 16,
-      "public_repos": 39,
-      "location": "Rennes, France",
-      "bio": "iOS architect & Swift lover. OSS enthusiast.",
-      "company": "Freelance on iOS Tooling and DX",
-      "created_at": "2010-03-04T21:27:14Z",
-      "total_stars": 11699
-    },
-    {
       "login": "Solido",
       "name": "Robert Felker",
       "avatar_url": "https://avatars.githubusercontent.com/u/1295961?s=88&u=b85eaeb98c4c24aeec8046b7839a5ddf2d504289&v=4",
@@ -437,6 +423,20 @@
       "company": null,
       "created_at": "2011-12-31T02:00:39Z",
       "total_stars": 61918
+    },
+    {
+      "login": "AliSoftware",
+      "name": "Olivier Halligon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/216089?s=88&v=4",
+      "html_url": "https://github.com/AliSoftware",
+      "followers": 3095,
+      "following": 16,
+      "public_repos": 39,
+      "location": "Rennes, France",
+      "bio": "iOS architect & Swift lover. OSS enthusiast.",
+      "company": "Freelance on iOS Tooling and DX",
+      "created_at": "2010-03-04T21:27:14Z",
+      "total_stars": 11699
     },
     {
       "login": "JonathanSalwan",
@@ -2163,20 +2163,6 @@
       "total_stars": 526
     },
     {
-      "login": "passportxyz",
-      "name": "Human Passport",
-      "avatar_url": "https://avatars.githubusercontent.com/u/158219626?s=88&v=4",
-      "html_url": "https://github.com/passportxyz",
-      "followers": 369,
-      "following": 0,
-      "public_repos": 26,
-      "location": "France",
-      "bio": "Human Passport",
-      "company": null,
-      "created_at": "2024-01-30T20:22:08Z",
-      "total_stars": 1700
-    },
-    {
       "login": "gephi",
       "name": "Gephi",
       "avatar_url": "https://avatars.githubusercontent.com/u/1144411?s=88&v=4",
@@ -2189,6 +2175,20 @@
       "company": null,
       "created_at": "2011-10-22T02:06:11Z",
       "total_stars": 7908
+    },
+    {
+      "login": "passportxyz",
+      "name": "Human Passport",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158219626?s=88&v=4",
+      "html_url": "https://github.com/passportxyz",
+      "followers": 369,
+      "following": 0,
+      "public_repos": 26,
+      "location": "France",
+      "bio": "Human Passport",
+      "company": null,
+      "created_at": "2024-01-30T20:22:08Z",
+      "total_stars": 1700
     },
     {
       "login": "SuperClaude-Org",
@@ -2538,7 +2538,7 @@
       "bio": "QElectroTech, or QET in short, is a free software to create industrial complex electric diagrams. But you can also even do plumbing, geothermal, air-conditionin",
       "company": null,
       "created_at": "2019-06-22T19:18:04Z",
-      "total_stars": 646
+      "total_stars": 649
     },
     {
       "login": "Giskard-AI",
