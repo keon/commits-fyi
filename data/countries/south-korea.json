@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-10-03T10:27:39.194Z",
+  "generated_at": "2026-10-04T11:09:24.256Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 148372,
-    "org_followers": 30080,
+    "org_followers": 30081,
     "user_stars": 748015,
-    "org_stars": 311489
+    "org_stars": 311490
   },
   "queries": [
     {
@@ -1813,20 +1813,6 @@
       "total_stars": 32
     },
     {
-      "login": "UpstageAI",
-      "name": "Upstage",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13376165?s=88&v=4",
-      "html_url": "https://github.com/UpstageAI",
-      "followers": 278,
-      "following": 0,
-      "public_repos": 33,
-      "location": "Korea, South",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-07-17T05:33:11Z",
-      "total_stars": 1457
-    },
-    {
       "login": "braincrew-lab",
       "name": "Braincrew",
       "avatar_url": "https://avatars.githubusercontent.com/u/203240008?s=88&v=4",
@@ -1839,6 +1825,20 @@
       "company": null,
       "created_at": "2025-03-14T08:45:46Z",
       "total_stars": 1853
+    },
+    {
+      "login": "UpstageAI",
+      "name": "Upstage",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13376165?s=88&v=4",
+      "html_url": "https://github.com/UpstageAI",
+      "followers": 278,
+      "following": 0,
+      "public_repos": 33,
+      "location": "Korea, South",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-07-17T05:33:11Z",
+      "total_stars": 1457
     },
     {
       "login": "CSID-DGU",
@@ -1911,20 +1911,6 @@
       "total_stars": 49
     },
     {
-      "login": "maeil-mail",
-      "name": "매일메일",
-      "avatar_url": "https://avatars.githubusercontent.com/u/185776812?s=88&v=4",
-      "html_url": "https://github.com/maeil-mail",
-      "followers": 222,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Korea, South",
-      "bio": "📮 기술 면접 질문을 매일매일 메일로 보내드릴게요!",
-      "company": null,
-      "created_at": "2024-10-21T09:06:12Z",
-      "total_stars": 1790
-    },
-    {
       "login": "Wiznet",
       "name": "WIZnet",
       "avatar_url": "https://avatars.githubusercontent.com/u/1920751?s=88&v=4",
@@ -1937,6 +1923,20 @@
       "company": null,
       "created_at": "2012-07-04T05:09:10Z",
       "total_stars": 628
+    },
+    {
+      "login": "maeil-mail",
+      "name": "매일메일",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185776812?s=88&v=4",
+      "html_url": "https://github.com/maeil-mail",
+      "followers": 222,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Korea, South",
+      "bio": "📮 기술 면접 질문을 매일매일 메일로 보내드릴게요!",
+      "company": null,
+      "created_at": "2024-10-21T09:06:12Z",
+      "total_stars": 1790
     },
     {
       "login": "BitterSecurity",
@@ -2205,20 +2205,6 @@
       "total_stars": 100
     },
     {
-      "login": "rust-kr",
-      "name": "한국 러스트 사용자 그룹",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10530291?s=88&v=4",
-      "html_url": "https://github.com/rust-kr",
-      "followers": 154,
-      "following": 0,
-      "public_repos": 10,
-      "location": "대한민국",
-      "bio": "러스트를 사용하거나 러스트 개발에 참여하고 있는 사용자 그룹입니다.",
-      "company": null,
-      "created_at": "2015-01-14T11:23:44Z",
-      "total_stars": 169
-    },
-    {
       "login": "LangChain-OpenTutorial",
       "name": "LangChain OpenTutorial",
       "avatar_url": "https://avatars.githubusercontent.com/u/191695441?s=88&v=4",
@@ -2231,6 +2217,20 @@
       "company": null,
       "created_at": "2024-12-14T14:33:23Z",
       "total_stars": 1132
+    },
+    {
+      "login": "rust-kr",
+      "name": "한국 러스트 사용자 그룹",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10530291?s=88&v=4",
+      "html_url": "https://github.com/rust-kr",
+      "followers": 154,
+      "following": 0,
+      "public_repos": 10,
+      "location": "대한민국",
+      "bio": "러스트를 사용하거나 러스트 개발에 참여하고 있는 사용자 그룹입니다.",
+      "company": null,
+      "created_at": "2015-01-14T11:23:44Z",
+      "total_stars": 169
     },
     {
       "login": "ncsoft",
@@ -2289,20 +2289,6 @@
       "total_stars": 999
     },
     {
-      "login": "pythonkr",
-      "name": "Python Korea",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3192767?s=88&v=4",
-      "html_url": "https://github.com/pythonkr",
-      "followers": 145,
-      "following": 0,
-      "public_repos": 46,
-      "location": "Korea",
-      "bio": "Python Korea Group",
-      "company": null,
-      "created_at": "2013-01-05T12:47:57Z",
-      "total_stars": 343
-    },
-    {
       "login": "YAPP-Github",
       "name": "YAPP - 작은 아이디어로 세상을 크게 변화시키다.",
       "avatar_url": "https://avatars.githubusercontent.com/u/101037471?s=88&v=4",
@@ -2315,6 +2301,20 @@
       "company": null,
       "created_at": "2022-03-06T07:35:34Z",
       "total_stars": 499
+    },
+    {
+      "login": "pythonkr",
+      "name": "Python Korea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3192767?s=88&v=4",
+      "html_url": "https://github.com/pythonkr",
+      "followers": 145,
+      "following": 0,
+      "public_repos": 46,
+      "location": "Korea",
+      "bio": "Python Korea Group",
+      "company": null,
+      "created_at": "2013-01-05T12:47:57Z",
+      "total_stars": 343
     },
     {
       "login": "dmis-lab",
@@ -2545,14 +2545,14 @@
       "name": "FEConf Official",
       "avatar_url": "https://avatars.githubusercontent.com/u/20984208?s=88&v=4",
       "html_url": "https://github.com/fedgkr",
-      "followers": 116,
+      "followers": 117,
       "following": 0,
       "public_repos": 17,
       "location": "Republic of Korea",
       "bio": "FEConf Official 계정입니다.",
       "company": null,
       "created_at": "2016-08-12T05:39:32Z",
-      "total_stars": 230
+      "total_stars": 231
     }
   ],
   "repos": [
