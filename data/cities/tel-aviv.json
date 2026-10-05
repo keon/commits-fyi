@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-10-04T11:08:18.015Z",
+  "generated_at": "2026-10-05T12:28:31.954Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 30523,
-    "org_followers": 3171,
-    "user_stars": 216580,
-    "org_stars": 90836
+    "user_followers": 23697,
+    "org_followers": 3173,
+    "user_stars": 161428,
+    "org_stars": 90834
   },
   "queries": [
     {
@@ -33,34 +33,6 @@
   ],
   "users": [
     {
-      "login": "lirantal",
-      "name": "Liran Tal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "html_url": "https://github.com/lirantal",
-      "followers": 2561,
-      "following": 1161,
-      "public_repos": 248,
-      "location": "Tel Aviv, Israel",
-      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
-      "company": "@snyk",
-      "created_at": "2010-06-28T11:10:04Z",
-      "total_stars": 20034
-    },
-    {
-      "login": "elie222",
-      "name": "Elie Steinbock",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3090527?s=88&u=6cf70a882423f683b5fa93cf02b43a50b05c482e&v=4",
-      "html_url": "https://github.com/elie222",
-      "followers": 2551,
-      "following": 20,
-      "public_repos": 46,
-      "location": "Tel Aviv, Israel",
-      "bio": "Building Inbox Zero: https://getinboxzero.com\r\n\r\nMy YouTube channel about open source and AI coding: https://youtube.com/elie2222",
-      "company": "@inbox-zero ",
-      "created_at": "2012-12-20T14:33:08Z",
-      "total_stars": 16697
-    },
-    {
       "login": "jondot",
       "name": "Dotan J. Nahum",
       "avatar_url": "https://avatars.githubusercontent.com/u/83390?s=88&v=4",
@@ -72,7 +44,7 @@
       "bio": null,
       "company": "SpectralOps",
       "created_at": "2009-05-11T19:46:11Z",
-      "total_stars": 62007
+      "total_stars": 62003
     },
     {
       "login": "Alaev",
@@ -121,7 +93,7 @@
       "name": "Alexander Akait",
       "avatar_url": "https://avatars.githubusercontent.com/u/4567934?s=88&u=63a5cc2b57b2e0e61b97d8459300e7e0ae493e22&v=4",
       "html_url": "https://github.com/alexander-akait",
-      "followers": 1059,
+      "followers": 1061,
       "following": 14,
       "public_repos": 11,
       "location": "Israel, Tel-Aviv /// Russia, Saint Petersburg/Kirov",
@@ -149,7 +121,7 @@
       "name": "TechYourChance",
       "avatar_url": "https://avatars.githubusercontent.com/u/12713429?s=88&u=02b5639c35399c01dbfc1bcc60f21aac097b809b&v=4",
       "html_url": "https://github.com/techyourchance",
-      "followers": 713,
+      "followers": 712,
       "following": 0,
       "public_repos": 23,
       "location": "Tel Aviv",
@@ -170,7 +142,7 @@
       "bio": null,
       "company": "Descope",
       "created_at": "2013-11-28T13:24:39Z",
-      "total_stars": 17389
+      "total_stars": 17399
     },
     {
       "login": "YuvalNirkin",
@@ -187,25 +159,11 @@
       "total_stars": 2881
     },
     {
-      "login": "cool-RR",
-      "name": "Ram Rachum",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56778?s=88&u=3ec6c1c47cb6b10fc1c9371f8ff65ebf69d13672&v=4",
-      "html_url": "https://github.com/cool-RR",
-      "followers": 550,
-      "following": 2,
-      "public_repos": 28,
-      "location": "Tel-Aviv, Israel",
-      "bio": "Research Intern at CHAI, UCB · AI Safety Researcher at Tufts University · ALTER AI Safety alumnus · Scientific Council Member at IAEAI · Fellow of the @psf",
-      "company": "University of California, Berkeley",
-      "created_at": "2009-02-22T09:12:10Z",
-      "total_stars": 17372
-    },
-    {
       "login": "ronami",
       "name": "Ronen Amiel",
       "avatar_url": "https://avatars.githubusercontent.com/u/5484230?s=88&u=909969e8a7796a26275ecc07a1540b3d3f3d805f&v=4",
       "html_url": "https://github.com/ronami",
-      "followers": 547,
+      "followers": 548,
       "following": 296,
       "public_repos": 4,
       "location": "Tel Aviv Yafo, Israel",
@@ -226,35 +184,21 @@
       "bio": null,
       "company": null,
       "created_at": "2011-12-21T13:13:30Z",
-      "total_stars": 15281
-    },
-    {
-      "login": "makelinux",
-      "name": "Costa Shulyupin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2335185?s=88&u=7ecee8473cab943059fd016329b284b1150d9e0c&v=4",
-      "html_url": "https://github.com/makelinux",
-      "followers": 476,
-      "following": 9,
-      "public_repos": 23,
-      "location": "Tel Aviv",
-      "bio": null,
-      "company": "Red Hat",
-      "created_at": "2012-09-12T22:39:03Z",
-      "total_stars": 2106
+      "total_stars": 15283
     },
     {
       "login": "shlomif",
       "name": "Shlomi Fish",
       "avatar_url": "https://avatars.githubusercontent.com/u/3150?s=88&v=4",
       "html_url": "https://github.com/shlomif",
-      "followers": 455,
+      "followers": 456,
       "following": 68,
       "public_repos": 487,
       "location": "Tel Aviv, Israel",
       "bio": "I'm an Israeli software developer, writer and humorist. You can learn more about me from the pages of my home site (link below).",
       "company": null,
       "created_at": "2008-03-15T18:36:33Z",
-      "total_stars": 1723
+      "total_stars": 1724
     },
     {
       "login": "shesek",
@@ -289,8 +233,8 @@
       "name": "Michael Salaverry",
       "avatar_url": "https://avatars.githubusercontent.com/u/62937?s=88&u=39ac2848b047a29439d905b077c4a50df6b277ee&v=4",
       "html_url": "https://github.com/barakplasma",
-      "followers": 392,
-      "following": 6175,
+      "followers": 390,
+      "following": 6184,
       "public_repos": 64,
       "location": "Tel Aviv, Israel",
       "bio": "Staff AI Platform Engineer",
@@ -303,14 +247,14 @@
       "name": "Avi Fenesh",
       "avatar_url": "https://avatars.githubusercontent.com/u/55848801?s=88&u=97b1a6138c4690d34b592a18d0a4e393220e3fe5&v=4",
       "html_url": "https://github.com/avifenesh",
-      "followers": 376,
+      "followers": 375,
       "following": 34,
-      "public_repos": 59,
+      "public_repos": 58,
       "location": "TLV",
       "bio": "Founder, tiyuvta.ai: self-deploy open-source frontier models on hardware you can afford · Valkey GLIDE & valkey-skills maintainer · ML research at avifenesh.ai ",
       "company": "AWS",
       "created_at": "2019-09-26T16:23:17Z",
-      "total_stars": 218
+      "total_stars": 216
     },
     {
       "login": "mallowigi",
@@ -332,8 +276,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/747110?s=88&u=4f2da5ee783fe399e9cd04fa3d396c7922efbbbd&v=4",
       "html_url": "https://github.com/alexlib",
       "followers": 354,
-      "following": 1249,
-      "public_repos": 122,
+      "following": 1251,
+      "public_repos": 123,
       "location": "Tel Aviv, Israel",
       "bio": "Experimental fluid mechanics researcher trained as a mechanical engineer, who believes in open source and open science",
       "company": "Tel Aviv University",
@@ -369,25 +313,11 @@
       "total_stars": 2766
     },
     {
-      "login": "ealush",
-      "name": "Evyatar Alush",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11255103?s=88&u=abebaf4615b1b7aff2ab4bdb0654815d77af686c&v=4",
-      "html_url": "https://github.com/ealush",
-      "followers": 318,
-      "following": 58,
-      "public_repos": 31,
-      "location": "Tel Aviv",
-      "bio": "Software engineer at Meta. Creator of Vest and emoji-picker-react. I make tools for human developers, then talk about the weird parts.",
-      "company": "@facebook ",
-      "created_at": "2015-03-01T10:18:27Z",
-      "total_stars": 4392
-    },
-    {
       "login": "liady",
       "name": "Liad Yosef",
       "avatar_url": "https://avatars.githubusercontent.com/u/7003853?s=88&u=04d1cd1a8fb480408cfb7931c93dcf17815ac549&v=4",
       "html_url": "https://github.com/liady",
-      "followers": 296,
+      "followers": 303,
       "following": 26,
       "public_repos": 43,
       "location": "Tel Aviv, Israel",
@@ -395,20 +325,6 @@
       "company": "Shopify",
       "created_at": "2014-03-19T21:26:24Z",
       "total_stars": 3029
-    },
-    {
-      "login": "biusberline",
-      "name": "unpack.wasm",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8263411?s=88&u=ddf681496737aab9a30e465143d060b79aca423d&v=4",
-      "html_url": "https://github.com/biusberline",
-      "followers": 294,
-      "following": 1,
-      "public_repos": 4,
-      "location": "Tel Aviv, Israel ",
-      "bio": "Unpack // WASM Reverse Engineering & Anti-Bot Research\r\ndisassembling the bytecode bot-detection vendors hoped nobody would read",
-      "company": "@supabase",
-      "created_at": "2014-07-25T03:04:55Z",
-      "total_stars": 377
     },
     {
       "login": "edeng23",
@@ -443,9 +359,9 @@
       "name": "Igal Klebanov",
       "avatar_url": "https://avatars.githubusercontent.com/u/14938291?s=88&u=704cf0a447d678ce1ca31bad521c6310815c585c&v=4",
       "html_url": "https://github.com/igalklebanov",
-      "followers": 235,
+      "followers": 237,
       "following": 441,
-      "public_repos": 7,
+      "public_repos": 8,
       "location": "Tel Aviv, Israel",
       "bio": "kysely co-lead.\r\nzod contributor.",
       "company": null,
@@ -464,7 +380,7 @@
       "bio": null,
       "company": "Bluevine",
       "created_at": "2016-08-02T22:02:34Z",
-      "total_stars": 1200
+      "total_stars": 1196
     },
     {
       "login": "shahata",
@@ -499,14 +415,14 @@
       "name": "Assaf Dori",
       "avatar_url": "https://avatars.githubusercontent.com/u/83507910?s=88&u=56a11366f77e16ed2d136c9c689781eac6117aa9&v=4",
       "html_url": "https://github.com/assafdori",
-      "followers": 209,
+      "followers": 210,
       "following": 0,
       "public_repos": 41,
       "location": "Tel Aviv",
       "bio": "🛰️",
       "company": null,
       "created_at": "2021-05-01T15:38:35Z",
-      "total_stars": 2431
+      "total_stars": 2439
     },
     {
       "login": "MohammadAG",
@@ -520,21 +436,7 @@
       "bio": null,
       "company": "AT&T",
       "created_at": "2012-05-18T13:20:09Z",
-      "total_stars": 568
-    },
-    {
-      "login": "somdoron",
-      "name": "Doron Somech",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2715638?s=88&u=a4728a87529f49dcf6f8364231373707c7c17975&v=4",
-      "html_url": "https://github.com/somdoron",
-      "followers": 191,
-      "following": 1,
-      "public_repos": 25,
-      "location": "Tel Aviv,  Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-11-03T15:43:26Z",
-      "total_stars": 289
+      "total_stars": 567
     },
     {
       "login": "guyca",
@@ -551,20 +453,6 @@
       "total_stars": 27
     },
     {
-      "login": "Arieg419",
-      "name": "Omer Goldberg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8246234?s=88&u=27c49be914de4e2d627a7be0be8011bf532d2006&v=4",
-      "html_url": "https://github.com/Arieg419",
-      "followers": 171,
-      "following": 0,
-      "public_repos": 40,
-      "location": "Tel Aviv / NYC",
-      "bio": "Founder/CEO @ Chaos Labs. Previously at Facebook, Instagram, and Internet.org. Based in Tel Aviv / NYC. ",
-      "company": "Chaos Labs",
-      "created_at": "2014-07-23T13:10:05Z",
-      "total_stars": 220
-    },
-    {
       "login": "shakedzy",
       "name": "Shaked Zychlinski",
       "avatar_url": "https://avatars.githubusercontent.com/u/15704705?s=88&u=42a0d295848a7b89014dce5bfbff813017428143&v=4",
@@ -576,7 +464,7 @@
       "bio": null,
       "company": null,
       "created_at": "2015-11-07T14:54:02Z",
-      "total_stars": 832
+      "total_stars": 833
     },
     {
       "login": "rosenpin",
@@ -632,7 +520,7 @@
       "bio": "Senior iOS Engineer / UI/UX Fan.\r\nStops.com | QuakeMate.app | LLMHub | SpeakerMate & more.",
       "company": "Stops.com",
       "created_at": "2015-08-08T22:26:20Z",
-      "total_stars": 7273
+      "total_stars": 7272
     },
     {
       "login": "orenyomtov",
@@ -641,7 +529,7 @@
       "html_url": "https://github.com/orenyomtov",
       "followers": 149,
       "following": 53,
-      "public_repos": 37,
+      "public_repos": 38,
       "location": "Tel Aviv, Israel",
       "bio": null,
       "company": null,
@@ -663,6 +551,20 @@
       "total_stars": 81
     },
     {
+      "login": "mrT23",
+      "name": "Tal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21198860?s=88&u=3abae1d25498fbc504a010918913d22896ed238a&v=4",
+      "html_url": "https://github.com/mrT23",
+      "followers": 146,
+      "following": 7,
+      "public_repos": 2,
+      "location": "Tel Aviv",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-08-23T13:55:45Z",
+      "total_stars": 0
+    },
+    {
       "login": "jossef",
       "name": "Jossef Kadouri",
       "avatar_url": "https://avatars.githubusercontent.com/u/1287098?s=88&u=cd401bfb6010e440539c490d5e6412a1f3f55927&v=4",
@@ -677,25 +579,11 @@
       "total_stars": 380
     },
     {
-      "login": "mrT23",
-      "name": "Tal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21198860?s=88&u=3abae1d25498fbc504a010918913d22896ed238a&v=4",
-      "html_url": "https://github.com/mrT23",
-      "followers": 145,
-      "following": 7,
-      "public_repos": 2,
-      "location": "Tel Aviv",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-08-23T13:55:45Z",
-      "total_stars": 0
-    },
-    {
       "login": "davidbrai",
       "name": "David Brailovsky",
       "avatar_url": "https://avatars.githubusercontent.com/u/351026?s=88&u=24f452ed6d0258e45f9e749dc966c66bf8994be1&v=4",
       "html_url": "https://github.com/davidbrai",
-      "followers": 145,
+      "followers": 144,
       "following": 10,
       "public_repos": 10,
       "location": "Vienna / Tel Aviv",
@@ -747,32 +635,18 @@
       "total_stars": 48
     },
     {
-      "login": "bbenzikry",
-      "name": "Beni Ben zikry",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1993348?s=88&u=1f87dc00918aa9c7e5c46c92cf478d2dfea49c31&v=4",
-      "html_url": "https://github.com/bbenzikry",
-      "followers": 131,
-      "following": 486,
-      "public_repos": 23,
-      "location": "Tel Aviv",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-07-17T18:35:15Z",
-      "total_stars": 119
-    },
-    {
-      "login": "bzsinger",
-      "name": "Benny Singer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14189730?s=88&u=748b6a15c923795b511edbf505148dcd7671ec06&v=4",
-      "html_url": "https://github.com/bzsinger",
-      "followers": 131,
-      "following": 220,
-      "public_repos": 20,
-      "location": "Tel Aviv",
-      "bio": "Meta, UT Austin '19",
-      "company": "@facebook",
-      "created_at": "2015-09-09T00:13:51Z",
-      "total_stars": 17
+      "login": "chernistry",
+      "name": "Alex Chernysh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73943355?s=88&u=1f9db84a39ee1d57f320bd02a6c704d61118e078&v=4",
+      "html_url": "https://github.com/chernistry",
+      "followers": 132,
+      "following": 101,
+      "public_repos": 9,
+      "location": "Tel Aviv, Israel",
+      "bio": "Applied AI Systems Engineer · multi-agent, RAG, MCP · evals. Bernstein maintainer.",
+      "company": "Sip Your Drink",
+      "created_at": "2020-11-04T12:10:31Z",
+      "total_stars": 138
     },
     {
       "login": "idoco",
@@ -787,20 +661,6 @@
       "company": "@loadmill ",
       "created_at": "2013-10-25T17:27:17Z",
       "total_stars": 2214
-    },
-    {
-      "login": "chernistry",
-      "name": "Alex Chernysh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73943355?s=88&u=1f9db84a39ee1d57f320bd02a6c704d61118e078&v=4",
-      "html_url": "https://github.com/chernistry",
-      "followers": 130,
-      "following": 101,
-      "public_repos": 9,
-      "location": "Tel Aviv, Israel",
-      "bio": "Applied AI Systems Engineer · multi-agent, RAG, MCP · evals. Bernstein maintainer.",
-      "company": "Sip Your Drink",
-      "created_at": "2020-11-04T12:10:31Z",
-      "total_stars": 138
     },
     {
       "login": "adiyoss",
@@ -821,7 +681,7 @@
       "name": "David L. Rajcher",
       "avatar_url": "https://avatars.githubusercontent.com/u/31222514?s=88&u=e74ab6bbce357c3c2c7b7de4bddf4ca111a1ce83&v=4",
       "html_url": "https://github.com/David-L-R",
-      "followers": 127,
+      "followers": 126,
       "following": 69,
       "public_repos": 2,
       "location": "Amsterdam <> Tel Aviv",
@@ -842,7 +702,7 @@
       "bio": "Gopher, Databases, Crypto",
       "company": "@arnac-io",
       "created_at": "2017-12-13T19:22:01Z",
-      "total_stars": 1526
+      "total_stars": 1525
     },
     {
       "login": "pgilad",
@@ -871,20 +731,6 @@
       "company": "Novu",
       "created_at": "2018-05-11T15:19:20Z",
       "total_stars": 2
-    },
-    {
-      "login": "eliraneliassy",
-      "name": "Eliran Eliassy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18899577?s=88&u=ce9282a7c47a55aac6f88407107745028cb195eb&v=4",
-      "html_url": "https://github.com/eliraneliassy",
-      "followers": 121,
-      "following": 7,
-      "public_repos": 99,
-      "location": "Tel Aviv",
-      "bio": "CEO & founder @ e-square.io |\r\nGoogle Developer Expert in Angular & Web Technologies | Community leader",
-      "company": "e-square.io",
-      "created_at": "2016-05-01T10:30:37Z",
-      "total_stars": 33
     },
     {
       "login": "corevo",
@@ -929,20 +775,6 @@
       "total_stars": 26
     },
     {
-      "login": "daonb",
-      "name": "benny daon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36852?s=88&u=e0d51d3bf4258744eed0ff80a6c3e81ac145ab6b&v=4",
-      "html_url": "https://github.com/daonb",
-      "followers": 119,
-      "following": 79,
-      "public_repos": 33,
-      "location": "Tel-Aviv",
-      "bio": "Missing deadlines for over 30 years\r\n",
-      "company": "Tuzig",
-      "created_at": "2008-11-26T21:12:07Z",
-      "total_stars": 23
-    },
-    {
       "login": "eladkal",
       "name": "Elad Kalif",
       "avatar_url": "https://avatars.githubusercontent.com/u/45845474?s=88&u=c4049156fea2df31eebe693f545edadb7acc84e0&v=4",
@@ -982,7 +814,7 @@
       "bio": "With Great Beard Comes Great Responsibility",
       "company": "Garry Lachman",
       "created_at": "2015-03-17T17:00:47Z",
-      "total_stars": 1776
+      "total_stars": 1775
     },
     {
       "login": "guy-4444",
@@ -1055,20 +887,6 @@
       "total_stars": 19
     },
     {
-      "login": "KobiShashs",
-      "name": "Kobi Shasha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8275602?s=88&u=c8f4404bdb1bf0903b798698f6a74f40cd83f5dc&v=4",
-      "html_url": "https://github.com/KobiShashs",
-      "followers": 105,
-      "following": 10,
-      "public_repos": 154,
-      "location": "Tel Aviv",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-07-26T14:23:30Z",
-      "total_stars": 27
-    },
-    {
       "login": "ronmamo",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/2588829?s=88&u=2e39d9740796f4e16a477edf34779dfff45252dd&v=4",
@@ -1125,20 +943,6 @@
       "total_stars": 0
     },
     {
-      "login": "Jongy",
-      "name": "Yonatan Goldschmidt",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8831572?s=88&v=4",
-      "html_url": "https://github.com/Jongy",
-      "followers": 102,
-      "following": 35,
-      "public_repos": 24,
-      "location": "Tel Aviv, Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-09-19T10:21:40Z",
-      "total_stars": 108
-    },
-    {
       "login": "asafdav",
       "name": "Asaf David",
       "avatar_url": "https://avatars.githubusercontent.com/u/1223211?s=88&v=4",
@@ -1157,7 +961,7 @@
       "name": "Nimrod Gutman",
       "avatar_url": "https://avatars.githubusercontent.com/u/1540134?s=88&u=99dac224be3d26684cbe4cab5e411e4cd1865246&v=4",
       "html_url": "https://github.com/ngutman",
-      "followers": 99,
+      "followers": 100,
       "following": 6,
       "public_repos": 22,
       "location": "Tel Aviv",
@@ -1178,7 +982,7 @@
       "bio": "FullStack engineer at Lusha.\r\nYouTuber on my spare time :)",
       "company": null,
       "created_at": "2016-03-02T14:19:56Z",
-      "total_stars": 439
+      "total_stars": 440
     },
     {
       "login": "yammesicka",
@@ -1209,46 +1013,18 @@
       "total_stars": 1
     },
     {
-      "login": "SelfishGene",
-      "name": "David Beniaguev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11506338?s=88&u=c836aad840396cdb94c869b544effd77aef684fa&v=4",
-      "html_url": "https://github.com/SelfishGene",
-      "followers": 95,
-      "following": 156,
-      "public_repos": 13,
-      "location": "Tel Aviv, Israel",
-      "bio": "For fun, I build Generative Models. Computational neuroscience PhD. Was trying to understand the brain to help build AI, but it appears it's no longer necessary",
-      "company": null,
-      "created_at": "2015-03-16T16:32:04Z",
-      "total_stars": 524
-    },
-    {
       "login": "radiantspace",
       "name": "Yury Nevalenny",
       "avatar_url": "https://avatars.githubusercontent.com/u/8243681?s=88&u=64cc9414f4ce713abfed3bf8516ed8a0027a545b&v=4",
       "html_url": "https://github.com/radiantspace",
       "followers": 95,
       "following": 23,
-      "public_repos": 20,
+      "public_repos": 19,
       "location": "Tel Aviv",
       "bio": "SWE and Digital Creator",
       "company": "GitHub",
       "created_at": "2014-07-23T08:07:44Z",
-      "total_stars": 23
-    },
-    {
-      "login": "Inbal-Tish",
-      "name": "Inbal Tish",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33805983?s=88&u=15799ab0cff4472be59bf6117885da093c558540&v=4",
-      "html_url": "https://github.com/Inbal-Tish",
-      "followers": 94,
-      "following": 0,
-      "public_repos": 1,
-      "location": "Tel-Aviv, Israel",
-      "bio": null,
-      "company": "Wix.com",
-      "created_at": "2017-11-19T13:50:00Z",
-      "total_stars": 3
+      "total_stars": 14
     },
     {
       "login": "sergeylukin",
@@ -1339,7 +1115,7 @@
       "name": "Or Noyman",
       "avatar_url": "https://avatars.githubusercontent.com/u/17881579?s=88&v=4",
       "html_url": "https://github.com/fullkomnun",
-      "followers": 88,
+      "followers": 87,
       "following": 360,
       "public_repos": 8,
       "location": "Tel-Aviv, Israel",
@@ -1363,20 +1139,6 @@
       "total_stars": 334
     },
     {
-      "login": "maximveksler",
-      "name": "Maxim Veksler",
-      "avatar_url": "https://avatars.githubusercontent.com/u/550550?s=88&u=b26e55dc77fdbbb0bf88ed04dd12be01d4a8282b&v=4",
-      "html_url": "https://github.com/maximveksler",
-      "followers": 86,
-      "following": 73,
-      "public_repos": 30,
-      "location": "Tel Aviv, Israel",
-      "bio": "building...",
-      "company": null,
-      "created_at": "2011-01-06T16:09:58Z",
-      "total_stars": 165
-    },
-    {
       "login": "scottcate",
       "name": "Scott Cate",
       "avatar_url": "https://avatars.githubusercontent.com/u/617586?s=88&u=f69b25bb9f8869b887887de63136184db7b30899&v=4",
@@ -1395,7 +1157,7 @@
       "name": "Calder Reed",
       "avatar_url": "https://avatars.githubusercontent.com/u/201328099?s=88&u=31d3fc92cce8ab42366b6598cf8f625b22054f30&v=4",
       "html_url": "https://github.com/calderedd",
-      "followers": 83,
+      "followers": 82,
       "following": 121,
       "public_repos": 0,
       "location": "US, Tel Aviv",
@@ -1405,18 +1167,18 @@
       "total_stars": 0
     },
     {
-      "login": "yonilevy",
-      "name": "Yoni Levy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31284?s=88&u=1c01697bfda99cd197662e46e6326a1434549174&v=4",
-      "html_url": "https://github.com/yonilevy",
+      "login": "dorsha",
+      "name": "Doron Sharon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5429033?s=88&u=f4e286dead2c1616f9dc5081a31109b34439162d&v=4",
+      "html_url": "https://github.com/dorsha",
       "followers": 82,
-      "following": 18,
-      "public_repos": 17,
+      "following": 31,
+      "public_repos": 11,
       "location": "Tel Aviv, Israel",
       "bio": null,
-      "company": null,
-      "created_at": "2008-10-27T17:11:56Z",
-      "total_stars": 553
+      "company": "Descope",
+      "created_at": "2013-09-10T16:46:00Z",
+      "total_stars": 102
     },
     {
       "login": "oryband",
@@ -1430,7 +1192,245 @@
       "bio": "Hands-on architect and tech lead who has shipped large-scale, data‐intensive backends.",
       "company": "monday.com",
       "created_at": "2009-08-14T16:18:54Z",
-      "total_stars": 86
+      "total_stars": 85
+    },
+    {
+      "login": "bgauryy",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/4633839?s=88&u=efd013b13ab46d121ce4f1bb95901b751636178e&v=4",
+      "html_url": "https://github.com/bgauryy",
+      "followers": 81,
+      "following": 4,
+      "public_repos": 23,
+      "location": "Tel Aviv ",
+      "bio": "Software Architect | Building solutions for code research across millions of repositories | Creator of Octocode http://octocode.ai\r\n 🐙",
+      "company": null,
+      "created_at": "2013-06-06T19:39:23Z",
+      "total_stars": 1483
+    },
+    {
+      "login": "shimont",
+      "name": "Shimon Tolts",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2613168?s=88&u=b67c49edf3efdec35feb689423d263f23f04f8b2&v=4",
+      "html_url": "https://github.com/shimont",
+      "followers": 77,
+      "following": 16,
+      "public_repos": 13,
+      "location": "Tel-Aviv",
+      "bio": "📽️ ShimOnOps @ YouTube \r\n⚜️ CNCF Ambassador \r\n🦸‍♂️ AWS Community Hero",
+      "company": null,
+      "created_at": "2012-10-21T15:01:10Z",
+      "total_stars": 5
+    },
+    {
+      "login": "liorbenhorin",
+      "name": "Lior Ben Horin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18227469?s=88&u=d6a2609ec51a4fecb10fc481e62da816793e5ae3&v=4",
+      "html_url": "https://github.com/liorbenhorin",
+      "followers": 76,
+      "following": 3,
+      "public_repos": 8,
+      "location": "Tel Aviv",
+      "bio": "NVIDIA Robotics",
+      "company": "NVIDIA",
+      "created_at": "2016-04-02T08:17:21Z",
+      "total_stars": 73
+    },
+    {
+      "login": "hamatoyogi",
+      "name": "Yoav Ganbar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6682981?s=88&u=f2be9ecfcd13da86512966024c8cfb6448666487&v=4",
+      "html_url": "https://github.com/hamatoyogi",
+      "followers": 76,
+      "following": 147,
+      "public_repos": 68,
+      "location": "Tel Aviv-Yafo",
+      "bio": "Fullstack Web Builder | AI Lead @ Claroty\r\n\r\nFormerly @QwikDev @builderIO @FiverrX @Fiverr @Capitolis @culture-trip ",
+      "company": "Claroty",
+      "created_at": "2014-02-14T14:33:45Z",
+      "total_stars": 100
+    },
+    {
+      "login": "shalakhin",
+      "name": "Olexandr Shalakhin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/433637?s=88&u=19da4be4dd67ed99c90ca59584e81672e22f7cbc&v=4",
+      "html_url": "https://github.com/shalakhin",
+      "followers": 75,
+      "following": 93,
+      "public_repos": 26,
+      "location": "Israel, Tel Aviv Yafo",
+      "bio": null,
+      "company": "Barva Technologies LTD",
+      "created_at": "2010-10-09T17:03:32Z",
+      "total_stars": 682
+    },
+    {
+      "login": "justlevine",
+      "name": "Dovid Levine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29322304?s=88&u=e41abf9150741bb63fea3b72a5c61579aca597fd&v=4",
+      "html_url": "https://github.com/justlevine",
+      "followers": 75,
+      "following": 24,
+      "public_repos": 3,
+      "location": "Tel Aviv | New Jersey",
+      "bio": "Principal at @AxeWP | Senior WordPress Engineer at @rtCamp.\r\nSpecializing in PHP, WordPress (traditional + Headless), and @wp-graphql. 💜 Nonprofits",
+      "company": "@AxeWP | @rtCamp",
+      "created_at": "2017-06-10T02:56:30Z",
+      "total_stars": 1
+    },
+    {
+      "login": "TheMoskowitz",
+      "name": "Jeff Moskowitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16277569?s=88&u=be6ac62fd4b1eb1e9cf6ba1bc533ad79cdb22d0d&v=4",
+      "html_url": "https://github.com/TheMoskowitz",
+      "followers": 75,
+      "following": 4,
+      "public_repos": 15,
+      "location": "Tel Aviv",
+      "bio": "AI engineer and maker in \r\nTel Aviv",
+      "company": null,
+      "created_at": "2015-12-13T14:42:22Z",
+      "total_stars": 131
+    },
+    {
+      "login": "adi-works",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/12032248?s=88&v=4",
+      "html_url": "https://github.com/adi-works",
+      "followers": 74,
+      "following": 173,
+      "public_repos": 27,
+      "location": "Tel Aviv",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-04-20T11:07:25Z",
+      "total_stars": 401
+    },
+    {
+      "login": "DanielScharfsteinGit",
+      "name": "Daniel Scharfstein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107919151?s=88&u=7321a40e56fa2a9f2ae55bde28513a6cc46df7d5&v=4",
+      "html_url": "https://github.com/DanielScharfsteinGit",
+      "followers": 74,
+      "following": 4,
+      "public_repos": 0,
+      "location": "Tel Aviv",
+      "bio": "Tech Lead",
+      "company": "Stealth",
+      "created_at": "2022-06-21T08:52:37Z",
+      "total_stars": 0
+    },
+    {
+      "login": "0i0",
+      "name": "Léo Hakim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/467087?s=88&v=4",
+      "html_url": "https://github.com/0i0",
+      "followers": 74,
+      "following": 28,
+      "public_repos": 41,
+      "location": "Tel-Aviv, Israel",
+      "bio": "I am unique. just like everyone else;\r\n\r\nLior's advice: When taking advice, consider who you're getting it from.",
+      "company": "hourone.ai",
+      "created_at": "2010-11-04T09:17:30Z",
+      "total_stars": 208
+    },
+    {
+      "login": "joshuarubin",
+      "name": "Joshua Rubin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194275?s=88&u=ceb70dec37d83f57aeefe9c49e7f62a118cb09c9&v=4",
+      "html_url": "https://github.com/joshuarubin",
+      "followers": 73,
+      "following": 91,
+      "public_repos": 98,
+      "location": "Tel Aviv, Israel",
+      "bio": null,
+      "company": "@poolsideai ",
+      "created_at": "2010-02-02T03:33:34Z",
+      "total_stars": 218
+    },
+    {
+      "login": "ydaniv",
+      "name": "Yehonatan Daniv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116658?s=88&u=e8480efcf11f4b527687463954b181f2e8e34b2e&v=4",
+      "html_url": "https://github.com/ydaniv",
+      "followers": 73,
+      "following": 24,
+      "public_repos": 19,
+      "location": "Tel Aviv",
+      "bio": null,
+      "company": "@wix ",
+      "created_at": "2009-08-18T16:35:59Z",
+      "total_stars": 244
+    },
+    {
+      "login": "nirsky",
+      "name": "Nir Hadassi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16322616?s=88&u=40bb5d9b739dc796c1eb18ebaf661376c572d3b5&v=4",
+      "html_url": "https://github.com/nirsky",
+      "followers": 73,
+      "following": 10,
+      "public_repos": 8,
+      "location": "Tel-Aviv, Israel",
+      "bio": "Engineering Manager at Island",
+      "company": "Island",
+      "created_at": "2015-12-16T14:23:23Z",
+      "total_stars": 3097
+    },
+    {
+      "login": "ziv",
+      "name": "Ziv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195479?s=88&u=893111eb1c1ffed17a03b3b3dbdd893cc92ebe11&v=4",
+      "html_url": "https://github.com/ziv",
+      "followers": 72,
+      "following": 191,
+      "public_repos": 132,
+      "location": "Tel Aviv",
+      "bio": "70 c0d3 0r n07 70 c0d3",
+      "company": "Zoominfo",
+      "created_at": "2010-02-03T12:02:18Z",
+      "total_stars": 355
+    },
+    {
+      "login": "alex-ilgayev",
+      "name": "Alex Ilgayev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23579644?s=88&u=c251b6af347149868df1827f4bff23e216b610ee&v=4",
+      "html_url": "https://github.com/alex-ilgayev",
+      "followers": 72,
+      "following": 28,
+      "public_repos": 7,
+      "location": "Tel Aviv, Israel",
+      "bio": "Head of Security Research @ Cycode. \r\nMy interests involve Cyber Security and Software Development",
+      "company": "Cycode",
+      "created_at": "2016-11-19T12:46:49Z",
+      "total_stars": 642
+    },
+    {
+      "login": "omermorad",
+      "name": "Omer Morad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6696717?s=88&u=7d641de869b5fb0c2c58cd33b991c623f799e849&v=4",
+      "html_url": "https://github.com/omermorad",
+      "followers": 71,
+      "following": 80,
+      "public_repos": 12,
+      "location": "Tel Aviv",
+      "bio": "I work where backend meets platform: reliability, quality, and developer experience. Creator of Suites",
+      "company": "@suites-dev @codotech",
+      "created_at": "2014-02-16T14:26:41Z",
+      "total_stars": 104
+    },
+    {
+      "login": "piiq",
+      "name": "Theodore Aptekarev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11668535?s=88&u=8fc5a268bdd66d7c260dcc06d98e537bb0e56c26&v=4",
+      "html_url": "https://github.com/piiq",
+      "followers": 69,
+      "following": 3,
+      "public_repos": 15,
+      "location": "Sveti Stefan, SAO, Tel Aviv, Moscow, Earth",
+      "bio": "Polymath",
+      "company": null,
+      "created_at": "2015-03-26T17:51:32Z",
+      "total_stars": 62
     }
   ],
   "orgs": [
@@ -1439,7 +1439,7 @@
       "name": "Wix.com",
       "avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "html_url": "https://github.com/wix",
-      "followers": 814,
+      "followers": 813,
       "following": 0,
       "public_repos": 19,
       "location": "Tel Aviv, Be'er Sheva, Haifa, Vilnius, Kyiv, Dnipro, New York, San Francisco, Miami, Los Angeles, Phoenix, Denver, Berlin, Sao Paulo, Vancouver, Dublin, Tokyo",
@@ -1453,14 +1453,14 @@
       "name": "Komodor",
       "avatar_url": "https://avatars.githubusercontent.com/u/60484489?s=88&v=4",
       "html_url": "https://github.com/komodorio",
-      "followers": 362,
+      "followers": 363,
       "following": 0,
       "public_repos": 24,
       "location": "Tel Aviv",
       "bio": "Autonomous AI SRE Platform for Cloud-Native Infrastructure",
       "company": null,
       "created_at": "2020-01-30T18:54:33Z",
-      "total_stars": 7121
+      "total_stars": 7123
     },
     {
       "login": "wix-private",
@@ -1481,7 +1481,7 @@
       "name": "AI21Labs - Organization",
       "avatar_url": "https://avatars.githubusercontent.com/u/33798954?s=88&v=4",
       "html_url": "https://github.com/AI21Labs",
-      "followers": 198,
+      "followers": 199,
       "following": 0,
       "public_repos": 20,
       "location": "Tel Aviv, Israel",
@@ -1502,7 +1502,7 @@
       "bio": "Design to code, automated.",
       "company": null,
       "created_at": "2016-07-21T22:54:32Z",
-      "total_stars": 1108
+      "total_stars": 1109
     },
     {
       "login": "wix-incubator",
@@ -1544,7 +1544,7 @@
       "bio": "Web optimization, testing & UX solutions",
       "company": null,
       "created_at": "2012-05-19T10:44:35Z",
-      "total_stars": 1626
+      "total_stars": 1624
     },
     {
       "login": "dome9",
@@ -1799,6 +1799,20 @@
       "total_stars": 21
     },
     {
+      "login": "hunters-ai",
+      "name": "Hunters",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39551348?s=88&v=4",
+      "html_url": "https://github.com/hunters-ai",
+      "followers": 14,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Tel Aviv Israel",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-05-23T08:18:57Z",
+      "total_stars": 19
+    },
+    {
       "login": "FTBpro",
       "name": "Minute Media",
       "avatar_url": "https://avatars.githubusercontent.com/u/4352430?s=88&v=4",
@@ -1810,21 +1824,7 @@
       "bio": null,
       "company": null,
       "created_at": "2013-05-06T08:10:54Z",
-      "total_stars": 131
-    },
-    {
-      "login": "hunters-ai",
-      "name": "Hunters",
-      "avatar_url": "https://avatars.githubusercontent.com/u/39551348?s=88&v=4",
-      "html_url": "https://github.com/hunters-ai",
-      "followers": 13,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Tel Aviv Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-05-23T08:18:57Z",
-      "total_stars": 19
+      "total_stars": 130
     },
     {
       "login": "UVeye",
@@ -1852,7 +1852,7 @@
       "bio": null,
       "company": null,
       "created_at": "2011-10-06T07:44:56Z",
-      "total_stars": 1038
+      "total_stars": 1037
     },
     {
       "login": "panda-os",
@@ -1922,7 +1922,7 @@
       "bio": "kibibit is an open-source organization (non-profit), specializing in Development Tools.",
       "company": null,
       "created_at": "2015-09-14T12:36:01Z",
-      "total_stars": 530
+      "total_stars": 531
     },
     {
       "login": "AlefAlefAlef",
@@ -1950,7 +1950,7 @@
       "bio": "Tel Aviv Rust Meetup Group",
       "company": null,
       "created_at": "2019-03-11T12:27:44Z",
-      "total_stars": 13
+      "total_stars": 12
     },
     {
       "login": "e-square-io",
@@ -2034,7 +2034,7 @@
       "bio": null,
       "company": null,
       "created_at": "2008-10-13T18:34:00Z",
-      "total_stars": 1134
+      "total_stars": 1133
     },
     {
       "login": "alexliberzonlab",
@@ -2177,20 +2177,6 @@
       "total_stars": 1
     },
     {
-      "login": "Snapland",
-      "name": "Snapland",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64146710?s=88&v=4",
-      "html_url": "https://github.com/Snapland",
-      "followers": 4,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tel Aviv",
-      "bio": "Real Estate’s \"Moneyball\"​",
-      "company": null,
-      "created_at": "2020-04-22T13:37:20Z",
-      "total_stars": 0
-    },
-    {
       "login": "DiscordBoats",
       "name": "Discord Boats",
       "avatar_url": "https://avatars.githubusercontent.com/u/43587345?s=88&v=4",
@@ -2203,6 +2189,20 @@
       "company": null,
       "created_at": "2018-09-25T20:08:14Z",
       "total_stars": 66
+    },
+    {
+      "login": "Snapland",
+      "name": "Snapland",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64146710?s=88&v=4",
+      "html_url": "https://github.com/Snapland",
+      "followers": 4,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tel Aviv",
+      "bio": "Real Estate’s \"Moneyball\"​",
+      "company": null,
+      "created_at": "2020-04-22T13:37:20Z",
+      "total_stars": 0
     },
     {
       "login": "3dptv",
@@ -2373,20 +2373,6 @@
       "total_stars": 0
     },
     {
-      "login": "AVAILOTECH",
-      "name": "Cognni AI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12683623?s=88&v=4",
-      "html_url": "https://github.com/AVAILOTECH",
-      "followers": 3,
-      "following": 0,
-      "public_repos": 1,
-      "location": "HaMered St 29, Tel Aviv, Israel",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-05-31T13:46:15Z",
-      "total_stars": 0
-    },
-    {
       "login": "belmaker-lab",
       "name": "Belmaker Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/48879721?s=88&v=4",
@@ -2399,6 +2385,20 @@
       "company": null,
       "created_at": "2019-03-24T10:00:58Z",
       "total_stars": 7
+    },
+    {
+      "login": "AVAILOTECH",
+      "name": "Cognni AI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12683623?s=88&v=4",
+      "html_url": "https://github.com/AVAILOTECH",
+      "followers": 3,
+      "following": 0,
+      "public_repos": 1,
+      "location": "HaMered St 29, Tel Aviv, Israel",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-05-31T13:46:15Z",
+      "total_stars": 0
     },
     {
       "login": "finkfinance",
@@ -2471,20 +2471,6 @@
       "total_stars": 55
     },
     {
-      "login": "beameio",
-      "name": "beame.io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13220017?s=88&v=4",
-      "html_url": "https://github.com/beameio",
-      "followers": 3,
-      "following": 0,
-      "public_repos": 22,
-      "location": "Tel Aviv Israel ",
-      "bio": "Providing cryptographic identity as a service with beame-crypto-ID",
-      "company": null,
-      "created_at": "2015-07-07T12:57:36Z",
-      "total_stars": 701
-    },
-    {
       "login": "qmasters-ltd",
       "name": "QMasters LTD.",
       "avatar_url": "https://avatars.githubusercontent.com/u/47185525?s=88&v=4",
@@ -2497,6 +2483,20 @@
       "company": null,
       "created_at": "2019-01-30T15:46:34Z",
       "total_stars": 2
+    },
+    {
+      "login": "beameio",
+      "name": "beame.io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13220017?s=88&v=4",
+      "html_url": "https://github.com/beameio",
+      "followers": 3,
+      "following": 0,
+      "public_repos": 22,
+      "location": "Tel Aviv Israel ",
+      "bio": "Providing cryptographic identity as a service with beame-crypto-ID",
+      "company": null,
+      "created_at": "2015-07-07T12:57:36Z",
+      "total_stars": 701
     },
     {
       "login": "roeto",
@@ -2560,8 +2560,8 @@
       "full_name": "jondot/awesome-react-native",
       "html_url": "https://github.com/jondot/awesome-react-native",
       "description": "Awesome React Native components, news, tools, and learning material!",
-      "stargazers_count": 35712,
-      "forks_count": 4040,
+      "stargazers_count": 35713,
+      "forks_count": 4041,
       "language": null,
       "topics": [
         "react-native",
@@ -2575,29 +2575,10 @@
       "fork": false
     },
     {
-      "full_name": "cool-RR/PySnooper",
-      "html_url": "https://github.com/cool-RR/PySnooper",
-      "description": "Never use print for debugging again",
-      "stargazers_count": 16575,
-      "forks_count": 964,
-      "language": "Python",
-      "topics": [
-        "python",
-        "debug",
-        "debugger",
-        "introspection",
-        "logging"
-      ],
-      "owner_login": "cool-RR",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/56778?s=88&u=3ec6c1c47cb6b10fc1c9371f8ff65ebf69d13672&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "idank/explainshell",
       "html_url": "https://github.com/idank/explainshell",
       "description": "match command-line arguments to their help text",
-      "stargazers_count": 14273,
+      "stargazers_count": 14275,
       "forks_count": 853,
       "language": "Python",
       "topics": [],
@@ -2610,7 +2591,7 @@
       "full_name": "wix/react-native-navigation",
       "html_url": "https://github.com/wix/react-native-navigation",
       "description": "A complete native navigation solution for React Native",
-      "stargazers_count": 13176,
+      "stargazers_count": 13175,
       "forks_count": 2624,
       "language": "MDX",
       "topics": [
@@ -2626,29 +2607,10 @@
       "fork": false
     },
     {
-      "full_name": "elie222/inbox-zero",
-      "html_url": "https://github.com/elie222/inbox-zero",
-      "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
-      "stargazers_count": 12391,
-      "forks_count": 1558,
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "email",
-        "nextjs",
-        "openai",
-        "prisma"
-      ],
-      "owner_login": "elie222",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3090527?s=88&u=6cf70a882423f683b5fa93cf02b43a50b05c482e&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "wix/Detox",
       "html_url": "https://github.com/wix/Detox",
       "description": "Gray box end-to-end testing and automation framework for mobile apps",
-      "stargazers_count": 12032,
+      "stargazers_count": 12033,
       "forks_count": 1909,
       "language": "JavaScript",
       "topics": [
@@ -2667,8 +2629,8 @@
       "full_name": "wix/react-native-calendars",
       "html_url": "https://github.com/wix/react-native-calendars",
       "description": "React Native Calendar Components 🗓️ 📆 ",
-      "stargazers_count": 10315,
-      "forks_count": 3057,
+      "stargazers_count": 10317,
+      "forks_count": 3059,
       "language": "TypeScript",
       "topics": [
         "react-native",
@@ -2686,8 +2648,8 @@
       "full_name": "meirwah/awesome-incident-response",
       "html_url": "https://github.com/meirwah/awesome-incident-response",
       "description": "A curated list of tools for incident response",
-      "stargazers_count": 9426,
-      "forks_count": 1753,
+      "stargazers_count": 9433,
+      "forks_count": 1752,
       "language": null,
       "topics": [
         "incident-response",
@@ -2705,8 +2667,8 @@
       "full_name": "meirwah/awesome-workflow-engines",
       "html_url": "https://github.com/meirwah/awesome-workflow-engines",
       "description": "A curated list of awesome open source workflow engines",
-      "stargazers_count": 7940,
-      "forks_count": 776,
+      "stargazers_count": 7943,
+      "forks_count": 781,
       "language": null,
       "topics": [],
       "owner_login": "meirwah",
@@ -2732,7 +2694,7 @@
       "html_url": "https://github.com/wix/react-native-ui-lib",
       "description": "UI Components Library for React Native",
       "stargazers_count": 7157,
-      "forks_count": 748,
+      "forks_count": 750,
       "language": "TypeScript",
       "topics": [
         "react-native",
@@ -2750,7 +2712,7 @@
       "full_name": "jondot/hygen",
       "html_url": "https://github.com/jondot/hygen",
       "description": "The simple, fast, and scalable code generator that lives in your project.",
-      "stargazers_count": 5930,
+      "stargazers_count": 5928,
       "forks_count": 273,
       "language": "JavaScript",
       "topics": [
@@ -2768,7 +2730,7 @@
       "full_name": "komodorio/helm-dashboard",
       "html_url": "https://github.com/komodorio/helm-dashboard",
       "description": "The missing UI for Helm - visualize your releases",
-      "stargazers_count": 5760,
+      "stargazers_count": 5761,
       "forks_count": 360,
       "language": "TypeScript",
       "topics": [
@@ -2810,49 +2772,11 @@
       "fork": false
     },
     {
-      "full_name": "lirantal/nodejs-cli-apps-best-practices",
-      "html_url": "https://github.com/lirantal/nodejs-cli-apps-best-practices",
-      "description": "The largest Node.js CLI Apps best practices list ✨",
-      "stargazers_count": 4132,
-      "forks_count": 163,
-      "language": "JavaScript",
-      "topics": [
-        "nodejs",
-        "cli",
-        "command-line",
-        "nodejs-cli",
-        "best-practices"
-      ],
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "lirantal/dockly",
-      "html_url": "https://github.com/lirantal/dockly",
-      "description": "Immersive terminal interface for managing docker containers and services",
-      "stargazers_count": 4034,
-      "forks_count": 162,
-      "language": "JavaScript",
-      "topics": [
-        "nodejs",
-        "docker",
-        "console",
-        "containers",
-        "command-line-tool"
-      ],
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "jondot/awesome-devenv",
       "html_url": "https://github.com/jondot/awesome-devenv",
       "description": "A curated list of awesome tools, resources and workflow tips making an awesome development environment.",
-      "stargazers_count": 3359,
-      "forks_count": 210,
+      "stargazers_count": 3360,
+      "forks_count": 209,
       "language": null,
       "topics": [],
       "owner_login": "jondot",
@@ -2893,48 +2817,10 @@
       "fork": false
     },
     {
-      "full_name": "elie222/rakazo",
-      "html_url": "https://github.com/elie222/rakazo",
-      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "stargazers_count": 3242,
-      "forks_count": 572,
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "chatgpt",
-        "docker",
-        "electron",
-        "expo"
-      ],
-      "owner_login": "elie222",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3090527?s=88&u=6cf70a882423f683b5fa93cf02b43a50b05c482e&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "lirantal/awesome-nodejs-security",
-      "html_url": "https://github.com/lirantal/awesome-nodejs-security",
-      "description": "Awesome Node.js Security resources",
-      "stargazers_count": 3044,
-      "forks_count": 314,
-      "language": null,
-      "topics": [
-        "nodejs",
-        "security",
-        "cybersecurity",
-        "web-security",
-        "owasp"
-      ],
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "jondot/graphene",
       "html_url": "https://github.com/jondot/graphene",
       "description": "Graphene is a realtime dashboard & graphing toolkit based on D3 and Backbone.",
-      "stargazers_count": 2850,
+      "stargazers_count": 2849,
       "forks_count": 225,
       "language": "CSS",
       "topics": [],
@@ -2947,7 +2833,7 @@
       "full_name": "wix-incubator/react-templates",
       "html_url": "https://github.com/wix-incubator/react-templates",
       "description": "Light weight templates for react",
-      "stargazers_count": 2808,
+      "stargazers_count": 2807,
       "forks_count": 202,
       "language": "JavaScript",
       "topics": [],
@@ -2974,25 +2860,6 @@
       "fork": false
     },
     {
-      "full_name": "ealush/vest",
-      "html_url": "https://github.com/ealush/vest",
-      "description": "Vest ✅ Declarative validations framework",
-      "stargazers_count": 2662,
-      "forks_count": 94,
-      "language": "TypeScript",
-      "topics": [
-        "validation-library",
-        "unit-testing",
-        "form-validation",
-        "react-validation-library",
-        "validation"
-      ],
-      "owner_login": "ealush",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11255103?s=88&u=abebaf4615b1b7aff2ab4bdb0654815d77af686c&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "nirsky/react-native-size-matters",
       "html_url": "https://github.com/nirsky/react-native-size-matters",
       "description": "A lightweight, zero-dependencies, React-Native utility belt for scaling the size of your apps UI across different sized devices.",
@@ -3014,8 +2881,8 @@
       "full_name": "assafdori/bypass-mdm",
       "html_url": "https://github.com/assafdori/bypass-mdm",
       "description": "Bypass MDM Setup for MacOS, up to MacOS Golden Gate.",
-      "stargazers_count": 2409,
-      "forks_count": 560,
+      "stargazers_count": 2417,
+      "forks_count": 562,
       "language": "Shell",
       "topics": [
         "bypass",
@@ -3040,25 +2907,6 @@
       "fork": false
     },
     {
-      "full_name": "lirantal/is-website-vulnerable",
-      "html_url": "https://github.com/lirantal/is-website-vulnerable",
-      "description": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
-      "stargazers_count": 2043,
-      "forks_count": 127,
-      "language": "JavaScript",
-      "topics": [
-        "security-vulnerabilities",
-        "security",
-        "vulnerabilities",
-        "lighthouse",
-        "scan"
-      ],
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "ronami/HypeScript",
       "html_url": "https://github.com/ronami/HypeScript",
       "description": "🐬 A simplified implementation of TypeScript's type system written in TypeScript's type system",
@@ -3074,25 +2922,6 @@
       ],
       "owner_login": "ronami",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/5484230?s=88&u=909969e8a7796a26275ecc07a1540b3d3f3d805f&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "lirantal/npq",
-      "html_url": "https://github.com/lirantal/npq",
-      "description": "safely install npm packages by auditing them pre-install stage",
-      "stargazers_count": 1797,
-      "forks_count": 44,
-      "language": "JavaScript",
-      "topics": [
-        "npm",
-        "package-manager",
-        "security-audit",
-        "command-line-tool",
-        "vulnerabilities"
-      ],
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3188,7 +3017,7 @@
       "full_name": "ContentSquare/chproxy",
       "html_url": "https://github.com/ContentSquare/chproxy",
       "description": "Open-Source ClickHouse http proxy and load balancer",
-      "stargazers_count": 1487,
+      "stargazers_count": 1485,
       "forks_count": 280,
       "language": "Go",
       "topics": [
@@ -3235,30 +3064,11 @@
       "fork": false
     },
     {
-      "full_name": "ealush/emoji-picker-react",
-      "html_url": "https://github.com/ealush/emoji-picker-react",
-      "description": "The most popular React Emoji Picker",
-      "stargazers_count": 1458,
-      "forks_count": 214,
-      "language": "TypeScript",
-      "topics": [
-        "emoji-picker",
-        "react",
-        "emojis",
-        "picker",
-        "emoji"
-      ],
-      "owner_login": "ealush",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/11255103?s=88&u=abebaf4615b1b7aff2ab4bdb0654815d77af686c&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "idoco/intergram",
       "html_url": "https://github.com/idoco/intergram",
       "description": "Free live chat widget linked to your Telegram messenger",
       "stargazers_count": 1415,
-      "forks_count": 361,
+      "forks_count": 360,
       "language": "JavaScript",
       "topics": [
         "chat-widget",
@@ -3312,7 +3122,7 @@
       "full_name": "wix/stylable",
       "html_url": "https://github.com/wix/stylable",
       "description": "Stylable - CSS for components ",
-      "stargazers_count": 1273,
+      "stargazers_count": 1272,
       "forks_count": 61,
       "language": "TypeScript",
       "topics": [
@@ -3338,38 +3148,6 @@
       "owner_login": "Cybellum",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/26359359?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "lirantal/npm-security-best-practices",
-      "html_url": "https://github.com/lirantal/npm-security-best-practices",
-      "description": "Collection of npm package manager Security Best Practices",
-      "stargazers_count": 1259,
-      "forks_count": 43,
-      "language": null,
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "best-practices",
-        "nodejs",
-        "npm"
-      ],
-      "owner_login": "lirantal",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "makelinux/linux_kernel_map",
-      "html_url": "https://github.com/makelinux/linux_kernel_map",
-      "description": "Linux kernel map",
-      "stargazers_count": 1220,
-      "forks_count": 159,
-      "language": "Python",
-      "topics": [],
-      "owner_login": "makelinux",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2335185?s=88&u=7ecee8473cab943059fd016329b284b1150d9e0c&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -3403,6 +3181,221 @@
       ],
       "owner_login": "davidyaha",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2580920?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "iddan/react-native-canvas",
+      "html_url": "https://github.com/iddan/react-native-canvas",
+      "description": "A Canvas component for React Native",
+      "stargazers_count": 1017,
+      "forks_count": 167,
+      "language": "JavaScript",
+      "topics": [
+        "react",
+        "canvas",
+        "native",
+        "javascript",
+        "graphics"
+      ],
+      "owner_login": "iddan",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/12671072?s=88&u=a404505d087bb82b4c815b8e28770083f14222a6&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "wix-incubator/mjml-react",
+      "html_url": "https://github.com/wix-incubator/mjml-react",
+      "description": "React component library to generate the HTML emails on the fly",
+      "stargazers_count": 999,
+      "forks_count": 47,
+      "language": "JavaScript",
+      "topics": [
+        "html",
+        "email",
+        "email-marketing",
+        "email-templates",
+        "node"
+      ],
+      "owner_login": "wix-incubator",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/37068588?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "jondot/ReactNativeKatas",
+      "html_url": "https://github.com/jondot/ReactNativeKatas",
+      "description": "This is a project that lets you participate in a fully-immersive, hands-on, and fun learning experience for React Native.",
+      "stargazers_count": 952,
+      "forks_count": 106,
+      "language": "JavaScript",
+      "topics": [
+        "kata",
+        "koans",
+        "react-native",
+        "training",
+        "development"
+      ],
+      "owner_login": "jondot",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/83390?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "bgauryy/octocode",
+      "html_url": "https://github.com/bgauryy/octocode",
+      "description": "Code research platform for AI agents; find, understand, and prove context across your code and all of GitHub, in a fraction of the tokens. O",
+      "stargazers_count": 945,
+      "forks_count": 78,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "claude-ai",
+        "cursor-ai",
+        "development",
+        "mcp"
+      ],
+      "owner_login": "bgauryy",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/4633839?s=88&u=efd013b13ab46d121ce4f1bb95901b751636178e&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "jondot/awesome-weekly",
+      "html_url": "https://github.com/jondot/awesome-weekly",
+      "description": "An \"awesome\" type curated list of quality weekly subscription newsletters from the software world",
+      "stargazers_count": 942,
+      "forks_count": 98,
+      "language": null,
+      "topics": [],
+      "owner_login": "jondot",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/83390?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "idanya/algo-trader",
+      "html_url": "https://github.com/idanya/algo-trader",
+      "description": "Trading bot with support for realtime trading, backtesting, custom strategies and much more.",
+      "stargazers_count": 869,
+      "forks_count": 107,
+      "language": "Python",
+      "topics": [
+        "algorithmic-trading",
+        "backtesting",
+        "crypto-bot",
+        "python",
+        "technical-analysis"
+      ],
+      "owner_login": "idanya",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10362893?s=88&u=89bc3aa29ec3c46662031c14d7168c47318852ea&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "AnimaApp/Auto-Layout",
+      "html_url": "https://github.com/AnimaApp/Auto-Layout",
+      "description": "Auto Layout for Sketch",
+      "stargazers_count": 850,
+      "forks_count": 36,
+      "language": "HTML",
+      "topics": [
+        "sketch-app",
+        "user-experience",
+        "design",
+        "ui-design",
+        "ux-framework"
+      ],
+      "owner_login": "AnimaApp",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/20587282?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "komodorio/validkube",
+      "html_url": "https://github.com/komodorio/validkube",
+      "description": "ValidKube combines the best open-source tools to help ensure Kubernetes YAML best practices, hygiene & security.",
+      "stargazers_count": 837,
+      "forks_count": 63,
+      "language": "TypeScript",
+      "topics": [
+        "kubernetes",
+        "yaml",
+        "opensource",
+        "golang",
+        "reactjs"
+      ],
+      "owner_login": "komodorio",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/60484489?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "wix-incubator/react-native-keyboard-input",
+      "html_url": "https://github.com/wix-incubator/react-native-keyboard-input",
+      "description": "Use your own custom input component instead of the system keyboard",
+      "stargazers_count": 836,
+      "forks_count": 149,
+      "language": "Objective-C",
+      "topics": [
+        "react-native",
+        "ios",
+        "android",
+        "keyboard-input",
+        "keyboard"
+      ],
+      "owner_login": "wix-incubator",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/37068588?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "wix-incubator/react-native-zss-rich-text-editor",
+      "html_url": "https://github.com/wix-incubator/react-native-zss-rich-text-editor",
+      "description": "React Native rich text editor based on ZSSRichTextEditor",
+      "stargazers_count": 835,
+      "forks_count": 296,
+      "language": "HTML",
+      "topics": [
+        "richtexteditor",
+        "react-native",
+        "zssrichtexteditor",
+        "editor"
+      ],
+      "owner_login": "wix-incubator",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/37068588?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "YuvalNirkin/face_swap",
+      "html_url": "https://github.com/YuvalNirkin/face_swap",
+      "description": "End-to-end, automatic face swapping pipeline",
+      "stargazers_count": 831,
+      "forks_count": 199,
+      "language": "C++",
+      "topics": [
+        "face",
+        "swap",
+        "segmentation",
+        "3d-reconstruction",
+        "fitting"
+      ],
+      "owner_login": "YuvalNirkin",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3984115?s=88&u=f141624f1e9567f32c88736dfb170d88779bd25a&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "jondot/blade",
+      "html_url": "https://github.com/jondot/blade",
+      "description": "Better asset workflow for iOS developers. Generate Xcode image catalogs for iOS / OSX app icons, universal images, and more.",
+      "stargazers_count": 816,
+      "forks_count": 35,
+      "language": "Go",
+      "topics": [],
+      "owner_login": "jondot",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/83390?s=88&v=4",
       "owner_type": "User",
       "fork": false
     }
