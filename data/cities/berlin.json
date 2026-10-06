@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-10-05T12:25:08.334Z",
+  "generated_at": "2026-10-06T12:02:55.887Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 262547,
+    "user_followers": 301920,
     "org_followers": 32965,
-    "user_stars": 929559,
+    "user_stars": 962468,
     "org_stars": 744936
   },
   "queries": [
@@ -32,6 +32,20 @@
     }
   ],
   "users": [
+    {
+      "login": "tiangolo",
+      "name": "Sebastián Ramírez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1326112?s=88&u=cb5d06e73a9e1998141b1641aa88e443c6717651&v=4",
+      "html_url": "https://github.com/tiangolo",
+      "followers": 32306,
+      "following": 7,
+      "public_repos": 44,
+      "location": "Berlin, Germany",
+      "bio": "Creator of FastAPI, Typer, SQLModel, Asyncer, etc. 🚀\r\nFrom 🇨🇴 in 🇩🇪. \r\nOpen Source, Python, APIs, AI. 🤖 Building FastAPI Cloud. ⚡️",
+      "company": "FastAPI Cloud",
+      "created_at": "2012-01-12T22:37:04Z",
+      "total_stars": 16050
+    },
     {
       "login": "schacon",
       "name": "Scott Chacon",
@@ -255,6 +269,20 @@
       "company": "Datadog",
       "created_at": "2008-06-25T14:24:37Z",
       "total_stars": 19884
+    },
+    {
+      "login": "apaszke",
+      "name": "Adam Paszke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4583066?s=88&u=ea2fc94e8e0b0846cf59e6d50a5bca9e26de2203&v=4",
+      "html_url": "https://github.com/apaszke",
+      "followers": 4075,
+      "following": 11,
+      "public_repos": 31,
+      "location": "Berlin, Germany",
+      "bio": "Author of PyTorch. Research Scientist @ Google.",
+      "company": "@google",
+      "created_at": "2013-05-31T20:51:12Z",
+      "total_stars": 1594
     },
     {
       "login": "ines",
@@ -481,6 +509,20 @@
       "total_stars": 16234
     },
     {
+      "login": "pepelsbey",
+      "name": "Vadim Makeev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105274?s=88&u=173310b843e2751843265438af8cfb79eda02039&v=4",
+      "html_url": "https://github.com/pepelsbey",
+      "followers": 2489,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Berlin, Germany",
+      "bio": "Frontend developer in love with the Web, browsers, bicycles, and podcasting. MDN technical writer, Google Developer Expert.",
+      "company": "@mdn @mozilla @web-standards",
+      "created_at": "2009-07-15T16:06:21Z",
+      "total_stars": 729
+    },
+    {
       "login": "schickling",
       "name": "Johannes Schickling",
       "avatar_url": "https://avatars.githubusercontent.com/u/1567498?s=88&u=2a3cb79c34ad4ac26470ece4b49731291b661b24&v=4",
@@ -677,6 +719,34 @@
       "total_stars": 2290
     },
     {
+      "login": "amruthpillai",
+      "name": "Amruth Pillai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1134738?s=88&u=0f8751f3a01c2790e7204392a7fb70bcefc56c1c&v=4",
+      "html_url": "https://github.com/amruthpillai",
+      "followers": 1987,
+      "following": 6,
+      "public_repos": 149,
+      "location": "Berlin, Germany",
+      "bio": "Juggling work, life and OSS 🤹",
+      "company": "@elaradigital",
+      "created_at": "2011-10-18T02:10:26Z",
+      "total_stars": 1059
+    },
+    {
+      "login": "hynek",
+      "name": "Hynek Schlawack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41240?s=88&u=c77db9d353f9df8435a5bfcdaab2121c047f0456&v=4",
+      "html_url": "https://github.com/hynek",
+      "followers": 1974,
+      "following": 6,
+      "public_repos": 27,
+      "location": "Berlin",
+      "bio": null,
+      "company": "Variomedia AG",
+      "created_at": "2008-12-18T12:10:53Z",
+      "total_stars": 9912
+    },
+    {
       "login": "justinmk",
       "name": "Justin M. Keyes",
       "avatar_url": "https://avatars.githubusercontent.com/u/1359421?s=88&u=d40bdc08134f061fba586773f08f132f8567597b&v=4",
@@ -759,6 +829,20 @@
       "company": "Parloa",
       "created_at": "2022-10-25T22:24:28Z",
       "total_stars": 176
+    },
+    {
+      "login": "EleoXDA",
+      "name": "Elbay Malik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=abc9c55f277e5727d31ba4fbb68e782ca8a9a8d3&v=4",
+      "html_url": "https://github.com/EleoXDA",
+      "followers": 1758,
+      "following": 73,
+      "public_repos": 60,
+      "location": "Berlin",
+      "bio": "Nothing interesting here. Check my repos ;)",
+      "company": "Komre AG",
+      "created_at": "2017-04-16T11:45:43Z",
+      "total_stars": 187
     },
     {
       "login": "tomaka",
@@ -863,7 +947,7 @@
       "name": "Mehdi Hasan Khan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2240000?s=88&v=4",
       "html_url": "https://github.com/mugli",
-      "followers": 1480,
+      "followers": 1481,
       "following": 563,
       "public_repos": 17,
       "location": "Berlin, Germany",
@@ -929,6 +1013,20 @@
       "total_stars": 1278
     },
     {
+      "login": "Byron",
+      "name": "Sebastian Thiel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63622?s=88&v=4",
+      "html_url": "https://github.com/Byron",
+      "followers": 1422,
+      "following": 101,
+      "public_repos": 85,
+      "location": "Berlin",
+      "bio": "\r\n    \r\n",
+      "company": null,
+      "created_at": "2009-03-15T13:15:06Z",
+      "total_stars": 8999
+    },
+    {
       "login": "datitran",
       "name": "Dat Tran",
       "avatar_url": "https://avatars.githubusercontent.com/u/3866530?s=88&u=b7ecf7393331d0d2ace8dae0d2964c2c48b89ef6&v=4",
@@ -971,6 +1069,20 @@
       "total_stars": 0
     },
     {
+      "login": "mukul975",
+      "name": "Mahipal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
+      "html_url": "https://github.com/mukul975",
+      "followers": 1322,
+      "following": 1,
+      "public_repos": 29,
+      "location": "Berlin ",
+      "bio": "🔐 Cybersecurity | 💻 Dev | 📷 Street Photographer\r\n🎓 MSc | 📚 Research & AI Security",
+      "company": null,
+      "created_at": "2018-08-31T06:58:20Z",
+      "total_stars": 36097
+    },
+    {
       "login": "MohamedMesto",
       "name": "Mohamed Mesto, M. Sc. Ing.",
       "avatar_url": "https://avatars.githubusercontent.com/u/44340777?s=88&u=6cfe33ad5d83d3e4afe598fb29a79c2bc4f0dbe3&v=4",
@@ -1003,14 +1115,14 @@
       "name": "Gregor Aisch",
       "avatar_url": "https://avatars.githubusercontent.com/u/617518?s=88&u=e186ff214549cc8d3aa43bbc2a38799e135dc60a&v=4",
       "html_url": "https://github.com/gka",
-      "followers": 1282,
+      "followers": 1283,
       "following": 85,
       "public_repos": 18,
       "location": "Berlin",
       "bio": "Senior visual data journalist @ZeitOnline, Co-founder @Datawrapper, proud @nytgraphics alumni. most of my old repos live at @vis4 now",
       "company": "@zeitOnline",
       "created_at": "2011-02-14T15:48:07Z",
-      "total_stars": 12619
+      "total_stars": 12623
     },
     {
       "login": "simc",
@@ -1143,14 +1255,14 @@
       "name": "Ole Zorn",
       "avatar_url": "https://avatars.githubusercontent.com/u/82469?s=88&u=374ad23a91a7259075f4d0bdde025cd1dc7c01b2&v=4",
       "html_url": "https://github.com/omz",
-      "followers": 1161,
+      "followers": 1163,
       "following": 8,
       "public_repos": 6,
       "location": "Berlin, Germany",
       "bio": null,
       "company": "omz:software",
       "created_at": "2009-05-08T16:14:34Z",
-      "total_stars": 6863
+      "total_stars": 6862
     },
     {
       "login": "naderman",
@@ -1319,118 +1431,6 @@
       "company": "@chilipiper ",
       "created_at": "2014-05-30T00:00:07Z",
       "total_stars": 226
-    },
-    {
-      "login": "visenger",
-      "name": "Dr. Larysa Visengeriyeva",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2014749?s=88&v=4",
-      "html_url": "https://github.com/visenger",
-      "followers": 1020,
-      "following": 4,
-      "public_repos": 24,
-      "location": "Berlin, Germany ",
-      "bio": "\r\n    I am the queen of ml-ops.org \r\nWorking at the intersection of software engineering and machine learning. PhD in Augmented Data Quality.\r\n",
-      "company": null,
-      "created_at": "2012-07-20T22:37:19Z",
-      "total_stars": 14432
-    },
-    {
-      "login": "johannesjo",
-      "name": "Johannes Millan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1456265?s=88&u=791190c3373e688d8cc22f1f81e69e48ebcf9056&v=4",
-      "html_url": "https://github.com/johannesjo",
-      "followers": 1010,
-      "following": 138,
-      "public_repos": 47,
-      "location": "Berlin",
-      "bio": "I love programming!",
-      "company": "Frontend Developer",
-      "created_at": "2012-02-21T06:03:54Z",
-      "total_stars": 2494
-    },
-    {
-      "login": "pudo",
-      "name": "Friedrich Lindenberg",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41628?s=88&v=4",
-      "html_url": "https://github.com/pudo",
-      "followers": 1004,
-      "following": 204,
-      "public_repos": 45,
-      "location": "Berlin",
-      "bio": "Data and software engineer, investigative support. ",
-      "company": "@opensanctions",
-      "created_at": "2008-12-19T17:04:00Z",
-      "total_stars": 5635
-    },
-    {
-      "login": "travisbrown",
-      "name": "Travis Brown",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316049?s=88&v=4",
-      "html_url": "https://github.com/travisbrown",
-      "followers": 1001,
-      "following": 36,
-      "public_repos": 124,
-      "location": "Berlin",
-      "bio": "Software developer living in Berlin.",
-      "company": null,
-      "created_at": "2010-06-28T02:09:48Z",
-      "total_stars": 2269
-    },
-    {
-      "login": "rednafi",
-      "name": "Redowan Delowar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30027932?s=88&u=d274a53358bbb7384880df191e6af923e14d33cf&v=4",
-      "html_url": "https://github.com/rednafi",
-      "followers": 998,
-      "following": 71,
-      "public_repos": 76,
-      "location": "Berlin",
-      "bio": "Software Engineer Wolt – Databases & Distributed Systems",
-      "company": "@doordash - @creditornot",
-      "created_at": "2017-07-09T19:48:26Z",
-      "total_stars": 2206
-    },
-    {
-      "login": "rahmonov",
-      "name": "Jakhongir",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9026972?s=88&u=a0cad630ae8bc50faa6331e116047fdce2cd8342&v=4",
-      "html_url": "https://github.com/rahmonov",
-      "followers": 992,
-      "following": 11,
-      "public_repos": 35,
-      "location": "Berlin, Germany",
-      "bio": "Software Engineer",
-      "company": "Nvidia",
-      "created_at": "2014-10-05T15:48:33Z",
-      "total_stars": 481
-    },
-    {
-      "login": "javierbyte",
-      "name": "Javier Bórquez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2009676?s=88&u=14155f345e1d158e580164c60b14b6db9a192c9d&v=4",
-      "html_url": "https://github.com/javierbyte",
-      "followers": 984,
-      "following": 267,
-      "public_repos": 53,
-      "location": "Berlin, Germany",
-      "bio": null,
-      "company": "@Vercel",
-      "created_at": "2012-07-20T04:51:56Z",
-      "total_stars": 9082
-    },
-    {
-      "login": "plutov",
-      "name": "Alex Pliutau",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1124859?s=88&u=302c07c392cb9a4afb39017b0845e4e5dae304b8&v=4",
-      "html_url": "https://github.com/plutov",
-      "followers": 955,
-      "following": 542,
-      "public_repos": 53,
-      "location": "Berlin, Germany",
-      "bio": "Programmer, enthusiast of Go.",
-      "company": "@entyre",
-      "created_at": "2011-10-13T08:03:24Z",
-      "total_stars": 5122
     }
   ],
   "orgs": [
@@ -1533,20 +1533,6 @@
       "total_stars": 35826
     },
     {
-      "login": "mtdvio",
-      "name": "MTDV",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33053074?s=88&v=4",
-      "html_url": "https://github.com/mtdvio",
-      "followers": 820,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Berlin",
-      "bio": "We help Software Engineers learn and grow!",
-      "company": null,
-      "created_at": "2017-10-24T07:58:34Z",
-      "total_stars": 103346
-    },
-    {
       "login": "iotaledger",
       "name": "IOTA",
       "avatar_url": "https://avatars.githubusercontent.com/u/20126597?s=88&v=4",
@@ -1559,6 +1545,20 @@
       "company": null,
       "created_at": "2016-06-24T10:55:18Z",
       "total_stars": 3278
+    },
+    {
+      "login": "mtdvio",
+      "name": "MTDV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33053074?s=88&v=4",
+      "html_url": "https://github.com/mtdvio",
+      "followers": 820,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Berlin",
+      "bio": "We help Software Engineers learn and grow!",
+      "company": null,
+      "created_at": "2017-10-24T07:58:34Z",
+      "total_stars": 103346
     },
     {
       "login": "wix",
@@ -2633,8 +2633,8 @@
       "full_name": "DeusData/codebase-memory-mcp",
       "html_url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 langu",
-      "stargazers_count": 45714,
-      "forks_count": 3755,
+      "stargazers_count": 45872,
+      "forks_count": 3773,
       "language": "C",
       "topics": [
         "claude-code",
@@ -2722,6 +2722,25 @@
       "owner_login": "explosion",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/20011530?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & M",
+      "stargazers_count": 33836,
+      "forks_count": 4109,
+      "language": "Python",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "cybersecurity",
+        "incident-response",
+        "mitre-attack"
+      ],
+      "owner_login": "mukul975",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3194,7 +3213,7 @@
       "full_name": "gka/chroma.js",
       "html_url": "https://github.com/gka/chroma.js",
       "description": "JavaScript library for all kinds of color manipulations",
-      "stargazers_count": 10592,
+      "stargazers_count": 10596,
       "forks_count": 551,
       "language": "JavaScript",
       "topics": [
@@ -3420,25 +3439,6 @@
       "owner_login": "wix",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "nisrulz/flutter-examples",
-      "html_url": "https://github.com/nisrulz/flutter-examples",
-      "description": "[Examples] Simple basic isolated apps, for budding flutter devs.",
-      "stargazers_count": 7150,
-      "forks_count": 1637,
-      "language": "Dart",
-      "topics": [
-        "dartlang",
-        "dart",
-        "android",
-        "ios",
-        "flutter"
-      ],
-      "owner_login": "nisrulz",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]

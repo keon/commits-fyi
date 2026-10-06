@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-10-05T12:20:48.640Z",
+  "generated_at": "2026-10-06T12:02:47.000Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 968929,
+    "user_followers": 1044609,
     "org_followers": 343370,
-    "user_stars": 2869326,
+    "user_stars": 3276493,
     "org_stars": 4603589
   },
   "queries": [
@@ -45,6 +45,20 @@
       "company": null,
       "created_at": "2009-07-25T19:06:27Z",
       "total_stars": 125168
+    },
+    {
+      "login": "addyosmani",
+      "name": "Addy Osmani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110953?s=88&u=b80ece00784ce069f15b4f27f7dccd50edc7852a&v=4",
+      "html_url": "https://github.com/addyosmani",
+      "followers": 53863,
+      "following": 266,
+      "public_repos": 185,
+      "location": "Sunnyvale, California",
+      "bio": "Former Director at Google working on Gemini and  Google Cloud",
+      "company": "Google",
+      "created_at": "2009-08-01T18:39:25Z",
+      "total_stars": 157396
     },
     {
       "login": "steipete",
@@ -187,20 +201,6 @@
       "total_stars": 10584
     },
     {
-      "login": "jakevdp",
-      "name": "Jake Vanderplas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/781659?s=88&u=07b92bc956bbc8db74533b7cd9c80ca5175fdb2c&v=4",
-      "html_url": "https://github.com/jakevdp",
-      "followers": 19894,
-      "following": 6,
-      "public_repos": 110,
-      "location": "Oakland CA",
-      "bio": "Python ML & Data Science",
-      "company": "Google",
-      "created_at": "2011-05-11T14:39:53Z",
-      "total_stars": 60039
-    },
-    {
       "login": "trekhleb",
       "name": "Oleksii Trekhleb",
       "avatar_url": "https://avatars.githubusercontent.com/u/3000285?s=88&u=1e62782f227030b78b7aa78cbbcab5f8a24e658a&v=4",
@@ -227,6 +227,20 @@
       "company": "https://vercel.com",
       "created_at": "2008-06-09T02:22:48Z",
       "total_stars": 19659
+    },
+    {
+      "login": "danielmiessler",
+      "name": "Daniel Miessler 🛡️",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50654?s=88&u=26cfcc97a7f58fbab77ba1baea86459c9e216d9d&v=4",
+      "html_url": "https://github.com/danielmiessler",
+      "followers": 17041,
+      "following": 127,
+      "public_repos": 64,
+      "location": "San Francisco Bay Area",
+      "bio": "⚒️ Helping people and companies transition from their Current to Ideal State.",
+      "company": "Unsupervised Learning",
+      "created_at": "2009-01-31T05:14:04Z",
+      "total_stars": 143811
     },
     {
       "login": "isaacs",
@@ -299,6 +313,20 @@
       "total_stars": 63476
     },
     {
+      "login": "jashkenas",
+      "name": "Jeremy Ashkenas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4732?s=88&u=1ce1aba113b641e1a110345609830aec2b056121&v=4",
+      "html_url": "https://github.com/jashkenas",
+      "followers": 13737,
+      "following": 0,
+      "public_repos": 16,
+      "location": "Berkeley",
+      "bio": "🏍 🛣 🌎   I miss _why.",
+      "company": null,
+      "created_at": "2008-04-03T21:10:45Z",
+      "total_stars": 78535
+    },
+    {
       "login": "rakyll",
       "name": "Jaana Dogan",
       "avatar_url": "https://avatars.githubusercontent.com/u/108380?s=88&u=767dd811588feea1f93f65fb1fad44a754f70315&v=4",
@@ -325,6 +353,20 @@
       "company": "UC Berkeley",
       "created_at": "2013-11-07T07:23:07Z",
       "total_stars": 1973
+    },
+    {
+      "login": "mnielsen",
+      "name": "Michael Nielsen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52171?s=88&v=4",
+      "html_url": "https://github.com/mnielsen",
+      "followers": 12684,
+      "following": 32,
+      "public_repos": 29,
+      "location": "San Francisco, California",
+      "bio": "Searching for the numinous",
+      "company": null,
+      "created_at": "2009-02-05T20:44:31Z",
+      "total_stars": 19653
     },
     {
       "login": "BYVoid",
@@ -383,6 +425,20 @@
       "total_stars": 53906
     },
     {
+      "login": "necolas",
+      "name": "Nicolas Gallagher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/239676?s=88&u=41d5fbb1076c8e568152702a2a6c29fb4d80c485&v=4",
+      "html_url": "https://github.com/necolas",
+      "followers": 11399,
+      "following": 31,
+      "public_repos": 34,
+      "location": "San Francisco, CA",
+      "bio": "Creator of Normalize.css, React Native for Web, and React Strict DOM. Ex-Meta, Ex-Twitter.",
+      "company": "Pierre Computer Company",
+      "created_at": "2010-04-08T16:40:48Z",
+      "total_stars": 86524
+    },
+    {
       "login": "bcherny",
       "name": "Boris Cherny",
       "avatar_url": "https://avatars.githubusercontent.com/u/1761758?s=88&u=a7b1ed42ce41cc6761d0f6a67c8ef9a029a2fa8f&v=4",
@@ -409,20 +465,6 @@
       "company": null,
       "created_at": "2008-04-11T22:42:39Z",
       "total_stars": 1145
-    },
-    {
-      "login": "joshlong",
-      "name": "Josh Long",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54473?s=88&v=4",
-      "html_url": "https://github.com/joshlong",
-      "followers": 10059,
-      "following": 73,
-      "public_repos": 68,
-      "location": "San Francisco, CA",
-      "bio": "Josh (@starbuxman) is the Spring Developer Advocate at Broadcom, an open-source hacker, book/video author and speaker",
-      "company": "the Spring team (https://spring.io) ",
-      "created_at": "2009-02-14T08:54:04Z",
-      "total_stars": 2147
     },
     {
       "login": "colah",
@@ -537,6 +579,20 @@
       "total_stars": 11009
     },
     {
+      "login": "ethanflower1903",
+      "name": "Ethan Flower-01100101 01110100 01101000 01100001 01101110",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84658436?s=88&u=fa4791c10bdb6d04372f788f4f6250ab0d27a090&v=4",
+      "html_url": "https://github.com/ethanflower1903",
+      "followers": 8154,
+      "following": 50812,
+      "public_repos": 51,
+      "location": "san francisco",
+      "bio": "Dev-Sec-Ops- Engineer",
+      "company": null,
+      "created_at": "2021-05-23T07:32:39Z",
+      "total_stars": 259
+    },
+    {
       "login": "rsms",
       "name": "Rasmus",
       "avatar_url": "https://avatars.githubusercontent.com/u/47046?s=88&u=131e2a6b56d34625caaad1128b7cb8d70f213231&v=4",
@@ -593,20 +649,6 @@
       "total_stars": 24298
     },
     {
-      "login": "nat",
-      "name": "Nat Friedman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56260?s=88&u=f59f1342ef09e1c0590c1daaf423ef9ee654ee62&v=4",
-      "html_url": "https://github.com/nat",
-      "followers": 7165,
-      "following": 41,
-      "public_repos": 9,
-      "location": "San Francisco",
-      "bio": null,
-      "company": "GitHub",
-      "created_at": "2009-02-20T13:08:45Z",
-      "total_stars": 9745
-    },
-    {
       "login": "mxstbr",
       "name": "Max Stoiber",
       "avatar_url": "https://avatars.githubusercontent.com/u/7525670?s=88&u=567e0a98c884001cfacbffb7ccf93446aa364ab3&v=4",
@@ -619,6 +661,20 @@
       "company": "@Shopify",
       "created_at": "2014-05-08T16:27:10Z",
       "total_stars": 7240
+    },
+    {
+      "login": "ahmadawais",
+      "name": "Ahmad Awais",
+      "avatar_url": "https://avatars.githubusercontent.com/u/960133?s=88&u=1a1a9863b2dd635be4ddfae7692060b0963c5c4b&v=4",
+      "html_url": "https://github.com/ahmadawais",
+      "followers": 7057,
+      "following": 453,
+      "public_repos": 276,
+      "location": "San Francisco Bay Area",
+      "bio": "Award-winning Open Source Eng\r\n❯❯❯ CEO @CommandCodeAI @Google Dev Advisory Board\r\n❯ Automator at NodeCLI.com\r\n❯ @Nodejs ComCommittee\r\n❯ BGB Linux Foundation",
+      "company": "Founder & CEO @CommandCodeAI, VP DevTools @Google gDAB GDE ",
+      "created_at": "2011-08-04T23:27:10Z",
+      "total_stars": 11130
     },
     {
       "login": "ankane",
@@ -705,6 +761,20 @@
       "total_stars": 6839
     },
     {
+      "login": "mahseema",
+      "name": "Mahsima Dastan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143227828?s=88&u=966f0154eb1bee33077b2f00f8632cd3bf719845&v=4",
+      "html_url": "https://github.com/mahseema",
+      "followers": 6354,
+      "following": 10882,
+      "public_repos": 7,
+      "location": "San Francisco",
+      "bio": "Part time Data Scientist, Full time Dreamer - \r\n\r\nBuilding @alternbits ",
+      "company": "@alternbits",
+      "created_at": "2023-08-25T21:49:45Z",
+      "total_stars": 6935
+    },
+    {
       "login": "EvanBacon",
       "name": "Evan Bacon",
       "avatar_url": "https://avatars.githubusercontent.com/u/9664363?s=88&u=46ba6d5fbd29729df2950b845c9ca2cd085a1c2b&v=4",
@@ -733,20 +803,6 @@
       "total_stars": 21957
     },
     {
-      "login": "JordanSchuetz",
-      "name": "Jordan Schuetz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1023379?s=88&u=38c5e5c5ff9931120970a8885698aa7230154928&v=4",
-      "html_url": "https://github.com/JordanSchuetz",
-      "followers": 6027,
-      "following": 17,
-      "public_repos": 24,
-      "location": "San Francisco CA",
-      "bio": "Ecosystem Programs Lead, Staff Product Marketing Manager,\r\nDeveloper educator, developer advocate. Professional video game developer.",
-      "company": "Clay",
-      "created_at": "2011-09-03T04:29:43Z",
-      "total_stars": 11301
-    },
-    {
       "login": "moxie0",
       "name": "Moxie Marlinspike",
       "avatar_url": "https://avatars.githubusercontent.com/u/512439?s=88&v=4",
@@ -759,6 +815,20 @@
       "company": null,
       "created_at": "2010-12-07T01:20:21Z",
       "total_stars": 5187
+    },
+    {
+      "login": "felixrieseberg",
+      "name": "Felix Rieseberg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1426799?s=88&u=4f954e789d82f34fdc808de92622fb0e22996032&v=4",
+      "html_url": "https://github.com/felixrieseberg",
+      "followers": 5989,
+      "following": 16,
+      "public_repos": 156,
+      "location": "San Francisco",
+      "bio": "🙇 ✨🌳 ",
+      "company": "Anthropic",
+      "created_at": "2012-02-10T16:04:35Z",
+      "total_stars": 45551
     },
     {
       "login": "hak5darren",
@@ -817,25 +887,11 @@
       "total_stars": 2599
     },
     {
-      "login": "vakila",
-      "name": "Anjana Vakil",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5424927?s=88&u=cf024d4a954cbb35b913db96d66351830b28086b&v=4",
-      "html_url": "https://github.com/vakila",
-      "followers": 5522,
-      "following": 0,
-      "public_repos": 34,
-      "location": "San Francisco | Berlin",
-      "bio": "Independent Developer Educator & Software Engineer",
-      "company": null,
-      "created_at": "2013-09-10T07:10:50Z",
-      "total_stars": 906
-    },
-    {
       "login": "gitster",
       "name": "Junio C Hamano",
       "avatar_url": "https://avatars.githubusercontent.com/u/54884?s=88&u=df04369e894b22a25b4bb7bb85121ffa481047e4&v=4",
       "html_url": "https://github.com/gitster",
-      "followers": 5483,
+      "followers": 5491,
       "following": 0,
       "public_repos": 2,
       "location": "Mountain View, CA",
@@ -999,6 +1055,20 @@
       "total_stars": 22493
     },
     {
+      "login": "anishathalye",
+      "name": "Anish Athalye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3526486?s=88&u=b5c6c765e87e17c6718563bae3e693179a039d44&v=4",
+      "html_url": "https://github.com/anishathalye",
+      "followers": 4656,
+      "following": 273,
+      "public_repos": 57,
+      "location": "San Francisco, CA",
+      "bio": "ML Research @ Cursor",
+      "company": "@cursor",
+      "created_at": "2013-02-10T18:41:30Z",
+      "total_stars": 27616
+    },
+    {
       "login": "jlevy",
       "name": "Joshua Levy",
       "avatar_url": "https://avatars.githubusercontent.com/u/2058167?s=88&u=49d8a5df94e131b1b699162ab7a97119102742ed&v=4",
@@ -1069,20 +1139,6 @@
       "total_stars": 98548
     },
     {
-      "login": "campoy",
-      "name": "Francesc Campoy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2237452?s=88&u=362c368bbb6c3ba54e969608954f80c80b702230&v=4",
-      "html_url": "https://github.com/campoy",
-      "followers": 4413,
-      "following": 2,
-      "public_repos": 85,
-      "location": "San Francisco",
-      "bio": "Software Engineer \"Go guy\"",
-      "company": "Apple",
-      "created_at": "2012-08-28T22:16:26Z",
-      "total_stars": 8023
-    },
-    {
       "login": "vjeux",
       "name": "Christopher Chedeau",
       "avatar_url": "https://avatars.githubusercontent.com/u/197597?s=88&v=4",
@@ -1095,6 +1151,20 @@
       "company": "Facebook",
       "created_at": "2010-02-05T11:13:10Z",
       "total_stars": 1782
+    },
+    {
+      "login": "Newmu",
+      "name": "Alec Radford",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2515289?s=88&u=9f824aaf4accb0d07bf884efe9b2fbd580315663&v=4",
+      "html_url": "https://github.com/Newmu",
+      "followers": 4308,
+      "following": 5,
+      "public_repos": 18,
+      "location": "San Francisco, CA",
+      "bio": null,
+      "company": "@openai ",
+      "created_at": "2012-10-08T22:16:07Z",
+      "total_stars": 5229
     },
     {
       "login": "RamotionDev",
@@ -1111,6 +1181,20 @@
       "total_stars": 0
     },
     {
+      "login": "hanxiao",
+      "name": "Han Xiao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2041322?s=88&u=a7e9ee49091c99c96bc611017496fbfa83e57cbf&v=4",
+      "html_url": "https://github.com/hanxiao",
+      "followers": 4228,
+      "following": 17,
+      "public_repos": 64,
+      "location": "Sunnyvale, CA",
+      "bio": "VP, AI @elastic\r\nPrev: founder & ceo @jina-ai ",
+      "company": "@elastic",
+      "created_at": "2012-07-25T15:52:49Z",
+      "total_stars": 2240
+    },
+    {
       "login": "merrymercy",
       "name": "Lianmin Zheng",
       "avatar_url": "https://avatars.githubusercontent.com/u/15100009?s=88&u=46f96bf1c96ae6c9e4de1cf52c9940f23bfe0893&v=4",
@@ -1125,18 +1209,18 @@
       "total_stars": 3258
     },
     {
-      "login": "griesemer",
-      "name": "Robert Griesemer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8528975?s=88&u=f805aea1bf2bea2dbd5c2aaed2cefcdab2205ef2&v=4",
-      "html_url": "https://github.com/griesemer",
-      "followers": 4073,
-      "following": 0,
-      "public_repos": 2,
-      "location": "SF Bay Area",
-      "bio": null,
-      "company": "Google",
-      "created_at": "2014-08-23T05:00:10Z",
-      "total_stars": 165
+      "login": "jaredhanson",
+      "name": "Jared Hanson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10355?s=88&u=9a98b23a8c8bd131c6a3d029fc221a0c0b5df0b3&v=4",
+      "html_url": "https://github.com/jaredhanson",
+      "followers": 4106,
+      "following": 112,
+      "public_repos": 337,
+      "location": "San Francisco, CA",
+      "bio": "I make things with computers.",
+      "company": null,
+      "created_at": "2008-05-15T06:16:26Z",
+      "total_stars": 40806
     },
     {
       "login": "ariya",
@@ -1213,14 +1297,28 @@
       "name": "Dhravya Shah",
       "avatar_url": "https://avatars.githubusercontent.com/u/63950637?s=88&u=a1d804b135132cac15090fd93440a02ab5ce29b9&v=4",
       "html_url": "https://github.com/Dhravya",
-      "followers": 3908,
+      "followers": 3914,
       "following": 139,
       "public_repos": 63,
       "location": "San Francisco",
-      "bio": "20. passionate dev who ships (a lot). 2x acquired founder. I just wanna make products that people love 💖. Working on @supermemoryai ",
+      "bio": "21. founder @supermemoryai. passionate dev who ships (a lot). 2x acquired founder. I just wanna make products that hopefully change the world 💖. ",
       "company": "@supermemoryai ",
       "created_at": "2020-04-19T08:52:05Z",
-      "total_stars": 2254
+      "total_stars": 2253
+    },
+    {
+      "login": "yang-song",
+      "name": "Yang Song",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7480450?s=88&u=78268a206a03558f6cc3d127a1b25fa06654858f&v=4",
+      "html_url": "https://github.com/yang-song",
+      "followers": 3862,
+      "following": 27,
+      "public_repos": 14,
+      "location": "Palo Alto, CA",
+      "bio": "Research Scientist at OpenAI.",
+      "company": "OpenAI",
+      "created_at": "2014-05-04T13:35:57Z",
+      "total_stars": 4449
     },
     {
       "login": "devongovett",
@@ -1333,104 +1431,6 @@
       "company": null,
       "created_at": "2012-11-02T13:41:33Z",
       "total_stars": 40458
-    },
-    {
-      "login": "PatrickJS",
-      "name": "PatrickJS",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1016365?s=88&u=9fbfcbd299739e340fa45cd8114d2df5e91f8386&v=4",
-      "html_url": "https://github.com/PatrickJS",
-      "followers": 3592,
-      "following": 383,
-      "public_repos": 345,
-      "location": "San Francisco, Los Angeles, Las Vegas",
-      "bio": "building Web Scale and Open-Source.\r\n\r\nCurrently: Engineering Director at PwC and Qwik core\r\n\r\nPreviously: Angular, Angular Universal, Webpack, Falcor, Mitosis ",
-      "company": "@kunai-consulting",
-      "created_at": "2011-08-31T07:43:17Z",
-      "total_stars": 66697
-    },
-    {
-      "login": "kyegomez",
-      "name": "Kye Gomez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98760976?s=88&u=f25264ee0fd2e64f222b66e8b8d5dff2fad18268&v=4",
-      "html_url": "https://github.com/kyegomez",
-      "followers": 3537,
-      "following": 107,
-      "public_repos": 384,
-      "location": "Palo Alto",
-      "bio": "Founder of swarms.ai",
-      "company": "Swarms",
-      "created_at": "2022-01-31T15:43:17Z",
-      "total_stars": 39001
-    },
-    {
-      "login": "KentBeck",
-      "name": "Kent Beck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46154?s=88&u=42f6bb81ae77e0c2380e060527604d9e1da09d2b&v=4",
-      "html_url": "https://github.com/KentBeck",
-      "followers": 3536,
-      "following": 2,
-      "public_repos": 54,
-      "location": "San Francisco, CA USA",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-01-13T03:30:46Z",
-      "total_stars": 873
-    },
-    {
-      "login": "logankilpatrick",
-      "name": "Logan Kilpatrick ",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35577566?s=88&u=f6784fa224ee43e5e80883b43a4479e6335192e8&v=4",
-      "html_url": "https://github.com/logankilpatrick",
-      "followers": 3521,
-      "following": 251,
-      "public_repos": 52,
-      "location": "Chicago | SF Bay",
-      "bio": "Member of the Technical Staff @Google-Deepmind",
-      "company": "Google Deepmind",
-      "created_at": "2018-01-18T19:36:30Z",
-      "total_stars": 1425
-    },
-    {
-      "login": "kognise",
-      "name": "Lexi Mattick",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42556441?s=88&u=ccc56414ff350d84a464dec8b9a013484560aa1b&v=4",
-      "html_url": "https://github.com/kognise",
-      "followers": 3497,
-      "following": 147,
-      "public_repos": 103,
-      "location": "San Francisco, CA",
-      "bio": "hello yes i do things, i am the computer person. why do you ask?",
-      "company": null,
-      "created_at": "2018-08-20T21:36:42Z",
-      "total_stars": 12244
-    },
-    {
-      "login": "brianlovin",
-      "name": "Brian Lovin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1923260?s=88&u=36aacd5307a88dfb8e42d014b4107d9c7e3411e1&v=4",
-      "html_url": "https://github.com/brianlovin",
-      "followers": 3476,
-      "following": 123,
-      "public_repos": 20,
-      "location": "San Francisco",
-      "bio": "Product design @makenotion",
-      "company": "@makenotion",
-      "created_at": "2012-07-04T19:27:46Z",
-      "total_stars": 4411
-    },
-    {
-      "login": "dcramer",
-      "name": "David Cramer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23610?s=88&v=4",
-      "html_url": "https://github.com/dcramer",
-      "followers": 3460,
-      "following": 11,
-      "public_repos": 145,
-      "location": "San Francisco, CA",
-      "bio": "@getsentry",
-      "company": "@getsentry",
-      "created_at": "2008-09-08T06:55:34Z",
-      "total_stars": 5989
     }
   ],
   "orgs": [
@@ -2703,6 +2703,25 @@
       "fork": false
     },
     {
+      "full_name": "addyosmani/agent-skills",
+      "html_url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stargazers_count": 101376,
+      "forks_count": 10628,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "cursor",
+        "skills"
+      ],
+      "owner_login": "addyosmani",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/110953?s=88&u=b80ece00784ce069f15b4f27f7dccd50edc7852a&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "ryanmcdermott/clean-code-javascript",
       "html_url": "https://github.com/ryanmcdermott/clean-code-javascript",
       "description": "Clean Code concepts adapted for JavaScript",
@@ -2731,6 +2750,19 @@
       "topics": [],
       "owner_login": "pbakaus",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/43004?s=88&u=a2129579fad3fa98301c2d64da926bbb5fb6b129&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "danielmiessler/SecLists",
+      "html_url": "https://github.com/danielmiessler/SecLists",
+      "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one",
+      "stargazers_count": 73940,
+      "forks_count": 25140,
+      "language": "PHP",
+      "topics": [],
+      "owner_login": "danielmiessler",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/50654?s=88&u=26cfcc97a7f58fbab77ba1baea86459c9e216d9d&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -2830,6 +2862,23 @@
       "fork": false
     },
     {
+      "full_name": "necolas/normalize.css",
+      "html_url": "https://github.com/necolas/normalize.css",
+      "description": "A modern alternative to CSS resets",
+      "stargazers_count": 53505,
+      "forks_count": 10310,
+      "language": "CSS",
+      "topics": [
+        "css",
+        "css-reset",
+        "normalize-css"
+      ],
+      "owner_login": "necolas",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/239676?s=88&u=41d5fbb1076c8e568152702a2a6c29fb4d80c485&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "apple/container",
       "html_url": "https://github.com/apple/container",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Appl",
@@ -2840,25 +2889,6 @@
       "owner_login": "apple",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/10639145?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "jakevdp/PythonDataScienceHandbook",
-      "html_url": "https://github.com/jakevdp/PythonDataScienceHandbook",
-      "description": "Python Data Science Handbook: full text in Jupyter Notebooks",
-      "stargazers_count": 50093,
-      "forks_count": 19141,
-      "language": "Jupyter Notebook",
-      "topics": [
-        "scikit-learn",
-        "numpy",
-        "python",
-        "jupyter-notebook",
-        "matplotlib"
-      ],
-      "owner_login": "jakevdp",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/781659?s=88&u=07b92bc956bbc8db74533b7cd9c80ca5175fdb2c&v=4",
-      "owner_type": "User",
       "fork": false
     },
     {
@@ -2967,6 +2997,25 @@
       "owner_login": "Kong",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/962416?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "danielmiessler/Fabric",
+      "html_url": "https://github.com/danielmiessler/Fabric",
+      "description": "Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowds",
+      "stargazers_count": 44158,
+      "forks_count": 4294,
+      "language": "Go",
+      "topics": [
+        "ai",
+        "augmentation",
+        "flourishing",
+        "life",
+        "work"
+      ],
+      "owner_login": "danielmiessler",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/50654?s=88&u=26cfcc97a7f58fbab77ba1baea86459c9e216d9d&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3358,56 +3407,6 @@
       ],
       "owner_login": "hashicorp",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/761456?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "ariya/phantomjs",
-      "html_url": "https://github.com/ariya/phantomjs",
-      "description": "Scriptable Headless Browser",
-      "stargazers_count": 29440,
-      "forks_count": 5655,
-      "language": "C++",
-      "topics": [
-        "phantomjs",
-        "headless",
-        "headless-browser",
-        "automation"
-      ],
-      "owner_login": "ariya",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7288?s=88&u=d84135ccc1b777c4813c7f377ea8219279ba24ff&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "codepath/android_guides",
-      "html_url": "https://github.com/codepath/android_guides",
-      "description": "Extensive Open-Source Guides for Android Developers",
-      "stargazers_count": 28343,
-      "forks_count": 6195,
-      "language": null,
-      "topics": [
-        "android",
-        "guides",
-        "tutorials",
-        "codepath",
-        "development"
-      ],
-      "owner_login": "codepath",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/3710273?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "facebook/zstd",
-      "html_url": "https://github.com/facebook/zstd",
-      "description": "Zstandard - Fast real-time compression algorithm",
-      "stargazers_count": 27978,
-      "forks_count": 2621,
-      "language": "C",
-      "topics": [],
-      "owner_login": "facebook",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

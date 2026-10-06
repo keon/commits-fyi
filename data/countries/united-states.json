@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-10-05T12:36:04.214Z",
+  "generated_at": "2026-10-06T12:04:50.842Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1261371,
-    "org_followers": 1010077,
-    "user_stars": 3447220,
-    "org_stars": 10640352
+    "user_followers": 1375301,
+    "org_followers": 1020906,
+    "user_stars": 3471436,
+    "org_stars": 10836385
   },
   "queries": [
     {
@@ -101,6 +101,20 @@
       "company": "@epicweb-dev ",
       "created_at": "2012-03-04T22:32:01Z",
       "total_stars": 39844
+    },
+    {
+      "login": "kennethreitz",
+      "name": "Kenneth Reitz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119893?s=88&u=bc80c390a9b84c559f5bf2d911d512de2bc13802&v=4",
+      "html_url": "https://github.com/kennethreitz",
+      "followers": 30136,
+      "following": 215,
+      "public_repos": 48,
+      "location": "Virginia, USA, Earth, Milky Way.",
+      "bio": "I wrote Requests: HTTP for Humans and Pipenv. The only thing I really care about is user experience.",
+      "company": null,
+      "created_at": "2009-08-26T21:17:47Z",
+      "total_stars": 20323
     },
     {
       "login": "benawad",
@@ -243,6 +257,20 @@
       "total_stars": 4720
     },
     {
+      "login": "Rich-Harris",
+      "name": "Rich Harris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1162160?s=88&v=4",
+      "html_url": "https://github.com/Rich-Harris",
+      "followers": 20720,
+      "following": 0,
+      "public_repos": 217,
+      "location": "NYC",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-10-31T10:36:05Z",
+      "total_stars": 26496
+    },
+    {
       "login": "t3dotgg",
       "name": "Theo Browne",
       "avatar_url": "https://avatars.githubusercontent.com/u/6751787?s=88&u=69a6486b20fc980615e51457f6a5b56103cea295&v=4",
@@ -269,6 +297,20 @@
       "company": "@CodingTrain @ITPNYU @processing  @ml5js @nature-of-code @Programming-from-A-to-Z ",
       "created_at": "2010-01-28T18:58:55Z",
       "total_stars": 3641
+    },
+    {
+      "login": "cumsoft",
+      "name": "cumsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97250816?s=88&u=208afef4fb98cb0e28832a9ebba59247c5bacb95&v=4",
+      "html_url": "https://github.com/cumsoft",
+      "followers": 18542,
+      "following": 173163,
+      "public_repos": 8,
+      "location": "New York, NY",
+      "bio": "CLT, XR & Hybrid Kernel Dev",
+      "company": "cumsoft",
+      "created_at": "2022-01-06T18:27:26Z",
+      "total_stars": 316
     },
     {
       "login": "trekhleb",
@@ -339,6 +381,20 @@
       "company": null,
       "created_at": "2009-12-29T03:37:15Z",
       "total_stars": 105228
+    },
+    {
+      "login": "idimetrix",
+      "name": "Dmitry Selikhov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6536323?s=88&u=8bdc3b5ad5ad63a6956ba6890107e8efc6c2d67c&v=4",
+      "html_url": "https://github.com/idimetrix",
+      "followers": 16359,
+      "following": 237267,
+      "public_repos": 113,
+      "location": "New York",
+      "bio": "🪐Founder, Planoda — the AI-native work platform. Agents propose, humans approve. Replaces Linear, ClickUp, Monday & Trello. 🚀CTO · 3X Founder.",
+      "company": "@planoda",
+      "created_at": "2014-01-29T15:58:22Z",
+      "total_stars": 619
     },
     {
       "login": "lydiahallie",
@@ -495,6 +551,34 @@
       "total_stars": 36182
     },
     {
+      "login": "affaan-m",
+      "name": "Affaan Mustafa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/124439313?s=88&u=9a9e442dbb6a4a4b9ce24c7548bf9071fef54651&v=4",
+      "html_url": "https://github.com/affaan-m",
+      "followers": 11956,
+      "following": 12,
+      "public_repos": 25,
+      "location": "NYC",
+      "bio": "Compute Trading Lead @ Jump Trading | prev. founded The Agentic Desk for Compute @Ito-Markets (acq.) | built ECC @ECC-Tools (272k+ stars)",
+      "company": "Jump Trading",
+      "created_at": "2023-02-04T11:57:38Z",
+      "total_stars": 276172
+    },
+    {
+      "login": "lattner",
+      "name": "Chris Lattner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15152540?s=88&u=bb801174d6fe5cea542dfb3ff8c59a2b55c0b5e0&v=4",
+      "html_url": "https://github.com/lattner",
+      "followers": 11921,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Bay Area, California, USA",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-10-16T05:06:43Z",
+      "total_stars": 0
+    },
+    {
       "login": "agentzh",
       "name": "Yichun Zhang",
       "avatar_url": "https://avatars.githubusercontent.com/u/56241?s=88&u=9bfe3cdd99f8aceb640302747b3396ff979d10bd&v=4",
@@ -593,6 +677,20 @@
       "total_stars": 25750
     },
     {
+      "login": "romannurik",
+      "name": "Roman Nurik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100155?s=88&v=4",
+      "html_url": "https://github.com/romannurik",
+      "followers": 10693,
+      "following": 22,
+      "public_repos": 56,
+      "location": "New York, NY",
+      "bio": null,
+      "company": "@google ",
+      "created_at": "2009-06-30T00:39:12Z",
+      "total_stars": 18413
+    },
+    {
       "login": "jaredpalmer",
       "name": "Jared Palmer",
       "avatar_url": "https://avatars.githubusercontent.com/u/4060187?s=88&u=97bb33a7ca5081fcf173c14207e04cbc6c650650&v=4",
@@ -619,6 +717,20 @@
       "company": null,
       "created_at": "2008-04-11T22:42:39Z",
       "total_stars": 1145
+    },
+    {
+      "login": "joshlong",
+      "name": "Josh Long",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54473?s=88&v=4",
+      "html_url": "https://github.com/joshlong",
+      "followers": 10059,
+      "following": 73,
+      "public_repos": 68,
+      "location": "San Francisco, CA",
+      "bio": "Josh (@starbuxman) is the Spring Developer Advocate at Broadcom, an open-source hacker, book/video author and speaker",
+      "company": "the Spring team (https://spring.io) ",
+      "created_at": "2009-02-14T08:54:04Z",
+      "total_stars": 2147
     },
     {
       "login": "colah",
@@ -719,6 +831,34 @@
       "total_stars": 14112
     },
     {
+      "login": "Trinkle23897",
+      "name": "Jiayi Weng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8189182?s=88&v=4",
+      "html_url": "https://github.com/Trinkle23897",
+      "followers": 8669,
+      "following": 49,
+      "public_repos": 29,
+      "location": "San Francisco",
+      "bio": "Busy working on ChatGPT training infra",
+      "company": "@openai ",
+      "created_at": "2014-07-17T08:24:37Z",
+      "total_stars": 6045
+    },
+    {
+      "login": "Nutlope",
+      "name": "Hassan El Mghari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63742054?s=88&u=befe4ae74b906698be965bad482d0e02fc7707ab&v=4",
+      "html_url": "https://github.com/Nutlope",
+      "followers": 8648,
+      "following": 43,
+      "public_repos": 92,
+      "location": "New York City, NY",
+      "bio": "Building.",
+      "company": null,
+      "created_at": "2020-04-15T17:25:15Z",
+      "total_stars": 94179
+    },
+    {
       "login": "skyzh",
       "name": "Alex Chi Z",
       "avatar_url": "https://avatars.githubusercontent.com/u/4198311?s=88&u=2ac9e680a85102d008181a2526d5ae10f188ed19&v=4",
@@ -789,6 +929,20 @@
       "total_stars": 21377
     },
     {
+      "login": "hehonghui",
+      "name": "Mr.Simple",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1683811?s=88&u=4fdd12c8f8685ef1ce1b9d798bfbd6f86bd4b397&v=4",
+      "html_url": "https://github.com/hehonghui",
+      "followers": 7850,
+      "following": 23,
+      "public_repos": 80,
+      "location": "USA",
+      "bio": "┈╭━━━━━━━━━━━╮┈ ┈┃╭━━━╮┊╭━━━╮┃┈ ┃┃╰━━━╯┊╰━━━╯┃┃ ╰┫╭━╮╰━━━╯╭━╮┣╯ ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈ ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈ ┈╰━━━━━━━━━━━╯┈",
+      "company": "UIT",
+      "created_at": "2012-04-27T02:19:57Z",
+      "total_stars": 55315
+    },
+    {
       "login": "swyxio",
       "name": "swyx.io",
       "avatar_url": "https://avatars.githubusercontent.com/u/6764957?s=88&u=97ad815028595b73b06ee4b0510e66bbe391228d&v=4",
@@ -803,6 +957,20 @@
       "total_stars": 24298
     },
     {
+      "login": "liuyubobobo",
+      "name": "Yubo Liu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2057443?s=88&u=cfa90bc9ee80db69930dbbd6a16fe5eae4b607d6&v=4",
+      "html_url": "https://github.com/liuyubobobo",
+      "followers": 7626,
+      "following": 81,
+      "public_repos": 29,
+      "location": "USA / China",
+      "bio": "持续学习者",
+      "company": null,
+      "created_at": "2012-07-28T17:36:13Z",
+      "total_stars": 13088
+    },
+    {
       "login": "jeffheaton",
       "name": "Jeff Heaton",
       "avatar_url": "https://avatars.githubusercontent.com/u/462761?s=88&u=d7afac094794432225cab9a32d6cc59c20055d17&v=4",
@@ -815,6 +983,20 @@
       "company": "Reinsurance Group of America (@rgare)",
       "created_at": "2010-11-01T14:20:04Z",
       "total_stars": 10231
+    },
+    {
+      "login": "nat",
+      "name": "Nat Friedman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56260?s=88&u=f59f1342ef09e1c0590c1daaf423ef9ee654ee62&v=4",
+      "html_url": "https://github.com/nat",
+      "followers": 7165,
+      "following": 41,
+      "public_repos": 9,
+      "location": "San Francisco",
+      "bio": null,
+      "company": "GitHub",
+      "created_at": "2009-02-20T13:08:45Z",
+      "total_stars": 9745
     },
     {
       "login": "mxstbr",
@@ -943,6 +1125,20 @@
       "total_stars": 19288
     },
     {
+      "login": "hackingthemarkets",
+      "name": "Part Time Larry",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59261823?s=88&u=dd88ffe95dd73914bfce9c2c4f104a85f40ffb42&v=4",
+      "html_url": "https://github.com/hackingthemarkets",
+      "followers": 6511,
+      "following": 0,
+      "public_repos": 63,
+      "location": "San Francisco, CA",
+      "bio": "I make Python for Finance tutorials on YouTube.",
+      "company": "Hacking the Markets",
+      "created_at": "2019-12-26T17:39:12Z",
+      "total_stars": 6839
+    },
+    {
       "login": "HuXn-WebDev",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/85052811?s=88&u=77ff05f3988edc09c032f5a176b649b3dc4d3a61&v=4",
@@ -969,6 +1165,34 @@
       "company": "@alternbits",
       "created_at": "2023-08-25T21:49:45Z",
       "total_stars": 6935
+    },
+    {
+      "login": "orta",
+      "name": "Orta Therox",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49038?s=88&u=ffa55aa2577e724ad5bc088b8663a7e886f986a0&v=4",
+      "html_url": "https://github.com/orta",
+      "followers": 6294,
+      "following": 108,
+      "public_repos": 306,
+      "location": "London / Huddersfield / NYC / Dublin / RDJ",
+      "bio": "Co-founder of @puzzmo-com \r\n\r\nEx-TypeScript. Contributed to: Shiki, Shiki Twoslash, Danger, CocoaPods, Jest, GraphQL, RxSwift & Svelte",
+      "company": null,
+      "created_at": "2009-01-24T20:40:31Z",
+      "total_stars": 8510
+    },
+    {
+      "login": "EvanBacon",
+      "name": "Evan Bacon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9664363?s=88&u=46ba6d5fbd29729df2950b845c9ca2cd085a1c2b&v=4",
+      "html_url": "https://github.com/EvanBacon",
+      "followers": 6233,
+      "following": 92,
+      "public_repos": 214,
+      "location": "San Francisco",
+      "bio": "[object Object]",
+      "company": null,
+      "created_at": "2014-11-10T22:01:21Z",
+      "total_stars": 13381
     },
     {
       "login": "nullptrException100",
@@ -1011,6 +1235,20 @@
       "company": null,
       "created_at": "2013-02-01T19:24:48Z",
       "total_stars": 30125
+    },
+    {
+      "login": "JordanSchuetz",
+      "name": "Jordan Schuetz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1023379?s=88&u=38c5e5c5ff9931120970a8885698aa7230154928&v=4",
+      "html_url": "https://github.com/JordanSchuetz",
+      "followers": 6027,
+      "following": 17,
+      "public_repos": 24,
+      "location": "San Francisco CA",
+      "bio": "Ecosystem Programs Lead, Staff Product Marketing Manager,\r\nDeveloper educator, developer advocate. Professional video game developer.",
+      "company": "Clay",
+      "created_at": "2011-09-03T04:29:43Z",
+      "total_stars": 11301
     },
     {
       "login": "moxie0",
@@ -1097,6 +1335,20 @@
       "total_stars": 192
     },
     {
+      "login": "hosseinhezami",
+      "name": "Hossein Hezami",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8210576?s=88&u=ad545d48a807e7d8ab040bc3073ef501bc4f9162&v=4",
+      "html_url": "https://github.com/hosseinhezami",
+      "followers": 5662,
+      "following": 0,
+      "public_repos": 4,
+      "location": "New York",
+      "bio": "Laravel Developer",
+      "company": null,
+      "created_at": "2014-07-19T17:51:40Z",
+      "total_stars": 245
+    },
+    {
       "login": "Hendrixer",
       "name": "Scott Moss",
       "avatar_url": "https://avatars.githubusercontent.com/u/2840504?s=88&u=1477f5efd08d9e76e5c3cd0e7017b7ad53378af2&v=4",
@@ -1139,6 +1391,20 @@
       "total_stars": 14119
     },
     {
+      "login": "vakila",
+      "name": "Anjana Vakil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5424927?s=88&u=cf024d4a954cbb35b913db96d66351830b28086b&v=4",
+      "html_url": "https://github.com/vakila",
+      "followers": 5522,
+      "following": 0,
+      "public_repos": 34,
+      "location": "San Francisco | Berlin",
+      "bio": "Independent Developer Educator & Software Engineer",
+      "company": null,
+      "created_at": "2013-09-10T07:10:50Z",
+      "total_stars": 906
+    },
+    {
       "login": "asweigart",
       "name": "Al Sweigart",
       "avatar_url": "https://avatars.githubusercontent.com/u/52220?s=88&v=4",
@@ -1165,272 +1431,6 @@
       "company": null,
       "created_at": "2015-05-29T14:17:32Z",
       "total_stars": 16032
-    },
-    {
-      "login": "tshemsedinov",
-      "name": "Timur Shemsedinov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4405297?s=88&u=cda6702c4ff8d6f57d0e7c94966f4ee46753edd7&v=4",
-      "html_url": "https://github.com/tshemsedinov",
-      "followers": 5377,
-      "following": 199,
-      "public_repos": 36,
-      "location": "Earth, Europe, Ukraine, Kiev, Kyiv, USA, Spain, Italy, China",
-      "bio": "30 years in software engineering and technology leadership, JS/Node expert, private clouds, cybernetics, distributed systems, architecture, databases",
-      "company": "Leader at Metarhia; Lecturer at KPI",
-      "created_at": "2013-05-11T17:50:14Z",
-      "total_stars": 1592
-    },
-    {
-      "login": "aphyr",
-      "name": "Kyle Kingsbury",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3748?s=88&u=dccc81fed92688be372ddb452515f17d7cd81a6c&v=4",
-      "html_url": "https://github.com/aphyr",
-      "followers": 5336,
-      "following": 2,
-      "public_repos": 62,
-      "location": "USA",
-      "bio": null,
-      "company": "@jepsen-io ",
-      "created_at": "2008-03-25T17:32:19Z",
-      "total_stars": 14015
-    },
-    {
-      "login": "freddier",
-      "name": "Freddy Vega",
-      "avatar_url": "https://avatars.githubusercontent.com/u/824191?s=88&u=5c7ed9675ee6eef0cbd5611e72d1bdb124e64955&v=4",
-      "html_url": "https://github.com/freddier",
-      "followers": 5218,
-      "following": 5,
-      "public_repos": 11,
-      "location": "San Francisco, CA",
-      "bio": "CEO and founder of Platzi, the biggest tech school in Latam. \r\nFounder of Cristalab.",
-      "company": "Platzi",
-      "created_at": "2011-06-01T22:33:56Z",
-      "total_stars": 9633
-    },
-    {
-      "login": "leimao",
-      "name": "Lei Mao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/17606112?s=88&u=c59e8e5e3e717da8267bb27336278c7eceb4e795&v=4",
-      "html_url": "https://github.com/leimao",
-      "followers": 5134,
-      "following": 0,
-      "public_repos": 124,
-      "location": "Silicon Valley, California",
-      "bio": "Artificial Intelligence, Machine Learning, Computer Science.\r\nC++, CUDA, Python, CMake.",
-      "company": "@facebook",
-      "created_at": "2016-03-03T01:36:34Z",
-      "total_stars": 2899
-    },
-    {
-      "login": "minimaxir",
-      "name": "Max Woolf",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2179708?s=88&u=fa33a847bd260bee190d2994538a1ca32d467445&v=4",
-      "html_url": "https://github.com/minimaxir",
-      "followers": 5105,
-      "following": 1,
-      "public_repos": 146,
-      "location": "San Francisco",
-      "bio": "Senior Data Scientist @buzzfeed. Plotter of pretty charts.",
-      "company": "@buzzfeed ",
-      "created_at": "2012-08-19T19:25:30Z",
-      "total_stars": 77082
-    },
-    {
-      "login": "lukeed",
-      "name": "Luke Edwards",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5855893?s=88&v=4",
-      "html_url": "https://github.com/lukeed",
-      "followers": 5083,
-      "following": 23,
-      "public_repos": 217,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-11-05T00:52:21Z",
-      "total_stars": 47437
-    },
-    {
-      "login": "JeffreyZhao",
-      "name": "Jeffrey Zhao",
-      "avatar_url": "https://avatars.githubusercontent.com/u/98177?s=88&u=14953022463d7e73e4cc517e1a442a75cad73fcb&v=4",
-      "html_url": "https://github.com/JeffreyZhao",
-      "followers": 4881,
-      "following": 0,
-      "public_repos": 29,
-      "location": "United States",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-06-23T13:26:12Z",
-      "total_stars": 2100
-    },
-    {
-      "login": "trishume",
-      "name": "Tristan Hume",
-      "avatar_url": "https://avatars.githubusercontent.com/u/887610?s=88&u=5aa9a0e9d96da4985178c8d7a55ab2f31785b70b&v=4",
-      "html_url": "https://github.com/trishume",
-      "followers": 4880,
-      "following": 42,
-      "public_repos": 109,
-      "location": "San Francisco",
-      "bio": "Open source enthusiast. Projects in Rust, Ruby, C++, JS, Objective-C and more.",
-      "company": null,
-      "created_at": "2011-07-01T00:02:02Z",
-      "total_stars": 5855
-    },
-    {
-      "login": "ed-donner",
-      "name": "Ed Donner",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96339824?s=88&u=6385dcdef8a13afbcd8dad164f5a9008de0da7e0&v=4",
-      "html_url": "https://github.com/ed-donner",
-      "followers": 4842,
-      "following": 0,
-      "public_repos": 49,
-      "location": "New York",
-      "bio": "Co-Founder and CTO at AI startup Nebula.io",
-      "company": "Nebula.io",
-      "created_at": "2021-12-18T12:38:35Z",
-      "total_stars": 15664
-    },
-    {
-      "login": "zhongyi-tong",
-      "name": "Zhongyi Tong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7262715?s=88&u=a6f4c2e02e1c8a1de47d2f03491644755a9337c8&v=4",
-      "html_url": "https://github.com/zhongyi-tong",
-      "followers": 4818,
-      "following": 70,
-      "public_repos": 35,
-      "location": "SF Bay Area",
-      "bio": "Carnegie Mellon & Fudan Alum • Ex-Google & Splunk • Building at Robinhood • O'Reilly Book: Git for Teams",
-      "company": "@robinhood",
-      "created_at": "2014-04-11T11:45:00Z",
-      "total_stars": 36354
-    },
-    {
-      "login": "soffes",
-      "name": "Sam Soffes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52870?s=88&u=565e84c96cdcfacd929134dcd1bf8bf254712901&v=4",
-      "html_url": "https://github.com/soffes",
-      "followers": 4806,
-      "following": 378,
-      "public_repos": 157,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": "Apple",
-      "created_at": "2009-02-08T23:09:46Z",
-      "total_stars": 22493
-    },
-    {
-      "login": "Gizachew29",
-      "name": "Gizachew",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72370435?s=88&u=fd81c2b06662c9e6c1e1c7cf0172349ee5be23ab&v=4",
-      "html_url": "https://github.com/Gizachew29",
-      "followers": 4731,
-      "following": 9743,
-      "public_repos": 0,
-      "location": "Summerlin, NV,  USA",
-      "bio": "Data Analyst and\r\nFull-Stack Web Engineer,\r\nInterests: Cloud , AI",
-      "company": "https://www.iconictechinc.com/",
-      "created_at": "2020-10-05T03:58:01Z",
-      "total_stars": 0
-    },
-    {
-      "login": "kdn251",
-      "name": "Kevin Naughton Jr.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16903644?s=88&u=7ae585948bc92fb0986bc73b7d38660718aefff1&v=4",
-      "html_url": "https://github.com/kdn251",
-      "followers": 4690,
-      "following": 9,
-      "public_repos": 19,
-      "location": "New York, New York",
-      "bio": "Ex-Google Software Engineer ",
-      "company": "Google",
-      "created_at": "2016-01-26T17:47:58Z",
-      "total_stars": 65416
-    },
-    {
-      "login": "martinshkreli",
-      "name": "Martin Shkreli",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13859183?s=88&u=80d7d9e3fd88a9f3198d18977d0016b331a3b3e8&v=4",
-      "html_url": "https://github.com/martinshkreli",
-      "followers": 4665,
-      "following": 270,
-      "public_repos": 20,
-      "location": "NYC",
-      "bio": "that guy!",
-      "company": "DL Software",
-      "created_at": "2015-08-18T22:05:03Z",
-      "total_stars": 2099
-    },
-    {
-      "login": "anishathalye",
-      "name": "Anish Athalye",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3526486?s=88&u=b5c6c765e87e17c6718563bae3e693179a039d44&v=4",
-      "html_url": "https://github.com/anishathalye",
-      "followers": 4656,
-      "following": 273,
-      "public_repos": 57,
-      "location": "San Francisco, CA",
-      "bio": "ML Research @ Cursor",
-      "company": "@cursor",
-      "created_at": "2013-02-10T18:41:30Z",
-      "total_stars": 27616
-    },
-    {
-      "login": "jlevy",
-      "name": "Joshua Levy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2058167?s=88&u=49d8a5df94e131b1b699162ab7a97119102742ed&v=4",
-      "html_url": "https://github.com/jlevy",
-      "followers": 4640,
-      "following": 390,
-      "public_repos": 70,
-      "location": "San Francisco",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-07-28T22:03:23Z",
-      "total_stars": 176122
-    },
-    {
-      "login": "objective-see",
-      "name": "Objective-See Foundation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11327812?s=88&u=1fff302f868e518a87b777382b99d4a528de1b55&v=4",
-      "html_url": "https://github.com/objective-see",
-      "followers": 4615,
-      "following": 0,
-      "public_repos": 28,
-      "location": "Hawaii, USA",
-      "bio": "We’re a non-profit foundation focused on macOS security, driven by the mission to create free tools, grow and support a global community of students, researcher",
-      "company": "Objective-See Foundation",
-      "created_at": "2015-03-05T07:25:28Z",
-      "total_stars": 20773
-    },
-    {
-      "login": "petewarden",
-      "name": "Pete Warden",
-      "avatar_url": "https://avatars.githubusercontent.com/u/161459?s=88&v=4",
-      "html_url": "https://github.com/petewarden",
-      "followers": 4612,
-      "following": 7,
-      "public_repos": 78,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": "Google",
-      "created_at": "2009-12-03T16:29:50Z",
-      "total_stars": 5594
-    },
-    {
-      "login": "gordicaleksa",
-      "name": "Aleksa Gordić",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29271842?s=88&u=6b9f534546b35391ab89ea077ab927a75fa834b9&v=4",
-      "html_url": "https://github.com/gordicaleksa",
-      "followers": 4574,
-      "following": 4,
-      "public_repos": 27,
-      "location": "San Francisco",
-      "bio": "Flirting with LLMs. Tensor Core maximalist. If I say stupid stuff it's not me it's my prompt.",
-      "company": "ex-DeepMind, ex-Microsoft",
-      "created_at": "2017-06-08T07:12:26Z",
-      "total_stars": 7080
     }
   ],
   "orgs": [
@@ -1685,6 +1685,20 @@
       "company": null,
       "created_at": "2014-06-15T06:49:35Z",
       "total_stars": 19543
+    },
+    {
+      "login": "twbs",
+      "name": "Bootstrap",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2918581?s=88&v=4",
+      "html_url": "https://github.com/twbs",
+      "followers": 14372,
+      "following": 0,
+      "public_repos": 26,
+      "location": "San Francisco",
+      "bio": "Source code and more for the most popular front-end framework in the world.",
+      "company": null,
+      "created_at": "2012-11-29T05:47:03Z",
+      "total_stars": 221774
     },
     {
       "login": "xai-org",
@@ -2513,6 +2527,20 @@
       "total_stars": 17831
     },
     {
+      "login": "coderabbitai",
+      "name": "CodeRabbit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/132028505?s=88&v=4",
+      "html_url": "https://github.com/coderabbitai",
+      "followers": 3619,
+      "following": 0,
+      "public_repos": 22,
+      "location": "United States of America",
+      "bio": "AI-powered platform revolutionizing code reviews",
+      "company": null,
+      "created_at": "2023-04-28T01:29:48Z",
+      "total_stars": 2873
+    },
+    {
       "login": "stripe",
       "name": "Stripe",
       "avatar_url": "https://avatars.githubusercontent.com/u/856813?s=88&v=4",
@@ -2525,34 +2553,6 @@
       "company": null,
       "created_at": "2011-06-17T15:42:37Z",
       "total_stars": 42490
-    },
-    {
-      "login": "coderabbitai",
-      "name": "CodeRabbit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/132028505?s=88&v=4",
-      "html_url": "https://github.com/coderabbitai",
-      "followers": 3589,
-      "following": 0,
-      "public_repos": 22,
-      "location": "United States of America",
-      "bio": "AI-powered platform revolutionizing code reviews",
-      "company": null,
-      "created_at": "2023-04-28T01:29:48Z",
-      "total_stars": 2863
-    },
-    {
-      "login": "githubnext",
-      "name": "GitHub Next",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89615882?s=88&v=4",
-      "html_url": "https://github.com/githubnext",
-      "followers": 3573,
-      "following": 0,
-      "public_repos": 78,
-      "location": "United States of America",
-      "bio": "Exploring the future of software development",
-      "company": null,
-      "created_at": "2021-08-26T23:49:35Z",
-      "total_stars": 25751
     }
   ],
   "repos": [
@@ -2610,6 +2610,25 @@
       ],
       "owner_login": "jwasham",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3771963?s=88&u=4b348c742192b1963aabbf803a1174d2a4de155a&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "html_url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Code",
+      "stargazers_count": 273287,
+      "forks_count": 40786,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools"
+      ],
+      "owner_login": "affaan-m",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/124439313?s=88&u=9a9e442dbb6a4a4b9ce24c7548bf9071fef54651&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -2679,6 +2698,25 @@
       ],
       "owner_login": "github",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/9919?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "twbs/bootstrap",
+      "html_url": "https://github.com/twbs/bootstrap",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "stargazers_count": 174989,
+      "forks_count": 78561,
+      "language": "MDX",
+      "topics": [
+        "css",
+        "bootstrap",
+        "javascript",
+        "html",
+        "scss"
+      ],
+      "owner_login": "twbs",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2918581?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3401,35 +3439,6 @@
       ],
       "owner_login": "run-llama",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/130722866?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "xai-org/grok-1",
-      "html_url": "https://github.com/xai-org/grok-1",
-      "description": "Grok open release",
-      "stargazers_count": 52232,
-      "forks_count": 8545,
-      "language": "Python",
-      "topics": [],
-      "owner_login": "xai-org",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/130314967?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "google/guava",
-      "html_url": "https://github.com/google/guava",
-      "description": "Google core libraries for Java",
-      "stargazers_count": 51918,
-      "forks_count": 11208,
-      "language": "Java",
-      "topics": [
-        "guava",
-        "java"
-      ],
-      "owner_login": "google",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1342004?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

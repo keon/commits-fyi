@@ -2,14 +2,14 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-10-05T12:23:09.585Z",
+  "generated_at": "2026-10-06T12:02:51.733Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 161393,
+    "user_followers": 161400,
     "org_followers": 26383,
     "user_stars": 711638,
     "org_stars": 201281
@@ -429,8 +429,8 @@
       "name": "sushi",
       "avatar_url": "https://avatars.githubusercontent.com/u/172486021?s=88&u=87b989c1a8fa4baf050624bdb7dab6851132e761&v=4",
       "html_url": "https://github.com/sushiterminal",
-      "followers": 1549,
-      "following": 1372,
+      "followers": 1556,
+      "following": 1371,
       "public_repos": 60,
       "location": "Toronto, Canada",
       "bio": "Professional Tennis Player\r\nAI Engineer & Builder.\r\nStudent",
@@ -1939,18 +1939,18 @@
       "total_stars": 449
     },
     {
-      "login": "TRAILab",
-      "name": "Toronto Robotics and AI Laboratory",
-      "avatar_url": "https://avatars.githubusercontent.com/u/41268726?s=88&v=4",
-      "html_url": "https://github.com/TRAILab",
+      "login": "GrapheneOS-Archive",
+      "name": "GrapheneOS Archive",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51791105?s=88&v=4",
+      "html_url": "https://github.com/GrapheneOS-Archive",
       "followers": 95,
       "following": 0,
-      "public_repos": 33,
-      "location": "Toronto, Canada",
-      "bio": null,
+      "public_repos": 232,
+      "location": "Toronto, Ontario, Canada",
+      "bio": "Archive for GrapheneOS. Security and privacy focused mobile OS with Android app compatibility.",
       "company": null,
-      "created_at": "2018-07-15T17:02:02Z",
-      "total_stars": 804
+      "created_at": "2019-06-13T14:03:10Z",
+      "total_stars": 1073
     },
     {
       "login": "AgnostiqHQ",
@@ -1967,18 +1967,18 @@
       "total_stars": 1187
     },
     {
-      "login": "GrapheneOS-Archive",
-      "name": "GrapheneOS Archive",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51791105?s=88&v=4",
-      "html_url": "https://github.com/GrapheneOS-Archive",
+      "login": "TRAILab",
+      "name": "Toronto Robotics and AI Laboratory",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41268726?s=88&v=4",
+      "html_url": "https://github.com/TRAILab",
       "followers": 95,
       "following": 0,
-      "public_repos": 232,
-      "location": "Toronto, Ontario, Canada",
-      "bio": "Archive for GrapheneOS. Security and privacy focused mobile OS with Android app compatibility.",
+      "public_repos": 33,
+      "location": "Toronto, Canada",
+      "bio": null,
       "company": null,
-      "created_at": "2019-06-13T14:03:10Z",
-      "total_stars": 1073
+      "created_at": "2018-07-15T17:02:02Z",
+      "total_stars": 804
     },
     {
       "login": "CSSLab",
@@ -2275,20 +2275,6 @@
       "total_stars": 1498
     },
     {
-      "login": "ProteinQure",
-      "name": "ProteinQure",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33707203?s=88&v=4",
-      "html_url": "https://github.com/ProteinQure",
-      "followers": 54,
-      "following": 0,
-      "public_repos": 11,
-      "location": "Toronto, Ontario",
-      "bio": "Computational peptide drug design. We're hiring Python developers!",
-      "company": null,
-      "created_at": "2017-11-16T01:44:54Z",
-      "total_stars": 62
-    },
-    {
       "login": "deepgenomics",
       "name": "Deep Genomics",
       "avatar_url": "https://avatars.githubusercontent.com/u/13428879?s=88&v=4",
@@ -2301,6 +2287,20 @@
       "company": null,
       "created_at": "2015-07-21T04:31:55Z",
       "total_stars": 131
+    },
+    {
+      "login": "ProteinQure",
+      "name": "ProteinQure",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33707203?s=88&v=4",
+      "html_url": "https://github.com/ProteinQure",
+      "followers": 54,
+      "following": 0,
+      "public_repos": 11,
+      "location": "Toronto, Ontario",
+      "bio": "Computational peptide drug design. We're hiring Python developers!",
+      "company": null,
+      "created_at": "2017-11-16T01:44:54Z",
+      "total_stars": 62
     },
     {
       "login": "torontojs",

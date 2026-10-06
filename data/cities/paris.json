@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-10-05T12:26:06.971Z",
+  "generated_at": "2026-10-06T12:03:35.712Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 174195,
+    "user_followers": 199894,
     "org_followers": 101400,
-    "user_stars": 853240,
+    "user_stars": 860807,
     "org_stars": 1133793
   },
   "queries": [
@@ -32,6 +32,20 @@
     }
   ],
   "users": [
+    {
+      "login": "brunosimon",
+      "name": "Bruno Simon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5439991?s=88&u=d7f9a046776f0960769c8d90ca8ced4d896c8e6a&v=4",
+      "html_url": "https://github.com/brunosimon",
+      "followers": 22465,
+      "following": 0,
+      "public_repos": 79,
+      "location": "Paris",
+      "bio": null,
+      "company": "Creative Journey",
+      "created_at": "2013-09-11T23:44:41Z",
+      "total_stars": 16350
+    },
     {
       "login": "Charles-Chrismann",
       "name": "Charles Chrismann",
@@ -383,6 +397,20 @@
       "total_stars": 14515
     },
     {
+      "login": "LysandreJik",
+      "name": "Lysandre Debut",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30755778?s=88&u=2a8797be4b4a8632bdaebcadc62a153b0ea112d3&v=4",
+      "html_url": "https://github.com/LysandreJik",
+      "followers": 1863,
+      "following": 68,
+      "public_repos": 15,
+      "location": "Paris",
+      "bio": "Chief OS Officer @ HF",
+      "company": "Hugging Face",
+      "created_at": "2017-08-05T17:42:03Z",
+      "total_stars": 45
+    },
+    {
       "login": "rom1v",
       "name": "Romain Vimont",
       "avatar_url": "https://avatars.githubusercontent.com/u/543275?s=88&u=b63fe676f9ee4ea5c8ce5de666230a87a82961f8&v=4",
@@ -537,6 +565,20 @@
       "total_stars": 785
     },
     {
+      "login": "agoncal",
+      "name": "Antonio Goncalves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/729277?s=88&u=d0da87cbc7086aaf1db7744e71017689abf4bd64&v=4",
+      "html_url": "https://github.com/agoncal",
+      "followers": 1443,
+      "following": 24,
+      "public_repos": 85,
+      "location": "Paris",
+      "bio": "Java Champion mostly working with distributed systems, microservices, Quarkus, MicroProfile, and Java EE",
+      "company": "@microsoft",
+      "created_at": "2011-04-14T13:06:14Z",
+      "total_stars": 1365
+    },
+    {
       "login": "Unitech",
       "name": "Alexandre Strzelewicz",
       "avatar_url": "https://avatars.githubusercontent.com/u/757747?s=88&u=5644df4dbb15f43f738cdadd83069256bbe46950&v=4",
@@ -633,6 +675,20 @@
       "company": "Pierlis",
       "created_at": "2009-02-13T10:40:13Z",
       "total_stars": 12416
+    },
+    {
+      "login": "vincentbernat",
+      "name": "Vincent Bernat",
+      "avatar_url": "https://avatars.githubusercontent.com/u/631446?s=88&u=4fa1b32955881f764b4ca8556b8ba62db83f55d2&v=4",
+      "html_url": "https://github.com/vincentbernat",
+      "followers": 1267,
+      "following": 5,
+      "public_repos": 78,
+      "location": "Paris, France",
+      "bio": null,
+      "company": "Free",
+      "created_at": "2011-02-22T07:20:26Z",
+      "total_stars": 3485
     },
     {
       "login": "Bleuje",
@@ -761,6 +817,34 @@
       "total_stars": 170
     },
     {
+      "login": "r4j0x00",
+      "name": "rajvardhan agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31346934?s=88&u=6ce6b020a4ceccaa96d00b6ad6da4828f0d56909&v=4",
+      "html_url": "https://github.com/r4j0x00",
+      "followers": 1062,
+      "following": 0,
+      "public_repos": 11,
+      "location": "Paris, France",
+      "bio": null,
+      "company": "@Apple",
+      "created_at": "2017-08-25T12:19:04Z",
+      "total_stars": 2604
+    },
+    {
+      "login": "lopspower",
+      "name": "Lopez Mikhael",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4562398?s=88&u=3cf332f20f44c92650dff9c6249e02f57fb88fd4&v=4",
+      "html_url": "https://github.com/lopspower",
+      "followers": 1043,
+      "following": 82,
+      "public_repos": 21,
+      "location": "Paris, France",
+      "bio": "Head of Engineering @BrutMedia 🎥 • ex CANAL+ • Open source enthusiast 🚀 • Love Coffee, Pokémon & Crossfit 🏋️",
+      "company": "@brutmedia",
+      "created_at": "2013-05-29T17:53:02Z",
+      "total_stars": 9011
+    },
+    {
       "login": "patil-suraj",
       "name": "Suraj Patil",
       "avatar_url": "https://avatars.githubusercontent.com/u/27137566?s=88&u=b1057c8f8fb5e36c7588d7c000e9e0e1f28b1019&v=4",
@@ -815,6 +899,20 @@
       "company": null,
       "created_at": "2013-10-02T10:05:51Z",
       "total_stars": 527
+    },
+    {
+      "login": "guillaumekln",
+      "name": "Guillaume Klein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4805513?s=88&u=b3724b79885d1d21d7dc699e07b757682c1302f9&v=4",
+      "html_url": "https://github.com/guillaumekln",
+      "followers": 959,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Paris, France",
+      "bio": "Machine Learning Engineer",
+      "company": "@apple",
+      "created_at": "2013-06-24T18:17:12Z",
+      "total_stars": 7
     },
     {
       "login": "eliemichel",
@@ -899,6 +997,20 @@
       "company": "QuantStack",
       "created_at": "2012-09-22T05:32:45Z",
       "total_stars": 70
+    },
+    {
+      "login": "glemaitre",
+      "name": "Guillaume Lemaitre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7454015?s=88&u=d9704641f89c00ce86f8207e59aedb554109d7fa&v=4",
+      "html_url": "https://github.com/glemaitre",
+      "followers": 930,
+      "following": 156,
+      "public_repos": 115,
+      "location": "Paris-Saclay / France",
+      "bio": null,
+      "company": "VP of Engineering / OSS Engineer @probabl-ai ",
+      "created_at": "2014-04-30T22:12:28Z",
+      "total_stars": 425
     },
     {
       "login": "ArthurSonzogni",
@@ -989,7 +1101,7 @@
       "name": "Bastien",
       "avatar_url": "https://avatars.githubusercontent.com/u/63500?s=88&u=5862e080559463f5a99f29683e8fe7766c212279&v=4",
       "html_url": "https://github.com/bzg",
-      "followers": 871,
+      "followers": 872,
       "following": 595,
       "public_repos": 61,
       "location": "Paris",
@@ -1195,6 +1307,20 @@
       "total_stars": 13
     },
     {
+      "login": "mlabouardy",
+      "name": "LABOUARDY Mohamed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10320205?s=88&u=022b2dc0e4696d43258b8364ca7e869aeb18181b&v=4",
+      "html_url": "https://github.com/mlabouardy",
+      "followers": 777,
+      "following": 0,
+      "public_repos": 178,
+      "location": "Paris, France",
+      "bio": "CTO & Co-Founder @tailwarden  - Maker & Indie Entrepreneur @Komiser.io, Author and Speaker",
+      "company": "@tailwarden",
+      "created_at": "2014-12-27T02:48:42Z",
+      "total_stars": 6325
+    },
+    {
       "login": "mcombeau",
       "name": "Mia Combeau",
       "avatar_url": "https://avatars.githubusercontent.com/u/52008667?s=88&u=889adc6df09a8b3f8ee8944b7179bf857860ac7c&v=4",
@@ -1209,18 +1335,32 @@
       "total_stars": 458
     },
     {
-      "login": "mlabouardy",
-      "name": "LABOUARDY Mohamed",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10320205?s=88&u=022b2dc0e4696d43258b8364ca7e869aeb18181b&v=4",
-      "html_url": "https://github.com/mlabouardy",
-      "followers": 777,
-      "following": 0,
-      "public_repos": 178,
+      "login": "steeve",
+      "name": "Steeve Morin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137467?s=88&v=4",
+      "html_url": "https://github.com/steeve",
+      "followers": 772,
+      "following": 1,
+      "public_repos": 52,
       "location": "Paris, France",
-      "bio": "CTO & Co-Founder @tailwarden  - Maker & Indie Entrepreneur @Komiser.io, Author and Speaker",
-      "company": "@tailwarden",
-      "created_at": "2014-12-27T02:48:42Z",
-      "total_stars": 6325
+      "bio": "@zml ",
+      "company": "@zml",
+      "created_at": "2009-10-09T15:12:58Z",
+      "total_stars": 5967
+    },
+    {
+      "login": "tdd",
+      "name": "Christophe Porteneuve",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3752?s=88&u=bfdae9cf2770de1a5d3e024e5ce666007f6008f3&v=4",
+      "html_url": "https://github.com/tdd",
+      "followers": 760,
+      "following": 0,
+      "public_repos": 53,
+      "location": "Paris, France",
+      "bio": "Dad, programmer, husband, entrepreneur, friend, speaker, ally, author. I train ppl on JS/Node and Git[Hub], build B2B SaaS, & call out bigots of all kinds.",
+      "company": "Delicious Insights",
+      "created_at": "2008-03-25T18:39:22Z",
+      "total_stars": 269
     },
     {
       "login": "acids-ircam",
@@ -1291,146 +1431,6 @@
       "company": null,
       "created_at": "2012-07-02T17:53:22Z",
       "total_stars": 7471
-    },
-    {
-      "login": "Kerollmops",
-      "name": "Clément Renault",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3610253?s=88&u=5997d202d7af48cde9b2c53a29000548886fa81e&v=4",
-      "html_url": "https://github.com/Kerollmops",
-      "followers": 726,
-      "following": 269,
-      "public_repos": 143,
-      "location": "France, Paris",
-      "bio": "I am the co-founder and CTO of @meilisearch. I learned coding at the Paris @42school. I live in Paris and love video games.",
-      "company": "@meilisearch",
-      "created_at": "2013-02-16T10:55:57Z",
-      "total_stars": 278
-    },
-    {
-      "login": "fraxken",
-      "name": "Thomas.G",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4438263?s=88&u=5e2d0c11f001871b76e25dd3a96bd662d6a706ba&v=4",
-      "html_url": "https://github.com/fraxken",
-      "followers": 714,
-      "following": 173,
-      "public_repos": 61,
-      "location": "Paris",
-      "bio": "French Node.js Expert freelancer with 10+ exp\r\n@nodejs Security Collaborator. @NodeSecure, @OpenAlly, @TopCli  and @JollyPixel core maintainer.",
-      "company": "@OpenAlly",
-      "created_at": "2013-05-15T13:56:14Z",
-      "total_stars": 929
-    },
-    {
-      "login": "Conchylicultor",
-      "name": "Conchylicultor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9047355?s=88&u=249ea9ca6ea000ba065b161d1df4e064e2723382&v=4",
-      "html_url": "https://github.com/Conchylicultor",
-      "followers": 711,
-      "following": 16,
-      "public_repos": 43,
-      "location": "Paris",
-      "bio": "Senior Research Engineer",
-      "company": "ex-Google Deepmind",
-      "created_at": "2014-10-07T06:51:59Z",
-      "total_stars": 3774
-    },
-    {
-      "login": "LasCC",
-      "name": "Ludovic COULON",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43119034?s=88&u=69fb6b82f08ecc949c255e415ee140584849895e&v=4",
-      "html_url": "https://github.com/LasCC",
-      "followers": 703,
-      "following": 41,
-      "public_repos": 15,
-      "location": "Paris, France",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-09-09T19:39:18Z",
-      "total_stars": 7279
-    },
-    {
-      "login": "guillaumegenthial",
-      "name": "Guillaume Genthial",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13119229?s=88&u=f957284b03d684156464c4a8ea9c84c1ee6f27ca&v=4",
-      "html_url": "https://github.com/guillaumegenthial",
-      "followers": 673,
-      "following": 14,
-      "public_repos": 18,
-      "location": "Paris",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-06-30T13:22:07Z",
-      "total_stars": 3760
-    },
-    {
-      "login": "teh-cmc",
-      "name": "Clement Rey",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2910679?s=88&u=21549b9a01e9e644a422f9c2dc62cd3b37a83eaf&v=4",
-      "html_url": "https://github.com/teh-cmc",
-      "followers": 673,
-      "following": 798,
-      "public_repos": 19,
-      "location": "Paris, France",
-      "bio": "Byte shuffler.\r\nInterests: systems prog, performance, DOD, everything real-time 3D, Rust, Zig, C, Vulkan, WebGPU...",
-      "company": null,
-      "created_at": "2012-11-28T10:14:40Z",
-      "total_stars": 8817
-    },
-    {
-      "login": "sakuyaloli",
-      "name": "Sakuya💮",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60157172?s=88&u=fed4e2ded7558c05bc3dd0bb09780d89197afdd2&v=4",
-      "html_url": "https://github.com/sakuyaloli",
-      "followers": 670,
-      "following": 490,
-      "public_repos": 208,
-      "location": "Paris, France",
-      "bio": "Fullstack",
-      "company": null,
-      "created_at": "2020-01-21T20:42:08Z",
-      "total_stars": 78
-    },
-    {
-      "login": "glaforge",
-      "name": "Guillaume Laforge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47907?s=88&v=4",
-      "html_url": "https://github.com/glaforge",
-      "followers": 669,
-      "following": 0,
-      "public_repos": 62,
-      "location": "Paris, France",
-      "bio": "Developer Advocate at Google for Google Cloud Platform, and co-founder of the Apache Groovy programming language project.",
-      "company": "Google",
-      "created_at": "2009-01-20T10:12:53Z",
-      "total_stars": 621
-    },
-    {
-      "login": "cjdelisle",
-      "name": "Caleb James DeLisle",
-      "avatar_url": "https://avatars.githubusercontent.com/u/509047?s=88&v=4",
-      "html_url": "https://github.com/cjdelisle",
-      "followers": 666,
-      "following": 6,
-      "public_repos": 99,
-      "location": "Paris France",
-      "bio": "cjd",
-      "company": null,
-      "created_at": "2010-12-04T09:17:42Z",
-      "total_stars": 5905
-    },
-    {
-      "login": "davidebbo",
-      "name": "David Ebbo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/556238?s=88&v=4",
-      "html_url": "https://github.com/davidebbo",
-      "followers": 661,
-      "following": 0,
-      "public_repos": 46,
-      "location": "Paris, France",
-      "bio": "Worked at Microsoft and Google. Now working at Dust AI Paris!",
-      "company": null,
-      "created_at": "2011-01-10T20:27:04Z",
-      "total_stars": 520
     }
   ],
   "orgs": [
@@ -1939,20 +1939,6 @@
       "total_stars": 4554
     },
     {
-      "login": "StarTowerChain",
-      "name": "StarTower(StarTowerChain)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/171476277?s=88&v=4",
-      "html_url": "https://github.com/StarTowerChain",
-      "followers": 174,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Paris France",
-      "bio": "StarTower technology serves humanity, connects securely, and brings you an extraordinary Web3 experience.",
-      "company": null,
-      "created_at": "2024-06-02T08:01:00Z",
-      "total_stars": 260
-    },
-    {
       "login": "getstation",
       "name": "Station",
       "avatar_url": "https://avatars.githubusercontent.com/u/27734877?s=88&v=4",
@@ -1965,6 +1951,20 @@
       "company": null,
       "created_at": "2017-04-18T16:30:45Z",
       "total_stars": 2247
+    },
+    {
+      "login": "StarTowerChain",
+      "name": "StarTower(StarTowerChain)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171476277?s=88&v=4",
+      "html_url": "https://github.com/StarTowerChain",
+      "followers": 174,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Paris France",
+      "bio": "StarTower technology serves humanity, connects securely, and brings you an extraordinary Web3 experience.",
+      "company": null,
+      "created_at": "2024-06-02T08:01:00Z",
+      "total_stars": 260
     },
     {
       "login": "lightonai",
@@ -2851,25 +2851,6 @@
       "fork": false
     },
     {
-      "full_name": "gpakosz/.tmux",
-      "html_url": "https://github.com/gpakosz/.tmux",
-      "description": "Oh my tmux! My self-contained, pretty & versatile tmux configuration made with 💛🩷💙🖤❤️🤍",
-      "stargazers_count": 25419,
-      "forks_count": 3587,
-      "language": "Shell",
-      "topics": [
-        "tmux",
-        "tmux-conf",
-        "tmux-configuration",
-        "tmux-config",
-        "powerline"
-      ],
-      "owner_login": "gpakosz",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/553208?s=88&u=fa33d3072d6b7c70d6b6e200acab0bcdc7a34df0&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "zama-ai/fhevm",
       "html_url": "https://github.com/zama-ai/fhevm",
       "description": "FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications",
@@ -2884,6 +2865,25 @@
       "owner_login": "zama-ai",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/57671822?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "guillaumemeyer/watermarks-remover",
+      "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "description": "A privacy-first app that strips AI watermarks from content you own.",
+      "stargazers_count": 23433,
+      "forks_count": 2691,
+      "language": "Python",
+      "topics": [
+        "agent-skill",
+        "ai",
+        "c2pa",
+        "claude",
+        "provenance"
+      ],
+      "owner_login": "guillaumemeyer",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/1385518?s=88&u=81fd00e9a721dd41c42f87c04c6ed6c3a79b335e&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
