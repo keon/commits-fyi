@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-10-06T12:02:47.961Z",
+  "generated_at": "2026-10-07T11:48:20.607Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 349369,
+    "user_followers": 349057,
     "org_followers": 257590,
-    "user_stars": 969186,
+    "user_stars": 968824,
     "org_stars": 2754964
   },
   "queries": [
@@ -1013,20 +1013,6 @@
       "total_stars": 694
     },
     {
-      "login": "RobbyDwk",
-      "name": "Jonathan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79964710?s=88&u=9a62751396c2c95b4661eaa386930b12ab61778b&v=4",
-      "html_url": "https://github.com/RobbyDwk",
-      "followers": 1458,
-      "following": 940,
-      "public_repos": 60,
-      "location": "Seattle, United States",
-      "bio": "Full-stack dev who loves building APIs, hacking open-source, coffee-fueled debugging, always learning. (2243)",
-      "company": "Cloudpulse360",
-      "created_at": "2021-03-03T07:14:31Z",
-      "total_stars": 429
-    },
-    {
       "login": "tpn",
       "name": "Trent Nelson",
       "avatar_url": "https://avatars.githubusercontent.com/u/629986?s=88&u=a4bf017f389eb07e5f9fc588711e7d14e032ad9e&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2010-11-02T04:19:45Z",
       "total_stars": 1020
+    },
+    {
+      "login": "jheer",
+      "name": "Jeffrey Heer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/202799?s=88&u=3918087b0bbb9e30d292c01f0ab5bf216cf4b36f&v=4",
+      "html_url": "https://github.com/jheer",
+      "followers": 1146,
+      "following": 25,
+      "public_repos": 3,
+      "location": "Seattle, WA",
+      "bio": "UW Professor. Data, visualization & interaction. @uwdata @ridge-ai @d3 @vega ",
+      "company": "University of Washington @uwdata, Ridge AI",
+      "created_at": "2010-02-13T00:04:37Z",
+      "total_stars": 67
     }
   ],
   "orgs": [
@@ -2541,17 +2541,17 @@
       "total_stars": 3229
     },
     {
-      "login": "highspot",
-      "name": "Highspot Inc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1320227?s=88&v=4",
-      "html_url": "https://github.com/highspot",
+      "login": "Apptio-PNE",
+      "name": "Apptio P&E",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73858683?s=88&v=4",
+      "html_url": "https://github.com/Apptio-PNE",
       "followers": 92,
       "following": 0,
-      "public_repos": 5,
-      "location": "Seattle, WA",
+      "public_repos": 0,
+      "location": "Bellevue, WA",
       "bio": null,
       "company": null,
-      "created_at": "2012-01-11T01:37:36Z",
+      "created_at": "2020-11-02T22:58:34Z",
       "total_stars": 0
     }
   ],

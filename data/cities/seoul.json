@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-10-06T12:04:37.356Z",
+  "generated_at": "2026-10-07T11:49:17.748Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 108365,
+    "user_followers": 110217,
     "org_followers": 11191,
-    "user_stars": 538555,
+    "user_stars": 549234,
     "org_stars": 84630
   },
   "queries": [
@@ -143,6 +143,20 @@
       "company": "TUNiB",
       "created_at": "2015-07-31T00:22:01Z",
       "total_stars": 21244
+    },
+    {
+      "login": "samchon",
+      "name": "Jeongho Nam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13158709?s=88&u=e23bb8f07478072e32e194b32646aff392afc048&v=4",
+      "html_url": "https://github.com/samchon",
+      "followers": 2246,
+      "following": 54,
+      "public_repos": 125,
+      "location": "Seoul, South Korea",
+      "bio": "AI Function Calling and Coding Agent Expert",
+      "company": "Wrtn Technologies",
+      "created_at": "2015-07-03T01:06:56Z",
+      "total_stars": 11792
     },
     {
       "login": "zzsza",
@@ -1055,6 +1069,20 @@
       "total_stars": 407
     },
     {
+      "login": "tail-s",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/98503573?s=88&u=70c4ba92ff8680d5b72c03aecd793bf810bf6b57&v=4",
+      "html_url": "https://github.com/tail-s",
+      "followers": 580,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Seoul, Korea",
+      "bio": null,
+      "company": null,
+      "created_at": "2022-01-27T02:40:24Z",
+      "total_stars": 2
+    },
+    {
       "login": "1ambda",
       "name": "Kun",
       "avatar_url": "https://avatars.githubusercontent.com/u/4968473?s=88&u=7943d4517c66ba3c8a0b1b3c1cbc5d79e48bba02&v=4",
@@ -1403,34 +1431,6 @@
       "company": null,
       "created_at": "2016-03-22T13:13:42Z",
       "total_stars": 1343
-    },
-    {
-      "login": "wayhome25",
-      "name": "LEE HYUNJOO",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22283213?s=88&u=29a5108939d818818667a35584a7a291f6db8a1a&v=4",
-      "html_url": "https://github.com/wayhome25",
-      "followers": 490,
-      "following": 56,
-      "public_repos": 48,
-      "location": "SEOUL",
-      "bio": null,
-      "company": "@laftel-team",
-      "created_at": "2016-09-19T00:04:41Z",
-      "total_stars": 115
-    },
-    {
-      "login": "brody-0125",
-      "name": "Seokhyeon Kim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67903919?s=88&u=1d76eace1f401497aac71b14424850faa1ee5899&v=4",
-      "html_url": "https://github.com/brody-0125",
-      "followers": 484,
-      "following": 408,
-      "public_repos": 56,
-      "location": "Seoul, Republic of Korea",
-      "bio": "living to be a force for good.",
-      "company": "Software Engineer @42dot | Community Organizer @KSUG | Member @foss-for-all",
-      "created_at": "2020-07-06T10:58:10Z",
-      "total_stars": 1000
     }
   ],
   "orgs": [
@@ -2233,20 +2233,6 @@
       "total_stars": 4
     },
     {
-      "login": "LikeLion-at-DGU",
-      "name": "LikeLion-at-DGU",
-      "avatar_url": "https://avatars.githubusercontent.com/u/84241834?s=88&v=4",
-      "html_url": "https://github.com/LikeLion-at-DGU",
-      "followers": 40,
-      "following": 0,
-      "public_repos": 172,
-      "location": "Seoul, Republic of Korea\t",
-      "bio": "LikeLion at Dongguk University. Opened on May 15, 2021",
-      "company": null,
-      "created_at": "2021-05-15T16:15:31Z",
-      "total_stars": 48
-    },
-    {
       "login": "Code-for-Korea",
       "name": "Code for Korea",
       "avatar_url": "https://avatars.githubusercontent.com/u/61973616?s=88&v=4",
@@ -2259,6 +2245,20 @@
       "company": null,
       "created_at": "2020-03-09T12:14:54Z",
       "total_stars": 23
+    },
+    {
+      "login": "LikeLion-at-DGU",
+      "name": "LikeLion-at-DGU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84241834?s=88&v=4",
+      "html_url": "https://github.com/LikeLion-at-DGU",
+      "followers": 40,
+      "following": 0,
+      "public_repos": 172,
+      "location": "Seoul, Republic of Korea\t",
+      "bio": "LikeLion at Dongguk University. Opened on May 15, 2021",
+      "company": null,
+      "created_at": "2021-05-15T16:15:31Z",
+      "total_stars": 48
     },
     {
       "login": "AITRICS",
@@ -2513,20 +2513,6 @@
       "total_stars": 1
     },
     {
-      "login": "yujinrobot",
-      "name": "Yujin Robot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1397206?s=88&v=4",
-      "html_url": "https://github.com/yujinrobot",
-      "followers": 29,
-      "following": 0,
-      "public_repos": 38,
-      "location": "Seoul, Republic of Korea",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-02-01T09:13:45Z",
-      "total_stars": 682
-    },
-    {
       "login": "sejong-rcv",
       "name": "Robotics & Computer Vision Lab. (RCV)",
       "avatar_url": "https://avatars.githubusercontent.com/u/48170512?s=88&v=4",
@@ -2539,6 +2525,20 @@
       "company": null,
       "created_at": "2019-03-03T05:03:37Z",
       "total_stars": 275
+    },
+    {
+      "login": "yujinrobot",
+      "name": "Yujin Robot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1397206?s=88&v=4",
+      "html_url": "https://github.com/yujinrobot",
+      "followers": 29,
+      "following": 0,
+      "public_repos": 38,
+      "location": "Seoul, Republic of Korea",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-02-01T09:13:45Z",
+      "total_stars": 682
     },
     {
       "login": "devrel-kr",
@@ -2852,6 +2852,25 @@
       "fork": false
     },
     {
+      "full_name": "samchon/typia",
+      "html_url": "https://github.com/samchon/typia",
+      "description": "Super-fast/easy runtime validators and serializers via transformation",
+      "stargazers_count": 5931,
+      "forks_count": 226,
+      "language": "TypeScript",
+      "topics": [
+        "json",
+        "stringify",
+        "typescript",
+        "fast",
+        "ajv"
+      ],
+      "owner_login": "samchon",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/13158709?s=88&u=e23bb8f07478072e32e194b32646aff392afc048&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "junhoyeo/tokscale",
       "html_url": "https://github.com/junhoyeo/tokscale",
       "description": "🛰️ Track token usage across AI coding agents from your terminal. 🏅 Global leaderboard with trillions of tokens tracked.",
@@ -3086,6 +3105,25 @@
       ],
       "owner_login": "ssut",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2366668?s=88&u=7ae14a05c5187d54badddffa1ee53dfd468f86e0&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "cruisediary/Pastel",
+      "html_url": "https://github.com/cruisediary/Pastel",
+      "description": "🎨 Gradient animation effect like Instagram",
+      "stargazers_count": 3514,
+      "forks_count": 186,
+      "language": "Swift",
+      "topics": [
+        "swift",
+        "instagram",
+        "gradient",
+        "animation",
+        "pastel"
+      ],
+      "owner_login": "cruisediary",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/2609775?s=88&u=98a765989f6e14dcc8374005bb52ad2bed63e236&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3382,44 +3420,6 @@
       "topics": [],
       "owner_login": "dmis-lab",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/46090146?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "golbin/TensorFlow-Tutorials",
-      "html_url": "https://github.com/golbin/TensorFlow-Tutorials",
-      "description": "텐서플로우를 기초부터 응용까지 단계별로 연습할 수 있는 소스 코드를 제공합니다",
-      "stargazers_count": 2121,
-      "forks_count": 972,
-      "language": "Python",
-      "topics": [
-        "neural-network",
-        "tensorflow",
-        "mnist",
-        "autoencoder",
-        "rnn"
-      ],
-      "owner_login": "golbin",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6277035?s=88&u=5168b7e3f9ded940f35b0dfc803767ad33acc876&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "ROBOTIS-GIT/turtlebot3",
-      "html_url": "https://github.com/ROBOTIS-GIT/turtlebot3",
-      "description": "ROS packages for Turtlebot3",
-      "stargazers_count": 2069,
-      "forks_count": 1185,
-      "language": "C++",
-      "topics": [
-        "robotis",
-        "robot",
-        "dynamixel",
-        "turtlebot3",
-        "turtlebot"
-      ],
-      "owner_login": "ROBOTIS-GIT",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/14007947?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

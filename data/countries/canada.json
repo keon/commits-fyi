@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-10-06T12:06:06.084Z",
+  "generated_at": "2026-10-07T11:52:28.367Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 378616,
+    "user_followers": 378489,
     "org_followers": 69298,
-    "user_stars": 1051627,
+    "user_stars": 1051150,
     "org_stars": 1079605
   },
   "queries": [
@@ -999,20 +999,6 @@
       "total_stars": 798
     },
     {
-      "login": "amurrayeqc",
-      "name": "Alexander",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127842873?s=88&u=e07d00996927db6039d6454cde3c21a2d89e2bcf&v=4",
-      "html_url": "https://github.com/amurrayeqc",
-      "followers": 2041,
-      "following": 1851,
-      "public_repos": 78,
-      "location": "Vancouver, Canada",
-      "bio": "Full-stack dev who loves React, Node, and contributing to open-source. Coffee-powered, always learning.",
-      "company": "Mapletechnika",
-      "created_at": "2023-03-14T09:59:20Z",
-      "total_stars": 601
-    },
-    {
       "login": "danluu",
       "name": "Dan Luu",
       "avatar_url": "https://avatars.githubusercontent.com/u/157136?s=88&v=4",
@@ -1151,6 +1137,20 @@
       "company": "stevenblack.com",
       "created_at": "2009-05-02T05:32:26Z",
       "total_stars": 31489
+    },
+    {
+      "login": "centxyz",
+      "name": "dim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127842873?s=88&u=95931da96351b526be56ce05953be2f4b1b83487&v=4",
+      "html_url": "https://github.com/centxyz",
+      "followers": 1914,
+      "following": 1,
+      "public_repos": 23,
+      "location": "Canada",
+      "bio": "Building practical tools with Python, Go, TypeScript and connected systems.",
+      "company": null,
+      "created_at": "2023-03-14T09:59:20Z",
+      "total_stars": 124
     },
     {
       "login": "brianleroux",
@@ -2359,20 +2359,6 @@
       "total_stars": 29600
     },
     {
-      "login": "SamsungSAILMontreal",
-      "name": "Samsung AI Lab (SAIL) Montreal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127172610?s=88&v=4",
-      "html_url": "https://github.com/SamsungSAILMontreal",
-      "followers": 347,
-      "following": 0,
-      "public_repos": 23,
-      "location": "Canada",
-      "bio": null,
-      "company": null,
-      "created_at": "2023-03-07T04:02:26Z",
-      "total_stars": 6977
-    },
-    {
       "login": "JOMACS-IT",
       "name": "JOMACS-Tech-Academy",
       "avatar_url": "https://avatars.githubusercontent.com/u/128205306?s=88&v=4",
@@ -2399,6 +2385,20 @@
       "company": null,
       "created_at": "2023-09-25T15:18:55Z",
       "total_stars": 198
+    },
+    {
+      "login": "SamsungSAILMontreal",
+      "name": "Samsung AI Lab (SAIL) Montreal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127172610?s=88&v=4",
+      "html_url": "https://github.com/SamsungSAILMontreal",
+      "followers": 347,
+      "following": 0,
+      "public_repos": 23,
+      "location": "Canada",
+      "bio": null,
+      "company": null,
+      "created_at": "2023-03-07T04:02:26Z",
+      "total_stars": 6977
     },
     {
       "login": "meteor",
@@ -2527,20 +2527,6 @@
       "total_stars": 373
     },
     {
-      "login": "HackerYou",
-      "name": "Juno College of Technology (formerly HackerYou)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2479724?s=88&v=4",
-      "html_url": "https://github.com/HackerYou",
-      "followers": 315,
-      "following": 0,
-      "public_repos": 80,
-      "location": "Toronto",
-      "bio": "Post-graduate coding school that helps you build a fulfilling career as a web developer, fast. Committed to diversity in tech & community.",
-      "company": null,
-      "created_at": "2012-10-03T14:38:34Z",
-      "total_stars": 301
-    },
-    {
       "login": "PSAppDeployToolkit",
       "name": "PowerShell App Deployment Toolkit",
       "avatar_url": "https://avatars.githubusercontent.com/u/11872541?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2015-04-09T14:26:40Z",
       "total_stars": 2455
+    },
+    {
+      "login": "HackerYou",
+      "name": "Juno College of Technology (formerly HackerYou)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2479724?s=88&v=4",
+      "html_url": "https://github.com/HackerYou",
+      "followers": 315,
+      "following": 0,
+      "public_repos": 80,
+      "location": "Toronto",
+      "bio": "Post-graduate coding school that helps you build a fulfilling career as a web developer, fast. Committed to diversity in tech & community.",
+      "company": null,
+      "created_at": "2012-10-03T14:38:34Z",
+      "total_stars": 301
     }
   ],
   "repos": [

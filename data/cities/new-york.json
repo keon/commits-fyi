@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-10-06T12:02:43.818Z",
+  "generated_at": "2026-10-07T11:48:17.462Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 536835,
-    "org_followers": 143436,
+    "org_followers": 143323,
     "user_stars": 1888504,
-    "org_stars": 1631096
+    "org_stars": 1628083
   },
   "queries": [
     {
@@ -2205,20 +2205,6 @@
       "total_stars": 654
     },
     {
-      "login": "osirislab",
-      "name": "OSIRIS Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3587270?s=88&v=4",
-      "html_url": "https://github.com/osirislab",
-      "followers": 319,
-      "following": 0,
-      "public_repos": 72,
-      "location": "370 Jay Street, Brooklyn, NY 11201",
-      "bio": "Offensive Security Incident Response and Internet Security Lab of NYU Tandon School of Engineering",
-      "company": null,
-      "created_at": "2013-02-13T19:12:01Z",
-      "total_stars": 4042
-    },
-    {
       "login": "owkin",
       "name": "Owkin",
       "avatar_url": "https://avatars.githubusercontent.com/u/28560459?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2013-04-21T16:32:54Z",
       "total_stars": 2314
+    },
+    {
+      "login": "paxosglobal",
+      "name": "Paxos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22945721?s=88&v=4",
+      "html_url": "https://github.com/paxosglobal",
+      "followers": 206,
+      "following": 0,
+      "public_repos": 32,
+      "location": "New York, NY",
+      "bio": "Building the Future of Financial Services with Blockchain Technology",
+      "company": null,
+      "created_at": "2016-10-19T21:28:20Z",
+      "total_stars": 1029
     }
   ],
   "repos": [

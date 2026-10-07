@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-10-06T12:04:56.125Z",
+  "generated_at": "2026-10-07T11:52:16.196Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 328941,
     "org_followers": 129879,
     "user_stars": 1365495,
-    "org_stars": 1473210
+    "org_stars": 1468979
   },
   "queries": [
     {
@@ -1195,20 +1195,6 @@
       "total_stars": 30212
     },
     {
-      "login": "Belucking",
-      "name": "Marion",
-      "avatar_url": "https://avatars.githubusercontent.com/u/277704607?s=88&u=fbc52b4c83dc2013c74d162e6807194f44d4f6ef&v=4",
-      "html_url": "https://github.com/Belucking",
-      "followers": 1552,
-      "following": 1330,
-      "public_repos": 60,
-      "location": "Lyon, France",
-      "bio": "Data Engineer and Cryptographer building blockchain protocols",
-      "company": "Lyon Industrie",
-      "created_at": "2026-04-20T09:45:07Z",
-      "total_stars": 429
-    },
-    {
       "login": "vstinner",
       "name": "Victor Stinner",
       "avatar_url": "https://avatars.githubusercontent.com/u/194129?s=88&u=cf52678f5f02f96d9c5bc1b5079d4e6c2e441af4&v=4",
@@ -1221,6 +1207,20 @@
       "company": "@RedHatOfficial",
       "created_at": "2010-02-01T21:59:50Z",
       "total_stars": 2026
+    },
+    {
+      "login": "Belucking",
+      "name": "Marion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/277704607?s=88&u=fbc52b4c83dc2013c74d162e6807194f44d4f6ef&v=4",
+      "html_url": "https://github.com/Belucking",
+      "followers": 1552,
+      "following": 1330,
+      "public_repos": 60,
+      "location": "Lyon, France",
+      "bio": "Data Engineer and Cryptographer building blockchain protocols",
+      "company": "Lyon Industrie",
+      "created_at": "2026-04-20T09:45:07Z",
+      "total_stars": 429
     },
     {
       "login": "mnapoli",
@@ -2541,18 +2541,18 @@
       "total_stars": 651
     },
     {
-      "login": "Giskard-AI",
-      "name": "Giskard",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71782571?s=88&v=4",
-      "html_url": "https://github.com/Giskard-AI",
+      "login": "FuzzingLabs",
+      "name": "FuzzingLabs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68244945?s=88&v=4",
+      "html_url": "https://github.com/FuzzingLabs",
       "followers": 274,
       "following": 0,
-      "public_repos": 30,
+      "public_repos": 16,
       "location": "France",
-      "bio": "Protect your company against quality & security issues in AI systems.",
+      "bio": "Research-oriented cybersecurity company specializing in AppSec, Vulnerability Research, Fuzzing and Offensive security.​",
       "company": null,
-      "created_at": "2020-09-23T16:38:31Z",
-      "total_stars": 6249
+      "created_at": "2020-07-13T17:40:04Z",
+      "total_stars": 2018
     }
   ],
   "repos": [
