@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-10-09T11:56:22.721Z",
+  "generated_at": "2026-10-10T11:11:47.489Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1076901,
-    "org_followers": 344112,
-    "user_stars": 3290345,
-    "org_stars": 4608670
+    "user_followers": 1076923,
+    "org_followers": 344113,
+    "user_stars": 3290372,
+    "org_stars": 4583377
   },
   "queries": [
     {
@@ -331,14 +331,14 @@
       "name": "Jeremy Ashkenas",
       "avatar_url": "https://avatars.githubusercontent.com/u/4732?s=88&u=1ce1aba113b641e1a110345609830aec2b056121&v=4",
       "html_url": "https://github.com/jashkenas",
-      "followers": 13737,
+      "followers": 13744,
       "following": 0,
       "public_repos": 16,
       "location": "Berkeley",
       "bio": "🏍 🛣 🌎   I miss _why.",
       "company": null,
       "created_at": "2008-04-03T21:10:45Z",
-      "total_stars": 78535
+      "total_stars": 78531
     },
     {
       "login": "rakyll",
@@ -961,7 +961,7 @@
       "name": "Junio C Hamano",
       "avatar_url": "https://avatars.githubusercontent.com/u/54884?s=88&u=df04369e894b22a25b4bb7bb85121ffa481047e4&v=4",
       "html_url": "https://github.com/gitster",
-      "followers": 5491,
+      "followers": 5496,
       "following": 0,
       "public_repos": 2,
       "location": "Mountain View, CA",
@@ -1269,14 +1269,14 @@
       "name": "Han Xiao",
       "avatar_url": "https://avatars.githubusercontent.com/u/2041322?s=88&u=a7e9ee49091c99c96bc611017496fbfa83e57cbf&v=4",
       "html_url": "https://github.com/hanxiao",
-      "followers": 4228,
+      "followers": 4231,
       "following": 17,
       "public_repos": 64,
       "location": "Sunnyvale, CA",
       "bio": "VP, AI @elastic\r\nPrev: founder & ceo @jina-ai ",
       "company": "@elastic",
       "created_at": "2012-07-25T15:52:49Z",
-      "total_stars": 2240
+      "total_stars": 2269
     },
     {
       "login": "merrymercy",
@@ -1335,20 +1335,6 @@
       "total_stars": 31997
     },
     {
-      "login": "progrium",
-      "name": "Jeff Lindsay",
-      "avatar_url": "https://avatars.githubusercontent.com/u/647?s=88&u=a8763eceda160cfff002f9686978118ef51883f0&v=4",
-      "html_url": "https://github.com/progrium",
-      "followers": 3990,
-      "following": 93,
-      "public_repos": 198,
-      "location": "Oakland, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2008-02-22T20:00:53Z",
-      "total_stars": 19148
-    },
-    {
       "login": "zedshaw",
       "name": "Zed A. Shaw",
       "avatar_url": "https://avatars.githubusercontent.com/u/358171?s=88&u=8140270c89ef0d74d72ca56dcf788bec5811069c&v=4",
@@ -1361,6 +1347,20 @@
       "company": null,
       "created_at": "2010-08-09T03:31:52Z",
       "total_stars": 5068
+    },
+    {
+      "login": "progrium",
+      "name": "Jeff Lindsay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/647?s=88&u=a8763eceda160cfff002f9686978118ef51883f0&v=4",
+      "html_url": "https://github.com/progrium",
+      "followers": 3990,
+      "following": 93,
+      "public_repos": 198,
+      "location": "Oakland, CA",
+      "bio": null,
+      "company": null,
+      "created_at": "2008-02-22T20:00:53Z",
+      "total_stars": 19148
     },
     {
       "login": "gdb",
@@ -1395,28 +1395,28 @@
       "name": "Dhravya Shah",
       "avatar_url": "https://avatars.githubusercontent.com/u/63950637?s=88&u=a1d804b135132cac15090fd93440a02ab5ce29b9&v=4",
       "html_url": "https://github.com/Dhravya",
-      "followers": 3914,
+      "followers": 3918,
       "following": 139,
       "public_repos": 63,
       "location": "San Francisco",
       "bio": "21. founder @supermemoryai. passionate dev who ships (a lot). 2x acquired founder. I just wanna make products that hopefully change the world 💖. ",
       "company": "@supermemoryai ",
       "created_at": "2020-04-19T08:52:05Z",
-      "total_stars": 2253
+      "total_stars": 2254
     },
     {
       "login": "yang-song",
       "name": "Yang Song",
       "avatar_url": "https://avatars.githubusercontent.com/u/7480450?s=88&u=78268a206a03558f6cc3d127a1b25fa06654858f&v=4",
       "html_url": "https://github.com/yang-song",
-      "followers": 3862,
+      "followers": 3865,
       "following": 27,
       "public_repos": 14,
       "location": "Palo Alto, CA",
       "bio": "Research Scientist at OpenAI.",
       "company": "OpenAI",
       "created_at": "2014-05-04T13:35:57Z",
-      "total_stars": 4449
+      "total_stars": 4450
     },
     {
       "login": "devongovett",
@@ -2485,20 +2485,6 @@
       "total_stars": 3758
     },
     {
-      "login": "skiff-org",
-      "name": "Skiff World",
-      "avatar_url": "https://avatars.githubusercontent.com/u/80722586?s=88&v=4",
-      "html_url": "https://github.com/skiff-org",
-      "followers": 1004,
-      "following": 0,
-      "public_repos": 10,
-      "location": "San Francisco, CA",
-      "bio": "Skiff Engineering",
-      "company": null,
-      "created_at": "2021-03-15T22:08:52Z",
-      "total_stars": 1687
-    },
-    {
       "login": "facebookexperimental",
       "name": "Meta Experimental",
       "avatar_url": "https://avatars.githubusercontent.com/u/12853545?s=88&v=4",
@@ -2511,6 +2497,20 @@
       "company": null,
       "created_at": "2015-06-12T01:20:49Z",
       "total_stars": 28195
+    },
+    {
+      "login": "skiff-org",
+      "name": "Skiff World",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80722586?s=88&v=4",
+      "html_url": "https://github.com/skiff-org",
+      "followers": 1004,
+      "following": 0,
+      "public_repos": 10,
+      "location": "San Francisco, CA",
+      "bio": "Skiff Engineering",
+      "company": null,
+      "created_at": "2021-03-15T22:08:52Z",
+      "total_stars": 1687
     },
     {
       "login": "dataquestio",
@@ -2541,18 +2541,18 @@
       "total_stars": 17851
     },
     {
-      "login": "hasura",
-      "name": "Hasura",
-      "avatar_url": "https://avatars.githubusercontent.com/u/13966722?s=88&v=4",
-      "html_url": "https://github.com/hasura",
-      "followers": 967,
+      "login": "Hacker0x01",
+      "name": "HackerOne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3014877?s=88&v=4",
+      "html_url": "https://github.com/Hacker0x01",
+      "followers": 968,
       "following": 0,
-      "public_repos": 394,
-      "location": "San Francisco, Bangalore",
-      "bio": "Hasura is the universal data access layer for next-gen apps and AI",
+      "public_repos": 39,
+      "location": "San Francisco, CA",
+      "bio": "Vulnerability disclosure should suck less.",
       "company": null,
-      "created_at": "2015-08-25T16:31:42Z",
-      "total_stars": 49078
+      "created_at": "2012-12-11T09:00:21Z",
+      "total_stars": 23785
     }
   ],
   "repos": [
@@ -3347,25 +3347,6 @@
       "fork": false
     },
     {
-      "full_name": "hasura/graphql-engine",
-      "html_url": "https://github.com/hasura/graphql-engine",
-      "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
-      "stargazers_count": 32128,
-      "forks_count": 3022,
-      "language": "TypeScript",
-      "topics": [
-        "graphql",
-        "graphql-server",
-        "postgres",
-        "hasura",
-        "access-control"
-      ],
-      "owner_login": "hasura",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/13966722?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "ianstormtaylor/slate",
       "html_url": "https://github.com/ianstormtaylor/slate",
       "description": "A completely customizable framework for building rich text editors. (Currently in beta.)",
@@ -3407,6 +3388,25 @@
       "topics": [],
       "owner_login": "facebook",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "hashicorp/consul",
+      "html_url": "https://github.com/hashicorp/consul",
+      "description": "Consul is a distributed, highly available, and data center aware solution to connect and configure applications across dynamic, distributed ",
+      "stargazers_count": 30095,
+      "forks_count": 4628,
+      "language": "Go",
+      "topics": [
+        "consul",
+        "service-mesh",
+        "service-discovery",
+        "kubernetes",
+        "vault"
+      ],
+      "owner_login": "hashicorp",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/761456?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

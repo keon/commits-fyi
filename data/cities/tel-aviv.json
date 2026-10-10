@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-10-09T11:59:24.983Z",
+  "generated_at": "2026-10-10T11:12:43.664Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 30559,
+    "user_followers": 30565,
     "org_followers": 3179,
-    "user_stars": 216795,
+    "user_stars": 217095,
     "org_stars": 90886
   },
   "queries": [
@@ -33,32 +33,32 @@
   ],
   "users": [
     {
-      "login": "lirantal",
-      "name": "Liran Tal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
-      "html_url": "https://github.com/lirantal",
-      "followers": 2565,
-      "following": 1161,
-      "public_repos": 248,
-      "location": "Tel Aviv, Israel",
-      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
-      "company": "@snyk",
-      "created_at": "2010-06-28T11:10:04Z",
-      "total_stars": 20037
-    },
-    {
       "login": "elie222",
       "name": "Elie Steinbock",
       "avatar_url": "https://avatars.githubusercontent.com/u/3090527?s=88&u=6cf70a882423f683b5fa93cf02b43a50b05c482e&v=4",
       "html_url": "https://github.com/elie222",
-      "followers": 2556,
+      "followers": 2565,
       "following": 20,
       "public_repos": 46,
       "location": "Tel Aviv, Israel",
       "bio": "Building Inbox Zero: https://getinboxzero.com\r\n\r\nMy YouTube channel about open source and AI coding: https://youtube.com/elie2222",
       "company": "@inbox-zero ",
       "created_at": "2012-12-20T14:33:08Z",
-      "total_stars": 16862
+      "total_stars": 17148
+    },
+    {
+      "login": "lirantal",
+      "name": "Liran Tal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316371?s=88&u=fbeb86cd9656b5dccd7d84b8851b93ae0932fb67&v=4",
+      "html_url": "https://github.com/lirantal",
+      "followers": 2562,
+      "following": 1161,
+      "public_repos": 249,
+      "location": "Tel Aviv, Israel",
+      "bio": "🧠 Socially Engineering LLMs\r\n🤖 Hacking AI Agents\r\n🦄 Node.js Secure Coding\r\n🌟 @GitHub Star\r\n🏅 @OpenJS Pathfinder award 4 Security\r\n🥑 DevRel @snyksec",
+      "company": "@snyk",
+      "created_at": "2010-06-28T11:10:04Z",
+      "total_stars": 20046
     },
     {
       "login": "jondot",
@@ -198,7 +198,7 @@
       "bio": "Research Intern at CHAI, UCB · AI Safety Researcher at Tufts University · ALTER AI Safety alumnus · Scientific Council Member at IAEAI · Fellow of the @psf",
       "company": "University of California, Berkeley",
       "created_at": "2009-02-22T09:12:10Z",
-      "total_stars": 17374
+      "total_stars": 17375
     },
     {
       "login": "ronami",
@@ -240,7 +240,7 @@
       "bio": null,
       "company": "Red Hat",
       "created_at": "2012-09-12T22:39:03Z",
-      "total_stars": 2106
+      "total_stars": 2107
     },
     {
       "login": "shlomif",
@@ -313,20 +313,6 @@
       "total_stars": 218
     },
     {
-      "login": "mallowigi",
-      "name": "Elior Boukhobza",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5015756?s=88&u=da7e6aa48f8f711111fb2c408f83e4aa9ee59c9b&v=4",
-      "html_url": "https://github.com/mallowigi",
-      "followers": 354,
-      "following": 74,
-      "public_repos": 50,
-      "location": "Tel Aviv, IL",
-      "bio": null,
-      "company": "Dynamic Yield",
-      "created_at": "2013-07-15T19:17:30Z",
-      "total_stars": 40
-    },
-    {
       "login": "alexlib",
       "name": "Alex Liberzon",
       "avatar_url": "https://avatars.githubusercontent.com/u/747110?s=88&u=4f2da5ee783fe399e9cd04fa3d396c7922efbbbd&v=4",
@@ -339,6 +325,20 @@
       "company": "Tel Aviv University",
       "created_at": "2011-04-23T06:51:47Z",
       "total_stars": 232
+    },
+    {
+      "login": "mallowigi",
+      "name": "Elior Boukhobza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5015756?s=88&u=da7e6aa48f8f711111fb2c408f83e4aa9ee59c9b&v=4",
+      "html_url": "https://github.com/mallowigi",
+      "followers": 354,
+      "following": 74,
+      "public_repos": 50,
+      "location": "Tel Aviv, IL",
+      "bio": null,
+      "company": "Dynamic Yield",
+      "created_at": "2013-07-15T19:17:30Z",
+      "total_stars": 40
     },
     {
       "login": "borisf",
@@ -380,7 +380,7 @@
       "bio": "Software engineer at Meta. Creator of Vest and emoji-picker-react. I make tools for human developers, then talk about the weird parts.",
       "company": "@facebook ",
       "created_at": "2015-03-01T10:18:27Z",
-      "total_stars": 4394
+      "total_stars": 4397
     },
     {
       "login": "liady",
@@ -534,7 +534,7 @@
       "bio": null,
       "company": null,
       "created_at": "2012-11-03T15:43:26Z",
-      "total_stars": 289
+      "total_stars": 288
     },
     {
       "login": "guyca",
@@ -747,20 +747,6 @@
       "total_stars": 49
     },
     {
-      "login": "chernistry",
-      "name": "Alex Chernysh",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73943355?s=88&u=1f9db84a39ee1d57f320bd02a6c704d61118e078&v=4",
-      "html_url": "https://github.com/chernistry",
-      "followers": 132,
-      "following": 101,
-      "public_repos": 9,
-      "location": "Tel Aviv, Israel",
-      "bio": "Applied AI Systems Engineer · multi-agent, RAG, MCP · evals. Bernstein maintainer.",
-      "company": "Sip Your Drink",
-      "created_at": "2020-11-04T12:10:31Z",
-      "total_stars": 139
-    },
-    {
       "login": "bbenzikry",
       "name": "Beni Ben zikry",
       "avatar_url": "https://avatars.githubusercontent.com/u/1993348?s=88&u=1f87dc00918aa9c7e5c46c92cf478d2dfea49c31&v=4",
@@ -773,6 +759,20 @@
       "company": null,
       "created_at": "2012-07-17T18:35:15Z",
       "total_stars": 119
+    },
+    {
+      "login": "chernistry",
+      "name": "Alex Chernysh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73943355?s=88&u=1f9db84a39ee1d57f320bd02a6c704d61118e078&v=4",
+      "html_url": "https://github.com/chernistry",
+      "followers": 132,
+      "following": 101,
+      "public_repos": 9,
+      "location": "Tel Aviv, Israel",
+      "bio": "Applied AI Systems Engineer · multi-agent, RAG, MCP · evals. Bernstein maintainer.",
+      "company": "Sip Your Drink",
+      "created_at": "2020-11-04T12:10:31Z",
+      "total_stars": 139
     },
     {
       "login": "bzsinger",
@@ -1220,7 +1220,7 @@
       "bio": "For fun, I build Generative Models. Computational neuroscience PhD. Was trying to understand the brain to help build AI, but it appears it's no longer necessary",
       "company": null,
       "created_at": "2015-03-16T16:32:04Z",
-      "total_stars": 525
+      "total_stars": 526
     },
     {
       "login": "radiantspace",
@@ -2177,20 +2177,6 @@
       "total_stars": 1
     },
     {
-      "login": "Snapland",
-      "name": "Snapland",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64146710?s=88&v=4",
-      "html_url": "https://github.com/Snapland",
-      "followers": 4,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tel Aviv",
-      "bio": "Real Estate’s \"Moneyball\"​",
-      "company": null,
-      "created_at": "2020-04-22T13:37:20Z",
-      "total_stars": 0
-    },
-    {
       "login": "DiscordBoats",
       "name": "Discord Boats",
       "avatar_url": "https://avatars.githubusercontent.com/u/43587345?s=88&v=4",
@@ -2203,6 +2189,20 @@
       "company": null,
       "created_at": "2018-09-25T20:08:14Z",
       "total_stars": 66
+    },
+    {
+      "login": "Snapland",
+      "name": "Snapland",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64146710?s=88&v=4",
+      "html_url": "https://github.com/Snapland",
+      "followers": 4,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tel Aviv",
+      "bio": "Real Estate’s \"Moneyball\"​",
+      "company": null,
+      "created_at": "2020-04-22T13:37:20Z",
+      "total_stars": 0
     },
     {
       "login": "3dptv",
@@ -2578,7 +2578,7 @@
       "full_name": "cool-RR/PySnooper",
       "html_url": "https://github.com/cool-RR/PySnooper",
       "description": "Never use print for debugging again",
-      "stargazers_count": 16577,
+      "stargazers_count": 16578,
       "forks_count": 967,
       "language": "Python",
       "topics": [
@@ -2629,8 +2629,8 @@
       "full_name": "elie222/inbox-zero",
       "html_url": "https://github.com/elie222/inbox-zero",
       "description": "The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast.",
-      "stargazers_count": 12423,
-      "forks_count": 1564,
+      "stargazers_count": 12442,
+      "forks_count": 1563,
       "language": "TypeScript",
       "topics": [
         "ai",
@@ -2832,7 +2832,7 @@
       "full_name": "lirantal/dockly",
       "html_url": "https://github.com/lirantal/dockly",
       "description": "Immersive terminal interface for managing docker containers and services",
-      "stargazers_count": 4033,
+      "stargazers_count": 4034,
       "forks_count": 162,
       "language": "JavaScript",
       "topics": [
@@ -2851,8 +2851,8 @@
       "full_name": "elie222/rakazo",
       "html_url": "https://github.com/elie222/rakazo",
       "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
-      "stargazers_count": 3363,
-      "forks_count": 593,
+      "stargazers_count": 3622,
+      "forks_count": 625,
       "language": "TypeScript",
       "topics": [
         "ai-agents",
@@ -2916,7 +2916,7 @@
       "html_url": "https://github.com/lirantal/awesome-nodejs-security",
       "description": "Awesome Node.js Security resources",
       "stargazers_count": 3046,
-      "forks_count": 314,
+      "forks_count": 316,
       "language": null,
       "topics": [
         "nodejs",
@@ -2977,7 +2977,7 @@
       "full_name": "ealush/vest",
       "html_url": "https://github.com/ealush/vest",
       "description": "Vest ✅ Declarative validations framework",
-      "stargazers_count": 2665,
+      "stargazers_count": 2667,
       "forks_count": 94,
       "language": "TypeScript",
       "topics": [
@@ -3043,8 +3043,8 @@
       "full_name": "lirantal/is-website-vulnerable",
       "html_url": "https://github.com/lirantal/is-website-vulnerable",
       "description": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
-      "stargazers_count": 2043,
-      "forks_count": 127,
+      "stargazers_count": 2044,
+      "forks_count": 128,
       "language": "JavaScript",
       "topics": [
         "security-vulnerabilities",
@@ -3081,7 +3081,7 @@
       "full_name": "lirantal/npq",
       "html_url": "https://github.com/lirantal/npq",
       "description": "safely install npm packages by auditing them pre-install stage",
-      "stargazers_count": 1794,
+      "stargazers_count": 1795,
       "forks_count": 45,
       "language": "JavaScript",
       "topics": [
@@ -3238,7 +3238,7 @@
       "full_name": "ealush/emoji-picker-react",
       "html_url": "https://github.com/ealush/emoji-picker-react",
       "description": "The most popular emoji picker for React — plug and play out of the box, or bring your own style system (Tailwind, shadcn/ui, CSS Modules, Em",
-      "stargazers_count": 1458,
+      "stargazers_count": 1459,
       "forks_count": 214,
       "language": "TypeScript",
       "topics": [
@@ -3344,7 +3344,7 @@
       "full_name": "lirantal/npm-security-best-practices",
       "html_url": "https://github.com/lirantal/npm-security-best-practices",
       "description": "Collection of npm package manager Security Best Practices",
-      "stargazers_count": 1259,
+      "stargazers_count": 1261,
       "forks_count": 43,
       "language": null,
       "topics": [
@@ -3363,7 +3363,7 @@
       "full_name": "makelinux/linux_kernel_map",
       "html_url": "https://github.com/makelinux/linux_kernel_map",
       "description": "Linux kernel map",
-      "stargazers_count": 1220,
+      "stargazers_count": 1221,
       "forks_count": 158,
       "language": "Python",
       "topics": [],

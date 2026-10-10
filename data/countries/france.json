@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-10-09T12:02:19.023Z",
+  "generated_at": "2026-10-10T11:13:39.650Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 329214,
     "org_followers": 130182,
     "user_stars": 1367271,
-    "org_stars": 1471102
+    "org_stars": 1471105
   },
   "queries": [
     {
@@ -649,20 +649,6 @@
       "total_stars": 213
     },
     {
-      "login": "noraj",
-      "name": "Alexandre ZANNI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16578570?s=88&u=a95cbd7b496e688d77205c934c8ef9ebeb273a73&v=4",
-      "html_url": "https://github.com/noraj",
-      "followers": 2397,
-      "following": 33,
-      "public_repos": 68,
-      "location": "FRANCE",
-      "bio": "I'm a Cybersecurity engineer, security auditor, pentester and ethical hacker.",
-      "company": "Rawsec",
-      "created_at": "2016-01-06T15:48:38Z",
-      "total_stars": 7097
-    },
-    {
       "login": "benoitc",
       "name": "Benoit Chesneau",
       "avatar_url": "https://avatars.githubusercontent.com/u/14498?s=88&v=4",
@@ -675,6 +661,20 @@
       "company": "Enki Multimedia",
       "created_at": "2008-06-21T06:50:58Z",
       "total_stars": 16235
+    },
+    {
+      "login": "noraj",
+      "name": "Alexandre ZANNI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16578570?s=88&u=a95cbd7b496e688d77205c934c8ef9ebeb273a73&v=4",
+      "html_url": "https://github.com/noraj",
+      "followers": 2397,
+      "following": 33,
+      "public_repos": 68,
+      "location": "FRANCE",
+      "bio": "I'm a Cybersecurity engineer, security auditor, pentester and ethical hacker.",
+      "company": "Rawsec",
+      "created_at": "2016-01-06T15:48:38Z",
+      "total_stars": 7097
     },
     {
       "login": "StanGirard",
@@ -2191,6 +2191,20 @@
       "total_stars": 1699
     },
     {
+      "login": "tosdr",
+      "name": "Terms of Service; Didn’t Read",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3402969?s=88&v=4",
+      "html_url": "https://github.com/tosdr",
+      "followers": 362,
+      "following": 0,
+      "public_repos": 30,
+      "location": "France",
+      "bio": "“I have read and agree to the Terms” is the biggest lie on the web. We aim to fix that.",
+      "company": null,
+      "created_at": "2013-01-28T06:40:40Z",
+      "total_stars": 1290
+    },
+    {
       "login": "SuperClaude-Org",
       "name": "SuperClaude Org",
       "avatar_url": "https://avatars.githubusercontent.com/u/221338871?s=88&v=4",
@@ -2217,20 +2231,6 @@
       "company": null,
       "created_at": "2018-10-16T16:10:52Z",
       "total_stars": 5595
-    },
-    {
-      "login": "tosdr",
-      "name": "Terms of Service; Didn’t Read",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3402969?s=88&v=4",
-      "html_url": "https://github.com/tosdr",
-      "followers": 362,
-      "following": 0,
-      "public_repos": 30,
-      "location": "France",
-      "bio": "“I have read and agree to the Terms” is the biggest lie on the web. We aim to fix that.",
-      "company": null,
-      "created_at": "2013-01-28T06:40:40Z",
-      "total_stars": 1290
     },
     {
       "login": "golangci",
@@ -2538,7 +2538,7 @@
       "bio": "QElectroTech, or QET in short, is a free software to create industrial complex electric diagrams. But you can also even do plumbing, geothermal, air-conditionin",
       "company": null,
       "created_at": "2019-06-22T19:18:04Z",
-      "total_stars": 651
+      "total_stars": 654
     },
     {
       "login": "FuzzingLabs",

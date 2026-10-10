@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-10-09T11:58:44.387Z",
+  "generated_at": "2026-10-10T11:12:38.375Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 200006,
+    "user_followers": 200010,
     "org_followers": 101621,
-    "user_stars": 861554,
+    "user_stars": 861557,
     "org_stars": 1135084
   },
   "queries": [
@@ -681,14 +681,14 @@
       "name": "Vincent Bernat",
       "avatar_url": "https://avatars.githubusercontent.com/u/631446?s=88&u=4fa1b32955881f764b4ca8556b8ba62db83f55d2&v=4",
       "html_url": "https://github.com/vincentbernat",
-      "followers": 1267,
+      "followers": 1270,
       "following": 5,
       "public_repos": 78,
       "location": "Paris, France",
       "bio": null,
       "company": "Free",
       "created_at": "2011-02-22T07:20:26Z",
-      "total_stars": 3485
+      "total_stars": 3489
     },
     {
       "login": "Bleuje",
@@ -1209,20 +1209,6 @@
       "total_stars": 5453
     },
     {
-      "login": "mgcrea",
-      "name": "Olivier Louvignes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/108273?s=88&u=2cba46bd6f6f12e2d7af9a1a31f458f27354a993&v=4",
-      "html_url": "https://github.com/mgcrea",
-      "followers": 842,
-      "following": 139,
-      "public_repos": 209,
-      "location": "Paris, France",
-      "bio": null,
-      "company": "Freelance",
-      "created_at": "2009-07-24T09:50:40Z",
-      "total_stars": 11491
-    },
-    {
       "login": "arv",
       "name": "Erik Arvidsson",
       "avatar_url": "https://avatars.githubusercontent.com/u/45845?s=88&v=4",
@@ -1235,6 +1221,20 @@
       "company": "@rocicorp",
       "created_at": "2009-01-12T00:08:56Z",
       "total_stars": 749
+    },
+    {
+      "login": "mgcrea",
+      "name": "Olivier Louvignes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108273?s=88&u=2cba46bd6f6f12e2d7af9a1a31f458f27354a993&v=4",
+      "html_url": "https://github.com/mgcrea",
+      "followers": 842,
+      "following": 139,
+      "public_repos": 209,
+      "location": "Paris, France",
+      "bio": null,
+      "company": "Freelance",
+      "created_at": "2009-07-24T09:50:40Z",
+      "total_stars": 11491
     },
     {
       "login": "Kehrlann",
@@ -1339,14 +1339,14 @@
       "name": "Steeve Morin",
       "avatar_url": "https://avatars.githubusercontent.com/u/137467?s=88&v=4",
       "html_url": "https://github.com/steeve",
-      "followers": 772,
+      "followers": 773,
       "following": 1,
       "public_repos": 52,
       "location": "Paris, France",
       "bio": "@zml ",
       "company": "@zml",
       "created_at": "2009-10-09T15:12:58Z",
-      "total_stars": 5967
+      "total_stars": 5966
     },
     {
       "login": "tdd",
@@ -2331,20 +2331,6 @@
       "total_stars": 30
     },
     {
-      "login": "DataScientest-Studio",
-      "name": "Studio @DataScientest",
-      "avatar_url": "https://avatars.githubusercontent.com/u/65349986?s=88&v=4",
-      "html_url": "https://github.com/DataScientest-Studio",
-      "followers": 105,
-      "following": 0,
-      "public_repos": 220,
-      "location": "Paris ",
-      "bio": null,
-      "company": null,
-      "created_at": "2020-05-14T13:21:53Z",
-      "total_stars": 81
-    },
-    {
       "login": "cgwire",
       "name": "CGWire",
       "avatar_url": "https://avatars.githubusercontent.com/u/26680615?s=88&v=4",
@@ -2357,6 +2343,20 @@
       "company": null,
       "created_at": "2017-03-25T23:36:54Z",
       "total_stars": 2673
+    },
+    {
+      "login": "DataScientest-Studio",
+      "name": "Studio @DataScientest",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65349986?s=88&v=4",
+      "html_url": "https://github.com/DataScientest-Studio",
+      "followers": 105,
+      "following": 0,
+      "public_repos": 220,
+      "location": "Paris ",
+      "bio": null,
+      "company": null,
+      "created_at": "2020-05-14T13:21:53Z",
+      "total_stars": 81
     },
     {
       "login": "BackMarket",
@@ -2871,8 +2871,8 @@
       "full_name": "guillaumemeyer/watermarks-remover",
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "stargazers_count": 23433,
-      "forks_count": 2691,
+      "stargazers_count": 23745,
+      "forks_count": 2727,
       "language": "Python",
       "topics": [
         "agent-skill",
