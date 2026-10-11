@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-10-10T11:12:57.931Z",
+  "generated_at": "2026-10-11T11:26:17.363Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1376721,
-    "org_followers": 1024138,
+    "org_followers": 1025133,
     "user_stars": 3476120,
-    "org_stars": 10855779
+    "org_stars": 10892537
   },
   "queries": [
     {
@@ -2149,6 +2149,20 @@
       "total_stars": 91096
     },
     {
+      "login": "pi-hole",
+      "name": "Pi-hole",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16827203?s=88&v=4",
+      "html_url": "https://github.com/pi-hole",
+      "followers": 4616,
+      "following": 0,
+      "public_repos": 12,
+      "location": "United States of America",
+      "bio": "A black hole for Internet advertisements",
+      "company": null,
+      "created_at": "2016-01-21T22:55:09Z",
+      "total_stars": 79290
+    },
+    {
       "login": "browser-use",
       "name": "Browser Use",
       "avatar_url": "https://avatars.githubusercontent.com/u/192012301?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2023-04-28T01:29:48Z",
       "total_stars": 2879
-    },
-    {
-      "login": "stripe",
-      "name": "Stripe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/856813?s=88&v=4",
-      "html_url": "https://github.com/stripe",
-      "followers": 3621,
-      "following": 0,
-      "public_repos": 94,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-06-17T15:42:37Z",
-      "total_stars": 42532
     }
   ],
   "repos": [
@@ -3288,6 +3288,25 @@
       "fork": false
     },
     {
+      "full_name": "pi-hole/pi-hole",
+      "html_url": "https://github.com/pi-hole/pi-hole",
+      "description": "A black hole for Internet advertisements",
+      "stargazers_count": 61234,
+      "forks_count": 3321,
+      "language": "Shell",
+      "topics": [
+        "pi-hole",
+        "ad-blocker",
+        "shell",
+        "blocker",
+        "raspberry-pi"
+      ],
+      "owner_login": "pi-hole",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/16827203?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "spring-projects/spring-framework",
       "html_url": "https://github.com/spring-projects/spring-framework",
       "description": "Spring Framework",
@@ -3420,25 +3439,6 @@
       ],
       "owner_login": "expo",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12504344?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "run-llama/llama_index",
-      "html_url": "https://github.com/run-llama/llama_index",
-      "description": "LlamaIndex is the document processing platform for AI",
-      "stargazers_count": 52450,
-      "forks_count": 8308,
-      "language": "Python",
-      "topics": [
-        "agents",
-        "application",
-        "data",
-        "fine-tuning",
-        "framework"
-      ],
-      "owner_login": "run-llama",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/130722866?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

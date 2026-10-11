@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-10-10T11:12:43.664Z",
+  "generated_at": "2026-10-11T11:26:09.649Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 30565,
+    "user_followers": 30694,
     "org_followers": 3179,
-    "user_stars": 217095,
+    "user_stars": 217126,
     "org_stars": 90886
   },
   "queries": [
@@ -507,6 +507,20 @@
       "company": null,
       "created_at": "2021-05-01T15:38:35Z",
       "total_stars": 2453
+    },
+    {
+      "login": "jfrost4",
+      "name": "Julian Frost",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32219062?s=88&u=427d55991da9d375206dee88181d64a517efbd2c&v=4",
+      "html_url": "https://github.com/jfrost4",
+      "followers": 211,
+      "following": 9,
+      "public_repos": 35,
+      "location": "Tel Aviv, Israel",
+      "bio": "Security engineer. Threat modeling, code review, and breaking things before attackers do.",
+      "company": "Lumenfield Labs",
+      "created_at": "2017-09-23T10:39:21Z",
+      "total_stars": 133
     },
     {
       "login": "MohammadAG",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2008-10-27T17:11:56Z",
       "total_stars": 553
-    },
-    {
-      "login": "dorsha",
-      "name": "Doron Sharon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5429033?s=88&u=f4e286dead2c1616f9dc5081a31109b34439162d&v=4",
-      "html_url": "https://github.com/dorsha",
-      "followers": 82,
-      "following": 31,
-      "public_repos": 11,
-      "location": "Tel Aviv, Israel",
-      "bio": null,
-      "company": "Descope",
-      "created_at": "2013-09-10T16:46:00Z",
-      "total_stars": 102
     }
   ],
   "orgs": [
@@ -2177,20 +2177,6 @@
       "total_stars": 1
     },
     {
-      "login": "DiscordBoats",
-      "name": "Discord Boats",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43587345?s=88&v=4",
-      "html_url": "https://github.com/DiscordBoats",
-      "followers": 4,
-      "following": 0,
-      "public_repos": 10,
-      "location": "Tel Aviv, Israel",
-      "bio": "A growing directory of Discord bots to enhance your server - Find the perfect bot for your needs and add it to your server easily, quickly and for free ",
-      "company": null,
-      "created_at": "2018-09-25T20:08:14Z",
-      "total_stars": 66
-    },
-    {
       "login": "Snapland",
       "name": "Snapland",
       "avatar_url": "https://avatars.githubusercontent.com/u/64146710?s=88&v=4",
@@ -2203,6 +2189,20 @@
       "company": null,
       "created_at": "2020-04-22T13:37:20Z",
       "total_stars": 0
+    },
+    {
+      "login": "DiscordBoats",
+      "name": "Discord Boats",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43587345?s=88&v=4",
+      "html_url": "https://github.com/DiscordBoats",
+      "followers": 4,
+      "following": 0,
+      "public_repos": 10,
+      "location": "Tel Aviv, Israel",
+      "bio": "A growing directory of Discord bots to enhance your server - Find the perfect bot for your needs and add it to your server easily, quickly and for free ",
+      "company": null,
+      "created_at": "2018-09-25T20:08:14Z",
+      "total_stars": 66
     },
     {
       "login": "3dptv",

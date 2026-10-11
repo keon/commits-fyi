@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Canada",
   "slug": "canada",
-  "generated_at": "2026-10-10T11:14:09.118Z",
+  "generated_at": "2026-10-11T11:27:20.252Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 379063,
+    "user_followers": 378928,
     "org_followers": 69466,
-    "user_stars": 1052143,
+    "user_stars": 1052086,
     "org_stars": 1080466
   },
   "queries": [
@@ -1139,20 +1139,6 @@
       "total_stars": 31514
     },
     {
-      "login": "centxyz",
-      "name": "dim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/127842873?s=88&u=95931da96351b526be56ce05953be2f4b1b83487&v=4",
-      "html_url": "https://github.com/centxyz",
-      "followers": 1914,
-      "following": 1,
-      "public_repos": 23,
-      "location": "Canada",
-      "bio": "Building practical tools with Python, Go, TypeScript and connected systems.",
-      "company": null,
-      "created_at": "2023-03-14T09:59:20Z",
-      "total_stars": 124
-    },
-    {
       "login": "brianleroux",
       "name": "Brian LeRoux",
       "avatar_url": "https://avatars.githubusercontent.com/u/990?s=88&v=4",
@@ -1291,6 +1277,20 @@
       "company": "@vltpkg ",
       "created_at": "2010-10-29T16:13:10Z",
       "total_stars": 2198
+    },
+    {
+      "login": "centxyz",
+      "name": "dim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127842873?s=88&u=95931da96351b526be56ce05953be2f4b1b83487&v=4",
+      "html_url": "https://github.com/centxyz",
+      "followers": 1779,
+      "following": 2,
+      "public_repos": 23,
+      "location": "Canada",
+      "bio": "Building practical tools with Python, Go, TypeScript and connected systems.",
+      "company": null,
+      "created_at": "2023-03-14T09:59:20Z",
+      "total_stars": 67
     },
     {
       "login": "ajayyy",
