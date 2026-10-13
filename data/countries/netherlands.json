@@ -2,14 +2,14 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-10-12T13:19:40.965Z",
+  "generated_at": "2026-10-13T12:45:43.263Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 254515,
+    "user_followers": 254518,
     "org_followers": 53370,
     "user_stars": 956228,
     "org_stars": 567982
@@ -803,20 +803,6 @@
       "total_stars": 4174
     },
     {
-      "login": "jfversluis",
-      "name": "Gerald Versluis",
-      "avatar_url": "https://avatars.githubusercontent.com/u/939291?s=88&u=cab2109b65e60c10db4e2dc4da194363860d2676&v=4",
-      "html_url": "https://github.com/jfversluis",
-      "followers": 1934,
-      "following": 43,
-      "public_repos": 329,
-      "location": "Netherlands",
-      "bio": "Software Engineer @Microsoft · .NET, GitHub Copilot, MAUI & AI · YouTube content creator · Conference speaker · Building cross-platform apps with C# and AI",
-      "company": "@Microsoft",
-      "created_at": "2011-07-26T09:43:07Z",
-      "total_stars": 2524
-    },
-    {
       "login": "kzidane",
       "name": "Kareem Zidane",
       "avatar_url": "https://avatars.githubusercontent.com/u/7230211?s=88&u=c1aaca46fdc045f7f8b4c6e2f1282541ad88f773&v=4",
@@ -829,6 +815,20 @@
       "company": "@databricks",
       "created_at": "2014-04-08T19:27:39Z",
       "total_stars": 0
+    },
+    {
+      "login": "jfversluis",
+      "name": "Gerald Versluis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/939291?s=88&u=cab2109b65e60c10db4e2dc4da194363860d2676&v=4",
+      "html_url": "https://github.com/jfversluis",
+      "followers": 1934,
+      "following": 43,
+      "public_repos": 329,
+      "location": "Netherlands",
+      "bio": "Software Engineer @Microsoft · .NET, GitHub Copilot, MAUI & AI · YouTube content creator · Conference speaker · Building cross-platform apps with C# and AI",
+      "company": "@Microsoft",
+      "created_at": "2011-07-26T09:43:07Z",
+      "total_stars": 2524
     },
     {
       "login": "BullsEye0",
@@ -1101,9 +1101,9 @@
       "name": "Unizuka",
       "avatar_url": "https://avatars.githubusercontent.com/u/49878295?s=88&u=3874ba79ca1f619c1fcaee4ab73c8e9e4a725aaf&v=4",
       "html_url": "https://github.com/Unizuka22",
-      "followers": 1390,
+      "followers": 1393,
       "following": 1163,
-      "public_repos": 1,
+      "public_repos": 2,
       "location": "Amsterdam,Netherlands",
       "bio": "LLM Developer | AI Systems Engineer",
       "company": "Azorics",
@@ -1813,20 +1813,6 @@
       "total_stars": 224
     },
     {
-      "login": "tudelft3d",
-      "name": "3D geoinformation research group at TU Delft",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1544391?s=88&v=4",
-      "html_url": "https://github.com/tudelft3d",
-      "followers": 344,
-      "following": 0,
-      "public_repos": 112,
-      "location": "Delft, the Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-03-16T15:29:21Z",
-      "total_stars": 3222
-    },
-    {
       "login": "PicnicSupermarket",
       "name": "Picnic",
       "avatar_url": "https://avatars.githubusercontent.com/u/8298269?s=88&v=4",
@@ -1839,6 +1825,20 @@
       "company": null,
       "created_at": "2014-07-29T10:05:12Z",
       "total_stars": 888
+    },
+    {
+      "login": "tudelft3d",
+      "name": "3D geoinformation research group at TU Delft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1544391?s=88&v=4",
+      "html_url": "https://github.com/tudelft3d",
+      "followers": 344,
+      "following": 0,
+      "public_repos": 112,
+      "location": "Delft, the Netherlands",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-03-16T15:29:21Z",
+      "total_stars": 3222
     },
     {
       "login": "dyne",
@@ -1953,20 +1953,6 @@
       "total_stars": 2872
     },
     {
-      "login": "alliander-opensource",
-      "name": "Alliander Open Source",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69464193?s=88&v=4",
-      "html_url": "https://github.com/alliander-opensource",
-      "followers": 305,
-      "following": 0,
-      "public_repos": 60,
-      "location": "Arnhem, The Netherlands",
-      "bio": "Open Source repositories from Alliander. Interested? Send us an e-mail!",
-      "company": null,
-      "created_at": "2020-08-10T12:11:20Z",
-      "total_stars": 222
-    },
-    {
       "login": "nebius",
       "name": "Nebius",
       "avatar_url": "https://avatars.githubusercontent.com/u/107546677?s=88&v=4",
@@ -1979,6 +1965,20 @@
       "company": null,
       "created_at": "2022-06-15T09:37:31Z",
       "total_stars": 1148
+    },
+    {
+      "login": "alliander-opensource",
+      "name": "Alliander Open Source",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69464193?s=88&v=4",
+      "html_url": "https://github.com/alliander-opensource",
+      "followers": 305,
+      "following": 0,
+      "public_repos": 60,
+      "location": "Arnhem, The Netherlands",
+      "bio": "Open Source repositories from Alliander. Interested? Send us an e-mail!",
+      "company": null,
+      "created_at": "2020-08-10T12:11:20Z",
+      "total_stars": 222
     },
     {
       "login": "CISOfy",
@@ -2121,20 +2121,6 @@
       "total_stars": 1186
     },
     {
-      "login": "philips-labs",
-      "name": "Philips Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58286953?s=88&v=4",
-      "html_url": "https://github.com/philips-labs",
-      "followers": 251,
-      "following": 0,
-      "public_repos": 125,
-      "location": "Netherlands",
-      "bio": "Philips Labs - Projects in development",
-      "company": null,
-      "created_at": "2019-11-28T07:15:17Z",
-      "total_stars": 642
-    },
-    {
       "login": "datalumina",
       "name": "Datalumina",
       "avatar_url": "https://avatars.githubusercontent.com/u/180428551?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2024-09-04T14:09:13Z",
       "total_stars": 801
+    },
+    {
+      "login": "philips-labs",
+      "name": "Philips Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58286953?s=88&v=4",
+      "html_url": "https://github.com/philips-labs",
+      "followers": 251,
+      "following": 0,
+      "public_repos": 125,
+      "location": "Netherlands",
+      "bio": "Philips Labs - Projects in development",
+      "company": null,
+      "created_at": "2019-11-28T07:15:17Z",
+      "total_stars": 642
     },
     {
       "login": "trifectatechfoundation",
@@ -2177,20 +2177,6 @@
       "total_stars": 490
     },
     {
-      "login": "haddocking",
-      "name": "HADDOCK",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5637709?s=88&v=4",
-      "html_url": "https://github.com/haddocking",
-      "followers": 239,
-      "following": 0,
-      "public_repos": 76,
-      "location": "Utrecht, The Netherlands",
-      "bio": "Computational Structural Biology Group @ Utrecht University",
-      "company": null,
-      "created_at": "2013-10-08T11:51:46Z",
-      "total_stars": 1332
-    },
-    {
       "login": "openremote",
       "name": "OpenRemote",
       "avatar_url": "https://avatars.githubusercontent.com/u/4995595?s=88&v=4",
@@ -2203,6 +2189,20 @@
       "company": null,
       "created_at": "2013-07-12T08:12:26Z",
       "total_stars": 2150
+    },
+    {
+      "login": "haddocking",
+      "name": "HADDOCK",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5637709?s=88&v=4",
+      "html_url": "https://github.com/haddocking",
+      "followers": 239,
+      "following": 0,
+      "public_repos": 76,
+      "location": "Utrecht, The Netherlands",
+      "bio": "Computational Structural Biology Group @ Utrecht University",
+      "company": null,
+      "created_at": "2013-10-08T11:51:46Z",
+      "total_stars": 1332
     },
     {
       "login": "RIPE-NCC",

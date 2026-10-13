@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-10-12T13:13:11.305Z",
+  "generated_at": "2026-10-13T12:43:51.752Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,7 +10,7 @@
   },
   "totals": {
     "user_followers": 349582,
-    "org_followers": 258618,
+    "org_followers": 258620,
     "user_stars": 974297,
     "org_stars": 2760463
   },
@@ -2177,20 +2177,6 @@
       "total_stars": 594
     },
     {
-      "login": "tmobile",
-      "name": "T-Mobile",
-      "avatar_url": "https://avatars.githubusercontent.com/u/483040?s=88&v=4",
-      "html_url": "https://github.com/tmobile",
-      "followers": 173,
-      "following": 0,
-      "public_repos": 71,
-      "location": "Bellevue, WA USA",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-11-15T23:50:17Z",
-      "total_stars": 2867
-    },
-    {
       "login": "xunit",
       "name": "xUnit.net",
       "avatar_url": "https://avatars.githubusercontent.com/u/2092016?s=88&v=4",
@@ -2203,6 +2189,20 @@
       "company": null,
       "created_at": "2012-08-03T22:11:52Z",
       "total_stars": 5757
+    },
+    {
+      "login": "tmobile",
+      "name": "T-Mobile",
+      "avatar_url": "https://avatars.githubusercontent.com/u/483040?s=88&v=4",
+      "html_url": "https://github.com/tmobile",
+      "followers": 173,
+      "following": 0,
+      "public_repos": 71,
+      "location": "Bellevue, WA USA",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-11-15T23:50:17Z",
+      "total_stars": 2867
     },
     {
       "login": "FredHutch",
@@ -2527,6 +2527,20 @@
       "total_stars": 112
     },
     {
+      "login": "highspot",
+      "name": "Highspot Inc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1320227?s=88&v=4",
+      "html_url": "https://github.com/highspot",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Seattle, WA",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-01-11T01:37:36Z",
+      "total_stars": 0
+    },
+    {
       "login": "spiceai",
       "name": "Spice.ai OSS",
       "avatar_url": "https://avatars.githubusercontent.com/u/73862742?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2020-11-03T01:36:03Z",
       "total_stars": 3233
-    },
-    {
-      "login": "highspot",
-      "name": "Highspot Inc",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1320227?s=88&v=4",
-      "html_url": "https://github.com/highspot",
-      "followers": 93,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Seattle, WA",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-01-11T01:37:36Z",
-      "total_stars": 0
     }
   ],
   "repos": [

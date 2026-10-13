@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-10-12T13:17:06.066Z",
+  "generated_at": "2026-10-13T12:44:49.739Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 110374,
+    "user_followers": 110389,
     "org_followers": 11213,
-    "user_stars": 550687,
+    "user_stars": 550705,
     "org_stars": 84610
   },
   "queries": [
@@ -121,14 +121,14 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/30000519?s=88&u=754fe3ce9f881116c904ee0ad92630315a70fc20&v=4",
       "html_url": "https://github.com/Gezine",
-      "followers": 3463,
+      "followers": 3478,
       "following": 2,
       "public_repos": 6,
       "location": "Seoul, South Korea",
       "bio": null,
       "company": null,
       "created_at": "2017-07-08T11:20:14Z",
-      "total_stars": 2302
+      "total_stars": 2320
     },
     {
       "login": "Kyubyong",
@@ -2317,20 +2317,6 @@
       "total_stars": 90
     },
     {
-      "login": "bacchus-snu",
-      "name": "Bacchus",
-      "avatar_url": "https://avatars.githubusercontent.com/u/12296908?s=88&v=4",
-      "html_url": "https://github.com/bacchus-snu",
-      "followers": 36,
-      "following": 0,
-      "public_repos": 27,
-      "location": "Seoul National University",
-      "bio": "Special Interest Group on Computer Systems, based in SNU",
-      "company": null,
-      "created_at": "2015-05-07T13:58:16Z",
-      "total_stars": 50
-    },
-    {
       "login": "banhala",
       "name": "ABLY Corp., Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/23272456?s=88&v=4",
@@ -2343,6 +2329,20 @@
       "company": null,
       "created_at": "2016-11-05T04:08:47Z",
       "total_stars": 0
+    },
+    {
+      "login": "bacchus-snu",
+      "name": "Bacchus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12296908?s=88&v=4",
+      "html_url": "https://github.com/bacchus-snu",
+      "followers": 36,
+      "following": 0,
+      "public_repos": 27,
+      "location": "Seoul National University",
+      "bio": "Special Interest Group on Computer Systems, based in SNU",
+      "company": null,
+      "created_at": "2015-05-07T13:58:16Z",
+      "total_stars": 50
     },
     {
       "login": "kucc",

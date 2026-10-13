@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-10-12T13:12:46.368Z",
+  "generated_at": "2026-10-13T12:43:50.348Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1077732,
-    "org_followers": 344653,
-    "user_stars": 3294623,
-    "org_stars": 4587147
+    "user_followers": 1077757,
+    "org_followers": 344657,
+    "user_stars": 3294645,
+    "org_stars": 4587154
   },
   "queries": [
     {
@@ -331,7 +331,7 @@
       "name": "Jeremy Ashkenas",
       "avatar_url": "https://avatars.githubusercontent.com/u/4732?s=88&u=1ce1aba113b641e1a110345609830aec2b056121&v=4",
       "html_url": "https://github.com/jashkenas",
-      "followers": 13744,
+      "followers": 13769,
       "following": 0,
       "public_repos": 16,
       "location": "Berkeley",
@@ -961,7 +961,7 @@
       "name": "Junio C Hamano",
       "avatar_url": "https://avatars.githubusercontent.com/u/54884?s=88&u=df04369e894b22a25b4bb7bb85121ffa481047e4&v=4",
       "html_url": "https://github.com/gitster",
-      "followers": 5496,
+      "followers": 5497,
       "following": 0,
       "public_repos": 2,
       "location": "Mountain View, CA",
@@ -1269,14 +1269,14 @@
       "name": "Han Xiao",
       "avatar_url": "https://avatars.githubusercontent.com/u/2041322?s=88&u=a7e9ee49091c99c96bc611017496fbfa83e57cbf&v=4",
       "html_url": "https://github.com/hanxiao",
-      "followers": 4231,
+      "followers": 4232,
       "following": 17,
       "public_repos": 64,
       "location": "Sunnyvale, CA",
       "bio": "VP, AI @elastic\r\nPrev: founder & ceo @jina-ai ",
       "company": "@elastic",
       "created_at": "2012-07-25T15:52:49Z",
-      "total_stars": 2269
+      "total_stars": 2289
     },
     {
       "login": "merrymercy",
@@ -1395,14 +1395,14 @@
       "name": "Dhravya Shah",
       "avatar_url": "https://avatars.githubusercontent.com/u/63950637?s=88&u=a1d804b135132cac15090fd93440a02ab5ce29b9&v=4",
       "html_url": "https://github.com/Dhravya",
-      "followers": 3918,
+      "followers": 3917,
       "following": 139,
       "public_repos": 63,
       "location": "San Francisco",
       "bio": "21. founder @supermemoryai. passionate dev who ships (a lot). 2x acquired founder. I just wanna make products that hopefully change the world 💖. ",
       "company": "@supermemoryai ",
       "created_at": "2020-04-19T08:52:05Z",
-      "total_stars": 2254
+      "total_stars": 2255
     },
     {
       "login": "devongovett",
@@ -1423,14 +1423,14 @@
       "name": "Yang Song",
       "avatar_url": "https://avatars.githubusercontent.com/u/7480450?s=88&u=78268a206a03558f6cc3d127a1b25fa06654858f&v=4",
       "html_url": "https://github.com/yang-song",
-      "followers": 3865,
+      "followers": 3864,
       "following": 27,
       "public_repos": 14,
       "location": "Palo Alto, CA",
       "bio": "Research Scientist at OpenAI.",
       "company": "OpenAI",
       "created_at": "2014-05-04T13:35:57Z",
-      "total_stars": 4450
+      "total_stars": 4451
     }
   ],
   "orgs": [
@@ -2359,20 +2359,6 @@
       "total_stars": 38721
     },
     {
-      "login": "appacademy",
-      "name": "App Academy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2138704?s=88&v=4",
-      "html_url": "https://github.com/appacademy",
-      "followers": 1081,
-      "following": 0,
-      "public_repos": 1019,
-      "location": "San Francisco",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-08-12T08:16:06Z",
-      "total_stars": 6506
-    },
-    {
       "login": "circleci",
       "name": "CircleCI",
       "avatar_url": "https://avatars.githubusercontent.com/u/1231870?s=88&v=4",
@@ -2385,6 +2371,20 @@
       "company": null,
       "created_at": "2011-11-30T21:12:25Z",
       "total_stars": 1550
+    },
+    {
+      "login": "appacademy",
+      "name": "App Academy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2138704?s=88&v=4",
+      "html_url": "https://github.com/appacademy",
+      "followers": 1081,
+      "following": 0,
+      "public_repos": 1019,
+      "location": "San Francisco",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-08-12T08:16:06Z",
+      "total_stars": 6506
     },
     {
       "login": "alchemyplatform",
@@ -2545,14 +2545,14 @@
       "name": "HackerOne",
       "avatar_url": "https://avatars.githubusercontent.com/u/3014877?s=88&v=4",
       "html_url": "https://github.com/Hacker0x01",
-      "followers": 968,
+      "followers": 972,
       "following": 0,
       "public_repos": 39,
       "location": "San Francisco, CA",
       "bio": "Vulnerability disclosure should suck less.",
       "company": null,
       "created_at": "2012-12-11T09:00:21Z",
-      "total_stars": 23785
+      "total_stars": 23792
     }
   ],
   "repos": [

@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-10-12T13:15:21.784Z",
+  "generated_at": "2026-10-13T12:44:39.676Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 200089,
+    "user_followers": 200094,
     "org_followers": 101792,
-    "user_stars": 862217,
+    "user_stars": 862220,
     "org_stars": 1136681
   },
   "queries": [
@@ -681,7 +681,7 @@
       "name": "Vincent Bernat",
       "avatar_url": "https://avatars.githubusercontent.com/u/631446?s=88&u=4fa1b32955881f764b4ca8556b8ba62db83f55d2&v=4",
       "html_url": "https://github.com/vincentbernat",
-      "followers": 1270,
+      "followers": 1271,
       "following": 5,
       "public_repos": 78,
       "location": "Paris, France",
@@ -1108,7 +1108,7 @@
       "bio": "Free software contributor, BlueHats 🧢 and now working at Software Heritage",
       "company": "@SoftwareHeritage",
       "created_at": "2009-03-14T21:37:56Z",
-      "total_stars": 919
+      "total_stars": 920
     },
     {
       "login": "ask0ldd",
@@ -1321,6 +1321,20 @@
       "total_stars": 6328
     },
     {
+      "login": "steeve",
+      "name": "Steeve Morin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137467?s=88&v=4",
+      "html_url": "https://github.com/steeve",
+      "followers": 776,
+      "following": 1,
+      "public_repos": 52,
+      "location": "Paris, France",
+      "bio": "@zml ",
+      "company": "@zml",
+      "created_at": "2009-10-09T15:12:58Z",
+      "total_stars": 5968
+    },
+    {
       "login": "mcombeau",
       "name": "Mia Combeau",
       "avatar_url": "https://avatars.githubusercontent.com/u/52008667?s=88&u=889adc6df09a8b3f8ee8944b7179bf857860ac7c&v=4",
@@ -1333,20 +1347,6 @@
       "company": "@42School",
       "created_at": "2019-06-19T17:15:29Z",
       "total_stars": 458
-    },
-    {
-      "login": "steeve",
-      "name": "Steeve Morin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/137467?s=88&v=4",
-      "html_url": "https://github.com/steeve",
-      "followers": 773,
-      "following": 1,
-      "public_repos": 52,
-      "location": "Paris, France",
-      "bio": "@zml ",
-      "company": "@zml",
-      "created_at": "2009-10-09T15:12:58Z",
-      "total_stars": 5966
     },
     {
       "login": "acids-ircam",
@@ -1367,7 +1367,7 @@
       "name": "Christophe Porteneuve",
       "avatar_url": "https://avatars.githubusercontent.com/u/3752?s=88&u=bfdae9cf2770de1a5d3e024e5ce666007f6008f3&v=4",
       "html_url": "https://github.com/tdd",
-      "followers": 760,
+      "followers": 761,
       "following": 0,
       "public_repos": 53,
       "location": "Paris, France",
@@ -2871,8 +2871,8 @@
       "full_name": "guillaumemeyer/watermarks-remover",
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "stargazers_count": 23745,
-      "forks_count": 2727,
+      "stargazers_count": 23983,
+      "forks_count": 2751,
       "language": "Python",
       "topics": [
         "agent-skill",

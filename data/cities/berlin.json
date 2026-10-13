@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-10-12T13:14:54.185Z",
+  "generated_at": "2026-10-13T12:43:59.409Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 302172,
+    "user_followers": 302183,
     "org_followers": 33069,
-    "user_stars": 963885,
+    "user_stars": 964118,
     "org_stars": 744315
   },
   "queries": [
@@ -947,7 +947,7 @@
       "name": "Mehdi Hasan Khan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2240000?s=88&v=4",
       "html_url": "https://github.com/mugli",
-      "followers": 1482,
+      "followers": 1483,
       "following": 563,
       "public_repos": 17,
       "location": "Berlin, Germany",
@@ -1017,14 +1017,14 @@
       "name": "Sebastian Thiel",
       "avatar_url": "https://avatars.githubusercontent.com/u/63622?s=88&v=4",
       "html_url": "https://github.com/Byron",
-      "followers": 1422,
+      "followers": 1423,
       "following": 101,
       "public_repos": 85,
       "location": "Berlin",
       "bio": "\r\n    \r\n",
       "company": null,
       "created_at": "2009-03-15T13:15:06Z",
-      "total_stars": 9016
+      "total_stars": 9025
     },
     {
       "login": "datitran",
@@ -1059,14 +1059,14 @@
       "name": "Mahipal",
       "avatar_url": "https://avatars.githubusercontent.com/u/42860185?s=88&u=b80eec76a4830944af4b0506fe9af429ee9451e3&v=4",
       "html_url": "https://github.com/mukul975",
-      "followers": 1339,
+      "followers": 1348,
       "following": 1,
       "public_repos": 29,
       "location": "Berlin ",
       "bio": "🔐 Cybersecurity | 💻 Dev | 📷 Street Photographer\r\n🎓 MSc | 📚 Research & AI Security",
       "company": null,
       "created_at": "2018-08-31T06:58:20Z",
-      "total_stars": 36414
+      "total_stars": 36638
     },
     {
       "login": "traviscibot",
@@ -1883,20 +1883,6 @@
       "total_stars": 482
     },
     {
-      "login": "ContainerSolutions",
-      "name": "Container Solutions",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9009380?s=88&v=4",
-      "html_url": "https://github.com/ContainerSolutions",
-      "followers": 207,
-      "following": 0,
-      "public_repos": 184,
-      "location": "Amsterdam, London, Warsaw, Berlin, Montreal, Zurich, Edinburgh",
-      "bio": "Building Cloud Native Confidence",
-      "company": null,
-      "created_at": "2014-10-03T14:37:18Z",
-      "total_stars": 7637
-    },
-    {
       "login": "ecosia",
       "name": "Ecosia",
       "avatar_url": "https://avatars.githubusercontent.com/u/7389564?s=88&v=4",
@@ -1909,6 +1895,20 @@
       "company": null,
       "created_at": "2014-04-23T23:09:58Z",
       "total_stars": 148
+    },
+    {
+      "login": "ContainerSolutions",
+      "name": "Container Solutions",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9009380?s=88&v=4",
+      "html_url": "https://github.com/ContainerSolutions",
+      "followers": 207,
+      "following": 0,
+      "public_repos": 184,
+      "location": "Amsterdam, London, Warsaw, Berlin, Montreal, Zurich, Edinburgh",
+      "bio": "Building Cloud Native Confidence",
+      "company": null,
+      "created_at": "2014-10-03T14:37:18Z",
+      "total_stars": 7637
     },
     {
       "login": "CanCLID",
@@ -2533,7 +2533,7 @@
       "html_url": "https://github.com/dssg-berlin",
       "followers": 91,
       "following": 0,
-      "public_repos": 16,
+      "public_repos": 17,
       "location": "Berlin",
       "bio": null,
       "company": null,
@@ -2633,8 +2633,8 @@
       "full_name": "DeusData/codebase-memory-mcp",
       "html_url": "https://github.com/DeusData/codebase-memory-mcp",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 langu",
-      "stargazers_count": 46275,
-      "forks_count": 3804,
+      "stargazers_count": 46484,
+      "forks_count": 3822,
       "language": "C",
       "topics": [
         "claude-code",
@@ -2709,8 +2709,8 @@
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
       "html_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & M",
-      "stargazers_count": 34132,
-      "forks_count": 4153,
+      "stargazers_count": 34353,
+      "forks_count": 4179,
       "language": "Python",
       "topics": [
         "ai-agents",
@@ -3214,7 +3214,7 @@
       "html_url": "https://github.com/gka/chroma.js",
       "description": "JavaScript library for all kinds of color manipulations",
       "stargazers_count": 10600,
-      "forks_count": 551,
+      "forks_count": 552,
       "language": "JavaScript",
       "topics": [
         "colors",
