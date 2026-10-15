@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-10-14T10:15:00.676Z",
+  "generated_at": "2026-10-15T09:56:58.215Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 349582,
+    "user_followers": 347453,
     "org_followers": 258620,
-    "user_stars": 974297,
+    "user_stars": 967528,
     "org_stars": 2760463
   },
   "queries": [
@@ -521,20 +521,6 @@
       "company": "@tubi ",
       "created_at": "2010-11-09T10:35:43Z",
       "total_stars": 4375
-    },
-    {
-      "login": "armon",
-      "name": "Armon Dadgar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/592032?s=88&v=4",
-      "html_url": "https://github.com/armon",
-      "followers": 3274,
-      "following": 8,
-      "public_repos": 28,
-      "location": "Seattle, WA",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-01-31T02:50:34Z",
-      "total_stars": 6824
     },
     {
       "login": "ScriptedAlchemy",
@@ -1431,6 +1417,20 @@
       "company": "University of Washington @uwdata, Ridge AI",
       "created_at": "2010-02-13T00:04:37Z",
       "total_stars": 67
+    },
+    {
+      "login": "jeffmo",
+      "name": "Jeff Morrison",
+      "avatar_url": "https://avatars.githubusercontent.com/u/498293?s=88&v=4",
+      "html_url": "https://github.com/jeffmo",
+      "followers": 1145,
+      "following": 1,
+      "public_repos": 10,
+      "location": "Seattle, WA",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-11-26T20:00:48Z",
+      "total_stars": 55
     }
   ],
   "orgs": [
@@ -2275,20 +2275,6 @@
       "total_stars": 867
     },
     {
-      "login": "HBOCodeLabs",
-      "name": "HBO Digital Products",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2342721?s=88&v=4",
-      "html_url": "https://github.com/HBOCodeLabs",
-      "followers": 145,
-      "following": 0,
-      "public_repos": 6,
-      "location": "NYC + Seattle",
-      "bio": "This organization was deprecated as of September 1st 2025. It is no longer available for any usage",
-      "company": null,
-      "created_at": "2012-09-13T22:36:03Z",
-      "total_stars": 27
-    },
-    {
       "login": "AuthorizeNet",
       "name": "Authorize.Net",
       "avatar_url": "https://avatars.githubusercontent.com/u/6014037?s=88&v=4",
@@ -2301,6 +2287,20 @@
       "company": null,
       "created_at": "2013-11-22T21:57:13Z",
       "total_stars": 1669
+    },
+    {
+      "login": "HBOCodeLabs",
+      "name": "HBO Digital Products",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2342721?s=88&v=4",
+      "html_url": "https://github.com/HBOCodeLabs",
+      "followers": 145,
+      "following": 0,
+      "public_repos": 6,
+      "location": "NYC + Seattle",
+      "bio": "This organization was deprecated as of September 1st 2025. It is no longer available for any usage",
+      "company": null,
+      "created_at": "2012-09-13T22:36:03Z",
+      "total_stars": 27
     },
     {
       "login": "Sage-Bionetworks",

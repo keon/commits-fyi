@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "India",
   "slug": "india",
-  "generated_at": "2026-10-14T10:16:57.801Z",
+  "generated_at": "2026-10-15T09:58:55.778Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 574930,
-    "org_followers": 157998,
+    "org_followers": 158033,
     "user_stars": 1220323,
-    "org_stars": 1082722
+    "org_stars": 1103247
   },
   "queries": [
     {
@@ -1537,14 +1537,14 @@
       "name": "Lumi Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/331578739?s=88&v=4",
       "html_url": "https://github.com/RubinLabs26",
-      "followers": 1885,
+      "followers": 1881,
       "following": 0,
       "public_repos": 2,
       "location": "India",
       "bio": null,
       "company": null,
       "created_at": "2026-09-20T09:44:31Z",
-      "total_stars": 1900
+      "total_stars": 1898
     },
     {
       "login": "razorpay",
@@ -2051,6 +2051,20 @@
       "total_stars": 831
     },
     {
+      "login": "Clash-Projects",
+      "name": "Clash Projects",
+      "avatar_url": "https://avatars.githubusercontent.com/u/320957147?s=88&v=4",
+      "html_url": "https://github.com/Clash-Projects",
+      "followers": 562,
+      "following": 0,
+      "public_repos": 3,
+      "location": "India",
+      "bio": "Building things that work (mostly).",
+      "company": null,
+      "created_at": "2026-08-25T10:19:01Z",
+      "total_stars": 2360
+    },
+    {
       "login": "codedamn",
       "name": "Codedamn",
       "avatar_url": "https://avatars.githubusercontent.com/u/37881195?s=88&v=4",
@@ -2105,20 +2119,6 @@
       "company": null,
       "created_at": "2020-06-11T07:05:27Z",
       "total_stars": 4209
-    },
-    {
-      "login": "Clash-Projects",
-      "name": "Clash Projects",
-      "avatar_url": "https://avatars.githubusercontent.com/u/320957147?s=88&v=4",
-      "html_url": "https://github.com/Clash-Projects",
-      "followers": 524,
-      "following": 0,
-      "public_repos": 2,
-      "location": "India",
-      "bio": "Building things that work (mostly).",
-      "company": null,
-      "created_at": "2026-08-25T10:19:01Z",
-      "total_stars": 2218
     },
     {
       "login": "YBIFoundation",
@@ -2247,6 +2247,20 @@
       "total_stars": 1875
     },
     {
+      "login": "atlanhq",
+      "name": "Atlan Pte Ltd.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47002402?s=88&v=4",
+      "html_url": "https://github.com/atlanhq",
+      "followers": 452,
+      "following": 0,
+      "public_repos": 33,
+      "location": "India",
+      "bio": "Democratizing data for teams around the world :sparkles: Humans of data, welcome home :heart:",
+      "company": null,
+      "created_at": "2019-01-24T15:11:20Z",
+      "total_stars": 4097
+    },
+    {
       "login": "LetsUpgrade",
       "name": "LetsUpgrade Community",
       "avatar_url": "https://avatars.githubusercontent.com/u/64692195?s=88&v=4",
@@ -2273,20 +2287,6 @@
       "company": null,
       "created_at": "2019-02-02T04:46:31Z",
       "total_stars": 1470
-    },
-    {
-      "login": "atlanhq",
-      "name": "Atlan Pte Ltd.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47002402?s=88&v=4",
-      "html_url": "https://github.com/atlanhq",
-      "followers": 452,
-      "following": 0,
-      "public_repos": 33,
-      "location": "India",
-      "bio": "Democratizing data for teams around the world :sparkles: Humans of data, welcome home :heart:",
-      "company": null,
-      "created_at": "2019-01-24T15:11:20Z",
-      "total_stars": 4097
     },
     {
       "login": "chaicodehq",
@@ -2541,18 +2541,18 @@
       "total_stars": 1081
     },
     {
-      "login": "PICT-ACM-Student-Chapter",
-      "name": "PICT ACM Student Chapter",
-      "avatar_url": "https://avatars.githubusercontent.com/u/70024970?s=88&v=4",
-      "html_url": "https://github.com/PICT-ACM-Student-Chapter",
-      "followers": 325,
+      "login": "Open-Dev-Society",
+      "name": "Open Dev Society",
+      "avatar_url": "https://avatars.githubusercontent.com/u/177231203?s=88&v=4",
+      "html_url": "https://github.com/Open-Dev-Society",
+      "followers": 326,
       "following": 0,
-      "public_repos": 22,
-      "location": "Pune",
-      "bio": null,
+      "public_repos": 13,
+      "location": "India",
+      "bio": "A vibrant community creating open-source projects, free education, and collaborative experiences—empowering everyone to learn, build, and grow together.",
       "company": null,
-      "created_at": "2020-08-21T14:50:29Z",
-      "total_stars": 24
+      "created_at": "2024-08-01T13:36:16Z",
+      "total_stars": 20409
     }
   ],
   "repos": [
@@ -3004,6 +3004,25 @@
       "fork": false
     },
     {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "html_url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed",
+      "stargazers_count": 20244,
+      "forks_count": 2493,
+      "language": "TypeScript",
+      "topics": [
+        "coderabbit",
+        "inngest",
+        "nextjs",
+        "shadcn-ui",
+        "stock-market"
+      ],
+      "owner_login": "Open-Dev-Society",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/177231203?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "Python-World/python-mini-projects",
       "html_url": "https://github.com/Python-World/python-mini-projects",
       "description": "A collection of simple python mini projects to enhance your python skills",
@@ -3444,25 +3463,6 @@
       ],
       "owner_login": "aritraroy",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8044760?s=88&u=b11759f9e36708c6bf1519633587bb3ad18bdc47&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "collabnix/dockerlabs",
-      "html_url": "https://github.com/collabnix/dockerlabs",
-      "description": "Docker  - Beginners | Intermediate | Advanced",
-      "stargazers_count": 8040,
-      "forks_count": 2170,
-      "language": "JavaScript",
-      "topics": [
-        "docker",
-        "beginners",
-        "intermediate",
-        "advance",
-        "dockerfile"
-      ],
-      "owner_login": "collabnix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34368930?s=88&u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
       "owner_type": "User",
       "fork": false
     }
