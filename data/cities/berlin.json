@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-10-15T09:57:05.065Z",
+  "generated_at": "2026-10-16T09:55:28.744Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 302183,
-    "org_followers": 33069,
-    "user_stars": 964118,
-    "org_stars": 744315
+    "user_followers": 271016,
+    "org_followers": 33135,
+    "user_stars": 963086,
+    "org_stars": 744801
   },
   "queries": [
     {
@@ -33,60 +33,46 @@
   ],
   "users": [
     {
-      "login": "tiangolo",
-      "name": "Sebastián Ramírez",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1326112?s=88&u=cb5d06e73a9e1998141b1641aa88e443c6717651&v=4",
-      "html_url": "https://github.com/tiangolo",
-      "followers": 32340,
-      "following": 7,
-      "public_repos": 44,
-      "location": "Berlin, Germany",
-      "bio": "Creator of FastAPI, Typer, SQLModel, Asyncer, etc. 🚀\r\nFrom 🇨🇴 in 🇩🇪. \r\nOpen Source, Python, APIs, AI. 🤖 Building FastAPI Cloud. ⚡️",
-      "company": "FastAPI Cloud",
-      "created_at": "2012-01-12T22:37:04Z",
-      "total_stars": 16053
-    },
-    {
       "login": "schacon",
       "name": "Scott Chacon",
       "avatar_url": "https://avatars.githubusercontent.com/u/70?s=88&u=256ba2d51ff78a02c2dbf89a9159389f0dfb6104&v=4",
       "html_url": "https://github.com/schacon",
-      "followers": 14259,
+      "followers": 14276,
       "following": 27,
       "public_repos": 131,
       "location": "Berlin, Germany",
       "bio": "\r\n    \r\n",
       "company": "@gitbutlerapp ",
       "created_at": "2008-01-27T17:19:28Z",
-      "total_stars": 5688
+      "total_stars": 5690
     },
     {
       "login": "muan",
       "name": "Mu-An Chiou",
       "avatar_url": "https://avatars.githubusercontent.com/u/1153134?s=88&u=c562ce1cb756e290b950a72458dfe5adc5694bdd&v=4",
       "html_url": "https://github.com/muan",
-      "followers": 11374,
+      "followers": 11372,
       "following": 61,
       "public_repos": 90,
       "location": "Taipei/Berlin",
       "bio": "I used to work on this website. You have definitely typed in a `<textarea>` I added.",
       "company": null,
       "created_at": "2011-10-26T12:53:14Z",
-      "total_stars": 12501
+      "total_stars": 12506
     },
     {
       "login": "rwieruch",
       "name": "Robin Wieruch",
       "avatar_url": "https://avatars.githubusercontent.com/u/2479967?s=88&u=cba76c8678af8e63ee2dd32853a4e262b35f9ac0&v=4",
       "html_url": "https://github.com/rwieruch",
-      "followers": 9086,
+      "followers": 9088,
       "following": 29,
       "public_repos": 93,
       "location": "Berlin, Germany, Remote",
       "bio": "AI-Native Product Engineer • Applied AI & Agentic Systems • Technical Lead & Architect • Freelance & Consultant • Full-Stack Software Engineer",
       "company": "Consultant & Freelancer",
       "created_at": "2012-10-03T15:11:48Z",
-      "total_stars": 6327
+      "total_stars": 6328
     },
     {
       "login": "marijnh",
@@ -107,35 +93,35 @@
       "name": "Fernando Cejas",
       "avatar_url": "https://avatars.githubusercontent.com/u/1360604?s=88&u=982bd190b3101c9a73d7584a44be4d4a25571658&v=4",
       "html_url": "https://github.com/android10",
-      "followers": 6784,
+      "followers": 6783,
       "following": 90,
       "public_repos": 57,
       "location": "Berlin, Germany",
       "bio": "Tech Lead @Promon. Former Director at @wireapp. Former @soundcloud Core Engineering. Ex @IBM. Curious learner. Geek. OPEN SOURCE Advocate. Quantum fan.",
       "company": "@peppr-io ",
       "created_at": "2012-01-20T21:35:31Z",
-      "total_stars": 23663
+      "total_stars": 23665
     },
     {
       "login": "nikic",
       "name": "Nikita Popov",
       "avatar_url": "https://avatars.githubusercontent.com/u/216080?s=88&v=4",
       "html_url": "https://github.com/nikic",
-      "followers": 6643,
+      "followers": 6642,
       "following": 25,
       "public_repos": 30,
       "location": "Berlin, Germany",
       "bio": null,
       "company": "Red Hat",
       "created_at": "2010-03-04T21:22:25Z",
-      "total_stars": 27336
+      "total_stars": 27335
     },
     {
       "login": "posva",
       "name": "Eduardo San Martin Morote",
       "avatar_url": "https://avatars.githubusercontent.com/u/664177?s=88&u=06259cb98f3d65c5901edf488b6bf4ab5f4bccec&v=4",
       "html_url": "https://github.com/posva",
-      "followers": 6578,
+      "followers": 6583,
       "following": 61,
       "public_repos": 173,
       "location": "Berlin",
@@ -149,7 +135,7 @@
       "name": "Jerzy",
       "avatar_url": "https://avatars.githubusercontent.com/u/46030850?s=88&u=6181542f45f40e0281fac2359090c57014ddb1c8&v=4",
       "html_url": "https://github.com/mxmnk",
-      "followers": 6424,
+      "followers": 6425,
       "following": 6868,
       "public_repos": 7,
       "location": "Berlin, Germany",
@@ -163,49 +149,49 @@
       "name": "Alexey Grigorev",
       "avatar_url": "https://avatars.githubusercontent.com/u/875246?s=88&u=031e07800caf3dd93e6c1de3e5e4f6c14d1140e5&v=4",
       "html_url": "https://github.com/alexeygrigorev",
-      "followers": 6299,
+      "followers": 6311,
       "following": 0,
-      "public_repos": 187,
+      "public_repos": 195,
       "location": "Berlin, Germany",
       "bio": "Running @DataTalksClub and hacking some personal projects",
       "company": "@DataTalksClub ",
       "created_at": "2011-06-25T13:16:52Z",
-      "total_stars": 18443
+      "total_stars": 18484
     },
     {
       "login": "tonsky",
       "name": "Nikita Prokopov",
       "avatar_url": "https://avatars.githubusercontent.com/u/285292?s=88&u=d046d00a282597514c19d8113edaf736a2921fcd&v=4",
       "html_url": "https://github.com/tonsky",
-      "followers": 5826,
+      "followers": 5832,
       "following": 42,
       "public_repos": 103,
       "location": "Berlin, Germany",
       "bio": "Clojure, Databases, Sync engines, frontend, UI/UX, product design",
       "company": null,
       "created_at": "2010-05-24T05:43:30Z",
-      "total_stars": 101433
+      "total_stars": 101442
     },
     {
       "login": "sebastianruder",
       "name": "Sebastian Ruder",
       "avatar_url": "https://avatars.githubusercontent.com/u/6792642?s=88&u=e2cee389723f50613827b20e01dbf262646ab9bc&v=4",
       "html_url": "https://github.com/sebastianruder",
-      "followers": 5617,
+      "followers": 5616,
       "following": 6,
       "public_repos": 17,
       "location": "Berlin, Germany",
       "bio": "Research Scientist @facebook",
       "company": "@facebook",
       "created_at": "2014-02-26T10:36:21Z",
-      "total_stars": 23455
+      "total_stars": 23457
     },
     {
       "login": "vakila",
       "name": "Anjana Vakil",
       "avatar_url": "https://avatars.githubusercontent.com/u/5424927?s=88&u=cf024d4a954cbb35b913db96d66351830b28086b&v=4",
       "html_url": "https://github.com/vakila",
-      "followers": 5520,
+      "followers": 5523,
       "following": 0,
       "public_repos": 34,
       "location": "San Francisco | Berlin",
@@ -226,49 +212,49 @@
       "bio": "CTO and co-founder at objectbox.io, creator of EventBus and greenDAO.",
       "company": "@objectbox",
       "created_at": "2010-04-12T14:18:19Z",
-      "total_stars": 38883
+      "total_stars": 38875
     },
     {
       "login": "orhun",
       "name": "Orhun Parmaksız",
       "avatar_url": "https://avatars.githubusercontent.com/u/24392180?s=88&u=a03c0e87143d1858ca987adb07e72a521634395c&v=4",
       "html_url": "https://github.com/orhun",
-      "followers": 5482,
+      "followers": 5483,
       "following": 549,
-      "public_repos": 85,
+      "public_repos": 86,
       "location": "Berlin, Germany",
       "bio": "Terminal Chef @ratatui | Rust Developer Advocate @JetBrains |\r\nMaintainer @archlinux btw  ",
       "company": "@ratatui | @jetbrains | @archlinux",
       "created_at": "2016-12-05T15:47:47Z",
-      "total_stars": 34663
+      "total_stars": 34685
     },
     {
       "login": "vietnh1009",
       "name": "Viet Nguyen",
       "avatar_url": "https://avatars.githubusercontent.com/u/47221207?s=88&u=eb182ccf2c1bf08df50811065d48d4e81d22b3e2&v=4",
       "html_url": "https://github.com/vietnh1009",
-      "followers": 5063,
+      "followers": 5070,
       "following": 0,
       "public_repos": 33,
       "location": "Berlin, Germany",
       "bio": "Senior AI engineer at Sporttotal",
       "company": "SPORTTOTAL.TV",
       "created_at": "2019-01-31T16:39:52Z",
-      "total_stars": 15624
+      "total_stars": 15635
     },
     {
       "login": "felixge",
       "name": "Felix Geisendörfer",
       "avatar_url": "https://avatars.githubusercontent.com/u/15000?s=88&u=f9b953343c6ce2e8c88ce31e8fcc45940d098890&v=4",
       "html_url": "https://github.com/felixge",
-      "followers": 4244,
+      "followers": 4241,
       "following": 14,
       "public_repos": 173,
       "location": "Berlin, Germany",
       "bio": null,
       "company": "Datadog",
       "created_at": "2008-06-25T14:24:37Z",
-      "total_stars": 19878
+      "total_stars": 19880
     },
     {
       "login": "apaszke",
@@ -296,14 +282,14 @@
       "bio": "Digital native and software developer working on AI, Machine Learning & NLP. Founder @explosion, developing spaCy & Prodigy.\r\n\r\n(Portrait: Sarah Andersen)",
       "company": "Founder @explosion ",
       "created_at": "2015-08-04T13:15:33Z",
-      "total_stars": 3548
+      "total_stars": 3547
     },
     {
       "login": "codebytere",
       "name": "Shelley Vohr",
       "avatar_url": "https://avatars.githubusercontent.com/u/2036040?s=88&u=3d1eadd5fa7859c948ccc31e03e6ddbd3c841e1e&v=4",
       "html_url": "https://github.com/codebytere",
-      "followers": 3968,
+      "followers": 3969,
       "following": 10,
       "public_repos": 46,
       "location": "Berlin",
@@ -317,21 +303,21 @@
       "name": "van Hauser",
       "avatar_url": "https://avatars.githubusercontent.com/u/7396244?s=88&u=952127371f345a18656cb9c91a67cde499fbfdc6&v=4",
       "html_url": "https://github.com/vanhauser-thc",
-      "followers": 3763,
+      "followers": 3769,
       "following": 49,
       "public_repos": 18,
       "location": "Berlin",
       "bio": "Security researcher since 1994\r\n\r\nhttps://www.mh-sec.de/\r\nhttps://www.thc.org/",
       "company": "The Hacker's Choice | mh-sec | me | myself",
       "created_at": "2014-04-24T14:44:32Z",
-      "total_stars": 14040
+      "total_stars": 14051
     },
     {
       "login": "peterbourgon",
       "name": "Peter Bourgon",
       "avatar_url": "https://avatars.githubusercontent.com/u/114509?s=88&u=c011f191ffdbb0d814b8dbd451e1f0ef118bcc5f&v=4",
       "html_url": "https://github.com/peterbourgon",
-      "followers": 3310,
+      "followers": 3309,
       "following": 0,
       "public_repos": 48,
       "location": "Berlin",
@@ -345,21 +331,21 @@
       "name": "Armagan Amcalar",
       "avatar_url": "https://avatars.githubusercontent.com/u/698308?s=88&v=4",
       "html_url": "https://github.com/dashersw",
-      "followers": 3276,
+      "followers": 3277,
       "following": 5,
       "public_repos": 103,
       "location": "Berlin",
       "bio": "Fractional CTO, software architect, leader, lecturer, public speaker, mentor, entrepreneur, JS evangelist, electronics engineer, guitarist, singer, radio host.",
       "company": "@coyotiv ",
       "created_at": "2011-03-29T23:27:54Z",
-      "total_stars": 8427
+      "total_stars": 8474
     },
     {
       "login": "armancodv",
       "name": "Arman Kolahan",
       "avatar_url": "https://avatars.githubusercontent.com/u/9363099?s=88&u=65504e10693c72546d9c4330af01f049624a2aa4&v=4",
       "html_url": "https://github.com/armancodv",
-      "followers": 3201,
+      "followers": 3204,
       "following": 5509,
       "public_repos": 37,
       "location": "Berlin, Germany",
@@ -373,51 +359,65 @@
       "name": "Andre Weissflog",
       "avatar_url": "https://avatars.githubusercontent.com/u/1699414?s=88&u=78fddd83a07cf36de9d44ad3dd06bbea3aa773b1&v=4",
       "html_url": "https://github.com/floooh",
-      "followers": 3149,
+      "followers": 3151,
       "following": 37,
       "public_repos": 122,
       "location": "Berlin",
       "bio": null,
       "company": null,
       "created_at": "2012-05-02T15:38:15Z",
-      "total_stars": 20173
+      "total_stars": 20192
     },
     {
       "login": "nlohmann",
       "name": "Niels Lohmann",
       "avatar_url": "https://avatars.githubusercontent.com/u/159488?s=88&u=7d63c3efe48fc8c84dd1219413787f2acc8aab63&v=4",
       "html_url": "https://github.com/nlohmann",
-      "followers": 3123,
+      "followers": 3124,
       "following": 19,
       "public_repos": 39,
       "location": "Berlin, Germany",
       "bio": "You may know me from my JSON library for C++.",
       "company": null,
       "created_at": "2009-11-29T15:47:30Z",
-      "total_stars": 51985
+      "total_stars": 51999
     },
     {
       "login": "KittyGiraudel",
       "name": "Kitty Giraudel",
       "avatar_url": "https://avatars.githubusercontent.com/u/1889710?s=88&u=34d8dbbbdbb05f6748dbf1a33e826fe46212e7b2&v=4",
       "html_url": "https://github.com/KittyGiraudel",
-      "followers": 2988,
+      "followers": 2987,
       "following": 0,
       "public_repos": 53,
       "location": "Berlin",
       "bio": "Accessibility & diversity advocate, frontend developer, author. Real life cat.",
       "company": "Duna",
       "created_at": "2012-06-25T13:22:16Z",
-      "total_stars": 11685
+      "total_stars": 11686
+    },
+    {
+      "login": "alirezarezvani",
+      "name": "Alireza Rezvani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5697919?s=88&u=aea7380c2f6bfb3cebdc34f972cbdc565de2178e&v=4",
+      "html_url": "https://github.com/alirezarezvani",
+      "followers": 2809,
+      "following": 24,
+      "public_repos": 19,
+      "location": "Berlin",
+      "bio": "CTO in HealthTech | Engineering AI that helps people move safely and live better . Augmented AI | Agentic Coding | Turning complex problems into simple solution",
+      "company": "@lindera-engineering ",
+      "created_at": "2013-10-16T06:52:39Z",
+      "total_stars": 31155
     },
     {
       "login": "codepo8",
       "name": "Christian Heilmann",
       "avatar_url": "https://avatars.githubusercontent.com/u/13508?s=88&u=7e4f61a5a9563f5c0e34ca2d49ea6d8c4fc0a15f&v=4",
       "html_url": "https://github.com/codepo8",
-      "followers": 2808,
+      "followers": 2809,
       "following": 9,
-      "public_repos": 223,
+      "public_repos": 224,
       "location": "Berlin, Germany",
       "bio": "Engineer who worked for Microsoft/Mozilla/Yahoo on browsers, developer tools and anything JavaScript related. AI/ML enthusiast, writer and trainer.",
       "company": null,
@@ -425,39 +425,25 @@
       "total_stars": 2505
     },
     {
-      "login": "alirezarezvani",
-      "name": "Alireza Rezvani",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5697919?s=88&u=aea7380c2f6bfb3cebdc34f972cbdc565de2178e&v=4",
-      "html_url": "https://github.com/alirezarezvani",
-      "followers": 2791,
-      "following": 24,
-      "public_repos": 19,
-      "location": "Berlin",
-      "bio": "CTO in HealthTech | Engineering AI that helps people move safely and live better . Augmented AI | Agentic Coding | Turning complex problems into simple solution",
-      "company": "@lindera-engineering ",
-      "created_at": "2013-10-16T06:52:39Z",
-      "total_stars": 30930
-    },
-    {
       "login": "cure53",
       "name": "Cure53",
       "avatar_url": "https://avatars.githubusercontent.com/u/6709482?s=88&u=4149eb5ebf4e59175c31bbc618805bce4d0535dc&v=4",
       "html_url": "https://github.com/cure53",
-      "followers": 2776,
+      "followers": 2775,
       "following": 0,
       "public_repos": 12,
       "location": "Berlin",
       "bio": "And there is fire where we walk.",
       "company": "Fine penetration tests for fine websites",
       "created_at": "2014-02-17T21:39:32Z",
-      "total_stars": 25275
+      "total_stars": 25294
     },
     {
       "login": "nisrulz",
       "name": "Nishant Srivastava",
       "avatar_url": "https://avatars.githubusercontent.com/u/2096087?s=88&u=475dd8338ca07131a5beb3f864ba3dfc353e5704&v=4",
       "html_url": "https://github.com/nisrulz",
-      "followers": 2552,
+      "followers": 2553,
       "following": 3,
       "public_repos": 68,
       "location": "Berlin, Germany",
@@ -471,14 +457,14 @@
       "name": "Tyler Neely",
       "avatar_url": "https://avatars.githubusercontent.com/u/1505488?s=88&u=2c0cbecc79b509d18d421b151f45159965af61f9&v=4",
       "html_url": "https://github.com/spacejam",
-      "followers": 2540,
+      "followers": 2541,
       "following": 149,
       "public_repos": 85,
       "location": "Berlin",
       "bio": "reliable stateful systems at scale",
       "company": "Snowflake",
       "created_at": "2012-03-06T03:52:39Z",
-      "total_stars": 11974
+      "total_stars": 11972
     },
     {
       "login": "ligi",
@@ -492,7 +478,7 @@
       "bio": null,
       "company": "@ethereum ",
       "created_at": "2009-08-03T22:52:04Z",
-      "total_stars": 3513
+      "total_stars": 3515
     },
     {
       "login": "nschloe",
@@ -506,7 +492,7 @@
       "bio": "Mathematics, numerical analysis, scientific computing, Python.\r\n\r\nAlways interested in new problems.",
       "company": "Monday Tech",
       "created_at": "2010-01-13T18:43:03Z",
-      "total_stars": 16241
+      "total_stars": 16244
     },
     {
       "login": "pepelsbey",
@@ -534,42 +520,42 @@
       "bio": "Researching & building local-first software. Working on @overtone-app & @livestorejs. Getting help from @schickling-assistant. Previously founded @prisma.",
       "company": "Overengineering Studio",
       "created_at": "2012-03-23T08:57:37Z",
-      "total_stars": 16429
+      "total_stars": 16430
     },
     {
       "login": "anaisbetts",
       "name": "Ani Betts",
       "avatar_url": "https://avatars.githubusercontent.com/u/1396?s=88&u=2a2a62903079293fcf751cb9ac423c6639a32f8f&v=4",
       "html_url": "https://github.com/anaisbetts",
-      "followers": 2456,
+      "followers": 2459,
       "following": 1,
       "public_repos": 129,
       "location": "Berlin",
       "bio": "Margot Tenenbaum as software developer.",
       "company": null,
       "created_at": "2008-02-28T02:26:12Z",
-      "total_stars": 4509
+      "total_stars": 4515
     },
     {
       "login": "justadudewhohacks",
       "name": "Vincent Mühler",
       "avatar_url": "https://avatars.githubusercontent.com/u/31125521?s=88&u=680c04295f02652da4e5687017a7022d0c9adbae&v=4",
       "html_url": "https://github.com/justadudewhohacks",
-      "followers": 2376,
+      "followers": 2375,
       "following": 22,
       "public_repos": 35,
       "location": "Berlin, Germany",
       "bio": "Just hacking stuff.",
       "company": null,
       "created_at": "2017-08-18T07:47:03Z",
-      "total_stars": 26513
+      "total_stars": 26514
     },
     {
       "login": "robb",
       "name": "Robb Böhnke",
       "avatar_url": "https://avatars.githubusercontent.com/u/212465?s=88&u=dee18920acd9d983519e245253bd289edb390f27&v=4",
       "html_url": "https://github.com/robb",
-      "followers": 2368,
+      "followers": 2366,
       "following": 93,
       "public_repos": 51,
       "location": "Berlin",
@@ -583,14 +569,14 @@
       "name": "Alireza Ahmadi",
       "avatar_url": "https://avatars.githubusercontent.com/u/12573084?s=88&u=82204768787072967a3750cc84406c82553ea7cf&v=4",
       "html_url": "https://github.com/alireza0",
-      "followers": 2150,
+      "followers": 2161,
       "following": 6,
       "public_repos": 4,
       "location": "Berlin, Germany",
       "bio": null,
       "company": null,
       "created_at": "2015-05-23T12:47:02Z",
-      "total_stars": 10141
+      "total_stars": 10171
     },
     {
       "login": "vas3k",
@@ -599,12 +585,12 @@
       "html_url": "https://github.com/vas3k",
       "followers": 2119,
       "following": 15,
-      "public_repos": 26,
+      "public_repos": 27,
       "location": "Berlin, Germany",
       "bio": "¯\\_(ツ)_/¯",
       "company": "@anyproto",
       "created_at": "2010-01-04T20:30:30Z",
-      "total_stars": 11278
+      "total_stars": 11283
     },
     {
       "login": "captn3m0",
@@ -618,43 +604,43 @@
       "bio": "Making and Breaking things, sometimes intentionally",
       "company": null,
       "created_at": "2011-01-26T08:56:27Z",
-      "total_stars": 4657
+      "total_stars": 4659
     },
     {
       "login": "TejasQ",
       "name": "Tejas Kumar",
       "avatar_url": "https://avatars.githubusercontent.com/u/9947422?s=88&u=69b364df33fc08fd6d1610b8a10987e8690d5804&v=4",
       "html_url": "https://github.com/TejasQ",
-      "followers": 2089,
+      "followers": 2091,
       "following": 296,
       "public_repos": 94,
       "location": "Berlin, DE",
       "bio": "AI Engineer at IBM, best selling author of Fluent React (O'Reilly), host of ConTejas Code. I write code and love life.",
       "company": "@IBM",
       "created_at": "2014-11-25T13:12:53Z",
-      "total_stars": 2024
+      "total_stars": 2028
     },
     {
       "login": "withoutboats",
       "name": "srrrse",
       "avatar_url": "https://avatars.githubusercontent.com/u/9063376?s=88&u=309883e5f54628f5d5a8b4842f051e726c9ca2bd&v=4",
       "html_url": "https://github.com/withoutboats",
-      "followers": 2070,
+      "followers": 2067,
       "following": 0,
       "public_repos": 34,
       "location": "Berlin",
       "bio": "In civilizations without boats, dreams dry up, espionage takes the place of adventure, and police take the place of pirates.",
       "company": null,
       "created_at": "2014-10-08T00:46:37Z",
-      "total_stars": 5468
+      "total_stars": 5469
     },
     {
       "login": "rkh",
       "name": "Konstantin Haase",
       "avatar_url": "https://avatars.githubusercontent.com/u/30442?s=88&u=1386b85921a9b17c1bd6df8b70bec93dab5f497a&v=4",
       "html_url": "https://github.com/rkh",
-      "followers": 2062,
-      "following": 551,
+      "followers": 2063,
+      "following": 553,
       "public_repos": 100,
       "location": "Berlin",
       "bio": null,
@@ -667,21 +653,21 @@
       "name": "René Rebe",
       "avatar_url": "https://avatars.githubusercontent.com/u/18517006?s=88&u=f3b5d9611e0bce5a0c4b29ddd8778acb38f05c80&v=4",
       "html_url": "https://github.com/rxrbln",
-      "followers": 2013,
+      "followers": 2020,
       "following": 6,
       "public_repos": 17,
       "location": "Berlin",
       "bio": "20+ years OpenSource: T2 Linux, ExactImage and likely contributed to most major projects out there.",
       "company": "ExactCODE GmbH",
       "created_at": "2016-04-17T17:27:20Z",
-      "total_stars": 859
+      "total_stars": 870
     },
     {
       "login": "honnibal",
       "name": "Matthew Honnibal",
       "avatar_url": "https://avatars.githubusercontent.com/u/8059750?s=88&u=4e5174a05523986c65fe62ee514a35499d94c084&v=4",
       "html_url": "https://github.com/honnibal",
-      "followers": 2010,
+      "followers": 2009,
       "following": 6,
       "public_repos": 19,
       "location": "Berlin",
@@ -702,14 +688,14 @@
       "bio": "Senior Software Engineer, Google Developer Expert For Flutter 💙 & Dart",
       "company": null,
       "created_at": "2019-05-07T00:15:12Z",
-      "total_stars": 3137
+      "total_stars": 3136
     },
     {
       "login": "z3tt",
       "name": "Cédric Scherer",
       "avatar_url": "https://avatars.githubusercontent.com/u/7523556?s=88&u=c8ca0ed79d0d123212d1dc0791d17a58eddfde25&v=4",
       "html_url": "https://github.com/z3tt",
-      "followers": 2003,
+      "followers": 2004,
       "following": 144,
       "public_repos": 40,
       "location": "Berlin",
@@ -723,63 +709,63 @@
       "name": "Amruth Pillai",
       "avatar_url": "https://avatars.githubusercontent.com/u/1134738?s=88&u=0f8751f3a01c2790e7204392a7fb70bcefc56c1c&v=4",
       "html_url": "https://github.com/amruthpillai",
-      "followers": 1989,
+      "followers": 1992,
       "following": 6,
       "public_repos": 149,
       "location": "Berlin, Germany",
       "bio": "Juggling work, life and OSS 🤹",
       "company": "@elaradigital",
       "created_at": "2011-10-18T02:10:26Z",
-      "total_stars": 1059
+      "total_stars": 1060
     },
     {
       "login": "hynek",
       "name": "Hynek Schlawack",
       "avatar_url": "https://avatars.githubusercontent.com/u/41240?s=88&u=c77db9d353f9df8435a5bfcdaab2121c047f0456&v=4",
       "html_url": "https://github.com/hynek",
-      "followers": 1978,
+      "followers": 1979,
       "following": 6,
       "public_repos": 27,
       "location": "Berlin",
       "bio": null,
       "company": "Variomedia AG",
       "created_at": "2008-12-18T12:10:53Z",
-      "total_stars": 9921
+      "total_stars": 9928
     },
     {
       "login": "justinmk",
       "name": "Justin M. Keyes",
       "avatar_url": "https://avatars.githubusercontent.com/u/1359421?s=88&u=d40bdc08134f061fba586773f08f132f8567597b&v=4",
       "html_url": "https://github.com/justinmk",
-      "followers": 1977,
+      "followers": 1979,
       "following": 12,
       "public_repos": 12,
       "location": "Berlin",
       "bio": "\"People are afraid to merge.\" \r\n- Less Than Zero",
       "company": null,
       "created_at": "2012-01-20T17:37:03Z",
-      "total_stars": 5894
+      "total_stars": 5896
     },
     {
       "login": "janl",
       "name": "Jan Lehnardt",
       "avatar_url": "https://avatars.githubusercontent.com/u/11321?s=88&v=4",
       "html_url": "https://github.com/janl",
-      "followers": 1948,
+      "followers": 1947,
       "following": 9,
       "public_repos": 79,
       "location": "Berlin, Germany",
       "bio": "Makes @couchdb & #offlinefirst. Made @jsconfeu @greenkeeperio @hoodiehq. CEO at @neighbourh00die. Dissatisfied with the status-quo.",
       "company": "Neighbourhoodie Software",
       "created_at": "2008-05-23T16:58:22Z",
-      "total_stars": 17660
+      "total_stars": 17663
     },
     {
       "login": "frozeman",
       "name": "Fabian Vogelsteller",
       "avatar_url": "https://avatars.githubusercontent.com/u/232662?s=88&u=d4221251fe93c55da1fbf4761a91bffd8467f137&v=4",
       "html_url": "https://github.com/frozeman",
-      "followers": 1926,
+      "followers": 1927,
       "following": 8,
       "public_repos": 63,
       "location": "Berlin, Germany",
@@ -807,7 +793,7 @@
       "name": "Sebastian \"Sebbie\" Silbermann",
       "avatar_url": "https://avatars.githubusercontent.com/u/12292047?s=88&u=d1523888bc16deb2ce9f5294e4849d1a2f02270c&v=4",
       "html_url": "https://github.com/eps1lon",
-      "followers": 1837,
+      "followers": 1838,
       "following": 40,
       "public_repos": 154,
       "location": "Berlin, Germany",
@@ -821,7 +807,7 @@
       "name": "Vas Ber",
       "avatar_url": "https://avatars.githubusercontent.com/u/116688165?s=88&u=abe25ac88ea019a9c36009931101c79eb9a935f6&v=4",
       "html_url": "https://github.com/laurindoisaac",
-      "followers": 1758,
+      "followers": 1763,
       "following": 1556,
       "public_repos": 329,
       "location": "Berlin",
@@ -856,14 +842,14 @@
       "bio": null,
       "company": "Freelance",
       "created_at": "2012-02-06T10:55:41Z",
-      "total_stars": 3712
+      "total_stars": 3711
     },
     {
       "login": "leo",
       "name": "Leo Lamprecht",
       "avatar_url": "https://avatars.githubusercontent.com/u/6170607?s=88&u=cbce03757b2f55460a8d6b79cd23fbd6338068e3&v=4",
       "html_url": "https://github.com/leo",
-      "followers": 1749,
+      "followers": 1746,
       "following": 89,
       "public_repos": 56,
       "location": "Berlin",
@@ -884,14 +870,28 @@
       "bio": "Senior Software Engineer",
       "company": "ex. Aviasales",
       "created_at": "2011-07-19T18:50:39Z",
-      "total_stars": 3993
+      "total_stars": 3994
+    },
+    {
+      "login": "jamwithai",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/186450365?s=88&u=b997a5ab5180a919c0e8f2f544434d95a61117a5&v=4",
+      "html_url": "https://github.com/jamwithai",
+      "followers": 1663,
+      "following": 0,
+      "public_repos": 5,
+      "location": "Berlin, Germany",
+      "bio": "Your go-to source for real-world insights on Data Science, Machine Learning, LLMs, and MLOps. 🚀",
+      "company": null,
+      "created_at": "2024-10-27T05:47:42Z",
+      "total_stars": 10904
     },
     {
       "login": "roji",
       "name": "Shay Rojansky",
       "avatar_url": "https://avatars.githubusercontent.com/u/1862641?s=88&u=3c47b8edd174da56aa159ebf50a0a453af2e228e&v=4",
       "html_url": "https://github.com/roji",
-      "followers": 1659,
+      "followers": 1662,
       "following": 6,
       "public_repos": 28,
       "location": "Berlin, Germany",
@@ -901,25 +901,11 @@
       "total_stars": 76
     },
     {
-      "login": "jamwithai",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/186450365?s=88&u=b997a5ab5180a919c0e8f2f544434d95a61117a5&v=4",
-      "html_url": "https://github.com/jamwithai",
-      "followers": 1656,
-      "following": 0,
-      "public_repos": 5,
-      "location": "Berlin, Germany",
-      "bio": "Your go-to source for real-world insights on Data Science, Machine Learning, LLMs, and MLOps. 🚀",
-      "company": null,
-      "created_at": "2024-10-27T05:47:42Z",
-      "total_stars": 10861
-    },
-    {
       "login": "Tienisto",
       "name": "Tien Nam Do",
       "avatar_url": "https://avatars.githubusercontent.com/u/38380847?s=88&u=09dbb9f7d3a8223125d1db0a9240ea4c9fdee868&v=4",
       "html_url": "https://github.com/Tienisto",
-      "followers": 1623,
+      "followers": 1632,
       "following": 9,
       "public_repos": 24,
       "location": "Berlin, Germany",
@@ -933,7 +919,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/9073706?s=88&v=4",
       "html_url": "https://github.com/chriseth",
-      "followers": 1508,
+      "followers": 1510,
       "following": 0,
       "public_repos": 26,
       "location": "Berlin",
@@ -975,28 +961,28 @@
       "name": "Maciej Walkowiak",
       "avatar_url": "https://avatars.githubusercontent.com/u/1357927?s=88&u=c18ed6cc6e5083d098c0339956f53ef0887d18a0&v=4",
       "html_url": "https://github.com/maciejwalkowiak",
-      "followers": 1461,
+      "followers": 1462,
       "following": 60,
       "public_repos": 76,
       "location": "Berlin, Germany",
       "bio": "Freelance Architect & Developer\r\n🍃Spring projects Contributor\r\nJava ∙ Spring ∙ AWS ∙",
       "company": null,
       "created_at": "2012-01-20T12:33:25Z",
-      "total_stars": 1688
+      "total_stars": 1687
     },
     {
       "login": "lukasmasuch",
       "name": "Lukas Masuch",
       "avatar_url": "https://avatars.githubusercontent.com/u/2852129?s=88&u=632d8fd8bdbfa336a8fee857d97e4d6890e2c340&v=4",
       "html_url": "https://github.com/lukasmasuch",
-      "followers": 1448,
+      "followers": 1449,
       "following": 28,
       "public_repos": 24,
       "location": "Berlin",
       "bio": null,
       "company": "@streamlit",
       "created_at": "2012-11-21T09:03:10Z",
-      "total_stars": 30718
+      "total_stars": 30728
     },
     {
       "login": "solegalli",
@@ -1010,7 +996,7 @@
       "bio": "👨‍💻 Data scientist, Python developer, best-selling machine learning instructor, and book author. 📚 Developer of Feature-engine. 🚀",
       "company": "Train in Data",
       "created_at": "2015-04-05T10:25:19Z",
-      "total_stars": 1276
+      "total_stars": 1277
     },
     {
       "login": "Byron",
@@ -1031,7 +1017,7 @@
       "name": "Dat Tran",
       "avatar_url": "https://avatars.githubusercontent.com/u/3866530?s=88&u=b7ecf7393331d0d2ace8dae0d2964c2c48b89ef6&v=4",
       "html_url": "https://github.com/datitran",
-      "followers": 1371,
+      "followers": 1372,
       "following": 73,
       "public_repos": 26,
       "location": "Berlin",
@@ -1045,14 +1031,14 @@
       "name": " Kevin Jahns",
       "avatar_url": "https://avatars.githubusercontent.com/u/5553757?s=88&u=01619627516d257a233aa801e897e59356231b1b&v=4",
       "html_url": "https://github.com/dmonad",
-      "followers": 1354,
+      "followers": 1355,
       "following": 33,
       "public_repos": 26,
       "location": "Berlin, Germany",
       "bio": "Working to make the web more collaborative @yjs @y-crdt \r\n\r\n\r\n\r\n",
       "company": "Independent OSS Developer",
       "created_at": "2013-09-26T23:26:43Z",
-      "total_stars": 1063
+      "total_stars": 1064
     },
     {
       "login": "mukul975",
@@ -1073,7 +1059,7 @@
       "name": "Travis CI",
       "avatar_url": "https://avatars.githubusercontent.com/u/33116358?s=88&u=2e4c996d9e7d5f883d638b01f063e5dee363ecdd&v=4",
       "html_url": "https://github.com/traviscibot",
-      "followers": 1332,
+      "followers": 1334,
       "following": 0,
       "public_repos": 0,
       "location": "Berlin, Germany",
@@ -1087,11 +1073,11 @@
       "name": "Mohamed Mesto, M. Sc. Ing.",
       "avatar_url": "https://avatars.githubusercontent.com/u/44340777?s=88&u=6cfe33ad5d83d3e4afe598fb29a79c2bc4f0dbe3&v=4",
       "html_url": "https://github.com/MohamedMesto",
-      "followers": 1315,
+      "followers": 1313,
       "following": 2903,
       "public_repos": 46,
       "location": "Berlin",
-      "bio": "Research Engineer | Speech Processing, NLP & Human-Centered AI | Digital Transformation for Public Institutions |  Team Lead @ UN2050 IT Kreativ & Handel Soluti",
+      "bio": "Research Engineer | Speech Pro, NLP & Human-Centered AI | Digital Transformation for Public Institutions |  Team Lead @ UN2050 IT Kreativ & Handel Solution",
       "company": "UN2050 IT Kreativ & Handel Solutions",
       "created_at": "2018-10-21T13:46:26Z",
       "total_stars": 70
@@ -1103,12 +1089,12 @@
       "html_url": "https://github.com/pedromassango",
       "followers": 1287,
       "following": 119,
-      "public_repos": 82,
+      "public_repos": 83,
       "location": "Berlin",
-      "bio": "Senior Software Engineer - Mobile, Flutter, Android",
+      "bio": "Senior Software Engineer",
       "company": "@monta-app",
       "created_at": "2017-11-01T18:50:33Z",
-      "total_stars": 4017
+      "total_stars": 4015
     },
     {
       "login": "gka",
@@ -1129,22 +1115,22 @@
       "name": "Simon Choi",
       "avatar_url": "https://avatars.githubusercontent.com/u/13610195?s=88&u=ecfb8f1bba5432f80a8adafc1702703ce8178a84&v=4",
       "html_url": "https://github.com/simc",
-      "followers": 1269,
+      "followers": 1268,
       "following": 13,
       "public_repos": 13,
       "location": "Berlin, Germany",
       "bio": "Electrical engineer, Android & Flutter developer. Author of Hive, Isar, Crimson & AutoSizeText packages.",
       "company": null,
       "created_at": "2015-08-02T12:22:55Z",
-      "total_stars": 5921
+      "total_stars": 5920
     },
     {
       "login": "kashif",
       "name": "Kashif Rasul",
       "avatar_url": "https://avatars.githubusercontent.com/u/8100?s=88&v=4",
       "html_url": "https://github.com/kashif",
-      "followers": 1266,
-      "following": 153,
+      "followers": 1264,
+      "following": 154,
       "public_repos": 34,
       "location": "Berlin, Germany",
       "bio": "Principal Research Scientist working on Deep Learning, Time Series Forecasting, Reinforcement Learning and HPC.",
@@ -1171,14 +1157,14 @@
       "name": "Stefan Judis",
       "avatar_url": "https://avatars.githubusercontent.com/u/962099?s=88&u=8e3051d47bccf8d75441bc4a13fff2eed3985e0f&v=4",
       "html_url": "https://github.com/stefanjudis",
-      "followers": 1240,
+      "followers": 1241,
       "following": 244,
       "public_repos": 136,
       "location": "Berlin",
       "bio": "frontend dev ⭐ doing open source stuff ⭐ Sending the Web Weekly newsletter to 6k web developers.",
       "company": null,
       "created_at": "2011-08-05T21:14:11Z",
-      "total_stars": 3899
+      "total_stars": 3902
     },
     {
       "login": "cytopia",
@@ -1192,7 +1178,7 @@
       "bio": "DevOps Engineer",
       "company": null,
       "created_at": "2015-05-20T18:47:38Z",
-      "total_stars": 11558
+      "total_stars": 11570
     },
     {
       "login": "aFarkas",
@@ -1206,28 +1192,14 @@
       "bio": null,
       "company": null,
       "created_at": "2010-01-23T12:19:27Z",
-      "total_stars": 30350
-    },
-    {
-      "login": "jamesmunns",
-      "name": "James Munns",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2097964?s=88&u=021cc61cd472a67603e91e4b4a3dff492a3a611c&v=4",
-      "html_url": "https://github.com/jamesmunns",
-      "followers": 1175,
-      "following": 21,
-      "public_repos": 197,
-      "location": "Berlin, DE",
-      "bio": "Bringing Rust to new places, big and small.\r\n\r\nResources Team @ Rust Embedded Working Group",
-      "company": "@oxidecomputer",
-      "created_at": "2012-08-05T10:39:01Z",
-      "total_stars": 4310
+      "total_stars": 30351
     },
     {
       "login": "ledgerhubteam",
       "name": "LEDGER Team",
       "avatar_url": "https://avatars.githubusercontent.com/u/13338527?s=88&u=9023e9530e4262af9885ea4093f442157bc684fc&v=4",
       "html_url": "https://github.com/ledgerhubteam",
-      "followers": 1170,
+      "followers": 1178,
       "following": 963,
       "public_repos": 57,
       "location": "Berlin",
@@ -1237,11 +1209,25 @@
       "total_stars": 131
     },
     {
+      "login": "jamesmunns",
+      "name": "James Munns",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2097964?s=88&u=021cc61cd472a67603e91e4b4a3dff492a3a611c&v=4",
+      "html_url": "https://github.com/jamesmunns",
+      "followers": 1176,
+      "following": 21,
+      "public_repos": 197,
+      "location": "Berlin, DE",
+      "bio": "Bringing Rust to new places, big and small.\r\n\r\nResources Team @ Rust Embedded Working Group",
+      "company": "@oxidecomputer",
+      "created_at": "2012-08-05T10:39:01Z",
+      "total_stars": 4309
+    },
+    {
       "login": "beorn7",
       "name": "Björn Rabenstein",
       "avatar_url": "https://avatars.githubusercontent.com/u/5609886?s=88&u=664f9a1fc9f7ae3874adaa0253d48c7510ddd5ea&v=4",
       "html_url": "https://github.com/beorn7",
-      "followers": 1168,
+      "followers": 1169,
       "following": 421,
       "public_repos": 12,
       "location": "Berlin",
@@ -1279,53 +1265,11 @@
       "total_stars": 144
     },
     {
-      "login": "LilithWittmann",
-      "name": "Lilith Wittmann",
-      "avatar_url": "https://avatars.githubusercontent.com/u/891030?s=88&u=00a6c1aa50f76179bc4ee5be1c012bc6667515b9&v=4",
-      "html_url": "https://github.com/LilithWittmann",
-      "followers": 1125,
-      "following": 54,
-      "public_repos": 25,
-      "location": "Berlin, Germany",
-      "bio": "freelance developer & consultant\r\n",
-      "company": null,
-      "created_at": "2011-07-02T23:39:24Z",
-      "total_stars": 239
-    },
-    {
-      "login": "tgalal",
-      "name": "Tarek Galal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/895331?s=88&u=3b5c91f5c99429f3b4bcf8be2ab5e5a1b18e06d5&v=4",
-      "html_url": "https://github.com/tgalal",
-      "followers": 1121,
-      "following": 92,
-      "public_repos": 29,
-      "location": "Berlin, Germany",
-      "bio": "Researcher in Applied Cryptography and Software Engineer",
-      "company": null,
-      "created_at": "2011-07-05T10:29:14Z",
-      "total_stars": 8109
-    },
-    {
-      "login": "annaveth",
-      "name": "Anna",
-      "avatar_url": "https://avatars.githubusercontent.com/u/218972716?s=88&u=7cf0e241b106a5d0fd246da16a66f94c9a49d0e0&v=4",
-      "html_url": "https://github.com/annaveth",
-      "followers": 1118,
-      "following": 921,
-      "public_repos": 58,
-      "location": "Berlin",
-      "bio": "$NAIM: Up1S7BNrzWqWXeEwPQwAkeu25t7dD8EMHvBV5fBpump",
-      "company": "Elinext",
-      "created_at": "2025-07-02T12:25:31Z",
-      "total_stars": 185
-    },
-    {
       "login": "janober",
       "name": "Jan Oberhauser",
       "avatar_url": "https://avatars.githubusercontent.com/u/6249596?s=88&u=947b878accb74900f66cf6228c87d3165a882a6c&v=4",
       "html_url": "https://github.com/janober",
-      "followers": 1117,
+      "followers": 1127,
       "following": 0,
       "public_repos": 7,
       "location": "Berlin, Germany",
@@ -1335,25 +1279,67 @@
       "total_stars": 21
     },
     {
+      "login": "LilithWittmann",
+      "name": "Lilith Wittmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/891030?s=88&u=00a6c1aa50f76179bc4ee5be1c012bc6667515b9&v=4",
+      "html_url": "https://github.com/LilithWittmann",
+      "followers": 1126,
+      "following": 54,
+      "public_repos": 25,
+      "location": "Berlin, Germany",
+      "bio": "freelance developer & consultant\r\n",
+      "company": null,
+      "created_at": "2011-07-02T23:39:24Z",
+      "total_stars": 239
+    },
+    {
+      "login": "annaveth",
+      "name": "Anna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218972716?s=88&u=7cf0e241b106a5d0fd246da16a66f94c9a49d0e0&v=4",
+      "html_url": "https://github.com/annaveth",
+      "followers": 1121,
+      "following": 921,
+      "public_repos": 58,
+      "location": "Berlin",
+      "bio": "$NAIM: Up1S7BNrzWqWXeEwPQwAkeu25t7dD8EMHvBV5fBpump",
+      "company": "Elinext",
+      "created_at": "2025-07-02T12:25:31Z",
+      "total_stars": 185
+    },
+    {
+      "login": "tgalal",
+      "name": "Tarek Galal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/895331?s=88&u=3b5c91f5c99429f3b4bcf8be2ab5e5a1b18e06d5&v=4",
+      "html_url": "https://github.com/tgalal",
+      "followers": 1120,
+      "following": 92,
+      "public_repos": 29,
+      "location": "Berlin, Germany",
+      "bio": "Researcher in Applied Cryptography and Software Engineer",
+      "company": null,
+      "created_at": "2011-07-05T10:29:14Z",
+      "total_stars": 8115
+    },
+    {
       "login": "moklick",
       "name": "Moritz Klack",
       "avatar_url": "https://avatars.githubusercontent.com/u/2857535?s=88&u=ac1c57315f8c82b9940b783382e6f60fca854ce5&v=4",
       "html_url": "https://github.com/moklick",
-      "followers": 1104,
+      "followers": 1105,
       "following": 8,
       "public_repos": 19,
       "location": "Berlin",
       "bio": "Working on React Flow and Svelte Flow @xyflow ",
       "company": "@xyflow",
       "created_at": "2012-11-21T22:06:05Z",
-      "total_stars": 9792
+      "total_stars": 9793
     },
     {
       "login": "sujinleeme",
       "name": "Sujin Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/6011401?s=88&u=a5f2aada18689890a2ce5ba7ec1abff32475ad8c&v=4",
       "html_url": "https://github.com/sujinleeme",
-      "followers": 1097,
+      "followers": 1098,
       "following": 404,
       "public_repos": 36,
       "location": "Berlin, Germany",
@@ -1381,7 +1367,7 @@
       "name": "Adam Wiggins",
       "avatar_url": "https://avatars.githubusercontent.com/u/177?s=88&u=e64c0d720f2bc1aea2e8fda20e955c0b088f50bd&v=4",
       "html_url": "https://github.com/adamwiggins",
-      "followers": 1049,
+      "followers": 1048,
       "following": 16,
       "public_repos": 66,
       "location": "Berlin",
@@ -1395,7 +1381,7 @@
       "name": "Filipe Coelho",
       "avatar_url": "https://avatars.githubusercontent.com/u/1334853?s=88&u=2d880569c7daa861b38c457650b90a6630b23058&v=4",
       "html_url": "https://github.com/falkTX",
-      "followers": 1031,
+      "followers": 1033,
       "following": 3,
       "public_repos": 43,
       "location": "Berlin, Germany",
@@ -1403,6 +1389,20 @@
       "company": null,
       "created_at": "2012-01-16T20:28:18Z",
       "total_stars": 3117
+    },
+    {
+      "login": "davidchambers",
+      "name": "David Chambers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/210406?s=88&u=1e326868a0f976cb221994d4d528db8d1e28e0f4&v=4",
+      "html_url": "https://github.com/davidchambers",
+      "followers": 1026,
+      "following": 77,
+      "public_repos": 34,
+      "location": "Berlin",
+      "bio": "Functional programming enthusiast. Creator of Sanctuary, our refuge from unsafe JavaScript.",
+      "company": null,
+      "created_at": "2010-02-25T03:13:55Z",
+      "total_stars": 1520
     },
     {
       "login": "vitormalencar",
@@ -1419,18 +1419,18 @@
       "total_stars": 226
     },
     {
-      "login": "davidchambers",
-      "name": "David Chambers",
-      "avatar_url": "https://avatars.githubusercontent.com/u/210406?s=88&u=1e326868a0f976cb221994d4d528db8d1e28e0f4&v=4",
-      "html_url": "https://github.com/davidchambers",
-      "followers": 1026,
-      "following": 77,
-      "public_repos": 34,
-      "location": "Berlin",
-      "bio": "Functional programming enthusiast. Creator of Sanctuary, our refuge from unsafe JavaScript.",
+      "login": "visenger",
+      "name": "Dr. Larysa Visengeriyeva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2014749?s=88&v=4",
+      "html_url": "https://github.com/visenger",
+      "followers": 1019,
+      "following": 4,
+      "public_repos": 24,
+      "location": "Berlin, Germany ",
+      "bio": "\r\n    I am the queen of ml-ops.org \r\nWorking at the intersection of software engineering and machine learning. PhD in Augmented Data Quality.\r\n",
       "company": null,
-      "created_at": "2010-02-25T03:13:55Z",
-      "total_stars": 1520
+      "created_at": "2012-07-20T22:37:19Z",
+      "total_stars": 14449
     }
   ],
   "orgs": [
@@ -1439,98 +1439,98 @@
       "name": "Le Wagon",
       "avatar_url": "https://avatars.githubusercontent.com/u/5470001?s=88&v=4",
       "html_url": "https://github.com/lewagon",
-      "followers": 4270,
+      "followers": 4273,
       "following": 0,
       "public_repos": 164,
       "location": "Paris, London, Berlin & more",
       "bio": "Coding School bringing Technical Skills to Creative People",
       "company": null,
       "created_at": "2013-09-16T13:20:52Z",
-      "total_stars": 46164
+      "total_stars": 46222
     },
     {
       "login": "typst",
       "name": "Typst",
       "avatar_url": "https://avatars.githubusercontent.com/u/67595261?s=88&v=4",
       "html_url": "https://github.com/typst",
-      "followers": 3579,
+      "followers": 3589,
       "following": 0,
       "public_repos": 24,
       "location": "Berlin",
       "bio": "The new foundation for documents: Limitless power to write, create, and automate anything that you can fit on a page.",
       "company": null,
       "created_at": "2020-06-29T15:08:38Z",
-      "total_stars": 61583
+      "total_stars": 61671
     },
     {
       "login": "deliveryhero",
       "name": "Delivery Hero SE",
       "avatar_url": "https://avatars.githubusercontent.com/u/7225556?s=88&v=4",
       "html_url": "https://github.com/deliveryhero",
-      "followers": 1534,
+      "followers": 1539,
       "following": 0,
       "public_repos": 19,
       "location": "Berlin",
       "bio": null,
       "company": null,
       "created_at": "2014-04-08T13:09:24Z",
-      "total_stars": 1499
+      "total_stars": 1500
     },
     {
       "login": "explosion",
       "name": "Explosion",
       "avatar_url": "https://avatars.githubusercontent.com/u/20011530?s=88&v=4",
       "html_url": "https://github.com/explosion",
-      "followers": 1518,
+      "followers": 1519,
       "following": 0,
       "public_repos": 78,
       "location": "Berlin, Germany",
       "bio": "Software company specializing in developer tools and tailored solutions for AI and Natural Language Processing",
       "company": null,
       "created_at": "2016-06-18T09:18:01Z",
-      "total_stars": 55645
+      "total_stars": 55667
     },
     {
       "login": "xyflow",
       "name": "xyflow",
       "avatar_url": "https://avatars.githubusercontent.com/u/7106853?s=88&v=4",
       "html_url": "https://github.com/xyflow",
-      "followers": 1041,
+      "followers": 1044,
       "following": 0,
       "public_repos": 18,
       "location": "Berlin",
       "bio": "Powerful open source libraries for building node-based UIs with React or Svelte. Ready out-of-the-box and infinitely customizable",
       "company": null,
       "created_at": "2014-03-30T12:14:11Z",
-      "total_stars": 43309
+      "total_stars": 43368
     },
     {
       "login": "Expensify",
       "name": "Expensify, Inc",
       "avatar_url": "https://avatars.githubusercontent.com/u/476779?s=88&v=4",
       "html_url": "https://github.com/Expensify",
-      "followers": 1020,
+      "followers": 1022,
       "following": 0,
       "public_repos": 26,
       "location": "San Francisco, Ironwood, Denver, London, Berlin, Melbourne, Portland",
       "bio": null,
       "company": null,
       "created_at": "2010-11-11T03:59:16Z",
-      "total_stars": 10088
+      "total_stars": 10091
     },
     {
       "login": "zalando",
       "name": "Zalando SE",
       "avatar_url": "https://avatars.githubusercontent.com/u/1564818?s=88&v=4",
       "html_url": "https://github.com/zalando",
-      "followers": 1004,
+      "followers": 1005,
       "following": 0,
       "public_repos": 49,
       "location": "Berlin, Dublin, Helsinki, Dortmund, Erfurt, Mönchengladbach, Hamburg",
       "bio": "The org page for Zalando, Europe's leading online fashion platform. Visit opensource.zalando.com for project stats.",
       "company": null,
       "created_at": "2012-03-22T14:47:53Z",
-      "total_stars": 35837
+      "total_stars": 35846
     },
     {
       "login": "mtdvio",
@@ -1544,7 +1544,7 @@
       "bio": "We help Software Engineers learn and grow!",
       "company": null,
       "created_at": "2017-10-24T07:58:34Z",
-      "total_stars": 103373
+      "total_stars": 103387
     },
     {
       "login": "iotaledger",
@@ -1558,21 +1558,21 @@
       "bio": "IOTA is an open-source distributed ledger technology built to bring real-world applications on-chain.",
       "company": null,
       "created_at": "2016-06-24T10:55:18Z",
-      "total_stars": 3276
+      "total_stars": 3275
     },
     {
       "login": "wix",
       "name": "Wix.com",
       "avatar_url": "https://avatars.githubusercontent.com/u/686511?s=88&v=4",
       "html_url": "https://github.com/wix",
-      "followers": 815,
+      "followers": 817,
       "following": 0,
       "public_repos": 19,
       "location": "Tel Aviv, Be'er Sheva, Haifa, Vilnius, Kyiv, Dnipro, New York, San Francisco, Miami, Los Angeles, Phoenix, Denver, Berlin, Sao Paulo, Vancouver, Dublin, Tokyo",
       "bio": "Open-sourcing useful pieces of code",
       "company": null,
       "created_at": "2011-03-23T16:40:49Z",
-      "total_stars": 49483
+      "total_stars": 49496
     },
     {
       "login": "opf",
@@ -1586,28 +1586,28 @@
       "bio": "The leading open source project management and team collaboration software.",
       "company": null,
       "created_at": "2012-05-20T12:56:12Z",
-      "total_stars": 17201
+      "total_stars": 17249
     },
     {
       "login": "ueberdosis",
       "name": "Tiptap",
       "avatar_url": "https://avatars.githubusercontent.com/u/16939337?s=88&v=4",
       "html_url": "https://github.com/ueberdosis",
-      "followers": 706,
+      "followers": 707,
       "following": 0,
       "public_repos": 32,
       "location": "Berlin, Germany",
       "bio": "The developer toolkit for modern content editing infrastructure",
       "company": null,
       "created_at": "2016-01-28T14:21:50Z",
-      "total_stars": 43836
+      "total_stars": 43891
     },
     {
       "login": "hellofresh",
       "name": "HelloFresh",
       "avatar_url": "https://avatars.githubusercontent.com/u/4430027?s=88&v=4",
       "html_url": "https://github.com/hellofresh",
-      "followers": 660,
+      "followers": 662,
       "following": 0,
       "public_repos": 66,
       "location": "Berlin",
@@ -1621,14 +1621,14 @@
       "name": "Fritzing",
       "avatar_url": "https://avatars.githubusercontent.com/u/8562144?s=88&v=4",
       "html_url": "https://github.com/fritzing",
-      "followers": 619,
+      "followers": 621,
       "following": 0,
       "public_repos": 12,
       "location": "Berlin, Germany",
       "bio": "electronics made easy",
       "company": null,
       "created_at": "2014-08-26T22:13:42Z",
-      "total_stars": 5652
+      "total_stars": 5663
     },
     {
       "login": "photoprism",
@@ -1642,7 +1642,7 @@
       "bio": "AI-powered platform for photos and videos. We are on a mission to protect your freedom and privacy.",
       "company": null,
       "created_at": "2017-10-01T16:01:01Z",
-      "total_stars": 40463
+      "total_stars": 40477
     },
     {
       "login": "soundcloud",
@@ -1656,14 +1656,14 @@
       "bio": null,
       "company": null,
       "created_at": "2008-08-18T14:13:13Z",
-      "total_stars": 8369
+      "total_stars": 8368
     },
     {
       "login": "doctolib",
       "name": "Doctolib",
       "avatar_url": "https://avatars.githubusercontent.com/u/5823649?s=88&v=4",
       "html_url": "https://github.com/doctolib",
-      "followers": 579,
+      "followers": 585,
       "following": 0,
       "public_repos": 31,
       "location": "Paris, Berlin",
@@ -1677,14 +1677,14 @@
       "name": "Yjs",
       "avatar_url": "https://avatars.githubusercontent.com/u/45042178?s=88&v=4",
       "html_url": "https://github.com/yjs",
-      "followers": 524,
+      "followers": 525,
       "following": 0,
       "public_repos": 34,
       "location": "Germany, Berlin",
       "bio": "Shared Editing",
       "company": null,
       "created_at": "2018-11-14T15:33:35Z",
-      "total_stars": 27920
+      "total_stars": 27940
     },
     {
       "login": "objectbox",
@@ -1693,26 +1693,26 @@
       "html_url": "https://github.com/objectbox",
       "followers": 489,
       "following": 0,
-      "public_repos": 35,
+      "public_repos": 36,
       "location": "Berlin, Germany",
       "bio": "On-device database & vector database for local object persistence, 10x faster than SQLite",
       "company": null,
       "created_at": "2016-09-20T17:38:20Z",
-      "total_stars": 8908
+      "total_stars": 8909
     },
     {
       "login": "Nitrokey",
       "name": "Nitrokey",
       "avatar_url": "https://avatars.githubusercontent.com/u/9438831?s=88&v=4",
       "html_url": "https://github.com/Nitrokey",
-      "followers": 488,
+      "followers": 489,
       "following": 0,
       "public_repos": 103,
       "location": "Berlin",
       "bio": "Secure your digital life",
       "company": null,
       "created_at": "2014-10-28T21:55:10Z",
-      "total_stars": 1908
+      "total_stars": 1912
     },
     {
       "login": "weaveworks",
@@ -1726,7 +1726,7 @@
       "bio": "weaving containers into applications -Transitioning to a Community Driven Project",
       "company": null,
       "created_at": "2014-11-27T11:49:24Z",
-      "total_stars": 27145
+      "total_stars": 27150
     },
     {
       "login": "zalandoresearch",
@@ -1740,21 +1740,21 @@
       "bio": "Repositories of the research branch of Zalando SE",
       "company": null,
       "created_at": "2017-08-09T14:20:58Z",
-      "total_stars": 15802
+      "total_stars": 15806
     },
     {
       "login": "OpenBankProject",
       "name": "Open Bank Project",
       "avatar_url": "https://avatars.githubusercontent.com/u/1379459?s=88&v=4",
       "html_url": "https://github.com/OpenBankProject",
-      "followers": 366,
+      "followers": 367,
       "following": 0,
       "public_repos": 93,
       "location": "Berlin",
       "bio": "Enabling greater financial transparency and innovation around banks!",
       "company": null,
       "created_at": "2012-01-25T15:53:18Z",
-      "total_stars": 2205
+      "total_stars": 2206
     },
     {
       "login": "objcio",
@@ -1768,49 +1768,49 @@
       "bio": null,
       "company": null,
       "created_at": "2013-05-12T11:22:31Z",
-      "total_stars": 9210
+      "total_stars": 9206
     },
     {
       "login": "osmocom",
       "name": "Official Osmocom mirror",
       "avatar_url": "https://avatars.githubusercontent.com/u/1415806?s=88&v=4",
       "html_url": "https://github.com/osmocom",
-      "followers": 340,
+      "followers": 342,
       "following": 0,
       "public_repos": 123,
       "location": "Berlin, Germany",
       "bio": "Mirror of the https://gitea.osmocom.org repositories; we don't accept pull requesets here, but encourage patch submission via https://gerrit.osmocom.org/",
       "company": null,
       "created_at": "2012-02-07T11:59:42Z",
-      "total_stars": 3585
+      "total_stars": 3591
     },
     {
       "login": "bitwig",
       "name": "Bitwig",
       "avatar_url": "https://avatars.githubusercontent.com/u/160524?s=88&v=4",
       "html_url": "https://github.com/bitwig",
-      "followers": 276,
+      "followers": 278,
       "following": 0,
       "public_repos": 5,
       "location": "Berlin, Germany",
       "bio": "Software for music and sound.",
       "company": null,
       "created_at": "2009-12-01T20:46:22Z",
-      "total_stars": 1389
+      "total_stars": 1394
     },
     {
       "login": "traderepublic",
       "name": "Trade Republic",
       "avatar_url": "https://avatars.githubusercontent.com/u/17580522?s=88&v=4",
       "html_url": "https://github.com/traderepublic",
-      "followers": 251,
+      "followers": 252,
       "following": 0,
       "public_repos": 2,
       "location": "Berlin, Germany",
       "bio": null,
       "company": null,
       "created_at": "2016-03-01T22:43:21Z",
-      "total_stars": 1266
+      "total_stars": 1267
     },
     {
       "login": "robert-koch-institut",
@@ -1819,7 +1819,7 @@
       "html_url": "https://github.com/robert-koch-institut",
       "followers": 240,
       "following": 0,
-      "public_repos": 69,
+      "public_repos": 67,
       "location": "Berlin",
       "bio": "Das RKI ist die zentrale Einrichtung der deutschen Bundesregierung auf dem Gebiet der Krankheitsüberwachung und -prävention.",
       "company": null,
@@ -1838,7 +1838,7 @@
       "bio": "cables is visual programming in your browser",
       "company": null,
       "created_at": "2016-10-17T15:01:28Z",
-      "total_stars": 1108
+      "total_stars": 1113
     },
     {
       "login": "n26",
@@ -1866,7 +1866,21 @@
       "bio": null,
       "company": null,
       "created_at": "2019-04-04T13:54:39Z",
-      "total_stars": 3887
+      "total_stars": 3890
+    },
+    {
+      "login": "ecosia",
+      "name": "Ecosia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7389564?s=88&v=4",
+      "html_url": "https://github.com/ecosia",
+      "followers": 209,
+      "following": 0,
+      "public_repos": 25,
+      "location": "Berlin, Germany",
+      "bio": "A better planet with every line of code",
+      "company": null,
+      "created_at": "2014-04-23T23:09:58Z",
+      "total_stars": 148
     },
     {
       "login": "aytitech",
@@ -1880,21 +1894,7 @@
       "bio": "Neşesi yerinde ayti portalı",
       "company": null,
       "created_at": "2020-10-22T19:25:08Z",
-      "total_stars": 482
-    },
-    {
-      "login": "ecosia",
-      "name": "Ecosia",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7389564?s=88&v=4",
-      "html_url": "https://github.com/ecosia",
-      "followers": 207,
-      "following": 0,
-      "public_repos": 25,
-      "location": "Berlin, Germany",
-      "bio": "A better planet with every line of code",
-      "company": null,
-      "created_at": "2014-04-23T23:09:58Z",
-      "total_stars": 148
+      "total_stars": 483
     },
     {
       "login": "ContainerSolutions",
@@ -1922,7 +1922,7 @@
       "bio": "Cantonese Computational Linguistics Infrastructure Development Workgroup",
       "company": null,
       "created_at": "2020-07-20T15:49:07Z",
-      "total_stars": 679
+      "total_stars": 681
     },
     {
       "login": "papermerge",
@@ -1936,21 +1936,21 @@
       "bio": "Document Management for Digital Archives",
       "company": null,
       "created_at": "2020-03-21T06:15:52Z",
-      "total_stars": 656
+      "total_stars": 659
     },
     {
       "login": "pupil-labs",
       "name": "Pupil Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/5248635?s=88&v=4",
       "html_url": "https://github.com/pupil-labs",
-      "followers": 199,
+      "followers": 202,
       "following": 0,
       "public_repos": 94,
       "location": "Berlin, Germany",
       "bio": "accessible open source tools for eye tracking and egocentric vision research",
       "company": null,
       "created_at": "2013-08-17T03:38:33Z",
-      "total_stars": 2559
+      "total_stars": 2560
     },
     {
       "login": "rotki",
@@ -1964,7 +1964,7 @@
       "bio": "An opensource asset management, tracking and analytics application",
       "company": null,
       "created_at": "2018-03-05T11:24:49Z",
-      "total_stars": 4140
+      "total_stars": 4142
     },
     {
       "login": "BIMSBbioinfo",
@@ -1978,7 +1978,7 @@
       "bio": "git repositories for the Akalin lab",
       "company": null,
       "created_at": "2014-01-23T15:25:57Z",
-      "total_stars": 1244
+      "total_stars": 1246
     },
     {
       "login": "volkamerlab",
@@ -1992,7 +1992,7 @@
       "bio": null,
       "company": null,
       "created_at": "2018-11-08T19:04:36Z",
-      "total_stars": 1618
+      "total_stars": 1621
     },
     {
       "login": "think-cell",
@@ -2013,7 +2013,7 @@
       "name": "GIS • OPS",
       "avatar_url": "https://avatars.githubusercontent.com/u/45774496?s=88&v=4",
       "html_url": "https://github.com/gis-ops",
-      "followers": 188,
+      "followers": 190,
       "following": 0,
       "public_repos": 17,
       "location": "Berlin",
@@ -2027,14 +2027,14 @@
       "name": "DLR Institute for Software Technology",
       "avatar_url": "https://avatars.githubusercontent.com/u/10597204?s=88&v=4",
       "html_url": "https://github.com/DLR-SC",
-      "followers": 187,
+      "followers": 188,
       "following": 0,
       "public_repos": 73,
       "location": "Cologne, Berlin, Braunschweig, Oberpfaffenhofen, Bremen",
       "bio": "German Aerospace Center (DLR)",
       "company": null,
       "created_at": "2015-01-19T11:28:02Z",
-      "total_stars": 760
+      "total_stars": 761
     },
     {
       "login": "desec-io",
@@ -2048,7 +2048,7 @@
       "bio": null,
       "company": null,
       "created_at": "2016-09-27T20:08:55Z",
-      "total_stars": 845
+      "total_stars": 848
     },
     {
       "login": "zalando-incubator",
@@ -2076,21 +2076,21 @@
       "bio": "adjust GmbH",
       "company": null,
       "created_at": "2012-01-13T09:01:39Z",
-      "total_stars": 4555
+      "total_stars": 4553
     },
     {
       "login": "TandoorRecipes",
       "name": "Tandoor Recipes",
       "avatar_url": "https://avatars.githubusercontent.com/u/86065214?s=88&v=4",
       "html_url": "https://github.com/TandoorRecipes",
-      "followers": 177,
+      "followers": 178,
       "following": 0,
       "public_repos": 3,
       "location": "Berlin, Germany",
       "bio": "Django application for managing recipes",
       "company": null,
       "created_at": "2021-06-17T14:43:23Z",
-      "total_stars": 8739
+      "total_stars": 8743
     },
     {
       "login": "technologiestiftung",
@@ -2104,7 +2104,7 @@
       "bio": "We develop tools and smart solutions for a more open and sustainable city.",
       "company": null,
       "created_at": "2016-01-08T08:24:07Z",
-      "total_stars": 459
+      "total_stars": 460
     },
     {
       "login": "QuantLet",
@@ -2113,7 +2113,7 @@
       "html_url": "https://github.com/QuantLet",
       "followers": 175,
       "following": 0,
-      "public_repos": 312,
+      "public_repos": 313,
       "location": "Humboldt-Universität zu Berlin",
       "bio": "QuantNet Tokens for science",
       "company": null,
@@ -2125,7 +2125,7 @@
       "name": "GetYourGuide",
       "avatar_url": "https://avatars.githubusercontent.com/u/3775006?s=88&v=4",
       "html_url": "https://github.com/getyourguide",
-      "followers": 162,
+      "followers": 164,
       "following": 0,
       "public_repos": 23,
       "location": "Zürich + Berlin",
@@ -2139,21 +2139,21 @@
       "name": "Theatre.js",
       "avatar_url": "https://avatars.githubusercontent.com/u/43993577?s=88&v=4",
       "html_url": "https://github.com/theatre-js",
-      "followers": 162,
+      "followers": 163,
       "following": 0,
       "public_repos": 2,
       "location": "Helsinki & Berlin",
       "bio": "A modern animation toolbox for the web",
       "company": null,
       "created_at": "2018-10-09T12:53:04Z",
-      "total_stars": 12769
+      "total_stars": 12791
     },
     {
       "login": "bundestag",
       "name": "Bundestag",
       "avatar_url": "https://avatars.githubusercontent.com/u/1994383?s=88&v=4",
       "html_url": "https://github.com/bundestag",
-      "followers": 161,
+      "followers": 162,
       "following": 0,
       "public_repos": 15,
       "location": "Germany, Berlin",
@@ -2167,7 +2167,7 @@
       "name": "Scalable Capital",
       "avatar_url": "https://avatars.githubusercontent.com/u/6443795?s=88&v=4",
       "html_url": "https://github.com/ScaCap",
-      "followers": 160,
+      "followers": 161,
       "following": 0,
       "public_repos": 7,
       "location": "London | Munich | Berlin",
@@ -2230,7 +2230,21 @@
       "bio": "Software made in Germany",
       "company": null,
       "created_at": "2017-05-24T15:46:17Z",
-      "total_stars": 23492
+      "total_stars": 23494
+    },
+    {
+      "login": "onrunning",
+      "name": "On",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23661241?s=88&v=4",
+      "html_url": "https://github.com/onrunning",
+      "followers": 143,
+      "following": 0,
+      "public_repos": 3,
+      "location": "Zurich + Berlin",
+      "bio": "We are “the fastest growing sports company in the world”, its success comes down to two reasons: incredible products - and incredible people",
+      "company": null,
+      "created_at": "2016-11-22T16:03:57Z",
+      "total_stars": 5
     },
     {
       "login": "dw-data",
@@ -2247,20 +2261,6 @@
       "total_stars": 174
     },
     {
-      "login": "onrunning",
-      "name": "On",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23661241?s=88&v=4",
-      "html_url": "https://github.com/onrunning",
-      "followers": 140,
-      "following": 0,
-      "public_repos": 3,
-      "location": "Zurich + Berlin",
-      "bio": "We are “the fastest growing sports company in the world”, its success comes down to two reasons: incredible products - and incredible people",
-      "company": null,
-      "created_at": "2016-11-22T16:03:57Z",
-      "total_stars": 5
-    },
-    {
       "login": "GerritCodeReview",
       "name": "Gerrit Code Review",
       "avatar_url": "https://avatars.githubusercontent.com/u/7028910?s=88&v=4",
@@ -2272,14 +2272,14 @@
       "bio": "GitHub mirror of Gerrit Code Review projects",
       "company": null,
       "created_at": "2014-03-22T05:28:03Z",
-      "total_stars": 2151
+      "total_stars": 2147
     },
     {
       "login": "spring-media",
       "name": "as_tech",
       "avatar_url": "https://avatars.githubusercontent.com/u/2039487?s=88&v=4",
       "html_url": "https://github.com/spring-media",
-      "followers": 125,
+      "followers": 126,
       "following": 0,
       "public_repos": 83,
       "location": "Berlin, Germany",
@@ -2314,7 +2314,7 @@
       "bio": "Connect the world of science. Make research open to all.",
       "company": null,
       "created_at": "2011-09-23T11:28:23Z",
-      "total_stars": 2764
+      "total_stars": 2763
     },
     {
       "login": "prototypefund",
@@ -2342,14 +2342,14 @@
       "bio": "We develop open source software for people to effortlessly organise their web research and collaborate with others",
       "company": null,
       "created_at": "2014-11-02T10:18:19Z",
-      "total_stars": 5444
+      "total_stars": 5443
     },
     {
       "login": "BAMresearch",
       "name": "Bundesanstalt für Materialforschung und -prüfung",
       "avatar_url": "https://avatars.githubusercontent.com/u/54984249?s=88&v=4",
       "html_url": "https://github.com/BAMresearch",
-      "followers": 113,
+      "followers": 114,
       "following": 0,
       "public_repos": 156,
       "location": "Berlin/Germany",
@@ -2370,7 +2370,7 @@
       "bio": "Native Instruments GmbH",
       "company": null,
       "created_at": "2015-04-14T09:12:12Z",
-      "total_stars": 347
+      "total_stars": 348
     },
     {
       "login": "nextjournal",
@@ -2412,7 +2412,7 @@
       "bio": "Full-service web design and development agency",
       "company": null,
       "created_at": "2020-05-11T16:45:37Z",
-      "total_stars": 629
+      "total_stars": 630
     },
     {
       "login": "bigchaindb",
@@ -2471,20 +2471,6 @@
       "total_stars": 632
     },
     {
-      "login": "cdli-gh",
-      "name": "CDLI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16110157?s=88&v=4",
-      "html_url": "https://github.com/cdli-gh",
-      "followers": 93,
-      "following": 0,
-      "public_repos": 66,
-      "location": "Los Angeles, Oxford, Berlin",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-12-02T01:35:20Z",
-      "total_stars": 303
-    },
-    {
       "login": "renoise",
       "name": "renoise",
       "avatar_url": "https://avatars.githubusercontent.com/u/11517746?s=88&v=4",
@@ -2496,7 +2482,7 @@
       "bio": null,
       "company": null,
       "created_at": "2015-03-17T09:03:59Z",
-      "total_stars": 666
+      "total_stars": 665
     },
     {
       "login": "goerli",
@@ -2510,7 +2496,35 @@
       "bio": "An Ethereum Testnet community.",
       "company": null,
       "created_at": "2018-09-07T14:44:01Z",
-      "total_stars": 481
+      "total_stars": 482
+    },
+    {
+      "login": "cdli-gh",
+      "name": "CDLI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16110157?s=88&v=4",
+      "html_url": "https://github.com/cdli-gh",
+      "followers": 93,
+      "following": 0,
+      "public_repos": 66,
+      "location": "Los Angeles, Oxford, Berlin",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-12-02T01:35:20Z",
+      "total_stars": 304
+    },
+    {
+      "login": "codeuniversity",
+      "name": "CODE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29784497?s=88&v=4",
+      "html_url": "https://github.com/codeuniversity",
+      "followers": 92,
+      "following": 0,
+      "public_repos": 81,
+      "location": "Berlin, Germany",
+      "bio": "CODE is a newly founded private university of applied sciences that is embedded into the vibrant network of Berlin’s digital economy.",
+      "company": null,
+      "created_at": "2017-06-29T20:02:31Z",
+      "total_stars": 102
     },
     {
       "login": "Wikidata",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2014-12-03T21:54:43Z",
       "total_stars": 22
-    },
-    {
-      "login": "codeuniversity",
-      "name": "CODE",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29784497?s=88&v=4",
-      "html_url": "https://github.com/codeuniversity",
-      "followers": 91,
-      "following": 0,
-      "public_repos": 81,
-      "location": "Berlin, Germany",
-      "bio": "CODE is a newly founded private university of applied sciences that is embedded into the vibrant network of Berlin’s digital economy.",
-      "company": null,
-      "created_at": "2017-06-29T20:02:31Z",
-      "total_stars": 102
     }
   ],
   "repos": [
@@ -2560,8 +2560,8 @@
       "full_name": "mtdvio/every-programmer-should-know",
       "html_url": "https://github.com/mtdvio/every-programmer-should-know",
       "description": "A collection of (mostly) technical things every software developer should know about",
-      "stargazers_count": 100526,
-      "forks_count": 8760,
+      "stargazers_count": 100540,
+      "forks_count": 8759,
       "language": null,
       "topics": [
         "cc-by",
@@ -2579,8 +2579,8 @@
       "full_name": "tonsky/FiraCode",
       "html_url": "https://github.com/tonsky/FiraCode",
       "description": "Free monospaced font with programming ligatures",
-      "stargazers_count": 82095,
-      "forks_count": 3190,
+      "stargazers_count": 82100,
+      "forks_count": 3189,
       "language": "Clojure",
       "topics": [
         "programming-ligatures",
@@ -2596,8 +2596,8 @@
       "full_name": "typst/typst",
       "html_url": "https://github.com/typst/typst",
       "description": "A markup-based typesetting system that is powerful and easy to learn.",
-      "stargazers_count": 56572,
-      "forks_count": 1756,
+      "stargazers_count": 56651,
+      "forks_count": 1766,
       "language": "Rust",
       "topics": [
         "typesetting",
@@ -2614,8 +2614,8 @@
       "full_name": "nlohmann/json",
       "html_url": "https://github.com/nlohmann/json",
       "description": "JSON for Modern C++",
-      "stargazers_count": 50752,
-      "forks_count": 7516,
+      "stargazers_count": 50766,
+      "forks_count": 7518,
       "language": "C++",
       "topics": [
         "json",
@@ -2652,8 +2652,8 @@
       "full_name": "photoprism/photoprism",
       "html_url": "https://github.com/photoprism/photoprism",
       "description": "AI-Powered Photos App 🌈💎✨",
-      "stargazers_count": 40290,
-      "forks_count": 2331,
+      "stargazers_count": 40304,
+      "forks_count": 2333,
       "language": "Go",
       "topics": [
         "golang",
@@ -2671,8 +2671,8 @@
       "full_name": "ueberdosis/tiptap",
       "html_url": "https://github.com/ueberdosis/tiptap",
       "description": "The headless rich text editor framework for web artisans.",
-      "stargazers_count": 38692,
-      "forks_count": 3152,
+      "stargazers_count": 38743,
+      "forks_count": 3163,
       "language": "TypeScript",
       "topics": [
         "js",
@@ -2690,8 +2690,8 @@
       "full_name": "xyflow/xyflow",
       "html_url": "https://github.com/xyflow/xyflow",
       "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://",
-      "stargazers_count": 38637,
-      "forks_count": 2548,
+      "stargazers_count": 38693,
+      "forks_count": 2552,
       "language": "TypeScript",
       "topics": [
         "flowchart",
@@ -2728,8 +2728,8 @@
       "full_name": "explosion/spaCy",
       "html_url": "https://github.com/explosion/spaCy",
       "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
-      "stargazers_count": 33952,
-      "forks_count": 4731,
+      "stargazers_count": 33966,
+      "forks_count": 4736,
       "language": "Python",
       "topics": [
         "natural-language-processing",
@@ -2747,8 +2747,8 @@
       "full_name": "alirezarezvani/claude-skills",
       "html_url": "https://github.com/alirezarezvani/claude-skills",
       "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude C",
-      "stargazers_count": 28048,
-      "forks_count": 3927,
+      "stargazers_count": 28260,
+      "forks_count": 3980,
       "language": "Python",
       "topics": [
         "agentic-ai",
@@ -2766,8 +2766,8 @@
       "full_name": "OthmanAdi/planning-with-files",
       "html_url": "https://github.com/OthmanAdi/planning-with-files",
       "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and co",
-      "stargazers_count": 27410,
-      "forks_count": 2270,
+      "stargazers_count": 27472,
+      "forks_count": 2277,
       "language": "Python",
       "topics": [
         "claude",
@@ -2785,8 +2785,8 @@
       "full_name": "greenrobot/EventBus",
       "html_url": "https://github.com/greenrobot/EventBus",
       "description": "Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better qualit",
-      "stargazers_count": 24693,
-      "forks_count": 4634,
+      "stargazers_count": 24686,
+      "forks_count": 4632,
       "language": "Java",
       "topics": [],
       "owner_login": "greenrobot",
@@ -2798,7 +2798,7 @@
       "full_name": "lukasmasuch/best-of-ml-python",
       "html_url": "https://github.com/lukasmasuch/best-of-ml-python",
       "description": "🏆 A ranked list of awesome machine learning Python libraries. Updated weekly.",
-      "stargazers_count": 23844,
+      "stargazers_count": 23848,
       "forks_count": 3147,
       "language": null,
       "topics": [
@@ -2817,8 +2817,8 @@
       "full_name": "sebastianruder/NLP-progress",
       "html_url": "https://github.com/sebastianruder/NLP-progress",
       "description": "Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most ",
-      "stargazers_count": 22950,
-      "forks_count": 3591,
+      "stargazers_count": 22952,
+      "forks_count": 3590,
       "language": "Python",
       "topics": [
         "natural-language-processing",
@@ -2836,8 +2836,8 @@
       "full_name": "yjs/yjs",
       "html_url": "https://github.com/yjs/yjs",
       "description": "Shared data types for building collaborative software",
-      "stargazers_count": 22924,
-      "forks_count": 811,
+      "stargazers_count": 22940,
+      "forks_count": 813,
       "language": "JavaScript",
       "topics": [
         "yjs",
@@ -2855,8 +2855,8 @@
       "full_name": "lewagon/dotfiles",
       "html_url": "https://github.com/lewagon/dotfiles",
       "description": "Default configuration for Le Wagon's students",
-      "stargazers_count": 21856,
-      "forks_count": 29053,
+      "stargazers_count": 21884,
+      "forks_count": 29105,
       "language": "Shell",
       "topics": [],
       "owner_login": "lewagon",
@@ -2868,8 +2868,8 @@
       "full_name": "lewagon/setup",
       "html_url": "https://github.com/lewagon/setup",
       "description": "Setup instructions for Le Wagon's students on their first day of AI Software Development Bootcamp",
-      "stargazers_count": 19647,
-      "forks_count": 1574,
+      "stargazers_count": 19675,
+      "forks_count": 1573,
       "language": "Ruby",
       "topics": [
         "setup",
@@ -2884,8 +2884,8 @@
       "full_name": "justadudewhohacks/face-api.js",
       "html_url": "https://github.com/justadudewhohacks/face-api.js",
       "description": "JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js",
-      "stargazers_count": 17978,
-      "forks_count": 3875,
+      "stargazers_count": 17980,
+      "forks_count": 3874,
       "language": "TypeScript",
       "topics": [
         "face-recognition",
@@ -2904,7 +2904,7 @@
       "html_url": "https://github.com/aFarkas/lazysizes",
       "description": "High performance and SEO friendly lazy loader for images (responsive and normal), iframes and more, that detects any visibility changes trig",
       "stargazers_count": 17711,
-      "forks_count": 1688,
+      "forks_count": 1687,
       "language": "JavaScript",
       "topics": [
         "javascript",
@@ -2919,29 +2919,11 @@
       "fork": false
     },
     {
-      "full_name": "nikic/PHP-Parser",
-      "html_url": "https://github.com/nikic/PHP-Parser",
-      "description": "A PHP parser written in PHP",
-      "stargazers_count": 17463,
-      "forks_count": 1138,
-      "language": "PHP",
-      "topics": [
-        "php",
-        "parser",
-        "ast",
-        "static-analysis"
-      ],
-      "owner_login": "nikic",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/216080?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "cure53/DOMPurify",
       "html_url": "https://github.com/cure53/DOMPurify",
       "description": "DOMPurify - a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. DOMPurify works with a secure default, but offers ",
-      "stargazers_count": 17453,
-      "forks_count": 866,
+      "stargazers_count": 17466,
+      "forks_count": 869,
       "language": "JavaScript",
       "topics": [
         "xss",
@@ -2956,11 +2938,29 @@
       "fork": false
     },
     {
+      "full_name": "nikic/PHP-Parser",
+      "html_url": "https://github.com/nikic/PHP-Parser",
+      "description": "A PHP parser written in PHP",
+      "stargazers_count": 17462,
+      "forks_count": 1138,
+      "language": "PHP",
+      "topics": [
+        "php",
+        "parser",
+        "ast",
+        "static-analysis"
+      ],
+      "owner_login": "nikic",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/216080?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "janl/mustache.js",
       "html_url": "https://github.com/janl/mustache.js",
       "description": "Minimal templating with {{mustaches}} in JavaScript",
-      "stargazers_count": 16719,
-      "forks_count": 2338,
+      "stargazers_count": 16722,
+      "forks_count": 2336,
       "language": "JavaScript",
       "topics": [],
       "owner_login": "janl",
@@ -2972,8 +2972,8 @@
       "full_name": "opf/openproject",
       "html_url": "https://github.com/opf/openproject",
       "description": "OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternativ",
-      "stargazers_count": 16394,
-      "forks_count": 3550,
+      "stargazers_count": 16440,
+      "forks_count": 3557,
       "language": "Ruby",
       "topics": [
         "project-management",
@@ -2991,7 +2991,7 @@
       "full_name": "android10/Android-CleanArchitecture",
       "html_url": "https://github.com/android10/Android-CleanArchitecture",
       "description": "This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's c",
-      "stargazers_count": 15532,
+      "stargazers_count": 15534,
       "forks_count": 3261,
       "language": "Java",
       "topics": [
@@ -3010,8 +3010,8 @@
       "full_name": "XAMPPRocky/tokei",
       "html_url": "https://github.com/XAMPPRocky/tokei",
       "description": "Count your code, quickly.",
-      "stargazers_count": 14993,
-      "forks_count": 711,
+      "stargazers_count": 14998,
+      "forks_count": 727,
       "language": "Rust",
       "topics": [
         "tokei",
@@ -3029,8 +3029,8 @@
       "full_name": "visenger/awesome-mlops",
       "html_url": "https://github.com/visenger/awesome-mlops",
       "description": "A curated list of references for MLOps ",
-      "stargazers_count": 14235,
-      "forks_count": 2122,
+      "stargazers_count": 14243,
+      "forks_count": 2125,
       "language": null,
       "topics": [
         "machine-learning",
@@ -3049,7 +3049,7 @@
       "html_url": "https://github.com/nextapps-de/flexsearch",
       "description": "Next-generation full-text search library for Browser and Node.js",
       "stargazers_count": 13808,
-      "forks_count": 527,
+      "forks_count": 528,
       "language": "JavaScript",
       "topics": [
         "search",
@@ -3067,7 +3067,7 @@
       "full_name": "schickling/chromeless",
       "html_url": "https://github.com/schickling/chromeless",
       "description": "🖥  Chrome automation made simple. Runs locally or headless on AWS Lambda.",
-      "stargazers_count": 13214,
+      "stargazers_count": 13216,
       "forks_count": 568,
       "language": "TypeScript",
       "topics": [
@@ -3105,8 +3105,8 @@
       "full_name": "zalandoresearch/fashion-mnist",
       "html_url": "https://github.com/zalandoresearch/fashion-mnist",
       "description": "A MNIST-like fashion product database. Benchmark :point_down: ",
-      "stargazers_count": 12847,
-      "forks_count": 3070,
+      "stargazers_count": 12851,
+      "forks_count": 3071,
       "language": "Python",
       "topics": [
         "mnist",
@@ -3124,8 +3124,8 @@
       "full_name": "theatre-js/theatre",
       "html_url": "https://github.com/theatre-js/theatre",
       "description": "Motion design editor for the web",
-      "stargazers_count": 12752,
-      "forks_count": 479,
+      "stargazers_count": 12774,
+      "forks_count": 481,
       "language": "TypeScript",
       "topics": [
         "animation",
@@ -3143,7 +3143,7 @@
       "full_name": "greenrobot/greenDAO",
       "html_url": "https://github.com/greenrobot/greenDAO",
       "description": "greenDAO is a light & fast ORM solution for Android that maps objects to SQLite databases.",
-      "stargazers_count": 12583,
+      "stargazers_count": 12582,
       "forks_count": 2850,
       "language": "Java",
       "topics": [],
@@ -3156,7 +3156,7 @@
       "full_name": "vanhauser-thc/thc-hydra",
       "html_url": "https://github.com/vanhauser-thc/thc-hydra",
       "description": "hydra",
-      "stargazers_count": 12363,
+      "stargazers_count": 12373,
       "forks_count": 2682,
       "language": "C",
       "topics": [
@@ -3176,7 +3176,7 @@
       "html_url": "https://github.com/orhun/git-cliff",
       "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️ ",
       "stargazers_count": 12297,
-      "forks_count": 336,
+      "forks_count": 335,
       "language": "Rust",
       "topics": [
         "changelog",
@@ -3194,8 +3194,8 @@
       "full_name": "wix/Detox",
       "html_url": "https://github.com/wix/Detox",
       "description": "Gray box end-to-end testing and automation framework for mobile apps",
-      "stargazers_count": 12036,
-      "forks_count": 1907,
+      "stargazers_count": 12039,
+      "forks_count": 1909,
       "language": "JavaScript",
       "topics": [
         "e2e-tests",
@@ -3232,8 +3232,8 @@
       "full_name": "floooh/sokol",
       "html_url": "https://github.com/floooh/sokol",
       "description": "minimal cross-platform standalone C headers",
-      "stargazers_count": 10357,
-      "forks_count": 675,
+      "stargazers_count": 10370,
+      "forks_count": 674,
       "language": "C",
       "topics": [],
       "owner_login": "floooh",
@@ -3245,8 +3245,8 @@
       "full_name": "wix/react-native-calendars",
       "html_url": "https://github.com/wix/react-native-calendars",
       "description": "React Native Calendar Components 🗓️ 📆 ",
-      "stargazers_count": 10320,
-      "forks_count": 3057,
+      "stargazers_count": 10327,
+      "forks_count": 3053,
       "language": "TypeScript",
       "topics": [
         "react-native",
@@ -3264,8 +3264,8 @@
       "full_name": "alexeygrigorev/data-science-interviews",
       "html_url": "https://github.com/alexeygrigorev/data-science-interviews",
       "description": "Data science interview questions and answers",
-      "stargazers_count": 10177,
-      "forks_count": 2159,
+      "stargazers_count": 10188,
+      "forks_count": 2160,
       "language": "HTML",
       "topics": [
         "data-science",
@@ -3282,8 +3282,8 @@
       "full_name": "alireza0/s-ui",
       "html_url": "https://github.com/alireza0/s-ui",
       "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
-      "stargazers_count": 10044,
-      "forks_count": 1889,
+      "stargazers_count": 10074,
+      "forks_count": 1892,
       "language": "Go",
       "topics": [
         "hysteria",
@@ -3301,7 +3301,7 @@
       "full_name": "aFarkas/html5shiv",
       "html_url": "https://github.com/aFarkas/html5shiv",
       "description": "This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.",
-      "stargazers_count": 9839,
+      "stargazers_count": 9840,
       "forks_count": 2497,
       "language": "JavaScript",
       "topics": [],
@@ -3314,8 +3314,8 @@
       "full_name": "jamwithai/production-agentic-rag-course",
       "html_url": "https://github.com/jamwithai/production-agentic-rag-course",
       "description": null,
-      "stargazers_count": 9735,
-      "forks_count": 2113,
+      "stargazers_count": 9773,
+      "forks_count": 2122,
       "language": "Python",
       "topics": [],
       "owner_login": "jamwithai",
@@ -3327,7 +3327,7 @@
       "full_name": "spacejam/sled",
       "html_url": "https://github.com/spacejam/sled",
       "description": "the champagne of beta embedded databases",
-      "stargazers_count": 9097,
+      "stargazers_count": 9095,
       "forks_count": 428,
       "language": "Rust",
       "topics": [
@@ -3362,7 +3362,7 @@
       "full_name": "TandoorRecipes/recipes",
       "html_url": "https://github.com/TandoorRecipes/recipes",
       "description": "Application for managing recipes, planning meals, building shopping lists and much much more!",
-      "stargazers_count": 8662,
+      "stargazers_count": 8666,
       "forks_count": 883,
       "language": "HTML",
       "topics": [
@@ -3381,7 +3381,7 @@
       "full_name": "vietnh1009/ASCII-generator",
       "html_url": "https://github.com/vietnh1009/ASCII-generator",
       "description": "ASCII generator (image to text, image to image, video to video)",
-      "stargazers_count": 8346,
+      "stargazers_count": 8351,
       "forks_count": 671,
       "language": "Python",
       "topics": [
@@ -3432,8 +3432,8 @@
       "full_name": "tgalal/yowsup",
       "html_url": "https://github.com/tgalal/yowsup",
       "description": "The WhatsApp lib",
-      "stargazers_count": 7167,
-      "forks_count": 2173,
+      "stargazers_count": 7173,
+      "forks_count": 2172,
       "language": "Python",
       "topics": [],
       "owner_login": "tgalal",
