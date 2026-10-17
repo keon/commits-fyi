@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-10-16T09:55:53.534Z",
+  "generated_at": "2026-10-17T09:24:23.299Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 200325,
+    "user_followers": 200329,
     "org_followers": 102004,
-    "user_stars": 856125,
+    "user_stars": 856128,
     "org_stars": 1138146
   },
   "queries": [
@@ -681,7 +681,7 @@
       "name": "Vincent Bernat",
       "avatar_url": "https://avatars.githubusercontent.com/u/631446?s=88&u=4fa1b32955881f764b4ca8556b8ba62db83f55d2&v=4",
       "html_url": "https://github.com/vincentbernat",
-      "followers": 1271,
+      "followers": 1272,
       "following": 5,
       "public_repos": 78,
       "location": "Paris, France",
@@ -828,7 +828,7 @@
       "bio": null,
       "company": "@Apple",
       "created_at": "2017-08-25T12:19:04Z",
-      "total_stars": 2604
+      "total_stars": 2606
     },
     {
       "login": "lopspower",
@@ -915,20 +915,6 @@
       "total_stars": 7
     },
     {
-      "login": "antonioribeiro",
-      "name": "Antonio Ribeiro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3182864?s=88&u=801b6ab616da34a5e443aa6268ceb43a17a65cd6&v=4",
-      "html_url": "https://github.com/antonioribeiro",
-      "followers": 956,
-      "following": 3,
-      "public_repos": 100,
-      "location": "Paris, France",
-      "bio": null,
-      "company": "@area17 ",
-      "created_at": "2013-01-04T05:11:01Z",
-      "total_stars": 14421
-    },
-    {
       "login": "eliemichel",
       "name": "Elie Michel",
       "avatar_url": "https://avatars.githubusercontent.com/u/5802849?s=88&v=4",
@@ -941,6 +927,20 @@
       "company": "@adobe",
       "created_at": "2013-10-29T10:51:09Z",
       "total_stars": 6955
+    },
+    {
+      "login": "antonioribeiro",
+      "name": "Antonio Ribeiro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3182864?s=88&u=801b6ab616da34a5e443aa6268ceb43a17a65cd6&v=4",
+      "html_url": "https://github.com/antonioribeiro",
+      "followers": 956,
+      "following": 3,
+      "public_repos": 100,
+      "location": "Paris, France",
+      "bio": null,
+      "company": "@area17 ",
+      "created_at": "2013-01-04T05:11:01Z",
+      "total_stars": 14421
     },
     {
       "login": "lroudge",
@@ -1003,7 +1003,7 @@
       "name": "Guillaume Lemaitre",
       "avatar_url": "https://avatars.githubusercontent.com/u/7454015?s=88&u=d9704641f89c00ce86f8207e59aedb554109d7fa&v=4",
       "html_url": "https://github.com/glemaitre",
-      "followers": 930,
+      "followers": 931,
       "following": 156,
       "public_repos": 115,
       "location": "Paris-Saclay / France",
@@ -1307,6 +1307,20 @@
       "total_stars": 14
     },
     {
+      "login": "steeve",
+      "name": "Steeve Morin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137467?s=88&v=4",
+      "html_url": "https://github.com/steeve",
+      "followers": 778,
+      "following": 1,
+      "public_repos": 52,
+      "location": "Paris, France",
+      "bio": "@zml ",
+      "company": "@zml",
+      "created_at": "2009-10-09T15:12:58Z",
+      "total_stars": 5969
+    },
+    {
       "login": "mlabouardy",
       "name": "LABOUARDY Mohamed",
       "avatar_url": "https://avatars.githubusercontent.com/u/10320205?s=88&u=022b2dc0e4696d43258b8364ca7e869aeb18181b&v=4",
@@ -1319,20 +1333,6 @@
       "company": "@tailwarden",
       "created_at": "2014-12-27T02:48:42Z",
       "total_stars": 6330
-    },
-    {
-      "login": "steeve",
-      "name": "Steeve Morin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/137467?s=88&v=4",
-      "html_url": "https://github.com/steeve",
-      "followers": 776,
-      "following": 1,
-      "public_repos": 52,
-      "location": "Paris, France",
-      "bio": "@zml ",
-      "company": "@zml",
-      "created_at": "2009-10-09T15:12:58Z",
-      "total_stars": 5968
     },
     {
       "login": "mcombeau",
@@ -2871,8 +2871,8 @@
       "full_name": "guillaumemeyer/watermarks-remover",
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "stargazers_count": 23983,
-      "forks_count": 2751,
+      "stargazers_count": 24285,
+      "forks_count": 2787,
       "language": "Python",
       "topics": [
         "agent-skill",

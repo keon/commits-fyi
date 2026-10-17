@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-10-16T09:53:28.168Z",
+  "generated_at": "2026-10-17T09:23:33.301Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1079029,
-    "org_followers": 345469,
-    "user_stars": 3300802,
-    "org_stars": 4591609
+    "user_followers": 1079070,
+    "org_followers": 345472,
+    "user_stars": 3300808,
+    "org_stars": 4591616
   },
   "queries": [
     {
@@ -331,14 +331,14 @@
       "name": "Jeremy Ashkenas",
       "avatar_url": "https://avatars.githubusercontent.com/u/4732?s=88&u=1ce1aba113b641e1a110345609830aec2b056121&v=4",
       "html_url": "https://github.com/jashkenas",
-      "followers": 13769,
+      "followers": 13795,
       "following": 0,
       "public_repos": 16,
       "location": "Berkeley",
       "bio": "🏍 🛣 🌎   I miss _why.",
       "company": null,
       "created_at": "2008-04-03T21:10:45Z",
-      "total_stars": 78531
+      "total_stars": 78526
     },
     {
       "login": "rakyll",
@@ -961,7 +961,7 @@
       "name": "Junio C Hamano",
       "avatar_url": "https://avatars.githubusercontent.com/u/54884?s=88&u=df04369e894b22a25b4bb7bb85121ffa481047e4&v=4",
       "html_url": "https://github.com/gitster",
-      "followers": 5497,
+      "followers": 5501,
       "following": 0,
       "public_repos": 2,
       "location": "Mountain View, CA",
@@ -1269,14 +1269,14 @@
       "name": "Han Xiao",
       "avatar_url": "https://avatars.githubusercontent.com/u/2041322?s=88&u=a7e9ee49091c99c96bc611017496fbfa83e57cbf&v=4",
       "html_url": "https://github.com/hanxiao",
-      "followers": 4232,
+      "followers": 4233,
       "following": 17,
       "public_repos": 64,
       "location": "Sunnyvale, CA",
       "bio": "VP, AI @elastic\r\nPrev: founder & ceo @jina-ai ",
       "company": "@elastic",
       "created_at": "2012-07-25T15:52:49Z",
-      "total_stars": 2289
+      "total_stars": 2297
     },
     {
       "login": "merrymercy",
@@ -1363,20 +1363,6 @@
       "total_stars": 19150
     },
     {
-      "login": "ijjk",
-      "name": "JJ Kasper",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22380829?s=88&u=0d3d36a4bef923933ffa54c609191dbae9988642&v=4",
-      "html_url": "https://github.com/ijjk",
-      "followers": 3985,
-      "following": 35,
-      "public_repos": 29,
-      "location": "San Francisco, CA",
-      "bio": "Software Engineer at Vercel | Open-source",
-      "company": "@Vercel",
-      "created_at": "2016-09-22T21:15:44Z",
-      "total_stars": 3949
-    },
-    {
       "login": "gdb",
       "name": "Greg Brockman",
       "avatar_url": "https://avatars.githubusercontent.com/u/211857?s=88&v=4",
@@ -1391,11 +1377,25 @@
       "total_stars": 1607
     },
     {
+      "login": "ijjk",
+      "name": "JJ Kasper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22380829?s=88&u=0d3d36a4bef923933ffa54c609191dbae9988642&v=4",
+      "html_url": "https://github.com/ijjk",
+      "followers": 3985,
+      "following": 35,
+      "public_repos": 29,
+      "location": "San Francisco, CA",
+      "bio": "Software Engineer at Vercel | Open-source",
+      "company": "@Vercel",
+      "created_at": "2016-09-22T21:15:44Z",
+      "total_stars": 3949
+    },
+    {
       "login": "Dhravya",
       "name": "Dhravya Shah",
       "avatar_url": "https://avatars.githubusercontent.com/u/63950637?s=88&u=a1d804b135132cac15090fd93440a02ab5ce29b9&v=4",
       "html_url": "https://github.com/Dhravya",
-      "followers": 3917,
+      "followers": 3925,
       "following": 139,
       "public_repos": 63,
       "location": "San Francisco",
@@ -1423,14 +1423,14 @@
       "name": "Yang Song",
       "avatar_url": "https://avatars.githubusercontent.com/u/7480450?s=88&u=78268a206a03558f6cc3d127a1b25fa06654858f&v=4",
       "html_url": "https://github.com/yang-song",
-      "followers": 3864,
+      "followers": 3866,
       "following": 27,
       "public_repos": 14,
       "location": "Palo Alto, CA",
       "bio": "Research Scientist at OpenAI.",
       "company": "OpenAI",
       "created_at": "2014-05-04T13:35:57Z",
-      "total_stars": 4451
+      "total_stars": 4454
     }
   ],
   "orgs": [
@@ -2079,20 +2079,6 @@
       "total_stars": 11888
     },
     {
-      "login": "wandb",
-      "name": "Weights & Biases",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26401354?s=88&v=4",
-      "html_url": "https://github.com/wandb",
-      "followers": 1438,
-      "following": 0,
-      "public_repos": 119,
-      "location": "San Francisco",
-      "bio": "Building the best tools for ML practitioners",
-      "company": null,
-      "created_at": "2017-03-14T06:43:52Z",
-      "total_stars": 38787
-    },
-    {
       "login": "pinterest",
       "name": "Pinterest",
       "avatar_url": "https://avatars.githubusercontent.com/u/541152?s=88&v=4",
@@ -2105,6 +2091,20 @@
       "company": null,
       "created_at": "2010-12-30T03:32:02Z",
       "total_stars": 29022
+    },
+    {
+      "login": "wandb",
+      "name": "Weights & Biases",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26401354?s=88&v=4",
+      "html_url": "https://github.com/wandb",
+      "followers": 1438,
+      "following": 0,
+      "public_repos": 119,
+      "location": "San Francisco",
+      "bio": "Building the best tools for ML practitioners",
+      "company": null,
+      "created_at": "2017-03-14T06:43:52Z",
+      "total_stars": 38787
     },
     {
       "login": "mindsdb",
@@ -2545,14 +2545,14 @@
       "name": "HackerOne",
       "avatar_url": "https://avatars.githubusercontent.com/u/3014877?s=88&v=4",
       "html_url": "https://github.com/Hacker0x01",
-      "followers": 972,
+      "followers": 975,
       "following": 0,
       "public_repos": 39,
       "location": "San Francisco, CA",
       "bio": "Vulnerability disclosure should suck less.",
       "company": null,
       "created_at": "2012-12-11T09:00:21Z",
-      "total_stars": 23792
+      "total_stars": 23799
     }
   ],
   "repos": [

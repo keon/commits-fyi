@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-10-16T09:53:04.923Z",
+  "generated_at": "2026-10-17T09:23:29.421Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 540068,
+    "user_followers": 540070,
     "org_followers": 144103,
-    "user_stars": 1909897,
+    "user_stars": 1909909,
     "org_stars": 1632939
   },
   "queries": [
@@ -571,12 +571,12 @@
       "html_url": "https://github.com/mcxiaoke",
       "followers": 4062,
       "following": 0,
-      "public_repos": 79,
+      "public_repos": 80,
       "location": "New York",
       "bio": "I like to code",
       "company": null,
       "created_at": "2010-11-02T15:03:21Z",
-      "total_stars": 25544
+      "total_stars": 25537
     },
     {
       "login": "virattt",
@@ -961,7 +961,7 @@
       "name": "Limor \"Ladyada\" Fried",
       "avatar_url": "https://avatars.githubusercontent.com/u/1214161?s=88&v=4",
       "html_url": "https://github.com/ladyada",
-      "followers": 2625,
+      "followers": 2627,
       "following": 5,
       "public_repos": 11,
       "location": "New York, NY",
@@ -985,20 +985,6 @@
       "total_stars": 5211
     },
     {
-      "login": "charlax",
-      "name": "Charles-Axel Dein",
-      "avatar_url": "https://avatars.githubusercontent.com/u/120501?s=88&v=4",
-      "html_url": "https://github.com/charlax",
-      "followers": 2553,
-      "following": 41,
-      "public_repos": 20,
-      "location": "New York",
-      "bio": "Scaling teams, product and tech at a stealth startup",
-      "company": null,
-      "created_at": "2009-08-28T12:25:06Z",
-      "total_stars": 61826
-    },
-    {
       "login": "liquidslr",
       "name": "Gaurav Kumar",
       "avatar_url": "https://avatars.githubusercontent.com/u/26876811?s=88&u=0432278286f24df958b1449c89a7c6c2c4cd8854&v=4",
@@ -1011,6 +997,20 @@
       "company": "AWS",
       "created_at": "2017-04-03T15:41:03Z",
       "total_stars": 58123
+    },
+    {
+      "login": "charlax",
+      "name": "Charles-Axel Dein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120501?s=88&v=4",
+      "html_url": "https://github.com/charlax",
+      "followers": 2553,
+      "following": 41,
+      "public_repos": 20,
+      "location": "New York",
+      "bio": "Scaling teams, product and tech at a stealth startup",
+      "company": null,
+      "created_at": "2009-08-28T12:25:06Z",
+      "total_stars": 61826
     },
     {
       "login": "jdvillal",
@@ -1094,7 +1094,7 @@
       "bio": "Website Perf @squarespace. \r\n\r\nCreator of Lightning-Fast Web Performance, Web Components Demystified, Responsible Responsive Design. Alum: @filamentgroup WebPag",
       "company": "@Squarespace",
       "created_at": "2010-03-03T16:56:33Z",
-      "total_stars": 23648
+      "total_stars": 23644
     },
     {
       "login": "jxnl",
@@ -1150,7 +1150,7 @@
       "bio": "internet person 👋 🏳️‍🌈 ",
       "company": null,
       "created_at": "2009-03-06T01:33:05Z",
-      "total_stars": 787
+      "total_stars": 788
     },
     {
       "login": "broccolini",
@@ -1181,20 +1181,6 @@
       "total_stars": 8229
     },
     {
-      "login": "sxywu",
-      "name": "Shirley Wu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1448449?s=88&u=dda17ae48e7bfbbd22b1503a7b83504e53e57a1e&v=4",
-      "html_url": "https://github.com/sxywu",
-      "followers": 2308,
-      "following": 9,
-      "public_repos": 57,
-      "location": "New York",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-02-18T04:25:23Z",
-      "total_stars": 802
-    },
-    {
       "login": "julien-c",
       "name": "Julien Chaumond",
       "avatar_url": "https://avatars.githubusercontent.com/u/326577?s=88&u=44cb5d1d9ccbc8db735a14a43931effe5ee390b3&v=4",
@@ -1207,6 +1193,20 @@
       "company": "@huggingface ",
       "created_at": "2010-07-08T16:14:10Z",
       "total_stars": 1934
+    },
+    {
+      "login": "sxywu",
+      "name": "Shirley Wu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1448449?s=88&u=dda17ae48e7bfbbd22b1503a7b83504e53e57a1e&v=4",
+      "html_url": "https://github.com/sxywu",
+      "followers": 2308,
+      "following": 9,
+      "public_repos": 57,
+      "location": "New York",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-02-18T04:25:23Z",
+      "total_stars": 802
     },
     {
       "login": "mmistakes",
@@ -1304,7 +1304,7 @@
       "bio": null,
       "company": "IRS",
       "created_at": "2009-04-16T10:43:25Z",
-      "total_stars": 11796
+      "total_stars": 11817
     },
     {
       "login": "EnggQasim",
@@ -1318,7 +1318,7 @@
       "bio": "Chief Data Scientist at CancerClarity LLC NYC, USA\r\nFormer Data Scientist at UBL\r\nPIAIC A.I committee Member\r\nSaylani A.I Lead Teacher",
       "company": "CancerClarity LLC, NYC, USA",
       "created_at": "2014-12-16T15:04:01Z",
-      "total_stars": 412
+      "total_stars": 413
     },
     {
       "login": "modocache",

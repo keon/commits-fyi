@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-10-16T10:01:27.985Z",
+  "generated_at": "2026-10-17T09:25:38.212Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 148761,
+    "user_followers": 148795,
     "org_followers": 30124,
-    "user_stars": 751102,
+    "user_stars": 751268,
     "org_stars": 312539
   },
   "queries": [
@@ -170,21 +170,21 @@
       "bio": null,
       "company": "NAVER AI Lab",
       "created_at": "2015-11-05T01:52:32Z",
-      "total_stars": 40303
+      "total_stars": 40313
     },
     {
       "login": "Gezine",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/30000519?s=88&u=754fe3ce9f881116c904ee0ad92630315a70fc20&v=4",
       "html_url": "https://github.com/Gezine",
-      "followers": 3478,
+      "followers": 3496,
       "following": 2,
       "public_repos": 6,
       "location": "Seoul, South Korea",
       "bio": null,
       "company": null,
       "created_at": "2017-07-08T11:20:14Z",
-      "total_stars": 2320
+      "total_stars": 2353
     },
     {
       "login": "hahwul",
@@ -1003,14 +1003,14 @@
       "name": "딴짓하는 류주임",
       "avatar_url": "https://avatars.githubusercontent.com/u/212630997?s=88&u=eeb53fa9531c2a888dbe3aa26b8ac1d5b56b92ad&v=4",
       "html_url": "https://github.com/chrisryugj",
-      "followers": 746,
-      "following": 7,
+      "followers": 762,
+      "following": 6,
       "public_repos": 20,
       "location": "South Korea",
       "bio": "Public AX FDE",
       "company": "광진구청",
       "created_at": "2025-05-20T23:12:14Z",
-      "total_stars": 6303
+      "total_stars": 6426
     },
     {
       "login": "kenu",
@@ -2275,20 +2275,6 @@
       "total_stars": 1000
     },
     {
-      "login": "pythonkr",
-      "name": "Python Korea",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3192767?s=88&v=4",
-      "html_url": "https://github.com/pythonkr",
-      "followers": 145,
-      "following": 0,
-      "public_repos": 46,
-      "location": "Korea",
-      "bio": "Python Korea Group",
-      "company": null,
-      "created_at": "2013-01-05T12:47:57Z",
-      "total_stars": 343
-    },
-    {
       "login": "YAPP-Github",
       "name": "YAPP - 작은 아이디어로 세상을 크게 변화시키다.",
       "avatar_url": "https://avatars.githubusercontent.com/u/101037471?s=88&v=4",
@@ -2301,6 +2287,20 @@
       "company": null,
       "created_at": "2022-03-06T07:35:34Z",
       "total_stars": 499
+    },
+    {
+      "login": "pythonkr",
+      "name": "Python Korea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3192767?s=88&v=4",
+      "html_url": "https://github.com/pythonkr",
+      "followers": 145,
+      "following": 0,
+      "public_repos": 46,
+      "location": "Korea",
+      "bio": "Python Korea Group",
+      "company": null,
+      "created_at": "2013-01-05T12:47:57Z",
+      "total_stars": 343
     },
     {
       "login": "dmis-lab",
@@ -2629,8 +2629,8 @@
       "full_name": "yunjey/pytorch-tutorial",
       "html_url": "https://github.com/yunjey/pytorch-tutorial",
       "description": "PyTorch Tutorial for Deep Learning Researchers",
-      "stargazers_count": 32505,
-      "forks_count": 8200,
+      "stargazers_count": 32513,
+      "forks_count": 8198,
       "language": "Python",
       "topics": [
         "deep-learning",
@@ -3242,7 +3242,7 @@
       "full_name": "yunjey/stargan",
       "html_url": "https://github.com/yunjey/stargan",
       "description": "StarGAN - Official PyTorch Implementation (CVPR 2018)",
-      "stargazers_count": 5295,
+      "stargazers_count": 5296,
       "forks_count": 953,
       "language": "Python",
       "topics": [
