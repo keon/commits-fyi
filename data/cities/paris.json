@@ -2,14 +2,14 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-10-19T10:51:04.898Z",
+  "generated_at": "2026-10-20T10:06:52.645Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 200399,
+    "user_followers": 200401,
     "org_followers": 102132,
     "user_stars": 856642,
     "org_stars": 1139029
@@ -821,14 +821,14 @@
       "name": "rajvardhan agarwal",
       "avatar_url": "https://avatars.githubusercontent.com/u/31346934?s=88&u=6ce6b020a4ceccaa96d00b6ad6da4828f0d56909&v=4",
       "html_url": "https://github.com/r4j0x00",
-      "followers": 1062,
+      "followers": 1063,
       "following": 0,
       "public_repos": 11,
       "location": "Paris, France",
       "bio": null,
       "company": "@Apple",
       "created_at": "2017-08-25T12:19:04Z",
-      "total_stars": 2606
+      "total_stars": 2605
     },
     {
       "login": "lopspower",
@@ -1101,14 +1101,14 @@
       "name": "Bastien",
       "avatar_url": "https://avatars.githubusercontent.com/u/63500?s=88&u=5862e080559463f5a99f29683e8fe7766c212279&v=4",
       "html_url": "https://github.com/bzg",
-      "followers": 872,
+      "followers": 873,
       "following": 595,
       "public_repos": 61,
       "location": "Paris",
       "bio": "Free software contributor, BlueHats 🧢 and now working at Software Heritage",
       "company": "@SoftwareHeritage",
       "created_at": "2009-03-14T21:37:56Z",
-      "total_stars": 920
+      "total_stars": 921
     },
     {
       "login": "ask0ldd",
@@ -1701,20 +1701,6 @@
       "total_stars": 5608
     },
     {
-      "login": "The-AI-Summer",
-      "name": "AI Summer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63514200?s=88&v=4",
-      "html_url": "https://github.com/The-AI-Summer",
-      "followers": 349,
-      "following": 0,
-      "public_repos": 15,
-      "location": "Dublin, Paris and Athens",
-      "bio": "Learn Deep Learning and Artificial Intelligence. Discord server: https://discord.gg/k6NXwe7PXh",
-      "company": null,
-      "created_at": "2020-04-11T17:55:10Z",
-      "total_stars": 3047
-    },
-    {
       "login": "medialab",
       "name": "médialab Sciences Po",
       "avatar_url": "https://avatars.githubusercontent.com/u/534856?s=88&v=4",
@@ -1727,6 +1713,20 @@
       "company": null,
       "created_at": "2010-12-23T18:26:50Z",
       "total_stars": 8310
+    },
+    {
+      "login": "The-AI-Summer",
+      "name": "AI Summer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63514200?s=88&v=4",
+      "html_url": "https://github.com/The-AI-Summer",
+      "followers": 349,
+      "following": 0,
+      "public_repos": 15,
+      "location": "Dublin, Paris and Athens",
+      "bio": "Learn Deep Learning and Artificial Intelligence. Discord server: https://discord.gg/k6NXwe7PXh",
+      "company": null,
+      "created_at": "2020-04-11T17:55:10Z",
+      "total_stars": 3047
     },
     {
       "login": "axelor",
@@ -2121,20 +2121,6 @@
       "total_stars": 940
     },
     {
-      "login": "jolicode",
-      "name": "JoliCode",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1436371?s=88&v=4",
-      "html_url": "https://github.com/jolicode",
-      "followers": 147,
-      "following": 0,
-      "public_repos": 97,
-      "location": "Paris, France",
-      "bio": "We build quality Web and mobile applications.",
-      "company": null,
-      "created_at": "2012-02-14T10:52:15Z",
-      "total_stars": 6112
-    },
-    {
       "login": "bamlab",
       "name": "BAM",
       "avatar_url": "https://avatars.githubusercontent.com/u/9597329?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2014-11-06T20:33:21Z",
       "total_stars": 8881
+    },
+    {
+      "login": "jolicode",
+      "name": "JoliCode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1436371?s=88&v=4",
+      "html_url": "https://github.com/jolicode",
+      "followers": 147,
+      "following": 0,
+      "public_repos": 97,
+      "location": "Paris, France",
+      "bio": "We build quality Web and mobile applications.",
+      "company": null,
+      "created_at": "2012-02-14T10:52:15Z",
+      "total_stars": 6112
     },
     {
       "login": "elabftw",
@@ -2871,8 +2871,8 @@
       "full_name": "guillaumemeyer/watermarks-remover",
       "html_url": "https://github.com/guillaumemeyer/watermarks-remover",
       "description": "A privacy-first app that strips AI watermarks from content you own.",
-      "stargazers_count": 24285,
-      "forks_count": 2787,
+      "stargazers_count": 24509,
+      "forks_count": 2807,
       "language": "Python",
       "topics": [
         "agent-skill",

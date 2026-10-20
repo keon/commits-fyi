@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-10-19T10:53:34.752Z",
+  "generated_at": "2026-10-20T10:07:16.395Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 134232,
+    "user_followers": 134233,
     "org_followers": 9303,
-    "user_stars": 552696,
+    "user_stars": 552701,
     "org_stars": 61316
   },
   "queries": [
@@ -800,7 +800,7 @@
       "bio": "Senior Design Engineer at @muxinc. \r\n\r\nPrev: Released.so, Amazon, Search.io, Selz. ",
       "company": "Mux",
       "created_at": "2011-04-09T11:25:50Z",
-      "total_stars": 30411
+      "total_stars": 30416
     },
     {
       "login": "HamishMW",
@@ -859,20 +859,6 @@
       "total_stars": 258
     },
     {
-      "login": "abdulla",
-      "name": "Abdulla Kamar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63287?s=88&u=0fc7d27d376a6929e693e4d1e6d2d6af7b082477&v=4",
-      "html_url": "https://github.com/abdulla",
-      "followers": 587,
-      "following": 0,
-      "public_repos": 1,
-      "location": "Sydney, Australia",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-03-14T02:58:16Z",
-      "total_stars": 2
-    },
-    {
       "login": "iampedii",
       "name": "Pedi",
       "avatar_url": "https://avatars.githubusercontent.com/u/7813872?s=88&u=31c0df372b270ab71cba781c4d338439fdf96308&v=4",
@@ -885,6 +871,20 @@
       "company": null,
       "created_at": "2014-06-06T08:47:32Z",
       "total_stars": 333
+    },
+    {
+      "login": "abdulla",
+      "name": "Abdulla Kamar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63287?s=88&u=0fc7d27d376a6929e693e4d1e6d2d6af7b082477&v=4",
+      "html_url": "https://github.com/abdulla",
+      "followers": 587,
+      "following": 0,
+      "public_repos": 1,
+      "location": "Sydney, Australia",
+      "bio": null,
+      "company": null,
+      "created_at": "2009-03-14T02:58:16Z",
+      "total_stars": 2
     },
     {
       "login": "SaitoWu",
@@ -1185,7 +1185,7 @@
       "name": "Ryan Heise",
       "avatar_url": "https://avatars.githubusercontent.com/u/19899190?s=88&u=5fa89db9d03e77a0f1d69f3b75c9e985b090d657&v=4",
       "html_url": "https://github.com/ryanheise",
-      "followers": 452,
+      "followers": 453,
       "following": 0,
       "public_repos": 7,
       "location": "Sydney, Australia",
@@ -2387,20 +2387,6 @@
       "total_stars": 209
     },
     {
-      "login": "sajari",
-      "name": "Search.io",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1407116?s=88&v=4",
-      "html_url": "https://github.com/sajari",
-      "followers": 22,
-      "following": 0,
-      "public_repos": 36,
-      "location": "Sydney",
-      "bio": "Enabling every organization to create smart search experiences",
-      "company": null,
-      "created_at": "2012-02-04T01:25:18Z",
-      "total_stars": 2984
-    },
-    {
       "login": "finderau",
       "name": "Finder",
       "avatar_url": "https://avatars.githubusercontent.com/u/7016468?s=88&v=4",
@@ -2413,6 +2399,20 @@
       "company": null,
       "created_at": "2014-03-20T22:29:07Z",
       "total_stars": 0
+    },
+    {
+      "login": "sajari",
+      "name": "Search.io",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1407116?s=88&v=4",
+      "html_url": "https://github.com/sajari",
+      "followers": 22,
+      "following": 0,
+      "public_repos": 36,
+      "location": "Sydney",
+      "bio": "Enabling every organization to create smart search experiences",
+      "company": null,
+      "created_at": "2012-02-04T01:25:18Z",
+      "total_stars": 2984
     },
     {
       "login": "flash-oss",
@@ -2560,8 +2560,8 @@
       "full_name": "sampotts/plyr",
       "html_url": "https://github.com/sampotts/plyr",
       "description": "Deprecated in favour of Video.js 10; security updates only. Simple HTML5, YouTube and Vimeo player.",
-      "stargazers_count": 29993,
-      "forks_count": 3106,
+      "stargazers_count": 29998,
+      "forks_count": 3105,
       "language": "JavaScript",
       "topics": [
         "html5-video",

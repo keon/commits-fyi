@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-10-19T10:48:32.141Z",
+  "generated_at": "2026-10-20T10:06:00.443Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 540544,
+    "user_followers": 540555,
     "org_followers": 144298,
-    "user_stars": 1913829,
+    "user_stars": 1913862,
     "org_stars": 1633904
   },
   "queries": [
@@ -565,20 +565,6 @@
       "total_stars": 626
     },
     {
-      "login": "mcxiaoke",
-      "name": "James Smith",
-      "avatar_url": "https://avatars.githubusercontent.com/u/464330?s=88&u=8555a143e79547308bcb9fa3f8a2204fa318f722&v=4",
-      "html_url": "https://github.com/mcxiaoke",
-      "followers": 4062,
-      "following": 0,
-      "public_repos": 80,
-      "location": "New York",
-      "bio": "I like to code",
-      "company": null,
-      "created_at": "2010-11-02T15:03:21Z",
-      "total_stars": 25537
-    },
-    {
       "login": "virattt",
       "name": "Virat Singh",
       "avatar_url": "https://avatars.githubusercontent.com/u/901795?s=88&u=c8cd7391f649623258b5f5ea848550df9407107b&v=4",
@@ -591,6 +577,20 @@
       "company": null,
       "created_at": "2011-07-07T23:53:44Z",
       "total_stars": 95517
+    },
+    {
+      "login": "mcxiaoke",
+      "name": "James Smith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/464330?s=88&u=8555a143e79547308bcb9fa3f8a2204fa318f722&v=4",
+      "html_url": "https://github.com/mcxiaoke",
+      "followers": 4062,
+      "following": 0,
+      "public_repos": 81,
+      "location": "New York",
+      "bio": "I like to code",
+      "company": null,
+      "created_at": "2010-11-02T15:03:21Z",
+      "total_stars": 25536
     },
     {
       "login": "srush",
@@ -905,7 +905,7 @@
       "name": "Linus Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/5403917?s=88&u=73434394a9d357b9449e6f6acde21307d8866177&v=4",
       "html_url": "https://github.com/thesephist",
-      "followers": 2825,
+      "followers": 2827,
       "following": 208,
       "public_repos": 129,
       "location": "nyc",
@@ -1083,20 +1083,6 @@
       "total_stars": 5185
     },
     {
-      "login": "scottjehl",
-      "name": "Scott Jehl",
-      "avatar_url": "https://avatars.githubusercontent.com/u/214783?s=88&u=4ab38b0e4bceadbf48606eb30f1e862c4f2ddec7&v=4",
-      "html_url": "https://github.com/scottjehl",
-      "followers": 2449,
-      "following": 37,
-      "public_repos": 18,
-      "location": "NYC",
-      "bio": "Website Perf @squarespace. \r\n\r\nCreator of Lightning-Fast Web Performance, Web Components Demystified, Responsible Responsive Design. Alum: @filamentgroup WebPag",
-      "company": "@Squarespace",
-      "created_at": "2010-03-03T16:56:33Z",
-      "total_stars": 23644
-    },
-    {
       "login": "jxnl",
       "name": "Jason Liu",
       "avatar_url": "https://avatars.githubusercontent.com/u/4852235?s=88&u=f3927adbaafbeaccd6fd4d0bc805414ef08b8b54&v=4",
@@ -1109,6 +1095,20 @@
       "company": "OpenAI",
       "created_at": "2013-06-27T15:06:00Z",
       "total_stars": 3070
+    },
+    {
+      "login": "scottjehl",
+      "name": "Scott Jehl",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214783?s=88&u=4ab38b0e4bceadbf48606eb30f1e862c4f2ddec7&v=4",
+      "html_url": "https://github.com/scottjehl",
+      "followers": 2449,
+      "following": 37,
+      "public_repos": 18,
+      "location": "NYC",
+      "bio": "Website Perf @squarespace. \r\n\r\nCreator of Lightning-Fast Web Performance, Web Components Demystified, Responsible Responsive Design. Alum: @filamentgroup WebPag",
+      "company": "@Squarespace",
+      "created_at": "2010-03-03T16:56:33Z",
+      "total_stars": 23642
     },
     {
       "login": "blynkkk",
@@ -1241,14 +1241,14 @@
       "name": "Edwin Chen",
       "avatar_url": "https://avatars.githubusercontent.com/u/102375?s=88&u=83049a5a0484d35d975a998f795b65b96189e0e5&v=4",
       "html_url": "https://github.com/echen",
-      "followers": 2157,
+      "followers": 2159,
       "following": 0,
       "public_repos": 30,
       "location": "NYC",
       "bio": "Founder at Surge AI",
       "company": "https://www.surgehq.ai",
       "created_at": "2009-07-07T03:36:31Z",
-      "total_stars": 2300
+      "total_stars": 2301
     },
     {
       "login": "Iron-Ham",
@@ -1297,21 +1297,21 @@
       "name": "Sahil Lavingia",
       "avatar_url": "https://avatars.githubusercontent.com/u/74396?s=88&u=d2058787f4f8221926d0088f941bf7a28eedcf5f&v=4",
       "html_url": "https://github.com/slavingia",
-      "followers": 2072,
+      "followers": 2078,
       "following": 13,
       "public_repos": 28,
       "location": "New York, NY",
       "bio": null,
       "company": "IRS",
       "created_at": "2009-04-16T10:43:25Z",
-      "total_stars": 11817
+      "total_stars": 11852
     },
     {
       "login": "EnggQasim",
       "name": "Sir Qasim",
       "avatar_url": "https://avatars.githubusercontent.com/u/10209765?s=88&u=71dbc579238d41bb493ab213bb9f71e36a4cda25&v=4",
       "html_url": "https://github.com/EnggQasim",
-      "followers": 2058,
+      "followers": 2059,
       "following": 4,
       "public_repos": 90,
       "location": "New york",
@@ -2261,20 +2261,6 @@
       "total_stars": 1855
     },
     {
-      "login": "datakind",
-      "name": "DataKind",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1133243?s=88&v=4",
-      "html_url": "https://github.com/datakind",
-      "followers": 293,
-      "following": 0,
-      "public_repos": 90,
-      "location": "New York, NY",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-10-17T13:32:15Z",
-      "total_stars": 399
-    },
-    {
       "login": "RPISEC",
       "name": "RPISEC",
       "avatar_url": "https://avatars.githubusercontent.com/u/9358837?s=88&v=4",
@@ -2287,6 +2273,20 @@
       "company": null,
       "created_at": "2014-10-22T23:02:36Z",
       "total_stars": 11325
+    },
+    {
+      "login": "datakind",
+      "name": "DataKind",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1133243?s=88&v=4",
+      "html_url": "https://github.com/datakind",
+      "followers": 293,
+      "following": 0,
+      "public_repos": 90,
+      "location": "New York, NY",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-10-17T13:32:15Z",
+      "total_stars": 399
     },
     {
       "login": "ai4ce",
@@ -2499,20 +2499,6 @@
       "total_stars": 6972
     },
     {
-      "login": "choderalab",
-      "name": "Chodera lab // Memorial Sloan Kettering Cancer Center",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4217481?s=88&v=4",
-      "html_url": "https://github.com/choderalab",
-      "followers": 208,
-      "following": 0,
-      "public_repos": 267,
-      "location": "Memorial Sloan-Kettering Cancer Center, Manhattan, NY",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-04-21T16:32:54Z",
-      "total_stars": 2319
-    },
-    {
       "login": "cvlab-columbia",
       "name": "Computer Vision Lab at Columbia University",
       "avatar_url": "https://avatars.githubusercontent.com/u/55261404?s=88&v=4",
@@ -2525,6 +2511,20 @@
       "company": null,
       "created_at": "2019-09-12T22:39:21Z",
       "total_stars": 5911
+    },
+    {
+      "login": "choderalab",
+      "name": "Chodera lab // Memorial Sloan Kettering Cancer Center",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4217481?s=88&v=4",
+      "html_url": "https://github.com/choderalab",
+      "followers": 208,
+      "following": 0,
+      "public_repos": 267,
+      "location": "Memorial Sloan-Kettering Cancer Center, Manhattan, NY",
+      "bio": null,
+      "company": null,
+      "created_at": "2013-04-21T16:32:54Z",
+      "total_stars": 2319
     },
     {
       "login": "tradingeconomics",
