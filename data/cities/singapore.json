@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-10-20T10:07:07.457Z",
+  "generated_at": "2026-10-21T10:12:37.018Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 350080,
+    "user_followers": 354280,
     "org_followers": 96193,
-    "user_stars": 1110482,
+    "user_stars": 1123225,
     "org_stars": 1177149
   },
   "queries": [
@@ -171,6 +171,20 @@
       "company": "@voidzero-dev @cloudflare @napi-rs @rolldown",
       "created_at": "2013-02-04T05:37:28Z",
       "total_stars": 4905
+    },
+    {
+      "login": "luin",
+      "name": "Zihua Li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/635902?s=88&u=474c8ad1ee2b74c62085097c137306be0b5604f9&v=4",
+      "html_url": "https://github.com/luin",
+      "followers": 4940,
+      "following": 169,
+      "public_repos": 55,
+      "location": "Singapore",
+      "bio": "Web developer and designer, technical book author. I build tools that help people do things better.",
+      "company": "@slab",
+      "created_at": "2011-02-24T12:36:28Z",
+      "total_stars": 16311
     },
     {
       "login": "doodlewind",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2013-12-28T14:46:56Z",
       "total_stars": 1085
-    },
-    {
-      "login": "wh200720041",
-      "name": "Wang Han 王晗",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7567415?s=88&u=bc2650f15a6837907f2ac9fb39b8dd96ea43ceb1&v=4",
-      "html_url": "https://github.com/wh200720041",
-      "followers": 740,
-      "following": 41,
-      "public_repos": 14,
-      "location": "Singapore",
-      "bio": "I am currently a Phd Candidate at Nanyang Technological University, Singapore, specialize in computer vision and robotics",
-      "company": "Nanyang Technological University",
-      "created_at": "2014-05-13T09:13:54Z",
-      "total_stars": 3568
     }
   ],
   "orgs": [
@@ -3231,6 +3231,25 @@
       "fork": false
     },
     {
+      "full_name": "luin/medis",
+      "html_url": "https://github.com/luin/medis",
+      "description": "💻 Medis is a beautiful, easy-to-use Mac database management application for Redis.",
+      "stargazers_count": 11724,
+      "forks_count": 775,
+      "language": "JavaScript",
+      "topics": [
+        "redis",
+        "gui",
+        "mac",
+        "electron",
+        "redis-cluster"
+      ],
+      "owner_login": "luin",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/635902?s=88&u=474c8ad1ee2b74c62085097c137306be0b5604f9&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "bytedance/UI-TARS",
       "html_url": "https://github.com/bytedance/UI-TARS",
       "description": "Pioneering Automated GUI Interaction with Native Agents",
@@ -3408,19 +3427,6 @@
       "owner_login": "happydog-intj",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/212984?s=88&u=cd5ac3952f33d265ffb1bc3c25f6ba0e0bcfe682&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "cloudflare/computer",
-      "html_url": "https://github.com/cloudflare/computer",
-      "description": "Give your agent a computer 👾",
-      "stargazers_count": 9646,
-      "forks_count": 565,
-      "language": "TypeScript",
-      "topics": [],
-      "owner_login": "cloudflare",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]
