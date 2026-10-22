@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-10-21T10:12:37.907Z",
+  "generated_at": "2026-10-22T10:14:02.473Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 193857,
-    "org_followers": 24155,
+    "org_followers": 24156,
     "user_stars": 521816,
-    "org_stars": 327742
+    "org_stars": 327780
   },
   "queries": [
     {
@@ -1265,20 +1265,6 @@
       "total_stars": 395
     },
     {
-      "login": "cybergeekgyan",
-      "name": "Gyan Prakash",
-      "avatar_url": "https://avatars.githubusercontent.com/u/56320349?s=88&u=65952942efabd48dd448abea0a9afb3bcafc685f&v=4",
-      "html_url": "https://github.com/cybergeekgyan",
-      "followers": 674,
-      "following": 76,
-      "public_repos": 175,
-      "location": "Bangalore, India",
-      "bio": "@flipkart | Ex-@zomato | AI & Data Science | Quant Finance | NSIT",
-      "company": "@flipkart @Zomato @OrbiGenAI-Innovations-Lab",
-      "created_at": "2019-10-08T19:26:58Z",
-      "total_stars": 4668
-    },
-    {
       "login": "ristri",
       "name": "Rishabh Tripathi",
       "avatar_url": "https://avatars.githubusercontent.com/u/24216783?s=88&u=44054e73f90cea4a673e209870a96e6f7bf123eb&v=4",
@@ -1291,6 +1277,20 @@
       "company": null,
       "created_at": "2016-11-28T03:44:24Z",
       "total_stars": 36
+    },
+    {
+      "login": "cybergeekgyan",
+      "name": "Gyan Prakash",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56320349?s=88&u=65952942efabd48dd448abea0a9afb3bcafc685f&v=4",
+      "html_url": "https://github.com/cybergeekgyan",
+      "followers": 674,
+      "following": 76,
+      "public_repos": 175,
+      "location": "Bangalore, India",
+      "bio": "@flipkart | Ex-@zomato | AI & Data Science | Quant Finance | NSIT",
+      "company": "@flipkart @Zomato @OrbiGenAI-Innovations-Lab",
+      "created_at": "2019-10-08T19:26:58Z",
+      "total_stars": 4668
     },
     {
       "login": "AnkitSharma-007",
@@ -2527,6 +2527,20 @@
       "total_stars": 4
     },
     {
+      "login": "quintype",
+      "name": "Quintype Technologies India Ltd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8854520?s=88&v=4",
+      "html_url": "https://github.com/quintype",
+      "followers": 43,
+      "following": 0,
+      "public_repos": 72,
+      "location": "Bangalore",
+      "bio": null,
+      "company": null,
+      "created_at": "2014-09-21T23:10:28Z",
+      "total_stars": 38
+    },
+    {
       "login": "AtherEnergy",
       "name": "Ather Energy Ltd",
       "avatar_url": "https://avatars.githubusercontent.com/u/13150283?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2015-07-02T11:45:06Z",
       "total_stars": 532
-    },
-    {
-      "login": "crowdflux",
-      "name": "Playment Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19818276?s=88&v=4",
-      "html_url": "https://github.com/crowdflux",
-      "followers": 42,
-      "following": 0,
-      "public_repos": 2,
-      "location": "Bengaluru",
-      "bio": null,
-      "company": null,
-      "created_at": "2016-06-08T11:13:36Z",
-      "total_stars": 0
     }
   ],
   "repos": [
