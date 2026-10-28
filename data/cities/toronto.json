@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-10-27T10:36:41.204Z",
+  "generated_at": "2026-10-28T11:21:43.067Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 163005,
+    "user_followers": 163236,
     "org_followers": 26894,
-    "user_stars": 708508,
+    "user_stars": 709180,
     "org_stars": 201063
   },
   "queries": [
@@ -495,6 +495,20 @@
       "total_stars": 4123
     },
     {
+      "login": "abigailmaria",
+      "name": "Liam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113720202?s=88&u=ea9c9c50650838c65b3ec8d189a10f4b18995210&v=4",
+      "html_url": "https://github.com/abigailmaria",
+      "followers": 1429,
+      "following": 1332,
+      "public_repos": 64,
+      "location": "Toronto, Canada",
+      "bio": "Full-stack dev who loves building open-source tools, coffee-fueled evenings and sharing knowledge.",
+      "company": "Maplecloud",
+      "created_at": "2022-09-16T18:50:35Z",
+      "total_stars": 732
+    },
+    {
       "login": "JasonEtco",
       "name": "Jason Etcovitch",
       "avatar_url": "https://avatars.githubusercontent.com/u/10660468?s=88&u=b2a4cb6919cf2a48d3a57d88597ae60dbaf81e1a&v=4",
@@ -689,20 +703,6 @@
       "company": "chromatic.com",
       "created_at": "2008-12-25T21:12:04Z",
       "total_stars": 2265
-    },
-    {
-      "login": "abigailmaria",
-      "name": "Liam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/113720202?s=88&u=ea9c9c50650838c65b3ec8d189a10f4b18995210&v=4",
-      "html_url": "https://github.com/abigailmaria",
-      "followers": 1198,
-      "following": 7775,
-      "public_repos": 64,
-      "location": "Toronto, Canada",
-      "bio": "Full-stack dev who loves building open-source tools, coffee-fueled evenings and sharing knowledge.",
-      "company": "Maplecloud",
-      "created_at": "2022-09-16T18:50:35Z",
-      "total_stars": 60
     },
     {
       "login": "JunMa11",
@@ -1855,20 +1855,6 @@
       "total_stars": 6114
     },
     {
-      "login": "oanda",
-      "name": "OANDA",
-      "avatar_url": "https://avatars.githubusercontent.com/u/658105?s=88&v=4",
-      "html_url": "https://github.com/oanda",
-      "followers": 114,
-      "following": 0,
-      "public_repos": 49,
-      "location": "Toronto",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-03-08T17:14:28Z",
-      "total_stars": 1392
-    },
-    {
       "login": "hyphacoop",
       "name": "Hypha Worker Co-operative",
       "avatar_url": "https://avatars.githubusercontent.com/u/43623283?s=88&v=4",
@@ -1883,18 +1869,18 @@
       "total_stars": 461
     },
     {
-      "login": "utat-ss",
-      "name": "UTAT Space Systems",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63824882?s=88&v=4",
-      "html_url": "https://github.com/utat-ss",
-      "followers": 108,
+      "login": "oanda",
+      "name": "OANDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/658105?s=88&v=4",
+      "html_url": "https://github.com/oanda",
+      "followers": 114,
       "following": 0,
-      "public_repos": 96,
-      "location": "Toronto, ON",
-      "bio": "On-board code, software tools and development from UofT's CubeSat team",
+      "public_repos": 49,
+      "location": "Toronto",
+      "bio": null,
       "company": null,
-      "created_at": "2020-04-17T00:03:42Z",
-      "total_stars": 84
+      "created_at": "2011-03-08T17:14:28Z",
+      "total_stars": 1392
     },
     {
       "login": "UTMIST",
@@ -1909,6 +1895,20 @@
       "company": null,
       "created_at": "2018-08-27T00:28:26Z",
       "total_stars": 124
+    },
+    {
+      "login": "utat-ss",
+      "name": "UTAT Space Systems",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63824882?s=88&v=4",
+      "html_url": "https://github.com/utat-ss",
+      "followers": 108,
+      "following": 0,
+      "public_repos": 96,
+      "location": "Toronto, ON",
+      "bio": "On-board code, software tools and development from UofT's CubeSat team",
+      "company": null,
+      "created_at": "2020-04-17T00:03:42Z",
+      "total_stars": 84
     },
     {
       "login": "cleverhans-lab",

@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Singapore",
   "slug": "singapore",
-  "generated_at": "2026-10-27T10:37:36.034Z",
+  "generated_at": "2026-10-28T11:22:38.772Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 363053,
-    "org_followers": 97009,
-    "user_stars": 1126621,
-    "org_stars": 1196058
+    "user_followers": 363054,
+    "org_followers": 97206,
+    "user_stars": 1126617,
+    "org_stars": 1196266
   },
   "queries": [
     {
@@ -191,14 +191,14 @@
       "name": "Zihua Li",
       "avatar_url": "https://avatars.githubusercontent.com/u/635902?s=88&u=474c8ad1ee2b74c62085097c137306be0b5604f9&v=4",
       "html_url": "https://github.com/luin",
-      "followers": 4941,
+      "followers": 4942,
       "following": 169,
       "public_repos": 55,
       "location": "Singapore",
       "bio": "Web developer and designer, technical book author. I build tools that help people do things better.",
       "company": "@heydeer",
       "created_at": "2011-02-24T12:36:28Z",
-      "total_stars": 16310
+      "total_stars": 16306
     },
     {
       "login": "doodlewind",
@@ -1925,6 +1925,20 @@
       "total_stars": 322
     },
     {
+      "login": "NPMscan",
+      "name": "NPMscan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/336907155?s=88&v=4",
+      "html_url": "https://github.com/NPMscan",
+      "followers": 451,
+      "following": 0,
+      "public_repos": 1,
+      "location": "Singapore",
+      "bio": null,
+      "company": null,
+      "created_at": "2026-10-02T11:12:37Z",
+      "total_stars": 378
+    },
+    {
       "login": "elys-network",
       "name": "Elys Network",
       "avatar_url": "https://avatars.githubusercontent.com/u/121874884?s=88&v=4",
@@ -2387,20 +2401,6 @@
       "total_stars": 322
     },
     {
-      "login": "NPMscan",
-      "name": "NPMscan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/336907155?s=88&v=4",
-      "html_url": "https://github.com/NPMscan",
-      "followers": 254,
-      "following": 0,
-      "public_repos": 1,
-      "location": "Singapore",
-      "bio": null,
-      "company": null,
-      "created_at": "2026-10-02T11:12:37Z",
-      "total_stars": 170
-    },
-    {
       "login": "AgnesAI-Labs",
       "name": "AgnesAI",
       "avatar_url": "https://avatars.githubusercontent.com/u/208017515?s=88&v=4",
@@ -2499,20 +2499,6 @@
       "total_stars": 154
     },
     {
-      "login": "reddio-com",
-      "name": "Reddio, inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/92540442?s=88&v=4",
-      "html_url": "https://github.com/reddio-com",
-      "followers": 217,
-      "following": 0,
-      "public_repos": 27,
-      "location": "Singapore",
-      "bio": "https://reddio.com",
-      "company": null,
-      "created_at": "2021-10-14T16:58:02Z",
-      "total_stars": 88
-    },
-    {
       "login": "ZEGOCLOUD",
       "name": "ZEGOCLOUD",
       "avatar_url": "https://avatars.githubusercontent.com/u/94953686?s=88&v=4",
@@ -2525,6 +2511,20 @@
       "company": null,
       "created_at": "2021-11-24T06:51:25Z",
       "total_stars": 578
+    },
+    {
+      "login": "reddio-com",
+      "name": "Reddio, inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92540442?s=88&v=4",
+      "html_url": "https://github.com/reddio-com",
+      "followers": 217,
+      "following": 0,
+      "public_repos": 27,
+      "location": "Singapore",
+      "bio": "https://reddio.com",
+      "company": null,
+      "created_at": "2021-10-14T16:58:02Z",
+      "total_stars": 88
     },
     {
       "login": "graphdeeplearning",
@@ -3234,7 +3234,7 @@
       "full_name": "luin/medis",
       "html_url": "https://github.com/luin/medis",
       "description": "💻 Medis is a beautiful, easy-to-use Mac database management application for Redis.",
-      "stargazers_count": 11724,
+      "stargazers_count": 11721,
       "forks_count": 775,
       "language": "JavaScript",
       "topics": [

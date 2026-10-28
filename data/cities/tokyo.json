@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-10-27T10:37:32.995Z",
+  "generated_at": "2026-10-28T11:22:34.554Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 218801,
+    "user_followers": 219629,
     "org_followers": 23432,
-    "user_stars": 979616,
+    "user_stars": 971623,
     "org_stars": 317624
   },
   "queries": [
@@ -513,7 +513,7 @@
       "name": "Reyani",
       "avatar_url": "https://avatars.githubusercontent.com/u/43996450?s=88&u=9c5fefbfb1674e2a2935f060b4d6cd6974a14b12&v=4",
       "html_url": "https://github.com/reyani-dev",
-      "followers": 1855,
+      "followers": 1857,
       "following": 1935,
       "public_repos": 12,
       "location": "Tokyo, Japan",
@@ -619,6 +619,20 @@
       "company": null,
       "created_at": "2013-01-23T12:49:35Z",
       "total_stars": 84170
+    },
+    {
+      "login": "glzjin",
+      "name": "glzjin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7975407?s=88&u=e8df9eeca26135e93dc2913e56d2a9f70f734447&v=4",
+      "html_url": "https://github.com/glzjin",
+      "followers": 1679,
+      "following": 78,
+      "public_repos": 75,
+      "location": "Tokyo",
+      "bio": "Powered by Love❤️",
+      "company": "DBAppSecurity",
+      "created_at": "2014-06-24T12:51:54Z",
+      "total_stars": 758
     },
     {
       "login": "ktoso",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2011-08-08T16:22:34Z",
       "total_stars": 3920
-    },
-    {
-      "login": "foostan",
-      "name": "Kosuke Adachi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/736191?s=88&u=008b084f9de9349920b286c8d66b676e65f43874&v=4",
-      "html_url": "https://github.com/foostan",
-      "followers": 853,
-      "following": 13,
-      "public_repos": 104,
-      "location": "Tokyo",
-      "bio": "❤️ ☕️ ⌨️",
-      "company": "merpay, Inc.",
-      "created_at": "2011-04-18T09:20:58Z",
-      "total_stars": 8751
     }
   ],
   "orgs": [
@@ -2191,6 +2191,20 @@
       "total_stars": 954
     },
     {
+      "login": "legalforce",
+      "name": "LegalOn Technologies, Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32317437?s=88&v=4",
+      "html_url": "https://github.com/legalforce",
+      "followers": 77,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tokyo / Japan",
+      "bio": null,
+      "company": null,
+      "created_at": "2017-09-27T02:18:24Z",
+      "total_stars": 0
+    },
+    {
       "login": "mixigroup",
       "name": "MIXI GROUP",
       "avatar_url": "https://avatars.githubusercontent.com/u/63703082?s=88&v=4",
@@ -2217,20 +2231,6 @@
       "company": null,
       "created_at": "2018-07-30T03:00:31Z",
       "total_stars": 2186
-    },
-    {
-      "login": "legalforce",
-      "name": "LegalOn Technologies, Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/32317437?s=88&v=4",
-      "html_url": "https://github.com/legalforce",
-      "followers": 77,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tokyo / Japan",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-09-27T02:18:24Z",
-      "total_stars": 0
     },
     {
       "login": "bizreach-inc",
@@ -2672,8 +2672,8 @@
       "full_name": "kitao/pyxel",
       "html_url": "https://github.com/kitao/pyxel",
       "description": "A retro game engine for Python",
-      "stargazers_count": 18453,
-      "forks_count": 969,
+      "stargazers_count": 18473,
+      "forks_count": 970,
       "language": "Rust",
       "topics": [
         "game",

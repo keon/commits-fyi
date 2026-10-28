@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-10-27T10:36:39.401Z",
+  "generated_at": "2026-10-28T11:21:40.806Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 166604,
+    "user_followers": 167509,
     "org_followers": 40043,
-    "user_stars": 506524,
+    "user_stars": 509187,
     "org_stars": 460116
   },
   "queries": [
@@ -409,6 +409,20 @@
       "company": "Quansight, OpenTeams",
       "created_at": "2010-04-27T21:53:47Z",
       "total_stars": 24
+    },
+    {
+      "login": "brandur",
+      "name": "Brandur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96890?s=88&u=6e19efda669fd696053dfa8976e3ac3b3c16fbd4&v=4",
+      "html_url": "https://github.com/brandur",
+      "followers": 1329,
+      "following": 5,
+      "public_repos": 166,
+      "location": "Austin, TX",
+      "bio": "APIs, Go, terminal productivity, running, and metal. Engineering @ @riverqueue. Ex-@heroku, ex-@stripe, ex-@crunchydata, ex-@snowflakedb, ex-@stainless-api.",
+      "company": "@riverqueue",
+      "created_at": "2009-06-19T02:52:06Z",
+      "total_stars": 2917
     },
     {
       "login": "zaradarz",
@@ -1417,20 +1431,6 @@
       "company": "Anticlassic Studios, LLC",
       "created_at": "2010-08-05T20:28:12Z",
       "total_stars": 416
-    },
-    {
-      "login": "joshblack",
-      "name": "Josh Black",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3901764?s=88&u=d26ec0ff3cbeecf0c59d2be7e72197ca063cb7f8&v=4",
-      "html_url": "https://github.com/joshblack",
-      "followers": 424,
-      "following": 104,
-      "public_repos": 148,
-      "location": "Austin, Texas",
-      "bio": "Building design systems @github. Prev @carbon-design-system",
-      "company": null,
-      "created_at": "2013-03-18T17:56:56Z",
-      "total_stars": 254
     }
   ],
   "orgs": [
