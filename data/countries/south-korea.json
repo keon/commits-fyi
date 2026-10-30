@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "South Korea",
   "slug": "south-korea",
-  "generated_at": "2026-10-29T11:41:57.357Z",
+  "generated_at": "2026-10-30T11:27:21.390Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 149073,
+    "user_followers": 149307,
     "org_followers": 30264,
-    "user_stars": 754681,
+    "user_stars": 754690,
     "org_stars": 314694
   },
   "queries": [
@@ -831,6 +831,20 @@
       "total_stars": 1354
     },
     {
+      "login": "vishalrankhamb",
+      "name": "Minjun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148297673?s=88&u=2461d9dd5414e691e60555edb6f93aff99b3e556&v=4",
+      "html_url": "https://github.com/vishalrankhamb",
+      "followers": 877,
+      "following": 7767,
+      "public_repos": 66,
+      "location": "Seoul, South Korea",
+      "bio": "Full-Stack Developer & Blockchain Architect | Computer Vision | Quality-obsessed | Strategic Thinking",
+      "company": "Kakaogames",
+      "created_at": "2023-10-18T01:25:19Z",
+      "total_stars": 17
+    },
+    {
       "login": "monologg",
       "name": "Jangwon Park",
       "avatar_url": "https://avatars.githubusercontent.com/u/28896432?s=88&u=c5a5aa7e00b089abb7e791861a92d2e9665705b6&v=4",
@@ -1293,20 +1307,6 @@
       "total_stars": 6729
     },
     {
-      "login": "SeongJaeMoon",
-      "name": "SeongjaeMoon",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26380600?s=88&u=c5f320cdc9b28b6eeba8c68d4d1792a50d6c7bac&v=4",
-      "html_url": "https://github.com/SeongJaeMoon",
-      "followers": 673,
-      "following": 62,
-      "public_repos": 35,
-      "location": "Seoul, Republic of Korea",
-      "bio": "I'm deeply grateful to these developers for their work. I want to learn about all of these things. Thank you :)",
-      "company": "@IMPACTUS-Corporation",
-      "created_at": "2017-03-13T11:33:22Z",
-      "total_stars": 796
-    },
-    {
       "login": "Xvezda",
       "name": "Xvezda",
       "avatar_url": "https://avatars.githubusercontent.com/u/9497404?s=88&u=f3fbe027a6943b3e6ec902e4ba931bd3e09986aa&v=4",
@@ -1319,6 +1319,20 @@
       "company": null,
       "created_at": "2014-11-01T11:24:35Z",
       "total_stars": 154
+    },
+    {
+      "login": "SeongJaeMoon",
+      "name": "SeongjaeMoon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26380600?s=88&u=c5f320cdc9b28b6eeba8c68d4d1792a50d6c7bac&v=4",
+      "html_url": "https://github.com/SeongJaeMoon",
+      "followers": 673,
+      "following": 62,
+      "public_repos": 35,
+      "location": "Seoul, Republic of Korea",
+      "bio": "I'm deeply grateful to these developers for their work. I want to learn about all of these things. Thank you :)",
+      "company": "@IMPACTUS-Corporation",
+      "created_at": "2017-03-13T11:33:22Z",
+      "total_stars": 796
     },
     {
       "login": "sublee",
@@ -1417,20 +1431,6 @@
       "company": "@toss",
       "created_at": "2019-08-26T02:14:39Z",
       "total_stars": 355
-    },
-    {
-      "login": "wonkyungup",
-      "name": "원경업",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34180230?s=88&u=00be799874d38766452aba5912fa1c15dd261e68&v=4",
-      "html_url": "https://github.com/wonkyungup",
-      "followers": 643,
-      "following": 1625,
-      "public_repos": 6,
-      "location": "South Korea",
-      "bio": null,
-      "company": null,
-      "created_at": "2017-12-02T05:39:11Z",
-      "total_stars": 8
     }
   ],
   "orgs": [
@@ -2191,20 +2191,6 @@
       "total_stars": 104
     },
     {
-      "login": "rust-kr",
-      "name": "한국 러스트 사용자 그룹",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10530291?s=88&v=4",
-      "html_url": "https://github.com/rust-kr",
-      "followers": 154,
-      "following": 0,
-      "public_repos": 10,
-      "location": "대한민국",
-      "bio": "러스트를 사용하거나 러스트 개발에 참여하고 있는 사용자 그룹입니다.",
-      "company": null,
-      "created_at": "2015-01-14T11:23:44Z",
-      "total_stars": 170
-    },
-    {
       "login": "LangChain-OpenTutorial",
       "name": "LangChain OpenTutorial",
       "avatar_url": "https://avatars.githubusercontent.com/u/191695441?s=88&v=4",
@@ -2217,6 +2203,20 @@
       "company": null,
       "created_at": "2024-12-14T14:33:23Z",
       "total_stars": 1136
+    },
+    {
+      "login": "rust-kr",
+      "name": "한국 러스트 사용자 그룹",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10530291?s=88&v=4",
+      "html_url": "https://github.com/rust-kr",
+      "followers": 154,
+      "following": 0,
+      "public_repos": 10,
+      "location": "대한민국",
+      "bio": "러스트를 사용하거나 러스트 개발에 참여하고 있는 사용자 그룹입니다.",
+      "company": null,
+      "created_at": "2015-01-14T11:23:44Z",
+      "total_stars": 170
     },
     {
       "login": "ncsoft",

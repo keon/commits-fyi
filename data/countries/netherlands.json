@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-10-29T11:40:40.565Z",
+  "generated_at": "2026-10-30T11:27:16.169Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2121,20 +2121,6 @@
       "total_stars": 1197
     },
     {
-      "login": "datalumina",
-      "name": "Datalumina",
-      "avatar_url": "https://avatars.githubusercontent.com/u/180428551?s=88&v=4",
-      "html_url": "https://github.com/datalumina",
-      "followers": 255,
-      "following": 0,
-      "public_repos": 4,
-      "location": "Netherlands",
-      "bio": null,
-      "company": null,
-      "created_at": "2024-09-04T14:09:13Z",
-      "total_stars": 811
-    },
-    {
       "login": "trifectatechfoundation",
       "name": "Trifecta Tech Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/172280662?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2024-06-10T13:27:53Z",
       "total_stars": 9026
+    },
+    {
+      "login": "datalumina",
+      "name": "Datalumina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/180428551?s=88&v=4",
+      "html_url": "https://github.com/datalumina",
+      "followers": 255,
+      "following": 0,
+      "public_repos": 4,
+      "location": "Netherlands",
+      "bio": null,
+      "company": null,
+      "created_at": "2024-09-04T14:09:13Z",
+      "total_stars": 811
     },
     {
       "login": "philips-labs",
@@ -2588,6 +2588,25 @@
       ],
       "owner_login": "nvbn",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1114542?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "Raphire/Win11Debloat",
+      "html_url": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other ch",
+      "stargazers_count": 61265,
+      "forks_count": 2709,
+      "language": "PowerShell",
+      "topics": [
+        "windows",
+        "windows-10",
+        "windows10",
+        "powershell",
+        "ps1"
+      ],
+      "owner_login": "Raphire",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/9938813?s=88&u=36a2d1fc354e7314f167dee34ff90e9f2add52dc&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3412,25 +3431,6 @@
       "topics": [],
       "owner_login": "koenbok",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/206779?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "lauragift21/awesome-learning-resources",
-      "html_url": "https://github.com/lauragift21/awesome-learning-resources",
-      "description": "🔥 Awesome list of resources on Web Development.",
-      "stargazers_count": 5785,
-      "forks_count": 846,
-      "language": null,
-      "topics": [
-        "open-source",
-        "css",
-        "vue",
-        "javascript",
-        "awesome-list"
-      ],
-      "owner_login": "lauragift21",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17781315?s=88&u=135a419d7a02c75230ccd5d18f12c01d79031f3c&v=4",
       "owner_type": "User",
       "fork": false
     }

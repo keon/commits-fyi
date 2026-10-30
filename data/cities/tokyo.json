@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Tokyo",
   "slug": "tokyo",
-  "generated_at": "2026-10-29T11:37:35.346Z",
+  "generated_at": "2026-10-30T11:26:17.914Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 219729,
     "org_followers": 23462,
     "user_stars": 972130,
-    "org_stars": 317753
+    "org_stars": 317213
   },
   "queries": [
     {
@@ -579,20 +579,6 @@
       "total_stars": 8004
     },
     {
-      "login": "AkihiroSuda",
-      "name": "Akihiro Suda",
-      "avatar_url": "https://avatars.githubusercontent.com/u/9248427?s=88&v=4",
-      "html_url": "https://github.com/AkihiroSuda",
-      "followers": 1796,
-      "following": 0,
-      "public_repos": 73,
-      "location": "Tokyo, Japan",
-      "bio": "A maintainer of containerd, Lima, Moby(dockerd), BuildKit, runc, etc.\r\n",
-      "company": "NTT",
-      "created_at": "2014-10-15T08:07:00Z",
-      "total_stars": 1644
-    },
-    {
       "login": "yaraki",
       "name": "Yuichi Araki",
       "avatar_url": "https://avatars.githubusercontent.com/u/1237536?s=88&u=87187041aff394ae71ebb966b013e277668f3d1b&v=4",
@@ -605,6 +591,20 @@
       "company": null,
       "created_at": "2011-12-03T04:49:34Z",
       "total_stars": 184
+    },
+    {
+      "login": "AkihiroSuda",
+      "name": "Akihiro Suda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9248427?s=88&v=4",
+      "html_url": "https://github.com/AkihiroSuda",
+      "followers": 1796,
+      "following": 0,
+      "public_repos": 73,
+      "location": "Tokyo, Japan",
+      "bio": "A maintainer of containerd, Lima, Moby(dockerd), BuildKit, runc, etc.\r\n",
+      "company": "NTT",
+      "created_at": "2014-10-15T08:07:00Z",
+      "total_stars": 1644
     },
     {
       "login": "TapXWorld",
@@ -2443,20 +2443,6 @@
       "total_stars": 727
     },
     {
-      "login": "sbisecuritysolutions",
-      "name": "SBISecuritySolutions",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47776879?s=88&v=4",
-      "html_url": "https://github.com/sbisecuritysolutions",
-      "followers": 50,
-      "following": 0,
-      "public_repos": 0,
-      "location": "TOKYO JAPAN",
-      "bio": null,
-      "company": null,
-      "created_at": "2019-02-19T09:53:48Z",
-      "total_stars": 0
-    },
-    {
       "login": "UTokyo-FieldPhenomics-Lab",
       "name": "UTokyo-FieldPhenomics-Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/43122558?s=88&v=4",
@@ -2469,6 +2455,20 @@
       "company": null,
       "created_at": "2018-09-10T00:40:57Z",
       "total_stars": 189
+    },
+    {
+      "login": "sbisecuritysolutions",
+      "name": "SBISecuritySolutions",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47776879?s=88&v=4",
+      "html_url": "https://github.com/sbisecuritysolutions",
+      "followers": 50,
+      "following": 0,
+      "public_repos": 0,
+      "location": "TOKYO JAPAN",
+      "bio": null,
+      "company": null,
+      "created_at": "2019-02-19T09:53:48Z",
+      "total_stars": 0
     },
     {
       "login": "generalized-intelligence",
@@ -2541,18 +2541,18 @@
       "total_stars": 0
     },
     {
-      "login": "pepabo",
-      "name": "GMO Pepabo, Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1708980?s=88&v=4",
-      "html_url": "https://github.com/pepabo",
+      "login": "Hitachi",
+      "name": "Hitachi, Ltd.                                   ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9561292?s=88&v=4",
+      "html_url": "https://github.com/Hitachi",
       "followers": 46,
       "following": 0,
-      "public_repos": 125,
+      "public_repos": 18,
       "location": "Tokyo, Japan",
       "bio": null,
       "company": null,
-      "created_at": "2012-05-05T16:51:00Z",
-      "total_stars": 640
+      "created_at": "2014-11-04T23:42:02Z",
+      "total_stars": 100
     }
   ],
   "repos": [
