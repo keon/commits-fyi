@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "United Kingdom",
   "slug": "united-kingdom",
-  "generated_at": "2026-10-30T11:26:28.625Z",
+  "generated_at": "2026-10-31T10:57:20.056Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 589108,
+    "user_followers": 590278,
     "org_followers": 165208,
-    "user_stars": 1766055,
+    "user_stars": 1788381,
     "org_stars": 1645981
   },
   "queries": [
@@ -859,6 +859,20 @@
       "total_stars": 28023
     },
     {
+      "login": "abhisheknaiidu",
+      "name": "Abhishek Naidu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55599878?s=88&u=31aa4c938c2478e2c2da657c48fdbd49d4324dec&v=4",
+      "html_url": "https://github.com/abhisheknaiidu",
+      "followers": 3102,
+      "following": 14,
+      "public_repos": 36,
+      "location": "India",
+      "bio": "generalist",
+      "company": null,
+      "created_at": "2019-09-20T18:15:35Z",
+      "total_stars": 32557
+    },
+    {
       "login": "dli",
       "name": "David Li",
       "avatar_url": "https://avatars.githubusercontent.com/u/8669769?s=88&u=309f01cdb5f22d3304fa4aa7e1b51b66732c7a28&v=4",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2020-10-24T10:06:49Z",
       "total_stars": 8005
-    },
-    {
-      "login": "valeman",
-      "name": "valeman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26203246?s=88&u=76fc841b27850920ead8fb592347f826533c2cd9&v=4",
-      "html_url": "https://github.com/valeman",
-      "followers": 1932,
-      "following": 259,
-      "public_repos": 63,
-      "location": "London, UK",
-      "bio": "Machine Learning | Probabilistic Prediction | Time-series | Systematic Trading | Forecasting Innovation  | Creator of Awesome Conformal Prediction",
-      "company": "Big Business",
-      "created_at": "2017-03-05T15:55:12Z",
-      "total_stars": 10231
     }
   ],
   "orgs": [
@@ -2854,6 +2854,25 @@
       "fork": false
     },
     {
+      "full_name": "abhisheknaiidu/awesome-github-profile-readme",
+      "html_url": "https://github.com/abhisheknaiidu/awesome-github-profile-readme",
+      "description": "😎 A curated list of awesome GitHub Profile which updates in real time ",
+      "stargazers_count": 31462,
+      "forks_count": 4535,
+      "language": null,
+      "topics": [
+        "awesome-list",
+        "awesome",
+        "github",
+        "github-readme",
+        "github-profile-readme"
+      ],
+      "owner_login": "abhisheknaiidu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/55599878?s=88&u=31aa4c938c2478e2c2da657c48fdbd49d4324dec&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "MichaelCade/90DaysOfDevOps",
       "html_url": "https://github.com/MichaelCade/90DaysOfDevOps",
       "description": "This repository started out as a learning in public project for myself and has now become a structured learning map for many in the communit",
@@ -3418,25 +3437,6 @@
       "topics": [],
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "triggerdotdev/jsonhero-web",
-      "html_url": "https://github.com/triggerdotdev/jsonhero-web",
-      "description": "JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀. Bui",
-      "stargazers_count": 10883,
-      "forks_count": 665,
-      "language": "TypeScript",
-      "topics": [
-        "json",
-        "developer-tools",
-        "tools",
-        "viewer",
-        "devtools"
-      ],
-      "owner_login": "triggerdotdev",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/95297378?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

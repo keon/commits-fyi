@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-10-30T11:25:28.935Z",
+  "generated_at": "2026-10-31T10:56:22.239Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 431583,
+    "user_followers": 433250,
     "org_followers": 77450,
-    "user_stars": 1222726,
+    "user_stars": 1254961,
     "org_stars": 770649
   },
   "queries": [
@@ -521,6 +521,20 @@
       "company": "trycatchlearn",
       "created_at": "2017-09-08T08:57:30Z",
       "total_stars": 3693
+    },
+    {
+      "login": "abhisheknaiidu",
+      "name": "Abhishek Naidu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55599878?s=88&u=31aa4c938c2478e2c2da657c48fdbd49d4324dec&v=4",
+      "html_url": "https://github.com/abhisheknaiidu",
+      "followers": 3102,
+      "following": 14,
+      "public_repos": 36,
+      "location": "India",
+      "bio": "generalist",
+      "company": null,
+      "created_at": "2019-09-20T18:15:35Z",
+      "total_stars": 32557
     },
     {
       "login": "dli",
@@ -1417,20 +1431,6 @@
       "company": "Google DeepMind / University of Cambridge",
       "created_at": "2013-04-17T16:34:55Z",
       "total_stars": 6433
-    },
-    {
-      "login": "dylanbeattie",
-      "name": "Dylan Beattie",
-      "avatar_url": "https://avatars.githubusercontent.com/u/106178?s=88&u=a9a0fe539bb6511f3247585251dad1dbd2487f6d&v=4",
-      "html_url": "https://github.com/dylanbeattie",
-      "followers": 1435,
-      "following": 21,
-      "public_repos": 142,
-      "location": "London, UK",
-      "bio": "Developer, speaker, musician. Creator of @RockstarLang. C#, JavaScript, SQL, HTTP/REST, distributed systems, 80s rock music, hats, cats, Lego, guitars & travel.",
-      "company": "@ursatile  ",
-      "created_at": "2009-07-17T23:21:39Z",
-      "total_stars": 322
     }
   ],
   "orgs": [
@@ -2684,6 +2684,25 @@
       "fork": false
     },
     {
+      "full_name": "abhisheknaiidu/awesome-github-profile-readme",
+      "html_url": "https://github.com/abhisheknaiidu/awesome-github-profile-readme",
+      "description": "😎 A curated list of awesome GitHub Profile which updates in real time ",
+      "stargazers_count": 31462,
+      "forks_count": 4535,
+      "language": null,
+      "topics": [
+        "awesome-list",
+        "awesome",
+        "github",
+        "github-readme",
+        "github-profile-readme"
+      ],
+      "owner_login": "abhisheknaiidu",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/55599878?s=88&u=31aa4c938c2478e2c2da657c48fdbd49d4324dec&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "cloudflare/pingora",
       "html_url": "https://github.com/cloudflare/pingora",
       "description": "A library for building fast, reliable and evolvable network services.",
@@ -3383,25 +3402,6 @@
       ],
       "owner_login": "HariSekhon",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2211051?s=88&u=7747a673d98078d50467ba6e4d4f3a2f17b6db17&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "steipete/Aspects",
-      "html_url": "https://github.com/steipete/Aspects",
-      "description": "Delightful, simple library for aspect oriented programming in Objective-C and Swift.",
-      "stargazers_count": 8410,
-      "forks_count": 1263,
-      "language": "Objective-C",
-      "topics": [
-        "objectivec",
-        "aspects",
-        "objective-c",
-        "hooks",
-        "swift"
-      ],
-      "owner_login": "steipete",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/58493?s=88&u=95a4fccef3d341039661c427695691a664e333ba&v=4",
       "owner_type": "User",
       "fork": false
     }
