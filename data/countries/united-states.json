@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "United States",
   "slug": "united-states",
-  "generated_at": "2026-11-01T11:58:01.723Z",
+  "generated_at": "2026-11-02T13:32:42.221Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -131,20 +131,6 @@
       "total_stars": 25239
     },
     {
-      "login": "jwasham",
-      "name": "John Washam",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3771963?s=88&u=4b348c742192b1963aabbf803a1174d2a4de155a&v=4",
-      "html_url": "https://github.com/jwasham",
-      "followers": 27256,
-      "following": 6,
-      "public_repos": 23,
-      "location": "United States",
-      "bio": "Software Development Engineer at Amazon",
-      "company": null,
-      "created_at": "2013-03-05T03:55:46Z",
-      "total_stars": 378186
-    },
-    {
       "login": "gvanrossum",
       "name": "Guido van Rossum",
       "avatar_url": "https://avatars.githubusercontent.com/u/2894642?s=88&u=3fd95e46e081102446b1ebdf31e1cf3d77406c0b&v=4",
@@ -157,6 +143,20 @@
       "company": "Microsoft",
       "created_at": "2012-11-26T18:46:40Z",
       "total_stars": 1654
+    },
+    {
+      "login": "jwasham",
+      "name": "John Washam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3771963?s=88&u=4b348c742192b1963aabbf803a1174d2a4de155a&v=4",
+      "html_url": "https://github.com/jwasham",
+      "followers": 27256,
+      "following": 6,
+      "public_repos": 23,
+      "location": "United States",
+      "bio": "Software Development Engineer at Amazon",
+      "company": null,
+      "created_at": "2013-03-05T03:55:46Z",
+      "total_stars": 378186
     },
     {
       "login": "buckyroberts",
@@ -2247,20 +2247,6 @@
       "total_stars": 101415
     },
     {
-      "login": "postmanlabs",
-      "name": "Postman Inc.",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10251060?s=88&v=4",
-      "html_url": "https://github.com/postmanlabs",
-      "followers": 4312,
-      "following": 0,
-      "public_repos": 124,
-      "location": "United States of America",
-      "bio": "An API platform for building and using APIs",
-      "company": null,
-      "created_at": "2014-12-20T08:13:58Z",
-      "total_stars": 32101
-    },
-    {
       "login": "opengeos",
       "name": "Open Geospatial Solutions",
       "avatar_url": "https://avatars.githubusercontent.com/u/129896036?s=88&v=4",
@@ -2273,6 +2259,20 @@
       "company": null,
       "created_at": "2023-04-04T19:02:44Z",
       "total_stars": 31612
+    },
+    {
+      "login": "postmanlabs",
+      "name": "Postman Inc.",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10251060?s=88&v=4",
+      "html_url": "https://github.com/postmanlabs",
+      "followers": 4312,
+      "following": 0,
+      "public_repos": 124,
+      "location": "United States of America",
+      "bio": "An API platform for building and using APIs",
+      "company": null,
+      "created_at": "2014-12-20T08:13:58Z",
+      "total_stars": 32101
     },
     {
       "login": "hak5",

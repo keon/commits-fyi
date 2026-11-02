@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Tel Aviv",
   "slug": "tel-aviv",
-  "generated_at": "2026-11-01T11:55:43.766Z",
+  "generated_at": "2026-11-02T13:32:32.035Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 30892,
     "org_followers": 3387,
     "user_stars": 222159,
-    "org_stars": 91321
+    "org_stars": 91322
   },
   "queries": [
     {
@@ -789,20 +789,6 @@
       "total_stars": 2217
     },
     {
-      "login": "bzsinger",
-      "name": "Benny Singer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/14189730?s=88&u=748b6a15c923795b511edbf505148dcd7671ec06&v=4",
-      "html_url": "https://github.com/bzsinger",
-      "followers": 130,
-      "following": 220,
-      "public_repos": 20,
-      "location": "Tel Aviv",
-      "bio": "Meta, UT Austin '19",
-      "company": "@facebook",
-      "created_at": "2015-09-09T00:13:51Z",
-      "total_stars": 17
-    },
-    {
       "login": "guy-4444",
       "name": "Guy",
       "avatar_url": "https://avatars.githubusercontent.com/u/35038142?s=88&u=4553eaa7c1bd58a3310817e9397d3394a3aaca5c&v=4",
@@ -815,6 +801,20 @@
       "company": null,
       "created_at": "2018-01-02T16:31:03Z",
       "total_stars": 103
+    },
+    {
+      "login": "bzsinger",
+      "name": "Benny Singer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14189730?s=88&u=748b6a15c923795b511edbf505148dcd7671ec06&v=4",
+      "html_url": "https://github.com/bzsinger",
+      "followers": 130,
+      "following": 220,
+      "public_repos": 20,
+      "location": "Tel Aviv",
+      "bio": "Meta, UT Austin '19",
+      "company": "@facebook",
+      "created_at": "2015-09-09T00:13:51Z",
+      "total_stars": 17
     },
     {
       "login": "amit-davidson",
@@ -1502,7 +1502,7 @@
       "bio": "Live tennis data over REST and WebSocket. Open-source SDKs and MCP tools. Explore Synapse for custom software and AI.",
       "company": null,
       "created_at": "2026-07-18T22:06:25Z",
-      "total_stars": 415
+      "total_stars": 416
     },
     {
       "login": "AnimaApp",
@@ -1813,6 +1813,20 @@
       "total_stars": 22
     },
     {
+      "login": "UVeye",
+      "name": "UVeye",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60224038?s=88&v=4",
+      "html_url": "https://github.com/UVeye",
+      "followers": 14,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Tel-Aviv, Isreal",
+      "bio": "The global standard of vehicle inspection",
+      "company": null,
+      "created_at": "2020-01-23T13:53:47Z",
+      "total_stars": 0
+    },
+    {
       "login": "hunters-ai",
       "name": "Hunters",
       "avatar_url": "https://avatars.githubusercontent.com/u/39551348?s=88&v=4",
@@ -1839,20 +1853,6 @@
       "company": null,
       "created_at": "2013-05-06T08:10:54Z",
       "total_stars": 129
-    },
-    {
-      "login": "UVeye",
-      "name": "UVeye",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60224038?s=88&v=4",
-      "html_url": "https://github.com/UVeye",
-      "followers": 14,
-      "following": 0,
-      "public_repos": 0,
-      "location": "Tel-Aviv, Isreal",
-      "bio": "The global standard of vehicle inspection",
-      "company": null,
-      "created_at": "2020-01-23T13:53:47Z",
-      "total_stars": 0
     },
     {
       "login": "tikalk",

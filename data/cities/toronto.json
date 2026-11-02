@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-11-01T11:53:43.516Z",
+  "generated_at": "2026-11-02T13:31:43.502Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 163742,
     "org_followers": 27033,
     "user_stars": 708140,
-    "org_stars": 201313
+    "org_stars": 203763
   },
   "queries": [
     {
@@ -2527,20 +2527,6 @@
       "total_stars": 569
     },
     {
-      "login": "becloudready",
-      "name": "BeCloudReady",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20618198?s=88&v=4",
-      "html_url": "https://github.com/becloudready",
-      "followers": 40,
-      "following": 0,
-      "public_repos": 37,
-      "location": "Toronto, Canada",
-      "bio": "Hands-on technical workshops for enterprise engineering and analytics teams. Databricks Registered Partner. Databricks, AWS, data engineering, LLMOps.",
-      "company": null,
-      "created_at": "2016-07-23T22:47:02Z",
-      "total_stars": 87
-    },
-    {
       "login": "Aggregate-Intellect",
       "name": "Aggregate Intellect",
       "avatar_url": "https://avatars.githubusercontent.com/u/46096608?s=88&v=4",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2018-12-24T02:37:31Z",
       "total_stars": 298
+    },
+    {
+      "login": "documize",
+      "name": "Documize",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7921789?s=88&v=4",
+      "html_url": "https://github.com/documize",
+      "followers": 40,
+      "following": 0,
+      "public_repos": 7,
+      "location": "Toronto",
+      "bio": null,
+      "company": null,
+      "created_at": "2014-06-18T09:45:28Z",
+      "total_stars": 2537
     }
   ],
   "repos": [
