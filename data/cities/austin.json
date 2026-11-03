@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-11-02T13:31:41.743Z",
+  "generated_at": "2026-11-03T12:49:09.823Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 167713,
+    "user_followers": 168294,
     "org_followers": 40460,
-    "user_stars": 509591,
+    "user_stars": 510523,
     "org_stars": 471732
   },
   "queries": [
@@ -605,6 +605,20 @@
       "company": null,
       "created_at": "2012-12-20T18:23:21Z",
       "total_stars": 1338
+    },
+    {
+      "login": "chenkie",
+      "name": "Ryan Chenkie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1847678?s=88&v=4",
+      "html_url": "https://github.com/chenkie",
+      "followers": 1006,
+      "following": 6,
+      "public_repos": 72,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": "Elevate Digital",
+      "created_at": "2012-06-13T19:13:58Z",
+      "total_stars": 1348
     },
     {
       "login": "lecoursen",
@@ -1279,20 +1293,6 @@
       "total_stars": 828
     },
     {
-      "login": "ethanbrooks-data",
-      "name": "Ethan Brooks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29166347?s=88&u=abc380913684553978bd1c51e501dfa8336ae8f8&v=4",
-      "html_url": "https://github.com/ethanbrooks-data",
-      "followers": 491,
-      "following": 1007,
-      "public_repos": 17,
-      "location": "Austin, Texas, USA",
-      "bio": "Data Engineer | Python • SQL • Apache Spark • Airflow • AWS | Building scalable ETL pipelines & data platforms.",
-      "company": "BluePeak Analytics",
-      "created_at": "2017-06-03T18:29:05Z",
-      "total_stars": 120
-    },
-    {
       "login": "prograhammer",
       "name": "David Graham",
       "avatar_url": "https://avatars.githubusercontent.com/u/4474660?s=88&u=b5b4c806ac8654ce8c2709e478e038fc003af7e2&v=4",
@@ -1305,6 +1305,20 @@
       "company": "@homedepot",
       "created_at": "2013-05-20T01:50:37Z",
       "total_stars": 1519
+    },
+    {
+      "login": "ethanbrooks-data",
+      "name": "Ethan Brooks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29166347?s=88&u=abc380913684553978bd1c51e501dfa8336ae8f8&v=4",
+      "html_url": "https://github.com/ethanbrooks-data",
+      "followers": 491,
+      "following": 1007,
+      "public_repos": 17,
+      "location": "Austin, Texas, USA",
+      "bio": "Data Engineer | Python • SQL • Apache Spark • Airflow • AWS | Building scalable ETL pipelines & data platforms.",
+      "company": "BluePeak Analytics",
+      "created_at": "2017-06-03T18:29:05Z",
+      "total_stars": 120
     },
     {
       "login": "pragmaticivan",
@@ -1417,20 +1431,6 @@
       "company": null,
       "created_at": "2010-11-16T02:06:41Z",
       "total_stars": 973
-    },
-    {
-      "login": "thobbs",
-      "name": "Tyler Hobbs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/355580?s=88&u=4df51c19ac92fcc152e484286be143724888eac9&v=4",
-      "html_url": "https://github.com/thobbs",
-      "followers": 425,
-      "following": 23,
-      "public_repos": 13,
-      "location": "Austin, TX",
-      "bio": "Generative artist, Apache Cassandra Committer/PMC.",
-      "company": "Anticlassic Studios, LLC",
-      "created_at": "2010-08-05T20:28:12Z",
-      "total_stars": 416
     }
   ],
   "orgs": [
@@ -2037,20 +2037,6 @@
       "total_stars": 1555
     },
     {
-      "login": "iSECPartners",
-      "name": "iSEC Partners",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1958962?s=88&v=4",
-      "html_url": "https://github.com/iSECPartners",
-      "followers": 74,
-      "following": 0,
-      "public_repos": 37,
-      "location": "San Francisco / New York / Seattle / Austin",
-      "bio": null,
-      "company": null,
-      "created_at": "2012-07-11T20:40:40Z",
-      "total_stars": 6508
-    },
-    {
       "login": "JanssenProject",
       "name": "Janssen Project at the Linux Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/68292770?s=88&v=4",
@@ -2063,6 +2049,20 @@
       "company": null,
       "created_at": "2020-07-14T16:19:17Z",
       "total_stars": 868
+    },
+    {
+      "login": "iSECPartners",
+      "name": "iSEC Partners",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1958962?s=88&v=4",
+      "html_url": "https://github.com/iSECPartners",
+      "followers": 74,
+      "following": 0,
+      "public_repos": 37,
+      "location": "San Francisco / New York / Seattle / Austin",
+      "bio": null,
+      "company": null,
+      "created_at": "2012-07-11T20:40:40Z",
+      "total_stars": 6508
     },
     {
       "login": "NISystemsEngineering",
@@ -2345,20 +2345,6 @@
       "total_stars": 527
     },
     {
-      "login": "PubInv",
-      "name": "Public Invention",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11892727?s=88&v=4",
-      "html_url": "https://github.com/PubInv",
-      "followers": 49,
-      "following": 0,
-      "public_repos": 108,
-      "location": "Austin, Texas, USA",
-      "bio": "We seek to invent livingry for the benefit of all humanity.",
-      "company": null,
-      "created_at": "2015-04-10T20:44:06Z",
-      "total_stars": 348
-    },
-    {
       "login": "zenbusiness",
       "name": "ZenBusiness Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/28407999?s=88&v=4",
@@ -2371,6 +2357,20 @@
       "company": null,
       "created_at": "2017-05-04T19:51:19Z",
       "total_stars": 0
+    },
+    {
+      "login": "PubInv",
+      "name": "Public Invention",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11892727?s=88&v=4",
+      "html_url": "https://github.com/PubInv",
+      "followers": 49,
+      "following": 0,
+      "public_repos": 108,
+      "location": "Austin, Texas, USA",
+      "bio": "We seek to invent livingry for the benefit of all humanity.",
+      "company": null,
+      "created_at": "2015-04-10T20:44:06Z",
+      "total_stars": 348
     },
     {
       "login": "thefrontside",
