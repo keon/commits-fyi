@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "China",
   "slug": "china",
-  "generated_at": "2026-11-04T13:09:10.734Z",
+  "generated_at": "2026-11-05T13:15:03.540Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 1251619,
-    "org_followers": 234236,
+    "org_followers": 240717,
     "user_stars": 4543124,
-    "org_stars": 4307430
+    "org_stars": 4552650
   },
   "queries": [
     {
@@ -1505,6 +1505,20 @@
       "total_stars": 82849
     },
     {
+      "login": "PaddlePaddle",
+      "name": "PaddlePaddle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23534030?s=88&v=4",
+      "html_url": "https://github.com/PaddlePaddle",
+      "followers": 7351,
+      "following": 0,
+      "public_repos": 106,
+      "location": "China",
+      "bio": null,
+      "company": null,
+      "created_at": "2016-11-17T22:32:15Z",
+      "total_stars": 256808
+    },
+    {
       "login": "unitreerobotics",
       "name": "Unitree Robotics",
       "avatar_url": "https://avatars.githubusercontent.com/u/44998897?s=88&v=4",
@@ -1967,20 +1981,6 @@
       "total_stars": 4988
     },
     {
-      "login": "Alibaba-NLP",
-      "name": "Tongyi Lab, Alibaba Group",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64211549?s=88&v=4",
-      "html_url": "https://github.com/Alibaba-NLP",
-      "followers": 1728,
-      "following": 0,
-      "public_repos": 40,
-      "location": "China",
-      "bio": "Our team at Tongyi Lab is dedicated to pioneer advancements in AI search technologies.",
-      "company": null,
-      "created_at": "2020-04-23T14:36:38Z",
-      "total_stars": 26289
-    },
-    {
       "login": "tuna",
       "name": "Tsinghua University TUNA Association",
       "avatar_url": "https://avatars.githubusercontent.com/u/9341563?s=88&v=4",
@@ -1993,6 +1993,20 @@
       "company": null,
       "created_at": "2014-10-21T19:36:14Z",
       "total_stars": 13038
+    },
+    {
+      "login": "Alibaba-NLP",
+      "name": "Tongyi Lab, Alibaba Group",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64211549?s=88&v=4",
+      "html_url": "https://github.com/Alibaba-NLP",
+      "followers": 1728,
+      "following": 0,
+      "public_repos": 40,
+      "location": "China",
+      "bio": "Our team at Tongyi Lab is dedicated to pioneer advancements in AI search technologies.",
+      "company": null,
+      "created_at": "2020-04-23T14:36:38Z",
+      "total_stars": 26289
     },
     {
       "login": "opendilab",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2022-10-02T15:52:35Z",
       "total_stars": 5332
-    },
-    {
-      "login": "Thinklab-SJTU",
-      "name": "Thinklab (SJTU & SII)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55233859?s=88&v=4",
-      "html_url": "https://github.com/Thinklab-SJTU",
-      "followers": 870,
-      "following": 0,
-      "public_repos": 85,
-      "location": "Shanghai",
-      "bio": "ReThinklab at Shanghai Jiao Tong University and SII, focusing on machine learning and applications, led by Prof. Junchi Yan.",
-      "company": null,
-      "created_at": "2019-09-12T09:05:21Z",
-      "total_stars": 11588
     }
   ],
   "repos": [
@@ -2692,6 +2692,25 @@
       ],
       "owner_login": "ant-design",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12101536?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "PaddlePaddle/PaddleOCR",
+      "html_url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDF",
+      "stargazers_count": 92302,
+      "forks_count": 11620,
+      "language": "Python",
+      "topics": [
+        "ocr",
+        "chineseocr",
+        "pdf2markdown",
+        "pp-ocr",
+        "pp-structure"
+      ],
+      "owner_login": "PaddlePaddle",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/23534030?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     },
@@ -3447,25 +3466,6 @@
       ],
       "owner_login": "bilibili",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/12002442?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "open-mmlab/mmdetection",
-      "html_url": "https://github.com/open-mmlab/mmdetection",
-      "description": "OpenMMLab Detection Toolbox and Benchmark",
-      "stargazers_count": 33023,
-      "forks_count": 9818,
-      "language": "Python",
-      "topics": [
-        "object-detection",
-        "instance-segmentation",
-        "fast-rcnn",
-        "faster-rcnn",
-        "mask-rcnn"
-      ],
-      "owner_login": "open-mmlab",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10245193?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }

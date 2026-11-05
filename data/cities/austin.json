@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-11-04T13:02:31.704Z",
+  "generated_at": "2026-11-05T13:13:10.699Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 167007,
-    "org_followers": 40617,
-    "user_stars": 493217,
-    "org_stars": 474846
+    "user_followers": 168440,
+    "org_followers": 40477,
+    "user_stars": 510649,
+    "org_stars": 470544
   },
   "queries": [
     {
@@ -635,6 +635,20 @@
       "total_stars": 1348
     },
     {
+      "login": "dthree",
+      "name": "DC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10319897?s=88&u=68ce1eaf844820a47623870a3ffb493453cc4c2e&v=4",
+      "html_url": "https://github.com/dthree",
+      "followers": 987,
+      "following": 43,
+      "public_repos": 8,
+      "location": "Austin",
+      "bio": "Co-founder/CTO MindCloud",
+      "company": "MindCloud",
+      "created_at": "2014-12-27T01:40:22Z",
+      "total_stars": 17317
+    },
+    {
       "login": "KilledByAPixel",
       "name": "Frank Force",
       "avatar_url": "https://avatars.githubusercontent.com/u/16227600?s=88&u=e23470f641eaf414ff3f50892629195d1ee7c63d&v=4",
@@ -717,6 +731,20 @@
       "company": "@Anomalyco",
       "created_at": "2020-04-01T22:20:19Z",
       "total_stars": 30
+    },
+    {
+      "login": "brendankenny",
+      "name": "Brendan Kenny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316891?s=88&u=171a6cd2eeea7ecf7b15d30773e03360678a68a5&v=4",
+      "html_url": "https://github.com/brendankenny",
+      "followers": 849,
+      "following": 1,
+      "public_repos": 12,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-06-28T22:24:09Z",
+      "total_stars": 607
     },
     {
       "login": "hu-po",
@@ -999,6 +1027,20 @@
       "total_stars": 3616
     },
     {
+      "login": "HarshKapadia2",
+      "name": "Harsh Kapadia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50140864?s=88&u=b5de3e02f63efaa5cbe862bff819b0c12b8b6c72&v=4",
+      "html_url": "https://github.com/HarshKapadia2",
+      "followers": 646,
+      "following": 336,
+      "public_repos": 80,
+      "location": "Austin, TX, USA",
+      "bio": "Software Engineer • Organiser @OurTechCommunity",
+      "company": "@OurTechCommunity",
+      "created_at": "2019-04-30T11:56:11Z",
+      "total_stars": 434
+    },
+    {
       "login": "Empact",
       "name": "Benjamin Woosley",
       "avatar_url": "https://avatars.githubusercontent.com/u/5470?s=88&u=1d49bd94573c67968dfd599d4a78629d8ed4193b&v=4",
@@ -1195,6 +1237,20 @@
       "total_stars": 849
     },
     {
+      "login": "catid",
+      "name": "Chris Taylor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252193?s=88&u=95fa725b3e0ae4d9cc281ba9d64c2c1035bbbcb7&v=4",
+      "html_url": "https://github.com/catid",
+      "followers": 545,
+      "following": 27,
+      "public_repos": 127,
+      "location": "Austin, TX",
+      "bio": "Focus on erasure correction coding (ECC/FEC), cryptography, networking libraries, lossless image compression, Azure Kinect, XR, LLMs, Image Processing",
+      "company": null,
+      "created_at": "2010-04-25T21:44:46Z",
+      "total_stars": 3602
+    },
+    {
       "login": "devinus",
       "name": "Devin Alexander Torres",
       "avatar_url": "https://avatars.githubusercontent.com/u/4836?s=88&u=b5db715dd66603b9512bf2295c4a528429261052&v=4",
@@ -1235,6 +1291,20 @@
       "company": "@freenet ",
       "created_at": "2008-09-03T22:28:41Z",
       "total_stars": 828
+    },
+    {
+      "login": "prograhammer",
+      "name": "David Graham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4474660?s=88&u=b5b4c806ac8654ce8c2709e478e038fc003af7e2&v=4",
+      "html_url": "https://github.com/prograhammer",
+      "followers": 492,
+      "following": 0,
+      "public_repos": 13,
+      "location": "Austin, TX",
+      "bio": "Pursuing all parts of the Web stack. Love helping people. Passionate about clean code.",
+      "company": "@homedepot",
+      "created_at": "2013-05-20T01:50:37Z",
+      "total_stars": 1518
     },
     {
       "login": "pragmaticivan",
@@ -1361,76 +1431,6 @@
       "company": null,
       "created_at": "2010-11-16T02:06:41Z",
       "total_stars": 973
-    },
-    {
-      "login": "thobbs",
-      "name": "Tyler Hobbs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/355580?s=88&u=4df51c19ac92fcc152e484286be143724888eac9&v=4",
-      "html_url": "https://github.com/thobbs",
-      "followers": 425,
-      "following": 23,
-      "public_repos": 13,
-      "location": "Austin, TX",
-      "bio": "Generative artist, Apache Cassandra Committer/PMC.",
-      "company": "Anticlassic Studios, LLC",
-      "created_at": "2010-08-05T20:28:12Z",
-      "total_stars": 416
-    },
-    {
-      "login": "joshblack",
-      "name": "Josh Black",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3901764?s=88&u=d26ec0ff3cbeecf0c59d2be7e72197ca063cb7f8&v=4",
-      "html_url": "https://github.com/joshblack",
-      "followers": 423,
-      "following": 104,
-      "public_repos": 148,
-      "location": "Austin, Texas",
-      "bio": "Building design systems @github. Prev @carbon-design-system",
-      "company": null,
-      "created_at": "2013-03-18T17:56:56Z",
-      "total_stars": 254
-    },
-    {
-      "login": "stevenygd",
-      "name": "Guandao Yang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7636919?s=88&u=6b4b8e010e7b86ac821651fa1835a3dea46c2057&v=4",
-      "html_url": "https://github.com/stevenygd",
-      "followers": 418,
-      "following": 65,
-      "public_repos": 18,
-      "location": "Austin",
-      "bio": "AP @ UT Austin ECE. Physical Generative AI.",
-      "company": "The University of Texas at Austin",
-      "created_at": "2014-05-20T01:49:24Z",
-      "total_stars": 1324
-    },
-    {
-      "login": "mateodelnorte",
-      "name": "Matt Walters",
-      "avatar_url": "https://avatars.githubusercontent.com/u/554847?s=88&u=aef1d7163bd717675154c9f8d4bc4e25c7efc9a2&v=4",
-      "html_url": "https://github.com/mateodelnorte",
-      "followers": 411,
-      "following": 27,
-      "public_repos": 81,
-      "location": "Austin",
-      "bio": "I make complex things simple. Ex-Tesla. TechStars 2011. ",
-      "company": "GitKB",
-      "created_at": "2011-01-10T00:55:53Z",
-      "total_stars": 3477
-    },
-    {
-      "login": "jjasghar",
-      "name": "JJ Asghar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/810824?s=88&u=99aa301aa90a74a39f983ed200fec7d2e7abf82e&v=4",
-      "html_url": "https://github.com/jjasghar",
-      "followers": 409,
-      "following": 99,
-      "public_repos": 227,
-      "location": "Austin, Texas",
-      "bio": "Father, Husband, Eagle Scout, and Computer Nerd. I work in the IBM OSPO.",
-      "company": "IBM",
-      "created_at": "2011-05-25T21:55:33Z",
-      "total_stars": 575
     }
   ],
   "orgs": [
@@ -1741,20 +1741,6 @@
       "company": null,
       "created_at": "2020-01-14T15:36:11Z",
       "total_stars": 0
-    },
-    {
-      "login": "Teradata",
-      "name": "Teradata Corporation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1615979?s=88&v=4",
-      "html_url": "https://github.com/Teradata",
-      "followers": 180,
-      "following": 0,
-      "public_repos": 138,
-      "location": "San Diego, Silicon Valley, Austin, Seattle",
-      "bio": "Business Outcome Led - Technology Enabled",
-      "company": null,
-      "created_at": "2012-04-05T15:58:20Z",
-      "total_stars": 4616
     },
     {
       "login": "oracle-actions",
@@ -2553,6 +2539,20 @@
       "company": null,
       "created_at": "2016-11-28T20:25:22Z",
       "total_stars": 3016
+    },
+    {
+      "login": "synthetik-technologies",
+      "name": "Synthetik Applied Technologies",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40600399?s=88&v=4",
+      "html_url": "https://github.com/synthetik-technologies",
+      "followers": 40,
+      "following": 0,
+      "public_repos": 4,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-06-26T12:12:22Z",
+      "total_stars": 314
     }
   ],
   "repos": [
@@ -2891,6 +2891,19 @@
       "fork": false
     },
     {
+      "full_name": "dthree/cash",
+      "html_url": "https://github.com/dthree/cash",
+      "description": "Cross-platform Linux commands in ES6",
+      "stargazers_count": 7727,
+      "forks_count": 198,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "dthree",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10319897?s=88&u=68ce1eaf844820a47623870a3ffb493453cc4c2e&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "cloudflare/boringtun",
       "html_url": "https://github.com/cloudflare/boringtun",
       "description": "Userspace WireGuard® Implementation in Rust",
@@ -3001,6 +3014,24 @@
       "owner_login": "gliderlabs",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8484931?s=88&v=4",
       "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "dthree/vorpal",
+      "html_url": "https://github.com/dthree/vorpal",
+      "description": "Node's framework for interactive CLIs",
+      "stargazers_count": 5619,
+      "forks_count": 278,
+      "language": "JavaScript",
+      "topics": [
+        "cli",
+        "interactive",
+        "shell",
+        "node"
+      ],
+      "owner_login": "dthree",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/10319897?s=88&u=68ce1eaf844820a47623870a3ffb493453cc4c2e&v=4",
+      "owner_type": "User",
       "fork": false
     },
     {
@@ -3331,38 +3362,6 @@
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
       "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "osano/cookieconsent",
-      "html_url": "https://github.com/osano/cookieconsent",
-      "description": "A free solution to the EU, GDPR, and California Cookie Laws",
-      "stargazers_count": 3583,
-      "forks_count": 570,
-      "language": "JavaScript",
-      "topics": [
-        "cookie-consent",
-        "eu-cookie",
-        "javascript",
-        "cookies",
-        "gdpr"
-      ],
-      "owner_login": "osano",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/40547146?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
-      "full_name": "achillean/shodan-python",
-      "html_url": "https://github.com/achillean/shodan-python",
-      "description": "The official Python library for Shodan",
-      "stargazers_count": 3466,
-      "forks_count": 773,
-      "language": "Python",
-      "topics": [],
-      "owner_login": "achillean",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/373864?s=88&u=944ade9560475b663163d1911894691b212b8d0c&v=4",
-      "owner_type": "User",
       "fork": false
     }
   ]
