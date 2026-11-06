@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-11-05T13:13:07.462Z",
+  "generated_at": "2026-11-06T12:58:11.365Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 352492,
+    "user_followers": 352538,
     "org_followers": 262309,
-    "user_stars": 981234,
+    "user_stars": 980236,
     "org_stars": 2777524
   },
   "queries": [
@@ -1391,6 +1391,20 @@
       "total_stars": 2597
     },
     {
+      "login": "deathblock",
+      "name": "Ethan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133392337?s=88&u=15a249045679706a18f172295a0cf49220a7541e&v=4",
+      "html_url": "https://github.com/deathblock",
+      "followers": 1201,
+      "following": 7751,
+      "public_repos": 60,
+      "location": "Seattle, United States",
+      "bio": "DevOps Engineer & Product Strategist | Advanced Deployment | Always Expanding Expertise",
+      "company": "Nimbusplatform",
+      "created_at": "2023-05-12T15:56:08Z",
+      "total_stars": 21
+    },
+    {
       "login": "snakajima",
       "name": "Satoshi Nakajima",
       "avatar_url": "https://avatars.githubusercontent.com/u/139827?s=88&u=b72b05584a295eb44e0d0c5bf83b90d68321a81c&v=4",
@@ -1417,20 +1431,6 @@
       "company": "GitHub",
       "created_at": "2009-02-12T18:22:32Z",
       "total_stars": 240
-    },
-    {
-      "login": "keesun",
-      "name": "Keesun Baik (a.k.a, Whiteship)",
-      "avatar_url": "https://avatars.githubusercontent.com/u/463657?s=88&v=4",
-      "html_url": "https://github.com/keesun",
-      "followers": 1155,
-      "following": 11,
-      "public_repos": 49,
-      "location": "Seattle, WA",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-11-02T04:19:45Z",
-      "total_stars": 1019
     }
   ],
   "orgs": [

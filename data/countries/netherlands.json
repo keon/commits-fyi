@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-11-05T13:15:00.410Z",
+  "generated_at": "2026-11-06T13:00:04.263Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -803,20 +803,6 @@
       "total_stars": 4172
     },
     {
-      "login": "BullsEye0",
-      "name": "Jolanda de Koff",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33765660?s=88&u=51b578d2b0eeb80196a952830103bde551b0c544&v=4",
-      "html_url": "https://github.com/BullsEye0",
-      "followers": 1936,
-      "following": 0,
-      "public_repos": 12,
-      "location": "Utrecht",
-      "bio": "\"You can create art & beauty with a computer and Hacking is not a hobby but a way of life. I ♥ open source.",
-      "company": "hackingpassion.com",
-      "created_at": "2017-11-17T21:23:48Z",
-      "total_stars": 5598
-    },
-    {
       "login": "kzidane",
       "name": "Kareem Zidane",
       "avatar_url": "https://avatars.githubusercontent.com/u/7230211?s=88&u=c1aaca46fdc045f7f8b4c6e2f1282541ad88f773&v=4",
@@ -829,6 +815,20 @@
       "company": "@databricks",
       "created_at": "2014-04-08T19:27:39Z",
       "total_stars": 0
+    },
+    {
+      "login": "BullsEye0",
+      "name": "Jolanda de Koff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33765660?s=88&u=51b578d2b0eeb80196a952830103bde551b0c544&v=4",
+      "html_url": "https://github.com/BullsEye0",
+      "followers": 1936,
+      "following": 0,
+      "public_repos": 12,
+      "location": "Utrecht",
+      "bio": "\"You can create art & beauty with a computer and Hacking is not a hobby but a way of life. I ♥ open source.",
+      "company": "hackingpassion.com",
+      "created_at": "2017-11-17T21:23:48Z",
+      "total_stars": 5598
     },
     {
       "login": "jfversluis",
@@ -2595,8 +2595,8 @@
       "full_name": "Raphire/Win11Debloat",
       "html_url": "https://github.com/Raphire/Win11Debloat",
       "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other ch",
-      "stargazers_count": 61526,
-      "forks_count": 2728,
+      "stargazers_count": 61880,
+      "forks_count": 2747,
       "language": "PowerShell",
       "topics": [
         "windows",

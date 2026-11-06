@@ -2,15 +2,15 @@
   "kind": "city",
   "name": "Sydney",
   "slug": "sydney",
-  "generated_at": "2026-11-05T13:14:04.787Z",
+  "generated_at": "2026-11-06T12:59:11.098Z",
   "counts": {
     "users": 100,
-    "orgs": 79,
+    "orgs": 80,
     "repos": 50
   },
   "totals": {
     "user_followers": 138104,
-    "org_followers": 9352,
+    "org_followers": 9382,
     "user_stars": 562157,
     "org_stars": 61442
   },
@@ -1209,20 +1209,6 @@
       "total_stars": 2354
     },
     {
-      "login": "mcauser",
-      "name": "Mike Causer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1038959?s=88&u=071768559a5840d38cf316da52c2d8d5cf2ea000&v=4",
-      "html_url": "https://github.com/mcauser",
-      "followers": 450,
-      "following": 62,
-      "public_repos": 128,
-      "location": "Sydney, Australia",
-      "bio": null,
-      "company": "@red-ant",
-      "created_at": "2011-09-09T15:27:16Z",
-      "total_stars": 4044
-    },
-    {
       "login": "futantan",
       "name": "Tantan Fu",
       "avatar_url": "https://avatars.githubusercontent.com/u/6268441?s=88&u=a0a73d3334fca1d6afc6002203028edbda476417&v=4",
@@ -1235,6 +1221,20 @@
       "company": null,
       "created_at": "2013-12-27T03:47:11Z",
       "total_stars": 4818
+    },
+    {
+      "login": "mcauser",
+      "name": "Mike Causer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1038959?s=88&u=071768559a5840d38cf316da52c2d8d5cf2ea000&v=4",
+      "html_url": "https://github.com/mcauser",
+      "followers": 450,
+      "following": 62,
+      "public_repos": 128,
+      "location": "Sydney, Australia",
+      "bio": null,
+      "company": "@red-ant",
+      "created_at": "2011-09-09T15:27:16Z",
+      "total_stars": 4044
     },
     {
       "login": "sachinruk",
@@ -2133,6 +2133,20 @@
       "company": null,
       "created_at": "2017-10-16T04:34:13Z",
       "total_stars": 8
+    },
+    {
+      "login": "L3A-Protocol",
+      "name": "Openmesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91728166?s=88&v=4",
+      "html_url": "https://github.com/L3A-Protocol",
+      "followers": 30,
+      "following": 0,
+      "public_repos": 0,
+      "location": "Sydney",
+      "bio": "Decentralized data infrastructure aimed at storing important global data without a middleman, starting with Web3 data.",
+      "company": null,
+      "created_at": "2021-10-01T09:29:33Z",
+      "total_stars": 0
     },
     {
       "login": "NeuroSyd",

@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-11-05T13:13:13.434Z",
+  "generated_at": "2026-11-06T12:58:19.166Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 272628,
-    "org_followers": 33365,
+    "org_followers": 33364,
     "user_stars": 955211,
-    "org_stars": 747023
+    "org_stars": 747374
   },
   "queries": [
     {
@@ -833,11 +833,11 @@
     {
       "login": "elbay-malik",
       "name": "Elbay Malik",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=ee06e8c775d145a31a91f26473e5877264c7eb9f&v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=711ac61bc527f28510668fce68deb2889e46a9dc&v=4",
       "html_url": "https://github.com/elbay-malik",
       "followers": 1755,
       "following": 73,
-      "public_repos": 60,
+      "public_repos": 65,
       "location": "Berlin",
       "bio": "Nothing interesting here. Check my repos ;)",
       "company": "Komre AG",
@@ -2457,20 +2457,6 @@
       "total_stars": 25
     },
     {
-      "login": "renoise",
-      "name": "renoise",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11517746?s=88&v=4",
-      "html_url": "https://github.com/renoise",
-      "followers": 95,
-      "following": 0,
-      "public_repos": 8,
-      "location": "Berlin",
-      "bio": null,
-      "company": null,
-      "created_at": "2015-03-17T09:03:59Z",
-      "total_stars": 668
-    },
-    {
       "login": "litentry",
       "name": "Litentry",
       "avatar_url": "https://avatars.githubusercontent.com/u/51339301?s=88&v=4",
@@ -2483,6 +2469,20 @@
       "company": null,
       "created_at": "2019-06-03T19:27:29Z",
       "total_stars": 290
+    },
+    {
+      "login": "renoise",
+      "name": "renoise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11517746?s=88&v=4",
+      "html_url": "https://github.com/renoise",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Berlin",
+      "bio": null,
+      "company": null,
+      "created_at": "2015-03-17T09:03:59Z",
+      "total_stars": 668
     },
     {
       "login": "liqd",
@@ -2499,18 +2499,32 @@
       "total_stars": 633
     },
     {
-      "login": "cdli-gh",
-      "name": "CDLI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16110157?s=88&v=4",
-      "html_url": "https://github.com/cdli-gh",
-      "followers": 94,
+      "login": "Wikidata",
+      "name": "Wikidata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2691628?s=88&v=4",
+      "html_url": "https://github.com/Wikidata",
+      "followers": 93,
       "following": 0,
-      "public_repos": 66,
-      "location": "Los Angeles, Oxford, Berlin",
-      "bio": null,
+      "public_repos": 11,
+      "location": "Berlin, Germany",
+      "bio": "Tools related to the Wikidata project. Most of our core software is at https://github.com/wmde/",
       "company": null,
-      "created_at": "2015-12-02T01:35:20Z",
-      "total_stars": 304
+      "created_at": "2012-10-31T14:02:38Z",
+      "total_stars": 496
+    },
+    {
+      "login": "openlegaldata",
+      "name": "Open Legal Data",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38217808?s=88&v=4",
+      "html_url": "https://github.com/openlegaldata",
+      "followers": 93,
+      "following": 0,
+      "public_repos": 17,
+      "location": "Berlin, Germany",
+      "bio": "Make the law transparent again.",
+      "company": null,
+      "created_at": "2018-04-09T14:02:53Z",
+      "total_stars": 655
     },
     {
       "login": "goerli",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-06-29T20:02:31Z",
       "total_stars": 103
-    },
-    {
-      "login": "Wikidata",
-      "name": "Wikidata",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2691628?s=88&v=4",
-      "html_url": "https://github.com/Wikidata",
-      "followers": 93,
-      "following": 0,
-      "public_repos": 11,
-      "location": "Berlin, Germany",
-      "bio": "Tools related to the Wikidata project. Most of our core software is at https://github.com/wmde/",
-      "company": null,
-      "created_at": "2012-10-31T14:02:38Z",
-      "total_stars": 496
     }
   ],
   "repos": [
