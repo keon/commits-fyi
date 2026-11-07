@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-11-06T12:58:15.090Z",
+  "generated_at": "2026-11-07T11:44:47.443Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -11,7 +11,7 @@
   "totals": {
     "user_followers": 163888,
     "org_followers": 27112,
-    "user_stars": 713834,
+    "user_stars": 708272,
     "org_stars": 203914
   },
   "queries": [
@@ -1111,20 +1111,6 @@
       "total_stars": 20575
     },
     {
-      "login": "Roger-luo",
-      "name": "Xiu-zhe (Roger) Luo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8445510?s=88&u=59aa58bdf893d84581043835fd3fddd669fd14a8&v=4",
-      "html_url": "https://github.com/Roger-luo",
-      "followers": 792,
-      "following": 55,
-      "public_repos": 119,
-      "location": "Toronto",
-      "bio": "I cast quantum spells. ",
-      "company": "@QuEraComputing",
-      "created_at": "2014-08-14T05:34:59Z",
-      "total_stars": 1272
-    },
-    {
       "login": "AtotheY",
       "name": "Anthony Sistilli",
       "avatar_url": "https://avatars.githubusercontent.com/u/10644934?s=88&u=ffee5391112fe3cdd2932d45f7d4956cfc6027c8&v=4",
@@ -1137,6 +1123,20 @@
       "company": "https://links.sistilli.dev",
       "created_at": "2015-01-22T00:52:31Z",
       "total_stars": 1844
+    },
+    {
+      "login": "Roger-luo",
+      "name": "Xiu-zhe (Roger) Luo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8445510?s=88&u=59aa58bdf893d84581043835fd3fddd669fd14a8&v=4",
+      "html_url": "https://github.com/Roger-luo",
+      "followers": 792,
+      "following": 55,
+      "public_repos": 119,
+      "location": "Toronto",
+      "bio": "I cast quantum spells. ",
+      "company": "@QuEraComputing",
+      "created_at": "2014-08-14T05:34:59Z",
+      "total_stars": 1272
     },
     {
       "login": "ibraheemdev",
@@ -1419,18 +1419,18 @@
       "total_stars": 1738
     },
     {
-      "login": "mhammond",
-      "name": "Mark Hammond",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83924?s=88&v=4",
-      "html_url": "https://github.com/mhammond",
+      "login": "fantix",
+      "name": "Fantix King",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1751601?s=88&v=4",
+      "html_url": "https://github.com/fantix",
       "followers": 629,
-      "following": 0,
-      "public_repos": 9,
-      "location": "Toronto",
-      "bio": null,
-      "company": null,
-      "created_at": "2009-05-13T02:07:10Z",
-      "total_stars": 5642
+      "following": 61,
+      "public_repos": 23,
+      "location": "Toronto, ON",
+      "bio": "I code in Python and Rust.",
+      "company": "@vercel",
+      "created_at": "2012-05-18T07:52:30Z",
+      "total_stars": 80
     }
   ],
   "orgs": [
