@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-11-07T11:44:45.457Z",
+  "generated_at": "2026-11-08T11:58:24.008Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 352538,
-    "org_followers": 262309,
-    "user_stars": 980236,
-    "org_stars": 2777524
+    "user_followers": 352629,
+    "org_followers": 262991,
+    "user_stars": 905223,
+    "org_stars": 2782966
   },
   "queries": [
     {
@@ -37,7 +37,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/773569?s=88&u=6e9b51d46dc1c12778b42b944d1ccaa3cda5446f&v=4",
       "html_url": "https://github.com/vczh",
-      "followers": 17522,
+      "followers": 17521,
       "following": 11,
       "public_repos": 7,
       "location": "Seattle, WA, USA",
@@ -51,7 +51,7 @@
       "name": "Anders Hejlsberg",
       "avatar_url": "https://avatars.githubusercontent.com/u/4226954?s=88&u=6dd0c7bfce622156519ec2bd85582b1175cab851&v=4",
       "html_url": "https://github.com/ahejlsberg",
-      "followers": 17007,
+      "followers": 17014,
       "following": 0,
       "public_repos": 4,
       "location": "Redmond, WA, USA",
@@ -65,7 +65,7 @@
       "name": "David Fowler",
       "avatar_url": "https://avatars.githubusercontent.com/u/95136?s=88&u=6593b6a30eb8284bcdae75638a239548d362fcdc&v=4",
       "html_url": "https://github.com/davidfowl",
-      "followers": 14425,
+      "followers": 14431,
       "following": 9,
       "public_repos": 174,
       "location": "Bellevue, WA",
@@ -79,84 +79,84 @@
       "name": "Brad Fitzpatrick",
       "avatar_url": "https://avatars.githubusercontent.com/u/2621?s=88&u=6deb06d9916328265486504f364c80ec2d969f2c&v=4",
       "html_url": "https://github.com/bradfitz",
-      "followers": 13854,
+      "followers": 13962,
       "following": 41,
-      "public_repos": 113,
+      "public_repos": 114,
       "location": "Seattle",
       "bio": "LiveJournal, memcached, OpenID, @golang team (2010-2020).\r\nCurrently making WireGuard & weird network tricks easier and more magical @Tailscale.",
       "company": "Tailscale",
       "created_at": "2008-03-09T05:08:14Z",
-      "total_stars": 13227
+      "total_stars": 13226
     },
     {
       "login": "btholt",
       "name": "Brian Holt",
       "avatar_url": "https://avatars.githubusercontent.com/u/999523?s=88&u=ea0dbdf8f57593c5e04738ffe3d85e934e1a6885&v=4",
       "html_url": "https://github.com/btholt",
-      "followers": 13647,
+      "followers": 13648,
       "following": 76,
       "public_repos": 148,
       "location": "Seattle, WA",
       "bio": "pm @microsoft azure postgres;\r\nformerly at @snowflakedb, @stripe, @microsoft, @Netflix, @linkedin, and @reddit; \r\nteacher on @FrontendMasters ",
       "company": "@microsoft",
       "created_at": "2011-08-23T17:11:39Z",
-      "total_stars": 22140
+      "total_stars": 22143
     },
     {
       "login": "munificent",
       "name": "Bob Nystrom",
       "avatar_url": "https://avatars.githubusercontent.com/u/46275?s=88&u=454b5227406ac232a5fd7b39b282963d8631684a&v=4",
       "html_url": "https://github.com/munificent",
-      "followers": 11149,
+      "followers": 11153,
       "following": 144,
       "public_repos": 46,
       "location": "Seattle, WA",
       "bio": "Programming language developer, ex-game developer, UI nerd, author of \"Game Programming Patterns\" and \"Crafting Interpreters\".",
       "company": "@google, on @dart-lang ",
       "created_at": "2009-01-13T15:37:46Z",
-      "total_stars": 23850
+      "total_stars": 23867
     },
     {
       "login": "tenderlove",
       "name": "Aaron Patterson",
       "avatar_url": "https://avatars.githubusercontent.com/u/3124?s=88&u=6ece6a5a8b8ea32c5fa94c325d151bc01d1e44e8&v=4",
       "html_url": "https://github.com/tenderlove",
-      "followers": 9845,
+      "followers": 9960,
       "following": 27,
       "public_repos": 203,
       "location": "Seattle",
       "bio": "💘💙💜💗💚❤💓💛💚💗",
       "company": "@Shopify",
       "created_at": "2008-03-14T20:04:17Z",
-      "total_stars": 7225
+      "total_stars": 7224
     },
     {
       "login": "ahmetb",
       "name": "Ahmet Alp Balkan",
       "avatar_url": "https://avatars.githubusercontent.com/u/159209?s=88&u=7484858b12e4c4a7fe1351d1f0b406076805deb2&v=4",
       "html_url": "https://github.com/ahmetb",
-      "followers": 8934,
+      "followers": 8940,
       "following": 45,
       "public_repos": 114,
       "location": "Seattle, WA",
       "bio": "infrastructure @ baseten",
       "company": "@BasetenLabs",
       "created_at": "2009-11-28T14:59:59Z",
-      "total_stars": 45368
+      "total_stars": 45373
     },
     {
       "login": "skyzh",
       "name": "Alex Chi Z",
       "avatar_url": "https://avatars.githubusercontent.com/u/4198311?s=88&u=2ac9e680a85102d008181a2526d5ae10f188ed19&v=4",
       "html_url": "https://github.com/skyzh",
-      "followers": 8524,
+      "followers": 8529,
       "following": 787,
       "public_repos": 77,
       "location": "Bellevue, WA, USA ⇌ Shanghai, China",
       "bio": "building database systems @databricks, previously @cmu-db; a bubble tea every day makes me happy right away",
       "company": "Databricks 🧱",
       "created_at": "2013-04-19T05:40:46Z",
-      "total_stars": 14449
+      "total_stars": 14594
     },
     {
       "login": "koush",
@@ -170,14 +170,14 @@
       "bio": null,
       "company": "ClockworkMod",
       "created_at": "2009-04-15T04:08:21Z",
-      "total_stars": 29711
+      "total_stars": 29717
     },
     {
       "login": "microsoftopensource",
       "name": "Microsoft Open Source",
       "avatar_url": "https://avatars.githubusercontent.com/u/22527892?s=88&u=64ca2185050e9be952828114b4cbff1939986357&v=4",
       "html_url": "https://github.com/microsoftopensource",
-      "followers": 7982,
+      "followers": 7987,
       "following": 0,
       "public_repos": 0,
       "location": "Redmond, WA",
@@ -191,35 +191,35 @@
       "name": "Jeff L.",
       "avatar_url": "https://avatars.githubusercontent.com/u/1571674?s=88&u=3887206f975b456d181c83d7a1a19a6cc96804fa&v=4",
       "html_url": "https://github.com/jtleek",
-      "followers": 7430,
+      "followers": 7431,
       "following": 7,
       "public_repos": 89,
       "location": "Seattle, WA",
       "bio": null,
       "company": null,
       "created_at": "2012-03-24T18:16:43Z",
-      "total_stars": 11376
+      "total_stars": 11381
     },
     {
       "login": "kunchenguid",
       "name": "Kun Chen",
       "avatar_url": "https://avatars.githubusercontent.com/u/3233006?s=88&u=e75449df599483f43d86c0f499a6220ea0191c60&v=4",
       "html_url": "https://github.com/kunchenguid",
-      "followers": 6918,
+      "followers": 7025,
       "following": 0,
-      "public_repos": 48,
+      "public_repos": 49,
       "location": "Bellevue, WA",
       "bio": "Member of the Technical Community. Former L8 engineer at Meta, Microsoft, Atlassian.",
       "company": null,
       "created_at": "2013-01-10T07:45:09Z",
-      "total_stars": 36911
+      "total_stars": 37334
     },
     {
       "login": "TheLarkInn",
       "name": "Sean Larkin",
       "avatar_url": "https://avatars.githubusercontent.com/u/3408176?s=88&u=1686b5ec51a1c7a5aa61f2484e16e3389ed6c419&v=4",
       "html_url": "https://github.com/TheLarkInn",
-      "followers": 6505,
+      "followers": 6507,
       "following": 73,
       "public_repos": 85,
       "location": "Seattle, WA",
@@ -233,77 +233,77 @@
       "name": "Steven Tey",
       "avatar_url": "https://avatars.githubusercontent.com/u/28986134?s=88&u=c4b63cf70281d6e148cd852319627f5dfab632b9&v=4",
       "html_url": "https://github.com/steven-tey",
-      "followers": 6169,
+      "followers": 6172,
       "following": 23,
       "public_repos": 41,
       "location": "Seattle, WA",
       "bio": "building @dubinc | prev: @vercel",
       "company": "@dubinc",
       "created_at": "2017-05-26T16:45:51Z",
-      "total_stars": 24657
+      "total_stars": 24654
     },
     {
       "login": "anvaka",
       "name": "Andrei Kashcha",
       "avatar_url": "https://avatars.githubusercontent.com/u/225407?s=88&u=ae5ab58bd50a325fdd0b8fa419f42f983a3f04ba&v=4",
       "html_url": "https://github.com/anvaka",
-      "followers": 5652,
+      "followers": 5655,
       "following": 45,
       "public_repos": 296,
       "location": "Seattle ",
       "bio": "I love graphs",
       "company": null,
       "created_at": "2010-03-18T15:32:45Z",
-      "total_stars": 39755
+      "total_stars": 39773
     },
     {
       "login": "zpao",
       "name": "Paul O’Shannessy",
       "avatar_url": "https://avatars.githubusercontent.com/u/8445?s=88&v=4",
       "html_url": "https://github.com/zpao",
-      "followers": 5375,
+      "followers": 5376,
       "following": 24,
       "public_repos": 44,
       "location": "Seattle, WA",
       "bio": "I do open source things.",
       "company": "@github",
       "created_at": "2008-04-25T04:38:22Z",
-      "total_stars": 4853
+      "total_stars": 4852
     },
     {
       "login": "eugeneyan",
       "name": "Eugene Yan",
       "avatar_url": "https://avatars.githubusercontent.com/u/6831355?s=88&u=4b5cf1f33cb65e8026be3858d624530ec62bbd04&v=4",
       "html_url": "https://github.com/eugeneyan",
-      "followers": 5336,
+      "followers": 5352,
       "following": 86,
       "public_repos": 54,
       "location": "Seattle",
       "bio": null,
       "company": "@anthropics",
       "created_at": "2014-03-02T14:13:03Z",
-      "total_stars": 50487
+      "total_stars": 50534
     },
     {
       "login": "cmuratori",
       "name": "Casey Muratori",
       "avatar_url": "https://avatars.githubusercontent.com/u/10207980?s=88&u=9065018e87a977a9ee66e6079bb9ccbfde600105&v=4",
       "html_url": "https://github.com/cmuratori",
-      "followers": 4677,
+      "followers": 4679,
       "following": 0,
       "public_repos": 2,
       "location": "Seattle, WA",
       "bio": null,
       "company": "Molly Rocket, Inc.",
       "created_at": "2014-12-16T12:05:53Z",
-      "total_stars": 2878
+      "total_stars": 2882
     },
     {
       "login": "satyanadella",
       "name": "Satya Nadella",
       "avatar_url": "https://avatars.githubusercontent.com/u/39279758?s=88&u=e864c782c701ba769cf8a64e675df1876dbf0549&v=4",
       "html_url": "https://github.com/satyanadella",
-      "followers": 4669,
+      "followers": 4671,
       "following": 2,
       "public_repos": 0,
       "location": "Redmond, Washington",
@@ -324,7 +324,7 @@
       "bio": null,
       "company": "Amazon.com",
       "created_at": "2014-07-20T20:19:17Z",
-      "total_stars": 11486
+      "total_stars": 11489
     },
     {
       "login": "madskristensen",
@@ -338,56 +338,56 @@
       "bio": "Web developer, Visual Studio extension author, home automation nerd, and PM at Microsoft's Developer Division",
       "company": "Microsoft",
       "created_at": "2011-12-12T23:15:36Z",
-      "total_stars": 9089
+      "total_stars": 9092
     },
     {
       "login": "colinhacks",
       "name": "Colin McDonnell",
       "avatar_url": "https://avatars.githubusercontent.com/u/3084745?s=88&u=00ba705b6a5ceaa3b4c5f3582ddb944f891f8847&v=4",
       "html_url": "https://github.com/colinhacks",
-      "followers": 4164,
+      "followers": 4173,
       "following": 76,
       "public_repos": 71,
       "location": "Seattle, WA",
       "bio": "I have come here to chew bubblegum and write code. And _InsufficientBubblegumException_",
       "company": null,
       "created_at": "2012-12-19T22:40:13Z",
-      "total_stars": 48939
+      "total_stars": 49013
     },
     {
       "login": "argyleink",
       "name": "Adam Argyle",
       "avatar_url": "https://avatars.githubusercontent.com/u/1134620?s=88&u=0d420b597986af4eb82e5c84d3a16a31da8fd326&v=4",
       "html_url": "https://github.com/argyleink",
-      "followers": 4132,
-      "following": 382,
+      "followers": 4136,
+      "following": 384,
       "public_repos": 87,
       "location": "Seattle",
       "bio": "Teacher, Speaker, @CSSWG, creator of Open Props and VisBug and other CSS and design tools and interactives.",
       "company": "Shopify",
       "created_at": "2011-10-18T00:48:04Z",
-      "total_stars": 13770
+      "total_stars": 13777
     },
     {
       "login": "MSNightmare",
       "name": "INFINITE NIGHTMARE",
       "avatar_url": "https://avatars.githubusercontent.com/u/291905677?s=88&u=4d1ac59152037352bad0dfe6ebb1cd8d0642e579&v=4",
       "html_url": "https://github.com/MSNightmare",
-      "followers": 3939,
+      "followers": 3943,
       "following": 1,
       "public_repos": 10,
       "location": "Redmond",
       "bio": "I love Microsoft.",
       "company": "Microsoft",
       "created_at": "2026-06-08T20:13:51Z",
-      "total_stars": 150
+      "total_stars": 170
     },
     {
       "login": "steveyegge",
       "name": "Steve Yegge",
       "avatar_url": "https://avatars.githubusercontent.com/u/613744?s=88&u=87e215c2ff2fa391d65023b746a7692107b90158&v=4",
       "html_url": "https://github.com/steveyegge",
-      "followers": 3853,
+      "followers": 3859,
       "following": 3,
       "public_repos": 4,
       "location": "Kirkland, WA",
@@ -401,7 +401,7 @@
       "name": "Damian Edwards",
       "avatar_url": "https://avatars.githubusercontent.com/u/249088?s=88&u=ef367918b6440db383f0eafa78a226ccbea437a0&v=4",
       "html_url": "https://github.com/DamianEdwards",
-      "followers": 3847,
+      "followers": 3848,
       "following": 0,
       "public_repos": 84,
       "location": "Redmond, WA",
@@ -415,7 +415,7 @@
       "name": "Will Schroeder",
       "avatar_url": "https://avatars.githubusercontent.com/u/5504523?s=88&u=2ae78020b034a543d5da1faf48b559b83e923fcb&v=4",
       "html_url": "https://github.com/HarmJ0y",
-      "followers": 3794,
+      "followers": 3797,
       "following": 4,
       "public_repos": 14,
       "location": "Seattle, WA",
@@ -429,7 +429,7 @@
       "name": "Gary Bernhardt",
       "avatar_url": "https://avatars.githubusercontent.com/u/45707?s=88&u=ed2698db947efe2ef1378be4bf2c5ed28d527ed0&v=4",
       "html_url": "https://github.com/garybernhardt",
-      "followers": 3790,
+      "followers": 3791,
       "following": 4,
       "public_repos": 24,
       "location": "Seattle, WA",
@@ -450,14 +450,14 @@
       "bio": "Software Engineer + Scientist",
       "company": null,
       "created_at": "2014-01-31T01:31:11Z",
-      "total_stars": 73764
+      "total_stars": 73787
     },
     {
       "login": "haacked",
       "name": "Phil Haack",
       "avatar_url": "https://avatars.githubusercontent.com/u/19977?s=88&u=bb26eb16cda45a61a714df8005abe199ac904c5b&v=4",
       "html_url": "https://github.com/haacked",
-      "followers": 3687,
+      "followers": 3690,
       "following": 27,
       "public_repos": 57,
       "location": "Bellevue, WA",
@@ -478,14 +478,14 @@
       "bio": "Science is my verb. Christ is my light.",
       "company": null,
       "created_at": "2012-11-08T04:42:18Z",
-      "total_stars": 18671
+      "total_stars": 18677
     },
     {
       "login": "brendandburns",
       "name": "Brendan Burns",
       "avatar_url": "https://avatars.githubusercontent.com/u/5751682?s=88&u=fdc4911e45896b06d1ff1ee529f7fd0957db5566&v=4",
       "html_url": "https://github.com/brendandburns",
-      "followers": 3481,
+      "followers": 3483,
       "following": 1,
       "public_repos": 80,
       "location": "Seattle, WA",
@@ -499,7 +499,7 @@
       "name": "David W Plummer",
       "avatar_url": "https://avatars.githubusercontent.com/u/3698967?s=88&v=4",
       "html_url": "https://github.com/davepl",
-      "followers": 3414,
+      "followers": 3416,
       "following": 2,
       "public_repos": 40,
       "location": "Redmond, WA",
@@ -513,21 +513,21 @@
       "name": "Nolan Lawson",
       "avatar_url": "https://avatars.githubusercontent.com/u/283842?s=88&u=c63d169c54860bde229ad6b428fb150345114ab0&v=4",
       "html_url": "https://github.com/nolanlawson",
-      "followers": 3409,
+      "followers": 3408,
       "following": 40,
       "public_repos": 235,
       "location": "Seattle",
       "bio": null,
       "company": "@SocketDev",
       "created_at": "2010-05-22T01:29:35Z",
-      "total_stars": 19283
+      "total_stars": 19284
     },
     {
       "login": "tyrchen",
       "name": "Tyr Chen",
       "avatar_url": "https://avatars.githubusercontent.com/u/473888?s=88&u=624bc9a2acf9cdbe5742ae0fcf683e2c57bcc0cf&v=4",
       "html_url": "https://github.com/tyrchen",
-      "followers": 3300,
+      "followers": 3301,
       "following": 98,
       "public_repos": 237,
       "location": "Bellevue, WA",
@@ -541,28 +541,28 @@
       "name": "Zack Jackson",
       "avatar_url": "https://avatars.githubusercontent.com/u/25274700?s=88&u=6d6033b74f887770d2fbc8489bbed280949437e9&v=4",
       "html_url": "https://github.com/ScriptedAlchemy",
-      "followers": 2990,
+      "followers": 2994,
       "following": 92,
       "public_repos": 59,
       "location": "Redmond, WA",
       "bio": "Infra Architect | Webpack / Rspack Maintainer, Inventor & co-creator of Module Federation, Universal Javascript, JavasScript orchestration at scale.",
       "company": "@web-infra-dev @webpack, @module-federation ",
       "created_at": "2017-01-22T03:02:00Z",
-      "total_stars": 1696
+      "total_stars": 1718
     },
     {
       "login": "hyperb1iss",
       "name": "Stefanie Jane",
       "avatar_url": "https://avatars.githubusercontent.com/u/102151?s=88&u=4d8178a9110f14b1b203d5d93d49d52621494bb3&v=4",
       "html_url": "https://github.com/hyperb1iss",
-      "followers": 2731,
+      "followers": 2735,
       "following": 75,
       "public_repos": 42,
       "location": "Seattle, WA",
       "bio": "✴︎ syntactic sugar ✴︎ semantic spice ✴︎\r\n",
-      "company": "@gradial ",
+      "company": "@gradial",
       "created_at": "2009-07-06T14:26:47Z",
-      "total_stars": 1474
+      "total_stars": 1478
     },
     {
       "login": "juliemr",
@@ -611,14 +611,14 @@
       "name": "Kevin Moore",
       "avatar_url": "https://avatars.githubusercontent.com/u/17034?s=88&v=4",
       "html_url": "https://github.com/kevmoo",
-      "followers": 2441,
+      "followers": 2442,
       "following": 57,
-      "public_repos": 117,
+      "public_repos": 118,
       "location": "Seattle, WA, USA",
       "bio": "A Product Manager at @google working on @dart-lang and @flutter web technologies",
       "company": "@dart-lang @flutter @google",
       "created_at": "2008-07-14T17:28:27Z",
-      "total_stars": 2189
+      "total_stars": 2191
     },
     {
       "login": "gongminmin",
@@ -632,14 +632,14 @@
       "bio": null,
       "company": null,
       "created_at": "2011-11-07T06:00:28Z",
-      "total_stars": 3209
+      "total_stars": 3211
     },
     {
       "login": "jcheng5",
       "name": "Joe Cheng",
       "avatar_url": "https://avatars.githubusercontent.com/u/129551?s=88&u=2fe43e5af94b85097afb28f5046e7c1138e6b5bb&v=4",
       "html_url": "https://github.com/jcheng5",
-      "followers": 2366,
+      "followers": 2368,
       "following": 12,
       "public_repos": 102,
       "location": "Redmond, WA (United States)",
@@ -653,21 +653,21 @@
       "name": "killian",
       "avatar_url": "https://avatars.githubusercontent.com/u/63927363?s=88&u=9a5a30771011c3cfdde19cd51d18d85e7ed6d53f&v=4",
       "html_url": "https://github.com/KillianLucas",
-      "followers": 2303,
+      "followers": 2304,
       "following": 48,
       "public_repos": 9,
       "location": "Seattle, WA",
       "bio": null,
       "company": null,
       "created_at": "2020-04-18T19:11:34Z",
-      "total_stars": 361
+      "total_stars": 360
     },
     {
       "login": "zhedahht",
       "name": "Harry He",
       "avatar_url": "https://avatars.githubusercontent.com/u/6251205?s=88&u=482b31db78c0d5d0c11dac0dbe5b8ee7f98cb46b&v=4",
       "html_url": "https://github.com/zhedahht",
-      "followers": 2075,
+      "followers": 2074,
       "following": 1,
       "public_repos": 10,
       "location": "Redmond, WA",
@@ -681,25 +681,25 @@
       "name": "Frank A. Krueger",
       "avatar_url": "https://avatars.githubusercontent.com/u/323548?s=88&v=4",
       "html_url": "https://github.com/praeclarum",
-      "followers": 2071,
+      "followers": 2072,
       "following": 3,
       "public_repos": 107,
       "location": "Seattle, WA",
       "bio": "I am a mobile app developer specializing in iOS and .NET programming. I am into graphics, AI, robotics, and programming languages.",
       "company": "Krueger Systems, Inc.",
       "created_at": "2010-07-05T19:01:07Z",
-      "total_stars": 11895
+      "total_stars": 11898
     },
     {
       "login": "ashleymcnamara",
       "name": "Ashley Willis",
       "avatar_url": "https://avatars.githubusercontent.com/u/3139143?s=88&u=7c97429c7373a174251721d56f02b00b00859d80&v=4",
       "html_url": "https://github.com/ashleymcnamara",
-      "followers": 2042,
+      "followers": 2043,
       "following": 36,
-      "public_repos": 39,
+      "public_repos": 40,
       "location": "Seattle",
-      "bio": "Senior Director of Developer Relations @ GitHub ",
+      "bio": "Leads Developer Relations at GitHub. Builds communities, gives talks & makes tiny delightful toys. 🕹️",
       "company": "GitHub",
       "created_at": "2012-12-28T04:19:41Z",
       "total_stars": 4067
@@ -709,7 +709,7 @@
       "name": "Imgbot",
       "avatar_url": "https://avatars.githubusercontent.com/u/31427850?s=88&u=464006d20c236f7bbec4ae1b2ae80bf4c1ebd57a&v=4",
       "html_url": "https://github.com/ImgBotApp",
-      "followers": 2028,
+      "followers": 2030,
       "following": 1,
       "public_repos": 38,
       "location": "Seattle",
@@ -723,28 +723,28 @@
       "name": "Arman",
       "avatar_url": "https://avatars.githubusercontent.com/u/22623742?s=88&u=5437e20435b0ef994334e81a3e4a76790fe7ccfb&v=4",
       "html_url": "https://github.com/armankhondker",
-      "followers": 1991,
+      "followers": 1993,
       "following": 0,
       "public_repos": 26,
       "location": "Seattle, WA",
       "bio": "ai/ml @microsoft prev @tiktok ",
       "company": "@Microsoft",
       "created_at": "2016-10-04T18:58:19Z",
-      "total_stars": 10272
+      "total_stars": 10275
     },
     {
       "login": "sebastienros",
       "name": "Sébastien Ros",
       "avatar_url": "https://avatars.githubusercontent.com/u/1165805?s=88&v=4",
       "html_url": "https://github.com/sebastienros",
-      "followers": 1966,
+      "followers": 1968,
       "following": 0,
-      "public_repos": 47,
+      "public_repos": 48,
       "location": "Bellevue, WA",
       "bio": "Works for Microsoft on Aspire. Previously ASP.NET and benchmarking. I also maintain Orchard, Jint, YesSql, Fluid, Parlot",
       "company": "Microsoft",
       "created_at": "2011-11-01T20:31:11Z",
-      "total_stars": 10113
+      "total_stars": 10116
     },
     {
       "login": "saket",
@@ -775,53 +775,39 @@
       "total_stars": 3381
     },
     {
-      "login": "tmlayton",
-      "name": "Tim Layton",
-      "avatar_url": "https://avatars.githubusercontent.com/u/344839?s=88&u=b28b3f87da91a964f3e752d3e096e40aa08da110&v=4",
-      "html_url": "https://github.com/tmlayton",
-      "followers": 1910,
-      "following": 1,
-      "public_repos": 1,
-      "location": "Seattle, WA",
-      "bio": "Founder @autnmy, previously engineering @amzn @Shopify @Boulevard",
-      "company": null,
-      "created_at": "2010-07-26T18:31:56Z",
-      "total_stars": 5
-    },
-    {
       "login": "palkan",
       "name": "Vladimir Dementyev",
       "avatar_url": "https://avatars.githubusercontent.com/u/1516722?s=88&u=58b7d69a8f28602ae667ee377a3cbed251cebd3a&v=4",
       "html_url": "https://github.com/palkan",
-      "followers": 1846,
+      "followers": 1847,
       "following": 9,
       "public_repos": 74,
       "location": "Seattle",
       "bio": "Code & Cats & Rock'n'Roll!\r\n",
       "company": "@evilmartians ",
       "created_at": "2012-03-08T15:44:24Z",
-      "total_stars": 10554
+      "total_stars": 10555
     },
     {
       "login": "ericniebler",
       "name": "Eric Niebler",
       "avatar_url": "https://avatars.githubusercontent.com/u/225757?s=88&v=4",
       "html_url": "https://github.com/ericniebler",
-      "followers": 1822,
+      "followers": 1823,
       "following": 1,
       "public_repos": 12,
       "location": "Seattle, WA",
       "bio": "Member of the ISO C++ Standardization Committee and principal author of `std::ranges` and the upcoming `std::execution`.",
       "company": "@NVIDIA",
       "created_at": "2010-03-18T23:38:53Z",
-      "total_stars": 4956
+      "total_stars": 4958
     },
     {
       "login": "cwilso",
       "name": "Chris Wilson",
       "avatar_url": "https://avatars.githubusercontent.com/u/507001?s=88&v=4",
       "html_url": "https://github.com/cwilso",
-      "followers": 1787,
+      "followers": 1788,
       "following": 16,
       "public_repos": 35,
       "location": "Seattle, WA, USA",
@@ -835,21 +821,21 @@
       "name": "Luke Hoban",
       "avatar_url": "https://avatars.githubusercontent.com/u/223467?s=88&u=813d8208b74d626778368048a05de08bdf449e80&v=4",
       "html_url": "https://github.com/lukehoban",
-      "followers": 1785,
+      "followers": 1784,
       "following": 2,
       "public_repos": 58,
       "location": "Seattle",
       "bio": "VP Eng @github - GitHub Copilot. \r\n\r\nPreviously CTO @Pulumi, EC2 @AWS, TypeScript, VS Code and C# @Microsoft and ECMAScript @TC39.",
       "company": "@github",
       "created_at": "2010-03-16T01:00:28Z",
-      "total_stars": 29358
+      "total_stars": 29356
     },
     {
       "login": "keith",
       "name": "Keith Smiley",
       "avatar_url": "https://avatars.githubusercontent.com/u/283886?s=88&u=a304a2f415ff82f87646572277d275de776e65f6&v=4",
       "html_url": "https://github.com/keith",
-      "followers": 1723,
+      "followers": 1725,
       "following": 231,
       "public_repos": 135,
       "location": "Seattle, WA",
@@ -863,14 +849,14 @@
       "name": "Mykola Grymalyuk",
       "avatar_url": "https://avatars.githubusercontent.com/u/48863253?s=88&u=42af6226c9cd061c266bd77768abb200dd50094d&v=4",
       "html_url": "https://github.com/khronokernel",
-      "followers": 1710,
+      "followers": 1711,
       "following": 0,
       "public_repos": 42,
       "location": "Seattle, Washington",
       "bio": null,
       "company": "The Fruit Company",
       "created_at": "2019-03-23T16:11:20Z",
-      "total_stars": 1428
+      "total_stars": 1427
     },
     {
       "login": "shrutikapoor08",
@@ -884,28 +870,14 @@
       "bio": "Tech Educator, Staff Software Engineer",
       "company": null,
       "created_at": "2012-10-10T06:16:03Z",
-      "total_stars": 2193
-    },
-    {
-      "login": "richlander",
-      "name": "Rich Lander",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2608468?s=88&u=8344507340302c70f124f9c9b5a48a42afedb04e&v=4",
-      "html_url": "https://github.com/richlander",
-      "followers": 1628,
-      "following": 10,
-      "public_repos": 102,
-      "location": "Seattle / Toronto",
-      "bio": ".NET Team member, trail runner, Dad, Husband.\r\n\r\n\r\nHe/him",
-      "company": "@dotnet ",
-      "created_at": "2012-10-20T20:21:18Z",
-      "total_stars": 593
+      "total_stars": 2192
     },
     {
       "login": "legomushroom",
       "name": "Oleg Solomko",
       "avatar_url": "https://avatars.githubusercontent.com/u/1478800?s=88&u=c83ff15adaed8caa5c664bb50860a56b903b578a&v=4",
       "html_url": "https://github.com/legomushroom",
-      "followers": 1626,
+      "followers": 1627,
       "following": 160,
       "public_repos": 124,
       "location": "Seattle, US",
@@ -915,25 +887,39 @@
       "total_stars": 812
     },
     {
+      "login": "richlander",
+      "name": "Rich Lander",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2608468?s=88&u=8344507340302c70f124f9c9b5a48a42afedb04e&v=4",
+      "html_url": "https://github.com/richlander",
+      "followers": 1626,
+      "following": 10,
+      "public_repos": 102,
+      "location": "Seattle / Toronto",
+      "bio": ".NET Team member, trail runner, Dad, Husband.\r\n\r\n\r\nHe/him",
+      "company": "@dotnet ",
+      "created_at": "2012-10-20T20:21:18Z",
+      "total_stars": 596
+    },
+    {
       "login": "PWhiddy",
       "name": "Peter Whidden",
       "avatar_url": "https://avatars.githubusercontent.com/u/15711120?s=88&u=331c427763bfc8faa189aaa4f760a1553afd83da&v=4",
       "html_url": "https://github.com/PWhiddy",
-      "followers": 1600,
+      "followers": 1602,
       "following": 165,
       "public_repos": 73,
       "location": "Seattle WA",
       "bio": null,
       "company": null,
       "created_at": "2015-11-08T03:29:51Z",
-      "total_stars": 8530
+      "total_stars": 8536
     },
     {
       "login": "chomado",
       "name": "ちょまど | Madoka Chiyoda",
       "avatar_url": "https://avatars.githubusercontent.com/u/3405269?s=88&u=a183b41df2250d0c885c00cab75f079aeb8e169b&v=4",
       "html_url": "https://github.com/chomado",
-      "followers": 1589,
+      "followers": 1590,
       "following": 18,
       "public_repos": 100,
       "location": "Tokyo, Japan / Redmond, WA, US",
@@ -961,7 +947,7 @@
       "name": "Tim Dettmers",
       "avatar_url": "https://avatars.githubusercontent.com/u/5260050?s=88&v=4",
       "html_url": "https://github.com/TimDettmers",
-      "followers": 1557,
+      "followers": 1561,
       "following": 0,
       "public_repos": 33,
       "location": "Seattle, USA",
@@ -982,7 +968,21 @@
       "bio": "DevRel leader. GitHub user 26. Currently: Director of Education Engineering at @DataDog. Previously: HashiCorp, PeepCode, Pluralsight",
       "company": "@datadog",
       "created_at": "2008-01-15T05:40:05Z",
-      "total_stars": 5633
+      "total_stars": 5632
+    },
+    {
+      "login": "calesthio",
+      "name": "Calesthio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/213189893?s=88&u=6d269d54059d5efaf0db1dba452f6029afedc01d&v=4",
+      "html_url": "https://github.com/calesthio",
+      "followers": 1543,
+      "following": 0,
+      "public_repos": 8,
+      "location": "Seattle, WA",
+      "bio": "Building open source AI Assisted and Agentic Tools.\r\nCreator of OpenMontage and Crucix — https://www.openmontage.video/\r\n",
+      "company": "Microsoft",
+      "created_at": "2025-05-24T12:19:20Z",
+      "total_stars": 13086
     },
     {
       "login": "antiagainst",
@@ -1003,28 +1003,28 @@
       "name": "Yan Wang 鸭哥",
       "avatar_url": "https://avatars.githubusercontent.com/u/1690507?s=88&u=d40f118e3025ec8bf8d607e9da92505c622b0bc7&v=4",
       "html_url": "https://github.com/grapeot",
-      "followers": 1520,
+      "followers": 1524,
       "following": 37,
-      "public_repos": 202,
+      "public_repos": 203,
       "location": "Seattle, WA",
       "bio": "AI researcher turned builder. Context Engineering, AI-native workflows. Writing at yage.ai.",
       "company": "Superlinear Academy",
       "created_at": "2012-04-29T17:54:03Z",
-      "total_stars": 9363
+      "total_stars": 9366
     },
     {
-      "login": "calesthio",
-      "name": "Calesthio",
-      "avatar_url": "https://avatars.githubusercontent.com/u/213189893?s=88&u=6d269d54059d5efaf0db1dba452f6029afedc01d&v=4",
-      "html_url": "https://github.com/calesthio",
-      "followers": 1513,
-      "following": 0,
-      "public_repos": 9,
+      "login": "tmlayton",
+      "name": "Tim Layton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/344839?s=88&u=b28b3f87da91a964f3e752d3e096e40aa08da110&v=4",
+      "html_url": "https://github.com/tmlayton",
+      "followers": 1474,
+      "following": 1,
+      "public_repos": 1,
       "location": "Seattle, WA",
-      "bio": "Building open source AI Assisted and Agentic Tools.\r\nCreator of OpenMontage and Crucix — https://www.openmontage.video/\r\n",
-      "company": "Microsoft",
-      "created_at": "2025-05-24T12:19:20Z",
-      "total_stars": 89310
+      "bio": "Founder @autnmy, previously engineering @amzn @Shopify @Boulevard",
+      "company": null,
+      "created_at": "2010-07-26T18:31:56Z",
+      "total_stars": 4
     },
     {
       "login": "natemcmaster",
@@ -1038,7 +1038,7 @@
       "bio": "Member of Technical Staff for @anthropics. Former engineer of @aws and @microsoft",
       "company": "@anthropics",
       "created_at": "2012-11-01T03:35:08Z",
-      "total_stars": 8441
+      "total_stars": 8439
     },
     {
       "login": "MariaSolOs",
@@ -1059,14 +1059,14 @@
       "name": "Trent Nelson",
       "avatar_url": "https://avatars.githubusercontent.com/u/629986?s=88&u=a4bf017f389eb07e5f9fc588711e7d14e032ad9e&v=4",
       "html_url": "https://github.com/tpn",
-      "followers": 1414,
+      "followers": 1415,
       "following": 39,
       "public_repos": 90,
       "location": "Seattle, WA",
       "bio": "Principal Software Engineer @ NVIDIA",
       "company": "NVIDIA, Inc. (@nvidia)",
       "created_at": "2011-02-21T14:19:34Z",
-      "total_stars": 11154
+      "total_stars": 11159
     },
     {
       "login": "basnijholt",
@@ -1080,7 +1080,7 @@
       "bio": "🔬 Building quantum computers at IonQ by day, crafting various open-source tools at night.",
       "company": "@IonQ",
       "created_at": "2014-03-09T10:08:02Z",
-      "total_stars": 10285
+      "total_stars": 10298
     },
     {
       "login": "lostintangent",
@@ -1101,14 +1101,14 @@
       "name": "Matt Bierner",
       "avatar_url": "https://avatars.githubusercontent.com/u/12821956?s=88&u=a3fbee3660f44f68c36889429bf76645fa2cfc65&v=4",
       "html_url": "https://github.com/mjbvz",
-      "followers": 1399,
+      "followers": 1400,
       "following": 2,
       "public_repos": 77,
       "location": "Seattle WA",
       "bio": "Currently creating new experiences at Cursor. Previously built VS Code for 10 years",
       "company": "@anysphere ",
       "created_at": "2015-06-10T00:23:25Z",
-      "total_stars": 2467
+      "total_stars": 2468
     },
     {
       "login": "rebornix",
@@ -1129,7 +1129,7 @@
       "name": "David Catuhe",
       "avatar_url": "https://avatars.githubusercontent.com/u/1306056?s=88&v=4",
       "html_url": "https://github.com/deltakosh",
-      "followers": 1391,
+      "followers": 1392,
       "following": 1,
       "public_repos": 7,
       "location": "Seattle",
@@ -1143,23 +1143,23 @@
       "name": "Ryan L McIntyre",
       "avatar_url": "https://avatars.githubusercontent.com/u/8083459?s=88&u=1645f43000c842a948268609231bdecb1433c470&v=4",
       "html_url": "https://github.com/ryanoasis",
-      "followers": 1378,
+      "followers": 1380,
       "following": 21,
       "public_repos": 21,
       "location": "Seattle, WA, USA",
       "bio": " Full Stack Application Developer ┋ Focused on UI - JavaScript - OSS - Vim ┋ Creator of Nerd Fonts  & VimDevIcons ",
       "company": null,
       "created_at": "2014-07-06T20:09:36Z",
-      "total_stars": 73045
+      "total_stars": 73078
     },
     {
       "login": "juanpflores",
       "name": "Juan Pablo Flores ",
       "avatar_url": "https://avatars.githubusercontent.com/u/6200135?s=88&u=4199fdb7c522514443f4a2cfb210287af7f52609&v=4",
       "html_url": "https://github.com/juanpflores",
-      "followers": 1369,
+      "followers": 1370,
       "following": 474,
-      "public_repos": 44,
+      "public_repos": 45,
       "location": "Seattle",
       "bio": "An analogue guy in a digital world | Ex-Buga 🏳️‍🌈 | Putting romance back in necromance 🗡️",
       "company": null,
@@ -1171,7 +1171,7 @@
       "name": "Eloy Durán",
       "avatar_url": "https://avatars.githubusercontent.com/u/2320?s=88&u=2bb48d6b50f7e2f7f9fc441f2ddfd31e04795746&v=4",
       "html_url": "https://github.com/alloy",
-      "followers": 1368,
+      "followers": 1369,
       "following": 30,
       "public_repos": 110,
       "location": "Seattle, WA",
@@ -1179,6 +1179,20 @@
       "company": "Microsoft",
       "created_at": "2008-03-05T20:02:54Z",
       "total_stars": 1689
+    },
+    {
+      "login": "derv82",
+      "name": "derv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/993464?s=88&u=5588460d74ec29173162c274e73667bcea62821e&v=4",
+      "html_url": "https://github.com/derv82",
+      "followers": 1364,
+      "following": 1,
+      "public_repos": 18,
+      "location": "seattle",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-08-20T21:56:16Z",
+      "total_stars": 15494
     },
     {
       "login": "teamdandelion",
@@ -1195,20 +1209,6 @@
       "total_stars": 155
     },
     {
-      "login": "derv82",
-      "name": "derv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/993464?s=88&u=5588460d74ec29173162c274e73667bcea62821e&v=4",
-      "html_url": "https://github.com/derv82",
-      "followers": 1344,
-      "following": 1,
-      "public_repos": 18,
-      "location": "seattle",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-08-20T21:56:16Z",
-      "total_stars": 15185
-    },
-    {
       "login": "KirillOsenkov",
       "name": "Kirill Osenkov",
       "avatar_url": "https://avatars.githubusercontent.com/u/679326?s=88&u=5fcf0c6c2004b2cbbeb156c146df63c31633f477&v=4",
@@ -1220,14 +1220,14 @@
       "bio": "(Unofficial) VP of Developer Productivity at Microsoft. .NET, C#, Roslyn, Visual Studio, Editor, WPF, MSBuild.",
       "company": "@Microsoft",
       "created_at": "2011-03-20T00:06:28Z",
-      "total_stars": 5567
+      "total_stars": 5568
     },
     {
       "login": "jbeda",
       "name": "Joe Beda",
       "avatar_url": "https://avatars.githubusercontent.com/u/37310?s=88&u=2e7c81cfffd11396745bf1e413e37a81d8975572&v=4",
       "html_url": "https://github.com/jbeda",
-      "followers": 1328,
+      "followers": 1329,
       "following": 8,
       "public_repos": 36,
       "location": "Seattle, WA",
@@ -1248,28 +1248,28 @@
       "bio": null,
       "company": null,
       "created_at": "2018-05-14T05:11:33Z",
-      "total_stars": 435
+      "total_stars": 438
     },
     {
       "login": "ongardie",
       "name": "Diego Ongaro",
       "avatar_url": "https://avatars.githubusercontent.com/u/463856?s=88&v=4",
       "html_url": "https://github.com/ongardie",
-      "followers": 1318,
+      "followers": 1319,
       "following": 0,
       "public_repos": 25,
       "location": "Seattle",
       "bio": "Co-author of @raft. Currently @atomixdata as @ongardie-atomix. Previously @juicebox-systems, @homex, @eBay, @salesforce, @PlatformLab at Stanford.",
       "company": "Atomix",
       "created_at": "2010-11-02T08:24:21Z",
-      "total_stars": 2553
+      "total_stars": 2552
     },
     {
       "login": "veler",
       "name": "Etienne Baudoux",
       "avatar_url": "https://avatars.githubusercontent.com/u/3747805?s=88&u=044bffcd8836f3a15f9f26378a9d7c85c5cffcfe&v=4",
       "html_url": "https://github.com/veler",
-      "followers": 1312,
+      "followers": 1313,
       "following": 15,
       "public_repos": 14,
       "location": "Seattle, WA",
@@ -1297,7 +1297,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/2644648?s=88&u=ebccd1380f75cc485b0654c883aa34edbbfc3b27&v=4",
       "html_url": "https://github.com/TylerLeonhardt",
-      "followers": 1294,
+      "followers": 1296,
       "following": 14,
       "public_repos": 132,
       "location": "Seattle, WA",
@@ -1313,19 +1313,19 @@
       "html_url": "https://github.com/sandersn",
       "followers": 1273,
       "following": 0,
-      "public_repos": 48,
+      "public_repos": 49,
       "location": "Seattle",
       "bio": "I work on the TypeScript compiler, mostly JS support and AI.",
       "company": "Microsoft",
       "created_at": "2010-06-01T17:27:29Z",
-      "total_stars": 1686
+      "total_stars": 1685
     },
     {
       "login": "bashmohandes",
       "name": "Mohamed Elsherif",
       "avatar_url": "https://avatars.githubusercontent.com/u/912214?s=88&u=c551b494d318ff7419b7ac17883a62186fbcbbf8&v=4",
       "html_url": "https://github.com/bashmohandes",
-      "followers": 1271,
+      "followers": 1272,
       "following": 45,
       "public_repos": 9,
       "location": "Seattle, WA",
@@ -1346,21 +1346,21 @@
       "bio": null,
       "company": "Microsoft",
       "created_at": "2013-02-25T17:55:16Z",
-      "total_stars": 4881
+      "total_stars": 4882
     },
     {
       "login": "borismus",
       "name": "Boris Smus",
       "avatar_url": "https://avatars.githubusercontent.com/u/277632?s=88&u=bb2c5b541f3ee3c3ef0d5630250b9f1bf6d293a5&v=4",
       "html_url": "https://github.com/borismus",
-      "followers": 1223,
+      "followers": 1224,
       "following": 136,
       "public_repos": 89,
       "location": "Seattle",
       "bio": "Interaction engineer. Input & sensors, music & audio, and the web platform.",
       "company": null,
       "created_at": "2010-05-15T10:13:03Z",
-      "total_stars": 7084
+      "total_stars": 7083
     },
     {
       "login": "bterlson",
@@ -1416,14 +1416,14 @@
       "bio": "Software Engineer &\r\nEntrepreneur",
       "company": "graphAI, mulmocast",
       "created_at": "2009-10-14T18:06:53Z",
-      "total_stars": 1780
+      "total_stars": 1779
     },
     {
       "login": "jonrohan",
       "name": "Jon Rohan",
       "avatar_url": "https://avatars.githubusercontent.com/u/54012?s=88&u=5314beb53bec3929050766bc25d9a4d7821a2946&v=4",
       "html_url": "https://github.com/jonrohan",
-      "followers": 1194,
+      "followers": 1195,
       "following": 383,
       "public_repos": 29,
       "location": "Seattle, WA",
@@ -1439,21 +1439,21 @@
       "name": "Microsoft",
       "avatar_url": "https://avatars.githubusercontent.com/u/6154722?s=88&v=4",
       "html_url": "https://github.com/microsoft",
-      "followers": 133199,
+      "followers": 133521,
       "following": 0,
-      "public_repos": 8244,
+      "public_repos": 8257,
       "location": "Redmond, WA",
       "bio": "Open source projects and samples from Microsoft",
       "company": null,
       "created_at": "2013-12-10T19:06:48Z",
-      "total_stars": 1984728
+      "total_stars": 1989289
     },
     {
       "login": "Microsoft-corp",
       "name": "Microsoft-Corporation",
       "avatar_url": "https://avatars.githubusercontent.com/u/37161007?s=88&v=4",
       "html_url": "https://github.com/Microsoft-corp",
-      "followers": 47642,
+      "followers": 47846,
       "following": 0,
       "public_repos": 0,
       "location": "Redmond, WA",
@@ -1467,168 +1467,168 @@
       "name": "Amazon Web Services - Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/3299148?s=88&v=4",
       "html_url": "https://github.com/awslabs",
-      "followers": 11795,
+      "followers": 11824,
       "following": 0,
       "public_repos": 1038,
       "location": "Seattle, WA",
       "bio": "AWS Labs",
       "company": null,
       "created_at": "2013-01-17T19:11:21Z",
-      "total_stars": 100052
+      "total_stars": 100380
     },
     {
       "login": "MicrosoftDocs",
       "name": "Microsoft Docs",
       "avatar_url": "https://avatars.githubusercontent.com/u/22479449?s=88&v=4",
       "html_url": "https://github.com/MicrosoftDocs",
-      "followers": 9520,
+      "followers": 9530,
       "following": 0,
-      "public_repos": 703,
+      "public_repos": 701,
       "location": "Redmond, WA",
       "bio": "The modern documentation service for Microsoft",
       "company": null,
       "created_at": "2016-09-27T16:57:42Z",
-      "total_stars": 42847
+      "total_stars": 42864
     },
     {
       "login": "Azure-Samples",
       "name": "Azure Samples",
       "avatar_url": "https://avatars.githubusercontent.com/u/1844662?s=88&v=4",
       "html_url": "https://github.com/Azure-Samples",
-      "followers": 8910,
+      "followers": 8919,
       "following": 0,
       "public_repos": 3312,
       "location": "Redmond, WA",
       "bio": "Microsoft Azure code samples and examples in .NET, Java, Python, JavaScript, TypeScript, PHP and Ruby",
       "company": null,
       "created_at": "2012-06-13T00:15:40Z",
-      "total_stars": 33209
+      "total_stars": 33226
     },
     {
       "login": "PowerShell",
       "name": "PowerShell Team",
       "avatar_url": "https://avatars.githubusercontent.com/u/11524380?s=88&v=4",
       "html_url": "https://github.com/PowerShell",
-      "followers": 5289,
+      "followers": 5304,
       "following": 0,
       "public_repos": 101,
       "location": "Redmond",
       "bio": "https://microsoft.com/powershell",
       "company": null,
       "created_at": "2015-03-17T16:18:09Z",
-      "total_stars": 82837
+      "total_stars": 82878
     },
     {
       "login": "allenai",
       "name": "Ai2",
       "avatar_url": "https://avatars.githubusercontent.com/u/5667695?s=88&v=4",
       "html_url": "https://github.com/allenai",
-      "followers": 5132,
+      "followers": 5141,
       "following": 0,
-      "public_repos": 516,
+      "public_repos": 520,
       "location": "Seattle, WA",
       "bio": null,
       "company": null,
       "created_at": "2013-10-11T21:51:21Z",
-      "total_stars": 73877
+      "total_stars": 73912
     },
     {
       "login": "Mojang",
       "name": "Mojang",
       "avatar_url": "https://avatars.githubusercontent.com/u/1162641?s=88&v=4",
       "html_url": "https://github.com/Mojang",
-      "followers": 4091,
+      "followers": 4100,
       "following": 0,
       "public_repos": 42,
       "location": "Stockholm, Sweden + Redmond, WA + many other places",
       "bio": null,
       "company": null,
       "created_at": "2011-10-31T14:37:00Z",
-      "total_stars": 10141
+      "total_stars": 10154
     },
     {
       "login": "temporalio",
       "name": "temporal.io",
       "avatar_url": "https://avatars.githubusercontent.com/u/56493103?s=88&v=4",
       "html_url": "https://github.com/temporalio",
-      "followers": 4042,
+      "followers": 4064,
       "following": 0,
       "public_repos": 220,
       "location": "Bellevue",
       "bio": "Open source durable execution system. Write code that’s fault tolerant, durable, and simple.",
       "company": null,
       "created_at": "2019-10-13T00:36:27Z",
-      "total_stars": 36082
+      "total_stars": 36171
     },
     {
       "login": "googlecolab",
       "name": "Google Colaboratory",
       "avatar_url": "https://avatars.githubusercontent.com/u/33467679?s=88&v=4",
       "html_url": "https://github.com/googlecolab",
-      "followers": 3704,
+      "followers": 3717,
       "following": 0,
       "public_repos": 12,
       "location": "Seattle, WA",
       "bio": "Colaboratory is a research tool for machine learning education and research. It’s a Jupyter notebook environment that requires no setup to use.",
       "company": null,
       "created_at": "2017-11-07T21:34:02Z",
-      "total_stars": 6804
+      "total_stars": 7064
     },
     {
       "login": "OfficeDev",
       "name": "Microsoft 365 Developer",
       "avatar_url": "https://avatars.githubusercontent.com/u/6789362?s=88&v=4",
       "html_url": "https://github.com/OfficeDev",
-      "followers": 2751,
+      "followers": 2752,
       "following": 0,
-      "public_repos": 371,
+      "public_repos": 370,
       "location": "Redmond, WA",
       "bio": "Developer tools, samples, and other resources for building solutions for Microsoft 365 and beyond.",
       "company": null,
       "created_at": "2014-02-26T02:54:16Z",
-      "total_stars": 18751
+      "total_stars": 18755
     },
     {
       "login": "awsdocs",
       "name": "Amazon Web Services - Documentation",
       "avatar_url": "https://avatars.githubusercontent.com/u/8661631?s=88&v=4",
       "html_url": "https://github.com/awsdocs",
-      "followers": 2746,
+      "followers": 2752,
       "following": 0,
       "public_repos": 268,
       "location": "Seattle, WA",
       "bio": "Documenting Amazon Web Services and SDKs",
       "company": null,
       "created_at": "2014-09-04T23:02:45Z",
-      "total_stars": 20167
+      "total_stars": 20164
     },
     {
       "login": "auth0",
       "name": "Auth0",
       "avatar_url": "https://avatars.githubusercontent.com/u/2824157?s=88&v=4",
       "html_url": "https://github.com/auth0",
-      "followers": 2174,
+      "followers": 2177,
       "following": 0,
       "public_repos": 282,
       "location": "Seattle",
       "bio": null,
       "company": null,
       "created_at": "2012-11-17T23:55:00Z",
-      "total_stars": 52824
+      "total_stars": 52828
     },
     {
       "login": "aspnet",
       "name": "ASP.NET",
       "avatar_url": "https://avatars.githubusercontent.com/u/6476660?s=88&v=4",
       "html_url": "https://github.com/aspnet",
-      "followers": 1411,
+      "followers": 1413,
       "following": 0,
       "public_repos": 110,
       "location": "Redmond, WA",
       "bio": "ASP.NET and Entity Framework",
       "company": null,
       "created_at": "2014-01-22T23:45:57Z",
-      "total_stars": 34583
+      "total_stars": 34578
     },
     {
       "login": "tableau",
@@ -1637,68 +1637,68 @@
       "html_url": "https://github.com/tableau",
       "followers": 1102,
       "following": 0,
-      "public_repos": 91,
+      "public_repos": 92,
       "location": "Seattle, WA and around the world",
       "bio": "On a mission to help people see and understand data. https://tableau.com",
       "company": null,
       "created_at": "2011-06-04T00:06:10Z",
-      "total_stars": 7076
+      "total_stars": 7078
     },
     {
       "login": "RhinoSecurityLabs",
       "name": "Rhino Security Labs",
       "avatar_url": "https://avatars.githubusercontent.com/u/11430746?s=88&v=4",
       "html_url": "https://github.com/RhinoSecurityLabs",
-      "followers": 968,
+      "followers": 970,
       "following": 0,
       "public_repos": 15,
       "location": "Seattle, WA",
       "bio": "A boutique penetration testing and security assessment firm in Seattle, WA.",
       "company": null,
       "created_at": "2015-03-11T20:57:18Z",
-      "total_stars": 15585
+      "total_stars": 15589
     },
     {
       "login": "microsoftarchive",
       "name": "Microsoft Archive",
       "avatar_url": "https://avatars.githubusercontent.com/u/22484708?s=88&v=4",
       "html_url": "https://github.com/microsoftarchive",
-      "followers": 872,
+      "followers": 873,
       "following": 0,
       "public_repos": 143,
       "location": "Redmond, WA",
       "bio": "Archived repositories - for historical interest or community forking, READ ONLY",
       "company": null,
       "created_at": "2016-09-27T22:36:05Z",
-      "total_stars": 8578
+      "total_stars": 8577
     },
     {
       "login": "AzureAD",
       "name": "Azure Active Directory",
       "avatar_url": "https://avatars.githubusercontent.com/u/2966316?s=88&v=4",
       "html_url": "https://github.com/AzureAD",
-      "followers": 832,
+      "followers": 833,
       "following": 0,
       "public_repos": 57,
       "location": "Redmond, WA",
       "bio": null,
       "company": null,
       "created_at": "2012-12-04T23:19:57Z",
-      "total_stars": 14821
+      "total_stars": 14819
     },
     {
       "login": "ipinfo",
       "name": "IPinfo",
       "avatar_url": "https://avatars.githubusercontent.com/u/15721521?s=88&v=4",
       "html_url": "https://github.com/ipinfo",
-      "followers": 743,
+      "followers": 748,
       "following": 0,
       "public_repos": 29,
       "location": "Seattle, WA",
       "bio": "IP address API: geolocation, VPN detection, company data and more. Serving over 40 billion API requests a month for 500,000+ businesses and developers.",
       "company": null,
       "created_at": "2015-11-09T01:03:24Z",
-      "total_stars": 4418
+      "total_stars": 4431
     },
     {
       "login": "mspnp",
@@ -1726,14 +1726,14 @@
       "bio": "Microsoft SharePoint. Samples and open-source at https://aka.ms/m365pnp",
       "company": null,
       "created_at": "2016-05-02T20:03:06Z",
-      "total_stars": 3069
+      "total_stars": 3071
     },
     {
       "login": "Sysinternals",
       "name": "Sysinternals",
       "avatar_url": "https://avatars.githubusercontent.com/u/44955850?s=88&v=4",
       "html_url": "https://github.com/Sysinternals",
-      "followers": 650,
+      "followers": 648,
       "following": 0,
       "public_repos": 0,
       "location": "Redmond, Washington",
@@ -1761,14 +1761,14 @@
       "name": "Allen Institute",
       "avatar_url": "https://avatars.githubusercontent.com/u/1848392?s=88&v=4",
       "html_url": "https://github.com/AllenInstitute",
-      "followers": 587,
+      "followers": 588,
       "following": 0,
       "public_repos": 437,
       "location": "Seattle, WA",
       "bio": "Please visit http://alleninstitute.github.io/ for more information.",
       "company": null,
       "created_at": "2012-06-13T23:33:02Z",
-      "total_stars": 2315
+      "total_stars": 2317
     },
     {
       "login": "FormidableLabs",
@@ -1782,21 +1782,21 @@
       "bio": "We craft web apps, train engineering teams from growing startups to established enterprises, and enhance the modern web with open-source solutions.",
       "company": null,
       "created_at": "2013-07-24T05:29:32Z",
-      "total_stars": 88962
+      "total_stars": 88965
     },
     {
       "login": "compdemocracy",
       "name": "The Computational Democracy Project",
       "avatar_url": "https://avatars.githubusercontent.com/u/72170994?s=88&v=4",
       "html_url": "https://github.com/compdemocracy",
-      "followers": 506,
+      "followers": 507,
       "following": 0,
       "public_repos": 11,
       "location": "Seattle, WA",
       "bio": "We bring data science to deliberative democracy, so that governance may better reflect the multidimensionality of the public's will.",
       "company": null,
       "created_at": "2020-09-30T22:32:07Z",
-      "total_stars": 1342
+      "total_stars": 1346
     },
     {
       "login": "oracle-quickstart",
@@ -1817,28 +1817,28 @@
       "name": "UW Interactive Data Lab",
       "avatar_url": "https://avatars.githubusercontent.com/u/5448960?s=88&v=4",
       "html_url": "https://github.com/uwdata",
-      "followers": 455,
+      "followers": 456,
       "following": 0,
       "public_repos": 68,
       "location": "Seattle, WA",
       "bio": "Visualization + Analysis",
       "company": null,
       "created_at": "2013-09-13T02:49:16Z",
-      "total_stars": 6538
+      "total_stars": 6540
     },
     {
       "login": "FasterXML",
       "name": "FasterXML, LLC",
       "avatar_url": "https://avatars.githubusercontent.com/u/382692?s=88&v=4",
       "html_url": "https://github.com/FasterXML",
-      "followers": 429,
+      "followers": 432,
       "following": 0,
       "public_repos": 66,
       "location": "Seattle, WA",
       "bio": null,
       "company": null,
       "created_at": "2010-09-01T00:03:26Z",
-      "total_stars": 24593
+      "total_stars": 24602
     },
     {
       "login": "aws-robotics",
@@ -1859,14 +1859,14 @@
       "name": "F5 DevCentral",
       "avatar_url": "https://avatars.githubusercontent.com/u/18314976?s=88&v=4",
       "html_url": "https://github.com/f5devcentral",
-      "followers": 376,
+      "followers": 377,
       "following": 0,
       "public_repos": 467,
       "location": "Seattle, WA ",
       "bio": "Community Supported Repos",
       "company": null,
       "created_at": "2016-04-06T19:43:25Z",
-      "total_stars": 1153
+      "total_stars": 1157
     },
     {
       "login": "F5Networks",
@@ -1880,21 +1880,21 @@
       "bio": "F5 Software:See https://support.f5.com/csp/article/K80012344 for the list of supported projects. See https://www.github.com/f5devcentral for Community Solutions",
       "company": null,
       "created_at": "2014-09-27T04:39:42Z",
-      "total_stars": 1786
+      "total_stars": 1785
     },
     {
       "login": "OrchardCMS",
       "name": "OrchardCMS",
       "avatar_url": "https://avatars.githubusercontent.com/u/1159247?s=88&v=4",
       "html_url": "https://github.com/OrchardCMS",
-      "followers": 321,
+      "followers": 322,
       "following": 0,
       "public_repos": 21,
       "location": "Redmond, WA",
       "bio": null,
       "company": null,
       "created_at": "2011-10-29T07:51:05Z",
-      "total_stars": 11526
+      "total_stars": 11529
     },
     {
       "login": "azureautomation",
@@ -1950,14 +1950,14 @@
       "bio": "Listen for whales! Open source bioacoustic tools for saving endangered orcas (Southern Resident Killer Whales)",
       "company": null,
       "created_at": "2017-07-07T23:27:33Z",
-      "total_stars": 427
+      "total_stars": 428
     },
     {
       "login": "Remitly",
       "name": "Remitly",
       "avatar_url": "https://avatars.githubusercontent.com/u/2490045?s=88&v=4",
       "html_url": "https://github.com/Remitly",
-      "followers": 264,
+      "followers": 266,
       "following": 0,
       "public_repos": 4,
       "location": "Seattle, WA",
@@ -1978,21 +1978,21 @@
       "bio": "Enterprise Distributed VPN Server",
       "company": null,
       "created_at": "2013-09-18T17:16:05Z",
-      "total_stars": 7736
+      "total_stars": 7739
     },
     {
       "login": "OneDrive",
       "name": "OneDrive",
       "avatar_url": "https://avatars.githubusercontent.com/u/7130569?s=88&v=4",
       "html_url": "https://github.com/OneDrive",
-      "followers": 262,
+      "followers": 263,
       "following": 0,
       "public_repos": 26,
       "location": "Redmond, WA",
       "bio": "Official projects and SDKs for Microsoft OneDrive",
       "company": null,
       "created_at": "2014-04-01T18:38:57Z",
-      "total_stars": 2927
+      "total_stars": 2929
     },
     {
       "login": "MicrosoftTranslator",
@@ -2027,9 +2027,9 @@
       "name": "Upbound",
       "avatar_url": "https://avatars.githubusercontent.com/u/31934484?s=88&v=4",
       "html_url": "https://github.com/upbound",
-      "followers": 235,
+      "followers": 236,
       "following": 0,
-      "public_repos": 180,
+      "public_repos": 183,
       "location": "Seattle, WA",
       "bio": "Upbound delivers a single point of control to manage all your applications and infrastructure across teams, tenants and clouds.",
       "company": null,
@@ -2062,7 +2062,7 @@
       "bio": null,
       "company": null,
       "created_at": "2015-10-15T03:50:22Z",
-      "total_stars": 6304
+      "total_stars": 6308
     },
     {
       "login": "datasciencedojo",
@@ -2090,7 +2090,7 @@
       "bio": "Open Source SMT Pick and Place Hardware and Software",
       "company": null,
       "created_at": "2012-08-08T01:52:50Z",
-      "total_stars": 2747
+      "total_stars": 2751
     },
     {
       "login": "ExpediaGroup",
@@ -2125,14 +2125,14 @@
       "name": "Ada Developers Academy",
       "avatar_url": "https://avatars.githubusercontent.com/u/4689715?s=88&v=4",
       "html_url": "https://github.com/Ada-Developers-Academy",
-      "followers": 194,
+      "followers": 195,
       "following": 0,
       "public_repos": 110,
       "location": "Seattle, WA",
       "bio": "A tuition-free, cohort-based coding school prioritizing community over competition",
       "company": null,
       "created_at": "2013-06-13T14:54:32Z",
-      "total_stars": 1503
+      "total_stars": 1504
     },
     {
       "login": "ms-iot",
@@ -2160,7 +2160,7 @@
       "bio": null,
       "company": null,
       "created_at": "2010-11-15T23:50:17Z",
-      "total_stars": 2865
+      "total_stars": 2866
     },
     {
       "login": "xunit",
@@ -2174,7 +2174,7 @@
       "bio": "Projects of (and related to) xUnit.net",
       "company": null,
       "created_at": "2012-08-03T22:11:52Z",
-      "total_stars": 5758
+      "total_stars": 5759
     },
     {
       "login": "ihmeuw",
@@ -2209,28 +2209,28 @@
       "name": "SignalR",
       "avatar_url": "https://avatars.githubusercontent.com/u/931666?s=88&v=4",
       "html_url": "https://github.com/SignalR",
-      "followers": 165,
+      "followers": 164,
       "following": 0,
       "public_repos": 12,
       "location": "Redmond, WA",
       "bio": "SignalR for ASP.NET",
       "company": null,
       "created_at": "2011-07-22T03:51:01Z",
-      "total_stars": 10280
+      "total_stars": 10278
     },
     {
       "login": "Bungie-net",
       "name": "Bungie, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/29647662?s=88&v=4",
       "html_url": "https://github.com/Bungie-net",
-      "followers": 161,
+      "followers": 160,
       "following": 0,
       "public_repos": 3,
       "location": "Bellevue, WA",
       "bio": "Samples, Documentation, Bug tracking for the Destiny API community.",
       "company": null,
       "created_at": "2017-06-23T03:42:56Z",
-      "total_stars": 1336
+      "total_stars": 1337
     },
     {
       "login": "PowerBI",
@@ -2251,7 +2251,7 @@
       "name": "Socrata, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/57695?s=88&v=4",
       "html_url": "https://github.com/socrata",
-      "followers": 148,
+      "followers": 149,
       "following": 0,
       "public_repos": 25,
       "location": "Seattle, WA, USA",
@@ -2265,14 +2265,14 @@
       "name": "Authorize.Net",
       "avatar_url": "https://avatars.githubusercontent.com/u/6014037?s=88&v=4",
       "html_url": "https://github.com/AuthorizeNet",
-      "followers": 148,
+      "followers": 149,
       "following": 0,
       "public_repos": 28,
       "location": "Seattle, WA",
       "bio": null,
       "company": null,
       "created_at": "2013-11-22T21:57:13Z",
-      "total_stars": 1673
+      "total_stars": 1674
     },
     {
       "login": "Sage-Bionetworks",
@@ -2307,21 +2307,21 @@
       "name": "Parallels, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/6209674?s=88&v=4",
       "html_url": "https://github.com/Parallels",
-      "followers": 143,
+      "followers": 144,
       "following": 0,
       "public_repos": 44,
       "location": "Seattle",
       "bio": "Connecting you to the applications and desktops you need—no matter the device or OS.",
       "company": null,
       "created_at": "2013-12-17T22:09:17Z",
-      "total_stars": 3466
+      "total_stars": 3467
     },
     {
       "login": "code-dot-org",
       "name": "Code.org",
       "avatar_url": "https://avatars.githubusercontent.com/u/5124627?s=88&v=4",
       "html_url": "https://github.com/code-dot-org",
-      "followers": 142,
+      "followers": 143,
       "following": 0,
       "public_repos": 66,
       "location": "Seattle, Washington",
@@ -2335,28 +2335,28 @@
       "name": "Tracktion Corporation",
       "avatar_url": "https://avatars.githubusercontent.com/u/7778357?s=88&v=4",
       "html_url": "https://github.com/Tracktion",
-      "followers": 141,
+      "followers": 142,
       "following": 0,
       "public_repos": 8,
       "location": "Seattle, USA",
       "bio": "Creative tools for musicians and composers ",
       "company": null,
       "created_at": "2014-06-03T08:17:16Z",
-      "total_stars": 2958
+      "total_stars": 2962
     },
     {
       "login": "drivelineresearch",
       "name": "Driveline Research and Development",
       "avatar_url": "https://avatars.githubusercontent.com/u/41213622?s=88&v=4",
       "html_url": "https://github.com/drivelineresearch",
-      "followers": 141,
+      "followers": 142,
       "following": 0,
       "public_repos": 7,
       "location": "Seattle, WA",
       "bio": "R&D for Driveline Baseball",
       "company": null,
       "created_at": "2018-07-13T22:17:51Z",
-      "total_stars": 757
+      "total_stars": 760
     },
     {
       "login": "microsoft1estools",
@@ -2377,7 +2377,7 @@
       "name": "Impact",
       "avatar_url": "https://avatars.githubusercontent.com/u/14006115?s=88&v=4",
       "html_url": "https://github.com/ImpactInc",
-      "followers": 116,
+      "followers": 117,
       "following": 0,
       "public_repos": 5,
       "location": "Santa Barbara, Cape Town, New York, Columbus, Seattle",
@@ -2405,14 +2405,14 @@
       "name": "SageMath, Inc.",
       "avatar_url": "https://avatars.githubusercontent.com/u/11307305?s=88&v=4",
       "html_url": "https://github.com/sagemathinc",
-      "followers": 112,
+      "followers": 113,
       "following": 0,
       "public_repos": 85,
       "location": "Seattle, WA",
       "bio": "The company behind \"CoCalc\", a service to collaboratively use open source math software, Jupyter, LaTeX, and terminals in your browser",
       "company": null,
       "created_at": "2015-03-04T04:50:38Z",
-      "total_stars": 2355
+      "total_stars": 2357
     },
     {
       "login": "openthc",
@@ -2426,21 +2426,21 @@
       "bio": "Open Source Specifications, Data Models and Software for the Cannabis Industry",
       "company": null,
       "created_at": "2018-01-26T23:31:14Z",
-      "total_stars": 371
+      "total_stars": 373
     },
     {
       "login": "uwplse",
       "name": "UW PLSE",
       "avatar_url": "https://avatars.githubusercontent.com/u/5273459?s=88&v=4",
       "html_url": "https://github.com/uwplse",
-      "followers": 110,
+      "followers": 111,
       "following": 0,
       "public_repos": 68,
       "location": "Seattle, WA",
       "bio": "University of Washington Programming Languages and Software Engineering",
       "company": null,
       "created_at": "2013-08-20T21:44:51Z",
-      "total_stars": 2008
+      "total_stars": 2010
     },
     {
       "login": "suinleelab",
@@ -2454,7 +2454,21 @@
       "bio": "Research group at University of Washington focused on machine learning, interpretability, explainability, and AI for bioMedical Sciences.",
       "company": null,
       "created_at": "2018-01-24T01:13:19Z",
-      "total_stars": 1032
+      "total_stars": 1033
+    },
+    {
+      "login": "RAIVNLab",
+      "name": "RAIVN Lab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63483559?s=88&v=4",
+      "html_url": "https://github.com/RAIVNLab",
+      "followers": 103,
+      "following": 0,
+      "public_repos": 22,
+      "location": "Seattle, WA, USA",
+      "bio": "Research Codebase from UW Reasoning AI VisioN Lab",
+      "company": null,
+      "created_at": "2020-04-11T01:51:37Z",
+      "total_stars": 1434
     },
     {
       "login": "LuxorLabs",
@@ -2471,27 +2485,13 @@
       "total_stars": 46
     },
     {
-      "login": "RAIVNLab",
-      "name": "RAIVN Lab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/63483559?s=88&v=4",
-      "html_url": "https://github.com/RAIVNLab",
-      "followers": 102,
-      "following": 0,
-      "public_repos": 22,
-      "location": "Seattle, WA, USA",
-      "bio": "Research Codebase from UW Reasoning AI VisioN Lab",
-      "company": null,
-      "created_at": "2020-04-11T01:51:37Z",
-      "total_stars": 1434
-    },
-    {
       "login": "InstituteforDiseaseModeling",
       "name": "Institute for Disease Modeling",
       "avatar_url": "https://avatars.githubusercontent.com/u/8324647?s=88&v=4",
       "html_url": "https://github.com/InstituteforDiseaseModeling",
       "followers": 102,
       "following": 0,
-      "public_repos": 88,
+      "public_repos": 90,
       "location": "Seattle, WA, USA",
       "bio": "IDM shapes global efforts to eradicate infectious disease and to achieve permanent improvements in health by using and sharing computational modeling tools.",
       "company": null,
@@ -2505,12 +2505,12 @@
       "html_url": "https://github.com/Qumulo",
       "followers": 97,
       "following": 0,
-      "public_repos": 41,
+      "public_repos": 43,
       "location": "Seattle, WA",
       "bio": "Open source applications using the Qumulo Core API.",
       "company": null,
       "created_at": "2015-04-30T22:29:45Z",
-      "total_stars": 119
+      "total_stars": 121
     },
     {
       "login": "spiceai",
@@ -2524,7 +2524,7 @@
       "bio": "Unified SQL query interface & materialization engine",
       "company": null,
       "created_at": "2020-11-03T01:36:03Z",
-      "total_stars": 3260
+      "total_stars": 3263
     },
     {
       "login": "highspot",
@@ -2560,8 +2560,8 @@
       "full_name": "microsoft/vscode",
       "html_url": "https://github.com/microsoft/vscode",
       "description": "Visual Studio Code",
-      "stargazers_count": 194578,
-      "forks_count": 44404,
+      "stargazers_count": 195178,
+      "forks_count": 44443,
       "language": "TypeScript",
       "topics": [
         "editor",
@@ -2579,8 +2579,8 @@
       "full_name": "microsoft/markitdown",
       "html_url": "https://github.com/microsoft/markitdown",
       "description": "Python tool for converting files and office documents to Markdown.",
-      "stargazers_count": 193831,
-      "forks_count": 14550,
+      "stargazers_count": 194388,
+      "forks_count": 14637,
       "language": "Python",
       "topics": [
         "langchain",
@@ -2598,8 +2598,8 @@
       "full_name": "microsoft/PowerToys",
       "html_url": "https://github.com/microsoft/PowerToys",
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-      "stargazers_count": 140531,
-      "forks_count": 8694,
+      "stargazers_count": 140714,
+      "forks_count": 8709,
       "language": "C",
       "topics": [
         "powertoys",
@@ -2617,8 +2617,8 @@
       "full_name": "microsoft/generative-ai-for-beginners",
       "html_url": "https://github.com/microsoft/generative-ai-for-beginners",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "stargazers_count": 122962,
-      "forks_count": 65884,
+      "stargazers_count": 123119,
+      "forks_count": 66082,
       "language": "Jupyter Notebook",
       "topics": [
         "ai",
@@ -2636,8 +2636,8 @@
       "full_name": "microsoft/TypeScript",
       "html_url": "https://github.com/microsoft/TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-      "stargazers_count": 111730,
-      "forks_count": 15408,
+      "stargazers_count": 111862,
+      "forks_count": 15395,
       "language": "Go",
       "topics": [
         "typescript",
@@ -2654,8 +2654,8 @@
       "full_name": "microsoft/terminal",
       "html_url": "https://github.com/microsoft/terminal",
       "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
-      "stargazers_count": 105322,
-      "forks_count": 9719,
+      "stargazers_count": 105348,
+      "forks_count": 9733,
       "language": "C++",
       "topics": [
         "console",
@@ -2673,8 +2673,8 @@
       "full_name": "microsoft/playwright",
       "html_url": "https://github.com/microsoft/playwright",
       "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-      "stargazers_count": 99260,
-      "forks_count": 6792,
+      "stargazers_count": 99569,
+      "forks_count": 6816,
       "language": "TypeScript",
       "topics": [
         "playwright",
@@ -2692,8 +2692,8 @@
       "full_name": "microsoft/Web-Dev-For-Beginners",
       "html_url": "https://github.com/microsoft/Web-Dev-For-Beginners",
       "description": "24 Lessons, 12 Weeks, Get Started as a Web Developer",
-      "stargazers_count": 97094,
-      "forks_count": 16117,
+      "stargazers_count": 97124,
+      "forks_count": 16126,
       "language": "JavaScript",
       "topics": [
         "javascript",
@@ -2711,8 +2711,8 @@
       "full_name": "microsoft/ML-For-Beginners",
       "html_url": "https://github.com/microsoft/ML-For-Beginners",
       "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-      "stargazers_count": 91990,
-      "forks_count": 22845,
+      "stargazers_count": 92069,
+      "forks_count": 22880,
       "language": "Jupyter Notebook",
       "topics": [
         "ml",
@@ -2730,8 +2730,8 @@
       "full_name": "microsoft/ai-agents-for-beginners",
       "html_url": "https://github.com/microsoft/ai-agents-for-beginners",
       "description": "18 Lessons to Get Started Building AI Agents",
-      "stargazers_count": 78898,
-      "forks_count": 25831,
+      "stargazers_count": 79167,
+      "forks_count": 25915,
       "language": "Jupyter Notebook",
       "topics": [
         "agentic-ai",
@@ -2746,30 +2746,11 @@
       "fork": false
     },
     {
-      "full_name": "calesthio/OpenMontage",
-      "html_url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge f",
-      "stargazers_count": 76244,
-      "forks_count": 10110,
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot"
-      ],
-      "owner_login": "calesthio",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/213189893?s=88&u=6d269d54059d5efaf0db1dba452f6029afedc01d&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "microsoft/AI-For-Beginners",
       "html_url": "https://github.com/microsoft/AI-For-Beginners",
       "description": "12 Weeks, 24 Lessons, AI for All!",
-      "stargazers_count": 70553,
-      "forks_count": 13735,
+      "stargazers_count": 70633,
+      "forks_count": 13754,
       "language": "Jupyter Notebook",
       "topics": [
         "deep-learning",
@@ -2787,8 +2768,8 @@
       "full_name": "ryanoasis/nerd-fonts",
       "html_url": "https://github.com/ryanoasis/nerd-fonts",
       "description": "Iconic font aggregator, collection, & patcher. 3,600+ icons, 50+ patched fonts: Hack, Source Code Pro, more. Glyph collections: Font Awesome",
-      "stargazers_count": 65128,
-      "forks_count": 3982,
+      "stargazers_count": 65159,
+      "forks_count": 3989,
       "language": "CSS",
       "topics": [
         "fonts",
@@ -2806,8 +2787,8 @@
       "full_name": "microsoft/autogen",
       "html_url": "https://github.com/microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stargazers_count": 61699,
-      "forks_count": 9361,
+      "stargazers_count": 61747,
+      "forks_count": 9385,
       "language": "Python",
       "topics": [
         "chatgpt",
@@ -2822,11 +2803,24 @@
       "fork": false
     },
     {
+      "full_name": "microsoft/VibeVoice",
+      "html_url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "stargazers_count": 56740,
+      "forks_count": 6386,
+      "language": "Python",
+      "topics": [],
+      "owner_login": "microsoft",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "PowerShell/PowerShell",
       "html_url": "https://github.com/PowerShell/PowerShell",
       "description": "PowerShell for every system!",
-      "stargazers_count": 56022,
-      "forks_count": 8528,
+      "stargazers_count": 56054,
+      "forks_count": 8530,
       "language": "C#",
       "topics": [
         "powershell",
@@ -2841,24 +2835,11 @@
       "fork": false
     },
     {
-      "full_name": "microsoft/VibeVoice",
-      "html_url": "https://github.com/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "stargazers_count": 55172,
-      "forks_count": 6199,
-      "language": "Python",
-      "topics": [],
-      "owner_login": "microsoft",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/6154722?s=88&v=4",
-      "owner_type": "Organization",
-      "fork": false
-    },
-    {
       "full_name": "microsoft/qlib",
       "html_url": "https://github.com/microsoft/qlib",
       "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing pr",
-      "stargazers_count": 49986,
-      "forks_count": 7893,
+      "stargazers_count": 50121,
+      "forks_count": 7914,
       "language": "Python",
       "topics": [
         "quantitative-finance",
@@ -2876,8 +2857,8 @@
       "full_name": "microsoft/monaco-editor",
       "html_url": "https://github.com/microsoft/monaco-editor",
       "description": "A browser based code editor",
-      "stargazers_count": 46949,
-      "forks_count": 4170,
+      "stargazers_count": 46959,
+      "forks_count": 4167,
       "language": "JavaScript",
       "topics": [
         "monaco-editor",
@@ -2895,8 +2876,8 @@
       "full_name": "colinhacks/zod",
       "html_url": "https://github.com/colinhacks/zod",
       "description": "TypeScript-first schema validation with static type inference",
-      "stargazers_count": 44259,
-      "forks_count": 2320,
+      "stargazers_count": 44283,
+      "forks_count": 2328,
       "language": "TypeScript",
       "topics": [
         "typescript",
@@ -2914,8 +2895,8 @@
       "full_name": "microsoft/BitNet",
       "html_url": "https://github.com/microsoft/BitNet",
       "description": "Official inference framework for 1-bit LLMs",
-      "stargazers_count": 41454,
-      "forks_count": 3867,
+      "stargazers_count": 41505,
+      "forks_count": 3872,
       "language": "C++",
       "topics": [],
       "owner_login": "microsoft",
@@ -2927,8 +2908,8 @@
       "full_name": "schollz/croc",
       "html_url": "https://github.com/schollz/croc",
       "description": "Easily and securely send things from one computer to another :crocodile: :package:",
-      "stargazers_count": 40860,
-      "forks_count": 1650,
+      "stargazers_count": 40882,
+      "forks_count": 1652,
       "language": "Go",
       "topics": [
         "file-sharing",
@@ -2946,8 +2927,8 @@
       "full_name": "microsoft/playwright-mcp",
       "html_url": "https://github.com/microsoft/playwright-mcp",
       "description": "Playwright MCP server",
-      "stargazers_count": 39164,
-      "forks_count": 3381,
+      "stargazers_count": 39324,
+      "forks_count": 3403,
       "language": "TypeScript",
       "topics": [
         "mcp",
@@ -2962,8 +2943,8 @@
       "full_name": "microsoft/Data-Science-For-Beginners",
       "html_url": "https://github.com/microsoft/Data-Science-For-Beginners",
       "description": "10 Weeks, 20 Lessons, Data Science for All!",
-      "stargazers_count": 37932,
-      "forks_count": 7637,
+      "stargazers_count": 37980,
+      "forks_count": 7642,
       "language": "Jupyter Notebook",
       "topics": [
         "data-science",
@@ -2981,8 +2962,8 @@
       "full_name": "microsoft/graphrag",
       "html_url": "https://github.com/microsoft/graphrag",
       "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
-      "stargazers_count": 36556,
-      "forks_count": 3870,
+      "stargazers_count": 36592,
+      "forks_count": 3873,
       "language": "Python",
       "topics": [
         "graphrag",
@@ -3000,8 +2981,8 @@
       "full_name": "microsoft/WSL",
       "html_url": "https://github.com/microsoft/WSL",
       "description": "Windows Subsystem for Linux",
-      "stargazers_count": 34299,
-      "forks_count": 1879,
+      "stargazers_count": 34316,
+      "forks_count": 1882,
       "language": "C++",
       "topics": [],
       "owner_login": "microsoft",
@@ -3014,7 +2995,7 @@
       "html_url": "https://github.com/microsoft/MS-DOS",
       "description": "The original sources of MS-DOS 1.25, 2.0, and 4.0 for reference purposes",
       "stargazers_count": 32258,
-      "forks_count": 4687,
+      "forks_count": 4689,
       "language": "Assembly",
       "topics": [
         "ms-dos"
@@ -3028,8 +3009,8 @@
       "full_name": "microsoft/calculator",
       "html_url": "https://github.com/microsoft/calculator",
       "description": "Windows Calculator: A simple yet powerful calculator that ships with Windows",
-      "stargazers_count": 31087,
-      "forks_count": 5835,
+      "stargazers_count": 31086,
+      "forks_count": 5836,
       "language": "C#",
       "topics": [
         "uwp",
@@ -3047,8 +3028,8 @@
       "full_name": "eugeneyan/applied-ml",
       "html_url": "https://github.com/eugeneyan/applied-ml",
       "description": "📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.",
-      "stargazers_count": 30789,
-      "forks_count": 4048,
+      "stargazers_count": 30835,
+      "forks_count": 4054,
       "language": null,
       "topics": [
         "applied-machine-learning",
@@ -3066,7 +3047,7 @@
       "full_name": "lukehoban/es6features",
       "html_url": "https://github.com/lukehoban/es6features",
       "description": "Overview of ECMAScript 6 features",
-      "stargazers_count": 28986,
+      "stargazers_count": 28984,
       "forks_count": 2764,
       "language": null,
       "topics": [],
@@ -3079,8 +3060,8 @@
       "full_name": "microsoft/semantic-kernel",
       "html_url": "https://github.com/microsoft/semantic-kernel",
       "description": "Integrate cutting-edge LLM technology quickly and easily into your apps",
-      "stargazers_count": 28731,
-      "forks_count": 4851,
+      "stargazers_count": 28747,
+      "forks_count": 4856,
       "language": "C#",
       "topics": [
         "ai",
@@ -3099,7 +3080,7 @@
       "html_url": "https://github.com/microsoft/cascadia-code",
       "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Te",
       "stargazers_count": 27954,
-      "forks_count": 846,
+      "forks_count": 844,
       "language": "Python",
       "topics": [],
       "owner_login": "microsoft",
@@ -3111,8 +3092,8 @@
       "full_name": "microsoft/vcpkg",
       "html_url": "https://github.com/microsoft/vcpkg",
       "description": "C++ Library Manager for Windows, Linux, and MacOS",
-      "stargazers_count": 27570,
-      "forks_count": 7786,
+      "stargazers_count": 27582,
+      "forks_count": 7794,
       "language": "CMake",
       "topics": [
         "vcpkg",
@@ -3130,8 +3111,8 @@
       "full_name": "microsoft/winget-cli",
       "html_url": "https://github.com/microsoft/winget-cli",
       "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object",
-      "stargazers_count": 26560,
-      "forks_count": 1817,
+      "stargazers_count": 26569,
+      "forks_count": 1815,
       "language": "C++",
       "topics": [
         "windows",
@@ -3148,8 +3129,8 @@
       "full_name": "microsoft/typescript-go",
       "html_url": "https://github.com/microsoft/typescript-go",
       "description": "Staging repo for development of native port of TypeScript",
-      "stargazers_count": 26101,
-      "forks_count": 1134,
+      "stargazers_count": 26089,
+      "forks_count": 1136,
       "language": "Go",
       "topics": [],
       "owner_login": "microsoft",
@@ -3161,8 +3142,8 @@
       "full_name": "microsoft/OmniParser",
       "html_url": "https://github.com/microsoft/OmniParser",
       "description": "A simple screen parsing tool towards pure vision based GUI agent",
-      "stargazers_count": 25606,
-      "forks_count": 2241,
+      "stargazers_count": 25612,
+      "forks_count": 2242,
       "language": "Jupyter Notebook",
       "topics": [],
       "owner_login": "microsoft",
@@ -3174,8 +3155,8 @@
       "full_name": "microsoft/JARVIS",
       "html_url": "https://github.com/microsoft/JARVIS",
       "description": "JARVIS, a system to connect LLMs with ML community. Paper: https://arxiv.org/pdf/2303.17580.pdf",
-      "stargazers_count": 25559,
-      "forks_count": 2273,
+      "stargazers_count": 25592,
+      "forks_count": 2280,
       "language": "Python",
       "topics": [
         "deep-learning",
@@ -3191,8 +3172,8 @@
       "full_name": "temporalio/temporal",
       "html_url": "https://github.com/temporalio/temporal",
       "description": "Temporal service",
-      "stargazers_count": 24184,
-      "forks_count": 2071,
+      "stargazers_count": 24258,
+      "forks_count": 2074,
       "language": "Go",
       "topics": [
         "workflows",
@@ -3210,7 +3191,7 @@
       "full_name": "microsoft/api-guidelines",
       "html_url": "https://github.com/microsoft/api-guidelines",
       "description": "Microsoft REST API Guidelines",
-      "stargazers_count": 23342,
+      "stargazers_count": 23345,
       "forks_count": 2688,
       "language": null,
       "topics": [
@@ -3228,8 +3209,8 @@
       "full_name": "chriskiehl/Gooey",
       "html_url": "https://github.com/chriskiehl/Gooey",
       "description": "Turn (almost) any Python command line program into a full GUI application with one line",
-      "stargazers_count": 21894,
-      "forks_count": 1045,
+      "stargazers_count": 21896,
+      "forks_count": 1047,
       "language": "Python",
       "topics": [],
       "owner_login": "chriskiehl",
@@ -3241,8 +3222,8 @@
       "full_name": "ahmetb/kubectx",
       "html_url": "https://github.com/ahmetb/kubectx",
       "description": "Faster way to switch between clusters and namespaces in kubectl",
-      "stargazers_count": 20078,
-      "forks_count": 1389,
+      "stargazers_count": 20085,
+      "forks_count": 1388,
       "language": "Go",
       "topics": [
         "kubernetes",
@@ -3259,8 +3240,8 @@
       "full_name": "allenai/olmocr",
       "html_url": "https://github.com/allenai/olmocr",
       "description": "Toolkit for linearizing PDFs for LLM datasets/training",
-      "stargazers_count": 19813,
-      "forks_count": 1652,
+      "stargazers_count": 19816,
+      "forks_count": 1653,
       "language": "Python",
       "topics": [],
       "owner_login": "allenai",
@@ -3272,8 +3253,8 @@
       "full_name": "auth0/node-jsonwebtoken",
       "html_url": "https://github.com/auth0/node-jsonwebtoken",
       "description": "JsonWebToken implementation for node.js http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html",
-      "stargazers_count": 18182,
-      "forks_count": 1297,
+      "stargazers_count": 18184,
+      "forks_count": 1295,
       "language": "JavaScript",
       "topics": [],
       "owner_login": "auth0",
@@ -3285,8 +3266,8 @@
       "full_name": "steven-tey/novel",
       "html_url": "https://github.com/steven-tey/novel",
       "description": "Notion-style WYSIWYG editor with AI-powered autocompletion.",
-      "stargazers_count": 16465,
-      "forks_count": 1375,
+      "stargazers_count": 16464,
+      "forks_count": 1374,
       "language": "TypeScript",
       "topics": [
         "chatgpt",
@@ -3304,8 +3285,8 @@
       "full_name": "altercation/solarized",
       "html_url": "https://github.com/altercation/solarized",
       "description": "precision color scheme for multiple applications (terminal, vim, etc.) with both dark/light modes",
-      "stargazers_count": 16022,
-      "forks_count": 3422,
+      "stargazers_count": 16021,
+      "forks_count": 3421,
       "language": "Vim Script",
       "topics": [],
       "owner_login": "altercation",
@@ -3318,7 +3299,7 @@
       "html_url": "https://github.com/FormidableLabs/webpack-dashboard",
       "description": "A CLI dashboard for webpack dev server",
       "stargazers_count": 13948,
-      "forks_count": 373,
+      "forks_count": 374,
       "language": "JavaScript",
       "topics": [
         "webpack",
@@ -3336,7 +3317,7 @@
       "full_name": "awslabs/git-secrets",
       "html_url": "https://github.com/awslabs/git-secrets",
       "description": "Prevents you from committing secrets and credentials into git repositories",
-      "stargazers_count": 13430,
+      "stargazers_count": 13439,
       "forks_count": 1253,
       "language": "Shell",
       "topics": [],
@@ -3349,7 +3330,7 @@
       "full_name": "eugeneyan/open-llms",
       "html_url": "https://github.com/eugeneyan/open-llms",
       "description": "📋 A list of open LLMs available for commercial use.",
-      "stargazers_count": 12885,
+      "stargazers_count": 12883,
       "forks_count": 986,
       "language": null,
       "topics": [
@@ -3367,8 +3348,8 @@
       "full_name": "calesthio/Crucix",
       "html_url": "https://github.com/calesthio/Crucix",
       "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
-      "stargazers_count": 12197,
-      "forks_count": 1864,
+      "stargazers_count": 12204,
+      "forks_count": 1860,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -3384,7 +3365,7 @@
       "full_name": "allenai/allennlp",
       "html_url": "https://github.com/allenai/allennlp",
       "description": "An open-source NLP research library, built on PyTorch.",
-      "stargazers_count": 11884,
+      "stargazers_count": 11885,
       "forks_count": 2202,
       "language": "Python",
       "topics": [
@@ -3403,13 +3384,31 @@
       "full_name": "mission-peace/interview",
       "html_url": "https://github.com/mission-peace/interview",
       "description": "Interview questions",
-      "stargazers_count": 11358,
-      "forks_count": 5131,
+      "stargazers_count": 11361,
+      "forks_count": 5132,
       "language": "Java",
       "topics": [],
       "owner_login": "mission-peace",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/8218054?s=88&v=4",
       "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "FormidableLabs/victory",
+      "html_url": "https://github.com/FormidableLabs/victory",
+      "description": "A collection of composable React components for building interactive data visualizations",
+      "stargazers_count": 11245,
+      "forks_count": 535,
+      "language": "HTML",
+      "topics": [
+        "react",
+        "charts",
+        "d3",
+        "data-visualization"
+      ],
+      "owner_login": "FormidableLabs",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/5078602?s=88&v=4",
+      "owner_type": "Organization",
       "fork": false
     }
   ]
