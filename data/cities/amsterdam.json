@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Amsterdam",
   "slug": "amsterdam",
-  "generated_at": "2026-11-08T12:00:33.476Z",
+  "generated_at": "2026-11-09T13:56:38.645Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -2121,20 +2121,6 @@
       "total_stars": 2137
     },
     {
-      "login": "radical-data",
-      "name": "Radical Data",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67952868?s=88&v=4",
-      "html_url": "https://github.com/radical-data",
-      "followers": 71,
-      "following": 0,
-      "public_repos": 44,
-      "location": "Amsterdam, Netherlands",
-      "bio": "Repurposing tech for liberation + joy ✨ We are a studio 💻, educational platform 📖 & community 🪢",
-      "company": null,
-      "created_at": "2020-07-07T09:30:27Z",
-      "total_stars": 120
-    },
-    {
       "login": "meditohq",
       "name": "Medito Foundation",
       "avatar_url": "https://avatars.githubusercontent.com/u/65036206?s=88&v=4",
@@ -2147,6 +2133,20 @@
       "company": null,
       "created_at": "2020-05-08T17:11:11Z",
       "total_stars": 1335
+    },
+    {
+      "login": "radical-data",
+      "name": "Radical Data",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67952868?s=88&v=4",
+      "html_url": "https://github.com/radical-data",
+      "followers": 71,
+      "following": 0,
+      "public_repos": 44,
+      "location": "Amsterdam, Netherlands",
+      "bio": "Repurposing tech for liberation + joy ✨ We are a studio 💻, educational platform 📖 & community 🪢",
+      "company": null,
+      "created_at": "2020-07-07T09:30:27Z",
+      "total_stars": 120
     },
     {
       "login": "praat",
@@ -3141,8 +3141,8 @@
       "full_name": "erikdubbelboer/phpRedisAdmin",
       "html_url": "https://github.com/erikdubbelboer/phpRedisAdmin",
       "description": "Simple web interface to manage Redis databases.",
-      "stargazers_count": 3181,
-      "forks_count": 665,
+      "stargazers_count": 3179,
+      "forks_count": 664,
       "language": "PHP",
       "topics": [
         "redis",

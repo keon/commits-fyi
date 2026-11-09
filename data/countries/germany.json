@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-11-08T12:03:18.344Z",
+  "generated_at": "2026-11-09T13:57:38.475Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 432264,
+    "user_followers": 443075,
     "org_followers": 121869,
-    "user_stars": 1628509,
+    "user_stars": 1629532,
     "org_stars": 1807222
   },
   "queries": [
@@ -59,6 +59,20 @@
       "company": "PL Coding GmbH",
       "created_at": "2019-08-09T07:42:14Z",
       "total_stars": 5394
+    },
+    {
+      "login": "CelaDaniel",
+      "name": "Daniel Cela",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13622306?s=88&u=e4f2ba4622e39e1e6d6c0ccd526b364aad7b4f61&v=4",
+      "html_url": "https://github.com/CelaDaniel",
+      "followers": 12873,
+      "following": 9720,
+      "public_repos": 10,
+      "location": "Hamburg, Germany 🇩🇪",
+      "bio": "Senior Software & AI Engineer (Full Stack) | NestJS, React, Next.js, TypeScript | Specialist in Agentic Workflows & RAG | Scaling AWS Cloud Solutions",
+      "company": "@deltatre-digital, @deltatre-vxp, @deltatre-innovation-lab",
+      "created_at": "2015-08-03T09:44:00Z",
+      "total_stars": 1211
     },
     {
       "login": "ChristianLempa",
@@ -1417,20 +1431,6 @@
       "company": "good beans",
       "created_at": "2008-10-22T18:56:03Z",
       "total_stars": 2026
-    },
-    {
-      "login": "aeneasr",
-      "name": "hackerman",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3372410?s=88&u=b48e7114015223887f823fa1413f2b6b1e9b95ae&v=4",
-      "html_url": "https://github.com/aeneasr",
-      "followers": 2062,
-      "following": 19,
-      "public_repos": 113,
-      "location": "Munich, Germany",
-      "bio": "I create & maintain popular software as founder and CTO at @ory / @ory-corp. Previously co-founder @serlo.",
-      "company": "@ory, @serlo, @ory-corp ",
-      "created_at": "2013-01-24T17:38:20Z",
-      "total_stars": 188
     }
   ],
   "orgs": [
@@ -1729,20 +1729,6 @@
       "total_stars": 6698
     },
     {
-      "login": "PRBonn",
-      "name": "Photogrammetry & Robotics Bonn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23656320?s=88&v=4",
-      "html_url": "https://github.com/PRBonn",
-      "followers": 1336,
-      "following": 0,
-      "public_repos": 120,
-      "location": "Bonn",
-      "bio": "Photogrammetry & Robotics Lab at the University of Bonn",
-      "company": null,
-      "created_at": "2016-11-22T11:58:29Z",
-      "total_stars": 16373
-    },
-    {
       "login": "evcc-io",
       "name": "evcc-io",
       "avatar_url": "https://avatars.githubusercontent.com/u/81383504?s=88&v=4",
@@ -1755,6 +1741,20 @@
       "company": null,
       "created_at": "2021-03-25T18:12:52Z",
       "total_stars": 8084
+    },
+    {
+      "login": "PRBonn",
+      "name": "Photogrammetry & Robotics Bonn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23656320?s=88&v=4",
+      "html_url": "https://github.com/PRBonn",
+      "followers": 1336,
+      "following": 0,
+      "public_repos": 120,
+      "location": "Bonn",
+      "bio": "Photogrammetry & Robotics Lab at the University of Bonn",
+      "company": null,
+      "created_at": "2016-11-22T11:58:29Z",
+      "total_stars": 16373
     },
     {
       "login": "Infineon",

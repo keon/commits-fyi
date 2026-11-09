@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-11-08T11:58:24.008Z",
+  "generated_at": "2026-11-09T13:55:50.444Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 352629,
+    "user_followers": 352710,
     "org_followers": 262991,
-    "user_stars": 905223,
+    "user_stars": 905237,
     "org_stars": 2782966
   },
   "queries": [
@@ -1013,20 +1013,6 @@
       "total_stars": 9366
     },
     {
-      "login": "tmlayton",
-      "name": "Tim Layton",
-      "avatar_url": "https://avatars.githubusercontent.com/u/344839?s=88&u=b28b3f87da91a964f3e752d3e096e40aa08da110&v=4",
-      "html_url": "https://github.com/tmlayton",
-      "followers": 1474,
-      "following": 1,
-      "public_repos": 1,
-      "location": "Seattle, WA",
-      "bio": "Founder @autnmy, previously engineering @amzn @Shopify @Boulevard",
-      "company": null,
-      "created_at": "2010-07-26T18:31:56Z",
-      "total_stars": 4
-    },
-    {
       "login": "natemcmaster",
       "name": "Nate McMaster",
       "avatar_url": "https://avatars.githubusercontent.com/u/2696087?s=88&u=ee708e7458c9e30aa9c8530f2d0fdde1d218bfe2&v=4",
@@ -1039,6 +1025,20 @@
       "company": "@anthropics",
       "created_at": "2012-11-01T03:35:08Z",
       "total_stars": 8439
+    },
+    {
+      "login": "tmlayton",
+      "name": "Tim Layton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/344839?s=88&u=b28b3f87da91a964f3e752d3e096e40aa08da110&v=4",
+      "html_url": "https://github.com/tmlayton",
+      "followers": 1474,
+      "following": 1,
+      "public_repos": 1,
+      "location": "Seattle, WA",
+      "bio": "Founder @autnmy, previously engineering @amzn @Shopify @Boulevard",
+      "company": null,
+      "created_at": "2010-07-26T18:31:56Z",
+      "total_stars": 4
     },
     {
       "login": "MariaSolOs",
@@ -1307,6 +1307,20 @@
       "total_stars": 376
     },
     {
+      "login": "deathblock",
+      "name": "Ethan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133392337?s=88&u=15a249045679706a18f172295a0cf49220a7541e&v=4",
+      "html_url": "https://github.com/deathblock",
+      "followers": 1282,
+      "following": 7746,
+      "public_repos": 60,
+      "location": "Seattle, United States",
+      "bio": "DevOps Engineer & Product Strategist | Advanced Deployment | Always Expanding Expertise",
+      "company": "Nimbusplatform",
+      "created_at": "2023-05-12T15:56:08Z",
+      "total_stars": 35
+    },
+    {
       "login": "sandersn",
       "name": "Nathan Shively-Sanders",
       "avatar_url": "https://avatars.githubusercontent.com/u/293473?s=88&u=2e3c9ccdfc791f67f7cd298b78f889ddf10f32a1&v=4",
@@ -1389,20 +1403,6 @@
       "company": "Arcana Research",
       "created_at": "2013-11-04T21:23:14Z",
       "total_stars": 2597
-    },
-    {
-      "login": "deathblock",
-      "name": "Ethan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133392337?s=88&u=15a249045679706a18f172295a0cf49220a7541e&v=4",
-      "html_url": "https://github.com/deathblock",
-      "followers": 1201,
-      "following": 7751,
-      "public_repos": 60,
-      "location": "Seattle, United States",
-      "bio": "DevOps Engineer & Product Strategist | Advanced Deployment | Always Expanding Expertise",
-      "company": "Nimbusplatform",
-      "created_at": "2023-05-12T15:56:08Z",
-      "total_stars": 21
     },
     {
       "login": "snakajima",
@@ -1575,20 +1575,6 @@
       "total_stars": 7064
     },
     {
-      "login": "OfficeDev",
-      "name": "Microsoft 365 Developer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6789362?s=88&v=4",
-      "html_url": "https://github.com/OfficeDev",
-      "followers": 2752,
-      "following": 0,
-      "public_repos": 370,
-      "location": "Redmond, WA",
-      "bio": "Developer tools, samples, and other resources for building solutions for Microsoft 365 and beyond.",
-      "company": null,
-      "created_at": "2014-02-26T02:54:16Z",
-      "total_stars": 18755
-    },
-    {
       "login": "awsdocs",
       "name": "Amazon Web Services - Documentation",
       "avatar_url": "https://avatars.githubusercontent.com/u/8661631?s=88&v=4",
@@ -1601,6 +1587,20 @@
       "company": null,
       "created_at": "2014-09-04T23:02:45Z",
       "total_stars": 20164
+    },
+    {
+      "login": "OfficeDev",
+      "name": "Microsoft 365 Developer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6789362?s=88&v=4",
+      "html_url": "https://github.com/OfficeDev",
+      "followers": 2752,
+      "following": 0,
+      "public_repos": 370,
+      "location": "Redmond, WA",
+      "bio": "Developer tools, samples, and other resources for building solutions for Microsoft 365 and beyond.",
+      "company": null,
+      "created_at": "2014-02-26T02:54:16Z",
+      "total_stars": 18755
     },
     {
       "login": "auth0",
