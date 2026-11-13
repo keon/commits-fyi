@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-11-12T13:47:05.965Z",
+  "generated_at": "2026-11-13T13:08:14.619Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 273070,
+    "user_followers": 273069,
     "org_followers": 33446,
     "user_stars": 956870,
-    "org_stars": 748436
+    "org_stars": 748439
   },
   "queries": [
     {
@@ -849,7 +849,7 @@
       "name": "Elbay Malik",
       "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=711ac61bc527f28510668fce68deb2889e46a9dc&v=4",
       "html_url": "https://github.com/elbay-malik",
-      "followers": 1754,
+      "followers": 1753,
       "following": 73,
       "public_repos": 65,
       "location": "Berlin",
@@ -2079,20 +2079,6 @@
       "total_stars": 8809
     },
     {
-      "login": "technologiestiftung",
-      "name": "Technologiestiftung Berlin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16606790?s=88&v=4",
-      "html_url": "https://github.com/technologiestiftung",
-      "followers": 182,
-      "following": 0,
-      "public_repos": 351,
-      "location": "Berlin, Germany",
-      "bio": "We develop tools and smart solutions for a more open and sustainable city.",
-      "company": null,
-      "created_at": "2016-01-08T08:24:07Z",
-      "total_stars": 467
-    },
-    {
       "login": "adjust",
       "name": "adjust",
       "avatar_url": "https://avatars.githubusercontent.com/u/1327203?s=88&v=4",
@@ -2105,6 +2091,20 @@
       "company": null,
       "created_at": "2012-01-13T09:01:39Z",
       "total_stars": 4557
+    },
+    {
+      "login": "technologiestiftung",
+      "name": "Technologiestiftung Berlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16606790?s=88&v=4",
+      "html_url": "https://github.com/technologiestiftung",
+      "followers": 182,
+      "following": 0,
+      "public_repos": 351,
+      "location": "Berlin, Germany",
+      "bio": "We develop tools and smart solutions for a more open and sustainable city.",
+      "company": null,
+      "created_at": "2016-01-08T08:24:07Z",
+      "total_stars": 467
     },
     {
       "login": "QuantLet",
@@ -2519,12 +2519,12 @@
       "html_url": "https://github.com/openlegaldata",
       "followers": 94,
       "following": 0,
-      "public_repos": 17,
+      "public_repos": 18,
       "location": "Berlin, Germany",
       "bio": "Make the law transparent again.",
       "company": null,
       "created_at": "2018-04-09T14:02:53Z",
-      "total_stars": 656
+      "total_stars": 659
     },
     {
       "login": "goerli",

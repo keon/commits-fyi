@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Toronto",
   "slug": "toronto",
-  "generated_at": "2026-11-12T13:47:04.017Z",
+  "generated_at": "2026-11-13T13:08:10.299Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 163436,
     "org_followers": 27235,
     "user_stars": 714123,
-    "org_stars": 204213
+    "org_stars": 204211
   },
   "queries": [
     {
@@ -1083,20 +1083,6 @@
       "total_stars": 721
     },
     {
-      "login": "Roger-luo",
-      "name": "Xiu-zhe (Roger) Luo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8445510?s=88&u=59aa58bdf893d84581043835fd3fddd669fd14a8&v=4",
-      "html_url": "https://github.com/Roger-luo",
-      "followers": 793,
-      "following": 55,
-      "public_repos": 119,
-      "location": "Toronto",
-      "bio": "I cast quantum spells. ",
-      "company": "@QuEraComputing",
-      "created_at": "2014-08-14T05:34:59Z",
-      "total_stars": 1274
-    },
-    {
       "login": "AtotheY",
       "name": "Anthony Sistilli",
       "avatar_url": "https://avatars.githubusercontent.com/u/10644934?s=88&u=ffee5391112fe3cdd2932d45f7d4956cfc6027c8&v=4",
@@ -1109,6 +1095,20 @@
       "company": "https://links.sistilli.dev",
       "created_at": "2015-01-22T00:52:31Z",
       "total_stars": 1861
+    },
+    {
+      "login": "Roger-luo",
+      "name": "Xiu-zhe (Roger) Luo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8445510?s=88&u=59aa58bdf893d84581043835fd3fddd669fd14a8&v=4",
+      "html_url": "https://github.com/Roger-luo",
+      "followers": 793,
+      "following": 55,
+      "public_repos": 119,
+      "location": "Toronto",
+      "bio": "I cast quantum spells. ",
+      "company": "@QuEraComputing",
+      "created_at": "2014-08-14T05:34:59Z",
+      "total_stars": 1274
     },
     {
       "login": "muratcankoylan",
@@ -2552,7 +2552,7 @@
       "bio": null,
       "company": null,
       "created_at": "2014-06-18T09:45:28Z",
-      "total_stars": 2537
+      "total_stars": 2535
     }
   ],
   "repos": [
