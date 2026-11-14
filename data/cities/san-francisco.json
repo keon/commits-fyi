@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "San Francisco",
   "slug": "san-francisco",
-  "generated_at": "2026-11-13T13:08:04.695Z",
+  "generated_at": "2026-11-14T12:12:56.800Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 1087303,
+    "user_followers": 1090844,
     "org_followers": 350801,
-    "user_stars": 3321492,
+    "user_stars": 3411626,
     "org_stars": 4660222
   },
   "queries": [
@@ -675,6 +675,20 @@
       "company": "smol.ai",
       "created_at": "2014-02-23T19:41:46Z",
       "total_stars": 24312
+    },
+    {
+      "login": "mlabonne",
+      "name": "Maxime Labonne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81252890?s=88&u=f9898d723658a498328f14f717e1eeccb42ca675&v=4",
+      "html_url": "https://github.com/mlabonne",
+      "followers": 7397,
+      "following": 27,
+      "public_repos": 11,
+      "location": "London, United Kingdom",
+      "bio": "Head of Post-Training @ Liquid AI",
+      "company": "Liquid AI",
+      "created_at": "2021-03-23T16:23:45Z",
+      "total_stars": 91506
     },
     {
       "login": "CharlesCreativeContent",
@@ -1417,20 +1431,6 @@
       "company": "OpenAI",
       "created_at": "2014-05-04T13:35:57Z",
       "total_stars": 4458
-    },
-    {
-      "login": "EcZachly",
-      "name": "Zach Wilson",
-      "avatar_url": "https://avatars.githubusercontent.com/u/4583288?s=88&u=aac0c288c87bddef24671f230d2749b1e597d3df&v=4",
-      "html_url": "https://github.com/EcZachly",
-      "followers": 3856,
-      "following": 18,
-      "public_repos": 30,
-      "location": "San Francisco, CA",
-      "bio": null,
-      "company": "DataExpert.io",
-      "created_at": "2013-05-31T21:27:38Z",
-      "total_stars": 1372
     }
   ],
   "orgs": [
@@ -2760,6 +2760,25 @@
       "fork": false
     },
     {
+      "full_name": "mlabonne/llm-course",
+      "html_url": "https://github.com/mlabonne/llm-course",
+      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "stargazers_count": 85053,
+      "forks_count": 9897,
+      "language": null,
+      "topics": [
+        "course",
+        "llm",
+        "machine-learning",
+        "roadmap",
+        "large-language-models"
+      ],
+      "owner_login": "mlabonne",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/81252890?s=88&u=f9898d723658a498328f14f717e1eeccb42ca675&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
       "full_name": "danielmiessler/SecLists",
       "html_url": "https://github.com/danielmiessler/SecLists",
       "description": "SecLists is the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one",
@@ -3398,19 +3417,6 @@
       "owner_login": "ianstormtaylor",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/311752?s=88&v=4",
       "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "meta/folly",
-      "html_url": "https://github.com/meta/folly",
-      "description": "An open-source C++ library developed and used at Facebook.",
-      "stargazers_count": 30556,
-      "forks_count": 5881,
-      "language": "C++",
-      "topics": [],
-      "owner_login": "meta",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/69631?s=88&v=4",
-      "owner_type": "Organization",
       "fork": false
     }
   ]

@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "London",
   "slug": "london",
-  "generated_at": "2026-11-13T13:08:12.334Z",
+  "generated_at": "2026-11-14T12:13:02.511Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 433934,
+    "user_followers": 427973,
     "org_followers": 78439,
-    "user_stars": 1257885,
+    "user_stars": 1166701,
     "org_stars": 791280
   },
   "queries": [
@@ -157,20 +157,6 @@
       "company": null,
       "created_at": "2012-06-18T13:44:16Z",
       "total_stars": 107661
-    },
-    {
-      "login": "mlabonne",
-      "name": "Maxime Labonne",
-      "avatar_url": "https://avatars.githubusercontent.com/u/81252890?s=88&u=f9898d723658a498328f14f717e1eeccb42ca675&v=4",
-      "html_url": "https://github.com/mlabonne",
-      "followers": 7397,
-      "following": 27,
-      "public_repos": 11,
-      "location": "London, United Kingdom",
-      "bio": "Head of Post-Training @ Liquid AI",
-      "company": "Liquid AI",
-      "created_at": "2021-03-23T16:23:45Z",
-      "total_stars": 91506
     },
     {
       "login": "mattdesl",
@@ -1431,6 +1417,20 @@
       "company": "Google DeepMind / University of Cambridge",
       "created_at": "2013-04-17T16:34:55Z",
       "total_stars": 6436
+    },
+    {
+      "login": "dylanbeattie",
+      "name": "Dylan Beattie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106178?s=88&u=a9a0fe539bb6511f3247585251dad1dbd2487f6d&v=4",
+      "html_url": "https://github.com/dylanbeattie",
+      "followers": 1436,
+      "following": 21,
+      "public_repos": 143,
+      "location": "London, UK",
+      "bio": "Developer, speaker, musician. Creator of @RockstarLang. C#, JavaScript, SQL, HTTP/REST, distributed systems, 80s rock music, hats, cats, Lego, guitars & travel.",
+      "company": "@ursatile  ",
+      "created_at": "2009-07-17T23:21:39Z",
+      "total_stars": 322
     }
   ],
   "orgs": [
@@ -2557,25 +2557,6 @@
   ],
   "repos": [
     {
-      "full_name": "mlabonne/llm-course",
-      "html_url": "https://github.com/mlabonne/llm-course",
-      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "stargazers_count": 85053,
-      "forks_count": 9897,
-      "language": null,
-      "topics": [
-        "course",
-        "llm",
-        "machine-learning",
-        "roadmap",
-        "large-language-models"
-      ],
-      "owner_login": "mlabonne",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/81252890?s=88&u=f9898d723658a498328f14f717e1eeccb42ca675&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "cloudflare/security-audit-skill",
       "html_url": "https://github.com/cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
@@ -3402,6 +3383,25 @@
       ],
       "owner_login": "HariSekhon",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/2211051?s=88&u=7747a673d98078d50467ba6e4d4f3a2f17b6db17&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "steipete/Aspects",
+      "html_url": "https://github.com/steipete/Aspects",
+      "description": "Delightful, simple library for aspect oriented programming in Objective-C and Swift.",
+      "stargazers_count": 8408,
+      "forks_count": 1262,
+      "language": "Objective-C",
+      "topics": [
+        "objectivec",
+        "aspects",
+        "objective-c",
+        "hooks",
+        "swift"
+      ],
+      "owner_login": "steipete",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/58493?s=88&u=95a4fccef3d341039661c427695691a664e333ba&v=4",
       "owner_type": "User",
       "fork": false
     }
