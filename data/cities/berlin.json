@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Berlin",
   "slug": "berlin",
-  "generated_at": "2026-11-15T12:48:44.646Z",
+  "generated_at": "2026-11-16T13:41:06.693Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 273171,
+    "user_followers": 273172,
     "org_followers": 33497,
-    "user_stars": 957509,
-    "org_stars": 748929
+    "user_stars": 957336,
+    "org_stars": 748930
   },
   "queries": [
     {
@@ -849,14 +849,14 @@
       "name": "Elbay Malik",
       "avatar_url": "https://avatars.githubusercontent.com/u/27622683?s=88&u=711ac61bc527f28510668fce68deb2889e46a9dc&v=4",
       "html_url": "https://github.com/elbay-malik",
-      "followers": 1753,
+      "followers": 1754,
       "following": 73,
-      "public_repos": 65,
+      "public_repos": 6,
       "location": "Berlin",
-      "bio": "Nothing interesting here. Check my repos ;)",
-      "company": "Komre AG",
+      "bio": "Senior Fullstack Developer · Berlin",
+      "company": "KomRe AG",
       "created_at": "2017-04-16T11:45:43Z",
-      "total_stars": 187
+      "total_stars": 14
     },
     {
       "login": "leo",
@@ -2079,20 +2079,6 @@
       "total_stars": 8818
     },
     {
-      "login": "technologiestiftung",
-      "name": "Technologiestiftung Berlin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16606790?s=88&v=4",
-      "html_url": "https://github.com/technologiestiftung",
-      "followers": 182,
-      "following": 0,
-      "public_repos": 352,
-      "location": "Berlin, Germany",
-      "bio": "We develop tools and smart solutions for a more open and sustainable city.",
-      "company": null,
-      "created_at": "2016-01-08T08:24:07Z",
-      "total_stars": 467
-    },
-    {
       "login": "adjust",
       "name": "adjust",
       "avatar_url": "https://avatars.githubusercontent.com/u/1327203?s=88&v=4",
@@ -2105,6 +2091,20 @@
       "company": null,
       "created_at": "2012-01-13T09:01:39Z",
       "total_stars": 4556
+    },
+    {
+      "login": "technologiestiftung",
+      "name": "Technologiestiftung Berlin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16606790?s=88&v=4",
+      "html_url": "https://github.com/technologiestiftung",
+      "followers": 182,
+      "following": 0,
+      "public_repos": 352,
+      "location": "Berlin, Germany",
+      "bio": "We develop tools and smart solutions for a more open and sustainable city.",
+      "company": null,
+      "created_at": "2016-01-08T08:24:07Z",
+      "total_stars": 467
     },
     {
       "login": "QuantLet",
@@ -2485,20 +2485,6 @@
       "total_stars": 290
     },
     {
-      "login": "liqd",
-      "name": "Liquid Democracy",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2312088?s=88&v=4",
-      "html_url": "https://github.com/liqd",
-      "followers": 95,
-      "following": 0,
-      "public_repos": 57,
-      "location": "Berlin, Germany",
-      "bio": "As a non-profit association, we work on innovative ideas and open-source projects for more democratic participation.",
-      "company": null,
-      "created_at": "2012-09-09T16:36:14Z",
-      "total_stars": 633
-    },
-    {
       "login": "Wikidata",
       "name": "Wikidata",
       "avatar_url": "https://avatars.githubusercontent.com/u/2691628?s=88&v=4",
@@ -2513,6 +2499,20 @@
       "total_stars": 496
     },
     {
+      "login": "liqd",
+      "name": "Liquid Democracy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2312088?s=88&v=4",
+      "html_url": "https://github.com/liqd",
+      "followers": 95,
+      "following": 0,
+      "public_repos": 57,
+      "location": "Berlin, Germany",
+      "bio": "As a non-profit association, we work on innovative ideas and open-source projects for more democratic participation.",
+      "company": null,
+      "created_at": "2012-09-09T16:36:14Z",
+      "total_stars": 633
+    },
+    {
       "login": "openlegaldata",
       "name": "Open Legal Data",
       "avatar_url": "https://avatars.githubusercontent.com/u/38217808?s=88&v=4",
@@ -2524,7 +2524,7 @@
       "bio": "Make the law transparent again.",
       "company": null,
       "created_at": "2018-04-09T14:02:53Z",
-      "total_stars": 659
+      "total_stars": 660
     },
     {
       "login": "goerli",

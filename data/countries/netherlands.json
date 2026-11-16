@@ -2,16 +2,16 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-11-15T12:52:50.383Z",
+  "generated_at": "2026-11-16T13:42:49.587Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 257314,
+    "user_followers": 255073,
     "org_followers": 54603,
-    "user_stars": 977326,
+    "user_stars": 946111,
     "org_stars": 579769
   },
   "queries": [
@@ -227,20 +227,6 @@
       "company": "@liveblocks",
       "created_at": "2009-05-12T21:19:38Z",
       "total_stars": 31632
-    },
-    {
-      "login": "Kludex",
-      "name": "Marcelo Trylesinski",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7353520?s=88&u=df8a3f06ba8f55ae1967a3e2d5ed882903a4e330&v=4",
-      "html_url": "https://github.com/Kludex",
-      "followers": 3400,
-      "following": 2,
-      "public_repos": 126,
-      "location": "Utrecht, Netherlands",
-      "bio": "Software Engineer @ Pydantic 🇧🇷🇺🇾🇮🇹\r\nUvicorn & Starlette maintainer 🦄🌟\r\nFastAPI Expert ⚡",
-      "company": "@pydantic",
-      "created_at": "2014-04-20T14:19:16Z",
-      "total_stars": 33990
     },
     {
       "login": "tomlooman",
@@ -1431,6 +1417,20 @@
       "company": "@JetBrains",
       "created_at": "2013-02-11T12:42:30Z",
       "total_stars": 10743
+    },
+    {
+      "login": "eleanorlutz",
+      "name": "Eleanor Lutz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6994487?s=88&u=027eb74e50f1104268da08c85b7f3cd031965ea5&v=4",
+      "html_url": "https://github.com/eleanorlutz",
+      "followers": 1159,
+      "following": 7,
+      "public_repos": 16,
+      "location": "Netherlands",
+      "bio": "Information designer. Excited about maps, emoji, and indoor plants.",
+      "company": "De Volkskrant",
+      "created_at": "2014-03-19T03:48:37Z",
+      "total_stars": 2775
     }
   ],
   "orgs": [
@@ -1925,20 +1925,6 @@
       "total_stars": 1551
     },
     {
-      "login": "frontendfyi",
-      "name": "frontend.fyi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61356169?s=88&v=4",
-      "html_url": "https://github.com/frontendfyi",
-      "followers": 315,
-      "following": 0,
-      "public_repos": 28,
-      "location": "Netherlands",
-      "bio": "Teaching you the craft in frontend",
-      "company": null,
-      "created_at": "2020-02-22T15:32:39Z",
-      "total_stars": 717
-    },
-    {
       "login": "su2code",
       "name": "SU2 code",
       "avatar_url": "https://avatars.githubusercontent.com/u/4796189?s=88&v=4",
@@ -1951,6 +1937,20 @@
       "company": null,
       "created_at": "2013-06-24T05:38:30Z",
       "total_stars": 2137
+    },
+    {
+      "login": "frontendfyi",
+      "name": "frontend.fyi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61356169?s=88&v=4",
+      "html_url": "https://github.com/frontendfyi",
+      "followers": 315,
+      "following": 0,
+      "public_repos": 28,
+      "location": "Netherlands",
+      "bio": "Teaching you the craft in frontend",
+      "company": null,
+      "created_at": "2020-02-22T15:32:39Z",
+      "total_stars": 717
     },
     {
       "login": "CISOfy",
@@ -2595,8 +2595,8 @@
       "full_name": "Raphire/Win11Debloat",
       "html_url": "https://github.com/Raphire/Win11Debloat",
       "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other ch",
-      "stargazers_count": 62532,
-      "forks_count": 2785,
+      "stargazers_count": 62971,
+      "forks_count": 2816,
       "language": "PowerShell",
       "topics": [
         "windows",
@@ -3034,25 +3034,6 @@
       "fork": false
     },
     {
-      "full_name": "Kludex/starlette",
-      "html_url": "https://github.com/Kludex/starlette",
-      "description": "The little ASGI framework that shines. 🌟",
-      "stargazers_count": 12721,
-      "forks_count": 1445,
-      "language": "Python",
-      "topics": [
-        "python",
-        "async",
-        "websockets",
-        "http",
-        "asgi"
-      ],
-      "owner_login": "Kludex",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7353520?s=88&u=df8a3f06ba8f55ae1967a3e2d5ed882903a4e330&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
       "full_name": "jrouwe/JoltPhysics",
       "html_url": "https://github.com/jrouwe/JoltPhysics",
       "description": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Ho",
@@ -3094,25 +3075,6 @@
       "topics": [],
       "owner_login": "xupefei",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/1687847?s=88&u=1588d27408fa3fa98b95ffda0c86fa07682d8112&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "Kludex/uvicorn",
-      "html_url": "https://github.com/Kludex/uvicorn",
-      "description": "An ASGI web server, for Python. 🦄",
-      "stargazers_count": 11093,
-      "forks_count": 1089,
-      "language": "Python",
-      "topics": [
-        "python",
-        "asyncio",
-        "asgi",
-        "http",
-        "http-server"
-      ],
-      "owner_login": "Kludex",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/7353520?s=88&u=df8a3f06ba8f55ae1967a3e2d5ed882903a4e330&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3437,6 +3399,38 @@
       ],
       "owner_login": "terrakok",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/3532155?s=88&u=3ad655396658fe24e972802416cb431212a6c437&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "koenbok/Framer",
+      "html_url": "https://github.com/koenbok/Framer",
+      "description": "Framer - Design Everything",
+      "stargazers_count": 5893,
+      "forks_count": 482,
+      "language": "JavaScript",
+      "topics": [],
+      "owner_login": "koenbok",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/206779?s=88&v=4",
+      "owner_type": "User",
+      "fork": false
+    },
+    {
+      "full_name": "lauragift21/awesome-learning-resources",
+      "html_url": "https://github.com/lauragift21/awesome-learning-resources",
+      "description": "🔥 Awesome list of resources on Web Development.",
+      "stargazers_count": 5790,
+      "forks_count": 847,
+      "language": null,
+      "topics": [
+        "open-source",
+        "css",
+        "vue",
+        "javascript",
+        "awesome-list"
+      ],
+      "owner_login": "lauragift21",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/17781315?s=88&u=135a419d7a02c75230ccd5d18f12c01d79031f3c&v=4",
       "owner_type": "User",
       "fork": false
     }
