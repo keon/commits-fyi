@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Netherlands",
   "slug": "netherlands",
-  "generated_at": "2026-11-16T13:42:49.587Z",
+  "generated_at": "2026-11-17T14:29:23.846Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 255073,
     "org_followers": 54603,
     "user_stars": 946111,
-    "org_stars": 579769
+    "org_stars": 579409
   },
   "queries": [
     {
@@ -1841,20 +1841,6 @@
       "total_stars": 3244
     },
     {
-      "login": "dyne",
-      "name": "Dyne.org",
-      "avatar_url": "https://avatars.githubusercontent.com/u/481963?s=88&v=4",
-      "html_url": "https://github.com/dyne",
-      "followers": 341,
-      "following": 0,
-      "public_repos": 193,
-      "location": "Amsterdam",
-      "bio": "Think &do tank and free software foundry (est. 1999)",
-      "company": null,
-      "created_at": "2010-11-15T09:22:56Z",
-      "total_stars": 4592
-    },
-    {
       "login": "Deltares",
       "name": "Stichting Deltares",
       "avatar_url": "https://avatars.githubusercontent.com/u/6613768?s=88&v=4",
@@ -1867,6 +1853,20 @@
       "company": null,
       "created_at": "2014-02-07T08:48:02Z",
       "total_stars": 1454
+    },
+    {
+      "login": "dyne",
+      "name": "Dyne.org",
+      "avatar_url": "https://avatars.githubusercontent.com/u/481963?s=88&v=4",
+      "html_url": "https://github.com/dyne",
+      "followers": 341,
+      "following": 0,
+      "public_repos": 193,
+      "location": "Amsterdam",
+      "bio": "Think &do tank and free software foundry (est. 1999)",
+      "company": null,
+      "created_at": "2010-11-15T09:22:56Z",
+      "total_stars": 4592
     },
     {
       "login": "MinBZK",
@@ -2541,18 +2541,18 @@
       "total_stars": 1207
     },
     {
-      "login": "Polytoria",
-      "name": "Polytoria",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68792497?s=88&v=4",
-      "html_url": "https://github.com/Polytoria",
+      "login": "coolblue-development",
+      "name": "Coolblue Development",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4799306?s=88&v=4",
+      "html_url": "https://github.com/coolblue-development",
       "followers": 170,
       "following": 0,
-      "public_repos": 8,
-      "location": "Netherlands",
-      "bio": "The official Polytoria GitHub organization.",
+      "public_repos": 0,
+      "location": "Rotterdam, The Netherlands",
+      "bio": "Anything for a smile",
       "company": null,
-      "created_at": "2020-07-25T21:05:47Z",
-      "total_stars": 360
+      "created_at": "2013-06-24T10:03:52Z",
+      "total_stars": 0
     }
   ],
   "repos": [
