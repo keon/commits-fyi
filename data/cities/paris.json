@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Paris",
   "slug": "paris",
-  "generated_at": "2026-11-18T14:04:44.589Z",
+  "generated_at": "2026-11-19T14:28:07.427Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 201353,
+    "user_followers": 198573,
     "org_followers": 103734,
-    "user_stars": 895591,
+    "user_stars": 894043,
     "org_stars": 1148609
   },
   "queries": [
@@ -143,20 +143,6 @@
       "company": null,
       "created_at": "2013-10-23T09:45:34Z",
       "total_stars": 41965
-    },
-    {
-      "login": "HoussemDellai",
-      "name": "Houssem Dellai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6548359?s=88&u=eaeaa7311ace2a0f32b92ed1f2137bb2459a809b&v=4",
-      "html_url": "https://github.com/HoussemDellai",
-      "followers": 3512,
-      "following": 20,
-      "public_repos": 174,
-      "location": "Paris",
-      "bio": "Engineer at Microsoft\r\n(Azure / Kubernetes / DevOps / Terraform)\r\nPreviously Microsoft MVP",
-      "company": "Microsoft",
-      "created_at": "2014-01-30T21:07:48Z",
-      "total_stars": 1826
     },
     {
       "login": "oliviertassinari",
@@ -1153,20 +1139,6 @@
       "total_stars": 1141
     },
     {
-      "login": "tetref",
-      "name": "Tetref",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11065044?s=88&u=80bddd4cfe04006bb7df337156ce4b8988147b6a&v=4",
-      "html_url": "https://github.com/tetref",
-      "followers": 857,
-      "following": 627,
-      "public_repos": 52,
-      "location": "Paris",
-      "bio": "Code samples for Oracle Cloud developers✅\r\nPreparation as a Full stack developer✅",
-      "company": null,
-      "created_at": "2015-02-18T19:35:35Z",
-      "total_stars": 198
-    },
-    {
       "login": "nkallen",
       "name": "Nick Kallen",
       "avatar_url": "https://avatars.githubusercontent.com/u/699?s=88&v=4",
@@ -1179,6 +1151,20 @@
       "company": "self-employed",
       "created_at": "2008-02-23T20:04:18Z",
       "total_stars": 5464
+    },
+    {
+      "login": "tetref",
+      "name": "Tetref",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11065044?s=88&u=80bddd4cfe04006bb7df337156ce4b8988147b6a&v=4",
+      "html_url": "https://github.com/tetref",
+      "followers": 857,
+      "following": 627,
+      "public_repos": 52,
+      "location": "Paris",
+      "bio": "Code samples for Oracle Cloud developers✅\r\nPreparation as a Full stack developer✅",
+      "company": null,
+      "created_at": "2015-02-18T19:35:35Z",
+      "total_stars": 198
     },
     {
       "login": "mbeaudru",
@@ -1431,6 +1417,20 @@
       "company": "@RedHatOfficial",
       "created_at": "2008-04-11T06:56:22Z",
       "total_stars": 337
+    },
+    {
+      "login": "Kerollmops",
+      "name": "Clément Renault",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3610253?s=88&u=5997d202d7af48cde9b2c53a29000548886fa81e&v=4",
+      "html_url": "https://github.com/Kerollmops",
+      "followers": 732,
+      "following": 271,
+      "public_repos": 143,
+      "location": "France, Paris",
+      "bio": "I am the co-founder and CTO of @meilisearch. I learned coding at the Paris @42school. I live in Paris and love video games.",
+      "company": "@meilisearch",
+      "created_at": "2013-02-16T10:55:57Z",
+      "total_stars": 278
     }
   ],
   "orgs": [
@@ -2191,20 +2191,6 @@
       "total_stars": 2855
     },
     {
-      "login": "OCamlPro",
-      "name": "OCamlPro",
-      "avatar_url": "https://avatars.githubusercontent.com/u/665790?s=88&v=4",
-      "html_url": "https://github.com/OCamlPro",
-      "followers": 123,
-      "following": 0,
-      "public_repos": 208,
-      "location": "Paris & Saclay",
-      "bio": "OCamlPro is a French company with a strong expertise in programming languages & formal methods, with 10+ years' experience in state-of-the-art developments.",
-      "company": null,
-      "created_at": "2011-03-12T15:27:40Z",
-      "total_stars": 2323
-    },
-    {
       "login": "nuxeo",
       "name": "Nuxeo",
       "avatar_url": "https://avatars.githubusercontent.com/u/460607?s=88&v=4",
@@ -2217,6 +2203,20 @@
       "company": null,
       "created_at": "2010-10-30T10:42:42Z",
       "total_stars": 1670
+    },
+    {
+      "login": "OCamlPro",
+      "name": "OCamlPro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/665790?s=88&v=4",
+      "html_url": "https://github.com/OCamlPro",
+      "followers": 123,
+      "following": 0,
+      "public_repos": 208,
+      "location": "Paris & Saclay",
+      "bio": "OCamlPro is a French company with a strong expertise in programming languages & formal methods, with 10+ years' experience in state-of-the-art developments.",
+      "company": null,
+      "created_at": "2011-03-12T15:27:40Z",
+      "total_stars": 2323
     },
     {
       "login": "qonto",

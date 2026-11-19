@@ -2,17 +2,17 @@
   "kind": "country",
   "name": "France",
   "slug": "france",
-  "generated_at": "2026-11-18T14:08:25.236Z",
+  "generated_at": "2026-11-19T14:29:10.370Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 333000,
+    "user_followers": 330885,
     "org_followers": 133400,
-    "user_stars": 1388096,
-    "org_stars": 1497271
+    "user_stars": 1389475,
+    "org_stars": 1497273
   },
   "queries": [
     {
@@ -353,20 +353,6 @@
       "company": null,
       "created_at": "2014-06-06T20:39:15Z",
       "total_stars": 11135
-    },
-    {
-      "login": "HoussemDellai",
-      "name": "Houssem Dellai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6548359?s=88&u=eaeaa7311ace2a0f32b92ed1f2137bb2459a809b&v=4",
-      "html_url": "https://github.com/HoussemDellai",
-      "followers": 3512,
-      "following": 20,
-      "public_repos": 174,
-      "location": "Paris",
-      "bio": "Engineer at Microsoft\r\n(Azure / Kubernetes / DevOps / Terraform)\r\nPreviously Microsoft MVP",
-      "company": "Microsoft",
-      "created_at": "2014-01-30T21:07:48Z",
-      "total_stars": 1826
     },
     {
       "login": "slavaGanzin",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2016-04-24T18:32:12Z",
       "total_stars": 121
+    },
+    {
+      "login": "mpgn",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/5891788?s=88&u=b9940284a900247ecbd99c9517c1142c33586621&v=4",
+      "html_url": "https://github.com/mpgn",
+      "followers": 1397,
+      "following": 21,
+      "public_repos": 46,
+      "location": "France",
+      "bio": "̿ ̿̿'̿'\\̵͇̿̿\\=(•̪●)=/̵͇̿̿/'̿̿ ̿ ̿ ̿",
+      "company": null,
+      "created_at": "2013-11-08T20:54:50Z",
+      "total_stars": 3205
     }
   ],
   "orgs": [
@@ -1981,20 +1981,6 @@
       "total_stars": 776
     },
     {
-      "login": "bearcove",
-      "name": "bearcove",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89281699?s=88&v=4",
-      "html_url": "https://github.com/bearcove",
-      "followers": 459,
-      "following": 0,
-      "public_repos": 85,
-      "location": "France",
-      "bio": "It's @fasterthanlime and friends doing open-source & teaching Rust",
-      "company": null,
-      "created_at": "2021-08-20T23:14:13Z",
-      "total_stars": 3192
-    },
-    {
       "login": "linagora",
       "name": "LINAGORA",
       "avatar_url": "https://avatars.githubusercontent.com/u/1230365?s=88&v=4",
@@ -2007,6 +1993,20 @@
       "company": null,
       "created_at": "2011-11-30T09:48:29Z",
       "total_stars": 11050
+    },
+    {
+      "login": "bearcove",
+      "name": "bearcove",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89281699?s=88&v=4",
+      "html_url": "https://github.com/bearcove",
+      "followers": 459,
+      "following": 0,
+      "public_repos": 85,
+      "location": "France",
+      "bio": "It's @fasterthanlime and friends doing open-source & teaching Rust",
+      "company": null,
+      "created_at": "2021-08-20T23:14:13Z",
+      "total_stars": 3192
     },
     {
       "login": "etalab",
@@ -2233,20 +2233,6 @@
       "total_stars": 24348
     },
     {
-      "login": "golangci",
-      "name": "GolangCI",
-      "avatar_url": "https://avatars.githubusercontent.com/u/35628013?s=88&v=4",
-      "html_url": "https://github.com/golangci",
-      "followers": 356,
-      "following": 0,
-      "public_repos": 30,
-      "location": "France",
-      "bio": null,
-      "company": null,
-      "created_at": "2018-01-20T12:00:19Z",
-      "total_stars": 22346
-    },
-    {
       "login": "medialab",
       "name": "médialab Sciences Po",
       "avatar_url": "https://avatars.githubusercontent.com/u/534856?s=88&v=4",
@@ -2259,6 +2245,20 @@
       "company": null,
       "created_at": "2010-12-23T18:26:50Z",
       "total_stars": 8337
+    },
+    {
+      "login": "golangci",
+      "name": "GolangCI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35628013?s=88&v=4",
+      "html_url": "https://github.com/golangci",
+      "followers": 356,
+      "following": 0,
+      "public_repos": 30,
+      "location": "France",
+      "bio": null,
+      "company": null,
+      "created_at": "2018-01-20T12:00:19Z",
+      "total_stars": 22346
     },
     {
       "login": "alan-eu",
@@ -2538,7 +2538,7 @@
       "bio": "Protect your company against quality & security issues in AI systems.",
       "company": null,
       "created_at": "2020-09-23T16:38:31Z",
-      "total_stars": 6351
+      "total_stars": 6353
     },
     {
       "login": "FuzzingLabs",

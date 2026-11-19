@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-11-18T14:03:05.884Z",
+  "generated_at": "2026-11-19T14:27:24.327Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 168217,
-    "org_followers": 41348,
-    "user_stars": 511348,
-    "org_stars": 489319
+    "user_followers": 167838,
+    "org_followers": 41347,
+    "user_stars": 495310,
+    "org_stars": 489313
   },
   "queries": [
     {
@@ -173,20 +173,6 @@
       "total_stars": 3236
     },
     {
-      "login": "wardviaene",
-      "name": "Edward Viaene",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7711378?s=88&u=1a8483136bcf2a437dded2d3677026250dcb8326&v=4",
-      "html_url": "https://github.com/wardviaene",
-      "followers": 2466,
-      "following": 3,
-      "public_repos": 35,
-      "location": "Austin, TX",
-      "bio": null,
-      "company": "in4it",
-      "created_at": "2014-05-27T08:21:28Z",
-      "total_stars": 5159
-    },
-    {
       "login": "pfrazee",
       "name": "Paul Frazee",
       "avatar_url": "https://avatars.githubusercontent.com/u/1270099?s=88&u=58e1803dbf420daae8846530511e818a5b9a5b1c&v=4",
@@ -199,6 +185,20 @@
       "company": "Bluesky",
       "created_at": "2011-12-17T20:02:32Z",
       "total_stars": 3097
+    },
+    {
+      "login": "wardviaene",
+      "name": "Edward Viaene",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7711378?s=88&u=1a8483136bcf2a437dded2d3677026250dcb8326&v=4",
+      "html_url": "https://github.com/wardviaene",
+      "followers": 2466,
+      "following": 3,
+      "public_repos": 35,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": "in4it",
+      "created_at": "2014-05-27T08:21:28Z",
+      "total_stars": 5159
     },
     {
       "login": "mikermcneil",
@@ -632,7 +632,7 @@
       "bio": "Co-founder/CTO MindCloud",
       "company": "MindCloud",
       "created_at": "2014-12-27T01:40:22Z",
-      "total_stars": 17313
+      "total_stars": 17314
     },
     {
       "login": "KilledByAPixel",
@@ -723,7 +723,7 @@
       "name": "Brendan Kenny",
       "avatar_url": "https://avatars.githubusercontent.com/u/316891?s=88&u=171a6cd2eeea7ecf7b15d30773e03360678a68a5&v=4",
       "html_url": "https://github.com/brendankenny",
-      "followers": 848,
+      "followers": 849,
       "following": 1,
       "public_repos": 12,
       "location": "Austin, TX",
@@ -731,20 +731,6 @@
       "company": null,
       "created_at": "2010-06-28T22:24:09Z",
       "total_stars": 608
-    },
-    {
-      "login": "hu-po",
-      "name": "hu-po",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8493427?s=88&u=4ffa5718a2cee2b326badf2eedaf6233e14d734c&v=4",
-      "html_url": "https://github.com/hu-po",
-      "followers": 837,
-      "following": 441,
-      "public_repos": 72,
-      "location": "Austin, TX",
-      "bio": "simulation explorer",
-      "company": null,
-      "created_at": "2014-08-19T15:48:30Z",
-      "total_stars": 795
     },
     {
       "login": "aaronj1335",
@@ -759,6 +745,20 @@
       "company": "Google",
       "created_at": "2011-05-13T23:14:21Z",
       "total_stars": 205
+    },
+    {
+      "login": "hu-po",
+      "name": "hu-po",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8493427?s=88&u=4ffa5718a2cee2b326badf2eedaf6233e14d734c&v=4",
+      "html_url": "https://github.com/hu-po",
+      "followers": 837,
+      "following": 441,
+      "public_repos": 72,
+      "location": "Austin, TX",
+      "bio": "simulation explorer",
+      "company": null,
+      "created_at": "2014-08-19T15:48:30Z",
+      "total_stars": 795
     },
     {
       "login": "billerickson",
@@ -815,20 +815,6 @@
       "company": "UT Austin / NVIDIA",
       "created_at": "2011-11-13T23:58:32Z",
       "total_stars": 636
-    },
-    {
-      "login": "daijro",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/72637910?s=88&u=c27bacf931bf944d0ac996cda5d74465e0e388fb&v=4",
-      "html_url": "https://github.com/daijro",
-      "followers": 803,
-      "following": 7,
-      "public_repos": 23,
-      "location": "UT Austin",
-      "bio": "Browser & network engineer",
-      "company": null,
-      "created_at": "2020-10-10T02:26:44Z",
-      "total_stars": 16458
     },
     {
       "login": "kristianfreeman",
@@ -1017,14 +1003,14 @@
       "name": "Harsh Kapadia",
       "avatar_url": "https://avatars.githubusercontent.com/u/50140864?s=88&u=b5de3e02f63efaa5cbe862bff819b0c12b8b6c72&v=4",
       "html_url": "https://github.com/HarshKapadia2",
-      "followers": 647,
+      "followers": 646,
       "following": 336,
       "public_repos": 80,
       "location": "Austin, TX, USA",
       "bio": "Software Engineer • Organiser @OurTechCommunity",
       "company": "@OurTechCommunity",
       "created_at": "2019-04-30T11:56:11Z",
-      "total_stars": 434
+      "total_stars": 435
     },
     {
       "login": "Empact",
@@ -1227,14 +1213,14 @@
       "name": "Chris Taylor",
       "avatar_url": "https://avatars.githubusercontent.com/u/252193?s=88&u=95fa725b3e0ae4d9cc281ba9d64c2c1035bbbcb7&v=4",
       "html_url": "https://github.com/catid",
-      "followers": 549,
+      "followers": 548,
       "following": 27,
-      "public_repos": 131,
+      "public_repos": 132,
       "location": "Austin, TX",
       "bio": "Focus on erasure correction coding (ECC/FEC), cryptography, networking libraries, lossless image compression, Azure Kinect, XR, LLMs, Image Processing",
       "company": null,
       "created_at": "2010-04-25T21:44:46Z",
-      "total_stars": 3604
+      "total_stars": 3605
     },
     {
       "login": "devinus",
@@ -1297,14 +1283,14 @@
       "name": "David Graham",
       "avatar_url": "https://avatars.githubusercontent.com/u/4474660?s=88&u=b5b4c806ac8654ce8c2709e478e038fc003af7e2&v=4",
       "html_url": "https://github.com/prograhammer",
-      "followers": 493,
+      "followers": 494,
       "following": 0,
       "public_repos": 13,
       "location": "Austin, TX",
       "bio": "Pursuing all parts of the Web stack. Love helping people. Passionate about clean code.",
       "company": "@homedepot",
       "created_at": "2013-05-20T01:50:37Z",
-      "total_stars": 1518
+      "total_stars": 1519
     },
     {
       "login": "pragmaticivan",
@@ -1353,28 +1339,14 @@
       "name": "Ryan X. Charles",
       "avatar_url": "https://avatars.githubusercontent.com/u/63740?s=88&u=3de20af03c18537699a06060479800f30e075132&v=4",
       "html_url": "https://github.com/ryanxcharles",
-      "followers": 460,
-      "following": 8,
+      "followers": 459,
+      "following": 7,
       "public_repos": 9,
       "location": "Austin, TX",
       "bio": "ryanxcharles.com",
       "company": "@astrohackerlabs ",
       "created_at": "2009-03-15T22:10:13Z",
       "total_stars": 0
-    },
-    {
-      "login": "yeasin-gazi",
-      "name": "Yeasin Gazi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/194393935?s=88&u=6a3de86a6d51cd623c357c72b107cbeaff686394&v=4",
-      "html_url": "https://github.com/yeasin-gazi",
-      "followers": 450,
-      "following": 554,
-      "public_repos": 4,
-      "location": "Austin, Texas",
-      "bio": "We specialize in providing high-quality digital products and services.",
-      "company": null,
-      "created_at": "2025-01-09T14:45:07Z",
-      "total_stars": 8
     },
     {
       "login": "kerlomz",
@@ -1389,6 +1361,20 @@
       "company": "The University of Texas at Austin",
       "created_at": "2016-01-22T14:40:11Z",
       "total_stars": 4107
+    },
+    {
+      "login": "yeasin-gazi",
+      "name": "Yeasin Gazi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194393935?s=88&u=6a3de86a6d51cd623c357c72b107cbeaff686394&v=4",
+      "html_url": "https://github.com/yeasin-gazi",
+      "followers": 450,
+      "following": 554,
+      "public_repos": 4,
+      "location": "Austin, Texas",
+      "bio": "We specialize in providing high-quality digital products and services.",
+      "company": null,
+      "created_at": "2025-01-09T14:45:07Z",
+      "total_stars": 8
     },
     {
       "login": "cowboyd",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2010-11-16T02:06:41Z",
       "total_stars": 975
+    },
+    {
+      "login": "thobbs",
+      "name": "Tyler Hobbs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/355580?s=88&u=4df51c19ac92fcc152e484286be143724888eac9&v=4",
+      "html_url": "https://github.com/thobbs",
+      "followers": 425,
+      "following": 23,
+      "public_repos": 13,
+      "location": "Austin, TX",
+      "bio": "Generative artist, Apache Cassandra Committer/PMC.",
+      "company": "Anticlassic Studios, LLC",
+      "created_at": "2010-08-05T20:28:12Z",
+      "total_stars": 416
     }
   ],
   "orgs": [
@@ -2503,14 +2503,14 @@
       "name": "Cloudflare Archive",
       "avatar_url": "https://avatars.githubusercontent.com/u/25123912?s=88&v=4",
       "html_url": "https://github.com/cloudflarearchive",
-      "followers": 43,
+      "followers": 42,
       "following": 0,
       "public_repos": 22,
       "location": "San Francisco, London, Austin, Singapore",
       "bio": null,
       "company": null,
       "created_at": "2017-01-14T19:42:00Z",
-      "total_stars": 2970
+      "total_stars": 2964
     },
     {
       "login": "peddleon",
@@ -2679,25 +2679,6 @@
       "topics": [],
       "owner_login": "robfig",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/536325?s=88&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "daijro/camoufox",
-      "html_url": "https://github.com/daijro/camoufox",
-      "description": "🦊 Anti-detect browser",
-      "stargazers_count": 13393,
-      "forks_count": 1125,
-      "language": "C",
-      "topics": [
-        "antidetect",
-        "antidetect-browser",
-        "fingerprint",
-        "firefox",
-        "playwright"
-      ],
-      "owner_login": "daijro",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/72637910?s=88&u=c27bacf931bf944d0ac996cda5d74465e0e388fb&v=4",
       "owner_type": "User",
       "fork": false
     },
@@ -3361,6 +3342,25 @@
       ],
       "owner_login": "cloudflare",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/314135?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
+      "full_name": "osano/cookieconsent",
+      "html_url": "https://github.com/osano/cookieconsent",
+      "description": "A free solution to the EU, GDPR, and California Cookie Laws",
+      "stargazers_count": 3591,
+      "forks_count": 567,
+      "language": "JavaScript",
+      "topics": [
+        "cookie-consent",
+        "eu-cookie",
+        "javascript",
+        "cookies",
+        "gdpr"
+      ],
+      "owner_login": "osano",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/40547146?s=88&v=4",
       "owner_type": "Organization",
       "fork": false
     }
