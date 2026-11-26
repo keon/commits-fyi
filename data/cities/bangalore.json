@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "Bangalore",
   "slug": "bangalore",
-  "generated_at": "2026-11-25T15:45:07.799Z",
+  "generated_at": "2026-11-26T15:20:27.684Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 205298,
     "org_followers": 24529,
     "user_stars": 542110,
-    "org_stars": 333259
+    "org_stars": 338581
   },
   "queries": [
     {
@@ -1097,20 +1097,6 @@
       "total_stars": 96
     },
     {
-      "login": "yua-9",
-      "name": "Yusra Pikhwal",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75449997?s=88&u=4aa88a70ba6fb1412c93a11a823a18d23f4c56b1&v=4",
-      "html_url": "https://github.com/yua-9",
-      "followers": 770,
-      "following": 1286,
-      "public_repos": 3,
-      "location": "Bangalore,india",
-      "bio": "Python Lover || \r\nDjango is my crush  ||  \r\nHas a great attraction on React",
-      "company": "@pataacopy",
-      "created_at": "2020-12-03T20:03:45Z",
-      "total_stars": 20
-    },
-    {
       "login": "SaiNithin832",
       "name": "sainithin putta",
       "avatar_url": "https://avatars.githubusercontent.com/u/176470783?s=88&u=6bf8c9338af13328afccc969a4971ff74e43ea33&v=4",
@@ -1123,6 +1109,20 @@
       "company": null,
       "created_at": "2024-07-24T07:51:54Z",
       "total_stars": 9
+    },
+    {
+      "login": "yua-9",
+      "name": "Yusra Pikhwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75449997?s=88&u=4aa88a70ba6fb1412c93a11a823a18d23f4c56b1&v=4",
+      "html_url": "https://github.com/yua-9",
+      "followers": 770,
+      "following": 1286,
+      "public_repos": 3,
+      "location": "Bangalore,india",
+      "bio": "Python Lover || \r\nDjango is my crush  ||  \r\nHas a great attraction on React",
+      "company": "@pataacopy",
+      "created_at": "2020-12-03T20:03:45Z",
+      "total_stars": 20
     },
     {
       "login": "blenderskool",
@@ -2401,20 +2401,6 @@
       "total_stars": 66
     },
     {
-      "login": "electronut",
-      "name": "Electronut Labs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3272706?s=88&v=4",
-      "html_url": "https://github.com/electronut",
-      "followers": 56,
-      "following": 0,
-      "public_repos": 58,
-      "location": "Bengaluru, India",
-      "bio": null,
-      "company": null,
-      "created_at": "2013-01-15T07:02:04Z",
-      "total_stars": 1034
-    },
-    {
       "login": "skit-ai",
       "name": "Skit.ai",
       "avatar_url": "https://avatars.githubusercontent.com/u/26162666?s=88&v=4",
@@ -2427,6 +2413,20 @@
       "company": null,
       "created_at": "2017-03-03T10:14:40Z",
       "total_stars": 737
+    },
+    {
+      "login": "electronut",
+      "name": "Electronut Labs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3272706?s=88&v=4",
+      "html_url": "https://github.com/electronut",
+      "followers": 56,
+      "following": 0,
+      "public_repos": 58,
+      "location": "Bengaluru, India",
+      "bio": null,
+      "company": null,
+      "created_at": "2013-01-15T07:02:04Z",
+      "total_stars": 1034
     },
     {
       "login": "dhiway",
@@ -2527,6 +2527,20 @@
       "total_stars": 98
     },
     {
+      "login": "ionicfirebaseapp",
+      "name": "Ionicfirebaseapp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33476427?s=88&v=4",
+      "html_url": "https://github.com/ionicfirebaseapp",
+      "followers": 43,
+      "following": 0,
+      "public_repos": 21,
+      "location": "Bangalore",
+      "bio": "We are here to build your next-generation cloud based web and mobile applications.",
+      "company": null,
+      "created_at": "2017-11-08T06:07:10Z",
+      "total_stars": 5360
+    },
+    {
       "login": "Unacademy",
       "name": "Unacademy",
       "avatar_url": "https://avatars.githubusercontent.com/u/29535485?s=88&v=4",
@@ -2539,20 +2553,6 @@
       "company": null,
       "created_at": "2017-06-19T08:23:54Z",
       "total_stars": 4
-    },
-    {
-      "login": "quintype",
-      "name": "Quintype Technologies India Ltd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8854520?s=88&v=4",
-      "html_url": "https://github.com/quintype",
-      "followers": 43,
-      "following": 0,
-      "public_repos": 72,
-      "location": "Bangalore",
-      "bio": null,
-      "company": null,
-      "created_at": "2014-09-21T23:10:28Z",
-      "total_stars": 38
     }
   ],
   "repos": [
@@ -3177,6 +3177,25 @@
       "fork": false
     },
     {
+      "full_name": "ionicfirebaseapp/getwidget",
+      "html_url": "https://github.com/ionicfirebaseapp/getwidget",
+      "description": "Most popular and easy to use open source UI library with 1000+ Widgets to build flutter app. ",
+      "stargazers_count": 4837,
+      "forks_count": 646,
+      "language": "Dart",
+      "topics": [
+        "flutter",
+        "dart",
+        "flutter-ui",
+        "flutter-widget",
+        "widgetkit"
+      ],
+      "owner_login": "ionicfirebaseapp",
+      "owner_avatar_url": "https://avatars.githubusercontent.com/u/33476427?s=88&v=4",
+      "owner_type": "Organization",
+      "fork": false
+    },
+    {
       "full_name": "sadanandpai/frontend-learning-kit",
       "html_url": "https://github.com/sadanandpai/frontend-learning-kit",
       "description": "Frontend tech guide and curated collection of frontend materials",
@@ -3437,25 +3456,6 @@
       ],
       "owner_login": "nishant-Tiwari24",
       "owner_avatar_url": "https://avatars.githubusercontent.com/u/124623023?s=88&u=b207831dfc4b316c1085189805c91fea3da42d4e&v=4",
-      "owner_type": "User",
-      "fork": false
-    },
-    {
-      "full_name": "collabnix/kubetools",
-      "html_url": "https://github.com/collabnix/kubetools",
-      "description": "Kubetools - Curated List of Kubernetes Tools",
-      "stargazers_count": 3493,
-      "forks_count": 647,
-      "language": "JavaScript",
-      "topics": [
-        "hacktoberfest",
-        "hacktoberfest2020",
-        "kubernetes",
-        "helm",
-        "helmpack"
-      ],
-      "owner_login": "collabnix",
-      "owner_avatar_url": "https://avatars.githubusercontent.com/u/34368930?s=88&u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
       "owner_type": "User",
       "fork": false
     }

@@ -2,7 +2,7 @@
   "kind": "country",
   "name": "Germany",
   "slug": "germany",
-  "generated_at": "2026-11-25T15:46:31.072Z",
+  "generated_at": "2026-11-26T15:21:20.412Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -12,7 +12,7 @@
     "user_followers": 444258,
     "org_followers": 122949,
     "user_stars": 1646096,
-    "org_stars": 1812391
+    "org_stars": 1822032
   },
   "queries": [
     {
@@ -537,20 +537,6 @@
       "total_stars": 234
     },
     {
-      "login": "felixge",
-      "name": "Felix Geisendörfer",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15000?s=88&u=f9b953343c6ce2e8c88ce31e8fcc45940d098890&v=4",
-      "html_url": "https://github.com/felixge",
-      "followers": 4247,
-      "following": 14,
-      "public_repos": 173,
-      "location": "Berlin, Germany",
-      "bio": null,
-      "company": "Datadog",
-      "created_at": "2008-06-25T14:24:37Z",
-      "total_stars": 19890
-    },
-    {
       "login": "notthebee",
       "name": "Wolfgang",
       "avatar_url": "https://avatars.githubusercontent.com/u/30384331?s=88&u=a3008e313a88650427f6280d9704a8e9f23b9c1b&v=4",
@@ -563,6 +549,20 @@
       "company": null,
       "created_at": "2017-07-23T08:34:20Z",
       "total_stars": 5102
+    },
+    {
+      "login": "felixge",
+      "name": "Felix Geisendörfer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15000?s=88&u=f9b953343c6ce2e8c88ce31e8fcc45940d098890&v=4",
+      "html_url": "https://github.com/felixge",
+      "followers": 4247,
+      "following": 14,
+      "public_repos": 173,
+      "location": "Berlin, Germany",
+      "bio": null,
+      "company": "Datadog",
+      "created_at": "2008-06-25T14:24:37Z",
+      "total_stars": 19890
     },
     {
       "login": "cgrundman",
@@ -1195,20 +1195,6 @@
       "total_stars": 105
     },
     {
-      "login": "foosel",
-      "name": "Gina Häußge",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83657?s=88&u=f4f4bf757d4733719f0d4898428ef89a6dd13922&v=4",
-      "html_url": "https://github.com/foosel",
-      "followers": 2351,
-      "following": 14,
-      "public_repos": 38,
-      "location": "Obertshausen, Germany",
-      "bio": "🐒 Passionate code monkey 👩‍💻 Geek 🎮 Gamer 🧗‍♀️ Bouldering apprentice 💡 Problem solver 🐍 Python wrangler 🐙 Creator & maintainer of OctoPrint",
-      "company": "@OctoPrint ",
-      "created_at": "2009-05-12T13:04:35Z",
-      "total_stars": 303
-    },
-    {
       "login": "d4rken",
       "name": "Matthias Urhahn",
       "avatar_url": "https://avatars.githubusercontent.com/u/1439229?s=88&u=70a86f7c14e757bb30f76604ac01c1811bb7b655&v=4",
@@ -1221,6 +1207,20 @@
       "company": "@d4rken-org ",
       "created_at": "2012-02-15T08:59:55Z",
       "total_stars": 721
+    },
+    {
+      "login": "foosel",
+      "name": "Gina Häußge",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83657?s=88&u=f4f4bf757d4733719f0d4898428ef89a6dd13922&v=4",
+      "html_url": "https://github.com/foosel",
+      "followers": 2351,
+      "following": 14,
+      "public_repos": 38,
+      "location": "Obertshausen, Germany",
+      "bio": "🐒 Passionate code monkey 👩‍💻 Geek 🎮 Gamer 🧗‍♀️ Bouldering apprentice 💡 Problem solver 🐍 Python wrangler 🐙 Creator & maintainer of OctoPrint",
+      "company": "@OctoPrint ",
+      "created_at": "2009-05-12T13:04:35Z",
+      "total_stars": 303
     },
     {
       "login": "zserge",
@@ -1785,20 +1785,6 @@
       "total_stars": 2948
     },
     {
-      "login": "openhab",
-      "name": "openHAB",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1007353?s=88&v=4",
-      "html_url": "https://github.com/openhab",
-      "followers": 1149,
-      "following": 0,
-      "public_repos": 49,
-      "location": "Germany",
-      "bio": null,
-      "company": null,
-      "created_at": "2011-08-26T20:11:19Z",
-      "total_stars": 12399
-    },
-    {
       "login": "libimobiledevice",
       "name": "libimobiledevice",
       "avatar_url": "https://avatars.githubusercontent.com/u/3584568?s=88&v=4",
@@ -1811,6 +1797,20 @@
       "company": null,
       "created_at": "2013-02-13T13:39:33Z",
       "total_stars": 17445
+    },
+    {
+      "login": "openhab",
+      "name": "openHAB",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1007353?s=88&v=4",
+      "html_url": "https://github.com/openhab",
+      "followers": 1149,
+      "following": 0,
+      "public_repos": 49,
+      "location": "Germany",
+      "bio": null,
+      "company": null,
+      "created_at": "2011-08-26T20:11:19Z",
+      "total_stars": 12399
     },
     {
       "login": "bundesAPI",
@@ -2149,20 +2149,6 @@
       "total_stars": 44334
     },
     {
-      "login": "pyg-team",
-      "name": "PyG",
-      "avatar_url": "https://avatars.githubusercontent.com/u/89995122?s=88&v=4",
-      "html_url": "https://github.com/pyg-team",
-      "followers": 680,
-      "following": 0,
-      "public_repos": 4,
-      "location": "Germany",
-      "bio": "Graph Neural Network Library for PyTorch",
-      "company": null,
-      "created_at": "2021-09-02T16:17:43Z",
-      "total_stars": 25203
-    },
-    {
       "login": "hellofresh",
       "name": "HelloFresh",
       "avatar_url": "https://avatars.githubusercontent.com/u/4430027?s=88&v=4",
@@ -2175,6 +2161,20 @@
       "company": null,
       "created_at": "2013-05-14T17:25:24Z",
       "total_stars": 2030
+    },
+    {
+      "login": "pyg-team",
+      "name": "PyG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89995122?s=88&v=4",
+      "html_url": "https://github.com/pyg-team",
+      "followers": 680,
+      "following": 0,
+      "public_repos": 4,
+      "location": "Germany",
+      "bio": "Graph Neural Network Library for PyTorch",
+      "company": null,
+      "created_at": "2021-09-02T16:17:43Z",
+      "total_stars": 25203
     },
     {
       "login": "shopware",
@@ -2541,18 +2541,18 @@
       "total_stars": 22757
     },
     {
-      "login": "SAP-docs",
-      "name": "SAP Documentation",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68390561?s=88&v=4",
-      "html_url": "https://github.com/SAP-docs",
+      "login": "tuist",
+      "name": "Tuist",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38419084?s=88&v=4",
+      "html_url": "https://github.com/tuist",
       "followers": 486,
       "following": 0,
-      "public_repos": 38,
-      "location": "Walldorf, Germany",
-      "bio": "SAP Documentation",
+      "public_repos": 155,
+      "location": "Germany",
+      "bio": "Build infrastructure for developers, CI, and coding agents",
       "company": null,
-      "created_at": "2020-07-16T15:49:18Z",
-      "total_stars": 607
+      "created_at": "2018-04-16T07:02:25Z",
+      "total_stars": 10248
     }
   ],
   "repos": [
