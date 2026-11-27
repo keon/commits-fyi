@@ -2,17 +2,17 @@
   "kind": "city",
   "name": "Austin",
   "slug": "austin",
-  "generated_at": "2026-11-26T15:19:29.249Z",
+  "generated_at": "2026-11-27T15:07:21.080Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 168753,
+    "user_followers": 168751,
     "org_followers": 41665,
-    "user_stars": 512853,
-    "org_stars": 493502
+    "user_stars": 512850,
+    "org_stars": 493501
   },
   "queries": [
     {
@@ -618,21 +618,21 @@
       "bio": null,
       "company": "Elevate Digital",
       "created_at": "2012-06-13T19:13:58Z",
-      "total_stars": 1348
+      "total_stars": 1347
     },
     {
       "login": "dthree",
       "name": "DC",
       "avatar_url": "https://avatars.githubusercontent.com/u/10319897?s=88&u=68ce1eaf844820a47623870a3ffb493453cc4c2e&v=4",
       "html_url": "https://github.com/dthree",
-      "followers": 987,
+      "followers": 985,
       "following": 43,
       "public_repos": 8,
       "location": "Austin",
       "bio": "Co-founder/CTO MindCloud",
       "company": "MindCloud",
       "created_at": "2014-12-27T01:40:22Z",
-      "total_stars": 17311
+      "total_stars": 17307
     },
     {
       "login": "KilledByAPixel",
@@ -719,20 +719,6 @@
       "total_stars": 978
     },
     {
-      "login": "brendankenny",
-      "name": "Brendan Kenny",
-      "avatar_url": "https://avatars.githubusercontent.com/u/316891?s=88&u=171a6cd2eeea7ecf7b15d30773e03360678a68a5&v=4",
-      "html_url": "https://github.com/brendankenny",
-      "followers": 849,
-      "following": 1,
-      "public_repos": 12,
-      "location": "Austin, TX",
-      "bio": null,
-      "company": null,
-      "created_at": "2010-06-28T22:24:09Z",
-      "total_stars": 607
-    },
-    {
       "login": "daeken",
       "name": "Serafina Brocious",
       "avatar_url": "https://avatars.githubusercontent.com/u/2359?s=88&u=9c37ac20bbe8a640ee7a3638a563f4ccda1a8c15&v=4",
@@ -745,6 +731,20 @@
       "company": null,
       "created_at": "2008-03-06T05:01:32Z",
       "total_stars": 2166
+    },
+    {
+      "login": "brendankenny",
+      "name": "Brendan Kenny",
+      "avatar_url": "https://avatars.githubusercontent.com/u/316891?s=88&u=171a6cd2eeea7ecf7b15d30773e03360678a68a5&v=4",
+      "html_url": "https://github.com/brendankenny",
+      "followers": 847,
+      "following": 1,
+      "public_repos": 12,
+      "location": "Austin, TX",
+      "bio": null,
+      "company": null,
+      "created_at": "2010-06-28T22:24:09Z",
+      "total_stars": 607
     },
     {
       "login": "billerickson",
@@ -929,20 +929,6 @@
       "total_stars": 14736
     },
     {
-      "login": "jeremydmiller",
-      "name": "Jeremy D. Miller",
-      "avatar_url": "https://avatars.githubusercontent.com/u/179211?s=88&u=1f6f84e1254964a5bf003e2349536c619d2ea3d2&v=4",
-      "html_url": "https://github.com/jeremydmiller",
-      "followers": 709,
-      "following": 12,
-      "public_repos": 20,
-      "location": "Austin, TX",
-      "bio": "The \"Shade Tree Developer\"",
-      "company": "@JasperFx ",
-      "created_at": "2010-01-09T20:44:55Z",
-      "total_stars": 79
-    },
-    {
       "login": "juliacodes",
       "name": "Julia Johnson",
       "avatar_url": "https://avatars.githubusercontent.com/u/32076859?s=88&u=fe90919a57bd0958e507dc779c68528e05f57e9f&v=4",
@@ -955,6 +941,20 @@
       "company": null,
       "created_at": "2017-09-18T19:48:51Z",
       "total_stars": 195
+    },
+    {
+      "login": "jeremydmiller",
+      "name": "Jeremy D. Miller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/179211?s=88&u=1f6f84e1254964a5bf003e2349536c619d2ea3d2&v=4",
+      "html_url": "https://github.com/jeremydmiller",
+      "followers": 709,
+      "following": 12,
+      "public_repos": 20,
+      "location": "Austin, TX",
+      "bio": "The \"Shade Tree Developer\"",
+      "company": "@JasperFx ",
+      "created_at": "2010-01-09T20:44:55Z",
+      "total_stars": 79
     },
     {
       "login": "juntao",
@@ -1038,7 +1038,7 @@
       "bio": "Software Engineer • Organiser @OurTechCommunity",
       "company": "@OurTechCommunity",
       "created_at": "2019-04-30T11:56:11Z",
-      "total_stars": 436
+      "total_stars": 437
     },
     {
       "login": "Empact",
@@ -1223,6 +1223,20 @@
       "total_stars": 1845
     },
     {
+      "login": "catid",
+      "name": "Chris Taylor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/252193?s=88&u=95fa725b3e0ae4d9cc281ba9d64c2c1035bbbcb7&v=4",
+      "html_url": "https://github.com/catid",
+      "followers": 553,
+      "following": 27,
+      "public_repos": 132,
+      "location": "Austin, TX",
+      "bio": "Focus on erasure correction coding (ECC/FEC), cryptography, networking libraries, lossless image compression, Azure Kinect, XR, LLMs, Image Processing",
+      "company": null,
+      "created_at": "2010-04-25T21:44:46Z",
+      "total_stars": 3604
+    },
+    {
       "login": "thoughtpolice",
       "name": "Austin Seipp",
       "avatar_url": "https://avatars.githubusercontent.com/u/3416?s=88&u=73ae56eefd2cd7eceb8ba4ad8f04d54183db719c&v=4",
@@ -1235,20 +1249,6 @@
       "company": "East River Source Control",
       "created_at": "2008-03-19T05:26:09Z",
       "total_stars": 847
-    },
-    {
-      "login": "catid",
-      "name": "Chris Taylor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/252193?s=88&u=95fa725b3e0ae4d9cc281ba9d64c2c1035bbbcb7&v=4",
-      "html_url": "https://github.com/catid",
-      "followers": 551,
-      "following": 27,
-      "public_repos": 132,
-      "location": "Austin, TX",
-      "bio": "Focus on erasure correction coding (ECC/FEC), cryptography, networking libraries, lossless image compression, Azure Kinect, XR, LLMs, Image Processing",
-      "company": null,
-      "created_at": "2010-04-25T21:44:46Z",
-      "total_stars": 3603
     },
     {
       "login": "devinus",
@@ -2510,7 +2510,7 @@
       "bio": null,
       "company": null,
       "created_at": "2017-01-14T19:42:00Z",
-      "total_stars": 2964
+      "total_stars": 2963
     },
     {
       "login": "FeatureBaseDB",
@@ -2894,8 +2894,8 @@
       "full_name": "dthree/cash",
       "html_url": "https://github.com/dthree/cash",
       "description": "Cross-platform Linux commands in ES6",
-      "stargazers_count": 7722,
-      "forks_count": 198,
+      "stargazers_count": 7720,
+      "forks_count": 197,
       "language": "JavaScript",
       "topics": [],
       "owner_login": "dthree",
@@ -3020,7 +3020,7 @@
       "full_name": "dthree/vorpal",
       "html_url": "https://github.com/dthree/vorpal",
       "description": "Node's framework for interactive CLIs",
-      "stargazers_count": 5618,
+      "stargazers_count": 5617,
       "forks_count": 278,
       "language": "JavaScript",
       "topics": [

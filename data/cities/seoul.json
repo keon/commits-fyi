@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seoul",
   "slug": "seoul",
-  "generated_at": "2026-11-26T15:20:24.608Z",
+  "generated_at": "2026-11-27T15:08:14.471Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 111793,
+    "user_followers": 111955,
     "org_followers": 11229,
-    "user_stars": 559440,
+    "user_stars": 560007,
     "org_stars": 84600
   },
   "queries": [
@@ -201,6 +201,20 @@
       "total_stars": 2336
     },
     {
+      "login": "vishalrankhamb",
+      "name": "Minjun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148297673?s=88&u=2461d9dd5414e691e60555edb6f93aff99b3e556&v=4",
+      "html_url": "https://github.com/vishalrankhamb",
+      "followers": 1688,
+      "following": 5005,
+      "public_repos": 66,
+      "location": "Seoul, South Korea",
+      "bio": "Full-Stack Developer & Blockchain Architect | Computer Vision | Quality-obsessed | Strategic Thinking",
+      "company": "Kakaogames",
+      "created_at": "2023-10-18T01:25:19Z",
+      "total_stars": 584
+    },
+    {
       "login": "junhoyeo",
       "name": "Junho Yeo",
       "avatar_url": "https://avatars.githubusercontent.com/u/32605822?s=88&u=f63222cdf710808410d58019874c5b9e37ef25a4&v=4",
@@ -241,20 +255,6 @@
       "company": "Somewhere",
       "created_at": "2012-02-29T03:36:41Z",
       "total_stars": 31687
-    },
-    {
-      "login": "vishalrankhamb",
-      "name": "Minjun",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148297673?s=88&u=2461d9dd5414e691e60555edb6f93aff99b3e556&v=4",
-      "html_url": "https://github.com/vishalrankhamb",
-      "followers": 1526,
-      "following": 7736,
-      "public_repos": 66,
-      "location": "Seoul, South Korea",
-      "bio": "Full-Stack Developer & Blockchain Architect | Computer Vision | Quality-obsessed | Strategic Thinking",
-      "company": "Kakaogames",
-      "created_at": "2023-10-18T01:25:19Z",
-      "total_stars": 17
     },
     {
       "login": "terryum",
@@ -453,20 +453,6 @@
       "total_stars": 2335
     },
     {
-      "login": "hyochan",
-      "name": "Hyo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/27461460?s=88&u=a46ea8e97772a53ce03e7eb45de28a02de92cbc9&v=4",
-      "html_url": "https://github.com/hyochan",
-      "followers": 922,
-      "following": 71,
-      "public_repos": 87,
-      "location": "Seoul",
-      "bio": "Contributing to OSS for Cross-Platform development",
-      "company": "Hyo Dev",
-      "created_at": "2017-04-14T00:43:28Z",
-      "total_stars": 7615
-    },
-    {
       "login": "kairess",
       "name": "Brad",
       "avatar_url": "https://avatars.githubusercontent.com/u/5242555?s=88&u=80172577734647edfcf40166e05ae84c5c875179&v=4",
@@ -479,6 +465,20 @@
       "company": null,
       "created_at": "2013-08-16T06:32:32Z",
       "total_stars": 1230
+    },
+    {
+      "login": "hyochan",
+      "name": "Hyo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27461460?s=88&u=a46ea8e97772a53ce03e7eb45de28a02de92cbc9&v=4",
+      "html_url": "https://github.com/hyochan",
+      "followers": 922,
+      "following": 71,
+      "public_repos": 87,
+      "location": "Seoul",
+      "bio": "Contributing to OSS for Cross-Platform development",
+      "company": "Hyo Dev",
+      "created_at": "2017-04-14T00:43:28Z",
+      "total_stars": 7615
     },
     {
       "login": "subinium",
@@ -775,20 +775,6 @@
       "total_stars": 636
     },
     {
-      "login": "redLiquidator",
-      "name": "lee jin joo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25495667?s=88&u=1b1b0d62f8c1459430565ed08938e5bd40f9bc03&v=4",
-      "html_url": "https://github.com/redLiquidator",
-      "followers": 696,
-      "following": 1194,
-      "public_repos": 75,
-      "location": "Seoul, South Korea",
-      "bio": "Web developer | Fullstack Developer | JAVA | Springboot | JSP | Relational Database ",
-      "company": null,
-      "created_at": "2017-02-02T01:40:55Z",
-      "total_stars": 111
-    },
-    {
       "login": "Violet-Bora-Lee",
       "name": "Bora Lee",
       "avatar_url": "https://avatars.githubusercontent.com/u/6451384?s=88&u=d86cb28f200e713b4fc622de9d5a2749442a559c&v=4",
@@ -801,6 +787,20 @@
       "company": null,
       "created_at": "2014-01-20T14:28:51Z",
       "total_stars": 200
+    },
+    {
+      "login": "redLiquidator",
+      "name": "lee jin joo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25495667?s=88&u=1b1b0d62f8c1459430565ed08938e5bd40f9bc03&v=4",
+      "html_url": "https://github.com/redLiquidator",
+      "followers": 696,
+      "following": 1194,
+      "public_repos": 75,
+      "location": "Seoul, South Korea",
+      "bio": "Web developer | Fullstack Developer | JAVA | Springboot | JSP | Relational Database ",
+      "company": null,
+      "created_at": "2017-02-02T01:40:55Z",
+      "total_stars": 111
     },
     {
       "login": "ratsgo",
@@ -1405,20 +1405,6 @@
       "total_stars": 431
     },
     {
-      "login": "brody-0125",
-      "name": "Seokhyeon Kim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67903919?s=88&u=1d76eace1f401497aac71b14424850faa1ee5899&v=4",
-      "html_url": "https://github.com/brody-0125",
-      "followers": 493,
-      "following": 421,
-      "public_repos": 56,
-      "location": "Seoul, Republic of Korea",
-      "bio": "living to be a force for good.",
-      "company": "Software Engineer @42dot | Community Organizer @KSUG | Member @foss-for-all",
-      "created_at": "2020-07-06T10:58:10Z",
-      "total_stars": 1003
-    },
-    {
       "login": "kh-kim",
       "name": "Kim, Ki Hyun",
       "avatar_url": "https://avatars.githubusercontent.com/u/18007785?s=88&u=24c7f046a0ae72f909d445bad09788cf5ac90763&v=4",
@@ -1431,6 +1417,20 @@
       "company": null,
       "created_at": "2016-03-22T13:13:42Z",
       "total_stars": 1348
+    },
+    {
+      "login": "brody-0125",
+      "name": "Seokhyeon Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67903919?s=88&u=1d76eace1f401497aac71b14424850faa1ee5899&v=4",
+      "html_url": "https://github.com/brody-0125",
+      "followers": 493,
+      "following": 421,
+      "public_repos": 56,
+      "location": "Seoul, Republic of Korea",
+      "bio": "living to be a force for good.",
+      "company": "Software Engineer @42dot | Community Organizer @KSUG | Member @foss-for-all",
+      "created_at": "2020-07-06T10:58:10Z",
+      "total_stars": 1003
     }
   ],
   "orgs": [
@@ -2191,20 +2191,6 @@
       "total_stars": 103
     },
     {
-      "login": "Code-for-Korea",
-      "name": "Code for Korea",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61973616?s=88&v=4",
-      "html_url": "https://github.com/Code-for-Korea",
-      "followers": 43,
-      "following": 0,
-      "public_repos": 27,
-      "location": "Seoul, Korea",
-      "bio": "시빅해킹을 통해 더 안전한 사회를 만들어 나갑니다.",
-      "company": null,
-      "created_at": "2020-03-09T12:14:54Z",
-      "total_stars": 25
-    },
-    {
       "login": "AITRICS",
       "name": "AITRICS",
       "avatar_url": "https://avatars.githubusercontent.com/u/29746354?s=88&v=4",
@@ -2231,6 +2217,20 @@
       "company": null,
       "created_at": "2016-07-12T04:59:25Z",
       "total_stars": 61
+    },
+    {
+      "login": "Code-for-Korea",
+      "name": "Code for Korea",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61973616?s=88&v=4",
+      "html_url": "https://github.com/Code-for-Korea",
+      "followers": 43,
+      "following": 0,
+      "public_repos": 27,
+      "location": "Seoul, Korea",
+      "bio": "시빅해킹을 통해 더 안전한 사회를 만들어 나갑니다.",
+      "company": null,
+      "created_at": "2020-03-09T12:14:54Z",
+      "total_stars": 25
     },
     {
       "login": "ku-milab",

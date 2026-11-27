@@ -2,7 +2,7 @@
   "kind": "city",
   "name": "New York",
   "slug": "new-york",
-  "generated_at": "2026-11-26T15:19:25.863Z",
+  "generated_at": "2026-11-27T15:07:15.131Z",
   "counts": {
     "users": 100,
     "orgs": 80,
@@ -10,9 +10,9 @@
   },
   "totals": {
     "user_followers": 546268,
-    "org_followers": 146823,
+    "org_followers": 146822,
     "user_stars": 1933780,
-    "org_stars": 1640280
+    "org_stars": 1639517
   },
   "queries": [
     {
@@ -943,20 +943,6 @@
       "total_stars": 6775
     },
     {
-      "login": "ladyada",
-      "name": "Limor \"Ladyada\" Fried",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1214161?s=88&v=4",
-      "html_url": "https://github.com/ladyada",
-      "followers": 2635,
-      "following": 5,
-      "public_repos": 11,
-      "location": "New York, NY",
-      "bio": null,
-      "company": "Adafruit Industries",
-      "created_at": "2011-11-22T22:21:56Z",
-      "total_stars": 51
-    },
-    {
       "login": "gajus",
       "name": "Gajus Kuizinas",
       "avatar_url": "https://avatars.githubusercontent.com/u/973543?s=88&u=00847b4ebb892b1c5c6e424ec741bd9bf2786cb1&v=4",
@@ -969,6 +955,20 @@
       "company": "Contra",
       "created_at": "2011-08-11T10:00:41Z",
       "total_stars": 32493
+    },
+    {
+      "login": "ladyada",
+      "name": "Limor \"Ladyada\" Fried",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1214161?s=88&v=4",
+      "html_url": "https://github.com/ladyada",
+      "followers": 2635,
+      "following": 5,
+      "public_repos": 11,
+      "location": "New York, NY",
+      "bio": null,
+      "company": "Adafruit Industries",
+      "created_at": "2011-11-22T22:21:56Z",
+      "total_stars": 51
     },
     {
       "login": "ZacSweers",
@@ -2541,18 +2541,18 @@
       "total_stars": 5913
     },
     {
-      "login": "paxosglobal",
-      "name": "Paxos",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22945721?s=88&v=4",
-      "html_url": "https://github.com/paxosglobal",
-      "followers": 207,
+      "login": "flatiron-school",
+      "name": "Flatiron School",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2180076?s=88&v=4",
+      "html_url": "https://github.com/flatiron-school",
+      "followers": 206,
       "following": 0,
-      "public_repos": 33,
-      "location": "New York, NY",
-      "bio": "Building the Future of Financial Services with Blockchain Technology",
+      "public_repos": 791,
+      "location": "NYC",
+      "bio": null,
       "company": null,
-      "created_at": "2016-10-19T21:28:20Z",
-      "total_stars": 1032
+      "created_at": "2012-08-19T21:46:14Z",
+      "total_stars": 269
     }
   ],
   "repos": [

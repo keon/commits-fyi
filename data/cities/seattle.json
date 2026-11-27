@@ -2,16 +2,16 @@
   "kind": "city",
   "name": "Seattle",
   "slug": "seattle",
-  "generated_at": "2026-11-26T15:19:27.625Z",
+  "generated_at": "2026-11-27T15:07:18.635Z",
   "counts": {
     "users": 100,
     "orgs": 80,
     "repos": 50
   },
   "totals": {
-    "user_followers": 353959,
+    "user_followers": 354136,
     "org_followers": 265730,
-    "user_stars": 908312,
+    "user_stars": 908986,
     "org_stars": 2797370
   },
   "queries": [
@@ -831,6 +831,20 @@
       "total_stars": 29349
     },
     {
+      "login": "deathblock",
+      "name": "Ethan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133392337?s=88&u=15a249045679706a18f172295a0cf49220a7541e&v=4",
+      "html_url": "https://github.com/deathblock",
+      "followers": 1767,
+      "following": 5037,
+      "public_repos": 60,
+      "location": "Seattle, United States",
+      "bio": "DevOps Engineer & Product Strategist | Advanced Deployment | Always Expanding Expertise",
+      "company": "Nimbusplatform",
+      "created_at": "2023-05-12T15:56:08Z",
+      "total_stars": 709
+    },
+    {
       "login": "keith",
       "name": "Keith Smiley",
       "avatar_url": "https://avatars.githubusercontent.com/u/283886?s=88&u=a304a2f415ff82f87646572277d275de776e65f6&v=4",
@@ -955,20 +969,6 @@
       "company": "Microsoft",
       "created_at": "2013-01-28T11:35:16Z",
       "total_stars": 467
-    },
-    {
-      "login": "deathblock",
-      "name": "Ethan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133392337?s=88&u=15a249045679706a18f172295a0cf49220a7541e&v=4",
-      "html_url": "https://github.com/deathblock",
-      "followers": 1590,
-      "following": 7733,
-      "public_repos": 60,
-      "location": "Seattle, United States",
-      "bio": "DevOps Engineer & Product Strategist | Advanced Deployment | Always Expanding Expertise",
-      "company": "Nimbusplatform",
-      "created_at": "2023-05-12T15:56:08Z",
-      "total_stars": 37
     },
     {
       "login": "slundberg",
@@ -1430,7 +1430,7 @@
       "bio": null,
       "company": "Microsoft",
       "created_at": "2018-01-08T05:50:20Z",
-      "total_stars": 22
+      "total_stars": 24
     }
   ],
   "orgs": [
